@@ -6,31 +6,31 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. Fill in the blank (duration/how long – continuous)\nI'm sorry I'm late. I ____ (wait) for the train for almost an hour.",
+          "question": "1. I'm sorry I'm late. I ____ (wait) for the train for almost an hour. Put the verb in the correct tense.",
           "answers": ["have been waiting"],
           "explanation": "We focus on how long the action has been in progress, so we use the present perfect continuous."
         },
         {
           "type": "open",
-          "question": "2. Fill in the blank (completion/how many – simple)\nShe ____ (read) five books so far this summer.",
+          "question": "2. She ____ (read) five books so far this summer. Put the verb in the correct tense.",
           "answers": ["has read"],
           "explanation": "We focus on the number of completed actions (how many books), so we use the present perfect simple."
         },
         {
           "type": "open",
-          "question": "3. Fill in the blank (recent effect – continuous)\nYour hair is wet. ____ you ____ (run) in the rain?",
+          "question": "3. Your hair is wet. ____ you ____ (run) in the rain? Put the verb in the correct tense.",
           "answers": ["have you been running"],
           "explanation": "We explain a visible present result (wet hair) caused by a recent ongoing activity, so we use the present perfect continuous."
         },
         {
           "type": "open",
-          "question": "4. Fill in the blank (stative verb – simple)\nI ____ (know) him since we started high school.",
+          "question": "4. I ____ (know) him since we started high school. Put the verb in the correct tense.",
           "answers": ["have known"],
           "explanation": "With stative verbs like 'know', we normally use the present perfect simple, not the continuous."
         },
         {
           "type": "open",
-          "question": "5. Fill in the blank (negative, duration – continuous)\nThey ____ (not sleep) well lately because of the noisy neighbours.",
+          "question": "5. They ____ (not sleep) well lately because of the noisy neighbours. Put the verb in the correct tense.",
           "answers": ["have not been sleeping", "haven't been sleeping", "haven’t been sleeping"],
           "explanation": "We talk about an ongoing situation 'lately' and its effect now, so we use the present perfect continuous."
         },
@@ -103,25 +103,25 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. Fill in the blank (duration)\nWe ____ (look) for a new flat for months.",
+          "question": "1. We ____ (look) for a new flat for months. Put the verb in the correct tense.",
           "answers": ["have been looking"],
           "explanation": "We focus on how long the search has been going on, so we use the present perfect continuous."
         },
         {
           "type": "open",
-          "question": "2. Fill in the blank (how many – simple)\nHe ____ (send) ten job applications this week.",
+          "question": "2. He ____ (send) ten job applications this week. Put the verb in the correct tense.",
           "answers": ["has sent"],
           "explanation": "We focus on the number of completed actions, so we use the present perfect simple."
         },
         {
           "type": "open",
-          "question": "3. Fill in the blank (stative – simple)\nShe ____ (have) that car since 2020.",
+          "question": "3. She ____ (have) that car since 2020. Put the verb in the correct tense.",
           "answers": ["has had"],
           "explanation": "'Have' (possession) is stative; we use the present perfect simple."
         },
         {
           "type": "open",
-          "question": "4. Fill in the blank (recent effect – continuous)\nWhy are you out of breath? ____ you ____ (exercise)?",
+          "question": "4. Why are you out of breath? ____ you ____ (exercise)? Put the verb in the correct tense.",
           "answers": ["have you been exercising"],
           "explanation": "We explain a visible present effect (out of breath) with a recent activity, so we use the present perfect continuous."
         },
@@ -160,19 +160,19 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. Fill in the blank (duration)\nShe ____ (study) for her exam all week.",
+          "question": "1. She ____ (study) for her exam all week. Put the verb in the correct tense.",
           "answers": ["has been studying"],
           "explanation": "We focus on how long she has been studying, so we use the present perfect continuous."
         },
         {
           "type": "open",
-          "question": "2. Fill in the blank (how many – simple)\nI ____ (watch) four episodes of that series today.",
+          "question": "2. I ____ (watch) four episodes of that series today. Put the verb in the correct tense.",
           "answers": ["have watched"],
           "explanation": "We focus on the number of completed episodes, so we use the present perfect simple."
         },
         {
           "type": "open",
-          "question": "3. Fill in the blank (stative – simple)\nWe ____ (believe) in recycling for years.",
+          "question": "3. We ____ (believe) in recycling for years. Put the verb in the correct tense.",
           "answers": ["have believed"],
           "explanation": "'Believe' is stative; we use the present perfect simple."
         },
@@ -204,25 +204,25 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. Fill in the blank (duration)\nThey ____ (try) to sell their house for six months.",
+          "question": "1. They ____ (try) to sell their house for six months. Put the verb in the correct tense.",
           "answers": ["have been trying"],
           "explanation": "We focus on how long the activity has been going on, so we use the present perfect continuous."
         },
         {
           "type": "open",
-          "question": "2. Fill in the blank (completion – simple)\nShe ____ (already / finish) her homework.",
+          "question": "2. She ____ (already / finish) her homework. Put the verb in the correct tense.",
           "answers": ["has already finished", "has already finished her homework"],
           "explanation": "We focus on completion, so we use the present perfect simple."
         },
         {
           "type": "open",
-          "question": "3. Fill in the blank (stative – simple)\nI ____ (like) that band since their first album.",
+          "question": "3. I ____ (like) that band since their first album. Put the verb in the correct tense.",
           "answers": ["have liked"],
           "explanation": "'Like' is stative; we use the present perfect simple."
         },
         {
           "type": "open",
-          "question": "4. Fill in the blank (negative, recent effect)\nShe's not answering. She ____ (not feel) well lately.",
+          "question": "4. She's not answering. She ____ (not feel) well lately. Put the verb in the correct tense.",
           "answers": ["has not been feeling", "hasn't been feeling"],
           "explanation": "We describe an ongoing situation lately with a present effect, so we use the present perfect continuous."
         },
@@ -248,19 +248,19 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. Fill in the blank (duration)\nI ____ (work) on this report since Monday.",
+          "question": "1. I ____ (work) on this report since Monday. Put the verb in the correct tense.",
           "answers": ["have been working", "have been working on this report since Monday"],
           "explanation": "Duration (since Monday) → present perfect continuous."
         },
         {
           "type": "open",
-          "question": "2. Fill in the blank (how many – simple)\nShe ____ (apply) for six jobs so far.",
+          "question": "2. She ____ (apply) for six jobs so far. Put the verb in the correct tense.",
           "answers": ["has applied"],
           "explanation": "How many completed → present perfect simple."
         },
         {
           "type": "open",
-          "question": "3. Fill in the blank (stative – simple)\nThey ____ (own) that house for twenty years.",
+          "question": "3. They ____ (own) that house for twenty years. Put the verb in the correct tense.",
           "answers": ["have owned"],
           "explanation": "'Own' is stative; we use the present perfect simple."
         },
@@ -290,10 +290,10 @@
       "title": "Present Perfect Simple vs Continuous – Set 6",
       "summary": "Extra practice: duration, result, stative verbs, and choosing the right form.",
       "questions": [
-        {"type": "open", "question": "1. Fill in the blank (duration)\nThey ____ (look) for a flat for six months.", "answers": ["have been looking"], "explanation": "Duration (for six months) → present perfect continuous."},
-        {"type": "open", "question": "2. Fill in the blank (stative – simple)\nI ____ (believe) in this project from the start.", "answers": ["have believed"], "explanation": "'Believe' is stative; we use the present perfect simple."},
+        {"type": "open", "question": "1. They ____ (look) for a flat for six months. Put the verb in the correct tense.", "answers": ["have been looking"], "explanation": "Duration (for six months) → present perfect continuous."},
+        {"type": "open", "question": "2. I ____ (believe) in this project from the start. Put the verb in the correct tense.", "answers": ["have believed"], "explanation": "'Believe' is stative; we use the present perfect simple."},
         {"type": "mc", "question": "3. Multiple choice\nShe's out of breath. She ____ .", "options": {"a": "has run", "b": "has been running", "c": "ran", "d": "runs"}, "correct_option": "b", "explanation": "Visible effect (out of breath) → present perfect continuous."},
-        {"type": "open", "question": "4. Fill in the blank (how many – simple)\nHe ____ (write) three emails so far this morning.", "answers": ["has written"], "explanation": "How many completed → present perfect simple."},
+        {"type": "open", "question": "4. He ____ (write) three emails so far this morning. Put the verb in the correct tense.", "answers": ["has written"], "explanation": "How many completed → present perfect simple."},
         {"type": "open", "question": "5. Error correction\nWrong: 'She has been having that car since 2019.' Correct the sentence.", "answers": ["She has had that car since 2019.", "She has had that car since 2019"], "explanation": "'Have' (possession) is stative; use present perfect simple."},
         {"type": "mc", "question": "6. Choose the best sentence\nYou want to know how long someone has been waiting.", "options": {"a": "How long have you waited?", "b": "How long have you been waiting?", "c": "How long did you wait?", "d": "When have you been waiting?"}, "correct_option": "b", "explanation": "Duration of an activity in progress → present perfect continuous."}
       ]
@@ -303,15 +303,15 @@
       "summary": "Extra cloze-style practice: one blank per sentence.",
       "questions": [
         {"type": "open", "question": "I have _____ to Paris twice.", "answers": ["been"], "explanation": "Present perfect: have + past participle (been)."},
-        {"type": "open", "question": "She _____ (live) here since 2019.", "answers": ["has lived"], "explanation": "Since + period → present perfect."},
-        {"type": "open", "question": "They _____ (work) on this for weeks.", "answers": ["have been working"], "explanation": "Duration up to now → present perfect continuous."},
-        {"type": "open", "question": "How long _____ you _____ (know) him?", "answers": ["have you known"], "explanation": "Stative verb + how long → present perfect simple."},
-        {"type": "open", "question": "I _____ (not see) him today.", "answers": ["haven't seen", "have not seen"], "explanation": "Today (period including now) → present perfect."},
+        {"type": "open", "question": "She _____ (live) here since 2019. Put the verb in the correct tense.", "answers": ["has lived"], "explanation": "Since + period → present perfect."},
+        {"type": "open", "question": "They _____ (work) on this for weeks. Put the verb in the correct tense.", "answers": ["have been working"], "explanation": "Duration up to now → present perfect continuous."},
+        {"type": "open", "question": "How long _____ you _____ (know) him? Put the verb in the correct tense.", "answers": ["have you known"], "explanation": "Stative verb + how long → present perfect simple."},
+        {"type": "open", "question": "I _____ (not see) him today. Put the verb in the correct tense.", "answers": ["haven't seen", "have not seen"], "explanation": "Today (period including now) → present perfect."},
         {"type": "mc", "question": "She _____ here for five years.", "options": {"a": "works", "b": "has worked", "c": "worked", "d": "is working"}, "correct_option": "b", "explanation": "For + period up to now → present perfect."},
         {"type": "mc", "question": "Look at the mess! What _____ you _____?", "options": {"a": "have you done", "b": "have you been doing", "c": "did you do", "d": "do you do"}, "correct_option": "b", "explanation": "Visible effect now → present perfect continuous."},
-        {"type": "open", "question": "He _____ (already / leave).", "answers": ["has already left"], "explanation": "Already (result now) → present perfect."},
-        {"type": "open", "question": "We _____ (look) for a flat for months.", "answers": ["have been looking"], "explanation": "Duration → present perfect continuous."},
-        {"type": "open", "question": "_____ you _____ (finish) your homework yet?", "answers": ["have you finished"], "explanation": "Yet (expecting result) → present perfect."}
+        {"type": "open", "question": "He _____ (already / leave). Put the verb in the correct tense.", "answers": ["has already left"], "explanation": "Already (result now) → present perfect."},
+        {"type": "open", "question": "We _____ (look) for a flat for months. Put the verb in the correct tense.", "answers": ["have been looking"], "explanation": "Duration → present perfect continuous."},
+        {"type": "open", "question": "_____ you _____ (finish) your homework yet? Put the verb in the correct tense.", "answers": ["have you finished"], "explanation": "Yet (expecting result) → present perfect."}
       ]
     }
   },
@@ -320,28 +320,28 @@
       "title": "Past Simple vs Present Perfect – Set 1",
       "summary": "Past simple for finished past time; present perfect for result now or life experience.",
       "questions": [
-        {"type": "open", "question": "1. I ____ (see) him yesterday.", "answers": ["saw"], "explanation": "Yesterday → past simple."},
-        {"type": "open", "question": "2. She ____ (live) here since 2019.", "answers": ["has lived"], "explanation": "Since + duration up to now → present perfect."},
-        {"type": "open", "question": "3. ____ you ever ____ (try) sushi?", "answers": ["have you ever tried"], "explanation": "Ever (life experience) → present perfect."},
-        {"type": "open", "question": "4. They ____ (leave) an hour ago.", "answers": ["left"], "explanation": "Ago → past simple."},
+        {"type": "open", "question": "1. I ____ (see) him yesterday. Put the verb in the correct tense.", "answers": ["saw"], "explanation": "Yesterday → past simple."},
+        {"type": "open", "question": "2. She ____ (live) here since 2019. Put the verb in the correct tense.", "answers": ["has lived"], "explanation": "Since + duration up to now → present perfect."},
+        {"type": "open", "question": "3. ____ you ever ____ (try) sushi? Put the verb in the correct tense.", "answers": ["have you ever tried"], "explanation": "Ever (life experience) → present perfect."},
+        {"type": "open", "question": "4. They ____ (leave) an hour ago. Put the verb in the correct tense.", "answers": ["left"], "explanation": "Ago → past simple."},
         {"type": "mc", "question": "5. I'm not hungry. I ____ already ____ lunch.", "options": {"a": "have eaten", "b": "ate", "c": "have been eating", "d": "was eating"}, "correct_option": "a", "explanation": "Result now (not hungry) → present perfect."},
         {"type": "mc", "question": "6. When ____ you ____ to Paris?", "options": {"a": "have you been", "b": "did you go", "c": "have you gone", "d": "do you go"}, "correct_option": "b", "explanation": "When (specific time) → past simple."},
         {"type": "open", "question": "7. Wrong: 'I have been to the cinema yesterday.' Correct the sentence.", "answers": ["I went to the cinema yesterday.", "I went to the cinema yesterday"], "explanation": "Yesterday → past simple."},
-        {"type": "open", "question": "8. She ____ (just / finish) her homework.", "answers": ["has just finished", "has just finished her homework"], "explanation": "Just (recent) → present perfect."}
+        {"type": "open", "question": "8. She ____ (just / finish) her homework. Put the verb in the correct tense.", "answers": ["has just finished", "has just finished her homework"], "explanation": "Just (recent) → present perfect."}
       ]
     },
     "set2": {
       "title": "Past Simple vs Present Perfect – Set 2",
       "summary": "More practice: finished time vs result now, ever/never, for/since, when.",
       "questions": [
-        {"type": "open", "question": "1. They ____ (move) to Berlin last year.", "answers": ["moved"], "explanation": "Last year = finished time → past simple."},
-        {"type": "open", "question": "2. I ____ (never / be) to Australia.", "answers": ["have never been"], "explanation": "Never (life experience) → present perfect."},
-        {"type": "open", "question": "3. She ____ (work) here for five years. (She still works here.)", "answers": ["has worked"], "explanation": "For + duration up to now → present perfect."},
+        {"type": "open", "question": "1. They ____ (move) to Berlin last year. Put the verb in the correct tense.", "answers": ["moved"], "explanation": "Last year = finished time → past simple."},
+        {"type": "open", "question": "2. I ____ (never / be) to Australia. Put the verb in the correct tense.", "answers": ["have never been"], "explanation": "Never (life experience) → present perfect."},
+        {"type": "open", "question": "3. She ____ (work) here for five years. (She still works here.) Put the verb in the correct tense.", "answers": ["has worked"], "explanation": "For + duration up to now → present perfect."},
         {"type": "mc", "question": "4. ____ you ____ your keys? (I can't find them.)", "options": {"a": "Did you lose", "b": "Have you lost", "c": "Do you lose", "d": "Have you been losing"}, "correct_option": "b", "explanation": "Result now (can't find) → present perfect."},
         {"type": "open", "question": "5. Wrong: 'When have you seen him?' Correct the sentence.", "answers": ["When did you see him?", "When did you see him"], "explanation": "When (specific past time) → past simple."},
-        {"type": "open", "question": "6. We ____ (not / finish) the report yet.", "answers": ["haven't finished", "have not finished"], "explanation": "Yet (expecting completion) → present perfect."},
-        {"type": "open", "question": "7. He ____ (buy) a new car two weeks ago.", "answers": ["bought"], "explanation": "Ago = finished time → past simple."},
-        {"type": "open", "question": "8. ____ you ever ____ (eat) Thai food?", "answers": ["Have you ever eaten"], "explanation": "Ever (life experience) → present perfect."}
+        {"type": "open", "question": "6. We ____ (not / finish) the report yet. Put the verb in the correct tense.", "answers": ["haven't finished", "have not finished"], "explanation": "Yet (expecting completion) → present perfect."},
+        {"type": "open", "question": "7. He ____ (buy) a new car two weeks ago. Put the verb in the correct tense.", "answers": ["bought"], "explanation": "Ago = finished time → past simple."},
+        {"type": "open", "question": "8. ____ you ever ____ (eat) Thai food? Put the verb in the correct tense.", "answers": ["Have you ever eaten"], "explanation": "Ever (life experience) → present perfect."}
       ]
     }
   },
@@ -359,16 +359,15 @@
         {"type": "open", "question": "7. I'm going ____ the supermarket.", "answers": ["to"], "explanation": "We use **to** for movement or direction towards a place (to the supermarket, to school, to work). Use **at** when we are already there (at the supermarket)."},
         {"type": "open", "question": "8. She's been waiting ____ two hours.", "answers": ["for"], "explanation": "We use **for** to say how long something lasts (for two hours, for a week). Use **since** when we say when it started (since 9 o'clock) and **during** when we say when it happened (during the meeting)."},
         {"type": "open", "question": "9. I've lived here ____ 2020.", "answers": ["since"], "explanation": "We use **since** with a point in time when something started and is still true (since 2020, since Monday). Use **for** with a duration (for three years) and **from** when we don't imply 'until now'."},
-        {"type": "open", "question": "10. The keys are ____ the drawer.", "answers": ["in"], "explanation": "We use **in** when something is inside a space (in the drawer, in the box, in the room). Use **on** for on top of a surface and **under** for underneath."},
-        {"type": "open", "question": "11. I'll see you ____ the morning.", "answers": ["in"], "explanation": "We use **in** with parts of the day (in the morning, in the afternoon) but **at** for night (at night)."},
-        {"type": "open", "question": "12. The shop opens ____ 9 am.", "answers": ["at"], "explanation": "Exact time → at (at 9 am, at noon)."},
-        {"type": "open", "question": "13. She was born ____ 15th March.", "answers": ["on"], "explanation": "Specific date → on (on 15th March, on Monday)."},
-        {"type": "open", "question": "14. We're going on holiday ____ August.", "answers": ["in"], "explanation": "Month → in (in August, in 2024)."},
-        {"type": "open", "question": "15. The pen is ____ the desk.", "answers": ["on"], "explanation": "On top of a surface → on."},
-        {"type": "open", "question": "16. They live ____ the end of the street.", "answers": ["at"], "explanation": "A specific point (end of the street) → at."},
-        {"type": "open", "question": "17. I've been learning English ____ six months.", "answers": ["for"], "explanation": "Duration (how long) → for."},
-        {"type": "open", "question": "18. We stayed ____ midnight.", "answers": ["until", "till"], "explanation": "Up to a time → until or till."},
-        {"type": "open", "question": "19. The answer is ____ the bottom of the page.", "answers": ["at"], "explanation": "A specific point (bottom of the page) → at."}
+        {"type": "open", "question": "10. I'll see you ____ the morning.", "answers": ["in"], "explanation": "We use **in** with parts of the day (in the morning, in the afternoon) but **at** for night (at night)."},
+        {"type": "open", "question": "11. The shop opens ____ 9 am.", "answers": ["at"], "explanation": "Exact time → at (at 9 am, at noon)."},
+        {"type": "open", "question": "12. She was born ____ 15th March.", "answers": ["on"], "explanation": "Specific date → on (on 15th March, on Monday)."},
+        {"type": "open", "question": "13. We're going on holiday ____ August.", "answers": ["in"], "explanation": "Month → in (in August, in 2024)."},
+        {"type": "open", "question": "14. The pen is ____ the desk.", "answers": ["on"], "explanation": "On top of a surface → on."},
+        {"type": "open", "question": "15. They live ____ the end of the street.", "answers": ["at"], "explanation": "A specific point (end of the street) → at."},
+        {"type": "open", "question": "16. I've been learning English ____ six months.", "answers": ["for"], "explanation": "Duration (how long) → for."},
+        {"type": "open", "question": "17. We stayed ____ midnight.", "answers": ["until", "till"], "explanation": "Up to a time → until or till."},
+        {"type": "open", "question": "18. The answer is ____ the bottom of the page.", "answers": ["at"], "explanation": "A specific point (bottom of the page) → at."}
       ]
     },
     "set2": {
@@ -399,88 +398,88 @@
       "title": "Prepositions – Tricky and idiomatic",
       "summary": "Gap fill: interested in, good at, look for, depend on, afraid of, tired of, insist on, complain about, focus on, by (agent).",
       "questions": [
-        {"type": "open", "question": "1. I'm interested ____ learning Spanish.", "answers": ["in"], "explanation": "The fixed phrase is **interested in** (interested in music, interested in learning). We don't use 'interested about' or 'interested on' – it's always **in**."},
-        {"type": "open", "question": "2. She's good ____ maths.", "answers": ["at"], "explanation": "We say **good at** a subject or skill (good at maths, good at swimming). Use **good with** for people or tools (good with children) and **good for** when something benefits (good for you)."},
-        {"type": "open", "question": "3. We're looking ____ our keys.", "answers": ["for"], "explanation": "**Look for** means to search for or try to find (looking for our keys, look for a job). Use **look at** when we look in a direction, and **look after** for taking care of."},
-        {"type": "open", "question": "4. It depends ____ the weather.", "answers": ["on"], "explanation": "The fixed phrase is **depend on** (it depends on the weather, it depends on you). We always use **on** after 'depend', not 'of' or 'from'."},
-        {"type": "open", "question": "5. He's afraid ____ spiders.", "answers": ["of"], "explanation": "We say **afraid of** (afraid of spiders, afraid of the dark). Use **of** after 'afraid' when we name what we fear; we can also say 'afraid to' do something."},
-        {"type": "open", "question": "6. I'm tired ____ waiting.", "answers": ["of"], "explanation": "We say **tired of** when we've had enough of something (tired of waiting, tired of this weather). Use **tired from** when we're physically tired because of something (tired from work)."},
-        {"type": "open", "question": "7. She insisted ____ paying the bill.", "answers": ["on"], "explanation": "The fixed phrase is **insist on** (insist on paying, insist on coming). We use **on** after 'insist' when we say what someone insists on doing or having."},
-        {"type": "open", "question": "8. They complained ____ the noise.", "answers": ["about"], "explanation": "We say **complain about** something (complain about the noise, complain about the service). We can also say **complain to** someone (complain to the manager)."},
-        {"type": "open", "question": "9. We need to focus ____ the main point.", "answers": ["on"], "explanation": "We say **focus on** something (focus on the main point, focus on your work). Use **on** after 'focus' – we don't say 'focus in' or 'focus at'."},
-        {"type": "open", "question": "10. The book was written ____ a famous author.", "answers": ["by"], "explanation": "In passive sentences we use **by** to introduce the person or thing that does the action (written by a famous author, made by hand). Use **by** for the agent, not 'from'."},
-        {"type": "open", "question": "11. She's responsible ____ the project.", "answers": ["for"], "explanation": "Responsible for something → for."},
-        {"type": "open", "question": "12. He's very proud ____ his daughter.", "answers": ["of"], "explanation": "Proud of → of."},
-        {"type": "open", "question": "13. We're worried ____ the results.", "answers": ["about"], "explanation": "Worried about → about."},
-        {"type": "open", "question": "14. She's capable ____ doing the job.", "answers": ["of"], "explanation": "Capable of → of."},
-        {"type": "open", "question": "15. They're keen ____ starting soon.", "answers": ["on"], "explanation": "Keen on (doing something) → on."},
-        {"type": "open", "question": "16. I'm grateful ____ your help.", "answers": ["for"], "explanation": "Grateful for → for."},
-        {"type": "open", "question": "17. He's allergic ____ nuts.", "answers": ["to"], "explanation": "Allergic to → to."},
-        {"type": "open", "question": "18. We're familiar ____ the system.", "answers": ["with"], "explanation": "Familiar with → with."},
-        {"type": "open", "question": "19. She's famous ____ her novels.", "answers": ["for"], "explanation": "Famous for → for."}
+        {"type": "open", "question": "1. I'm interested ____ learning Spanish.", "answers": ["in"], "explanation": "Dependent preposition (adjective). The fixed phrase is **interested in** (interested in music, interested in learning). See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "2. She's good ____ maths.", "answers": ["at"], "explanation": "Dependent preposition (adjective). We say **good at** a subject or skill (good at maths, good at swimming). See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "3. We're looking ____ our keys.", "answers": ["for"], "explanation": "Dependent preposition (verb). **Look for** means to search for or try to find (looking for our keys, look for a job). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "4. It depends ____ the weather.", "answers": ["on"], "explanation": "Dependent preposition (verb). The fixed phrase is **depend on** (it depends on the weather, it depends on you). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "5. He's afraid ____ spiders.", "answers": ["of"], "explanation": "Dependent preposition (adjective). We say **afraid of** (afraid of spiders, afraid of the dark). See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "6. I'm tired ____ waiting.", "answers": ["of"], "explanation": "Dependent preposition (adjective). We say **tired of** when we've had enough of something (tired of waiting, tired of this weather). See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "7. She insisted ____ paying the bill.", "answers": ["on"], "explanation": "Dependent preposition (verb). The fixed phrase is **insist on** (insist on paying, insist on coming). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "8. They complained ____ the noise.", "answers": ["about"], "explanation": "Dependent preposition (verb). We say **complain about** something (complain about the noise, complain about the service). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "9. We need to focus ____ the main point.", "answers": ["on"], "explanation": "Dependent preposition (verb). We say **focus on** something (focus on the main point, focus on your work). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "10. The book was written ____ a famous author.", "answers": ["by"], "explanation": "Passive agent: **by** introduces who or what does the action (written by a famous author). Not a dependent preposition."},
+        {"type": "open", "question": "11. She's responsible ____ the project.", "answers": ["for"], "explanation": "Dependent preposition (adjective). Responsible **for** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "12. He's very proud ____ his daughter.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Proud **of** someone or something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "13. We're worried ____ the results.", "answers": ["about"], "explanation": "Dependent preposition (adjective). Worried **about** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "14. She's capable ____ doing the job.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Capable **of** doing something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "15. They're keen ____ starting soon.", "answers": ["on"], "explanation": "Dependent preposition (adjective). Keen **on** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "16. I'm grateful ____ your help.", "answers": ["for"], "explanation": "Dependent preposition (adjective). Grateful **for** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "17. He's allergic ____ nuts.", "answers": ["to"], "explanation": "Dependent preposition (adjective). Allergic **to** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "18. We're familiar ____ the system.", "answers": ["with"], "explanation": "Dependent preposition (adjective). Familiar **with** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "19. She's famous ____ her novels.", "answers": ["for"], "explanation": "Dependent preposition (adjective). Famous **for** something. See Reference → Dependent prepositions: Adjectives."}
       ]
     },
     "set4": {
       "title": "Prepositions – Dependent prepositions: Verbs",
       "summary": "Gap fill: accuse of, suffer from, apologize for, approve of, apply for, arrive at, believe in, complain to, congratulate on, consist of, decide on, dream of/about, insist on, listen to, object to.",
       "questions": [
-        {"type": "open", "question": "1. They accused him ____ stealing.", "answers": ["of"], "explanation": "Accuse someone **of** something (accuse of stealing)."},
-        {"type": "open", "question": "2. She suffers ____ migraines.", "answers": ["from"], "explanation": "Suffer **from** an illness or problem."},
-        {"type": "open", "question": "3. He apologized ____ being late.", "answers": ["for"], "explanation": "Apologize **for** something."},
-        {"type": "open", "question": "4. I don't approve ____ that plan.", "answers": ["of"], "explanation": "Approve **of** something."},
-        {"type": "open", "question": "5. She applied ____ the job.", "answers": ["for"], "explanation": "Apply **for** a job or place."},
-        {"type": "open", "question": "6. We arrived ____ the station at 8.", "answers": ["at"], "explanation": "Arrive **at** a place (arrive **in** for cities/countries)."},
-        {"type": "open", "question": "7. He believes ____ climate change.", "answers": ["in"], "explanation": "Believe **in** something."},
-        {"type": "open", "question": "8. They complained ____ the manager about the noise.", "answers": ["to"], "explanation": "Complain **to** someone; complain **about** something."},
-        {"type": "open", "question": "9. She congratulated him ____ passing the exam.", "answers": ["on"], "explanation": "Congratulate someone **on** something."},
-        {"type": "open", "question": "10. We consist ____ ten members.", "answers": ["of"], "explanation": "Consist **of** = be made up of."},
-        {"type": "open", "question": "11. He decided ____ a new car.", "answers": ["on"], "explanation": "Decide **on** something."},
-        {"type": "open", "question": "12. She dreams ____ travelling the world.", "answers": ["of", "about"], "explanation": "Dream **of** or **about** something."},
-        {"type": "open", "question": "13. They insisted ____ paying for dinner.", "answers": ["on"], "explanation": "Insist **on** doing something."},
-        {"type": "open", "question": "14. He listened ____ the radio.", "answers": ["to"], "explanation": "Listen **to** something."},
-        {"type": "open", "question": "15. She objected ____ the proposal.", "answers": ["to"], "explanation": "Object **to** something."}
+        {"type": "open", "question": "1. They accused him ____ stealing.", "answers": ["of"], "explanation": "Dependent preposition (verb). Accuse someone **of** something (accuse of stealing). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "2. She suffers ____ migraines.", "answers": ["from"], "explanation": "Dependent preposition (verb). Suffer **from** an illness or problem. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "3. He apologized ____ being late.", "answers": ["for"], "explanation": "Dependent preposition (verb). Apologize **for** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "4. I don't approve ____ that plan.", "answers": ["of"], "explanation": "Dependent preposition (verb). Approve **of** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "5. She applied ____ the job.", "answers": ["for"], "explanation": "Dependent preposition (verb). Apply **for** a job or place. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "6. We arrived ____ the station at 8.", "answers": ["at"], "explanation": "Dependent preposition (verb). Arrive **at** a place (arrive **in** for cities/countries). See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "7. He believes ____ climate change.", "answers": ["in"], "explanation": "Dependent preposition (verb). Believe **in** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "8. They complained ____ the manager about the noise.", "answers": ["to"], "explanation": "Dependent preposition (verb). Complain **to** someone; complain **about** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "9. She congratulated him ____ passing the exam.", "answers": ["on"], "explanation": "Dependent preposition (verb). Congratulate someone **on** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "10. We consist ____ ten members.", "answers": ["of"], "explanation": "Dependent preposition (verb). Consist **of** = be made up of. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "11. He decided ____ a new car.", "answers": ["on"], "explanation": "Dependent preposition (verb). Decide **on** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "12. She dreams ____ travelling the world.", "answers": ["of", "about"], "explanation": "Dependent preposition (verb). Dream **of** or **about** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "13. They insisted ____ paying for dinner.", "answers": ["on"], "explanation": "Dependent preposition (verb). Insist **on** doing something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "14. He listened ____ the radio.", "answers": ["to"], "explanation": "Dependent preposition (verb). Listen **to** something. See Reference → Dependent prepositions: Verbs."},
+        {"type": "open", "question": "15. She objected ____ the proposal.", "answers": ["to"], "explanation": "Dependent preposition (verb). Object **to** something. See Reference → Dependent prepositions: Verbs."}
       ]
     },
     "set5": {
       "title": "Prepositions – Dependent prepositions: Adjectives",
       "summary": "Gap fill: famous for, aware of, bad at, capable of, excited about, good at, grateful for, interested in, jealous of, keen on, nervous about, proud of, responsible for, tired of, worried about.",
       "questions": [
-        {"type": "open", "question": "1. She's famous ____ her research.", "answers": ["for"], "explanation": "Famous **for** something."},
-        {"type": "open", "question": "2. He's aware ____ the problem.", "answers": ["of"], "explanation": "Aware **of** something."},
-        {"type": "open", "question": "3. I'm bad ____ remembering names.", "answers": ["at"], "explanation": "Bad **at** something."},
-        {"type": "open", "question": "4. She's capable ____ making quick decisions.", "answers": ["of"], "explanation": "Capable **of** doing something."},
-        {"type": "open", "question": "5. They're excited ____ the trip.", "answers": ["about"], "explanation": "Excited **about** something."},
-        {"type": "open", "question": "6. He's good ____ languages.", "answers": ["at"], "explanation": "Good **at** a skill or subject."},
-        {"type": "open", "question": "7. We're grateful ____ your support.", "answers": ["for"], "explanation": "Grateful **for** something."},
-        {"type": "open", "question": "8. She's interested ____ archaeology.", "answers": ["in"], "explanation": "Interested **in** something."},
-        {"type": "open", "question": "9. He's jealous ____ his brother's success.", "answers": ["of"], "explanation": "Jealous **of** someone or something."},
-        {"type": "open", "question": "10. I'm keen ____ learning to cook.", "answers": ["on"], "explanation": "Keen **on** something."},
-        {"type": "open", "question": "11. They're nervous ____ the interview.", "answers": ["about"], "explanation": "Nervous **about** something."},
-        {"type": "open", "question": "12. She's proud ____ her team.", "answers": ["of"], "explanation": "Proud **of** someone or something."},
-        {"type": "open", "question": "13. He's responsible ____ the budget.", "answers": ["for"], "explanation": "Responsible **for** something."},
-        {"type": "open", "question": "14. We're tired ____ waiting.", "answers": ["of"], "explanation": "Tired **of** something."},
-        {"type": "open", "question": "15. She's worried ____ the delay.", "answers": ["about"], "explanation": "Worried **about** something."}
+        {"type": "open", "question": "1. She's famous ____ her research.", "answers": ["for"], "explanation": "Dependent preposition (adjective). Famous **for** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "2. He's aware ____ the problem.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Aware **of** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "3. I'm bad ____ remembering names.", "answers": ["at"], "explanation": "Dependent preposition (adjective). Bad **at** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "4. She's capable ____ making quick decisions.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Capable **of** doing something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "5. They're excited ____ the trip.", "answers": ["about"], "explanation": "Dependent preposition (adjective). Excited **about** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "6. He's good ____ languages.", "answers": ["at"], "explanation": "Dependent preposition (adjective). Good **at** a skill or subject. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "7. We're grateful ____ your support.", "answers": ["for"], "explanation": "Dependent preposition (adjective). Grateful **for** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "8. She's interested ____ archaeology.", "answers": ["in"], "explanation": "Dependent preposition (adjective). Interested **in** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "9. He's jealous ____ his brother's success.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Jealous **of** someone or something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "10. I'm keen ____ learning to cook.", "answers": ["on"], "explanation": "Dependent preposition (adjective). Keen **on** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "11. They're nervous ____ the interview.", "answers": ["about"], "explanation": "Dependent preposition (adjective). Nervous **about** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "12. She's proud ____ her team.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Proud **of** someone or something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "13. He's responsible ____ the budget.", "answers": ["for"], "explanation": "Dependent preposition (adjective). Responsible **for** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "14. We're tired ____ waiting.", "answers": ["of"], "explanation": "Dependent preposition (adjective). Tired **of** something. See Reference → Dependent prepositions: Adjectives."},
+        {"type": "open", "question": "15. She's worried ____ the delay.", "answers": ["about"], "explanation": "Dependent preposition (adjective). Worried **about** something. See Reference → Dependent prepositions: Adjectives."}
       ]
     },
     "set6": {
       "title": "Prepositions – Dependent prepositions: Nouns",
       "summary": "Gap fill: leader of, increase in, experience in/of, reason for, relationship with, solution to, complaint about, fear of, demand for, interest in, talk on/about, difference between, talent for, confidence in, need for.",
       "questions": [
-        {"type": "open", "question": "1. She's the leader ____ the team.", "answers": ["of"], "explanation": "Leader **of** something."},
-        {"type": "open", "question": "2. There's been an increase ____ demand.", "answers": ["in"], "explanation": "Increase **in** something."},
-        {"type": "open", "question": "3. He has a lot of experience ____ teaching.", "answers": ["in", "of"], "explanation": "Experience **in** or **of** something."},
-        {"type": "open", "question": "4. What's the reason ____ the delay?", "answers": ["for"], "explanation": "Reason **for** something."},
-        {"type": "open", "question": "5. She has a good relationship ____ her boss.", "answers": ["with"], "explanation": "Relationship **with** someone."},
-        {"type": "open", "question": "6. There's a solution ____ the problem.", "answers": ["to"], "explanation": "Solution **to** a problem."},
-        {"type": "open", "question": "7. He made a complaint ____ the service.", "answers": ["about"], "explanation": "Complaint **about** something."},
-        {"type": "open", "question": "8. She has a fear ____ flying.", "answers": ["of"], "explanation": "Fear **of** something."},
-        {"type": "open", "question": "9. There's a demand ____ better transport.", "answers": ["for"], "explanation": "Demand **for** something."},
-        {"type": "open", "question": "10. He showed an interest ____ the project.", "answers": ["in"], "explanation": "Interest **in** something."},
-        {"type": "open", "question": "11. She gave a talk ____ climate change.", "answers": ["on", "about"], "explanation": "Talk **on** or **about** something."},
-        {"type": "open", "question": "12. There's a difference ____ the two versions.", "answers": ["between"], "explanation": "Difference **between** two things."},
-        {"type": "open", "question": "13. He has a talent ____ music.", "answers": ["for"], "explanation": "Talent **for** something."},
-        {"type": "open", "question": "14. She has confidence ____ her ability.", "answers": ["in"], "explanation": "Confidence **in** someone or something."},
-        {"type": "open", "question": "15. There's a need ____ more staff.", "answers": ["for"], "explanation": "Need **for** something."}
+        {"type": "open", "question": "1. She's the leader ____ the team.", "answers": ["of"], "explanation": "Dependent preposition (noun). Leader **of** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "2. There's been an increase ____ demand.", "answers": ["in"], "explanation": "Dependent preposition (noun). Increase **in** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "3. He has a lot of experience ____ teaching.", "answers": ["in", "of"], "explanation": "Dependent preposition (noun). Experience **in** or **of** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "4. What's the reason ____ the delay?", "answers": ["for"], "explanation": "Dependent preposition (noun). Reason **for** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "5. She has a good relationship ____ her boss.", "answers": ["with"], "explanation": "Dependent preposition (noun). Relationship **with** someone. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "6. There's a solution ____ the problem.", "answers": ["to"], "explanation": "Dependent preposition (noun). Solution **to** a problem. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "7. He made a complaint ____ the service.", "answers": ["about"], "explanation": "Dependent preposition (noun). Complaint **about** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "8. She has a fear ____ flying.", "answers": ["of"], "explanation": "Dependent preposition (noun). Fear **of** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "9. There's a demand ____ better transport.", "answers": ["for"], "explanation": "Dependent preposition (noun). Demand **for** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "10. He showed an interest ____ the project.", "answers": ["in"], "explanation": "Dependent preposition (noun). Interest **in** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "11. She gave a talk ____ climate change.", "answers": ["on", "about"], "explanation": "Dependent preposition (noun). Talk **on** or **about** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "12. There's a difference ____ the two versions.", "answers": ["between"], "explanation": "Dependent preposition (noun). Difference **between** two things. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "13. He has a talent ____ music.", "answers": ["for"], "explanation": "Dependent preposition (noun). Talent **for** something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "14. She has confidence ____ her ability.", "answers": ["in"], "explanation": "Dependent preposition (noun). Confidence **in** someone or something. See Reference → Dependent prepositions: Nouns."},
+        {"type": "open", "question": "15. There's a need ____ more staff.", "answers": ["for"], "explanation": "Dependent preposition (noun). Need **for** something. See Reference → Dependent prepositions: Nouns."}
       ]
     },
     "set7": {
@@ -493,60 +492,59 @@
         {"type": "open", "question": "4. I'm going ____ the station.", "answers": ["to"], "explanation": "**to** – direction (go to)."},
         {"type": "open", "question": "5. Give it ____ me.", "answers": ["to"], "explanation": "**to** – recipient (give to)."},
         {"type": "open", "question": "6. He's allergic ____ nuts.", "answers": ["to"], "explanation": "**to** – allergic to."},
-        {"type": "open", "question": "7. The keys are ____ the drawer.", "answers": ["in"], "explanation": "**in** – inside a space."},
-        {"type": "open", "question": "8. She was born ____ 1995.", "answers": ["in"], "explanation": "**in** – year/month."},
-        {"type": "open", "question": "9. I'm interested ____ history.", "answers": ["in"], "explanation": "**in** – interested in."},
-        {"type": "open", "question": "10. She's been waiting ____ two hours.", "answers": ["for"], "explanation": "**for** – duration."},
-        {"type": "open", "question": "11. This present is ____ you.", "answers": ["for"], "explanation": "**for** – intended for."},
-        {"type": "open", "question": "12. What's the reason ____ the delay?", "answers": ["for"], "explanation": "**for** – reason for."},
-        {"type": "open", "question": "13. The book is ____ the table.", "answers": ["on"], "explanation": "**on** – on a surface."},
-        {"type": "open", "question": "14. We meet ____ Monday.", "answers": ["on"], "explanation": "**on** – day."},
-        {"type": "open", "question": "15. It depends ____ the weather.", "answers": ["on"], "explanation": "**on** – depend on."},
-        {"type": "open", "question": "16. I went ____ my friend.", "answers": ["with"], "explanation": "**with** – together with."},
-        {"type": "open", "question": "17. Cut it ____ a knife.", "answers": ["with"], "explanation": "**with** – means."},
-        {"type": "open", "question": "18. We'll meet ____ the bus stop.", "answers": ["at"], "explanation": "**at** – point or place."},
-        {"type": "open", "question": "19. The shop opens ____ 9 am.", "answers": ["at"], "explanation": "**at** – clock time."},
-        {"type": "open", "question": "20. She's good ____ maths.", "answers": ["at"], "explanation": "**at** – good at."},
-        {"type": "open", "question": "21. He arrived ____ train.", "answers": ["by"], "explanation": "**by** – means of transport."},
-        {"type": "open", "question": "22. Finish it ____ Friday.", "answers": ["by"], "explanation": "**by** – no later than."},
-        {"type": "open", "question": "23. The book was written ____ a famous author.", "answers": ["by"], "explanation": "**by** – agent in passive."},
-        {"type": "open", "question": "24. She came ____ Paris.", "answers": ["from"], "explanation": "**from** – origin."},
-        {"type": "open", "question": "25. I've lived here ____ 2020.", "answers": ["since"], "explanation": "**since** – from (time) until now."},
-        {"type": "open", "question": "26. He suffers ____ headaches.", "answers": ["from"], "explanation": "**from** – suffer from."},
-        {"type": "open", "question": "27. We talked ____ the project.", "answers": ["about"], "explanation": "**about** – concerning."},
-        {"type": "open", "question": "28. She's worried ____ the exam.", "answers": ["about"], "explanation": "**about** – worried about."},
-        {"type": "open", "question": "29. What's the film ____?", "answers": ["about"], "explanation": "**about** – concerning."},
-        {"type": "open", "question": "30. He works ____ a teacher.", "answers": ["as"], "explanation": "**as** – role."},
-        {"type": "open", "question": "31. She went ____ the room.", "answers": ["into"], "explanation": "**into** – movement inside."},
-        {"type": "open", "question": "32. That sounds ____ a good idea.", "answers": ["like"], "explanation": "**like** – similar to."},
-        {"type": "open", "question": "33. We walked ____ the park.", "answers": ["through"], "explanation": "**through** – from one side to the other."},
-        {"type": "open", "question": "34. The bridge goes ____ the river.", "answers": ["over"], "explanation": "**over** – above, across."},
-        {"type": "open", "question": "35. We'll start ____ dinner.", "answers": ["after"], "explanation": "**after** – later than."},
-        {"type": "open", "question": "36. I'll be there ____ 9 and 10.", "answers": ["between"], "explanation": "**between** – in the middle of two."},
-        {"type": "open", "question": "37. Get ____ the car quickly.", "answers": ["out of"], "explanation": "**out of** – exit."},
-        {"type": "open", "question": "38. The cat is ____ the sofa.", "answers": ["under"], "explanation": "**under** – below."},
-        {"type": "open", "question": "39. Please finish ____ 5 pm.", "answers": ["before"], "explanation": "**before** – earlier than."},
-        {"type": "open", "question": "40. We can't buy it ____ money.", "answers": ["without"], "explanation": "**without** – not having."},
-        {"type": "open", "question": "41. It costs ____ 10 pounds.", "answers": ["around", "about"], "explanation": "**around** / **about** – approximately."},
-        {"type": "open", "question": "42. They sat ____ the table.", "answers": ["around"], "explanation": "**around** – surrounding."},
-        {"type": "open", "question": "43. I've known her ____ 2020.", "answers": ["since"], "explanation": "**since** – from (time) until now."},
-        {"type": "open", "question": "44. That's ____ the law.", "answers": ["against"], "explanation": "**against** – opposing."},
-        {"type": "open", "question": "45. We met ____ the meeting.", "answers": ["during"], "explanation": "**during** – within a period."},
-        {"type": "open", "question": "46. We stayed ____ midnight.", "answers": ["until", "till"], "explanation": "**until** – up to a time."},
-        {"type": "open", "question": "47. We discussed it ____ ourselves.", "answers": ["among"], "explanation": "**among** – in a group."},
-        {"type": "open", "question": "48. They ran ____ the road.", "answers": ["across"], "explanation": "**across** – from one side to the other."},
-        {"type": "open", "question": "49. The keys are ____ the door.", "answers": ["behind"], "explanation": "**behind** – at the back of."},
-        {"type": "open", "question": "50. The plane flew ____ the clouds.", "answers": ["above"], "explanation": "**above** – higher than."},
-        {"type": "open", "question": "51. The temperature dropped ____ zero.", "answers": ["below"], "explanation": "**below** – lower than."},
-        {"type": "open", "question": "52. They live ____ the station.", "answers": ["near"], "explanation": "**near** – close to."},
-        {"type": "open", "question": "53. We walked ____ the riverbank for a couple of miles.", "answers": ["along"], "explanation": "**along** – following a line (along the riverbank)."},
-        {"type": "open", "question": "54. The ball rolled ____ the table.", "answers": ["off"], "explanation": "**off** – away from a surface."},
-        {"type": "open", "question": "55. She ran ____ the stairs.", "answers": ["up"], "explanation": "**up** – direction."},
-        {"type": "open", "question": "56. We walked ____ the hill.", "answers": ["down"], "explanation": "**down** – direction."},
-        {"type": "open", "question": "57. They drove ____ the city.", "answers": ["towards"], "explanation": "**towards** – in the direction of."},
-        {"type": "open", "question": "58. We'll finish ____ an hour.", "answers": ["within"], "explanation": "**within** – inside a time or space."},
-        {"type": "open", "question": "59. Once ____ a time there was a king.", "answers": ["upon"], "explanation": "**upon** – formal for **on**."},
-        {"type": "open", "question": "60. Everyone came ____ Tom.", "answers": ["except"], "explanation": "**except** – not including."}
+        {"type": "open", "question": "7. She was born ____ 1995.", "answers": ["in"], "explanation": "**in** – year/month."},
+        {"type": "open", "question": "8. I'm interested ____ history.", "answers": ["in"], "explanation": "**in** – interested in."},
+        {"type": "open", "question": "9. She's been waiting ____ two hours.", "answers": ["for"], "explanation": "**for** – duration."},
+        {"type": "open", "question": "10. This present is ____ you.", "answers": ["for"], "explanation": "**for** – intended for."},
+        {"type": "open", "question": "11. What's the reason ____ the delay?", "answers": ["for"], "explanation": "**for** – reason for."},
+        {"type": "open", "question": "12. The book is ____ the table.", "answers": ["on"], "explanation": "**on** – on a surface."},
+        {"type": "open", "question": "13. We meet ____ Monday.", "answers": ["on"], "explanation": "**on** – day."},
+        {"type": "open", "question": "14. It depends ____ the weather.", "answers": ["on"], "explanation": "**on** – depend on."},
+        {"type": "open", "question": "15. I went ____ my friend.", "answers": ["with"], "explanation": "**with** – together with."},
+        {"type": "open", "question": "16. Cut it ____ a knife.", "answers": ["with"], "explanation": "**with** – means."},
+        {"type": "open", "question": "17. We'll meet ____ the bus stop.", "answers": ["at"], "explanation": "**at** – point or place."},
+        {"type": "open", "question": "18. The shop opens ____ 9 am.", "answers": ["at"], "explanation": "**at** – clock time."},
+        {"type": "open", "question": "19. She's good ____ maths.", "answers": ["at"], "explanation": "**at** – good at."},
+        {"type": "open", "question": "20. He arrived ____ train.", "answers": ["by"], "explanation": "**by** – means of transport."},
+        {"type": "open", "question": "21. Finish it ____ Friday.", "answers": ["by"], "explanation": "**by** – no later than."},
+        {"type": "open", "question": "22. The book was written ____ a famous author.", "answers": ["by"], "explanation": "**by** – agent in passive."},
+        {"type": "open", "question": "23. The parcel came ____ Paris.", "answers": ["from"], "explanation": "**from** – origin (the parcel came from Paris = it was sent from there)."},
+        {"type": "open", "question": "24. I've lived here ____ 2020.", "answers": ["since"], "explanation": "**since** – from (time) until now."},
+        {"type": "open", "question": "25. He suffers ____ headaches.", "answers": ["from"], "explanation": "**from** – suffer from."},
+        {"type": "open", "question": "26. We talked ____ the project.", "answers": ["about"], "explanation": "**about** – concerning."},
+        {"type": "open", "question": "27. She's worried ____ the exam.", "answers": ["about"], "explanation": "**about** – worried about."},
+        {"type": "open", "question": "28. What's the film ____?", "answers": ["about"], "explanation": "**about** – concerning."},
+        {"type": "open", "question": "29. He works ____ a teacher.", "answers": ["as"], "explanation": "**as** – role."},
+        {"type": "open", "question": "30. She went ____ the room.", "answers": ["into"], "explanation": "**into** – movement inside."},
+        {"type": "open", "question": "31. That sounds ____ a good idea.", "answers": ["like"], "explanation": "**like** – similar to."},
+        {"type": "open", "question": "32. We walked ____ the park.", "answers": ["through"], "explanation": "**through** – from one side to the other."},
+        {"type": "open", "question": "33. The bridge goes ____ the river.", "answers": ["over"], "explanation": "**over** – above, across."},
+        {"type": "open", "question": "34. We'll start ____ dinner.", "answers": ["after"], "explanation": "**after** – later than."},
+        {"type": "open", "question": "35. I'll be there ____ 9 and 10.", "answers": ["between"], "explanation": "**between** – in the middle of two."},
+        {"type": "open", "question": "36. Get ____ the car quickly.", "answers": ["out of"], "explanation": "**out of** – exit."},
+        {"type": "open", "question": "37. The cat is ____ the sofa.", "answers": ["under"], "explanation": "**under** – below."},
+        {"type": "open", "question": "38. Please finish ____ 5 pm.", "answers": ["before"], "explanation": "**before** – earlier than."},
+        {"type": "open", "question": "39. We have no money. We can't buy it ____ money. (one word: not having)", "answers": ["without"], "explanation": "**without** – not having (we can't buy it without money)."},
+        {"type": "open", "question": "40. It costs ____ 10 pounds.", "answers": ["around", "about"], "explanation": "**around** / **about** – approximately."},
+        {"type": "open", "question": "41. They sat ____ the table.", "answers": ["around"], "explanation": "**around** – surrounding."},
+        {"type": "open", "question": "42. I've known her ____ 2020.", "answers": ["since"], "explanation": "**since** – from (time) until now."},
+        {"type": "open", "question": "43. That's ____ the law.", "answers": ["against"], "explanation": "**against** – opposing."},
+        {"type": "open", "question": "44. We met ____ the meeting.", "answers": ["during"], "explanation": "**during** – within a period."},
+        {"type": "open", "question": "45. We stayed ____ midnight.", "answers": ["until", "till"], "explanation": "**until** – up to a time."},
+        {"type": "open", "question": "46. We discussed it ____ ourselves.", "answers": ["among"], "explanation": "**among** – in a group."},
+        {"type": "open", "question": "47. They ran ____ the road.", "answers": ["across"], "explanation": "**across** – from one side to the other."},
+        {"type": "open", "question": "48. The keys are ____ the door.", "answers": ["behind"], "explanation": "**behind** – at the back of."},
+        {"type": "open", "question": "49. The plane flew ____ the clouds.", "answers": ["above"], "explanation": "**above** – higher than."},
+        {"type": "open", "question": "50. The temperature dropped ____ zero.", "answers": ["below"], "explanation": "**below** – lower than."},
+        {"type": "open", "question": "51. They live ____ the station.", "answers": ["near"], "explanation": "**near** – close to."},
+        {"type": "open", "question": "52. We walked ____ the riverbank for a couple of miles.", "answers": ["along"], "explanation": "**along** – following a line (along the riverbank)."},
+        {"type": "open", "question": "53. The ball rolled ____ the table.", "answers": ["off"], "explanation": "**off** – away from a surface."},
+        {"type": "open", "question": "54. She ran ____ the stairs.", "answers": ["up"], "explanation": "**up** – direction."},
+        {"type": "open", "question": "55. We walked ____ the hill.", "answers": ["down"], "explanation": "**down** – direction."},
+        {"type": "open", "question": "56. They drove ____ the city.", "answers": ["towards"], "explanation": "**towards** – in the direction of."},
+        {"type": "open", "question": "57. We'll finish ____ an hour.", "answers": ["within"], "explanation": "**within** – inside a time or space."},
+        {"type": "open", "question": "58. Once ____ a time there was a king.", "answers": ["upon"], "explanation": "**upon** – formal for **on**."},
+        {"type": "open", "question": "59. Everyone came ____ Tom.", "answers": ["except"], "explanation": "**except** – not including."}
       ]
     },
     "set8": {
@@ -619,16 +617,16 @@
       "title": "Will and going to – Gap fill",
       "summary": "Choose will or going to: plans/intentions/evidence → going to; spontaneous/offer/promise/general prediction → will.",
       "questions": [
-        {"type": "open", "question": "1. I ____ (see) the dentist tomorrow at 10. (I already have an appointment.)", "answers": ["am going to see", "'m going to see"], "explanation": "Already planned (appointment) → going to."},
-        {"type": "open", "question": "2. The phone's ringing. – I ____ (get) it.", "answers": ["will get", "'ll get"], "explanation": "Decision at the moment of speaking → will."},
-        {"type": "open", "question": "3. Look at those clouds – it ____ (rain).", "answers": ["is going to rain", "'s going to rain"], "explanation": "Prediction from present evidence → going to."},
-        {"type": "open", "question": "4. I'm so tired. I ____ (have) a rest. (I just decided.)", "answers": ["will have", "'ll have"], "explanation": "Spontaneous decision → will."},
-        {"type": "open", "question": "5. She ____ (study) law at university. (She decided last year.)", "answers": ["is going to study", "'s going to study"], "explanation": "Plan/intention already made → going to."},
-        {"type": "open", "question": "6. That bag looks heavy. I ____ (carry) it for you.", "answers": ["will carry", "'ll carry", "can carry"], "explanation": "Offer: both will (I'll do it) and can (I'm able to) are natural here."},
-        {"type": "open", "question": "7. We ____ (meet) at 6. (We arranged it yesterday.)", "answers": ["are going to meet", "'re going to meet"], "explanation": "Already arranged → going to."},
-        {"type": "open", "question": "8. I think the match ____ (be) exciting.", "answers": ["will be", "'ll be"], "explanation": "General prediction (I think) → will."},
-        {"type": "open", "question": "9. I promise I ____ (not tell) anyone.", "answers": ["won't tell", "will not tell"], "explanation": "Promise → will."},
-        {"type": "open", "question": "10. They ____ (buy) a new car next year. (They've been saving for it.)", "answers": ["are going to buy", "'re going to buy"], "explanation": "Plan/intention (they've been saving) → going to."}
+        {"type": "open", "question": "1. I ____ (see) the dentist tomorrow at 10. (I already have an appointment.) Put the verb in the correct tense.", "answers": ["am going to see", "'m going to see"], "explanation": "Already planned (appointment) → going to."},
+        {"type": "open", "question": "2. The phone's ringing. – I ____ (get) it. Put the verb in the correct tense.", "answers": ["will get", "'ll get"], "explanation": "Decision at the moment of speaking → will."},
+        {"type": "open", "question": "3. Look at those clouds – it ____ (rain). Put the verb in the correct tense.", "answers": ["is going to rain", "'s going to rain"], "explanation": "Prediction from present evidence → going to."},
+        {"type": "open", "question": "4. I'm so tired. I ____ (have) a rest. (I just decided.) Put the verb in the correct tense.", "answers": ["will have", "'ll have"], "explanation": "Spontaneous decision → will."},
+        {"type": "open", "question": "5. She ____ (study) law at university. (She decided last year.) Put the verb in the correct tense.", "answers": ["is going to study", "'s going to study"], "explanation": "Plan/intention already made → going to."},
+        {"type": "open", "question": "6. That bag looks heavy. I ____ (carry) it for you. Put the verb in the correct tense.", "answers": ["will carry", "'ll carry", "can carry"], "explanation": "Offer: both will (I'll do it) and can (I'm able to) are natural here."},
+        {"type": "open", "question": "7. We ____ (meet) at 6. (We arranged it yesterday.) Put the verb in the correct tense.", "answers": ["are going to meet", "'re going to meet"], "explanation": "Already arranged → going to."},
+        {"type": "open", "question": "8. I think the match ____ (be) exciting. Put the verb in the correct tense.", "answers": ["will be", "'ll be"], "explanation": "General prediction (I think) → will."},
+        {"type": "open", "question": "9. I promise I ____ (not tell) anyone. Put the verb in the correct tense.", "answers": ["won't tell", "will not tell"], "explanation": "Promise → will."},
+        {"type": "open", "question": "10. They ____ (buy) a new car next year. (They've been saving for it.) Put the verb in the correct tense.", "answers": ["are going to buy", "'re going to buy"], "explanation": "Plan/intention (they've been saving) → going to."}
       ]
     },
     "set2": {
@@ -646,14 +644,14 @@
       "title": "Will and going to – Mixed",
       "summary": "More practice: plans vs spontaneous decisions, evidence, offers, promises.",
       "questions": [
-        {"type": "open", "question": "1. I'm thirsty. I ____ (get) some water. (deciding now)", "answers": ["will get", "'ll get"], "explanation": "Spontaneous decision → will."},
-        {"type": "open", "question": "2. They ____ (fly) to Rome next week. (tickets booked)", "answers": ["are going to fly", "'re going to fly"], "explanation": "Plan (tickets) → going to."},
-        {"type": "open", "question": "3. I'm sure you ____ (pass) the exam.", "answers": ["will pass", "'ll pass"], "explanation": "General prediction → will."},
-        {"type": "open", "question": "4. She ____ (not tell) anyone. I promise.", "answers": ["won't tell", "will not tell"], "explanation": "Promise → will."},
+        {"type": "open", "question": "1. I'm thirsty. I ____ (get) some water. (deciding now) Put the verb in the correct tense.", "answers": ["will get", "'ll get"], "explanation": "Spontaneous decision → will."},
+        {"type": "open", "question": "2. They ____ (fly) to Rome next week. (tickets booked) Put the verb in the correct tense.", "answers": ["are going to fly", "'re going to fly"], "explanation": "Plan (tickets) → going to."},
+        {"type": "open", "question": "3. I'm sure you ____ (pass) the exam. Put the verb in the correct tense.", "answers": ["will pass", "'ll pass"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "4. She ____ (not tell) anyone. I promise. Put the verb in the correct tense.", "answers": ["won't tell", "will not tell"], "explanation": "Promise → will."},
         {"type": "mc", "question": "5. (Doorbell rings.) I ____ it.", "options": {"a": "am going to get", "b": "will get", "c": "get", "d": "getting"}, "correct_option": "b", "explanation": "Decision at the moment → will."},
-        {"type": "open", "question": "6. Look at the queue – we ____ (wait) for ages.", "answers": ["are going to wait", "'re going to wait"], "explanation": "Prediction from evidence → going to."},
-        {"type": "open", "question": "7. I ____ (help) you with the bags. (offering now)", "answers": ["will help", "'ll help"], "explanation": "Offer → will."},
-        {"type": "open", "question": "8. We ____ (have) a party on Saturday. (invitations sent)", "answers": ["are going to have", "'re going to have"], "explanation": "Arranged plan → going to."}
+        {"type": "open", "question": "6. Look at the queue – we ____ (wait) for ages. Put the verb in the correct tense.", "answers": ["are going to wait", "'re going to wait"], "explanation": "Prediction from evidence → going to."},
+        {"type": "open", "question": "7. I ____ (help) you with the bags. (offering now) Put the verb in the correct tense.", "answers": ["will help", "'ll help"], "explanation": "Offer → will."},
+        {"type": "open", "question": "8. We ____ (have) a party on Saturday. We have already sent the invitations. Put the verb in the correct tense.", "answers": ["are going to have", "'re going to have"], "explanation": "Arranged plan → going to."}
       ]
     }
   },
@@ -669,7 +667,7 @@
         {"type": "open", "question": "5. We hope ____ (see) you soon.", "answers": ["to see"], "explanation": "Hope + to-infinitive."},
         {"type": "open", "question": "6. She finished ____ (write) the report.", "answers": ["writing"], "explanation": "Finish + -ing."},
         {"type": "open", "question": "7. I'm looking forward to ____ (meet) you.", "answers": ["meeting"], "explanation": "Look forward to + -ing."},
-        {"type": "open", "question": "8. He promised ____ (help) us.", "answers": ["to help"], "explanation": "Promise + to-infinitive."},
+        {"type": "open", "question": "8. He promised ____ (help) us. Use the verb in brackets in the correct form (infinitive with or without to).", "answers": ["to help"], "explanation": "Promise + to-infinitive."},
         {"type": "open", "question": "9. They avoided ____ (answer) the question.", "answers": ["answering"], "explanation": "Avoid + -ing."},
         {"type": "open", "question": "10. She suggested ____ (go) to the cinema.", "answers": ["going"], "explanation": "Suggest + -ing."}
       ]
@@ -864,18 +862,18 @@
       "title": "Passives – Gap fill",
       "summary": "Complete the passive: be (in the correct tense) + past participle. Present/past simple, present perfect, modals.",
       "questions": [
-        {"type": "open", "question": "1. The letter _____ (send) yesterday.", "answers": ["was sent"], "explanation": "Past passive: was + past participle (sent)."},
-        {"type": "open", "question": "2. English _____ (speak) in many countries.", "answers": ["is spoken"], "explanation": "Present simple passive: is + spoken."},
-        {"type": "open", "question": "3. The new hospital _____ (open) last year.", "answers": ["was opened"], "explanation": "Past passive: was + opened."},
-        {"type": "open", "question": "4. The work _____ (already / do).", "answers": ["has already been done"], "explanation": "Present perfect passive: has been + done."},
-        {"type": "open", "question": "5. The room _____ (clean) every day.", "answers": ["is cleaned"], "explanation": "Present simple passive: is + cleaned."},
-        {"type": "open", "question": "6. My bike _____ (steal) last week.", "answers": ["was stolen"], "explanation": "Past passive: was + stolen."},
-        {"type": "open", "question": "7. The report _____ (must / finish) by Friday.", "answers": ["must be finished"], "explanation": "Modal passive: must be + past participle."},
-        {"type": "open", "question": "8. The play _____ (write) by Shakespeare.", "answers": ["was written"], "explanation": "Past passive: was written. By + agent."},
-        {"type": "open", "question": "9. The problem _____ (discuss) at the meeting tomorrow.", "answers": ["will be discussed"], "explanation": "Future passive: will be + discussed."},
-        {"type": "open", "question": "10. The window _____ (break) by the storm.", "answers": ["was broken"], "explanation": "Past passive: was + broken. By + agent."},
-        {"type": "open", "question": "11. The documents _____ (can / find) on the server.", "answers": ["can be found"], "explanation": "Modal passive: can be + found."},
-        {"type": "open", "question": "12. He _____ (arrest) by the police.", "answers": ["was arrested"], "explanation": "Past passive: was + arrested."}
+        {"type": "open", "question": "1. The letter _____ (send) yesterday. Put the verb in the correct tense.", "answers": ["was sent"], "explanation": "Past passive: was + past participle (sent)."},
+        {"type": "open", "question": "2. English _____ (speak) in many countries. Put the verb in the correct tense.", "answers": ["is spoken"], "explanation": "Present simple passive: is + spoken."},
+        {"type": "open", "question": "3. The new hospital _____ (open) last year. Put the verb in the correct tense.", "answers": ["was opened"], "explanation": "Past passive: was + opened."},
+        {"type": "open", "question": "4. The work _____ (already / do). Put the verb in the correct tense.", "answers": ["has already been done"], "explanation": "Present perfect passive: has been + done."},
+        {"type": "open", "question": "5. The room _____ (clean) every day. Put the verb in the correct tense.", "answers": ["is cleaned"], "explanation": "Present simple passive: is + cleaned."},
+        {"type": "open", "question": "6. My bike _____ (steal) last week. Put the verb in the correct tense.", "answers": ["was stolen"], "explanation": "Past passive: was + stolen."},
+        {"type": "open", "question": "7. The report _____ (must / finish) by Friday. Put the verb in the correct tense.", "answers": ["must be finished"], "explanation": "Modal passive: must be + past participle."},
+        {"type": "open", "question": "8. The play _____ (write) by Shakespeare. Put the verb in the correct tense.", "answers": ["was written"], "explanation": "Past passive: was written. By + agent."},
+        {"type": "open", "question": "9. The problem _____ (discuss) at the meeting tomorrow. Put the verb in the correct tense.", "answers": ["will be discussed"], "explanation": "Future passive: will be + discussed."},
+        {"type": "open", "question": "10. The window _____ (break) by the storm. Put the verb in the correct tense.", "answers": ["was broken"], "explanation": "Past passive: was + broken. By + agent."},
+        {"type": "open", "question": "11. The documents _____ (can / find) on the server. Put the verb in the correct tense.", "answers": ["can be found"], "explanation": "Modal passive: can be + found."},
+        {"type": "open", "question": "12. He _____ (arrest) by the police. Put the verb in the correct tense.", "answers": ["was arrested"], "explanation": "Past passive: was + arrested."}
       ]
     },
     "set2": {
@@ -896,14 +894,14 @@
       "title": "Passives – Mixed (gap fill)",
       "summary": "More practice: present/past/future passive, modal passive, by-agent.",
       "questions": [
-        {"type": "open", "question": "1. The house _____ (paint) at the moment.", "answers": ["is being painted"], "explanation": "Present continuous passive: is being + past participle."},
-        {"type": "open", "question": "2. The project _____ (complete) by next month.", "answers": ["will be completed"], "explanation": "Future passive: will be + past participle."},
-        {"type": "open", "question": "3. The message _____ (send) an hour ago.", "answers": ["was sent"], "explanation": "Past passive: was + sent."},
-        {"type": "open", "question": "4. The rules _____ (must / follow) by everyone.", "answers": ["must be followed"], "explanation": "Modal passive: must be + past participle."},
-        {"type": "open", "question": "5. The bridge _____ (build) in the 1960s.", "answers": ["was built"], "explanation": "Past passive: was built."},
-        {"type": "open", "question": "6. The application _____ (should / submit) before Friday.", "answers": ["should be submitted"], "explanation": "Modal passive: should be + past participle."},
-        {"type": "open", "question": "7. The car _____ (repair) by a local mechanic.", "answers": ["was repaired", "is being repaired"], "explanation": "Past or present passive + by agent."},
-        {"type": "open", "question": "8. New staff _____ (train) every month.", "answers": ["are trained", "is trained"], "explanation": "Present simple passive: are/is + trained."}
+        {"type": "open", "question": "1. The house _____ (paint) at the moment. Put the verb in the correct tense.", "answers": ["is being painted"], "explanation": "Present continuous passive: is being + past participle."},
+        {"type": "open", "question": "2. The project _____ (complete) by next month. Put the verb in the correct tense.", "answers": ["will be completed"], "explanation": "Future passive: will be + past participle."},
+        {"type": "open", "question": "3. The message _____ (send) an hour ago. Put the verb in the correct tense.", "answers": ["was sent"], "explanation": "Past passive: was + sent."},
+        {"type": "open", "question": "4. The rules _____ (must / follow) by everyone. Put the verb in the correct tense.", "answers": ["must be followed"], "explanation": "Modal passive: must be + past participle."},
+        {"type": "open", "question": "5. The bridge _____ (build) in the 1960s. Put the verb in the correct tense.", "answers": ["was built"], "explanation": "Past passive: was built."},
+        {"type": "open", "question": "6. The application _____ (should / submit) before Friday. Put the verb in the correct tense.", "answers": ["should be submitted"], "explanation": "Modal passive: should be + past participle."},
+        {"type": "open", "question": "7. The car _____ (repair) by a local mechanic. Put the verb in the correct tense.", "answers": ["was repaired", "is being repaired"], "explanation": "Past or present passive + by agent."},
+        {"type": "open", "question": "8. New staff _____ (train) every month. Put the verb in the correct tense.", "answers": ["are trained", "is trained"], "explanation": "Present simple passive: are/is + trained."}
       ]
     }
   },
@@ -962,18 +960,18 @@
       "title": "Past Simple and Past Continuous – Gap fill",
       "summary": "Choose past simple (completed action, specific time) or past continuous (action in progress, background). Interrupted: long = continuous, short = simple.",
       "questions": [
-        {"type": "open", "question": "1. I _____ (watch) TV when the phone rang.", "answers": ["was watching"], "explanation": "Action in progress when something happened → past continuous."},
-        {"type": "open", "question": "2. I was watching TV when the phone _____ (ring).", "answers": ["rang"], "explanation": "Short interrupting event → past simple."},
-        {"type": "open", "question": "3. She _____ (go) to the cinema yesterday.", "answers": ["went"], "explanation": "Completed action, yesterday → past simple."},
-        {"type": "open", "question": "4. While he _____ (cook), she was setting the table.", "answers": ["was cooking"], "explanation": "Two actions in progress → past continuous."},
-        {"type": "open", "question": "5. We _____ (have) dinner at 8 pm last night.", "answers": ["were having"], "explanation": "Action in progress at a moment → past continuous."},
-        {"type": "open", "question": "6. He _____ (walk) home when he met an old friend.", "answers": ["was walking"], "explanation": "Background action → past continuous."},
-        {"type": "open", "question": "7. They _____ (not watch) the film when I arrived.", "answers": ["weren't watching", "were not watching"], "explanation": "In progress (negative) → past continuous."},
-        {"type": "open", "question": "8. What _____ you _____ (do) when the lights went out?", "answers": ["were you doing"], "explanation": "What were you in the middle of → past continuous."},
-        {"type": "open", "question": "9. I saw him while I _____ (wait) for the bus.", "answers": ["was waiting"], "explanation": "Action in progress → past continuous."},
-        {"type": "open", "question": "10. The phone _____ (ring) while I was having a shower.", "answers": ["rang"], "explanation": "Short event → past simple."},
-        {"type": "open", "question": "11. At 9 pm she _____ (still work).", "answers": ["was still working"], "explanation": "In progress at a moment → past continuous."},
-        {"type": "open", "question": "12. He _____ (leave) the house when the postman arrived.", "answers": ["left"], "explanation": "Completed action (or short event) → past simple."}
+        {"type": "open", "question": "1. I _____ (watch) TV when the phone rang. Put the verb in the correct tense.", "answers": ["was watching"], "explanation": "Action in progress when something happened → past continuous."},
+        {"type": "open", "question": "2. I was watching TV when the phone _____ (ring). Put the verb in the correct tense.", "answers": ["rang"], "explanation": "Short interrupting event → past simple."},
+        {"type": "open", "question": "3. She _____ (go) to the cinema yesterday. Put the verb in the correct tense.", "answers": ["went"], "explanation": "Completed action, yesterday → past simple."},
+        {"type": "open", "question": "4. While he _____ (cook), she was setting the table. Put the verb in the correct tense.", "answers": ["was cooking"], "explanation": "Two actions in progress → past continuous."},
+        {"type": "open", "question": "5. We _____ (have) dinner at 8 pm last night. Put the verb in the correct tense.", "answers": ["were having"], "explanation": "Action in progress at a moment → past continuous."},
+        {"type": "open", "question": "6. He _____ (walk) home when he met an old friend. Put the verb in the correct tense.", "answers": ["was walking"], "explanation": "Background action → past continuous."},
+        {"type": "open", "question": "7. They _____ (not watch) the film when I arrived. Put the verb in the correct tense.", "answers": ["weren't watching", "were not watching"], "explanation": "In progress (negative) → past continuous."},
+        {"type": "open", "question": "8. What _____ you _____ (do) when the lights went out? Put the verb in the correct tense.", "answers": ["were you doing"], "explanation": "What were you in the middle of → past continuous."},
+        {"type": "open", "question": "9. I saw him while I _____ (wait) for the bus. Put the verb in the correct tense.", "answers": ["was waiting"], "explanation": "Action in progress → past continuous."},
+        {"type": "open", "question": "10. The phone _____ (ring) while I was having a shower. Put the verb in the correct tense.", "answers": ["rang"], "explanation": "Short event → past simple."},
+        {"type": "open", "question": "11. At 9 pm she _____ (still work). Put the verb in the correct tense.", "answers": ["was still working"], "explanation": "In progress at a moment → past continuous."},
+        {"type": "open", "question": "12. He _____ (leave) the house when the postman arrived. Put the verb in the correct tense.", "answers": ["left"], "explanation": "Completed action (or short event) → past simple."}
       ]
     },
     "set2": {
@@ -992,14 +990,14 @@
       "title": "Past Simple and Past Continuous – Mixed",
       "summary": "More practice: interrupted actions, parallel actions, completed vs in progress.",
       "questions": [
-        {"type": "open", "question": "1. She _____ (read) when someone knocked on the door.", "answers": ["was reading"], "explanation": "Action in progress when something happened → past continuous."},
-        {"type": "open", "question": "2. I _____ (not hear) the phone because I was in the garden.", "answers": ["didn't hear", "did not hear"], "explanation": "Completed/single event → past simple."},
-        {"type": "open", "question": "3. While they _____ (discuss) the plan, the boss arrived.", "answers": ["were discussing"], "explanation": "Background action → past continuous."},
-        {"type": "open", "question": "4. He _____ (fall) asleep while he was watching the film.", "answers": ["fell"], "explanation": "Short event → past simple."},
-        {"type": "open", "question": "5. At midnight she _____ (still / work).", "answers": ["was still working"], "explanation": "In progress at a moment → past continuous."},
-        {"type": "open", "question": "6. We _____ (walk) along the beach when we found a shell.", "answers": ["were walking"], "explanation": "Background action → past continuous."},
+        {"type": "open", "question": "1. She _____ (read) when someone knocked on the door. Put the verb in the correct tense.", "answers": ["was reading"], "explanation": "Action in progress when something happened → past continuous."},
+        {"type": "open", "question": "2. I _____ (not hear) the phone because I was in the garden. Put the verb in the correct tense.", "answers": ["didn't hear", "did not hear"], "explanation": "Completed/single event → past simple."},
+        {"type": "open", "question": "3. While they _____ (discuss) the plan, the boss arrived. Put the verb in the correct tense.", "answers": ["were discussing"], "explanation": "Background action → past continuous."},
+        {"type": "open", "question": "4. He _____ (fall) asleep while he was watching the film. Put the verb in the correct tense.", "answers": ["fell"], "explanation": "Short event → past simple."},
+        {"type": "open", "question": "5. At midnight she _____ (still / work). Put the verb in the correct tense.", "answers": ["was still working"], "explanation": "In progress at a moment → past continuous."},
+        {"type": "open", "question": "6. We _____ (walk) along the beach when we found a shell. Put the verb in the correct tense.", "answers": ["were walking"], "explanation": "Background action → past continuous."},
         {"type": "mc", "question": "7. I _____ a shower when the doorbell rang.", "options": {"a": "had", "b": "was having", "c": "have", "d": "am having"}, "correct_option": "b", "explanation": "Action in progress → past continuous."},
-        {"type": "open", "question": "8. They _____ (live) in Paris when the war started.", "answers": ["were living", "lived"], "explanation": "Situation in progress → past continuous or past simple."}
+        {"type": "open", "question": "8. They _____ (live) in Paris when the war started. Put the verb in the correct tense.", "answers": ["were living", "lived"], "explanation": "Situation in progress → past continuous or past simple."}
       ]
     }
   },
@@ -1015,7 +1013,7 @@
         {"type": "open", "question": "5. Don't _____ ! (stop trying)", "answers": ["give up"], "explanation": "Give up = stop trying."},
         {"type": "open", "question": "6. _____ the word in a dictionary. (search for)", "answers": ["Look up"], "explanation": "Look up = search for information."},
         {"type": "open", "question": "7. Who will _____ the children? (take care of)", "answers": ["look after"], "explanation": "Look after = take care of."},
-        {"type": "open", "question": "8. We _____ the meeting. (postponed)", "answers": ["put off"], "explanation": "Put off = postpone."},
+        {"type": "open", "question": "8. We _____ the meeting. Replace 'postponed' with a two-word phrasal verb that means the same.", "answers": ["put off"], "explanation": "Put off = postpone."},
         {"type": "open", "question": "9. _____ your homework. (submit)", "answers": ["Hand in"], "explanation": "Hand in = submit."},
         {"type": "open", "question": "10. We've _____ of milk. (used up)", "answers": ["run out"], "explanation": "Run out of = use up."},
         {"type": "open", "question": "11. They _____ the match. (cancelled)", "answers": ["called off"], "explanation": "Call off = cancel."},
@@ -1181,11 +1179,29 @@
         {"type": "open", "question": "1. I'm not sure when _____ . (Use the words: the train / leave. Statement order.)", "answers": ["the train leaves"], "explanation": "Embedded: when the train leaves."},
         {"type": "open", "question": "2. Do you know how long _____ ? (Use the words: it / take. Statement order.)", "answers": ["it takes"], "explanation": "Embedded: how long it takes."},
         {"type": "open", "question": "3. Tell me who _____ . (Use the words: that man / be. Statement order.)", "answers": ["that man is"], "explanation": "Embedded: who that man is."},
-        {"type": "open", "question": "4. I don't know whether _____ . (Use the words: she / be / come. Statement order.)", "answers": ["she is coming"], "explanation": "Yes/No embedded: whether she is coming."},
+        {"type": "open", "question": "4. I don't know whether _____ . Fill in the gap using the words: she, be, come. Use statement word order (e.g. she is coming, not is she coming).", "answers": ["she is coming"], "explanation": "Yes/No embedded: whether she is coming."},
         {"type": "open", "question": "5. Can you tell me how many _____ ? (Use the words: people / be / come. Statement order.)", "answers": ["people are coming"], "explanation": "Embedded: how many people are coming."},
         {"type": "open", "question": "6. I wonder what _____ . (Use the words: she / want. Statement order.)", "answers": ["she wants"], "explanation": "Embedded: what she wants."},
         {"type": "mc", "question": "7. Which is correct?", "options": {"a": "I don't know where is he.", "b": "I don't know where he is.", "c": "I don't know where he.", "d": "I don't know where does he."}, "correct_option": "b", "explanation": "Embedded: where he is (statement order)."},
         {"type": "open", "question": "8. Wrong: 'Do you know when does the shop open?' Correct the sentence.", "answers": ["Do you know when the shop opens?", "Do you know when the shop opens"], "explanation": "Embedded: when the shop opens (no 'does')."}
+      ]
+    }
+  },
+  "verb_subject_agreement": {
+    "set1": {
+      "title": "Verb–subject agreement",
+      "summary": "Verb agrees with subject: third person singular -s (has, goes, does, is), subject not words in between (The list of items is), compound subjects (and = plural; or/nor = nearest; each/every = singular).",
+      "questions": [
+        {"type": "open", "question": "1. Wrong: 'He have been to Paris.' Correct the sentence.", "answers": ["He has been to Paris.", "He has been to Paris"], "explanation": "Third person singular: he has (not have)."},
+        {"type": "open", "question": "2. Wrong: 'She don't know the answer.' Correct the sentence.", "answers": ["She doesn't know the answer.", "She does not know the answer.", "She doesn't know the answer", "She does not know the answer"], "explanation": "Third person singular: she doesn't (do → does)."},
+        {"type": "open", "question": "3. Wrong: 'The book on the shelves are old.' Correct the sentence.", "answers": ["The book on the shelves is old.", "The book on the shelves is old"], "explanation": "Subject is 'the book' (singular). The book is old."},
+        {"type": "open", "question": "4. Wrong: 'Everyone have their own copy.' Correct the sentence.", "answers": ["Everyone has their own copy.", "Everyone has his or her own copy.", "Everyone has their own copy", "Everyone has his or her own copy"], "explanation": "Everyone is singular → everyone has."},
+        {"type": "open", "question": "5. Wrong: 'He go to work by bus.' Correct the sentence.", "answers": ["He goes to work by bus.", "He goes to work by bus"], "explanation": "Third person singular present simple: he goes (add -es)."},
+        {"type": "open", "question": "6. Wrong: 'Neither the teacher nor the students was there.' Correct the sentence.", "answers": ["Neither the teacher nor the students were there.", "Neither the teacher nor the students were there"], "explanation": "With nor, verb agrees with the nearest subject (students = plural). Were."},
+        {"type": "open", "question": "7. Wrong: 'One of the windows are broken.' Correct the sentence.", "answers": ["One of the windows is broken.", "One of the windows is broken"], "explanation": "Subject is 'one' (singular). One is broken."},
+        {"type": "open", "question": "8. Wrong: 'It don't matter.' Correct the sentence.", "answers": ["It doesn't matter.", "It does not matter.", "It doesn't matter", "It does not matter"], "explanation": "Third person singular: it doesn't (do → does)."},
+        {"type": "open", "question": "9. Wrong: 'My brother have a car.' Correct the sentence.", "answers": ["My brother has a car.", "My brother has a car"], "explanation": "Third person singular: my brother = he → has."},
+        {"type": "open", "question": "10. Wrong: 'The news were bad.' Correct the sentence.", "answers": ["The news was bad.", "The news is bad.", "The news was bad", "The news is bad"], "explanation": "News is uncountable and takes a singular verb: the news was/is bad."}
       ]
     }
   },
@@ -1216,7 +1232,7 @@
         {"type": "open", "question": "4. Wrong: 'He said me to close the door.' Correct the sentence.", "answers": ["He told me to close the door.", "He told me to close the door"], "explanation": "Commands use tell + person + to-infinitive, not say."},
         {"type": "open", "question": "5. Wrong: 'She said she has finished.' (reporting past words) Correct the sentence.", "answers": ["She said she had finished.", "She said she had finished"], "explanation": "Present perfect → past perfect: had finished."},
         {"type": "open", "question": "6. Wrong: 'He asked if am I coming.' Correct the sentence.", "answers": ["He asked if I was coming.", "He asked if I was coming"], "explanation": "Yes/No reported: if + statement order (if I was coming)."},
-        {"type": "open", "question": "7. Wrong: 'She said to me that she will help.' (reporting past words) Correct the sentence.", "answers": ["She said to me that she would help.", "She told me that she would help.", "She said to me that she would help", "She told me that she would help"], "explanation": "Will → would when reporting in the past."},
+        {"type": "open", "question": "7. Wrong: 'She said to me that she will help.' Correct the sentence. We are reporting something that was said in the past, so change the tense of the verb in the that-clause. (You may keep 'said to me' or use 'told me'.)", "answers": ["She said to me that she would help.", "She told me that she would help.", "She said to me that she would help", "She told me that she would help"], "explanation": "Will → would when reporting in the past."},
         {"type": "open", "question": "8. Wrong: 'They asked what time is it.' Correct the sentence.", "answers": ["They asked what time it was.", "They asked what time it was"], "explanation": "Reported question: statement order (what time it was)."}
       ]
     },
@@ -1228,7 +1244,7 @@
         {"type": "open", "question": "2. \"What time does it start?\" → He asked what time _____ .", "answers": ["it started"], "explanation": "Reported question: statement order; backshift."},
         {"type": "open", "question": "3. \"Don't be late.\" → She _____ me not to be late.", "answers": ["told"], "explanation": "Reported negative command: tell + person + not to."},
         {"type": "open", "question": "4. \"I may come.\" → He said he _____ come.", "answers": ["might"], "explanation": "May → might in reported speech."},
-        {"type": "open", "question": "5. \"I'm leaving today.\" → She said she was leaving _____ .", "answers": ["that day"], "explanation": "Today → that day."},
+        {"type": "open", "question": "5. \"I'm leaving today.\" → She said she was leaving _____ . Change the time word (today) into the correct word for reported speech.", "answers": ["that day"], "explanation": "Today → that day."},
         {"type": "mc", "question": "6. \"Did you see him?\" → She asked me _____ .", "options": {"a": "did I see him", "b": "if I had seen him", "c": "if I see him", "d": "had I seen him"}, "correct_option": "b", "explanation": "Yes/No reported: if + statement order; past → had seen."},
         {"type": "open", "question": "7. \"I can't stay.\" → He said he _____ stay.", "answers": ["couldn't", "could not"], "explanation": "Can't → couldn't."},
         {"type": "open", "question": "8. \"Wait here.\" → She _____ me to wait there.", "answers": ["told"], "explanation": "Reported command: tell + person + to-infinitive; here → there."}
@@ -1241,15 +1257,15 @@
       "summary": "Zero: present + present. First: if + present, will. Second: if + past, would. Third: if + past perfect, would have.",
       "questions": [
         {"type": "open", "question": "1. Zero: If you heat ice, it _____.", "answers": ["melts"], "explanation": "Zero conditional: present + present for facts."},
-        {"type": "open", "question": "2. First: If it _____ tomorrow, we will stay at home.", "answers": ["rains"], "explanation": "First: if + present (rains), will in main clause."},
+        {"type": "open", "question": "2. First: If it _____ tomorrow, we will stay at home.", "answers": ["rains"], "explanation": "First conditional: if + present (rains), will in main clause."},
         {"type": "open", "question": "3. Second: If I _____ more time, I would help you.", "answers": ["had"], "explanation": "Second conditional: if + past simple."},
-        {"type": "open", "question": "4. Second: If I were you, I _____ (apologise).", "answers": ["would apologise"], "explanation": "Second: would + base in main clause."},
-        {"type": "open", "question": "5. Third: If I _____ (know), I would have told you.", "answers": ["had known"], "explanation": "Third conditional: if + past perfect."},
-        {"type": "open", "question": "6. Third: If she had left earlier, she _____ (catch) the train.", "answers": ["would have caught"], "explanation": "Third: would have + past participle in main clause."},
-        {"type": "open", "question": "7. First: If you _____ early, call me.", "answers": ["finish"], "explanation": "First: if + present; main clause can be imperative."},
-        {"type": "open", "question": "8. Zero: If you don't sleep well, you _____ tired.", "answers": ["feel"], "explanation": "Zero: present in both clauses."},
-        {"type": "open", "question": "9. Second: If we _____ (win) the lottery, we would travel the world.", "answers": ["won"], "explanation": "Second: if + past simple (won)."},
-        {"type": "open", "question": "10. Third: If they hadn't missed the flight, they _____ (arrive) on time.", "answers": ["would have arrived"], "explanation": "Third: would have + past participle."}
+        {"type": "open", "question": "4. Second: If I were you, I _____ (apologise). Put the verb in the correct tense.", "answers": ["would apologise"], "explanation": "Second conditional: would + base in main clause."},
+        {"type": "open", "question": "5. Third: If I _____ (know), I would have told you. Put the verb in the correct tense.", "answers": ["had known"], "explanation": "Third conditional: if + past perfect."},
+        {"type": "open", "question": "6. Third: If she had left earlier, she _____ (catch) the train. Put the verb in the correct tense.", "answers": ["would have caught"], "explanation": "Third conditional: would have + past participle in main clause."},
+        {"type": "open", "question": "7. First: If you _____ early, call me.", "answers": ["finish"], "explanation": "First conditional: if + present; main clause can be imperative."},
+        {"type": "open", "question": "8. Zero: If you don't sleep well, you _____ tired.", "answers": ["feel"], "explanation": "Zero conditional: present in both clauses."},
+        {"type": "open", "question": "9. Second: If we _____ (win) the lottery, we would travel the world. Put the verb in the correct tense.", "answers": ["won"], "explanation": "Second conditional: if + past simple (won)."},
+        {"type": "open", "question": "10. Third: If they hadn't missed the flight, they _____ (arrive) on time. Put the verb in the correct tense.", "answers": ["would have arrived"], "explanation": "Third conditional: would have + past participle."}
       ]
     },
     "set2": {
@@ -1270,14 +1286,14 @@
       "title": "Conditionals – Mixed",
       "summary": "More practice: zero, first, second, third – gap fill and choosing the right form.",
       "questions": [
-        {"type": "open", "question": "1. Zero: If you _____ (drop) a glass, it breaks.", "answers": ["drop"], "explanation": "Zero: present in both clauses."},
-        {"type": "open", "question": "2. First: If she _____ (call), tell her I'm out.", "answers": ["calls"], "explanation": "First: if + present; imperative in main clause."},
-        {"type": "open", "question": "3. Second: If I _____ (have) enough money, I would buy a car.", "answers": ["had"], "explanation": "Second: if + past simple."},
-        {"type": "open", "question": "4. Third: If they _____ (invite) us, we would have gone.", "answers": ["had invited"], "explanation": "Third: if + past perfect."},
-        {"type": "open", "question": "5. First: We won't go if it _____ (rain).", "answers": ["rains"], "explanation": "First: present in if-clause."},
-        {"type": "open", "question": "6. Second: I would tell you if I _____ (know) the answer.", "answers": ["knew"], "explanation": "Second: if + past simple."},
+        {"type": "open", "question": "1. Zero: If you _____ (drop) a glass, it breaks. Put the verb in the correct tense.", "answers": ["drop"], "explanation": "Zero conditional: present in both clauses."},
+        {"type": "open", "question": "2. First: If she _____ (call), tell her I'm out. Put the verb in the correct tense.", "answers": ["calls"], "explanation": "First conditional: if + present; imperative in main clause."},
+        {"type": "open", "question": "3. Second: If I _____ (have) enough money, I would buy a car. Put the verb in the correct tense.", "answers": ["had"], "explanation": "Second conditional: if + past simple."},
+        {"type": "open", "question": "4. Third: If they _____ (invite) us, we would have gone. Put the verb in the correct tense.", "answers": ["had invited"], "explanation": "Third conditional: if + past perfect."},
+        {"type": "open", "question": "5. First: We won't go if it _____ (rain). Put the verb in the correct tense.", "answers": ["rains"], "explanation": "First conditional: present in if-clause."},
+        {"type": "open", "question": "6. Second: I would tell you if I _____ (know) the answer. Put the verb in the correct tense.", "answers": ["knew"], "explanation": "Second conditional: if + past simple."},
         {"type": "mc", "question": "7. If I _____ you, I would apologise.", "options": {"a": "am", "b": "was", "c": "were", "d": "would be"}, "correct_option": "c", "explanation": "Second conditional: if I were you (formal)."},
-        {"type": "open", "question": "8. Third: If he had driven carefully, he _____ (not have) an accident.", "answers": ["wouldn't have had", "would not have had"], "explanation": "Third: would have + past participle in main clause."}
+        {"type": "open", "question": "8. Third: If he had driven carefully, he _____ (not have) an accident. Put the verb in the correct tense.", "answers": ["wouldn't have had", "would not have had"], "explanation": "Third conditional: would have + past participle in main clause."}
       ]
     }
   },
@@ -1301,8 +1317,8 @@
   },
   "countable_uncountable": {
     "set1": {
-      "title": "Nouns: Countable and uncountable",
-      "summary": "Uncountable (advice, information, news, homework); always plural (scissors, trousers, glasses); correct verb and quantifiers.",
+      "title": "Uncountable Nouns and Plural-only Nouns",
+      "summary": "Uncountable (advice, information, news, homework); plural-only (scissors, trousers, glasses); correct verb and quantifiers.",
       "questions": [
         {"type": "open", "question": "1. Wrong: 'Can you give me an advice?' Correct the sentence.", "answers": ["Can you give me some advice?", "Can you give me a piece of advice?", "Can you give me some advice", "Can you give me a piece of advice"], "explanation": "Advice is uncountable; use 'some advice' or 'a piece of advice'."},
         {"type": "open", "question": "2. Wrong: 'I need more informations.' Correct the sentence.", "answers": ["I need more information.", "I need more information"], "explanation": "Information is uncountable; no plural -s."},

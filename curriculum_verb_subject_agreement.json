@@ -1,0 +1,85 @@
+{
+  "intro": {
+    "title": "Verb–subject agreement",
+    "sections": [
+      {
+        "title": "What is verb–subject agreement?",
+        "content": "The **verb** must match the **subject** in number:\n\n• **Singular subject** → singular verb: The cat **is** here. He **works** every day.\n• **Plural subject** → plural verb: The cats **are** here. They **work** every day.\n\nWrong: *The cat are here.* *They works.* Right: The cat **is**; They **work**.\n\n• **Check** – test your understanding.\n• **Practice** – correct agreement errors."
+      },
+      {
+        "title": "Third person singular: the -s",
+        "content": "In the **present simple**, when the subject is **third person singular** (he, she, it, or one person/thing), we add **-s** (or -es) to the verb:\n\n• I/you/we/they **have** → he/she/it **has**\n• I/you/we/they **go** → he/she/it **goes**\n• I/you/we/they **do** → he/she/it **does**\n• I/you/we/they **are** → he/she/it **is**\n\nWrong: *He have been.* *She don't know.* *It go wrong.*\nRight: He **has** been. She **doesn't** know. It **goes** wrong.\n\n**Have** and **do** are irregular: he/she/it **has**, **does** (not haves, do)."
+      },
+      {
+        "title": "Don't be fooled by words in between",
+        "content": "The verb agrees with the **subject**, not with a noun that comes later in the sentence:\n\n• **The list** of items **is** on the table. (subject = list, singular)\n• **One** of the students **was** late. (subject = one)\n• **The people** in the room **are** waiting. (subject = people, plural)\n\nWrong: *The list of items are on the table.* Right: The list **is**."
+      },
+      {
+        "title": "Compound subjects",
+        "content": "• **A and B** (two subjects joined by *and*) → usually **plural**: Tom and Anna **are** friends.\n• **A or B** / **Neither A nor B** → verb agrees with the **nearest** subject: Neither the teacher nor the students **were** there. (nearest = students, plural)\n• **Each** / **Every** → singular: Each of us **has** a copy. Every student **takes** the test."
+      },
+      {
+        "title": "Quick summary",
+        "content": "• Singular subject → singular verb; plural subject → plural verb.\n• **Third person singular** (he/she/it): present simple adds **-s** (has, goes, does, is).\n• Wrong: *He have been* → Right: He **has** been.\n• Find the real subject; ignore words in between (The list of items **is**).\n• And = plural; or/nor = agree with nearest; each/every = singular."
+      }
+    ]
+  },
+  "check": {
+    "title": "Test your understanding",
+    "questions": [
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {"a": "He have been ill.", "b": "He has been ill.", "c": "He has been ill. (same)", "d": "He having been ill."},
+        "correct_option": "b",
+        "explanation": "Third person singular: he/she/it takes has (not have). He has been ill."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {"a": "She don't like it.", "b": "She doesn't like it.", "c": "She not like it.", "d": "She doesn't likes it."},
+        "correct_option": "b",
+        "explanation": "Third person singular: she + present simple = doesn't like (do → does; like stays without -s after does)."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {"a": "The list of items are on the table.", "b": "The list of items is on the table.", "c": "The list of items be on the table.", "d": "The list of items were on the table."},
+        "correct_option": "b",
+        "explanation": "Subject is 'the list' (singular), not 'items'. The list is on the table."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {"a": "Each of the students have a book.", "b": "Each of the students has a book.", "c": "Each of the students having a book.", "d": "Each of the students are having a book."},
+        "correct_option": "b",
+        "explanation": "Each is singular, so the verb is singular: each has a book."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {"a": "Tom and Anna is late.", "b": "Tom and Anna are late.", "c": "Tom and Anna be late.", "d": "Tom and Anna was late."},
+        "correct_option": "b",
+        "explanation": "Two subjects with 'and' = plural. Tom and Anna are late."
+      }
+    ]
+  },
+  "practice_order": ["verb_subject_agreement"],
+  "practice": {
+    "verb_subject_agreement": {
+      "title": "Practice: Verb–subject agreement",
+      "questions": [
+        {"type": "open", "question": "Wrong: 'He have been to Paris.' Correct the sentence.", "answers": ["He has been to Paris.", "He has been to Paris"], "explanation": "Third person singular: he has (not have)."},
+        {"type": "open", "question": "Wrong: 'She don't know the answer.' Correct the sentence.", "answers": ["She doesn't know the answer.", "She does not know the answer.", "She doesn't know the answer", "She does not know the answer"], "explanation": "Third person singular: she doesn't (do → does)."},
+        {"type": "open", "question": "Wrong: 'The book on the shelves are old.' Correct the sentence.", "answers": ["The book on the shelves is old.", "The book on the shelves is old"], "explanation": "Subject is 'the book' (singular). The book is old."},
+        {"type": "open", "question": "Wrong: 'Everyone have their own copy.' Correct the sentence.", "answers": ["Everyone has their own copy.", "Everyone has his or her own copy.", "Everyone has their own copy", "Everyone has his or her own copy"], "explanation": "Everyone is singular → everyone has."},
+        {"type": "open", "question": "Wrong: 'He go to work by bus.' Correct the sentence.", "answers": ["He goes to work by bus.", "He goes to work by bus"], "explanation": "Third person singular present simple: he goes (add -es)."},
+        {"type": "open", "question": "Wrong: 'Neither the teacher nor the students was there.' Correct the sentence.", "answers": ["Neither the teacher nor the students were there.", "Neither the teacher nor the students were there"], "explanation": "With nor, verb agrees with the nearest subject (students = plural). Were."},
+        {"type": "open", "question": "Wrong: 'One of the windows are broken.' Correct the sentence.", "answers": ["One of the windows is broken.", "One of the windows is broken"], "explanation": "Subject is 'one' (singular). One is broken."},
+        {"type": "open", "question": "Wrong: 'It don't matter.' Correct the sentence.", "answers": ["It doesn't matter.", "It does not matter.", "It doesn't matter", "It does not matter"], "explanation": "Third person singular: it doesn't (do → does)."},
+        {"type": "open", "question": "Wrong: 'My brother have a car.' Correct the sentence.", "answers": ["My brother has a car.", "My brother has a car"], "explanation": "Third person singular: my brother = he → has."},
+        {"type": "open", "question": "Wrong: 'The news were bad.' Correct the sentence.", "answers": ["The news was bad.", "The news is bad.", "The news was bad", "The news is bad"], "explanation": "News is uncountable and takes a singular verb: the news was/is bad."}
+      ]
+    }
+  }
+}

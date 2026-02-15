@@ -47,7 +47,7 @@
         {"type": "open", "question": "Don't _____ ! (stop trying)", "answers": ["give up"], "explanation": "Give up = stop trying."},
         {"type": "open", "question": "_____ the word in a dictionary. (search for)", "answers": ["Look up"], "explanation": "Look up = search for information."},
         {"type": "open", "question": "Who will _____ the children? (take care of)", "answers": ["look after"], "explanation": "Look after = take care of."},
-        {"type": "open", "question": "We _____ the meeting. (postponed)", "answers": ["put off"], "explanation": "Put off = postpone."},
+        {"type": "open", "question": "We _____ the meeting. Replace 'postponed' with a two-word phrasal verb that means the same.", "answers": ["put off"], "explanation": "Put off = postpone."},
         {"type": "open", "question": "_____ your homework. (submit)", "answers": ["Hand in"], "explanation": "Hand in = submit."},
         {"type": "open", "question": "We've _____ of milk. (used up)", "answers": ["run out"], "explanation": "Run out of = use up, have none left."},
         {"type": "open", "question": "They _____ the match. (cancelled)", "answers": ["called off"], "explanation": "Call off = cancel."},

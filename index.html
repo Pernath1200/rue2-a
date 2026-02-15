@@ -74,6 +74,7 @@
     .result-ok { color: var(--correct); }
     .result-fail { color: var(--wrong); }
     .progress { margin-bottom: 1rem; color: var(--muted); font-size: 0.9rem; }
+    .topic-label { display: block; font-size: 0.85rem; color: var(--accent); margin-bottom: 0.35rem; font-weight: 600; }
     input[type="text"] { width: 100%; padding: 0.6rem; border-radius: var(--radius); border: 1px solid var(--muted); background: var(--bg); color: var(--text); }
     .summary { margin-top: 1.5rem; padding: 1rem; background: var(--surface); border-radius: var(--radius); font-size: 0.9rem; line-height: 1.6; }
     .hidden { display: none !important; }
@@ -112,36 +113,53 @@
 <body>
   <div class="container">
     <h1>English Grammar Check</h1>
-    <p class="sub">Choose a topic and start the quiz.</p>
+    <p class="sub">Test yourself, then practise by topic.</p>
 
     <div id="menuScreen" class="card">
       <div id="menuQuiz">
         <div class="scores" id="scoresSummary"></div>
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Mixed cloze: find weak areas, then revise by topic.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.875rem;">Not sure where to start? Do this first.</p>
         <div class="actions" style="margin-bottom: 1rem;">
-          <button type="button" id="startDiagnosticBtn" class="secondary">Quick grammar check</button>
-          <button type="button" id="startMixedPracticeBtn" class="secondary">Mixed cloze practice</button>
+          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Quick grammar check</button>
         </div>
         <hr style="border: none; border-top: 1px solid var(--muted); margin: 1rem 0;" />
-        <label for="topicSelect" id="topicLabel" class="hidden">Topic</label>
-        <select id="topicSelect" class="hidden" style="margin-bottom: 0.5rem;"></select>
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 1: Intro, rules & test. Part 2: Practice. Part 3: Free practice.</p>
-        <button type="button" id="startPart1Btn" class="secondary">Part 1: Intro, rules & test</button>
-        <button type="button" id="startPart2Btn" class="secondary">Part 2: Practice</button>
+        <select id="topicSelect" class="hidden" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
+        <button type="button" id="startPart1Btn" class="secondary">Learn &amp; test</button>
+        <button type="button" id="startPart2Btn" class="secondary">Guided practice</button>
+        <button type="button" id="openPracticeSetupBtn" class="secondary">Full practice</button>
         <button type="button" id="viewPrepositionsListBtn" class="secondary hidden">View preposition lists (print &amp; download)</button>
         <button type="button" id="viewPhrasalVerbsDictionaryBtn" class="secondary hidden">View phrasal verb dictionary (print &amp; download)</button>
-        <hr style="border: none; border-top: 1px solid var(--muted); margin: 1rem 0;" />
-        <label for="setSelect">Part 3: Free practice – choose a set</label>
-        <select id="setSelect"></select>
-        <label for="numQuestions">Number of questions (leave empty for all)</label>
-        <input type="number" id="numQuestions" min="1" placeholder="All">
-        <label><input type="checkbox" id="shuffleCheck"> Shuffle order</label>
+        <div id="practiceWeakSpotsWrap" class="hidden" style="margin-top: 0.75rem;">
+          <button type="button" id="startWeakSpotsBtn" class="secondary">Practice weak spots</button>
+        </div>
         <div class="memory-bank" id="memoryBankSummary"></div>
-        <button id="startBtn">Start quiz</button>
+      </div>
+      <div id="menuPracticeSetup" class="hidden">
+        <p id="practiceSetupTopic" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;"></p>
+        <label for="numQuestionsSelect">Questions</label>
+        <select id="numQuestionsSelect">
+          <option value="20">20</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+        <p style="margin-top: 0.75rem; color: var(--muted); font-size: 0.85rem; line-height: 1.4;">Reps build habits. 20 correct → good. 50 → strong. 100+ → automatic.</p>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
+          <button type="button" id="practiceSetupBackBtn" class="secondary">Back</button>
+          <button type="button" id="startBtn">Start quiz</button>
+        </div>
+      </div>
+      <div id="menuDiagnosticSetup" class="hidden">
+        <p style="margin-bottom: 0.75rem; color: var(--muted); font-size: 0.9rem;">Choose how many questions. Wrong answers will suggest topics to revise.</p>
+        <div class="actions" style="margin-bottom: 0.5rem;">
+          <button type="button" id="diagnostic20Btn" class="secondary">Basic – 20 questions</button>
+          <button type="button" id="diagnostic50Btn" class="secondary">Standard – 50 questions</button>
+          <button type="button" id="diagnostic100Btn" class="secondary">Full – 100 questions</button>
+        </div>
+        <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.75rem;">Back</button>
       </div>
     </div>
 
-    <div style="margin-top: 1.5rem; margin-bottom: 1rem;">
+    <div style="margin-top: 1.25rem;">
       <button type="button" id="openReferenceBtn" class="secondary">Reference</button>
     </div>
 
@@ -186,6 +204,7 @@
       <div class="card">
         <h3 id="sectionCompleteTitle"></h3>
         <p id="sectionCompleteScore"></p>
+        <p id="sectionCompleteNextStep" class="hidden" style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--muted);"></p>
         <div id="sectionCompleteCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
           <div id="sectionCompleteCorrectList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
@@ -210,7 +229,6 @@
         </div>
         <div class="actions">
           <button id="retryWrongBtn" class="secondary">Retry wrong answers</button>
-          <button id="exportWrongBtn" class="secondary">Download wrong answers</button>
           <button id="backToMenuBtn">Back to menu</button>
         </div>
       </div>
@@ -388,50 +406,28 @@
     }
 
     function renderMenu() {
-      const select = document.getElementById('setSelect');
-      select.innerHTML = '';
       const weakSpots = getWeakSpotQuestions();
-      if (weakSpots.length > 0) {
-        const wOpt = document.createElement('option');
-        wOpt.value = 'weakspots';
-        wOpt.textContent = 'Practice weak spots (' + weakSpots.length + ' questions)';
-        select.appendChild(wOpt);
+      const weakWrap = document.getElementById('practiceWeakSpotsWrap');
+      const weakBtn = document.getElementById('startWeakSpotsBtn');
+      if (weakSpots.length > 0 && weakWrap && weakBtn) {
+        weakWrap.classList.remove('hidden');
+        weakBtn.textContent = 'Practice weak spots (' + weakSpots.length + ' questions)';
+      } else if (weakWrap) {
+        weakWrap.classList.add('hidden');
       }
-      const ids = Object.keys(setsData);
-      ids.forEach(id => {
-        const opt = document.createElement('option');
-        opt.value = id;
-        opt.textContent = setsData[id].title + ' (' + (setsData[id].questions?.length || 0) + ' questions)';
-        select.appendChild(opt);
-      });
-      const allOpt = document.createElement('option');
-      allOpt.value = 'all';
-      allOpt.textContent = currentTopic.id === 'spelling' ? 'All sets combined (20 random questions)' : 'All sets combined';
-      select.appendChild(allOpt);
 
       const summaryEl = document.getElementById('scoresSummary');
-      const selVal = select.value;
-      if (selVal === 'weakspots') {
-        summaryEl.textContent = weakSpots.length + ' questions you\'ve got wrong before – practise them to improve.';
+      const lastBest = getLastBest(currentTopic.id);
+      if (lastBest.last) {
+        summaryEl.textContent = 'Last: ' + lastBest.last[0] + '/' + lastBest.last[1] +
+          (lastBest.best && (lastBest.best[0] !== lastBest.last[0] || lastBest.best[1] !== lastBest.last[1])
+            ? '  •  Best: ' + lastBest.best[0] + '/' + lastBest.best[1] : '');
       } else {
-        const lastBest = getLastBest(selVal);
-        if (lastBest.last) {
-          summaryEl.textContent = `Last: ${lastBest.last[0]}/${lastBest.last[1]}` +
-            (lastBest.best && (lastBest.best[0] !== lastBest.last[0] || lastBest.best[1] !== lastBest.last[1])
-              ? `  •  Best: ${lastBest.best[0]}/${lastBest.best[1]}` : '');
-        } else {
-          summaryEl.textContent = '';
-        }
+        summaryEl.textContent = '';
       }
 
       const memEl = document.getElementById('memoryBankSummary');
-      const bank = loadMemoryBank();
-      const wrongCount = Object.values(bank).filter(v => v.wrong > 0).length;
-      if (wrongCount > 0) {
-        memEl.innerHTML = '<p><strong>Memory bank:</strong> ' + wrongCount + ' question(s) to review. Choose "Practice weak spots" from Part 3 (Free practice) and start the quiz.</p>';
-      } else {
-        memEl.innerHTML = '';
-      }
+      memEl.innerHTML = '';
 
       document.getElementById('menuScreen').classList.remove('hidden');
       document.getElementById('quizScreen').classList.add('hidden');
@@ -442,6 +438,9 @@
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       document.getElementById('referenceScreen').classList.add('hidden');
       document.getElementById('menuQuiz').classList.remove('hidden');
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      const diagSetup = document.getElementById('menuDiagnosticSetup');
+      if (diagSetup) diagSetup.classList.add('hidden');
       document.getElementById('viewPrepositionsListBtn').classList.add('hidden');
       document.getElementById('viewPhrasalVerbsDictionaryBtn').classList.add('hidden');
     }
@@ -650,7 +649,7 @@
       const btn8 = document.createElement('button');
       btn8.type = 'button';
       btn8.className = 'secondary';
-      btn8.textContent = 'Uncountable nouns & always plural';
+      btn8.textContent = 'Uncountable Nouns and Plural-only Nouns';
       btn8.style.marginBottom = '0.5rem';
       btn8.style.display = 'block';
       btn8.addEventListener('click', showReferenceCountableUncountable);
@@ -830,7 +829,7 @@
     function renderReferenceCountableUncountableContent(data) {
       if (!data) return;
       referenceView = 'countable_uncountable';
-      document.getElementById('referenceTitle').textContent = data.title || 'Uncountable nouns & always plural';
+      document.getElementById('referenceTitle').textContent = data.title || 'Uncountable Nouns and Plural-only Nouns';
       const content = document.getElementById('referenceContent');
       content.innerHTML = '';
       const esc = (s) => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -858,7 +857,7 @@
         content.appendChild(table);
       };
       addSection('30 common uncountable nouns', data.uncountable || [], ['word', 'note']);
-      addSection('Nouns that are always plural (20)', data.always_plural || [], ['word', 'note']);
+      addSection('Plural-only nouns (20)', data.always_plural || [], ['word', 'note']);
       document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
       document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
     }
@@ -879,7 +878,7 @@
 
     function countableUncountableAsText(data) {
       if (!data) return '';
-      const lines = [(data.title || 'Uncountable nouns & always plural'), ''];
+      const lines = [(data.title || 'Uncountable Nouns and Plural-only Nouns'), ''];
       const addTable = (label, arr) => {
         if (!arr || !arr.length) return;
         lines.push(label);
@@ -888,7 +887,7 @@
         lines.push('');
       };
       addTable('30 common uncountable nouns', data.uncountable || []);
-      addTable('Nouns that are always plural (20)', data.always_plural || []);
+      addTable('Plural-only nouns (20)', data.always_plural || []);
       return lines.join('\n');
     }
 
@@ -1149,7 +1148,6 @@
           });
           document.getElementById('ruleSummary').textContent = 'You have finished Practice: ' + sectionNames.join(', ') + '.';
           document.getElementById('retryWrongBtn').classList.add('hidden');
-          document.getElementById('exportWrongBtn').classList.add('hidden');
           coursePart = null;
         }
         return;
@@ -1204,7 +1202,8 @@
       startCourseSection(first);
     }
 
-    async function startDiagnostic() {
+    async function startDiagnostic(num) {
+      num = Math.min(100, Math.max(20, parseInt(num, 10) || 50));
       let allData;
       try {
         const res = await fetch(new URL('questions.json?v=3', getBaseUrl()));
@@ -1230,11 +1229,11 @@
         const j = Math.floor(Math.random() * (i + 1));
         [pool[i], pool[j]] = [pool[j], pool[i]];
       }
-      const max = Math.min(50, pool.length);
+      const max = Math.min(num, pool.length);
       currentQuestions = pool.slice(0, max);
       currentSetId = 'diagnostic';
       currentSetTitle = 'Quick grammar check';
-      summary = '50 questions from all topics (random order). Wrong answers point to topics you need to revise.';
+      summary = max + ' questions from all topics (random order). Wrong answers point to topics you need to revise.';
       currentIndex = 0;
       score = 0;
       wrongIndices = [];
@@ -1284,37 +1283,23 @@
       coursePhase = null;
       quizMode = 'normal';
       wrongTopics = new Set();
-      const setSelect = document.getElementById('setSelect');
-      const setId = setSelect.value;
-      const numInput = document.getElementById('numQuestions');
-      let questions;
-      if (setId === 'weakspots') {
-        questions = getWeakSpotQuestions();
-        if (questions.length === 0) { alert('No weak spots yet. Do a quiz and get some wrong to build your memory bank.'); return; }
-        for (let i = questions.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [questions[i], questions[j]] = [questions[j], questions[i]];
-        }
-      } else {
-        questions = setId === 'all'
-          ? Object.values(setsData).flatMap(s => s.questions || [])
-          : [...(setsData[setId]?.questions || [])];
-        if (document.getElementById('shuffleCheck').checked || (currentTopic.id === 'spelling' && setId === 'all')) {
-          for (let i = questions.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [questions[i], questions[j]] = [questions[j], questions[i]];
-          }
-        }
-        if (currentTopic.id === 'spelling' && setId === 'all') {
-          questions = questions.slice(0, 20);
-        }
+      const numSelect = document.getElementById('numQuestionsSelect');
+      const num = Math.min(100, Math.max(20, parseInt(numSelect && numSelect.value, 10) || 20));
+      const pool = Object.values(setsData).flatMap(s => s.questions || []);
+      if (pool.length === 0) {
+        alert('No questions available for this topic.');
+        return;
       }
-      const max = (currentTopic.id === 'spelling' && setId === 'all') ? questions.length : (numInput.value ? Math.min(parseInt(numInput.value, 10) || questions.length, questions.length) : questions.length);
-      questions = questions.slice(0, max);
-      currentQuestions = questions;
-      currentSetId = setId;
-      currentSetTitle = setId === 'weakspots' ? 'Practice weak spots' : (setId === 'all' ? 'All sets combined' : (setsData[setId]?.title || setId));
-      summary = setId === 'weakspots' ? 'These are questions you got wrong before. Keep practising!' : (setId === 'all' ? (currentTopic.id === 'spelling' ? '20 random questions from all spelling sets.' : 'Mixed practice from all sets.') : (setsData[setId]?.summary || ''));
+      const questions = pool.slice();
+      for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+      }
+      const max = Math.min(num, questions.length);
+      currentQuestions = questions.slice(0, max);
+      currentSetId = currentTopic.id;
+      currentSetTitle = (currentTopic.title || currentTopic.id) + ' (' + max + ' questions)';
+      summary = max + ' questions from this topic (random order).';
       currentIndex = 0;
       score = 0;
       wrongIndices = [];
@@ -1327,12 +1312,58 @@
       showQuestion();
     }
 
+    function startWeakSpotsQuiz() {
+      coursePhase = null;
+      quizMode = 'normal';
+      wrongTopics = new Set();
+      const questions = getWeakSpotQuestions();
+      if (questions.length === 0) {
+        alert('No weak spots yet. Do a quiz and get some wrong to build your memory bank.');
+        return;
+      }
+      const shuffled = questions.slice();
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      currentQuestions = shuffled;
+      currentSetId = 'weakspots';
+      currentSetTitle = 'Practice weak spots (' + shuffled.length + ' questions)';
+      summary = 'Questions you got wrong before – keep practising!';
+      currentIndex = 0;
+      score = 0;
+      wrongIndices = [];
+      isRetryRound = false;
+
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('quizScreen').classList.remove('hidden');
+      document.getElementById('feedbackBlock').classList.add('hidden');
+      document.getElementById('exitQuizBtn').textContent = 'Exit quiz';
+      showQuestion();
+    }
+
+    function getTopicTitle(topicId) {
+      const t = (topics || []).find(x => x.id === topicId);
+      return t ? (t.title || topicId) : topicId;
+    }
+    function getTopicLabelForDisplay(topicId) {
+      const title = getTopicTitle(topicId);
+      if (title && title.indexOf('Tenses:') === 0) return 'Tenses';
+      return title;
+    }
+
     function showQuestion() {
       const q = currentQuestions[currentIndex];
       const total = currentQuestions.length;
       document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${total}`;
       const promptText = (q.prompt || q.question || '').replace(/^\d+\.\s*/, '').trim();
-      document.getElementById('questionText').textContent = promptText;
+      const topicLabel = q.topic ? getTopicLabelForDisplay(q.topic) : '';
+      const questionEl = document.getElementById('questionText');
+      if (topicLabel) {
+        questionEl.innerHTML = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</span>' + promptText.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      } else {
+        questionEl.textContent = promptText;
+      }
       document.getElementById('openBlock').classList.add('hidden');
       document.getElementById('mcBlock').classList.add('hidden');
       document.getElementById('openInput').value = '';
@@ -1389,7 +1420,11 @@
 
       const correctAnswerText = q.type === 'mc' ? (q.options && q.options[q.correct_option]) : (q.answers && q.answers[0]);
       const raw = (q.explanation || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      const explanationHtml = raw.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      let explanationHtml = raw.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      if (q.topic && explanationHtml) {
+        const topicLabel = getTopicLabelForDisplay(q.topic);
+        explanationHtml = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + ':</span> ' + explanationHtml;
+      }
       if (correct) {
         document.getElementById('feedbackText').innerHTML = '<span class="result-ok">Correct!</span>';
         document.getElementById('explanation').innerHTML = explanationHtml ? '<span class="explanation-label">Explanation:</span> ' + explanationHtml : '';
@@ -1433,6 +1468,14 @@
       if (coursePhase) {
         document.getElementById('sectionCompleteTitle').textContent = coursePart === 1 ? 'Part 1 complete' : (currentSetTitle + ' – complete');
         document.getElementById('sectionCompleteScore').textContent = 'Score: ' + score + ' / ' + currentQuestions.length;
+        const sectionNextStepEl = document.getElementById('sectionCompleteNextStep');
+        if (coursePart === 1) {
+          sectionNextStepEl.textContent = 'Suggested next step: Guided Practice';
+          sectionNextStepEl.classList.remove('hidden');
+        } else {
+          sectionNextStepEl.classList.add('hidden');
+          sectionNextStepEl.textContent = '';
+        }
         const sectionCorrectBlock = document.getElementById('sectionCompleteCorrectBlock');
         const sectionCorrectList = document.getElementById('sectionCompleteCorrectList');
         if (isSpellingWithWrong) {
@@ -1449,7 +1492,6 @@
         document.getElementById('resultScore').textContent = `Score: ${score} / ${currentQuestions.length}`;
         document.getElementById('ruleSummary').textContent = summary;
         document.getElementById('retryWrongBtn').classList.toggle('hidden', wrongIndices.length === 0);
-        document.getElementById('exportWrongBtn').classList.toggle('hidden', wrongIndices.length === 0);
         const wrongCorrectBlock = document.getElementById('wrongAnswersCorrectBlock');
         const wrongCorrectList = document.getElementById('wrongAnswersCorrectList');
         if (isSpellingWithWrong) {
@@ -1499,34 +1541,31 @@
       showQuestion();
     }
 
-    function exportWrong() {
-      const lines = [
-        'Wrong answers – ' + currentSetTitle,
-        'Generated: ' + new Date().toLocaleString(),
-        '',
-      ];
-      wrongIndices.forEach(i => {
-        const q = currentQuestions[i];
-        const correct = q.type === 'mc' ? (q.options && q.options[q.correct_option]) : (q.answers && q.answers[0]);
-        lines.push('---');
-        lines.push('Q: ' + (q.question || q.prompt || '').replace(/\n/g, ' '));
-        lines.push('Correct: ' + correct);
-        lines.push('Explanation: ' + (q.explanation || ''));
-        lines.push('');
-      });
-      const blob = new Blob([lines.join('\n')], { type: 'text/plain' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'review_wrong_answers.txt';
-      a.click();
-      URL.revokeObjectURL(a.href);
-    }
-
     document.getElementById('startBtn').addEventListener('click', startQuiz);
     document.getElementById('startPart1Btn').addEventListener('click', startPart1);
     document.getElementById('startPart2Btn').addEventListener('click', startPart2);
-    document.getElementById('startDiagnosticBtn').addEventListener('click', startDiagnostic);
-    document.getElementById('startMixedPracticeBtn').addEventListener('click', startMixedPractice);
+    document.getElementById('openPracticeSetupBtn').addEventListener('click', () => {
+      document.getElementById('menuQuiz').classList.add('hidden');
+      document.getElementById('menuPracticeSetup').classList.remove('hidden');
+      const topicEl = document.getElementById('practiceSetupTopic');
+      if (topicEl) topicEl.textContent = currentTopic ? (currentTopic.title || currentTopic.id) : '';
+    });
+    document.getElementById('practiceSetupBackBtn').addEventListener('click', () => {
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      document.getElementById('menuQuiz').classList.remove('hidden');
+    });
+    document.getElementById('openDiagnosticSetupBtn').addEventListener('click', () => {
+      document.getElementById('menuQuiz').classList.add('hidden');
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      document.getElementById('menuDiagnosticSetup').classList.remove('hidden');
+    });
+    document.getElementById('diagnosticSetupBackBtn').addEventListener('click', () => {
+      document.getElementById('menuDiagnosticSetup').classList.add('hidden');
+      document.getElementById('menuQuiz').classList.remove('hidden');
+    });
+    document.getElementById('diagnostic20Btn').addEventListener('click', () => startDiagnostic(20));
+    document.getElementById('diagnostic50Btn').addEventListener('click', () => startDiagnostic(50));
+    document.getElementById('diagnostic100Btn').addEventListener('click', () => startDiagnostic(100));
     document.getElementById('introNextBtn').addEventListener('click', () => {
       if (introSectionIndex < (courseCurriculum?.intro?.sections?.length || 1) - 1) {
         showIntroSection(introSectionIndex + 1);
@@ -1539,7 +1578,6 @@
     document.getElementById('submitBtn').addEventListener('click', submitAnswer);
     document.getElementById('nextBtn').addEventListener('click', nextQuestion);
     document.getElementById('retryWrongBtn').addEventListener('click', retryWrong);
-    document.getElementById('exportWrongBtn').addEventListener('click', exportWrong);
     document.getElementById('backToMenuBtn').addEventListener('click', renderMenu);
     document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
     document.getElementById('introExitBtn').addEventListener('click', renderMenu);
@@ -1595,7 +1633,7 @@
         const blob = new Blob([text], { type: 'text/plain' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
-        a.download = 'uncountable_always_plural.txt';
+        a.download = 'uncountable_and_plural_only_nouns.txt';
         a.click();
         URL.revokeObjectURL(a.href);
       } else if (referenceInfinitiveIngData) {
@@ -1632,32 +1670,11 @@
       if (q.type === 'mc' && selectedMc != null) { e.preventDefault(); submitAnswer(); }
     });
 
-    const practiceWeakBtn = document.getElementById('practiceWeakBtn');
-    if (practiceWeakBtn) {
-      practiceWeakBtn.addEventListener('click', () => {
-        const select = document.getElementById('setSelect');
-        if (select && select.querySelector('option[value="weakspots"]')) {
-          select.value = 'weakspots';
-          startQuiz();
-        }
-      });
-    }
-    document.getElementById('setSelect').addEventListener('change', () => {
-      const selVal = document.getElementById('setSelect').value;
-      const summaryEl = document.getElementById('scoresSummary');
-      if (selVal === 'weakspots') {
-        const weakSpots = getWeakSpotQuestions();
-        summaryEl.textContent = weakSpots.length + ' questions you\'ve got wrong before – practise them to improve.';
-      } else {
-        const lastBest = getLastBest(selVal);
-        if (lastBest.last) {
-          summaryEl.textContent = 'Last: ' + lastBest.last[0] + '/' + lastBest.last[1] +
-            (lastBest.best && (lastBest.best[0] !== lastBest.last[0] || lastBest.best[1] !== lastBest.last[1]) ? '  •  Best: ' + lastBest.best[0] + '/' + lastBest.best[1] : '');
-        } else summaryEl.textContent = '';
-      }
-    });
+    document.getElementById('startWeakSpotsBtn').addEventListener('click', startWeakSpotsQuiz);
     document.getElementById('topicSelect').addEventListener('change', () => {
-      const idx = parseInt(document.getElementById('topicSelect').value, 10);
+      const val = document.getElementById('topicSelect').value;
+      if (val === '' || val === '-1') return;
+      const idx = parseInt(val, 10);
       if (topics[idx] != null) {
         currentTopic = topics[idx];
         applyTopic();
@@ -1673,10 +1690,14 @@
           topics = mData.topics || [];
           if (topics.length > 0) {
             currentTopic = topics[0];
-            document.getElementById('topicLabel').classList.remove('hidden');
             document.getElementById('topicSelect').classList.remove('hidden');
             const sel = document.getElementById('topicSelect');
             sel.innerHTML = '';
+            const placeholder = document.createElement('option');
+            placeholder.value = '-1';
+            placeholder.textContent = 'Select Grammar Topic';
+            placeholder.selected = true;
+            sel.appendChild(placeholder);
             topics.forEach((t, i) => {
               const opt = document.createElement('option');
               opt.value = i;
@@ -1692,7 +1713,7 @@
           { id: 'articles', title: 'Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
           { id: 'comparatives', title: 'Comparatives and Superlatives', curriculum: 'curriculum_comparatives.json', questions_key: 'comparatives' },
           { id: 'conjunctions_linkers', title: 'Conjunctions and linkers', curriculum: 'curriculum_conjunctions_linkers.json', questions_key: 'conjunctions_linkers' },
-          { id: 'countable_uncountable', title: 'Nouns: Countable and uncountable', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
+          { id: 'countable_uncountable', title: 'Uncountable Nouns and Plural-only Nouns', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
           { id: 'infinitive_ing', title: 'Infinitive and -ing form', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
           { id: 'phrasal_verbs', title: 'Phrasal verbs', curriculum: 'curriculum_phrasal_verbs.json', questions_key: 'phrasal_verbs' },
@@ -1702,6 +1723,7 @@
           { id: 'reported_speech', title: 'Reported speech', curriculum: 'curriculum_reported_speech.json', questions_key: 'reported_speech' },
           { id: 'spelling', title: 'Spelling', curriculum: 'curriculum_spelling.json', questions_key: 'spelling' },
           { id: 'word_order', title: 'Word order in sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' },
+          { id: 'verb_subject_agreement', title: 'Verb–subject agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
           { id: 'conditionals', title: 'Tenses: Conditionals (zero, first, second, third)', curriculum: 'curriculum_conditionals.json', questions_key: 'conditionals' },
           { id: 'past_perfect', title: 'Tenses: Past Perfect', curriculum: 'curriculum_past_perfect.json', questions_key: 'past_perfect' },
           { id: 'past_simple_continuous', title: 'Tenses: Past Simple and Past Continuous', curriculum: 'curriculum_past_simple_continuous.json', questions_key: 'past_simple_continuous' },
@@ -1710,10 +1732,14 @@
           { id: 'will_going_to', title: 'Tenses: Will and going to', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' }
         ];
         currentTopic = topics[0];
-        document.getElementById('topicLabel').classList.remove('hidden');
         document.getElementById('topicSelect').classList.remove('hidden');
         const sel = document.getElementById('topicSelect');
         sel.innerHTML = '';
+        const placeholder = document.createElement('option');
+        placeholder.value = '-1';
+        placeholder.textContent = 'Select Grammar Topic';
+        placeholder.selected = true;
+        sel.appendChild(placeholder);
         topics.forEach((t, i) => {
           const opt = document.createElement('option');
           opt.value = i;

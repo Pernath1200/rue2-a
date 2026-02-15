@@ -85,15 +85,15 @@
       "title": "Practice: Conditionals (gap fill)",
       "questions": [
         {"type": "open", "question": "Zero: If you heat ice, it _____.", "answers": ["melts"], "explanation": "Zero conditional: present + present for facts."},
-        {"type": "open", "question": "First: If it _____ tomorrow, we will stay at home.", "answers": ["rains"], "explanation": "First: if + present (rains), will in main clause."},
+        {"type": "open", "question": "First: If it _____ tomorrow, we will stay at home.", "answers": ["rains"], "explanation": "First conditional: if + present (rains), will in main clause."},
         {"type": "open", "question": "Second: If I _____ (have) more time, I would help you.", "answers": ["had"], "explanation": "Second conditional: if + past simple."},
-        {"type": "open", "question": "Second: If I were you, I _____ (apologise).", "answers": ["would apologise"], "explanation": "Second: would + base in main clause."},
+        {"type": "open", "question": "Second: If I were you, I _____ (apologise).", "answers": ["would apologise"], "explanation": "Second conditional: would + base in main clause."},
         {"type": "open", "question": "Third: If I _____ (know), I would have told you.", "answers": ["had known"], "explanation": "Third conditional: if + past perfect."},
-        {"type": "open", "question": "Third: If she had left earlier, she _____ (catch) the train.", "answers": ["would have caught"], "explanation": "Third: would have + past participle in main clause."},
-        {"type": "open", "question": "First: If you _____ early, call me.", "answers": ["finish"], "explanation": "First: if + present; main clause can be imperative."},
-        {"type": "open", "question": "Zero: If you don't sleep well, you _____ tired.", "answers": ["feel"], "explanation": "Zero: present in both clauses."},
-        {"type": "open", "question": "Second: If we _____ (win) the lottery, we would travel the world.", "answers": ["won"], "explanation": "Second: if + past simple (won, not would win)."},
-        {"type": "open", "question": "Third: If they hadn't missed the flight, they _____ (arrive) on time.", "answers": ["would have arrived"], "explanation": "Third: would have + past participle."}
+        {"type": "open", "question": "Third: If she had left earlier, she _____ (catch) the train.", "answers": ["would have caught"], "explanation": "Third conditional: would have + past participle in main clause."},
+        {"type": "open", "question": "First: If you _____ early, call me.", "answers": ["finish"], "explanation": "First conditional: if + present; main clause can be imperative."},
+        {"type": "open", "question": "Zero: If you don't sleep well, you _____ tired.", "answers": ["feel"], "explanation": "Zero conditional: present in both clauses."},
+        {"type": "open", "question": "Second: If we _____ (win) the lottery, we would travel the world.", "answers": ["won"], "explanation": "Second conditional: if + past simple (won, not would win)."},
+        {"type": "open", "question": "Third: If they hadn't missed the flight, they _____ (arrive) on time.", "answers": ["would have arrived"], "explanation": "Third conditional: would have + past participle."}
       ]
     },
     "errorcorrection": {

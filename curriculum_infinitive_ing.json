@@ -84,7 +84,7 @@
         {"type": "open", "question": "We hope ____ (see) you soon.", "answers": ["to see"], "explanation": "Hope + to-infinitive."},
         {"type": "open", "question": "She finished ____ (write) the report.", "answers": ["writing"], "explanation": "Finish + -ing."},
         {"type": "open", "question": "I'm looking forward to ____ (meet) you.", "answers": ["meeting"], "explanation": "Look forward to + -ing (to is a preposition)."},
-        {"type": "open", "question": "He promised ____ (help) us.", "answers": ["to help"], "explanation": "Promise + to-infinitive."},
+        {"type": "open", "question": "He promised ____ (help) us. Use the verb in brackets in the correct form (infinitive with or without to).", "answers": ["to help"], "explanation": "Promise + to-infinitive."},
         {"type": "open", "question": "They avoided ____ (answer) the question.", "answers": ["answering"], "explanation": "Avoid + -ing."},
         {"type": "open", "question": "Don't forget ____ (lock) the door.", "answers": ["to lock"], "explanation": "Forget to do = fail to do (future)."},
         {"type": "open", "question": "I'll never forget ____ (visit) Paris for the first time.", "answers": ["visiting"], "explanation": "Forget doing = no memory of (past experience)."},
