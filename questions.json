@@ -1350,5 +1350,19 @@
         {"type": "open", "question": "10. Fill in: _____ it was expensive, we decided to buy it. (contrast)", "answers": ["Although", "Though"], "explanation": "Although or Though introduces a contrast (expensive vs we bought it)."}
       ]
     }
+  },
+  "modal_verbs": {
+    "set1": {
+      "title": "Modal verbs – Gap fill",
+      "summary": "Choose the right modal or semi-modal: can/could (ability), must/have to (obligation), should/ought to (advice), may/might (possibility).",
+      "questions": [
+        {"type": "open", "question": "1. You ____ see a doctor if your headache continues. (advice – ought to / should)", "answers": ["ought to", "should"], "explanation": "Advice → ought to or should + base verb."},
+        {"type": "open", "question": "2. She ____ speak three languages. (ability)", "answers": ["can"], "explanation": "Ability in the present → can + base verb."},
+        {"type": "open", "question": "3. We ____ wear a uniform at school. (external rule)", "answers": ["have to", "must"], "explanation": "External obligation (school rule) → have to or must."},
+        {"type": "open", "question": "4. It ____ rain later, so take an umbrella. (possibility)", "answers": ["may", "might", "could"], "explanation": "Possibility → may, might, or could + base verb."},
+        {"type": "open", "question": "5. You ____ tell anyone – it's a secret. (obligation not to)", "answers": ["must not", "mustn't", "cannot", "can't"], "explanation": "Obligation not to do something → must not or cannot."},
+        {"type": "open", "question": "6. He ____ to give up smoking. (advice, semi-modal)", "answers": ["ought to"], "explanation": "Advice with the semi-modal → ought to + base verb."}
+      ]
+    }
   }
 }

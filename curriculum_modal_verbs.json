@@ -1,0 +1,144 @@
+{
+  "intro": {
+    "title": "Modal verbs",
+    "sections": [
+      {
+        "title": "What is modality?",
+        "content": "**Modality** is the way we express meanings such as possibility, necessity, permission, ability, obligation, advice, or intention – rather than stating a plain fact.\n\nWhen we say *She **can** swim* or *You **must** go*, we are not just saying that something happens; we add a layer of meaning: ability (can), obligation (must). That layer is **modality**.\n\nIn English we express modality mainly with **modal verbs** (can, must, should, will, etc.) and **semi-modals** (ought to, have to, need to, be able to). They work with the main verb and change its meaning. For example: *I go* is a fact; *I **might** go* adds possibility; *I **should** go* adds advice or weak obligation."
+      },
+      {
+        "title": "Modal verbs – form and meaning",
+        "content": "The main **modal verbs** are: **can**, **could**, **may**, **might**, **must**, **shall**, **should**, **will**, **would**.\n\n**Form:** They have no -s in the third person (*she can*, not *she cans*). They are followed by the **base form** of the verb (*can go*, *must see*). Questions and negatives are made without *do*: *Can you?*, *I must not*.\n\n**Main uses:**\n• **can** – ability, permission (*I can swim*; *You can leave early*)\n• **could** – past ability, polite request, possibility (*I could run fast when I was young*; *Could you help me?*)\n• **may / might** – possibility, permission (*It may rain*; *May I sit here?*)\n• **must** – obligation, strong deduction (*You must wear a seatbelt*; *She must be at home*)\n• **should** – advice, weak obligation (*You should see a doctor*)\n• **will / would** – future, requests, conditionals (*I will call you*; *Would you pass the salt?*)"
+      },
+      {
+        "title": "Semi-modals (e.g. ought to)",
+        "content": "**Semi-modals** (or marginal modals) express similar meanings to modals but behave more like ordinary verbs: they may take -s, or be followed by **to** + infinitive.\n\n• **Ought to** – advice or moral obligation (similar to *should*, often more formal or stronger): *You ought to apologise*. *She ought to see a doctor.* Form: **ought to** + base verb. Negative: *ought not to* or *oughtn't to*.\n\n• **Have to / have got to** – necessity or external obligation (*I have to go now*; *She has to wear a uniform*). Takes -s in 3rd person; *do* in questions/negatives: *Do I have to?*\n\n• **Need to** – necessity (*You need to apply by Friday*). Behaves like a normal verb: *needs*, *don't need to*.\n\n• **Be able to** – ability (used when *can* is not possible, e.g. future or other tenses): *She will be able to come.*\n\n• **Used to** – past habit (*I used to play tennis*)."
+      },
+      {
+        "title": "Summary – when to use which",
+        "content": "• **Obligation:** *must* (strong, from the speaker), *have to* (often external), *ought to* / *should* (advice or weaker obligation).\n• **Possibility:** *may*, *might*, *could* (*It might rain*).\n• **Ability:** *can*, *could* (past), *be able to* (when you need another tense).\n• **Permission:** *can*, *may*, *could* (polite).\n• **Advice:** *should*, *ought to* (*You should / ought to rest*).\n\nRemember: modals have no -s and no *to* before the main verb (except *ought to*); semi-modals like *have to* and *ought to* use *to* + infinitive."
+      }
+    ]
+  },
+  "check": {
+    "title": "Test your understanding",
+    "questions": [
+      {
+        "type": "mc",
+        "question": "What is **modality** in grammar?",
+        "options": {
+          "a": "The time of the action (past, present, future)",
+          "b": "The way we express possibility, necessity, permission, advice, etc.",
+          "c": "The person (I, you, he/she) of the subject",
+          "d": "The tense of the verb"
+        },
+        "correct_option": "b",
+        "explanation": "**Modality** is how we express meanings like possibility, necessity, permission, ability, obligation, or advice – the 'layer' of meaning added by modals and semi-modals."
+      },
+      {
+        "type": "mc",
+        "question": "Which sentence uses a **semi-modal**?",
+        "options": {
+          "a": "She can swim.",
+          "b": "You ought to see a doctor.",
+          "c": "They must leave.",
+          "d": "I might go."
+        },
+        "correct_option": "b",
+        "explanation": "**Ought to** is a semi-modal (followed by **to** + base verb). **Can**, **must**, and **might** are core modals (no *to*)."
+      },
+      {
+        "type": "mc",
+        "question": "'You ____ apologise.' (strong advice, formal) Which fits best?",
+        "options": {
+          "a": "can",
+          "b": "might",
+          "c": "ought to",
+          "d": "will"
+        },
+        "correct_option": "c",
+        "explanation": "**Ought to** expresses advice or moral obligation, often in a more formal tone. *Should* is also possible but *ought to* fits 'formal' best here."
+      },
+      {
+        "type": "mc",
+        "question": "Which modal verb is followed by **to** + base verb?",
+        "options": {
+          "a": "must",
+          "b": "should",
+          "c": "ought to",
+          "d": "can"
+        },
+        "correct_option": "c",
+        "explanation": "**Ought to** is the only one in the list that is followed by **to** (ought to go, ought to see). **Must**, **should**, and **can** are followed directly by the base form."
+      },
+      {
+        "type": "mc",
+        "question": "For external obligation (e.g. a rule or someone else's requirement), we often use:",
+        "options": {
+          "a": "must only",
+          "b": "have to",
+          "c": "can",
+          "d": "might"
+        },
+        "correct_option": "b",
+        "explanation": "**Have to** is commonly used for external obligation (rules, boss, law). **Must** can express the speaker's own obligation or a strong rule; **have to** is typical when the obligation comes from outside."
+      },
+      {
+        "type": "mc",
+        "question": "Which verb do we use for **ability** when we need a form that *can* doesn't have (e.g. future)?",
+        "options": {
+          "a": "must",
+          "b": "ought to",
+          "c": "be able to",
+          "d": "might"
+        },
+        "correct_option": "c",
+        "explanation": "**Be able to** is used for ability when we need another tense or structure, e.g. *She will be able to come*, *I have been able to finish*. **Can** has no future or perfect form."
+      }
+    ]
+  },
+  "practice_order": ["gapfill"],
+  "practice": {
+    "gapfill": {
+      "title": "Practice: Choose the modal or semi-modal",
+      "questions": [
+        {
+          "type": "open",
+          "question": "You ____ (advice) see a doctor if your headache continues. (ought to / should)",
+          "answers": ["ought to", "should"],
+          "explanation": "Advice → **ought to** or **should** + base verb."
+        },
+        {
+          "type": "open",
+          "question": "She ____ speak three languages. (ability)",
+          "answers": ["can"],
+          "explanation": "Ability in the present → **can** + base verb."
+        },
+        {
+          "type": "open",
+          "question": "We ____ wear a uniform at school. (external rule)",
+          "answers": ["have to", "must"],
+          "explanation": "External obligation (school rule) → **have to** or **must**."
+        },
+        {
+          "type": "open",
+          "question": "It ____ rain later, so take an umbrella. (possibility)",
+          "answers": ["may", "might", "could"],
+          "explanation": "Possibility → **may**, **might**, or **could** + base verb."
+        },
+        {
+          "type": "open",
+          "question": "You ____ (not) tell anyone – it's a secret. (obligation not to)",
+          "answers": ["must not", "mustn't", "cannot", "can't"],
+          "explanation": "Obligation not to do something → **must not** or **cannot**."
+        },
+        {
+          "type": "open",
+          "question": "He ____ to give up smoking. (advice, semi-modal)",
+          "answers": ["ought to"],
+          "explanation": "Advice with the semi-modal → **ought to** + base verb."
+        }
+      ]
+    }
+  }
+}

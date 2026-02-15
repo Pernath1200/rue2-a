@@ -9,10 +9,10 @@
       --bg: #1a1b26;
       --surface: #24283b;
       --text: #c0caf5;
-      --muted: #565f89;
-      --correct: #9ece6a;
-      --wrong: #f7768e;
-      --accent: #7aa2f7;
+      --muted: #9ca0b8;
+      --correct: #7eb87a;
+      --wrong: #e8a498;
+      --accent: #2563eb;
       --radius: 8px;
     }
     * { box-sizing: border-box; }
@@ -30,7 +30,7 @@
     .card {
       background: var(--surface);
       border-radius: var(--radius);
-      padding: 1.25rem;
+      padding: 1.5rem;
       margin-bottom: 1rem;
     }
     label { display: block; margin-bottom: 0.25rem; color: var(--muted); font-size: 0.85rem; }
@@ -38,7 +38,7 @@
       width: 100%;
       padding: 0.6rem;
       border-radius: var(--radius);
-      border: 1px solid var(--muted);
+      border: 1px solid rgba(86, 95, 137, 0.5);
       background: var(--bg);
       color: var(--text);
       font-size: 1rem;
@@ -52,7 +52,7 @@
       margin-top: 0.5rem;
     }
     button:hover { filter: brightness(1.1); }
-    button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--muted); }
+    button.secondary { background: var(--surface); color: var(--text); border: 1px solid rgba(86, 95, 137, 0.5); }
     .scores { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
     .question-block { margin-bottom: 1.5rem; }
     .question-text { white-space: pre-line; margin-bottom: 0.75rem; line-height: 1.5; }
@@ -60,22 +60,22 @@
     .option {
       padding: 0.6rem;
       border-radius: var(--radius);
-      border: 1px solid var(--muted);
+      border: 1px solid rgba(86, 95, 137, 0.5);
       background: var(--bg);
       cursor: pointer;
     }
     .option:hover { border-color: var(--accent); }
-    .option.selected { border-color: var(--accent); background: rgba(100, 149, 237, 0.2); }
-    .option.correct { border-color: var(--correct); background: rgba(158, 206, 106, 0.15); }
-    .option.wrong { border-color: var(--wrong); background: rgba(247, 118, 142, 0.15); }
+    .option.selected { border-color: var(--accent); background: rgba(37, 99, 235, 0.2); }
+    .option.correct { border-color: var(--correct); background: rgba(126, 184, 122, 0.15); }
+    .option.wrong { border-color: var(--wrong); background: rgba(232, 164, 152, 0.15); }
     .explanation { margin-top: 0.75rem; padding: 0.75rem; background: var(--bg); border-radius: var(--radius); font-size: 0.9rem; color: var(--text); }
-    .correct-answer-line { margin: 0.5rem 0 0; padding: 0.5rem; background: rgba(158, 206, 106, 0.12); border-radius: var(--radius); color: var(--text); font-size: 0.95rem; }
+    .correct-answer-line { margin: 0.5rem 0 0; padding: 0.5rem; background: rgba(126, 184, 122, 0.12); border-radius: var(--radius); color: var(--text); font-size: 0.95rem; }
     .explanation-label { margin: 0.5rem 0 0; font-weight: 600; font-size: 0.9rem; color: var(--text); }
     .result-ok { color: var(--correct); }
     .result-fail { color: var(--wrong); }
     .progress { margin-bottom: 1rem; color: var(--muted); font-size: 0.9rem; }
     .topic-label { display: block; font-size: 0.85rem; color: var(--accent); margin-bottom: 0.35rem; font-weight: 600; }
-    input[type="text"] { width: 100%; padding: 0.6rem; border-radius: var(--radius); border: 1px solid var(--muted); background: var(--bg); color: var(--text); }
+    input[type="text"] { width: 100%; padding: 0.6rem; border-radius: var(--radius); border: 1px solid rgba(86, 95, 137, 0.5); background: var(--bg); color: var(--text); }
     .summary { margin-top: 1.5rem; padding: 1rem; background: var(--surface); border-radius: var(--radius); font-size: 0.9rem; line-height: 1.6; }
     .hidden { display: none !important; }
     .actions { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
@@ -99,9 +99,11 @@
     .prepositions-list-card .list-words { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.5rem; }
     .prepositions-list-card .list-words span { background: var(--bg); padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.9rem; }
     .reference-phrasal-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-bottom: 1.5rem; }
-    .reference-phrasal-table th, .reference-phrasal-table td { border: 1px solid var(--muted); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-    .reference-phrasal-table th { background: var(--bg); color: var(--accent); font-weight: 600; }
-    .reference-phrasal-table td:first-child { white-space: nowrap; }
+    .reference-phrasal-table th, .reference-phrasal-table td { border: 1px solid rgba(86, 95, 137, 0.5); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+.reference-phrasal-table th { background: var(--bg); color: var(--accent); font-weight: 600; }
+.reference-phrasal-table td:first-child { white-space: nowrap; }
+.wrong-example { color: var(--muted); font-size: 0.9em; }
+.wrong-example s { text-decoration: line-through; }
     @media print {
       body * { visibility: hidden; }
       .no-print-hide, .no-print-hide * { visibility: visible; }
@@ -122,14 +124,18 @@
         <div class="actions" style="margin-bottom: 1rem;">
           <button type="button" id="openDiagnosticSetupBtn" class="secondary">Quick grammar check</button>
         </div>
-        <hr style="border: none; border-top: 1px solid var(--muted); margin: 1rem 0;" />
-        <select id="topicSelect" class="hidden" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
-        <button type="button" id="startPart1Btn" class="secondary">Learn &amp; test</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 1rem 0;" />
+        <div id="topicSelectWrap" class="hidden">
+          <label for="topicSelect" style="margin-top: 0.5rem;">Choose a topic to practise</label>
+          <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
+        </div>
+        <button type="button" id="startPart1Btn" class="secondary">Learn and test</button>
         <button type="button" id="startPart2Btn" class="secondary">Guided practice</button>
         <button type="button" id="openPracticeSetupBtn" class="secondary">Full practice</button>
-        <button type="button" id="viewPrepositionsListBtn" class="secondary hidden">View preposition lists (print &amp; download)</button>
-        <button type="button" id="viewPhrasalVerbsDictionaryBtn" class="secondary hidden">View phrasal verb dictionary (print &amp; download)</button>
+        <button type="button" id="viewPrepositionsListBtn" class="secondary hidden">View preposition lists (print)</button>
+        <button type="button" id="viewPhrasalVerbsDictionaryBtn" class="secondary hidden">View phrasal verb dictionary (print)</button>
         <div id="practiceWeakSpotsWrap" class="hidden" style="margin-top: 0.75rem;">
+          <p style="margin-bottom: 0.35rem; color: var(--muted); font-size: 0.85rem;">Revise questions you answered incorrectly in previous quizzes:</p>
           <button type="button" id="startWeakSpotsBtn" class="secondary">Practice weak spots</button>
         </div>
         <div class="memory-bank" id="memoryBankSummary"></div>
@@ -144,8 +150,8 @@
         </select>
         <p style="margin-top: 0.75rem; color: var(--muted); font-size: 0.85rem; line-height: 1.4;">Reps build habits. 20 correct → good. 50 → strong. 100+ → automatic.</p>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
-          <button type="button" id="practiceSetupBackBtn" class="secondary">Back</button>
-          <button type="button" id="startBtn">Start quiz</button>
+          <button type="button" id="practiceSetupBackBtn" class="secondary">Menu</button>
+          <button type="button" id="startBtn">Start</button>
         </div>
       </div>
       <div id="menuDiagnosticSetup" class="hidden">
@@ -155,7 +161,7 @@
           <button type="button" id="diagnostic50Btn" class="secondary">Standard – 50 questions</button>
           <button type="button" id="diagnostic100Btn" class="secondary">Full – 100 questions</button>
         </div>
-        <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.75rem;">Back</button>
+        <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.75rem;">Menu</button>
       </div>
     </div>
 
@@ -166,7 +172,7 @@
     <div id="quizScreen" class="hidden">
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
         <div class="progress" id="progress" style="margin-bottom: 0;"></div>
-        <button type="button" id="exitQuizBtn" class="secondary" style="margin-top: 0; flex: none;">Exit quiz</button>
+        <button type="button" id="exitQuizBtn" class="secondary" style="margin-top: 0; flex: none;">Leave</button>
       </div>
       <div class="card question-block">
         <div class="question-text" id="questionText"></div>
@@ -188,14 +194,14 @@
         <h2 id="introTitle"></h2>
         <div id="introContent"></div>
         <div id="introPrepositionsListWrap" class="hidden" style="margin-top: 0.75rem;">
-          <button type="button" id="viewPrepositionsListFromIntroBtn" class="secondary">View preposition lists (print &amp; download)</button>
+          <button type="button" id="viewPrepositionsListFromIntroBtn" class="secondary">View preposition lists (print)</button>
         </div>
         <div id="introPhrasalVerbsWrap" class="hidden" style="margin-top: 0.75rem;">
           <button type="button" id="viewPhrasalVerbsFromIntroBtn" class="secondary">View phrasal verb dictionary (top 50 + next 100)</button>
         </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
           <button type="button" id="introNextBtn">Next</button>
-          <button type="button" id="introExitBtn" class="secondary">Back to menu</button>
+          <button type="button" id="introExitBtn" class="secondary">Menu</button>
         </div>
       </div>
     </div>
@@ -223,13 +229,13 @@
           <div id="wrongAnswersCorrectList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
         </div>
         <div id="topicsToReviewBlock" class="hidden" style="margin-top: 1rem;">
-          <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Topics to review</h3>
+          <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Topics to practise</h3>
           <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">You had errors in these areas. Choose a topic to revise the rules and practise.</p>
           <div id="topicsToReviewList" class="actions"></div>
         </div>
         <div class="actions">
-          <button id="retryWrongBtn" class="secondary">Retry wrong answers</button>
-          <button id="backToMenuBtn">Back to menu</button>
+          <button id="retryWrongBtn" class="secondary">Try again</button>
+          <button id="backToMenuBtn">Menu</button>
         </div>
       </div>
     </div>
@@ -240,8 +246,7 @@
         <div id="prepositionsListContent"></div>
         <div class="actions" style="margin-top: 1rem;">
           <button type="button" id="prepositionsListPrintBtn" class="secondary">Print list</button>
-          <button type="button" id="prepositionsListDownloadBtn" class="secondary">Download as text</button>
-          <button type="button" id="prepositionsListBackBtn">Back</button>
+          <button type="button" id="prepositionsListBackBtn">Menu</button>
         </div>
       </div>
     </div>
@@ -251,8 +256,7 @@
         <div id="phrasalVerbsDictionaryContent"></div>
         <div class="actions" style="margin-top: 1rem;">
           <button type="button" id="phrasalVerbsDictionaryPrintBtn" class="secondary">Print dictionary</button>
-          <button type="button" id="phrasalVerbsDictionaryDownloadBtn" class="secondary">Download as text</button>
-          <button type="button" id="phrasalVerbsDictionaryBackBtn">Back</button>
+          <button type="button" id="phrasalVerbsDictionaryBackBtn">Menu</button>
         </div>
       </div>
     </div>
@@ -263,7 +267,6 @@
         <div id="referenceActions" class="actions" style="margin-top: 1rem;">
           <span id="referencePrintDownloadWrap" class="hidden">
             <button type="button" id="referencePrintBtn" class="secondary">Print</button>
-            <button type="button" id="referenceDownloadBtn" class="secondary">Download as text</button>
           </span>
           <button type="button" id="referenceBackBtn">Back</button>
         </div>
@@ -305,6 +308,12 @@
       let h = 0;
       for (let i = 0; i < s.length; i++) h = ((h << 5) - h) + s.charCodeAt(i) | 0;
       return (h >>> 0).toString(36);
+    }
+
+    function escapeAndBold(str) {
+      if (str == null || str === '') return '';
+      const s = String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+?)\*/g, '<em>$1</em>');
     }
 
     function loadScores() {
@@ -524,7 +533,7 @@
           const div = document.createElement('div');
           div.className = 'phrasal-verb-entry';
           div.style.marginBottom = '0.5rem';
-          div.innerHTML = '<strong>' + (entry.verb || '').replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</strong> – ' + (entry.meaning || '').replace(/&/g, '&amp;').replace(/</g, '&lt;') + '. <span class="muted">' + (entry.example || '').replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</span>';
+          div.innerHTML = '<strong>' + (entry.verb || '').replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</strong> – ' + escapeAndBold(entry.meaning || '') + '. <span class="muted">' + escapeAndBold(entry.example || '') + '</span>';
           list.appendChild(div);
         });
         content.appendChild(list);
@@ -655,7 +664,7 @@
       btn8.addEventListener('click', showReferenceCountableUncountable);
       content.appendChild(btn8);
       document.getElementById('referencePrintDownloadWrap').classList.add('hidden');
-      document.getElementById('referenceBackBtn').textContent = 'Back';
+      document.getElementById('referenceBackBtn').textContent = 'Menu';
     }
 
     function renderReferencePrepositionsContent(data) {
@@ -674,7 +683,7 @@
         const tbody = table.querySelector('tbody');
         preps.forEach(entry => {
           const tr = document.createElement('tr');
-          tr.innerHTML = '<td>' + esc(entry.preposition) + '</td><td>' + esc(entry.category) + '</td><td>' + esc(entry.example) + '</td>';
+          tr.innerHTML = '<td>' + escapeAndBold(entry.preposition) + '</td><td>' + escapeAndBold(entry.category) + '</td><td>' + escapeAndBold(entry.example) + '</td>';
           tbody.appendChild(tr);
         });
         content.appendChild(table);
@@ -750,7 +759,7 @@
         table.innerHTML = '<thead><tr><th>' + headers + '</th></tr></thead><tbody></tbody>';
         const tbody = table.querySelector('tbody');
         entries.forEach(entry => {
-          const cells = cols.map(c => esc(entry[c] || ''));
+          const cells = cols.map(c => escapeAndBold(entry[c] || ''));
           const tr = document.createElement('tr');
           tr.innerHTML = '<td>' + cells.join('</td><td>') + '</td>';
           tbody.appendChild(tr);
@@ -849,7 +858,7 @@
         table.innerHTML = '<thead><tr><th>' + headers + '</th></tr></thead><tbody></tbody>';
         const tbody = table.querySelector('tbody');
         arr.forEach(entry => {
-          const cells = cols.map(c => esc(entry[c] || ''));
+          const cells = cols.map(c => escapeAndBold(entry[c] || ''));
           const tr = document.createElement('tr');
           tr.innerHTML = '<td>' + cells.join('</td><td>') + '</td>';
           tbody.appendChild(tr);
@@ -910,7 +919,7 @@
         const tbody = table.querySelector('tbody');
         arr.forEach(entry => {
           const tr = document.createElement('tr');
-          tr.innerHTML = '<td>' + esc(entry.verb) + '</td><td>' + esc(entry.meaning) + '</td><td>' + esc(entry.example) + '</td>';
+          tr.innerHTML = '<td>' + escapeAndBold(entry.verb) + '</td><td>' + escapeAndBold(entry.meaning) + '</td><td>' + escapeAndBold(entry.example) + '</td>';
           tbody.appendChild(tr);
         });
         return table;
@@ -985,53 +994,64 @@
     function renderReferenceInfinitiveIngContent(data) {
       if (!data) return;
       referenceView = 'infinitive_ing';
-      document.getElementById('referenceTitle').textContent = data.title || 'Infinitive and -ing: verb lists';
+      document.getElementById('referenceTitle').textContent = data.title || 'Infinitive and -ing: verb patterns';
       const content = document.getElementById('referenceContent');
       content.innerHTML = '';
-      const addList = (label, arr) => {
-        if (!arr || !arr.length) return;
-        const h3 = document.createElement('h3');
-        h3.textContent = label;
-        content.appendChild(h3);
-        const div = document.createElement('div');
-        div.className = 'list-words';
-        arr.forEach(w => {
-          const span = document.createElement('span');
-          span.textContent = w;
-          div.appendChild(span);
-        });
-        content.appendChild(div);
-      };
       if (data.intro) {
         const p = document.createElement('p');
         p.style.whiteSpace = 'pre-line';
         p.style.marginBottom = '1rem';
         p.style.color = 'var(--muted)';
-        const introRaw = data.intro.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
-        p.innerHTML = introRaw.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        p.innerHTML = escapeAndBold(data.intro || '').replace(/\n/g, '<br>');
         content.appendChild(p);
       }
-      addList('Verbs always followed by to-infinitive (to do, to go)', data.verbs_to || []);
-      addList('Verbs always followed by -ing (doing, going)', data.verbs_ing || []);
-      addList('Verbs + both (same or similar meaning)', data.verbs_both_same || []);
-      addList('Verbs + both (different meaning – learn each pair)', data.verbs_both_different || []);
+      const verbs = data.verbs || [];
+      if (verbs.length) {
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Verb</th><th>With -ing (example)</th><th>With to (example)</th><th>Note</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        verbs.forEach(entry => {
+          const tr = document.createElement('tr');
+          const ing = (entry.example_ing || '').trim();
+          const to = (entry.example_to || '').trim();
+          const wrongIng = (entry.wrong_ing || '').trim();
+          const wrongTo = (entry.wrong_to || '').trim();
+          const ingCell = wrongIng
+            ? '<span style="text-decoration: line-through">' + escapeAndBold(wrongIng) + '</span>'
+            : (ing && ing !== '—' ? escapeAndBold(ing) : '—');
+          const toCell = wrongTo
+            ? '<span style="text-decoration: line-through">' + escapeAndBold(wrongTo) + '</span>'
+            : (to && to !== '—' ? escapeAndBold(to) : '—');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.verb || '') + '</td><td>' + ingCell + '</td><td>' + toCell + '</td><td>' + escapeAndBold(entry.note || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
       document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
       document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
     }
 
     function referenceAsText(data) {
       if (!data) return '';
-      const lines = [(data.title || 'Reference'), '', (data.intro || '').replace(/\*\*(.*?)\*\*/g, '$1'), ''];
-      const addSection = (label, arr) => {
-        if (!arr || !arr.length) return;
-        lines.push(label);
-        lines.push(arr.join(', '));
-        lines.push('');
-      };
-      addSection('Verbs always followed by to-infinitive:', data.verbs_to || []);
-      addSection('Verbs always followed by -ing:', data.verbs_ing || []);
-      addSection('Verbs + both (same meaning):', data.verbs_both_same || []);
-      addSection('Verbs + both (different meaning):', data.verbs_both_different || []);
+      const stripBold = (s) => (s || '').replace(/\*\*(.*?)\*\*/g, '$1');
+      const lines = [stripBold(data.title || 'Reference'), '', stripBold(data.intro || ''), ''];
+      const verbs = data.verbs || [];
+      if (verbs.length) {
+        const col = (s, w) => (s || '').slice(0, w).padEnd(w);
+        const w1 = 22;
+        const w2 = 42;
+        const w3 = 42;
+        const w4 = 38;
+        lines.push(col('Verb', w1) + col('With -ing (example)', w2) + col('With to (example)', w3) + col('Note', w4));
+        lines.push('-'.repeat(w1 + w2 + w3 + w4));
+        verbs.forEach(entry => {
+          const ing = (entry.example_ing || '').trim() || '—';
+          const to = (entry.example_to || '').trim() || '—';
+          lines.push(col(entry.verb || '', w1) + col(ing, w2) + col(to, w3) + col(entry.note || '', w4));
+        });
+      }
       return lines.join('\n');
     }
 
@@ -1078,10 +1098,11 @@
         return;
       }
       document.getElementById('introTitle').textContent = sections[index].title || 'Introduction';
-      const introRaw = (sections[index].content || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
-      const introHtml = introRaw.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      const introHtml = escapeAndBold(sections[index].content || '').replace(/\n/g, '<br>');
       document.getElementById('introContent').innerHTML = '<div class="intro-section">' + introHtml + '</div>';
-      document.getElementById('introNextBtn').textContent = index < sections.length - 1 ? 'Next' : 'Start test';
+      const isLastSection = index >= sections.length - 1;
+      const hasCheckQuestions = ((courseCurriculum?.check?.questions) || []).length > 0;
+      document.getElementById('introNextBtn').textContent = !isLastSection ? 'Next' : (hasCheckQuestions ? 'Start test' : 'Menu');
       introSectionIndex = index;
       document.getElementById('introPrepositionsListWrap').classList.add('hidden');
       document.getElementById('introPhrasalVerbsWrap').classList.add('hidden');
@@ -1122,7 +1143,7 @@
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = coursePart === 1 ? 'Exit test' : 'Exit quiz';
+      document.getElementById('exitQuizBtn').textContent = 'Leave';
       showQuestion();
     }
 
@@ -1162,12 +1183,16 @@
     }
 
     async function startPart1() {
+      if (!hasValidTopicSelected()) {
+        alert('Please choose a topic first.');
+        return;
+      }
       try {
         const res = await fetch(new URL(currentTopic.curriculum + '?v=3', getBaseUrl()));
         if (!res.ok) throw new Error('Could not load ' + currentTopic.curriculum);
         courseCurriculum = await res.json();
       } catch (e) {
-        const msg = window.location.protocol === 'file:' ? 'Could not load curriculum. Open the app via a local server (e.g. http://localhost:8080), not by opening the file directly.' : ('Could not load curriculum. ' + e.message);
+        const msg = window.location.protocol === 'file:' ? 'This app must run from a local server. Double-click start_server.bat in this folder, or run: python -m http.server 8080' : ('Could not load curriculum. ' + e.message);
       alert(msg);
         return;
       }
@@ -1179,12 +1204,16 @@
     }
 
     async function startPart2() {
+      if (!hasValidTopicSelected()) {
+        alert('Please choose a topic first.');
+        return;
+      }
       try {
         const res = await fetch(new URL(currentTopic.curriculum + '?v=3', getBaseUrl()));
         if (!res.ok) throw new Error('Could not load ' + currentTopic.curriculum);
         courseCurriculum = await res.json();
       } catch (e) {
-        const msg = window.location.protocol === 'file:' ? 'Could not load curriculum. Open the app via a local server (e.g. http://localhost:8080), not by opening the file directly.' : ('Could not load curriculum. ' + e.message);
+        const msg = window.location.protocol === 'file:' ? 'This app must run from a local server. Double-click start_server.bat in this folder, or run: python -m http.server 8080' : ('Could not load curriculum. ' + e.message);
       alert(msg);
         return;
       }
@@ -1243,7 +1272,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit quiz';
+      document.getElementById('exitQuizBtn').textContent = 'Leave';
       showQuestion();
     }
 
@@ -1275,7 +1304,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit quiz';
+      document.getElementById('exitQuizBtn').textContent = 'Leave';
       showQuestion();
     }
 
@@ -1308,7 +1337,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit quiz';
+      document.getElementById('exitQuizBtn').textContent = 'Leave';
       showQuestion();
     }
 
@@ -1338,8 +1367,14 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit quiz';
+      document.getElementById('exitQuizBtn').textContent = 'Leave';
       showQuestion();
+    }
+
+    function hasValidTopicSelected() {
+      const sel = document.getElementById('topicSelect');
+      const val = sel && sel.value;
+      return val !== '' && val !== '-1' && topics[parseInt(val, 10)] != null;
     }
 
     function getTopicTitle(topicId) {
@@ -1352,17 +1387,33 @@
       return title;
     }
 
+    function cleanQuestionDisplay(str) {
+      if (!str || typeof str !== 'string') return { question: '', contextLabel: null };
+      let s = str.trim().replace(/^\d+\.\s*/, '');
+      let contextLabel = null;
+      const metaMatch = s.match(/^(Multiple choice|Error correction|Choose the best sentence)(?:\s+\(([^)]+)\))?\s*\n/i);
+      if (metaMatch) {
+        contextLabel = metaMatch[2] ? metaMatch[2].trim() : null;
+        s = s.slice(metaMatch[0].length);
+      }
+      return { question: s.trim(), contextLabel };
+    }
+
     function showQuestion() {
       const q = currentQuestions[currentIndex];
       const total = currentQuestions.length;
       document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${total}`;
-      const promptText = (q.prompt || q.question || '').replace(/^\d+\.\s*/, '').trim();
-      const topicLabel = q.topic ? getTopicLabelForDisplay(q.topic) : '';
+      const { question: promptRaw, contextLabel } = cleanQuestionDisplay(q.prompt || q.question || '');
+      const promptHtml = escapeAndBold(promptRaw);
+      const topicLabel = [
+        q.topic ? getTopicLabelForDisplay(q.topic) : '',
+        contextLabel || ''
+      ].filter(Boolean).join(': ') || '';
       const questionEl = document.getElementById('questionText');
       if (topicLabel) {
-        questionEl.innerHTML = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</span>' + promptText.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        questionEl.innerHTML = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</span>' + promptHtml;
       } else {
-        questionEl.textContent = promptText;
+        questionEl.innerHTML = promptHtml;
       }
       document.getElementById('openBlock').classList.add('hidden');
       document.getElementById('mcBlock').classList.add('hidden');
@@ -1379,7 +1430,7 @@
           const div = document.createElement('div');
           div.className = 'option';
           div.dataset.option = key;
-          div.textContent = key + ') ' + text;
+          div.innerHTML = key + ') ' + escapeAndBold(text);
           div.addEventListener('click', () => {
             mcBlock.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
             div.classList.add('selected');
@@ -1419,19 +1470,18 @@
       saveMemoryBankEntry(questionHash(q), correct);
 
       const correctAnswerText = q.type === 'mc' ? (q.options && q.options[q.correct_option]) : (q.answers && q.answers[0]);
-      const raw = (q.explanation || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      let explanationHtml = raw.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      let explanationHtml = escapeAndBold(q.explanation || '');
       if (q.topic && explanationHtml) {
         const topicLabel = getTopicLabelForDisplay(q.topic);
         explanationHtml = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + ':</span> ' + explanationHtml;
       }
       if (correct) {
-        document.getElementById('feedbackText').innerHTML = '<span class="result-ok">Correct!</span>';
-        document.getElementById('explanation').innerHTML = explanationHtml ? '<span class="explanation-label">Explanation:</span> ' + explanationHtml : '';
+        document.getElementById('feedbackText').innerHTML = '<span class="result-ok">Correct.</span>';
+        document.getElementById('explanation').innerHTML = explanationHtml ? '<span class="explanation-label">Explanation</span> ' + explanationHtml : '';
       } else {
         document.getElementById('feedbackText').innerHTML =
           '<span class="result-fail">Incorrect.</span>' +
-          (correctAnswerText ? '<p class="correct-answer-line"><strong>Correct answer:</strong> ' + correctAnswerText + '</p>' : '') +
+          (correctAnswerText ? '<p class="correct-answer-line"><strong>Correct answer:</strong> ' + escapeAndBold(correctAnswerText) + '</p>' : '') +
           (explanationHtml ? '<p class="explanation-label">Why?</p>' : '');
         document.getElementById('explanation').innerHTML = explanationHtml || '';
       }
@@ -1455,7 +1505,7 @@
       wrongIndices.forEach(i => {
         const q = currentQuestions[i];
         const correct = q.type === 'mc' ? (q.options && q.options[q.correct_option]) : (q.answers && q.answers[0]);
-        if (correct) lines.push('<p style="margin: 0.5rem 0;"><strong>Correct:</strong> ' + String(correct).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</p>');
+        if (correct) lines.push('<p style="margin: 0.5rem 0;"><strong>Correct:</strong> ' + escapeAndBold(correct) + '</p>');
       });
       return lines.join('');
     }
@@ -1486,7 +1536,7 @@
           sectionCorrectList.innerHTML = '';
         }
         document.getElementById('sectionCompleteScreen').classList.remove('hidden');
-        document.getElementById('sectionCompleteNextBtn').textContent = coursePart === 1 ? 'Back to menu' : (part2Order.indexOf(coursePhase) < part2Order.length - 1 ? 'Next section' : 'Back to menu');
+        document.getElementById('sectionCompleteNextBtn').textContent = coursePart === 1 ? 'Menu' : (part2Order.indexOf(coursePhase) < part2Order.length - 1 ? 'Next section' : 'Menu');
       } else {
         document.getElementById('resultScreen').classList.remove('hidden');
         document.getElementById('resultScore').textContent = `Score: ${score} / ${currentQuestions.length}`;
@@ -1537,7 +1587,7 @@
       isRetryRound = true;
       document.getElementById('resultScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit quiz';
+      document.getElementById('exitQuizBtn').textContent = 'Leave';
       showQuestion();
     }
 
@@ -1545,6 +1595,10 @@
     document.getElementById('startPart1Btn').addEventListener('click', startPart1);
     document.getElementById('startPart2Btn').addEventListener('click', startPart2);
     document.getElementById('openPracticeSetupBtn').addEventListener('click', () => {
+      if (!hasValidTopicSelected()) {
+        alert('Please choose a topic first.');
+        return;
+      }
       document.getElementById('menuQuiz').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.remove('hidden');
       const topicEl = document.getElementById('practiceSetupTopic');
@@ -1571,7 +1625,11 @@
         showIntroSection(introSectionIndex + 1);
       } else {
         document.getElementById('introScreen').classList.add('hidden');
-        if (coursePart === 1) startCourseSection('check');
+        if (coursePart === 1) {
+          const checkQuestions = (courseCurriculum?.check?.questions || []);
+          if (checkQuestions.length > 0) startCourseSection('check');
+          else renderMenu();
+        }
       }
     });
     document.getElementById('sectionCompleteNextBtn').addEventListener('click', advanceCourseToNext);
@@ -1585,16 +1643,6 @@
     document.getElementById('viewPrepositionsListFromIntroBtn').addEventListener('click', () => showPrepositionsList('intro'));
     document.getElementById('prepositionsListBackBtn').addEventListener('click', hidePrepositionsList);
     document.getElementById('prepositionsListPrintBtn').addEventListener('click', () => window.print());
-    document.getElementById('prepositionsListDownloadBtn').addEventListener('click', () => {
-      if (!prepositionsListData) return;
-      const text = prepositionsListAsText(prepositionsListData);
-      const blob = new Blob([text], { type: 'text/plain' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'prepositions_list.txt';
-      a.click();
-      URL.revokeObjectURL(a.href);
-    });
     document.getElementById('viewPhrasalVerbsDictionaryBtn').addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
     document.getElementById('viewPhrasalVerbsFromIntroBtn').addEventListener('click', () => showPhrasalVerbsDictionary('intro'));
     document.getElementById('phrasalVerbsDictionaryBackBtn').addEventListener('click', hidePhrasalVerbsDictionary);
@@ -1602,60 +1650,6 @@
     document.getElementById('openReferenceBtn').addEventListener('click', showReference);
     document.getElementById('referenceBackBtn').addEventListener('click', onReferenceBackClick);
     document.getElementById('referencePrintBtn').addEventListener('click', () => window.print());
-    document.getElementById('referenceDownloadBtn').addEventListener('click', () => {
-      if (referenceView === 'phrasal_verbs' && phrasalVerbsDictionaryData) {
-        const text = phrasalVerbsDictionaryAsText(phrasalVerbsDictionaryData);
-        const blob = new Blob([text], { type: 'text/plain' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'phrasal_verbs_dictionary.txt';
-        a.click();
-        URL.revokeObjectURL(a.href);
-      } else if (referenceView === 'prepositions' && prepositionsListData) {
-        const text = prepositionsListAsText(prepositionsListData);
-        const blob = new Blob([text], { type: 'text/plain' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'prepositions_list.txt';
-        a.click();
-        URL.revokeObjectURL(a.href);
-      } else if (dependentPrepositionsData && (referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns')) {
-        const section = referenceView === 'dependent_verbs' ? 'verbs' : referenceView === 'dependent_nouns' ? 'nouns' : referenceView === 'dependent_adjectives' ? 'adjectives' : 'compound_nouns';
-        const text = dependentPrepositionsSectionAsText(dependentPrepositionsData, section);
-        const blob = new Blob([text], { type: 'text/plain' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'dependent_prepositions_' + section + '.txt';
-        a.click();
-        URL.revokeObjectURL(a.href);
-      } else if (referenceView === 'countable_uncountable' && countableUncountableData) {
-        const text = countableUncountableAsText(countableUncountableData);
-        const blob = new Blob([text], { type: 'text/plain' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'uncountable_and_plural_only_nouns.txt';
-        a.click();
-        URL.revokeObjectURL(a.href);
-      } else if (referenceInfinitiveIngData) {
-        const text = referenceAsText(referenceInfinitiveIngData);
-        const blob = new Blob([text], { type: 'text/plain' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'infinitive_ing_verb_lists.txt';
-        a.click();
-        URL.revokeObjectURL(a.href);
-      }
-    });
-    document.getElementById('phrasalVerbsDictionaryDownloadBtn').addEventListener('click', () => {
-      if (!phrasalVerbsDictionaryData) return;
-      const text = phrasalVerbsDictionaryAsText(phrasalVerbsDictionaryData);
-      const blob = new Blob([text], { type: 'text/plain' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'phrasal_verbs_dictionary.txt';
-      a.click();
-      URL.revokeObjectURL(a.href);
-    });
     document.getElementById('openInput').addEventListener('keydown', function(e) {
       if (e.key === 'Enter') { e.preventDefault(); submitAnswer(); }
     });
@@ -1690,12 +1684,12 @@
           topics = mData.topics || [];
           if (topics.length > 0) {
             currentTopic = topics[0];
-            document.getElementById('topicSelect').classList.remove('hidden');
+            document.getElementById('topicSelectWrap').classList.remove('hidden');
             const sel = document.getElementById('topicSelect');
             sel.innerHTML = '';
             const placeholder = document.createElement('option');
             placeholder.value = '-1';
-            placeholder.textContent = 'Select Grammar Topic';
+            placeholder.textContent = 'Choose a topic';
             placeholder.selected = true;
             sel.appendChild(placeholder);
             topics.forEach((t, i) => {
@@ -1724,20 +1718,22 @@
           { id: 'spelling', title: 'Spelling', curriculum: 'curriculum_spelling.json', questions_key: 'spelling' },
           { id: 'word_order', title: 'Word order in sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' },
           { id: 'verb_subject_agreement', title: 'Verb–subject agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
+          { id: 'tenses_general', title: 'Tenses: General', curriculum: 'curriculum_tenses_general.json', questions_key: 'tenses_general' },
           { id: 'conditionals', title: 'Tenses: Conditionals (zero, first, second, third)', curriculum: 'curriculum_conditionals.json', questions_key: 'conditionals' },
           { id: 'past_perfect', title: 'Tenses: Past Perfect', curriculum: 'curriculum_past_perfect.json', questions_key: 'past_perfect' },
           { id: 'past_simple_continuous', title: 'Tenses: Past Simple and Past Continuous', curriculum: 'curriculum_past_simple_continuous.json', questions_key: 'past_simple_continuous' },
           { id: 'past_simple_present_perfect', title: 'Tenses: Past Simple vs Present Perfect', curriculum: 'curriculum_past_simple_present_perfect.json', questions_key: 'past_simple_present_perfect' },
           { id: 'present_perfect', title: 'Tenses: Present Perfect Simple vs Continuous', curriculum: 'curriculum.json', questions_key: 'sets' },
-          { id: 'will_going_to', title: 'Tenses: Will and going to', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' }
+          { id: 'will_going_to', title: 'Tenses: Will and going to', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' },
+          { id: 'modal_verbs', title: 'Modal verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' }
         ];
         currentTopic = topics[0];
-        document.getElementById('topicSelect').classList.remove('hidden');
+        document.getElementById('topicSelectWrap').classList.remove('hidden');
         const sel = document.getElementById('topicSelect');
         sel.innerHTML = '';
         const placeholder = document.createElement('option');
         placeholder.value = '-1';
-        placeholder.textContent = 'Select Grammar Topic';
+        placeholder.textContent = 'Choose a topic';
         placeholder.selected = true;
         sel.appendChild(placeholder);
         topics.forEach((t, i) => {
@@ -1746,7 +1742,7 @@
           opt.textContent = t.title || t.id;
           sel.appendChild(opt);
         });
-        document.getElementById('scoresSummary').textContent = 'Could not load manifest.json (e.g. opened as file). Topic list loaded from fallback. Run from a local server for best results.';
+        document.getElementById('scoresSummary').textContent = 'Could not load manifest. Topic list loaded from fallback. Double-click start_server.bat and open http://localhost:8080 for full features.';
         await loadQuestions().catch(() => {});
         renderMenu();
       }
