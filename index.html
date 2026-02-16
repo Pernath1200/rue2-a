@@ -1799,7 +1799,6 @@
           topics = mData.topics || [];
           if (topics.length > 0) {
             currentTopic = topics[0];
-            document.getElementById('topicSelectWrap').classList.remove('hidden');
             const sel = document.getElementById('topicSelect');
             sel.innerHTML = '';
             const placeholder = document.createElement('option');
@@ -1844,7 +1843,6 @@
           { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' }
         ];
         currentTopic = topics[0];
-        document.getElementById('topicSelectWrap').classList.remove('hidden');
         const sel = document.getElementById('topicSelect');
         sel.innerHTML = '';
         const placeholder = document.createElement('option');
