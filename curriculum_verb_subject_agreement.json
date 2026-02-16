@@ -30,7 +30,7 @@
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "He have been ill.", "b": "He has been ill.", "c": "He has been ill. (same)", "d": "He having been ill."},
+        "options": {"a": "He have been ill.", "b": "He has been ill.", "c": "He has be ill.", "d": "He having been ill."},
         "correct_option": "b",
         "explanation": "Third person singular: he/she/it takes has (not have). He has been ill."
       },

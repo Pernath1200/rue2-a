@@ -109,98 +109,98 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. My sister is ____ (tall) than me.",
+          "question": "1. My sister is ____ (tall) me.",
           "answers": [
-            "taller"
+            "taller than"
           ],
           "explanation": "Tall → taller (short adjective + -er) + than."
         },
         {
           "type": "open",
-          "question": "2. This exercise is ____ (easy) than the last one.",
+          "question": "2. This exercise is ____ (easy) the last one.",
           "answers": [
-            "easier"
+            "easier than"
           ],
           "explanation": "Easy → easier (y → ier)."
         },
         {
           "type": "open",
-          "question": "3. London is ____ (big) than Prague.",
+          "question": "3. London is ____ (big) Prague.",
           "answers": [
-            "bigger"
+            "bigger than"
           ],
           "explanation": "Big → bigger (double the final consonant)."
         },
         {
           "type": "open",
-          "question": "4. Today is ____ (hot) than yesterday.",
+          "question": "4. Today is ____ (hot) yesterday.",
           "answers": [
-            "hotter"
+            "hotter than"
           ],
           "explanation": "Hot → hotter (double the final consonant)."
         },
         {
           "type": "open",
-          "question": "5. This task is ____ (interesting) than the others.",
+          "question": "5. This task is ____ (interesting) the others.",
           "answers": [
-            "more interesting"
+            "more interesting than"
           ],
           "explanation": "Interesting is long → more interesting than."
         },
         {
           "type": "open",
-          "question": "6. His English is ____ (good) than mine.",
+          "question": "6. His English is ____ (good) mine.",
           "answers": [
-            "better"
+            "better than"
           ],
           "explanation": "Good → better."
         },
         {
           "type": "open",
-          "question": "7. The situation is ____ (bad) than before.",
+          "question": "7. The situation is ____ (bad) before.",
           "answers": [
-            "worse"
+            "worse than"
           ],
           "explanation": "Bad → worse."
         },
         {
           "type": "open",
-          "question": "8. This street is ____ (narrow) than the main road.",
+          "question": "8. This street is ____ (narrow) the main road.",
           "answers": [
-            "narrower"
+            "narrower than"
           ],
           "explanation": "Narrow → narrower (add -er)."
         },
         {
           "type": "open",
-          "question": "9. The film was ____ (boring) than I expected.",
+          "question": "9. The film was ____ (boring) I expected.",
           "answers": [
-            "more boring"
+            "more boring than"
           ],
           "explanation": "Boring is long → more boring than."
         },
         {
           "type": "open",
-          "question": "10. My flat is ____ (far) from the centre than yours.",
+          "question": "10. My flat is ____ (far) from the centre yours.",
           "answers": [
-            "farther",
-            "further"
+            "farther than",
+            "further than"
           ],
           "explanation": "Far → farther/further."
         },
         {
           "type": "open",
-          "question": "11. This exam is ____ (difficult) than the last one.",
+          "question": "11. This exam is ____ (difficult) the last one.",
           "answers": [
-            "more difficult"
+            "more difficult than"
           ],
           "explanation": "Difficult is long → more difficult than."
         },
         {
           "type": "open",
-          "question": "12. She is ____ (old) than she looks.",
+          "question": "12. She is ____ (old) she looks.",
           "answers": [
-            "older"
+            "older than"
           ],
           "explanation": "Old → older."
         }
@@ -211,19 +211,19 @@
       "questions": [
         {
           "type": "open",
-          "question": "13. This book is ____ (far / interesting) than the film.",
+          "question": "13. This book is ____ (far / interesting) the film.",
           "answers": [
-            "far more interesting",
-            "much more interesting"
+            "far more interesting than",
+            "much more interesting than"
           ],
           "explanation": "Use a modifier (far/much) + more interesting than."
         },
         {
           "type": "open",
-          "question": "14. The new system is ____ (a bit / efficient) than the old one.",
+          "question": "14. The new system is ____ (a bit / efficient) the old one.",
           "answers": [
-            "a bit more efficient",
-            "slightly more efficient"
+            "a bit more efficient than",
+            "slightly more efficient than"
           ],
           "explanation": "Use a bit/slightly + more efficient than."
         },
@@ -256,27 +256,26 @@
         },
         {
           "type": "open",
-          "question": "18. Complete: 'He drives ____ (carefully) than he used to.'",
+          "question": "18. Complete: 'He drives ____ (carefully) he used to.'",
           "answers": [
-            "more carefully"
+            "more carefully than"
           ],
           "explanation": "Carefully is an adverb → more carefully than ..."
         },
         {
           "type": "open",
-          "question": "19. The meeting took ____ (long) than we expected.",
+          "question": "19. The meeting took ____ (long) we expected.",
           "answers": [
-            "longer",
-            "longer than we expected"
+            "longer than"
           ],
           "explanation": "Comparative with than + clause: longer than we expected."
         },
         {
           "type": "open",
-          "question": "20. This year's results are ____ (slightly / good) than last year's.",
+          "question": "20. This year's results are ____ (slightly / good) last year's.",
           "answers": [
-            "slightly better",
-            "a bit better"
+            "slightly better than",
+            "a bit better than"
           ],
           "explanation": "Use a small degree adverb + better (slightly/a bit better than)."
         }

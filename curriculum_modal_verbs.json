@@ -61,7 +61,7 @@
       },
       {
         "type": "mc",
-        "question": "Which modal verb is followed by **to** + base verb?",
+        "question": "Which of these uses 'to' before the main verb? (e.g. ___ to go)",
         "options": {
           "a": "must",
           "b": "should",
@@ -69,7 +69,7 @@
           "d": "can"
         },
         "correct_option": "c",
-        "explanation": "**Ought to** is the only one in the list that is followed by **to** (ought to go, ought to see). **Must**, **should**, and **can** are followed directly by the base form."
+        "explanation": "**Ought to** always includes 'to' before the main verb: we say 'ought to go', 'ought to see'. **Must**, **should**, and **can** are followed directly by the base form (must go, should see, can go)."
       },
       {
         "type": "mc",

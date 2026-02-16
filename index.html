@@ -33,6 +33,10 @@
       padding: 1.5rem;
       margin-bottom: 1rem;
     }
+    #menuScreen {
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+    }
     label { display: block; margin-bottom: 0.25rem; color: var(--muted); font-size: 0.85rem; }
     select, input[type="number"], button {
       width: 100%;
@@ -51,8 +55,9 @@
       font-weight: 600;
       margin-top: 0.5rem;
     }
+    #menuScreen button { margin-top: 0.35rem; }
     button:hover { filter: brightness(1.1); }
-    button.secondary { background: var(--surface); color: var(--text); border: 1px solid rgba(86, 95, 137, 0.5); }
+    button.secondary { background: rgba(37, 99, 235, 0.12); color: var(--text); border: 1px solid rgba(37, 99, 235, 0.35); }
     .scores { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
     .question-block { margin-bottom: 1.5rem; }
     .question-text { white-space: pre-line; margin-bottom: 0.75rem; line-height: 1.5; }
@@ -104,6 +109,16 @@
 .reference-phrasal-table td:first-child { white-space: nowrap; }
 .wrong-example { color: var(--muted); font-size: 0.9em; }
 .wrong-example s { text-decoration: line-through; }
+    .reference-index-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 0.75rem; max-width: 100%; }
+    @media (max-width: 480px) { .reference-index-grid { grid-template-columns: 1fr; } }
+    body.viewing-reference { padding-top: 0.5rem; }
+    body.viewing-reference h1 { margin-bottom: 0.3rem; }
+    body.viewing-reference .sub { margin-bottom: 0.5rem; font-size: 0.85rem; }
+    body.viewing-reference #referenceScreen .card { padding: 1rem; }
+    body.viewing-reference #referenceScreen h2 { margin: 0 0 0.4rem 0; font-size: 1.1rem; }
+    body.viewing-reference #referenceScreen .reference-index-grid { gap: 0.35rem 0.6rem; }
+    body.viewing-reference #referenceScreen .reference-index-grid button { margin-top: 0; }
+    body.viewing-reference #referenceScreen .actions { margin-top: 0.65rem; }
     @media print {
       body * { visibility: hidden; }
       .no-print-hide, .no-print-hide * { visibility: visible; }
@@ -118,27 +133,28 @@
     <p class="sub">Test yourself, then practise by topic.</p>
 
     <div id="menuScreen" class="card">
-      <div id="menuQuiz">
-        <div class="scores" id="scoresSummary"></div>
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.875rem;">Not sure where to start? Do this first.</p>
-        <div class="actions" style="margin-bottom: 1rem;">
-          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Quick grammar check</button>
+      <div id="menuMain" class="menu-panel">
+        <p style="margin-bottom: 0.35rem; color: var(--muted); font-size: 0.875rem;">Not sure where to start? Do this first.</p>
+        <div class="actions" style="margin-bottom: 0.65rem;">
+          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Quick Grammar Check</button>
         </div>
-        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 1rem 0;" />
-        <div id="topicSelectWrap" class="hidden">
-          <label for="topicSelect" style="margin-top: 0.5rem;">Choose a topic to practise</label>
-          <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
-        </div>
-        <button type="button" id="startPart1Btn" class="secondary">Learn and test</button>
-        <button type="button" id="startPart2Btn" class="secondary">Guided practice</button>
-        <button type="button" id="openPracticeSetupBtn" class="secondary">Full practice</button>
-        <button type="button" id="viewPrepositionsListBtn" class="secondary hidden">View preposition lists (print)</button>
-        <button type="button" id="viewPhrasalVerbsDictionaryBtn" class="secondary hidden">View phrasal verb dictionary (print)</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
+        <button type="button" id="openTopicSelectBtn">Choose Grammar Topic</button>
         <div id="practiceWeakSpotsWrap" class="hidden" style="margin-top: 0.75rem;">
-          <p style="margin-bottom: 0.35rem; color: var(--muted); font-size: 0.85rem;">Revise questions you answered incorrectly in previous quizzes:</p>
-          <button type="button" id="startWeakSpotsBtn" class="secondary">Practice weak spots</button>
+          <p style="margin-bottom: 0.35rem; color: var(--muted); font-size: 0.85rem;">Revise questions you got wrong – they drop off after you get them right 3 times:</p>
+          <button type="button" id="startWeakSpotsBtn" class="secondary">Revise weak spots</button>
         </div>
         <div class="memory-bank" id="memoryBankSummary"></div>
+      </div>
+      <div id="menuTopicSelect" class="menu-panel hidden">
+        <div class="scores" id="scoresSummary"></div>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a topic, then select a practice mode.</p>
+        <label for="topicSelect" style="margin-top: 0.35rem;">Topic</label>
+        <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
+        <button type="button" id="startPart1Btn" class="secondary">Learn and Test</button>
+        <button type="button" id="startPart2Btn" class="secondary">Guided Practice</button>
+        <button type="button" id="openPracticeSetupBtn" class="secondary">Further Practice</button>
+        <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to main menu</button>
       </div>
       <div id="menuPracticeSetup" class="hidden">
         <p id="practiceSetupTopic" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;"></p>
@@ -158,14 +174,14 @@
         <p style="margin-bottom: 0.75rem; color: var(--muted); font-size: 0.9rem;">Choose how many questions. Wrong answers will suggest topics to revise.</p>
         <div class="actions" style="margin-bottom: 0.5rem;">
           <button type="button" id="diagnostic20Btn" class="secondary">Basic – 20 questions</button>
-          <button type="button" id="diagnostic50Btn" class="secondary">Standard – 50 questions</button>
-          <button type="button" id="diagnostic100Btn" class="secondary">Full – 100 questions</button>
+          <button type="button" id="diagnostic50Btn" class="secondary">Intermediate – 50 questions</button>
+          <button type="button" id="diagnostic100Btn" class="secondary">Extended – 100 questions</button>
         </div>
         <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.75rem;">Menu</button>
       </div>
     </div>
 
-    <div style="margin-top: 1.25rem;">
+    <div id="referenceBtnWrap" style="margin-top: 0.75rem; margin-bottom: 3rem;">
       <button type="button" id="openReferenceBtn" class="secondary">Reference</button>
     </div>
 
@@ -223,6 +239,7 @@
       <div class="card">
         <h2 id="resultTitle">Quiz finished</h2>
         <p id="resultScore"></p>
+        <p id="resultNextStep" class="hidden" style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--muted);"></p>
         <div class="summary" id="ruleSummary"></div>
         <div id="wrongAnswersCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
@@ -355,6 +372,7 @@
       return { last: [last.score, last.total], best: [best.score, best.total] };
     }
 
+    const WEAK_SPOT_RIGHT_THRESHOLD = 3;
     function getWeakSpotQuestions() {
       const bank = loadMemoryBank();
       const seen = new Set();
@@ -362,7 +380,8 @@
       Object.values(setsData).forEach(s => {
         (s.questions || []).forEach(q => {
           const key = questionHash(q);
-          if (bank[key] && bank[key].wrong > 0 && !seen.has(key)) {
+          const entry = bank[key];
+          if (entry && entry.wrong > 0 && (entry.right || 0) < WEAK_SPOT_RIGHT_THRESHOLD && !seen.has(key)) {
             seen.add(key);
             out.push(q);
           }
@@ -393,9 +412,27 @@
     function normalize(s) {
       return s.trim().toLowerCase().replace(/\s+/g, ' ');
     }
+    function toTitleCase(s) {
+      if (!s || typeof s !== 'string') return s;
+      const minor = new Set(['a','an','the','and','but','or','in','on','at','to','for','of','with','by','vs','as']);
+      return s.split(/(\s+)/).map((part, i, arr) => {
+        if (/\s+/.test(part)) return part;
+        const word = part.toLowerCase();
+        const bare = word.replace(/^[\W_]+/, '').replace(/[\W_]+$/, '');
+        const isFirst = i === 0;
+        const isLast = i === arr.length - 1;
+        if (minor.has(word) && !isFirst && !isLast) return word;
+        if (minor.has(bare)) return word;
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      }).join('');
+    }
 
     function answerMatches(user, accepted) {
       const u = normalize(user);
+      if (u === '') {
+        const noArticleValues = ['no article', '∅', 'nothing'];
+        if (accepted.some(a => noArticleValues.includes(normalize(a)))) return true;
+      }
       return accepted.some(a => normalize(a) === u);
     }
 
@@ -420,7 +457,7 @@
       const weakBtn = document.getElementById('startWeakSpotsBtn');
       if (weakSpots.length > 0 && weakWrap && weakBtn) {
         weakWrap.classList.remove('hidden');
-        weakBtn.textContent = 'Practice weak spots (' + weakSpots.length + ' questions)';
+        weakBtn.textContent = 'Revise weak spots (' + weakSpots.length + ' questions)';
       } else if (weakWrap) {
         weakWrap.classList.add('hidden');
       }
@@ -446,12 +483,25 @@
       document.getElementById('prepositionsListScreen').classList.add('hidden');
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       document.getElementById('referenceScreen').classList.add('hidden');
-      document.getElementById('menuQuiz').classList.remove('hidden');
+      document.getElementById('menuMain').classList.remove('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       const diagSetup = document.getElementById('menuDiagnosticSetup');
       if (diagSetup) diagSetup.classList.add('hidden');
-      document.getElementById('viewPrepositionsListBtn').classList.add('hidden');
-      document.getElementById('viewPhrasalVerbsDictionaryBtn').classList.add('hidden');
+    }
+
+    function showTopicSelectMenu() {
+      document.getElementById('menuMain').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.remove('hidden');
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      document.getElementById('menuDiagnosticSetup').classList.add('hidden');
+    }
+
+    function showMainMenu() {
+      document.getElementById('menuMain').classList.remove('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      document.getElementById('menuDiagnosticSetup').classList.add('hidden');
     }
 
     function renderPrepositionsListContent(data) {
@@ -586,6 +636,7 @@
     }
 
     let referenceInfinitiveIngData = null;
+    let referenceModalVerbsData = null;
     let dependentPrepositionsData = null;
     let countableUncountableData = null;
     let referenceView = 'index';
@@ -597,72 +648,32 @@
       content.innerHTML = '';
       const p = document.createElement('p');
       p.style.color = 'var(--muted)';
-      p.style.marginBottom = '1rem';
+      p.style.marginBottom = '0.5rem';
+      p.style.fontSize = '0.9rem';
       p.textContent = 'Choose a reference list:';
       content.appendChild(p);
-      const btn1 = document.createElement('button');
-      btn1.type = 'button';
-      btn1.className = 'secondary';
-      btn1.textContent = 'Infinitive and -ing form';
-      btn1.style.marginBottom = '0.5rem';
-      btn1.addEventListener('click', showReferenceInfinitiveIng);
-      content.appendChild(btn1);
-      const btn2 = document.createElement('button');
-      btn2.type = 'button';
-      btn2.className = 'secondary';
-      btn2.textContent = 'Phrasal verb dictionary';
-      btn2.style.marginBottom = '0.5rem';
-      btn2.style.display = 'block';
-      btn2.addEventListener('click', showReferencePhrasalVerbs);
-      content.appendChild(btn2);
-      const btn3 = document.createElement('button');
-      btn3.type = 'button';
-      btn3.className = 'secondary';
-      btn3.textContent = 'Prepositions list';
-      btn3.style.marginBottom = '0.5rem';
-      btn3.style.display = 'block';
-      btn3.addEventListener('click', showReferencePrepositions);
-      content.appendChild(btn3);
-      const btn4 = document.createElement('button');
-      btn4.type = 'button';
-      btn4.className = 'secondary';
-      btn4.textContent = 'Dependent prepositions: Verbs';
-      btn4.style.marginBottom = '0.5rem';
-      btn4.style.display = 'block';
-      btn4.addEventListener('click', () => showReferenceDependentSection('verbs'));
-      content.appendChild(btn4);
-      const btn5 = document.createElement('button');
-      btn5.type = 'button';
-      btn5.className = 'secondary';
-      btn5.textContent = 'Dependent prepositions: Nouns';
-      btn5.style.marginBottom = '0.5rem';
-      btn5.style.display = 'block';
-      btn5.addEventListener('click', () => showReferenceDependentSection('nouns'));
-      content.appendChild(btn5);
-      const btn6 = document.createElement('button');
-      btn6.type = 'button';
-      btn6.className = 'secondary';
-      btn6.textContent = 'Dependent prepositions: Adjectives';
-      btn6.style.marginBottom = '0.5rem';
-      btn6.style.display = 'block';
-      btn6.addEventListener('click', () => showReferenceDependentSection('adjectives'));
-      content.appendChild(btn6);
-      const btn7 = document.createElement('button');
-      btn7.type = 'button';
-      btn7.className = 'secondary';
-      btn7.textContent = 'Preposition + verb compound nouns';
-      btn7.style.marginBottom = '0.5rem';
-      btn7.style.display = 'block';
-      btn7.addEventListener('click', () => showReferenceDependentSection('compound_nouns'));
-      content.appendChild(btn7);
-      const btn8 = document.createElement('button');
-      btn8.type = 'button';
-      btn8.className = 'secondary';
-      btn8.textContent = 'Uncountable Nouns and Plural-only Nouns';
-      btn8.style.marginBottom = '0.5rem';
-      btn8.style.display = 'block';
-      btn8.addEventListener('click', showReferenceCountableUncountable);
-      content.appendChild(btn8);
+      const grid = document.createElement('div');
+      grid.className = 'reference-index-grid';
+      const items = [
+        ['Infinitive and -ing Form', showReferenceInfinitiveIng],
+        ['Modal Verbs', showReferenceModalVerbs],
+        ['Phrasal Verb Dictionary', showReferencePhrasalVerbs],
+        ['Prepositions List', showReferencePrepositions],
+        ['Dependent Prepositions: Verbs', () => showReferenceDependentSection('verbs')],
+        ['Dependent Prepositions: Nouns', () => showReferenceDependentSection('nouns')],
+        ['Dependent Prepositions: Adjectives', () => showReferenceDependentSection('adjectives')],
+        ['Preposition + Verb Compound Nouns', () => showReferenceDependentSection('compound_nouns')],
+        ['Nouns: Uncountable and Always-Plural', showReferenceCountableUncountable]
+      ];
+      items.forEach(([text, fn]) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'secondary';
+        btn.textContent = text;
+        btn.addEventListener('click', fn);
+        grid.appendChild(btn);
+      });
+      content.appendChild(grid);
       document.getElementById('referencePrintDownloadWrap').classList.add('hidden');
       document.getElementById('referenceBackBtn').textContent = 'Menu';
     }
@@ -1007,12 +1018,29 @@
       }
       const verbs = data.verbs || [];
       if (verbs.length) {
+        const getSection = (note) => {
+          const n = (note || '').toLowerCase();
+          if (n.indexOf('only to-infinitive') === 0) return 'to_only';
+          if (n.indexOf('only -ing') === 0) return 'ing_only';
+          if (n.indexOf('both correct; same meaning') === 0) return 'both_same';
+          if (n.indexOf('both correct; different meaning') === 0) return 'both_different';
+          if (n.indexOf('after preposition') === 0 || n.indexOf('after too') === 0 || n.indexOf('after enough') === 0) return 'other_rules';
+          return '';
+        };
         const table = document.createElement('table');
         table.className = 'reference-phrasal-table';
         table.setAttribute('border', '1');
         table.innerHTML = '<thead><tr><th>Verb</th><th>With -ing (example)</th><th>With to (example)</th><th>Note</th></tr></thead><tbody></tbody>';
         const tbody = table.querySelector('tbody');
+        let lastSection = '';
         verbs.forEach(entry => {
+          const section = getSection(entry.note);
+          if (section && section !== lastSection && lastSection !== '') {
+            const spacer = document.createElement('tr');
+            spacer.innerHTML = '<td colspan="4" style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); height: 0.75rem; background: transparent;"></td>';
+            tbody.appendChild(spacer);
+          }
+          lastSection = section || lastSection;
           const tr = document.createElement('tr');
           const ing = (entry.example_ing || '').trim();
           const to = (entry.example_to || '').trim();
@@ -1059,7 +1087,9 @@
       renderReferenceIndex();
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('introScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
       document.getElementById('referenceScreen').classList.remove('hidden');
+      document.body.classList.add('viewing-reference');
     }
 
     async function showReferenceInfinitiveIng() {
@@ -1076,13 +1106,83 @@
       renderReferenceInfinitiveIngContent(referenceInfinitiveIngData);
     }
 
+    function renderReferenceModalVerbsContent(data) {
+      if (!data) return;
+      referenceView = 'modal_verbs';
+      document.getElementById('referenceTitle').textContent = data.title || 'Modal verbs and semi-modals';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.whiteSpace = 'pre-line';
+        p.style.marginBottom = '1rem';
+        p.style.color = 'var(--muted)';
+        p.innerHTML = escapeAndBold(data.intro || '').replace(/\n/g, '<br>');
+        content.appendChild(p);
+      }
+      const addTable = (arr, cols) => {
+        if (!arr || !arr.length) return;
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        const headers = cols.map(c => c.charAt(0).toUpperCase() + c.slice(1).replace(/_/g, ' ')).join('</th><th>');
+        table.innerHTML = '<thead><tr><th>' + headers + '</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        arr.forEach(entry => {
+          const tr = document.createElement('tr');
+          const cells = cols.map(c => escapeAndBold(entry[c] || ''));
+          tr.innerHTML = '<td>' + cells.join('</td><td>') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      };
+      if ((data.modals || []).length) {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.color = 'var(--accent)';
+        h3.style.marginTop = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.textContent = 'Modal verbs';
+        content.appendChild(h3);
+        addTable(data.modals, ['modal', 'meaning', 'example', 'form']);
+      }
+      if ((data.semi_modals || []).length) {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.color = 'var(--accent)';
+        h3.style.marginTop = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.textContent = 'Semi-modals';
+        content.appendChild(h3);
+        addTable(data.semi_modals, ['modal', 'meaning', 'example', 'form']);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceModalVerbs() {
+      if (!referenceModalVerbsData) {
+        try {
+          const res = await fetch(new URL('reference_modal_verbs.json', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceModalVerbsData = await res.json();
+        } catch (e) {
+          alert('Could not load reference. ' + e.message);
+          return;
+        }
+      }
+      renderReferenceModalVerbsContent(referenceModalVerbsData);
+    }
+
     function hideReference() {
       document.getElementById('referenceScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.remove('hidden');
       document.getElementById('menuScreen').classList.remove('hidden');
+      document.body.classList.remove('viewing-reference');
     }
 
     function onReferenceBackClick() {
-      if (referenceView === 'infinitive_ing' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable') {
+      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable') {
         renderReferenceIndex();
       } else {
         hideReference();
@@ -1168,6 +1268,8 @@
             return (s && s.title) ? s.title.replace(/^Practice: Gap fill –?\s*/i, '').trim() : k.replace(/_/g, ' ');
           });
           document.getElementById('ruleSummary').textContent = 'You have finished Practice: ' + sectionNames.join(', ') + '.';
+          document.getElementById('resultNextStep').textContent = 'Suggested next step: Further Practice';
+          document.getElementById('resultNextStep').classList.remove('hidden');
           document.getElementById('retryWrongBtn').classList.add('hidden');
           coursePart = null;
         }
@@ -1239,7 +1341,7 @@
         if (!res.ok) throw new Error('Could not load questions');
         allData = await res.json();
       } catch (e) {
-        alert('Could not load Quick grammar check. ' + e.message);
+        alert('Could not load Quick Grammar Check. ' + e.message);
         return;
       }
       const pool = [];
@@ -1261,7 +1363,7 @@
       const max = Math.min(num, pool.length);
       currentQuestions = pool.slice(0, max);
       currentSetId = 'diagnostic';
-      currentSetTitle = 'Quick grammar check';
+      currentSetTitle = 'Quick Grammar Check';
       summary = max + ' questions from all topics (random order). Wrong answers point to topics you need to revise.';
       currentIndex = 0;
       score = 0;
@@ -1347,7 +1449,7 @@
       wrongTopics = new Set();
       const questions = getWeakSpotQuestions();
       if (questions.length === 0) {
-        alert('No weak spots yet. Do a quiz and get some wrong to build your memory bank.');
+        alert('No weak spots yet. Do a quiz and get some wrong to build your revision list.');
         return;
       }
       const shuffled = questions.slice();
@@ -1357,8 +1459,8 @@
       }
       currentQuestions = shuffled;
       currentSetId = 'weakspots';
-      currentSetTitle = 'Practice weak spots (' + shuffled.length + ' questions)';
-      summary = 'Questions you got wrong before – keep practising!';
+      currentSetTitle = 'Revise weak spots (' + shuffled.length + ' questions)';
+      summary = 'Questions you got wrong – get each right 3 times and it will drop off.';
       currentIndex = 0;
       score = 0;
       wrongIndices = [];
@@ -1379,7 +1481,7 @@
 
     function getTopicTitle(topicId) {
       const t = (topics || []).find(x => x.id === topicId);
-      return t ? (t.title || topicId) : topicId;
+      return toTitleCase(t ? (t.title || topicId) : topicId);
     }
     function getTopicLabelForDisplay(topicId) {
       const title = getTopicTitle(topicId);
@@ -1540,6 +1642,8 @@
       } else {
         document.getElementById('resultScreen').classList.remove('hidden');
         document.getElementById('resultScore').textContent = `Score: ${score} / ${currentQuestions.length}`;
+        document.getElementById('resultNextStep').classList.add('hidden');
+        document.getElementById('resultNextStep').textContent = '';
         document.getElementById('ruleSummary').textContent = summary;
         document.getElementById('retryWrongBtn').classList.toggle('hidden', wrongIndices.length === 0);
         const wrongCorrectBlock = document.getElementById('wrongAnswersCorrectBlock');
@@ -1558,7 +1662,7 @@
           reviewList.innerHTML = '';
           wrongTopics.forEach(topicId => {
             const t = topics.find(x => x.id === topicId);
-            const title = t ? t.title : topicId;
+            const title = getTopicTitle(topicId);
             const btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'secondary';
@@ -1599,23 +1703,26 @@
         alert('Please choose a topic first.');
         return;
       }
-      document.getElementById('menuQuiz').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.remove('hidden');
       const topicEl = document.getElementById('practiceSetupTopic');
-      if (topicEl) topicEl.textContent = currentTopic ? (currentTopic.title || currentTopic.id) : '';
+      if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
     });
     document.getElementById('practiceSetupBackBtn').addEventListener('click', () => {
       document.getElementById('menuPracticeSetup').classList.add('hidden');
-      document.getElementById('menuQuiz').classList.remove('hidden');
+      document.getElementById('menuTopicSelect').classList.remove('hidden');
     });
+    document.getElementById('openTopicSelectBtn').addEventListener('click', showTopicSelectMenu);
+    document.getElementById('topicSelectBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('openDiagnosticSetupBtn').addEventListener('click', () => {
-      document.getElementById('menuQuiz').classList.add('hidden');
+      document.getElementById('menuMain').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.remove('hidden');
     });
     document.getElementById('diagnosticSetupBackBtn').addEventListener('click', () => {
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
-      document.getElementById('menuQuiz').classList.remove('hidden');
+      document.getElementById('menuMain').classList.remove('hidden');
     });
     document.getElementById('diagnostic20Btn').addEventListener('click', () => startDiagnostic(20));
     document.getElementById('diagnostic50Btn').addEventListener('click', () => startDiagnostic(50));
@@ -1639,11 +1746,11 @@
     document.getElementById('backToMenuBtn').addEventListener('click', renderMenu);
     document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
     document.getElementById('introExitBtn').addEventListener('click', renderMenu);
-    document.getElementById('viewPrepositionsListBtn').addEventListener('click', () => showPrepositionsList('menu'));
+    document.getElementById('viewPrepositionsListBtn')?.addEventListener('click', () => showPrepositionsList('menu'));
     document.getElementById('viewPrepositionsListFromIntroBtn').addEventListener('click', () => showPrepositionsList('intro'));
     document.getElementById('prepositionsListBackBtn').addEventListener('click', hidePrepositionsList);
     document.getElementById('prepositionsListPrintBtn').addEventListener('click', () => window.print());
-    document.getElementById('viewPhrasalVerbsDictionaryBtn').addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
+    document.getElementById('viewPhrasalVerbsDictionaryBtn')?.addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
     document.getElementById('viewPhrasalVerbsFromIntroBtn').addEventListener('click', () => showPhrasalVerbsDictionary('intro'));
     document.getElementById('phrasalVerbsDictionaryBackBtn').addEventListener('click', hidePhrasalVerbsDictionary);
     document.getElementById('phrasalVerbsDictionaryPrintBtn').addEventListener('click', () => window.print());
@@ -1672,13 +1779,21 @@
       if (topics[idx] != null) {
         currentTopic = topics[idx];
         applyTopic();
-        renderMenu();
+        const summaryEl = document.getElementById('scoresSummary');
+        const lastBest = getLastBest(currentTopic.id);
+        if (lastBest.last) {
+          summaryEl.textContent = 'Last: ' + lastBest.last[0] + '/' + lastBest.last[1] +
+            (lastBest.best && (lastBest.best[0] !== lastBest.last[0] || lastBest.best[1] !== lastBest.last[1])
+              ? '  •  Best: ' + lastBest.best[0] + '/' + lastBest.best[1] : '');
+        } else {
+          summaryEl.textContent = '';
+        }
       }
     });
 
     (async function init() {
       try {
-        const mRes = await fetch(new URL('manifest.json?v=2', getBaseUrl()));
+        const mRes = await fetch(new URL('manifest.json?v=5', getBaseUrl()));
         if (mRes.ok) {
           const mData = await mRes.json();
           topics = mData.topics || [];
@@ -1695,7 +1810,7 @@
             topics.forEach((t, i) => {
               const opt = document.createElement('option');
               opt.value = i;
-              opt.textContent = t.title || t.id;
+              opt.textContent = toTitleCase(t.title || t.id);
               sel.appendChild(opt);
             });
           }
@@ -1704,28 +1819,29 @@
         renderMenu();
       } catch (err) {
         topics = [
-          { id: 'articles', title: 'Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
           { id: 'comparatives', title: 'Comparatives and Superlatives', curriculum: 'curriculum_comparatives.json', questions_key: 'comparatives' },
-          { id: 'conjunctions_linkers', title: 'Conjunctions and linkers', curriculum: 'curriculum_conjunctions_linkers.json', questions_key: 'conjunctions_linkers' },
-          { id: 'countable_uncountable', title: 'Uncountable Nouns and Plural-only Nouns', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
-          { id: 'infinitive_ing', title: 'Infinitive and -ing form', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
+          { id: 'conjunctions_linkers', title: 'Conjunctions and Linkers', curriculum: 'curriculum_conjunctions_linkers.json', questions_key: 'conjunctions_linkers' },
+          { id: 'articles', title: 'Determiners: Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
+          { id: 'quantifiers', title: 'Determiners: Quantifiers', curriculum: 'curriculum_quantifiers.json', questions_key: 'quantifiers' },
+          { id: 'infinitive_ing', title: 'Infinitive and -ing Form', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
+          { id: 'modal_verbs', title: 'Modal Verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' },
+          { id: 'countable_uncountable', title: 'Nouns: Uncountable and Always-Plural', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
-          { id: 'phrasal_verbs', title: 'Phrasal verbs', curriculum: 'curriculum_phrasal_verbs.json', questions_key: 'phrasal_verbs' },
+          { id: 'phrasal_verbs', title: 'Phrasal Verbs', curriculum: 'curriculum_phrasal_verbs.json', questions_key: 'phrasal_verbs' },
           { id: 'prepositions', title: 'Prepositions', curriculum: 'curriculum_prepositions.json', questions_key: 'prepositions' },
-          { id: 'punctuation', title: 'Punctuation and capitalisation', curriculum: 'curriculum_punctuation.json', questions_key: 'punctuation' },
-          { id: 'relative_pronouns', title: 'Relative pronouns', curriculum: 'curriculum_relative_pronouns.json', questions_key: 'relative_pronouns' },
-          { id: 'reported_speech', title: 'Reported speech', curriculum: 'curriculum_reported_speech.json', questions_key: 'reported_speech' },
+          { id: 'punctuation', title: 'Punctuation and Capitalisation', curriculum: 'curriculum_punctuation.json', questions_key: 'punctuation' },
+          { id: 'relative_pronouns', title: 'Relative Pronouns', curriculum: 'curriculum_relative_pronouns.json', questions_key: 'relative_pronouns' },
+          { id: 'reported_speech', title: 'Reported Speech', curriculum: 'curriculum_reported_speech.json', questions_key: 'reported_speech' },
           { id: 'spelling', title: 'Spelling', curriculum: 'curriculum_spelling.json', questions_key: 'spelling' },
-          { id: 'word_order', title: 'Word order in sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' },
-          { id: 'verb_subject_agreement', title: 'Verb–subject agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
+          { id: 'conditionals', title: 'Tenses: Conditionals (Zero, First, Second, Third)', curriculum: 'curriculum_conditionals.json', questions_key: 'conditionals' },
           { id: 'tenses_general', title: 'Tenses: General', curriculum: 'curriculum_tenses_general.json', questions_key: 'tenses_general' },
-          { id: 'conditionals', title: 'Tenses: Conditionals (zero, first, second, third)', curriculum: 'curriculum_conditionals.json', questions_key: 'conditionals' },
           { id: 'past_perfect', title: 'Tenses: Past Perfect', curriculum: 'curriculum_past_perfect.json', questions_key: 'past_perfect' },
           { id: 'past_simple_continuous', title: 'Tenses: Past Simple and Past Continuous', curriculum: 'curriculum_past_simple_continuous.json', questions_key: 'past_simple_continuous' },
           { id: 'past_simple_present_perfect', title: 'Tenses: Past Simple vs Present Perfect', curriculum: 'curriculum_past_simple_present_perfect.json', questions_key: 'past_simple_present_perfect' },
           { id: 'present_perfect', title: 'Tenses: Present Perfect Simple vs Continuous', curriculum: 'curriculum.json', questions_key: 'sets' },
-          { id: 'will_going_to', title: 'Tenses: Will and going to', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' },
-          { id: 'modal_verbs', title: 'Modal verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' }
+          { id: 'will_going_to', title: 'Tenses: Will and Going To', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' },
+          { id: 'verb_subject_agreement', title: 'Verb–Subject Agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
+          { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' }
         ];
         currentTopic = topics[0];
         document.getElementById('topicSelectWrap').classList.remove('hidden');
@@ -1739,7 +1855,7 @@
         topics.forEach((t, i) => {
           const opt = document.createElement('option');
           opt.value = i;
-          opt.textContent = t.title || t.id;
+          opt.textContent = toTitleCase(t.title || t.id);
           sel.appendChild(opt);
         });
         document.getElementById('scoresSummary').textContent = 'Could not load manifest. Topic list loaded from fallback. Double-click start_server.bat and open http://localhost:8080 for full features.';
