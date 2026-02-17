@@ -130,20 +130,14 @@
 <body>
   <div class="container">
     <h1>English Grammar Check</h1>
-    <p class="sub">Test yourself, then practise by topic.</p>
 
     <div id="menuScreen" class="card">
       <div id="menuMain" class="menu-panel">
-        <p style="margin-bottom: 0.35rem; color: var(--muted); font-size: 0.875rem;">Not sure where to start? Do this first.</p>
         <div class="actions" style="margin-bottom: 0.65rem;">
-          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Quick Grammar Check</button>
+          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Grammar Test</button>
         </div>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
         <button type="button" id="openTopicSelectBtn">Choose Grammar Topic</button>
-        <div id="practiceWeakSpotsWrap" class="hidden" style="margin-top: 0.75rem;">
-          <p style="margin-bottom: 0.35rem; color: var(--muted); font-size: 0.85rem;">Revise questions you got wrong – they drop off after you get them right 3 times:</p>
-          <button type="button" id="startWeakSpotsBtn" class="secondary">Revise weak spots</button>
-        </div>
         <div class="memory-bank" id="memoryBankSummary"></div>
       </div>
       <div id="menuTopicSelect" class="menu-panel hidden">
@@ -179,10 +173,6 @@
         </div>
         <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.75rem;">Menu</button>
       </div>
-    </div>
-
-    <div id="referenceBtnWrap" style="margin-top: 0.75rem; margin-bottom: 3rem;">
-      <button type="button" id="openReferenceBtn" class="secondary">Reference</button>
     </div>
 
     <div id="quizScreen" class="hidden">
@@ -226,7 +216,17 @@
       <div class="card">
         <h3 id="sectionCompleteTitle"></h3>
         <p id="sectionCompleteScore"></p>
-        <p id="sectionCompleteNextStep" class="hidden" style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--muted);"></p>
+        <div id="sectionCompleteRetryWrap" class="hidden" style="margin-top: 0.75rem;">
+          <button type="button" id="sectionCompleteRetryWrongBtn" class="secondary">Retry wrong answers</button>
+        </div>
+        <div id="sectionCompleteFurtherPracticeWrap" class="hidden" style="margin-top: 0.75rem;">
+          <p id="sectionCompleteFurtherPracticeText" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);">Suggested next step: Further Practice</p>
+          <button type="button" id="sectionCompleteFurtherPracticeBtn" class="secondary">Further Practice</button>
+        </div>
+        <div id="sectionCompleteNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
+          <p id="sectionCompleteNextStep" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);"></p>
+          <button type="button" id="sectionCompleteGuidedPracticeBtn" class="secondary">Guided Practice</button>
+        </div>
         <div id="sectionCompleteCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
           <div id="sectionCompleteCorrectList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
@@ -239,7 +239,10 @@
       <div class="card">
         <h2 id="resultTitle">Quiz finished</h2>
         <p id="resultScore"></p>
-        <p id="resultNextStep" class="hidden" style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--muted);"></p>
+        <div id="resultNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
+          <p id="resultNextStep" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);"></p>
+          <button type="button" id="resultFurtherPracticeBtn" class="secondary">Further Practice</button>
+        </div>
         <div class="summary" id="ruleSummary"></div>
         <div id="wrongAnswersCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
@@ -259,9 +262,9 @@
 
     <div id="prepositionsListScreen" class="hidden no-print-hide">
       <div class="card prepositions-list-card">
-        <h2 id="prepositionsListTitle">Prepositions in English</h2>
         <div id="prepositionsListContent"></div>
-        <div class="actions" style="margin-top: 1rem;">
+        <h2 id="prepositionsListTitle" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">Prepositions in English</h2>
+        <div class="actions" style="margin-top: 0.5rem;">
           <button type="button" id="prepositionsListPrintBtn" class="secondary">Print list</button>
           <button type="button" id="prepositionsListBackBtn">Menu</button>
         </div>
@@ -269,9 +272,9 @@
     </div>
     <div id="phrasalVerbsDictionaryScreen" class="hidden no-print-hide">
       <div class="card prepositions-list-card">
-        <h2 id="phrasalVerbsDictionaryTitle">Phrasal verb dictionary</h2>
         <div id="phrasalVerbsDictionaryContent"></div>
-        <div class="actions" style="margin-top: 1rem;">
+        <h2 id="phrasalVerbsDictionaryTitle" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">Phrasal verb dictionary</h2>
+        <div class="actions" style="margin-top: 0.5rem;">
           <button type="button" id="phrasalVerbsDictionaryPrintBtn" class="secondary">Print dictionary</button>
           <button type="button" id="phrasalVerbsDictionaryBackBtn">Menu</button>
         </div>
@@ -279,15 +282,19 @@
     </div>
     <div id="referenceScreen" class="hidden no-print-hide">
       <div class="card prepositions-list-card">
-        <h2 id="referenceTitle">Reference</h2>
         <div id="referenceContent"></div>
-        <div id="referenceActions" class="actions" style="margin-top: 1rem;">
+        <h2 id="referenceTitle" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">Reference</h2>
+        <div id="referenceActions" class="actions" style="margin-top: 0.5rem;">
           <span id="referencePrintDownloadWrap" class="hidden">
             <button type="button" id="referencePrintBtn" class="secondary">Print</button>
           </span>
           <button type="button" id="referenceBackBtn">Back</button>
         </div>
       </div>
+    </div>
+
+    <div id="referenceBtnWrap" style="margin-top: 1rem; margin-bottom: 1rem;">
+      <button type="button" id="openReferenceBtn" class="secondary">Reference</button>
     </div>
   </div>
 
@@ -452,16 +459,6 @@
     }
 
     function renderMenu() {
-      const weakSpots = getWeakSpotQuestions();
-      const weakWrap = document.getElementById('practiceWeakSpotsWrap');
-      const weakBtn = document.getElementById('startWeakSpotsBtn');
-      if (weakSpots.length > 0 && weakWrap && weakBtn) {
-        weakWrap.classList.remove('hidden');
-        weakBtn.textContent = 'Revise weak spots (' + weakSpots.length + ' questions)';
-      } else if (weakWrap) {
-        weakWrap.classList.add('hidden');
-      }
-
       const summaryEl = document.getElementById('scoresSummary');
       const lastBest = getLastBest(currentTopic.id);
       if (lastBest.last) {
@@ -1269,7 +1266,7 @@
           });
           document.getElementById('ruleSummary').textContent = 'You have finished Practice: ' + sectionNames.join(', ') + '.';
           document.getElementById('resultNextStep').textContent = 'Suggested next step: Further Practice';
-          document.getElementById('resultNextStep').classList.remove('hidden');
+          document.getElementById('resultNextStepWrap').classList.remove('hidden');
           document.getElementById('retryWrongBtn').classList.add('hidden');
           coursePart = null;
         }
@@ -1290,7 +1287,7 @@
         return;
       }
       try {
-        const res = await fetch(new URL(currentTopic.curriculum + '?v=3', getBaseUrl()));
+        const res = await fetch(new URL(currentTopic.curriculum + '?v=4', getBaseUrl()));
         if (!res.ok) throw new Error('Could not load ' + currentTopic.curriculum);
         courseCurriculum = await res.json();
       } catch (e) {
@@ -1311,7 +1308,7 @@
         return;
       }
       try {
-        const res = await fetch(new URL(currentTopic.curriculum + '?v=3', getBaseUrl()));
+        const res = await fetch(new URL(currentTopic.curriculum + '?v=4', getBaseUrl()));
         if (!res.ok) throw new Error('Could not load ' + currentTopic.curriculum);
         courseCurriculum = await res.json();
       } catch (e) {
@@ -1341,7 +1338,7 @@
         if (!res.ok) throw new Error('Could not load questions');
         allData = await res.json();
       } catch (e) {
-        alert('Could not load Quick Grammar Check. ' + e.message);
+        alert('Could not load Grammar Test. ' + e.message);
         return;
       }
       const pool = [];
@@ -1363,7 +1360,7 @@
       const max = Math.min(num, pool.length);
       currentQuestions = pool.slice(0, max);
       currentSetId = 'diagnostic';
-      currentSetTitle = 'Quick Grammar Check';
+      currentSetTitle = 'Grammar Test';
       summary = max + ' questions from all topics (random order). Wrong answers point to topics you need to revise.';
       currentIndex = 0;
       score = 0;
@@ -1620,13 +1617,20 @@
       if (coursePhase) {
         document.getElementById('sectionCompleteTitle').textContent = coursePart === 1 ? 'Part 1 complete' : (currentSetTitle + ' – complete');
         document.getElementById('sectionCompleteScore').textContent = 'Score: ' + score + ' / ' + currentQuestions.length;
+        const sectionNextStepWrap = document.getElementById('sectionCompleteNextStepWrap');
         const sectionNextStepEl = document.getElementById('sectionCompleteNextStep');
+        const sectionRetryWrap = document.getElementById('sectionCompleteRetryWrap');
+        const sectionFurtherWrap = document.getElementById('sectionCompleteFurtherPracticeWrap');
         if (coursePart === 1) {
           sectionNextStepEl.textContent = 'Suggested next step: Guided Practice';
-          sectionNextStepEl.classList.remove('hidden');
+          sectionNextStepWrap.classList.remove('hidden');
+          sectionRetryWrap.classList.toggle('hidden', wrongIndices.length === 0);
+          sectionFurtherWrap.classList.add('hidden');
         } else {
-          sectionNextStepEl.classList.add('hidden');
+          sectionNextStepWrap.classList.add('hidden');
           sectionNextStepEl.textContent = '';
+          sectionRetryWrap.classList.toggle('hidden', wrongIndices.length === 0);
+          sectionFurtherWrap.classList.remove('hidden');
         }
         const sectionCorrectBlock = document.getElementById('sectionCompleteCorrectBlock');
         const sectionCorrectList = document.getElementById('sectionCompleteCorrectList');
@@ -1642,7 +1646,7 @@
       } else {
         document.getElementById('resultScreen').classList.remove('hidden');
         document.getElementById('resultScore').textContent = `Score: ${score} / ${currentQuestions.length}`;
-        document.getElementById('resultNextStep').classList.add('hidden');
+        document.getElementById('resultNextStepWrap').classList.add('hidden');
         document.getElementById('resultNextStep').textContent = '';
         document.getElementById('ruleSummary').textContent = summary;
         document.getElementById('retryWrongBtn').classList.toggle('hidden', wrongIndices.length === 0);
@@ -1740,6 +1744,40 @@
       }
     });
     document.getElementById('sectionCompleteNextBtn').addEventListener('click', advanceCourseToNext);
+    document.getElementById('sectionCompleteGuidedPracticeBtn').addEventListener('click', () => {
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      startPart2();
+    });
+    document.getElementById('sectionCompleteRetryWrongBtn').addEventListener('click', () => {
+      const toRetry = wrongIndices.map(i => currentQuestions[i]);
+      currentQuestions = toRetry;
+      currentIndex = 0;
+      score = 0;
+      wrongIndices = [];
+      isRetryRound = true;
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('quizScreen').classList.remove('hidden');
+      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      showQuestion();
+    });
+    document.getElementById('sectionCompleteFurtherPracticeBtn').addEventListener('click', () => {
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      document.getElementById('menuMain').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuPracticeSetup').classList.remove('hidden');
+      const topicEl = document.getElementById('practiceSetupTopic');
+      if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
+    });
+    document.getElementById('resultFurtherPracticeBtn').addEventListener('click', () => {
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      document.getElementById('menuMain').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuPracticeSetup').classList.remove('hidden');
+      const topicEl = document.getElementById('practiceSetupTopic');
+      if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
+    });
     document.getElementById('submitBtn').addEventListener('click', submitAnswer);
     document.getElementById('nextBtn').addEventListener('click', nextQuestion);
     document.getElementById('retryWrongBtn').addEventListener('click', retryWrong);
@@ -1771,7 +1809,6 @@
       if (q.type === 'mc' && selectedMc != null) { e.preventDefault(); submitAnswer(); }
     });
 
-    document.getElementById('startWeakSpotsBtn').addEventListener('click', startWeakSpotsQuiz);
     document.getElementById('topicSelect').addEventListener('change', () => {
       const val = document.getElementById('topicSelect').value;
       if (val === '' || val === '-1') return;
@@ -1823,6 +1860,7 @@
           { id: 'articles', title: 'Determiners: Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
           { id: 'quantifiers', title: 'Determiners: Quantifiers', curriculum: 'curriculum_quantifiers.json', questions_key: 'quantifiers' },
           { id: 'infinitive_ing', title: 'Infinitive and -ing Form', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
+          { id: 'auxiliary_verbs', title: 'Auxiliary Verbs', curriculum: 'curriculum_auxiliary_verbs.json', questions_key: 'auxiliary_verbs' },
           { id: 'modal_verbs', title: 'Modal Verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' },
           { id: 'countable_uncountable', title: 'Nouns: Uncountable and Always-Plural', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },

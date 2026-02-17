@@ -4484,5 +4484,33 @@
         }
       ]
     }
+  },
+  "auxiliary_verbs": {
+    "set1": {
+      "title": "Auxiliary Verbs – Gap fill and error correction",
+      "summary": "Use do/does/did in questions and negatives; correct common errors (esp. Czech-style).",
+      "questions": [
+        { "type": "open", "question": "1. She ____ (not / like) coffee. Put the correct form (negative present simple).", "answers": ["doesn't like", "does not like"], "explanation": "Third person singular negative → **doesn't** + base form **like**." },
+        { "type": "open", "question": "2. ____ you ____ (know) the answer? Fill in the auxiliary and use the correct form of the verb.", "answers": ["Do you know"], "explanation": "Present simple question → **Do** + subject + base form." },
+        { "type": "open", "question": "3. Wrong: 'He don't have a car.' Correct the sentence.", "answers": ["He doesn't have a car.", "He does not have a car."], "explanation": "He/she/it → **doesn't** (not *don't*)." },
+        { "type": "open", "question": "4. ____ she ____ (go) to the party? (past – fill in auxiliary and verb form)", "answers": ["Did she go"], "explanation": "Past simple question → **Did** + subject + **base form** (go)." },
+        { "type": "open", "question": "5. Wrong: 'I not understand.' Correct the sentence.", "answers": ["I don't understand.", "I do not understand."], "explanation": "Present simple negative needs **do not** / **don't**." },
+        { "type": "open", "question": "6. They ____ (not / see) him yesterday. Put the correct negative past form.", "answers": ["didn't see", "did not see"], "explanation": "Past simple negative → **didn't** + base form **see**." },
+        { "type": "open", "question": "7. Wrong: 'Did he went home?' Correct the sentence.", "answers": ["Did he go home?"], "explanation": "After **did** we use the **base form** (go), not past (went)." },
+        { "type": "open", "question": "8. ____ your brother ____ (have) a bike? (have = possess – standard question form)", "answers": ["Does your brother have"], "explanation": "Have as main verb (possess): **Do/Does** + subject + **have**." },
+        { "type": "open", "question": "9. Wrong: 'Why you did leave early?' Correct the sentence.", "answers": ["Why did you leave early?"], "explanation": "Question word + **did** + subject + base form." },
+        { "type": "open", "question": "10. She ____ (not / tell) me the truth. (past negative)", "answers": ["didn't tell", "did not tell"], "explanation": "Past simple negative → **didn't** + base form **tell**." },
+        { "type": "open", "question": "11. Wrong: 'She doesn't knows the answer.' Correct the sentence.", "answers": ["She doesn't know the answer."], "explanation": "After **doesn't** we use **base form** (know), not third person -s." },
+        { "type": "open", "question": "12. ____ they ____ (finish) the project? (past – fill in auxiliary and verb)", "answers": ["Did they finish"], "explanation": "Past simple question → **Did** + subject + base form." },
+        { "type": "open", "question": "13. Wrong: 'Have you a pen?' (meaning: Do you possess?) Correct to standard English.", "answers": ["Do you have a pen?"], "explanation": "Have (possess) in questions → **Do you have...?** (or *Have you got...?* in BrE)." },
+        { "type": "open", "question": "14. He ____ (not / want) to come. (present negative)", "answers": ["doesn't want", "does not want"], "explanation": "Third person singular negative → **doesn't** + base form." },
+        { "type": "open", "question": "15. Wrong: 'What did she said?' Correct the sentence.", "answers": ["What did she say?"], "explanation": "After **did** use **base form** (say)." },
+        { "type": "open", "question": "16. We ____ (not / hear) the news. (past negative)", "answers": ["didn't hear", "did not hear"], "explanation": "Past negative → **didn't** + base form **hear**." },
+        { "type": "open", "question": "17. Wrong: 'They doesn't need help.' Correct the sentence.", "answers": ["They don't need help.", "They do not need help."], "explanation": "Plural **they** → **don't** (not *doesn't*)." },
+        { "type": "open", "question": "18. ____ it ____ (rain) yesterday? (past question)", "answers": ["Did it rain"], "explanation": "Past simple question → **Did** + subject + base form." },
+        { "type": "open", "question": "19. Wrong: 'I didn't went there.' Correct the sentence.", "answers": ["I didn't go there."], "explanation": "After **didn't** use **base form** (go)." },
+        { "type": "open", "question": "20. Wrong: 'Where she did go?' Correct the sentence.", "answers": ["Where did she go?"], "explanation": "Wh-question: **Where** + **did** + subject + base form." }
+      ]
+    }
   }
 }
