@@ -137,6 +137,9 @@
       .no-print-hide .actions { display: none !important; }
     }
   </style>
+  <meta name="theme-color" content="#2563eb">
+  <link rel="manifest" href="pwa-manifest.json">
+  <link rel="apple-touch-icon" href="icon.svg">
 </head>
 <body>
   <div class="container">
@@ -2451,6 +2454,10 @@
         renderMenu();
       }
     })();
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(new URL('sw.js', document.baseURI || window.location.href).href, { scope: './' }).catch(function() {});
+    }
   </script>
 </body>
 </html>
