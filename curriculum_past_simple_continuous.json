@@ -34,67 +34,346 @@
       {
         "type": "mc",
         "question": "'I _____ TV when the phone rang.' (You were in the middle of watching.) Which fits?",
-        "options": {"a": "was watching", "b": "watched", "c": "have watched", "d": "am watching"},
+        "options": {
+          "a": "was watching",
+          "b": "watched",
+          "c": "have watched",
+          "d": "am watching"
+        },
         "correct_option": "a",
         "explanation": "Action in progress when something else happened → past continuous."
       },
       {
         "type": "mc",
         "question": "'She _____ to London yesterday.' (Completed trip.) Which fits?",
-        "options": {"a": "was going", "b": "has gone", "c": "went", "d": "were going"},
+        "options": {
+          "a": "was going",
+          "b": "has gone",
+          "c": "went",
+          "d": "were going"
+        },
         "correct_option": "c",
         "explanation": "Completed action, specific time (yesterday) → past simple."
       },
       {
         "type": "mc",
         "question": "'While he _____ dinner, I was reading.' Which fits?",
-        "options": {"a": "cooked", "b": "cooks", "c": "has cooked", "d": "was cooking"},
+        "options": {
+          "a": "cooked",
+          "b": "cooks",
+          "c": "has cooked",
+          "d": "was cooking"
+        },
         "correct_option": "d",
         "explanation": "Two actions in progress at the same time → past continuous for both."
       },
       {
         "type": "mc",
         "question": "'The doorbell _____ while I was having a shower.' Which fits?",
-        "options": {"a": "rang", "b": "was ringing", "c": "rings", "d": "has rung"},
+        "options": {
+          "a": "rang",
+          "b": "was ringing",
+          "c": "rings",
+          "d": "has rung"
+        },
         "correct_option": "a",
         "explanation": "Short interrupting event → past simple."
       },
       {
         "type": "mc",
         "question": "'At 7 pm last night they _____ .' (They were in the middle of eating.) Which fits?",
-        "options": {"a": "had dinner", "b": "have dinner", "c": "were having dinner", "d": "had had dinner"},
+        "options": {
+          "a": "had dinner",
+          "b": "have dinner",
+          "c": "were having dinner",
+          "d": "had had dinner"
+        },
         "correct_option": "c",
         "explanation": "Action in progress at a specific moment → past continuous."
       }
     ]
   },
-  "practice_order": ["gapfill", "errorcorrection"],
+  "practice_order": [
+    "mc"
+  ],
   "practice": {
     "gapfill": {
       "title": "Practice: Past simple or past continuous?",
       "questions": [
-        {"type": "open", "question": "I _____ (watch) TV when the phone rang.", "answers": ["was watching"], "explanation": "Action in progress when something happened → past continuous."},
-        {"type": "open", "question": "I was watching TV when the phone _____ (ring).", "answers": ["rang"], "explanation": "Short interrupting event → past simple."},
-        {"type": "open", "question": "She _____ (go) to the cinema yesterday.", "answers": ["went"], "explanation": "Completed action, yesterday → past simple."},
-        {"type": "open", "question": "While he _____ (cook), she was setting the table.", "answers": ["was cooking"], "explanation": "Two actions in progress at the same time → past continuous."},
-        {"type": "open", "question": "We _____ (have) dinner at 8 pm last night.", "answers": ["were having"], "explanation": "Action in progress at a moment (at 8 pm) → past continuous."},
-        {"type": "open", "question": "He _____ (walk) home when he met an old friend.", "answers": ["was walking"], "explanation": "Background action in progress → past continuous."},
-        {"type": "open", "question": "They _____ (not watch) the film when I arrived.", "answers": ["weren't watching", "were not watching"], "explanation": "Action in progress (negative) when I arrived → past continuous."},
-        {"type": "open", "question": "What _____ you _____ (do) when the lights went out?", "answers": ["were you doing"], "explanation": "What were you in the middle of → past continuous."},
-        {"type": "open", "question": "I saw him while I _____ (wait) for the bus.", "answers": ["was waiting"], "explanation": "Action in progress (background) → past continuous."},
-        {"type": "open", "question": "The phone _____ (ring) while I was having a shower.", "answers": ["rang"], "explanation": "Short interrupting event → past simple."},
-        {"type": "open", "question": "She _____ (work) in Paris last year.", "answers": ["was working", "worked"], "explanation": "Temporary situation or completed → was working or worked."}
+        {
+          "type": "open",
+          "question": "I _____ (watch) TV when the phone rang.",
+          "answers": [
+            "was watching"
+          ],
+          "explanation": "Action in progress when something happened → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "I was watching TV when the phone _____ (ring).",
+          "answers": [
+            "rang"
+          ],
+          "explanation": "Short interrupting event → past simple."
+        },
+        {
+          "type": "open",
+          "question": "She _____ (go) to the cinema yesterday.",
+          "answers": [
+            "went"
+          ],
+          "explanation": "Completed action, yesterday → past simple."
+        },
+        {
+          "type": "open",
+          "question": "While he _____ (cook), she was setting the table.",
+          "answers": [
+            "was cooking"
+          ],
+          "explanation": "Two actions in progress at the same time → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "We _____ (have) dinner at 8 pm last night.",
+          "answers": [
+            "were having"
+          ],
+          "explanation": "Action in progress at a moment (at 8 pm) → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "He _____ (walk) home when he met an old friend.",
+          "answers": [
+            "was walking"
+          ],
+          "explanation": "Background action in progress → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "They _____ (not watch) the film when I arrived.",
+          "answers": [
+            "weren't watching",
+            "were not watching"
+          ],
+          "explanation": "Action in progress (negative) when I arrived → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "What _____ you _____ (do) when the lights went out?",
+          "answers": [
+            "were you doing"
+          ],
+          "explanation": "What were you in the middle of → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "I saw him while I _____ (wait) for the bus.",
+          "answers": [
+            "was waiting"
+          ],
+          "explanation": "Action in progress (background) → past continuous."
+        },
+        {
+          "type": "open",
+          "question": "The phone _____ (ring) while I was having a shower.",
+          "answers": [
+            "rang"
+          ],
+          "explanation": "Short interrupting event → past simple."
+        },
+        {
+          "type": "open",
+          "question": "She _____ (work) in Paris last year.",
+          "answers": [
+            "was working",
+            "worked"
+          ],
+          "explanation": "Temporary situation or completed → was working or worked."
+        }
       ]
     },
     "errorcorrection": {
       "title": "Practice: Correct the tense",
       "questions": [
-        {"type": "open", "question": "Wrong: 'I read when the phone rang.' (You mean you were in the middle of reading.) Correct the sentence.", "answers": ["I was reading when the phone rang.", "I was reading when the phone rang"], "explanation": "Action in progress → past continuous (was reading)."},
-        {"type": "open", "question": "Wrong: 'She was going to London yesterday.' (She went; the trip is completed.) Correct the sentence.", "answers": ["She went to London yesterday.", "She went to London yesterday"], "explanation": "Completed action with yesterday → past simple."},
-        {"type": "open", "question": "Wrong: 'The phone was ringing when I was reading.' (The phone rang once and interrupted you.) Correct the sentence.", "answers": ["The phone rang when I was reading.", "The phone rang when I was reading"], "explanation": "Short interrupting event → past simple (rang)."},
-        {"type": "open", "question": "Wrong: 'While he cooked, she set the table.' (Both were in progress at the same time.) Correct using past continuous where appropriate.", "answers": ["While he was cooking, she was setting the table.", "While he was cooking, she was setting the table"], "explanation": "Two parallel actions in progress → past continuous for both."},
-        {"type": "open", "question": "Wrong: 'I was seeing him yesterday.' (You met him once; completed.) Correct the sentence.", "answers": ["I saw him yesterday.", "I saw him yesterday"], "explanation": "Completed event, yesterday → past simple (saw)."},
-        {"type": "open", "question": "Wrong: 'We had dinner at 8 pm.' (You mean you were in the middle of dinner at that moment.) Correct the sentence.", "answers": ["We were having dinner at 8 pm.", "We were having dinner at 8 pm"], "explanation": "Action in progress at a moment → past continuous."}
+        {
+          "type": "open",
+          "question": "Wrong: 'I read when the phone rang.' (You mean you were in the middle of reading.) Correct the sentence.",
+          "answers": [
+            "I was reading when the phone rang.",
+            "I was reading when the phone rang"
+          ],
+          "explanation": "Action in progress → past continuous (was reading)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She was going to London yesterday.' (She went; the trip is completed.) Correct the sentence.",
+          "answers": [
+            "She went to London yesterday.",
+            "She went to London yesterday"
+          ],
+          "explanation": "Completed action with yesterday → past simple."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The phone was ringing when I was reading.' (The phone rang once and interrupted you.) Correct the sentence.",
+          "answers": [
+            "The phone rang when I was reading.",
+            "The phone rang when I was reading"
+          ],
+          "explanation": "Short interrupting event → past simple (rang)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'While he cooked, she set the table.' (Both were in progress at the same time.) Correct using past continuous where appropriate.",
+          "answers": [
+            "While he was cooking, she was setting the table.",
+            "While he was cooking, she was setting the table"
+          ],
+          "explanation": "Two parallel actions in progress → past continuous for both."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I was seeing him yesterday.' (You met him once; completed.) Correct the sentence.",
+          "answers": [
+            "I saw him yesterday.",
+            "I saw him yesterday"
+          ],
+          "explanation": "Completed event, yesterday → past simple (saw)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'We had dinner at 8 pm.' (You mean you were in the middle of dinner at that moment.) Correct the sentence.",
+          "answers": [
+            "We were having dinner at 8 pm.",
+            "We were having dinner at 8 pm"
+          ],
+          "explanation": "Action in progress at a moment → past continuous."
+        }
+      ]
+    },
+    "mc": {
+      "title": "Practice: Past Simple and Past Continuous (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "'I _____ TV when the phone rang.' (You were in the middle of watching.) Which fits?",
+          "options": {
+            "a": "was watching",
+            "b": "watched",
+            "c": "have watched",
+            "d": "am watching"
+          },
+          "correct_option": "a",
+          "explanation": "Action in progress when something else happened → past continuous."
+        },
+        {
+          "type": "mc",
+          "question": "'She _____ to London yesterday.' (Completed trip.) Which fits?",
+          "options": {
+            "a": "was going",
+            "b": "has gone",
+            "c": "went",
+            "d": "were going"
+          },
+          "correct_option": "c",
+          "explanation": "Completed action, specific time (yesterday) → past simple."
+        },
+        {
+          "type": "mc",
+          "question": "'While he _____ dinner, I was reading.' Which fits?",
+          "options": {
+            "a": "cooked",
+            "b": "cooks",
+            "c": "has cooked",
+            "d": "was cooking"
+          },
+          "correct_option": "d",
+          "explanation": "Two actions in progress at the same time → past continuous for both."
+        },
+        {
+          "type": "mc",
+          "question": "'The doorbell _____ while I was having a shower.' Which fits?",
+          "options": {
+            "a": "rang",
+            "b": "was ringing",
+            "c": "rings",
+            "d": "has rung"
+          },
+          "correct_option": "a",
+          "explanation": "Short interrupting event → past simple."
+        },
+        {
+          "type": "mc",
+          "question": "'At 7 pm last night they _____ .' (They were in the middle of eating.) Which fits?",
+          "options": {
+            "a": "had dinner",
+            "b": "have dinner",
+            "c": "were having dinner",
+            "d": "had had dinner"
+          },
+          "correct_option": "c",
+          "explanation": "Action in progress at a specific moment → past continuous."
+        },
+        {
+          "type": "mc",
+          "question": "'I _____ TV when the phone rang.' (You were in the middle of watching.) Which fits?",
+          "options": {
+            "a": "was watching",
+            "b": "watched",
+            "c": "have watched",
+            "d": "am watching"
+          },
+          "correct_option": "a",
+          "explanation": "Action in progress when something else happened → past continuous."
+        },
+        {
+          "type": "mc",
+          "question": "'She _____ to London yesterday.' (Completed trip.) Which fits?",
+          "options": {
+            "a": "was going",
+            "b": "has gone",
+            "c": "went",
+            "d": "were going"
+          },
+          "correct_option": "c",
+          "explanation": "Completed action, specific time (yesterday) → past simple."
+        },
+        {
+          "type": "mc",
+          "question": "'While he _____ dinner, I was reading.' Which fits?",
+          "options": {
+            "a": "cooked",
+            "b": "cooks",
+            "c": "has cooked",
+            "d": "was cooking"
+          },
+          "correct_option": "d",
+          "explanation": "Two actions in progress at the same time → past continuous for both."
+        },
+        {
+          "type": "mc",
+          "question": "'The doorbell _____ while I was having a shower.' Which fits?",
+          "options": {
+            "a": "rang",
+            "b": "was ringing",
+            "c": "rings",
+            "d": "has rung"
+          },
+          "correct_option": "a",
+          "explanation": "Short interrupting event → past simple."
+        },
+        {
+          "type": "mc",
+          "question": "'At 7 pm last night they _____ .' (They were in the middle of eating.) Which fits?",
+          "options": {
+            "a": "had dinner",
+            "b": "have dinner",
+            "c": "were having dinner",
+            "d": "had had dinner"
+          },
+          "correct_option": "c",
+          "explanation": "Action in progress at a specific moment → past continuous."
+        }
       ]
     }
   }

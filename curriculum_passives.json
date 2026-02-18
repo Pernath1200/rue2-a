@@ -34,70 +34,371 @@
       {
         "type": "mc",
         "question": "Which sentence is correct?",
-        "options": {"a": "The letter was sent yesterday.", "b": "The letter was send yesterday.", "c": "The letter was sented yesterday.", "d": "The letter is sent yesterday."},
+        "options": {
+          "a": "The letter was sent yesterday.",
+          "b": "The letter was send yesterday.",
+          "c": "The letter was sented yesterday.",
+          "d": "The letter is sent yesterday."
+        },
         "correct_option": "a",
         "explanation": "Passive = was + past participle. Send → sent."
       },
       {
         "type": "mc",
         "question": "Choose the correct passive form.",
-        "options": {"a": "English is speak all over the world.", "b": "English speaks all over the world.", "c": "English is spoken all over the world.", "d": "English spoken all over the world."},
+        "options": {
+          "a": "English is speak all over the world.",
+          "b": "English speaks all over the world.",
+          "c": "English is spoken all over the world.",
+          "d": "English spoken all over the world."
+        },
         "correct_option": "c",
         "explanation": "Passive: be + past participle. Speak → spoken."
       },
       {
         "type": "mc",
         "question": "'The building ____ in 1990.' Which fits?",
-        "options": {"a": "is built", "b": "built", "c": "has built", "d": "was built"},
+        "options": {
+          "a": "is built",
+          "b": "built",
+          "c": "has built",
+          "d": "was built"
+        },
         "correct_option": "d",
         "explanation": "Past time (1990) → past passive: was/were + past participle."
       },
       {
         "type": "mc",
         "question": "Which is correct with a modal?",
-        "options": {"a": "The work must be done.", "b": "The work must be done by someone.", "c": "The work must done.", "d": "The work must be do."},
+        "options": {
+          "a": "The work must be done.",
+          "b": "The work must be done by someone.",
+          "c": "The work must done.",
+          "d": "The work must be do."
+        },
         "correct_option": "a",
         "explanation": "Modal + be + past participle. Done is the past participle of do."
       },
       {
         "type": "mc",
         "question": "'The report ____ yet.' (Present perfect passive)",
-        "options": {"a": "has not been finished", "b": "was not finished", "c": "is not finished", "d": "not has been finished"},
+        "options": {
+          "a": "has not been finished",
+          "b": "was not finished",
+          "c": "is not finished",
+          "d": "not has been finished"
+        },
         "correct_option": "a",
         "explanation": "Present perfect passive: have/has been + past participle."
       }
     ]
   },
-  "practice_order": ["gapfill", "errorcorrection"],
+  "practice_order": [
+    "mc"
+  ],
   "practice": {
     "gapfill": {
       "title": "Practice: Complete the passive",
       "questions": [
-        {"type": "open", "question": "The letter _____ (send) yesterday.", "answers": ["was sent"], "explanation": "Past passive: was + past participle (sent)."},
-        {"type": "open", "question": "English _____ (speak) in many countries.", "answers": ["is spoken"], "explanation": "Present simple passive: is + spoken."},
-        {"type": "open", "question": "The new hospital _____ (open) last year.", "answers": ["was opened"], "explanation": "Past passive: was + opened."},
-        {"type": "open", "question": "The work _____ (already / do).", "answers": ["has already been done"], "explanation": "Present perfect passive: has been + done."},
-        {"type": "open", "question": "The room _____ (clean) every day.", "answers": ["is cleaned"], "explanation": "Present simple passive: is + cleaned."},
-        {"type": "open", "question": "My bike _____ (steal) last week.", "answers": ["was stolen"], "explanation": "Past passive: was + stolen (steal → stolen)."},
-        {"type": "open", "question": "The report _____ (must / finish) by Friday.", "answers": ["must be finished"], "explanation": "Modal passive: must be + past participle."},
-        {"type": "open", "question": "The play _____ (write) by Shakespeare.", "answers": ["was written"], "explanation": "Past passive: was written. By + agent."},
-        {"type": "open", "question": "The problem _____ (discuss) at the meeting tomorrow.", "answers": ["will be discussed"], "explanation": "Future passive: will be + discussed."},
-        {"type": "open", "question": "This book _____ (read) by millions of people.", "answers": ["has been read", "is read"], "explanation": "Present perfect or present simple passive: has been read / is read."},
-        {"type": "open", "question": "The window _____ (break) by the storm.", "answers": ["was broken"], "explanation": "Past passive: was + broken. By + agent."},
-        {"type": "open", "question": "The documents _____ (can / find) on the server.", "answers": ["can be found"], "explanation": "Modal passive: can be + found (find → found)."}
+        {
+          "type": "open",
+          "question": "The letter _____ (send) yesterday.",
+          "answers": [
+            "was sent"
+          ],
+          "explanation": "Past passive: was + past participle (sent)."
+        },
+        {
+          "type": "open",
+          "question": "English _____ (speak) in many countries.",
+          "answers": [
+            "is spoken"
+          ],
+          "explanation": "Present simple passive: is + spoken."
+        },
+        {
+          "type": "open",
+          "question": "The new hospital _____ (open) last year.",
+          "answers": [
+            "was opened"
+          ],
+          "explanation": "Past passive: was + opened."
+        },
+        {
+          "type": "open",
+          "question": "The work _____ (already / do).",
+          "answers": [
+            "has already been done"
+          ],
+          "explanation": "Present perfect passive: has been + done."
+        },
+        {
+          "type": "open",
+          "question": "The room _____ (clean) every day.",
+          "answers": [
+            "is cleaned"
+          ],
+          "explanation": "Present simple passive: is + cleaned."
+        },
+        {
+          "type": "open",
+          "question": "My bike _____ (steal) last week.",
+          "answers": [
+            "was stolen"
+          ],
+          "explanation": "Past passive: was + stolen (steal → stolen)."
+        },
+        {
+          "type": "open",
+          "question": "The report _____ (must / finish) by Friday.",
+          "answers": [
+            "must be finished"
+          ],
+          "explanation": "Modal passive: must be + past participle."
+        },
+        {
+          "type": "open",
+          "question": "The play _____ (write) by Shakespeare.",
+          "answers": [
+            "was written"
+          ],
+          "explanation": "Past passive: was written. By + agent."
+        },
+        {
+          "type": "open",
+          "question": "The problem _____ (discuss) at the meeting tomorrow.",
+          "answers": [
+            "will be discussed"
+          ],
+          "explanation": "Future passive: will be + discussed."
+        },
+        {
+          "type": "open",
+          "question": "This book _____ (read) by millions of people.",
+          "answers": [
+            "has been read",
+            "is read"
+          ],
+          "explanation": "Present perfect or present simple passive: has been read / is read."
+        },
+        {
+          "type": "open",
+          "question": "The window _____ (break) by the storm.",
+          "answers": [
+            "was broken"
+          ],
+          "explanation": "Past passive: was + broken. By + agent."
+        },
+        {
+          "type": "open",
+          "question": "The documents _____ (can / find) on the server.",
+          "answers": [
+            "can be found"
+          ],
+          "explanation": "Modal passive: can be + found (find → found)."
+        }
       ]
     },
     "errorcorrection": {
       "title": "Practice: Correct the passive",
       "questions": [
-        {"type": "open", "question": "Wrong: 'The letter was send yesterday.' Correct the sentence.", "answers": ["The letter was sent yesterday.", "The letter was sent yesterday"], "explanation": "Passive needs past participle: send → sent."},
-        {"type": "open", "question": "Wrong: 'English is speak all over the world.' Correct the sentence.", "answers": ["English is spoken all over the world.", "English is spoken all over the world"], "explanation": "Passive: be + past participle (spoken)."},
-        {"type": "open", "question": "Wrong: 'The building is built in 1990.' Correct the sentence.", "answers": ["The building was built in 1990.", "The building was built in 1990"], "explanation": "Past time (1990) → past passive: was built."},
-        {"type": "open", "question": "Wrong: 'The work must be done by someone.' (If you mean the work is necessary.) Correct to a natural passive.", "answers": ["The work must be done.", "The work must be done"], "explanation": "By someone is unnecessary; the passive alone is enough."},
-        {"type": "open", "question": "Wrong: 'The report has not been finish yet.' Correct the sentence.", "answers": ["The report has not been finished yet.", "The report has not been finished yet"], "explanation": "Present perfect passive: have been + past participle (finished)."},
-        {"type": "open", "question": "Wrong: 'He was arrest by the police.' Correct the sentence.", "answers": ["He was arrested by the police.", "He was arrested by the police"], "explanation": "Passive: was + past participle (arrested)."},
-        {"type": "open", "question": "Wrong: 'It can be do tomorrow.' Correct the sentence.", "answers": ["It can be done tomorrow.", "It can be done tomorrow"], "explanation": "Modal passive: can be + past participle (done)."},
-        {"type": "open", "question": "Wrong: 'The meeting was postpone.' Correct the sentence.", "answers": ["The meeting was postponed.", "The meeting was postponed"], "explanation": "Passive: was + past participle (postponed)."}
+        {
+          "type": "open",
+          "question": "Wrong: 'The letter was send yesterday.' Correct the sentence.",
+          "answers": [
+            "The letter was sent yesterday.",
+            "The letter was sent yesterday"
+          ],
+          "explanation": "Passive needs past participle: send → sent."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'English is speak all over the world.' Correct the sentence.",
+          "answers": [
+            "English is spoken all over the world.",
+            "English is spoken all over the world"
+          ],
+          "explanation": "Passive: be + past participle (spoken)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The building is built in 1990.' Correct the sentence.",
+          "answers": [
+            "The building was built in 1990.",
+            "The building was built in 1990"
+          ],
+          "explanation": "Past time (1990) → past passive: was built."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The work must be done by someone.' (If you mean the work is necessary.) Correct to a natural passive.",
+          "answers": [
+            "The work must be done.",
+            "The work must be done"
+          ],
+          "explanation": "By someone is unnecessary; the passive alone is enough."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The report has not been finish yet.' Correct the sentence.",
+          "answers": [
+            "The report has not been finished yet.",
+            "The report has not been finished yet"
+          ],
+          "explanation": "Present perfect passive: have been + past participle (finished)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'He was arrest by the police.' Correct the sentence.",
+          "answers": [
+            "He was arrested by the police.",
+            "He was arrested by the police"
+          ],
+          "explanation": "Passive: was + past participle (arrested)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'It can be do tomorrow.' Correct the sentence.",
+          "answers": [
+            "It can be done tomorrow.",
+            "It can be done tomorrow"
+          ],
+          "explanation": "Modal passive: can be + past participle (done)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The meeting was postpone.' Correct the sentence.",
+          "answers": [
+            "The meeting was postponed.",
+            "The meeting was postponed"
+          ],
+          "explanation": "Passive: was + past participle (postponed)."
+        }
+      ]
+    },
+    "mc": {
+      "title": "Practice: Passives (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Which sentence is correct?",
+          "options": {
+            "a": "The letter was sent yesterday.",
+            "b": "The letter was send yesterday.",
+            "c": "The letter was sented yesterday.",
+            "d": "The letter is sent yesterday."
+          },
+          "correct_option": "a",
+          "explanation": "Passive = was + past participle. Send → sent."
+        },
+        {
+          "type": "mc",
+          "question": "Choose the correct passive form.",
+          "options": {
+            "a": "English is speak all over the world.",
+            "b": "English speaks all over the world.",
+            "c": "English is spoken all over the world.",
+            "d": "English spoken all over the world."
+          },
+          "correct_option": "c",
+          "explanation": "Passive: be + past participle. Speak → spoken."
+        },
+        {
+          "type": "mc",
+          "question": "'The building ____ in 1990.' Which fits?",
+          "options": {
+            "a": "is built",
+            "b": "built",
+            "c": "has built",
+            "d": "was built"
+          },
+          "correct_option": "d",
+          "explanation": "Past time (1990) → past passive: was/were + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct with a modal?",
+          "options": {
+            "a": "The work must be done.",
+            "b": "The work must be done by someone.",
+            "c": "The work must done.",
+            "d": "The work must be do."
+          },
+          "correct_option": "a",
+          "explanation": "Modal + be + past participle. Done is the past participle of do."
+        },
+        {
+          "type": "mc",
+          "question": "'The report ____ yet.' (Present perfect passive)",
+          "options": {
+            "a": "has not been finished",
+            "b": "was not finished",
+            "c": "is not finished",
+            "d": "not has been finished"
+          },
+          "correct_option": "a",
+          "explanation": "Present perfect passive: have/has been + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "Which sentence is correct?",
+          "options": {
+            "a": "The letter was sent yesterday.",
+            "b": "The letter was send yesterday.",
+            "c": "The letter was sented yesterday.",
+            "d": "The letter is sent yesterday."
+          },
+          "correct_option": "a",
+          "explanation": "Passive = was + past participle. Send → sent."
+        },
+        {
+          "type": "mc",
+          "question": "Choose the correct passive form.",
+          "options": {
+            "a": "English is speak all over the world.",
+            "b": "English speaks all over the world.",
+            "c": "English is spoken all over the world.",
+            "d": "English spoken all over the world."
+          },
+          "correct_option": "c",
+          "explanation": "Passive: be + past participle. Speak → spoken."
+        },
+        {
+          "type": "mc",
+          "question": "'The building ____ in 1990.' Which fits?",
+          "options": {
+            "a": "is built",
+            "b": "built",
+            "c": "has built",
+            "d": "was built"
+          },
+          "correct_option": "d",
+          "explanation": "Past time (1990) → past passive: was/were + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct with a modal?",
+          "options": {
+            "a": "The work must be done.",
+            "b": "The work must be done by someone.",
+            "c": "The work must done.",
+            "d": "The work must be do."
+          },
+          "correct_option": "a",
+          "explanation": "Modal + be + past participle. Done is the past participle of do."
+        },
+        {
+          "type": "mc",
+          "question": "'The report ____ yet.' (Present perfect passive)",
+          "options": {
+            "a": "has not been finished",
+            "b": "was not finished",
+            "c": "is not finished",
+            "d": "not has been finished"
+          },
+          "correct_option": "a",
+          "explanation": "Present perfect passive: have/has been + past participle."
+        }
       ]
     }
   }

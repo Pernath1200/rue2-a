@@ -124,5 +124,23 @@
         "explanation": "**English** uses auxiliaries and often two or more words (I have been waiting). **Czech** often combines time and aspect in one word (e.g. dělal = past imperfective) and distinguishes perfective/imperfective by verbs or prefixes."
       }
     ]
+  },
+  "practice_order": ["mc"],
+  "practice": {
+    "mc": {
+      "title": "Practice: Tenses general (multiple choice)",
+      "questions": [
+        {"type": "mc", "question": "How do we get the 12 tense forms in English?", "options": {"a": "3 times + 4 aspects", "b": "4 times + 3 aspects", "c": "2 times + 6 aspects", "d": "6 times + 2 aspects"}, "correct_option": "a", "explanation": "We combine **3 times** (present, past, future) with **4 aspects** (simple, continuous, perfect, perfect continuous) to get 12 forms."},
+        {"type": "mc", "question": "In English, how do we usually form questions and negatives in most tenses?", "options": {"a": "By changing the verb ending for each person", "b": "By using auxiliary verbs (do, does, did, have, will, be, etc.)", "c": "By adding a suffix to the main verb", "d": "By changing the word order only"}, "correct_option": "b", "explanation": "English uses **auxiliary verbs** to form questions, negatives, and many positive forms."},
+        {"type": "mc", "question": "What is **aspect** in English grammar?", "options": {"a": "The person (I, you, he/she) of the subject", "b": "The way we look at the action in time (e.g. in progress, completed)", "c": "The time of day when something happens", "d": "Whether the sentence is positive or negative"}, "correct_option": "b", "explanation": "**Aspect** is how we view the action in time."},
+        {"type": "mc", "question": "Which aspect do we use when the action is **in progress** at a given time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "b", "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."},
+        {"type": "mc", "question": "'I have been waiting for an hour.' – Which tense form is this?", "options": {"a": "Present simple", "b": "Present continuous", "c": "Present perfect simple", "d": "Present perfect continuous"}, "correct_option": "d", "explanation": "**Present perfect continuous**: have/has been + -ing."},
+        {"type": "mc", "question": "'She had left before I arrived.' – Which tense form is this?", "options": {"a": "Past simple", "b": "Past continuous", "c": "Past perfect simple", "d": "Past perfect continuous"}, "correct_option": "c", "explanation": "**Past perfect simple**: had + past participle."},
+        {"type": "mc", "question": "Which aspect focuses on **completion** and often on the **result** or relevance at a later time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "c", "explanation": "**Perfect** – we focus on completion and result/relevance."},
+        {"type": "mc", "question": "How does English differ from Czech in expressing 'time' and 'aspect'?", "options": {"a": "English uses one word per tense; Czech uses several.", "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.", "c": "Czech has no aspect.", "d": "English has no future tense."}, "correct_option": "b", "explanation": "**English** uses auxiliaries; **Czech** often combines time and aspect in one word."},
+        {"type": "mc", "question": "How do we get the 12 tense forms in English?", "options": {"a": "3 times + 4 aspects", "b": "4 times + 3 aspects", "c": "2 times + 6 aspects", "d": "6 times + 2 aspects"}, "correct_option": "a", "explanation": "We combine **3 times** (present, past, future) with **4 aspects** to get 12 forms."},
+        {"type": "mc", "question": "Which aspect do we use when the action is **in progress** at a given time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "b", "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."}
+      ]
+    }
   }
 }

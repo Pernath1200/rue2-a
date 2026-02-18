@@ -34,21 +34,36 @@
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "I think that he is right.", "b": "I think, that he is right.", "c": "I think that, he is right.", "d": "I think, that, he is right."},
+        "options": {
+          "a": "I think that he is right.",
+          "b": "I think, that he is right.",
+          "c": "I think that, he is right.",
+          "d": "I think, that, he is right."
+        },
         "correct_option": "a",
         "explanation": "In English we usually do not put a comma before 'that' in this type of sentence (unlike Czech before že)."
       },
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "monday and tuesday", "b": "Monday and Tuesday", "c": "Monday and tuesday", "d": "monday and Tuesday"},
+        "options": {
+          "a": "monday and tuesday",
+          "b": "Monday and Tuesday",
+          "c": "Monday and tuesday",
+          "d": "monday and Tuesday"
+        },
         "correct_option": "b",
         "explanation": "Days of the week are capitalised in English (unlike in Czech)."
       },
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "She smiled and i waved.", "b": "She smiled and I waved.", "c": "She smiled and i Waved.", "d": "she smiled and I waved."},
+        "options": {
+          "a": "She smiled and i waved.",
+          "b": "She smiled and I waved.",
+          "c": "She smiled and i Waved.",
+          "d": "she smiled and I waved."
+        },
         "correct_option": "b",
         "explanation": "The pronoun I is always capitalised in English. First word of sentence is capitalised."
       },
@@ -67,27 +82,241 @@
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "We speak english and czech.", "b": "We speak English and Czech.", "c": "We speak English and czech.", "d": "we speak English and Czech."},
+        "options": {
+          "a": "We speak english and czech.",
+          "b": "We speak English and Czech.",
+          "c": "We speak English and czech.",
+          "d": "we speak English and Czech."
+        },
         "correct_option": "b",
         "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
       }
     ]
   },
-  "practice_order": ["commas_capitals"],
+  "practice_order": [
+    "mc"
+  ],
   "practice": {
     "commas_capitals": {
       "title": "Practice: Commas and capitalisation",
       "questions": [
-        {"type": "open", "question": "Wrong: 'I think, that she is coming.' Correct the sentence.", "answers": ["I think that she is coming.", "I think that she is coming"], "explanation": "No comma before 'that' in English in this pattern."},
-        {"type": "open", "question": "Wrong: 'we went on monday.' Correct the sentence.", "answers": ["We went on Monday.", "We went on Monday"], "explanation": "Capitalise first word of sentence and the day of the week."},
-        {"type": "open", "question": "Wrong: 'He and i left early.' Correct the sentence.", "answers": ["He and I left early.", "He and I left early"], "explanation": "The pronoun I is always written with a capital letter in English."},
-        {"type": "open", "question": "Wrong: 'She speaks english and german.' Correct the sentence.", "answers": ["She speaks English and German.", "She speaks English and German"], "explanation": "Languages are capitalised in English."},
-        {"type": "open", "question": "Wrong: 'I called but she was busy.' (Add a comma where needed.)", "answers": ["I called, but she was busy.", "I called, but she was busy"], "explanation": "Use a comma before 'but' when it joins two full sentences."},
-        {"type": "open", "question": "Wrong: 'However we decided to stay.' Correct the sentence.", "answers": ["However, we decided to stay.", "However, we decided to stay"], "explanation": "Use a comma after introductory words like However."},
-        {"type": "open", "question": "Wrong: 'In january we went to prague.' Correct the sentence.", "answers": ["In January we went to Prague.", "In January we went to Prague"], "explanation": "Capitalise months and place names (proper nouns)."},
-        {"type": "open", "question": "Wrong: 'The man, who stole the bag, was caught.' (The clause is essential – there were several men, and we mean the one who stole the bag.) Correct by removing unnecessary commas.", "answers": ["The man who stole the bag was caught.", "The man who stole the bag was caught"], "explanation": "No commas when the clause is defining (essential to identify which man)."},
-        {"type": "open", "question": "Wrong: 'after the meeting he went home.' Correct the sentence.", "answers": ["After the meeting, he went home.", "After the meeting, he went home"], "explanation": "Capitalise first word; comma after introductory phrase 'After the meeting'."},
-        {"type": "open", "question": "Wrong: 'She said that, she would come.' Correct the sentence.", "answers": ["She said that she would come.", "She said that she would come"], "explanation": "No comma before or after 'that' in this type of sentence."}
+        {
+          "type": "open",
+          "question": "Wrong: 'I think, that she is coming.' Correct the sentence.",
+          "answers": [
+            "I think that she is coming.",
+            "I think that she's coming.",
+            "I think that she is coming",
+            "I think that she's coming"
+          ],
+          "explanation": "No comma before 'that' in English in this pattern."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'we went on monday.' Correct the sentence.",
+          "answers": [
+            "We went on Monday.",
+            "We went on Monday"
+          ],
+          "explanation": "Capitalise first word of sentence and the day of the week."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'He and i left early.' Correct the sentence.",
+          "answers": [
+            "He and I left early.",
+            "He and I left early"
+          ],
+          "explanation": "The pronoun I is always written with a capital letter in English."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She speaks english and german.' Correct the sentence.",
+          "answers": [
+            "She speaks English and German.",
+            "She speaks English and German"
+          ],
+          "explanation": "Languages are capitalised in English."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I called but she was busy.' (Add a comma where needed.)",
+          "answers": [
+            "I called, but she was busy.",
+            "I called, but she was busy"
+          ],
+          "explanation": "Use a comma before 'but' when it joins two full sentences."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'However we decided to stay.' Correct the sentence.",
+          "answers": [
+            "However, we decided to stay.",
+            "However, we decided to stay"
+          ],
+          "explanation": "Use a comma after introductory words like However."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'In january we went to prague.' Correct the sentence.",
+          "answers": [
+            "In January we went to Prague.",
+            "In January we went to Prague"
+          ],
+          "explanation": "Capitalise months and place names (proper nouns)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The man, who stole the bag, was caught.' (The clause is essential – there were several men, and we mean the one who stole the bag.) Correct by removing unnecessary commas.",
+          "answers": [
+            "The man who stole the bag was caught.",
+            "The man who stole the bag was caught"
+          ],
+          "explanation": "No commas when the clause is defining (essential to identify which man)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'after the meeting he went home.' Correct the sentence.",
+          "answers": [
+            "After the meeting, he went home.",
+            "After the meeting, he went home"
+          ],
+          "explanation": "Capitalise first word; comma after introductory phrase 'After the meeting'."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She said that, she would come.' Correct the sentence.",
+          "answers": [
+            "She said that she would come.",
+            "She said that she would come"
+          ],
+          "explanation": "No comma before or after 'that' in this type of sentence."
+        }
+      ]
+    },
+    "mc": {
+      "title": "Practice: Punctuation and capitalisation (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "I think that he is right.",
+            "b": "I think, that he is right.",
+            "c": "I think that, he is right.",
+            "d": "I think, that, he is right."
+          },
+          "correct_option": "a",
+          "explanation": "In English we usually do not put a comma before 'that' in this type of sentence (unlike Czech before že)."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "monday and tuesday",
+            "b": "Monday and Tuesday",
+            "c": "Monday and tuesday",
+            "d": "monday and Tuesday"
+          },
+          "correct_option": "b",
+          "explanation": "Days of the week are capitalised in English (unlike in Czech)."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "She smiled and i waved.",
+            "b": "She smiled and I waved.",
+            "c": "She smiled and i Waved.",
+            "d": "she smiled and I waved."
+          },
+          "correct_option": "b",
+          "explanation": "The pronoun I is always capitalised in English. First word of sentence is capitalised."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct? (You have more than one brother; the London one is the doctor.)",
+          "options": {
+            "a": "My brother who lives in London is a doctor.",
+            "b": "My brother, who lives in London, is a doctor.",
+            "c": "My brother, who lives in London is a doctor.",
+            "d": "My brother who lives in London, is a doctor."
+          },
+          "correct_option": "b",
+          "explanation": "When the clause is extra (non-defining) information, we put commas around it: My brother, who lives in London, is a doctor."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "We speak english and czech.",
+            "b": "We speak English and Czech.",
+            "c": "We speak English and czech.",
+            "d": "we speak English and Czech."
+          },
+          "correct_option": "b",
+          "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "I think that he is right.",
+            "b": "I think, that he is right.",
+            "c": "I think that, he is right.",
+            "d": "I think, that, he is right."
+          },
+          "correct_option": "a",
+          "explanation": "In English we usually do not put a comma before 'that' in this type of sentence (unlike Czech before že)."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "monday and tuesday",
+            "b": "Monday and Tuesday",
+            "c": "Monday and tuesday",
+            "d": "monday and Tuesday"
+          },
+          "correct_option": "b",
+          "explanation": "Days of the week are capitalised in English (unlike in Czech)."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "She smiled and i waved.",
+            "b": "She smiled and I waved.",
+            "c": "She smiled and i Waved.",
+            "d": "she smiled and I waved."
+          },
+          "correct_option": "b",
+          "explanation": "The pronoun I is always capitalised in English. First word of sentence is capitalised."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct? (You have more than one brother; the London one is the doctor.)",
+          "options": {
+            "a": "My brother who lives in London is a doctor.",
+            "b": "My brother, who lives in London, is a doctor.",
+            "c": "My brother, who lives in London is a doctor.",
+            "d": "My brother who lives in London, is a doctor."
+          },
+          "correct_option": "b",
+          "explanation": "When the clause is extra (non-defining) information, we put commas around it: My brother, who lives in London, is a doctor."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "We speak english and czech.",
+            "b": "We speak English and Czech.",
+            "c": "We speak English and czech.",
+            "d": "we speak English and Czech."
+          },
+          "correct_option": "b",
+          "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
+        }
       ]
     }
   }

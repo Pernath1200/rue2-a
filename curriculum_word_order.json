@@ -113,7 +113,7 @@
       }
     ]
   },
-  "practice_order": ["mc", "gapfill", "errorcorrection"],
+  "practice_order": ["mc"],
   "practice": {
     "mc": {
       "title": "Practice: Word order (multiple choice)",
@@ -140,24 +140,24 @@
         {"type": "open", "question": "Tell me how much _____ (it / cost). Use statement order.", "answers": ["it costs"], "explanation": "Embedded: how much it costs."},
         {"type": "open", "question": "I'm not sure what _____ (the problem / be). Use statement order.", "answers": ["the problem is"], "explanation": "Embedded: what the problem is."},
         {"type": "open", "question": "Do you know where _____ (she / live)? Use statement order.", "answers": ["she lives"], "explanation": "Embedded: where she lives."},
-        {"type": "open", "question": "I don't know if _____ (she / be) coming. Use statement order.", "answers": ["she is"], "explanation": "Yes/No embedded: if she is coming."},
-        {"type": "open", "question": "Can you tell me what time _____ (it / be)? Use statement order.", "answers": ["it is"], "explanation": "Embedded: what time it is."},
+        {"type": "open", "question": "I don't know if _____ (she / be) coming. Use statement order.", "answers": ["she is", "she's"], "explanation": "Yes/No embedded: if she is coming."},
+        {"type": "open", "question": "Can you tell me what time _____ (it / be)? Use statement order.", "answers": ["it is", "it's"], "explanation": "Embedded: what time it is."},
         {"type": "open", "question": "I wonder why _____ (he / leave). Use statement order.", "answers": ["he left"], "explanation": "Embedded: why he left."}
       ]
     },
     "errorcorrection": {
       "title": "Practice: Correct the word order",
       "questions": [
-        {"type": "open", "question": "Wrong: 'I don't know what is the answer.' Correct the sentence.", "answers": ["I don't know what the answer is.", "I don't know what the answer is"], "explanation": "Embedded question: statement order (what the answer is)."},
+        {"type": "open", "question": "Wrong: 'I don't know what is the answer.' Correct the sentence.", "answers": ["I don't know what the answer is.", "I do not know what the answer is.", "I don't know what the answer is", "I do not know what the answer is"], "explanation": "Embedded question: statement order (what the answer is)."},
         {"type": "open", "question": "Wrong: 'Can you tell me where is the station?' Correct the sentence.", "answers": ["Can you tell me where the station is?", "Can you tell me where the station is"], "explanation": "Embedded: where the station is."},
         {"type": "open", "question": "Wrong: 'I wonder when did he leave.' Correct the sentence.", "answers": ["I wonder when he left.", "I wonder when he left"], "explanation": "Embedded: when he left (no 'did')."},
-        {"type": "open", "question": "Wrong: 'She always is late.' Correct the sentence.", "answers": ["She is always late.", "She is always late"], "explanation": "With be: adverb after be (is always)."},
+        {"type": "open", "question": "Wrong: 'She always is late.' Correct the sentence.", "answers": ["She is always late.", "She's always late.", "She is always late", "She's always late"], "explanation": "With be: adverb after be (is always)."},
         {"type": "open", "question": "Wrong: 'I go often to the gym.' Correct the sentence.", "answers": ["I often go to the gym.", "I often go to the gym"], "explanation": "Frequency adverb before main verb: often go."},
         {"type": "open", "question": "Wrong: 'Also I want coffee.' Correct the sentence.", "answers": ["I also want coffee.", "I also want coffee"], "explanation": "Also in mid-position: I also want."},
         {"type": "open", "question": "Wrong: 'Do you know what is his name?' Correct the sentence.", "answers": ["Do you know what his name is?", "Do you know what his name is"], "explanation": "Embedded: what his name is."},
         {"type": "open", "question": "Wrong: 'Tell me how much does it cost.' Correct the sentence.", "answers": ["Tell me how much it costs.", "Tell me how much it costs"], "explanation": "Embedded: how much it costs."},
-        {"type": "open", "question": "Wrong: 'They usually are at home.' Correct the sentence.", "answers": ["They are usually at home.", "They are usually at home"], "explanation": "With be: are usually."},
-        {"type": "open", "question": "Wrong: 'I don't know if is she coming?' Correct the sentence.", "answers": ["Do you know if she is coming?", "I don't know if she is coming.", "Do you know if she is coming", "I don't know if she is coming"], "explanation": "Yes/No embedded: if she is coming."}
+        {"type": "open", "question": "Wrong: 'They usually are at home.' Correct the sentence.", "answers": ["They are usually at home.", "They're usually at home.", "They are usually at home", "They're usually at home"], "explanation": "With be: are usually."},
+        {"type": "open", "question": "Wrong: 'I don't know if is she coming?' Correct the sentence.", "answers": ["Do you know if she is coming?", "I don't know if she is coming.", "Do you know if she's coming?", "I don't know if she's coming.", "Do you know if she is coming", "I don't know if she is coming", "Do you know if she's coming", "I don't know if she's coming"], "explanation": "Yes/No embedded: if she is coming."}
       ]
     }
   }

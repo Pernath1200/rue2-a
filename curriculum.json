@@ -57,7 +57,23 @@
       }
     ]
   },
+  "practice_order": ["mc"],
   "practice": {
+    "mc": {
+      "title": "Practice: Present Perfect Simple vs Continuous (multiple choice)",
+      "questions": [
+        {"type": "mc", "question": "We want to emphasise how long an action has been going on. Which form do we usually use?", "options": {"a": "Present perfect continuous", "b": "Present perfect simple", "c": "Past simple", "d": "Present continuous"}, "correct_option": "a", "explanation": "Duration (how long) is typically expressed with the present perfect continuous."},
+        {"type": "mc", "question": "Which sentence is correct? (Stative verb)", "options": {"a": "I have been knowing him for years.", "b": "I know him for years.", "c": "I have known him for years.", "d": "I am knowing him for years."}, "correct_option": "c", "explanation": "'Know' is a stative verb; we use the present perfect simple, not the continuous."},
+        {"type": "mc", "question": "We want to say how many things are completed. Which form do we usually use?", "options": {"a": "Present perfect continuous", "b": "Past continuous", "c": "Present perfect simple", "d": "Present simple"}, "correct_option": "c", "explanation": "Completion and count (how many) are expressed with the present perfect simple."},
+        {"type": "mc", "question": "Someone's hands are dirty. We explain this with a recent activity. Which is more natural?", "options": {"a": "I have repaired the bike.", "b": "I repaired the bike.", "c": "I repair the bike.", "d": "I have been repairing the bike."}, "correct_option": "d", "explanation": "A visible effect now (dirty hands) is explained with the present perfect continuous."},
+        {"type": "mc", "question": "Which sentence is correct? (Stative verb 'have')", "options": {"a": "She has been having that car since 2020.", "b": "She has had that car since 2020.", "c": "She is having that car since 2020.", "d": "She had that car since 2020."}, "correct_option": "b", "explanation": "'Have' (possession) is stative; we use the present perfect simple."},
+        {"type": "mc", "question": "'I've read three books this month.' – Why do we use the simple form?", "options": {"a": "We focus on duration.", "b": "We focus on how many completed.", "c": "We focus on visible effect now.", "d": "We focus on activity in progress."}, "correct_option": "b", "explanation": "How many completed → present perfect simple."},
+        {"type": "mc", "question": "'They've been looking for a flat for months.' – Why do we use the continuous form?", "options": {"a": "We focus on the number of flats.", "b": "We focus on duration (how long).", "c": "We focus on a stative verb.", "d": "We focus on a single completed action."}, "correct_option": "b", "explanation": "Duration → present perfect continuous."},
+        {"type": "mc", "question": "Which is wrong? (Stative verb)", "options": {"a": "I have known him for years.", "b": "I have been knowing him for years.", "c": "She has had that job since 2019.", "d": "We have believed in it for a long time."}, "correct_option": "b", "explanation": "'Know' is stative; we do not use the continuous form."},
+        {"type": "mc", "question": "We want to emphasise how long an action has been going on. Which form do we usually use?", "options": {"a": "Present perfect continuous", "b": "Present perfect simple", "c": "Past simple", "d": "Present continuous"}, "correct_option": "a", "explanation": "Duration (how long) is typically expressed with the present perfect continuous."},
+        {"type": "mc", "question": "We want to say how many things are completed. Which form do we usually use?", "options": {"a": "Present perfect continuous", "b": "Past continuous", "c": "Present perfect simple", "d": "Present simple"}, "correct_option": "c", "explanation": "Completion and count (how many) are expressed with the present perfect simple."}
+      ]
+    },
     "gapfill": {
       "title": "Practice: Gap fill",
       "questions": [
@@ -74,10 +90,10 @@
     "errorcorrection": {
       "title": "Practice: Error correction",
       "questions": [
-        {"type": "open", "question": "Wrong: 'I have been loving this new series since the first episode.' Correct the sentence.", "answers": ["I have loved this new series since the first episode.", "I have loved this new series since the first episode"], "explanation": "'Love' is stative; we use the present perfect simple."},
-        {"type": "open", "question": "Wrong: 'I have been having this phone for two years.' Correct the sentence.", "answers": ["I have had this phone for two years.", "I have had this phone for two years"], "explanation": "'Have' (possession) is stative; present perfect simple."},
-        {"type": "open", "question": "Wrong: 'She has been owning that shop since 2019.' Correct the sentence.", "answers": ["She has owned that shop since 2019.", "She has owned that shop since 2019"], "explanation": "'Own' is stative; we use the present perfect simple."},
-        {"type": "open", "question": "Wrong: 'We have been believing in recycling for years.' Correct the sentence.", "answers": ["We have believed in recycling for years.", "We have believed in recycling for years"], "explanation": "'Believe' is stative; present perfect simple."}
+        {"type": "open", "question": "Wrong: 'I have been loving this new series since the first episode.' Correct the sentence.", "answers": ["I have loved this new series since the first episode.", "I've loved this new series since the first episode.", "I have loved this new series since the first episode", "I've loved this new series since the first episode"], "explanation": "'Love' is stative; we use the present perfect simple."},
+        {"type": "open", "question": "Wrong: 'I have been having this phone for two years.' Correct the sentence.", "answers": ["I have had this phone for two years.", "I've had this phone for two years.", "I have had this phone for two years", "I've had this phone for two years"], "explanation": "'Have' (possession) is stative; present perfect simple."},
+        {"type": "open", "question": "Wrong: 'She has been owning that shop since 2019.' Correct the sentence.", "answers": ["She has owned that shop since 2019.", "She's owned that shop since 2019.", "She has owned that shop since 2019", "She's owned that shop since 2019"], "explanation": "'Own' is stative; we use the present perfect simple."},
+        {"type": "open", "question": "Wrong: 'We have been believing in recycling for years.' Correct the sentence.", "answers": ["We have believed in recycling for years.", "We've believed in recycling for years.", "We have believed in recycling for years", "We've believed in recycling for years"], "explanation": "'Believe' is stative; present perfect simple."}
       ]
     },
     "makesentence": {

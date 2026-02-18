@@ -35,7 +35,7 @@
       {"type": "mc", "question": "'She _____ a solution.' (thought of an idea) Which fits?", "options": {"a": "came up with", "b": "came across", "c": "came down with", "d": "came back"}, "correct_option": "a", "explanation": "Come up with = think of (an idea). Come across = find by chance; come down with = become ill."}
     ]
   },
-  "practice_order": ["gapfill_top50", "mc_meaning", "gapfill_next100", "errorcorrection"],
+  "practice_order": ["mc_meaning"],
   "practice": {
     "gapfill_top50": {
       "title": "Practice: Top 50 phrasal verbs (gap fill)",

@@ -57,7 +57,23 @@
       }
     ]
   },
+  "practice_order": ["mc"],
   "practice": {
+    "mc": {
+      "title": "Practice: Past simple vs Present perfect (multiple choice)",
+      "questions": [
+        {"type": "mc", "question": "Which sentence is correct?", "options": {"a": "I saw him yesterday.", "b": "I have seen him yesterday.", "c": "I have seen him when?", "d": "I saw him ever."}, "correct_option": "a", "explanation": "Yesterday is a finished past time → past simple."},
+        {"type": "mc", "question": "We want to ask about life experience (no specific time). Which is natural?", "options": {"a": "Did you ever go to Paris?", "b": "Do you ever go to Paris?", "c": "Have you ever been to Paris?", "d": "Were you ever in Paris?"}, "correct_option": "c", "explanation": "Ever (life experience) → present perfect."},
+        {"type": "mc", "question": "She moved here in 2020 and still lives here. Which is correct?", "options": {"a": "She lived here since 2020.", "b": "She lives here since 2020.", "c": "She has lived here in 2020.", "d": "She has lived here since 2020."}, "correct_option": "d", "explanation": "Since + duration up to now → present perfect."},
+        {"type": "mc", "question": "We want to know when something happened. Which is natural?", "options": {"a": "When have you left?", "b": "When do you leave?", "c": "When have you been leaving?", "d": "When did you leave?"}, "correct_option": "d", "explanation": "When (specific past time) → past simple."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "I have been to the cinema yesterday.", "b": "I went to the cinema yesterday.", "c": "I have gone to the cinema yesterday.", "d": "I go to the cinema yesterday."}, "correct_option": "b", "explanation": "Yesterday → past simple."},
+        {"type": "mc", "question": "'She ____ last month.' (She left and is gone.) Which fits?", "options": {"a": "has left", "b": "left", "c": "has been leaving", "d": "leaves"}, "correct_option": "b", "explanation": "Last month = finished time → past simple."},
+        {"type": "mc", "question": "'I ____ never ____ him.' (life experience) Which fits?", "options": {"a": "did / see", "b": "have / seen", "c": "have / saw", "d": "did / seen"}, "correct_option": "b", "explanation": "Never (life experience) → present perfect."},
+        {"type": "mc", "question": "'We ____ here for five years.' (We still live here.) Which fits?", "options": {"a": "lived", "b": "have lived", "c": "live", "d": "were living"}, "correct_option": "b", "explanation": "For + duration up to now → present perfect."},
+        {"type": "mc", "question": "Which is wrong?", "options": {"a": "When did you start your job?", "b": "Have you ever been to Japan?", "c": "I have seen him yesterday.", "d": "She has lived here since 2020."}, "correct_option": "c", "explanation": "Yesterday → past simple, not present perfect."},
+        {"type": "mc", "question": "'Just' (recently, result now) usually takes:", "options": {"a": "past simple", "b": "present perfect", "c": "past continuous", "d": "present continuous"}, "correct_option": "b", "explanation": "Just (recent past, result now) → present perfect."}
+      ]
+    },
     "gapfill": {
       "title": "Practice: Gap fill (Past simple vs Present perfect)",
       "questions": [

@@ -34,55 +34,303 @@
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "Because it rained, so we stayed at home.", "b": "Because it rained, we stayed at home.", "c": "Because it rained, therefore we stayed.", "d": "It rained, because we stayed at home."},
+        "options": {
+          "a": "Because it rained, so we stayed at home.",
+          "b": "Because it rained, we stayed at home.",
+          "c": "Because it rained, therefore we stayed.",
+          "d": "It rained, because we stayed at home."
+        },
         "correct_option": "b",
         "explanation": "Don't use because and so (or therefore) in the same sentence. Use one: Because it rained, we stayed. Or: It rained so we stayed."
       },
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "Although he tried, but he failed.", "b": "Although he tried, he failed.", "c": "Although he tried, however he failed.", "d": "Although he tried, and he failed."},
+        "options": {
+          "a": "Although he tried, but he failed.",
+          "b": "Although he tried, he failed.",
+          "c": "Although he tried, however he failed.",
+          "d": "Although he tried, and he failed."
+        },
         "correct_option": "b",
         "explanation": "Don't use although and but (or however) together. Use one: Although he tried, he failed. Or: He tried but he failed."
       },
       {
         "type": "mc",
         "question": "Which linker fits? 'It was expensive. _____, we bought it.'",
-        "options": {"a": "Therefore", "b": "However", "c": "Because", "d": "Moreover"},
+        "options": {
+          "a": "Therefore",
+          "b": "However",
+          "c": "Because",
+          "d": "Moreover"
+        },
         "correct_option": "b",
         "explanation": "However shows contrast (expensive vs we bought it). Therefore would mean 'because it was expensive we bought it' which is odd."
       },
       {
         "type": "mc",
         "question": "Which fits? 'I'll call you _____ I arrive.'",
-        "options": {"a": "when", "b": "while", "c": "during", "d": "however"},
+        "options": {
+          "a": "when",
+          "b": "while",
+          "c": "during",
+          "d": "however"
+        },
         "correct_option": "a",
         "explanation": "When = at the time (I arrive). While is for two ongoing actions; during needs a noun (during the meeting)."
       },
       {
         "type": "mc",
         "question": "Which is correct?",
-        "options": {"a": "She likes tea, whereas he prefers coffee.", "b": "She likes tea, whereas he prefers coffee. (same)", "c": "She likes tea, while he prefers coffee.", "d": "Both a and c are correct."},
+        "options": {
+          "a": "She likes tea, whereas he prefers coffee.",
+          "b": "She likes tea, whereas he prefers coffee. (same)",
+          "c": "She likes tea, while he prefers coffee.",
+          "d": "Both a and c are correct."
+        },
         "correct_option": "d",
         "explanation": "Whereas and while can both show contrast between two things. She likes tea, whereas/while he prefers coffee."
       }
     ]
   },
-  "practice_order": ["conjunctions_linkers"],
+  "practice_order": [
+    "mc"
+  ],
   "practice": {
     "conjunctions_linkers": {
       "title": "Practice: Conjunctions and linkers",
       "questions": [
-        {"type": "open", "question": "Wrong: 'Because it was late, so we went home.' Correct the sentence.", "answers": ["Because it was late, we went home.", "It was late so we went home.", "Because it was late, we went home", "It was late so we went home"], "explanation": "Don't use because and so together. Use one or the other."},
-        {"type": "open", "question": "Wrong: 'Although she was tired, but she continued.' Correct the sentence.", "answers": ["Although she was tired, she continued.", "She was tired but she continued.", "Although she was tired, she continued", "She was tired but she continued"], "explanation": "Don't use although and but together."},
-        {"type": "open", "question": "Fill in: It was difficult. _____, we managed to finish. (contrast)", "answers": ["However", "Nevertheless", "However,", "Nevertheless,"], "explanation": "However or Nevertheless shows contrast (difficult vs we managed)."},
-        {"type": "open", "question": "Fill in: He didn't study. _____, he failed the exam. (result)", "answers": ["Therefore", "So", "Therefore,", "So,"], "explanation": "Therefore or So shows result (didn't study → failed)."},
-        {"type": "open", "question": "Fill in: I was reading _____ she was cooking. (at the same time)", "answers": ["while", "when"], "explanation": "While = during, two ongoing actions. When is also possible but while is clearer for simultaneous actions."},
-        {"type": "open", "question": "Wrong: 'Because he was ill, therefore he stayed in bed.' Correct the sentence.", "answers": ["Because he was ill, he stayed in bed.", "He was ill so he stayed in bed.", "Because he was ill, he stayed in bed", "He was ill so he stayed in bed"], "explanation": "Don't use because and therefore together."},
-        {"type": "open", "question": "Fill in: We need to hurry _____ we miss the train. (negative purpose / result to avoid)", "answers": ["or", "otherwise", "or we will", "otherwise we will"], "explanation": "Or (we'll) miss = otherwise we'll miss. Shows negative result to avoid."},
-        {"type": "open", "question": "Fill in: The film was long. _____, it was very good.", "answers": ["However", "Nevertheless", "On the other hand", "However,", "Nevertheless,", "On the other hand,"], "explanation": "Contrast: long vs good. However, Nevertheless, or On the other hand."},
-        {"type": "open", "question": "Fill in: _____ you see him, tell him to call me.", "answers": ["When", "If"], "explanation": "When = at the time you see him. If = in case you see him. Both can work; when implies you expect to see him."},
-        {"type": "open", "question": "Fill in: _____ it was expensive, we decided to buy it. (contrast)", "answers": ["Although", "Though"], "explanation": "Although or Though introduces a contrast (expensive vs we bought it)."}
+        {
+          "type": "open",
+          "question": "Wrong: 'Because it was late, so we went home.' Correct the sentence.",
+          "answers": [
+            "Because it was late, we went home.",
+            "It was late so we went home.",
+            "Because it was late, we went home",
+            "It was late so we went home"
+          ],
+          "explanation": "Don't use because and so together. Use one or the other."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Although she was tired, but she continued.' Correct the sentence.",
+          "answers": [
+            "Although she was tired, she continued.",
+            "She was tired but she continued.",
+            "Although she was tired, she continued",
+            "She was tired but she continued"
+          ],
+          "explanation": "Don't use although and but together."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: It was difficult. _____, we managed to finish. (contrast)",
+          "answers": [
+            "However",
+            "Nevertheless",
+            "However,",
+            "Nevertheless,"
+          ],
+          "explanation": "However or Nevertheless shows contrast (difficult vs we managed)."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: He didn't study. _____, he failed the exam. (result)",
+          "answers": [
+            "Therefore",
+            "So",
+            "Therefore,",
+            "So,"
+          ],
+          "explanation": "Therefore or So shows result (didn't study → failed)."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: I was reading _____ she was cooking. (at the same time)",
+          "answers": [
+            "while",
+            "when"
+          ],
+          "explanation": "While = during, two ongoing actions. When is also possible but while is clearer for simultaneous actions."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Because he was ill, therefore he stayed in bed.' Correct the sentence.",
+          "answers": [
+            "Because he was ill, he stayed in bed.",
+            "He was ill so he stayed in bed.",
+            "Because he was ill, he stayed in bed",
+            "He was ill so he stayed in bed"
+          ],
+          "explanation": "Don't use because and therefore together."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: We need to hurry _____ we miss the train. (negative purpose / result to avoid)",
+          "answers": [
+            "or",
+            "otherwise",
+            "or we will",
+            "otherwise we will"
+          ],
+          "explanation": "Or (we'll) miss = otherwise we'll miss. Shows negative result to avoid."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: The film was long. _____, it was very good.",
+          "answers": [
+            "However",
+            "Nevertheless",
+            "On the other hand",
+            "However,",
+            "Nevertheless,",
+            "On the other hand,"
+          ],
+          "explanation": "Contrast: long vs good. However, Nevertheless, or On the other hand."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: _____ you see him, tell him to call me.",
+          "answers": [
+            "When",
+            "If"
+          ],
+          "explanation": "When = at the time you see him. If = in case you see him. Both can work; when implies you expect to see him."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: _____ it was expensive, we decided to buy it. (contrast)",
+          "answers": [
+            "Although",
+            "Though"
+          ],
+          "explanation": "Although or Though introduces a contrast (expensive vs we bought it)."
+        }
+      ]
+    },
+    "mc": {
+      "title": "Practice: Conjunctions and linkers (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "Because it rained, so we stayed at home.",
+            "b": "Because it rained, we stayed at home.",
+            "c": "Because it rained, therefore we stayed.",
+            "d": "It rained, because we stayed at home."
+          },
+          "correct_option": "b",
+          "explanation": "Don't use because and so (or therefore) in the same sentence. Use one: Because it rained, we stayed. Or: It rained so we stayed."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "Although he tried, but he failed.",
+            "b": "Although he tried, he failed.",
+            "c": "Although he tried, however he failed.",
+            "d": "Although he tried, and he failed."
+          },
+          "correct_option": "b",
+          "explanation": "Don't use although and but (or however) together. Use one: Although he tried, he failed. Or: He tried but he failed."
+        },
+        {
+          "type": "mc",
+          "question": "Which linker fits? 'It was expensive. _____, we bought it.'",
+          "options": {
+            "a": "Therefore",
+            "b": "However",
+            "c": "Because",
+            "d": "Moreover"
+          },
+          "correct_option": "b",
+          "explanation": "However shows contrast (expensive vs we bought it). Therefore would mean 'because it was expensive we bought it' which is odd."
+        },
+        {
+          "type": "mc",
+          "question": "Which fits? 'I'll call you _____ I arrive.'",
+          "options": {
+            "a": "when",
+            "b": "while",
+            "c": "during",
+            "d": "however"
+          },
+          "correct_option": "a",
+          "explanation": "When = at the time (I arrive). While is for two ongoing actions; during needs a noun (during the meeting)."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "She likes tea, whereas he prefers coffee.",
+            "b": "She likes tea, whereas he prefers coffee. (same)",
+            "c": "She likes tea, while he prefers coffee.",
+            "d": "Both a and c are correct."
+          },
+          "correct_option": "d",
+          "explanation": "Whereas and while can both show contrast between two things. She likes tea, whereas/while he prefers coffee."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "Because it rained, so we stayed at home.",
+            "b": "Because it rained, we stayed at home.",
+            "c": "Because it rained, therefore we stayed.",
+            "d": "It rained, because we stayed at home."
+          },
+          "correct_option": "b",
+          "explanation": "Don't use because and so (or therefore) in the same sentence. Use one: Because it rained, we stayed. Or: It rained so we stayed."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "Although he tried, but he failed.",
+            "b": "Although he tried, he failed.",
+            "c": "Although he tried, however he failed.",
+            "d": "Although he tried, and he failed."
+          },
+          "correct_option": "b",
+          "explanation": "Don't use although and but (or however) together. Use one: Although he tried, he failed. Or: He tried but he failed."
+        },
+        {
+          "type": "mc",
+          "question": "Which linker fits? 'It was expensive. _____, we bought it.'",
+          "options": {
+            "a": "Therefore",
+            "b": "However",
+            "c": "Because",
+            "d": "Moreover"
+          },
+          "correct_option": "b",
+          "explanation": "However shows contrast (expensive vs we bought it). Therefore would mean 'because it was expensive we bought it' which is odd."
+        },
+        {
+          "type": "mc",
+          "question": "Which fits? 'I'll call you _____ I arrive.'",
+          "options": {
+            "a": "when",
+            "b": "while",
+            "c": "during",
+            "d": "however"
+          },
+          "correct_option": "a",
+          "explanation": "When = at the time (I arrive). While is for two ongoing actions; during needs a noun (during the meeting)."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "She likes tea, whereas he prefers coffee.",
+            "b": "She likes tea, whereas he prefers coffee. (same)",
+            "c": "She likes tea, while he prefers coffee.",
+            "d": "Both a and c are correct."
+          },
+          "correct_option": "d",
+          "explanation": "Whereas and while can both show contrast between two things. She likes tea, whereas/while he prefers coffee."
+        }
       ]
     }
   }

@@ -98,10 +98,7 @@
     ]
   },
   "practice_order": [
-    "gapfill",
-    "advanced",
-    "superlatives",
-    "errorcorrection"
+    "mc"
   ],
   "practice": {
     "gapfill": {
@@ -428,6 +425,131 @@
             "Her English is better than my sister's English."
           ],
           "explanation": "We compare English with English: better than my sister's (English)."
+        }
+      ]
+    },
+    "mc": {
+      "title": "Practice: Comparatives and Superlatives (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Which sentence is correct?",
+          "options": {
+            "a": "This exercise is easier than the last one.",
+            "b": "This exercise is more easier than the last one.",
+            "c": "This exercise is more easy than the last one.",
+            "d": "This exercise is easyer than the last one."
+          },
+          "correct_option": "a",
+          "explanation": "Easy → easier. We cannot use both more + adjective and -er together."
+        },
+        {
+          "type": "mc",
+          "question": "Choose the correct comparative.",
+          "options": {
+            "a": "more tall than",
+            "b": "tallest than",
+            "c": "taller than",
+            "d": "more taller than"
+          },
+          "correct_option": "c",
+          "explanation": "Tall is a short adjective → taller than."
+        },
+        {
+          "type": "mc",
+          "question": "Which is the correct form?",
+          "options": {
+            "a": "more interesting than",
+            "b": "interestinger than",
+            "c": "interester than",
+            "d": "more interestinger than"
+          },
+          "correct_option": "a",
+          "explanation": "Interesting is a long adjective → more interesting than."
+        },
+        {
+          "type": "mc",
+          "question": "Complete the sentence: 'His English is ____ mine.'",
+          "options": {
+            "a": "gooder than",
+            "b": "more good than",
+            "c": "better than",
+            "d": "best than"
+          },
+          "correct_option": "c",
+          "explanation": "Good → better (irregular comparative)."
+        },
+        {
+          "type": "mc",
+          "question": "Which negative comparison is correct?",
+          "options": {
+            "a": "She is not so tall like her brother.",
+            "b": "She is not so taller as her brother.",
+            "c": "She is not as tall like her brother.",
+            "d": "She is not as tall as her brother."
+          },
+          "correct_option": "d",
+          "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+        },
+        {
+          "type": "mc",
+          "question": "Which sentence is correct?",
+          "options": {
+            "a": "This exercise is easier than the last one.",
+            "b": "This exercise is more easier than the last one.",
+            "c": "This exercise is more easy than the last one.",
+            "d": "This exercise is easyer than the last one."
+          },
+          "correct_option": "a",
+          "explanation": "Easy → easier. We cannot use both more + adjective and -er together."
+        },
+        {
+          "type": "mc",
+          "question": "Choose the correct comparative.",
+          "options": {
+            "a": "more tall than",
+            "b": "tallest than",
+            "c": "taller than",
+            "d": "more taller than"
+          },
+          "correct_option": "c",
+          "explanation": "Tall is a short adjective → taller than."
+        },
+        {
+          "type": "mc",
+          "question": "Which is the correct form?",
+          "options": {
+            "a": "more interesting than",
+            "b": "interestinger than",
+            "c": "interester than",
+            "d": "more interestinger than"
+          },
+          "correct_option": "a",
+          "explanation": "Interesting is a long adjective → more interesting than."
+        },
+        {
+          "type": "mc",
+          "question": "Complete the sentence: 'His English is ____ mine.'",
+          "options": {
+            "a": "gooder than",
+            "b": "more good than",
+            "c": "better than",
+            "d": "best than"
+          },
+          "correct_option": "c",
+          "explanation": "Good → better (irregular comparative)."
+        },
+        {
+          "type": "mc",
+          "question": "Which negative comparison is correct?",
+          "options": {
+            "a": "She is not so tall like her brother.",
+            "b": "She is not so taller as her brother.",
+            "c": "She is not as tall like her brother.",
+            "d": "She is not as tall as her brother."
+          },
+          "correct_option": "d",
+          "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
         }
       ]
     }

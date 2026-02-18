@@ -67,18 +67,18 @@
   "practice_order": ["verb_subject_agreement"],
   "practice": {
     "verb_subject_agreement": {
-      "title": "Practice: Verb–subject agreement",
+      "title": "Practice: Verb–subject agreement (multiple choice)",
       "questions": [
-        {"type": "open", "question": "Wrong: 'He have been to Paris.' Correct the sentence.", "answers": ["He has been to Paris.", "He has been to Paris"], "explanation": "Third person singular: he has (not have)."},
-        {"type": "open", "question": "Wrong: 'She don't know the answer.' Correct the sentence.", "answers": ["She doesn't know the answer.", "She does not know the answer.", "She doesn't know the answer", "She does not know the answer"], "explanation": "Third person singular: she doesn't (do → does)."},
-        {"type": "open", "question": "Wrong: 'The book on the shelves are old.' Correct the sentence.", "answers": ["The book on the shelves is old.", "The book on the shelves is old"], "explanation": "Subject is 'the book' (singular). The book is old."},
-        {"type": "open", "question": "Wrong: 'Everyone have their own copy.' Correct the sentence.", "answers": ["Everyone has their own copy.", "Everyone has his or her own copy.", "Everyone has their own copy", "Everyone has his or her own copy"], "explanation": "Everyone is singular → everyone has."},
-        {"type": "open", "question": "Wrong: 'He go to work by bus.' Correct the sentence.", "answers": ["He goes to work by bus.", "He goes to work by bus"], "explanation": "Third person singular present simple: he goes (add -es)."},
-        {"type": "open", "question": "Wrong: 'Neither the teacher nor the students was there.' Correct the sentence.", "answers": ["Neither the teacher nor the students were there.", "Neither the teacher nor the students were there"], "explanation": "With nor, verb agrees with the nearest subject (students = plural). Were."},
-        {"type": "open", "question": "Wrong: 'One of the windows are broken.' Correct the sentence.", "answers": ["One of the windows is broken.", "One of the windows is broken"], "explanation": "Subject is 'one' (singular). One is broken."},
-        {"type": "open", "question": "Wrong: 'It don't matter.' Correct the sentence.", "answers": ["It doesn't matter.", "It does not matter.", "It doesn't matter", "It does not matter"], "explanation": "Third person singular: it doesn't (do → does)."},
-        {"type": "open", "question": "Wrong: 'My brother have a car.' Correct the sentence.", "answers": ["My brother has a car.", "My brother has a car"], "explanation": "Third person singular: my brother = he → has."},
-        {"type": "open", "question": "Wrong: 'The news were bad.' Correct the sentence.", "answers": ["The news was bad.", "The news is bad.", "The news was bad", "The news is bad"], "explanation": "News is uncountable and takes a singular verb: the news was/is bad."}
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "He have been to Paris.", "b": "He has been to Paris.", "c": "He has be to Paris.", "d": "He had been to Paris."}, "correct_option": "b", "explanation": "Third person singular: he has (not have)."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "She don't know the answer.", "b": "She doesn't know the answer.", "c": "She not know the answer.", "d": "She doesn't knows the answer."}, "correct_option": "b", "explanation": "Third person singular: she doesn't (do → does)."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "The book on the shelves are old.", "b": "The book on the shelves is old.", "c": "The books on the shelves is old.", "d": "The book on the shelf are old."}, "correct_option": "b", "explanation": "Subject is 'the book' (singular). The book is old."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "Everyone have their own copy.", "b": "Everyone has their own copy.", "c": "Everyone had their own copy.", "d": "Everyone having their own copy."}, "correct_option": "b", "explanation": "Everyone is singular → everyone has."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "He go to work by bus.", "b": "He goes to work by bus.", "c": "He going to work by bus.", "d": "He gone to work by bus."}, "correct_option": "b", "explanation": "Third person singular present simple: he goes (add -es)."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "Neither the teacher nor the students was there.", "b": "Neither the teacher nor the students were there.", "c": "Neither the teachers nor the student were there.", "d": "Neither the teacher or the students were there."}, "correct_option": "b", "explanation": "With nor, verb agrees with the nearest subject (students = plural). Were."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "One of the windows are broken.", "b": "One of the windows is broken.", "c": "One of the window is broken.", "d": "One of the windows were broken."}, "correct_option": "b", "explanation": "Subject is 'one' (singular). One is broken."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "It don't matter.", "b": "It doesn't matter.", "c": "It not matter.", "d": "It doesn't matters."}, "correct_option": "b", "explanation": "Third person singular: it doesn't (do → does)."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "My brother have a car.", "b": "My brother has a car.", "c": "My brother had a car.", "d": "My brother having a car."}, "correct_option": "b", "explanation": "Third person singular: my brother = he → has."},
+        {"type": "mc", "question": "Which is correct?", "options": {"a": "The news were bad.", "b": "The news was bad.", "c": "The news are bad.", "d": "A news was bad."}, "correct_option": "b", "explanation": "News is uncountable and takes a singular verb: the news was/is bad."}
       ]
     }
   }

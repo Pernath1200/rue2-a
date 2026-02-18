@@ -47,39 +47,30 @@
           "explanation": "We talk about an ongoing situation 'lately' and its effect now, so we use the present perfect continuous."
         },
         {
-          "type": "mc",
-          "question": "6. Multiple choice (result vs activity)\nI'm not hungry. I ____ already ____ breakfast.",
-          "options": {
-            "a": "have eaten",
-            "b": "have been eating",
-            "c": "was eating",
-            "d": "have been eaten"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'was eating.' Correct the sentence.",
+          "answers": [
+            "have eaten",
+            "have eaten"
+          ],
           "explanation": "We focus on the finished action and its result (I'm not hungry now), so we use the present perfect simple."
         },
         {
-          "type": "mc",
-          "question": "7. Multiple choice (duration vs result)\nBen ____ at this company for ten years, but he ____ three different positions.",
-          "options": {
-            "a": "has worked / has had",
-            "b": "has been working / has been having",
-            "c": "worked / has had",
-            "d": "has been working / had"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'worked / has had.' Correct the sentence.",
+          "answers": [
+            "has worked / has had",
+            "has worked / has had"
+          ],
           "explanation": "Both verbs refer to long-term states, so we use the present perfect simple to describe his experience and completed changes."
         },
         {
-          "type": "mc",
-          "question": "8. Multiple choice (recent effect – continuous)\nWhy are your hands so dirty?\nBecause I ____ the bike.",
-          "options": {
-            "a": "have repaired",
-            "b": "have been repairing",
-            "c": "repaired",
-            "d": "have repair"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'have repaired.' Correct the sentence.",
+          "answers": [
+            "have been repairing",
+            "have been repairing"
+          ],
           "explanation": "We explain a visible present effect (dirty hands) caused by a recent ongoing activity, so we use the present perfect continuous."
         },
         {
@@ -96,15 +87,12 @@
           "explanation": "'Love' is a stative verb, so we use the present perfect simple, not the continuous."
         },
         {
-          "type": "mc",
-          "question": "10. Choose the best sentence (duration vs result)\nYou see your friend, who looks very tired. Which sentence is more natural?",
-          "options": {
-            "a": "I see you're tired. How long have you worked today?",
-            "b": "I see you're tired. How long have you been working today?",
-            "c": "I see you're tired. How long did you work today?",
-            "d": "I see you're tired. For how long you work today?"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'I see you're tired. How long have you worked today?.' Correct the sentence.",
+          "answers": [
+            "I see you're tired. How long have you been working today?",
+            "I see you're tired. How long have you been working today?"
+          ],
           "explanation": "We ask about the duration of an activity that explains the tiredness now, so we prefer the present perfect continuous."
         },
         {
@@ -140,27 +128,21 @@
           "explanation": "We explain a visible present effect (out of breath) with a recent activity, so we use the present perfect continuous."
         },
         {
-          "type": "mc",
-          "question": "5. Multiple choice\nI ____ three chapters of the book. I'll finish it tonight.",
-          "options": {
-            "a": "have been reading",
-            "b": "have read",
-            "c": "read",
-            "d": "am reading"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'have been reading.' Correct the sentence.",
+          "answers": [
+            "have read",
+            "have read"
+          ],
           "explanation": "We focus on completion (how much is done), so we use the present perfect simple."
         },
         {
-          "type": "mc",
-          "question": "6. Multiple choice\nThey're tired because they ____ all day.",
-          "options": {
-            "a": "have worked",
-            "b": "have been working",
-            "c": "worked",
-            "d": "work"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'have worked.' Correct the sentence.",
+          "answers": [
+            "have been working",
+            "have been working"
+          ],
           "explanation": "We explain why they're tired now (duration of activity), so we use the present perfect continuous."
         },
         {
@@ -175,15 +157,12 @@
           "explanation": "'Have' (possession) is stative; we use the present perfect simple, not the continuous."
         },
         {
-          "type": "mc",
-          "question": "8. Choose the best sentence\nYour friend's hands are covered in flour.",
-          "options": {
-            "a": "Have you made cakes?",
-            "b": "Have you been making cakes?",
-            "c": "Did you make cakes?",
-            "d": "Do you make cakes?"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'Have you made cakes?.' Correct the sentence.",
+          "answers": [
+            "Have you been making cakes?",
+            "Have you been making cakes?"
+          ],
           "explanation": "We explain a visible effect (flour on hands) with a recent ongoing activity, so the present perfect continuous is more natural."
         },
         {
@@ -243,27 +222,21 @@
           "explanation": "Ago → past simple."
         },
         {
-          "type": "mc",
-          "question": "5. I'm not hungry. I ____ already ____ lunch.",
-          "options": {
-            "a": "have eaten",
-            "b": "ate",
-            "c": "have been eating",
-            "d": "was eating"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'have been eating.' Correct the sentence.",
+          "answers": [
+            "have eaten",
+            "have eaten"
+          ],
           "explanation": "Result now (not hungry) → present perfect."
         },
         {
-          "type": "mc",
-          "question": "6. When ____ you ____ to Paris?",
-          "options": {
-            "a": "have you been",
-            "b": "did you go",
-            "c": "have you gone",
-            "d": "do you go"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'have you been.' Correct the sentence.",
+          "answers": [
+            "did you go",
+            "did you go"
+          ],
           "explanation": "When (specific time) → past simple."
         },
         {
@@ -309,15 +282,12 @@
           "explanation": "For + duration up to now → present perfect."
         },
         {
-          "type": "mc",
-          "question": "4. ____ you ____ your keys? (I can't find them.)",
-          "options": {
-            "a": "Did you lose",
-            "b": "Have you lost",
-            "c": "Do you lose",
-            "d": "Have you been losing"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'Did you lose.' Correct the sentence.",
+          "answers": [
+            "Have you lost",
+            "Have you lost"
+          ],
           "explanation": "Result now (can't find) → present perfect."
         },
         {
@@ -637,9 +607,13 @@
           "question": "7. Wrong: That's the reason what I left. Correct the sentence.",
           "answers": [
             "That's the reason why I left.",
+            "That is the reason why I left.",
             "That's the reason that I left.",
+            "That is the reason that I left.",
             "That's the reason why I left",
-            "That's the reason that I left"
+            "That is the reason why I left",
+            "That's the reason that I left",
+            "That is the reason that I left"
           ],
           "explanation": "For reason use **why** or **that**, not **what**."
         },
@@ -943,18 +917,6 @@
             "will not tell"
           ],
           "explanation": "Promise → will."
-        },
-        {
-          "type": "mc",
-          "question": "5. (Doorbell rings.) I ____ it.",
-          "options": {
-            "a": "am going to get",
-            "b": "will get",
-            "c": "get",
-            "d": "getting"
-          },
-          "correct_option": "b",
-          "explanation": "Decision at the moment → will."
         }
       ]
     }
@@ -1213,7 +1175,10 @@
           "type": "open",
           "question": "10. Wrong: 'I can't beleive it.' Correct the sentence.",
           "answers": [
-            "I can't believe it."
+            "I can't believe it.",
+            "I cannot believe it.",
+            "I can't believe it",
+            "I cannot believe it"
           ],
           "explanation": "Believe: i before e."
         },
@@ -1221,7 +1186,10 @@
           "type": "open",
           "question": "1. Wrong: 'It's none of your buisness.' Correct the sentence.",
           "answers": [
-            "It's none of your business."
+            "It's none of your business.",
+            "It is none of your business.",
+            "It's none of your business",
+            "It is none of your business"
           ],
           "explanation": "Business: -i- then -ness (busy → business)."
         },
@@ -1269,7 +1237,10 @@
           "type": "open",
           "question": "7. Wrong: 'I will definately be there.' Correct the sentence.",
           "answers": [
-            "I will definitely be there."
+            "I will definitely be there.",
+            "I'll definitely be there.",
+            "I will definitely be there",
+            "I'll definitely be there"
           ],
           "explanation": "Definitely: -ite- from finite."
         },
@@ -1285,7 +1256,10 @@
           "type": "open",
           "question": "9. Wrong: 'What's the diffrence?' Correct the sentence.",
           "answers": [
-            "What's the difference?"
+            "What's the difference?",
+            "What is the difference?",
+            "What's the difference",
+            "What is the difference"
           ],
           "explanation": "Difference: double f, -ence."
         },
@@ -1605,7 +1579,9 @@
           "question": "4. Wrong: 'The report has not been finish yet.' Correct the sentence.",
           "answers": [
             "The report has not been finished yet.",
-            "The report has not been finished yet"
+            "The report hasn't been finished yet.",
+            "The report has not been finished yet",
+            "The report hasn't been finished yet"
           ],
           "explanation": "Present perfect passive: have been + past participle (finished)."
         },
@@ -1836,243 +1812,165 @@
       "summary": "Some/any (positive vs question/negative), much/many (uncountable/countable), a few vs few, a little vs little, all, most, no.",
       "questions": [
         {
-          "type": "mc",
-          "question": "1. I have _____ milk in the fridge.",
-          "options": {
-            "a": "some",
-            "b": "any",
-            "c": "many",
-            "d": "few"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "1. I have _____ milk in the fridge. (Fill in the blank.)",
+          "answers": [
+            "some"
+          ],
           "explanation": "Positive, uncountable → some."
         },
         {
-          "type": "mc",
-          "question": "2. Do you have _____ sugar?",
-          "options": {
-            "a": "some",
-            "b": "any",
-            "c": "much",
-            "d": "many"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "2. Do you have _____ sugar?. (Fill in the blank.)",
+          "answers": [
+            "any"
+          ],
           "explanation": "Question → any."
         },
         {
-          "type": "mc",
-          "question": "3. How _____ people were at the party?",
-          "options": {
-            "a": "much",
-            "b": "many",
-            "c": "some",
-            "d": "little"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "3. How _____ people were at the party?. (Fill in the blank.)",
+          "answers": [
+            "many"
+          ],
           "explanation": "Countable (people) → many."
         },
         {
-          "type": "mc",
-          "question": "4. She has _____ friends in London. (a small number)",
-          "options": {
-            "a": "few",
-            "b": "a few",
-            "c": "little",
-            "d": "a little"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "4. She has _____ friends in London. (a small number). (Fill in the blank.)",
+          "answers": [
+            "a few"
+          ],
           "explanation": "Countable, positive → a few."
         },
         {
-          "type": "mc",
-          "question": "5. There is _____ water left. (a small amount)",
-          "options": {
-            "a": "little",
-            "b": "a little",
-            "c": "few",
-            "d": "a few"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "5. There is _____ water left. (a small amount). (Fill in the blank.)",
+          "answers": [
+            "a little"
+          ],
           "explanation": "Uncountable, positive (a small amount) → a little."
         },
         {
-          "type": "mc",
-          "question": "6. We need _____ eggs for the cake.",
-          "options": {
-            "a": "little",
-            "b": "a little",
-            "c": "few",
-            "d": "a few"
-          },
-          "correct_option": "d",
+          "type": "open",
+          "question": "6. We need _____ eggs for the cake. (Fill in the blank.)",
+          "answers": [
+            "a few"
+          ],
           "explanation": "Countable, positive → a few."
         },
         {
-          "type": "mc",
-          "question": "7. There isn't _____ bread left.",
-          "options": {
-            "a": "some",
-            "b": "any",
-            "c": "many",
-            "d": "few"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "7. There isn't _____ bread left. (Fill in the blank.)",
+          "answers": [
+            "any"
+          ],
           "explanation": "Negative → any."
         },
         {
-          "type": "mc",
-          "question": "8. He has _____ experience in teaching. (a lot)",
-          "options": {
-            "a": "much",
-            "b": "many",
-            "c": "a lot of",
-            "d": "few"
-          },
-          "correct_option": "c",
+          "type": "open",
+          "question": "8. He has _____ experience in teaching. (a lot). (Fill in the blank.)",
+          "answers": [
+            "a lot of"
+          ],
           "explanation": "Positive, uncountable → a lot of."
         },
         {
-          "type": "mc",
-          "question": "9. _____ the students passed the exam.",
-          "options": {
-            "a": "All",
-            "b": "Most",
-            "c": "No",
-            "d": "Any"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "9. _____ the students passed the exam. (Fill in the blank.)",
+          "answers": [
+            "All"
+          ],
           "explanation": "Whole group → all."
         },
         {
-          "type": "mc",
-          "question": "10. Would you like _____ tea?",
-          "options": {
-            "a": "some",
-            "b": "any",
-            "c": "much",
-            "d": "many"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "10. Would you like _____ tea?. (Fill in the blank.)",
+          "answers": [
+            "some"
+          ],
           "explanation": "Offer (expect yes) → some."
         },
         {
-          "type": "mc",
-          "question": "11. Wrong: 'I have any milk.' Which is correct?",
-          "options": {
-            "a": "I have some milk.",
-            "b": "I have any milk.",
-            "c": "I have much milk.",
-            "d": "I have many milk."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'I have much milk.' Correct the sentence.",
+          "answers": [
+            "I have some milk.",
+            "I have some milk"
+          ],
           "explanation": "Positive → some."
         },
         {
-          "type": "mc",
-          "question": "12. Wrong: 'How much books did you read?' Which is correct?",
-          "options": {
-            "a": "How much books did you read?",
-            "b": "How many books did you read?",
-            "c": "How many book did you read?",
-            "d": "How much book did you read?"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'How much books did you read?.' Correct the sentence.",
+          "answers": [
+            "How many books did you read?",
+            "How many books did you read?"
+          ],
           "explanation": "Books = countable → many."
         },
         {
-          "type": "mc",
-          "question": "13. There are _____ students in the class. (a small number)",
-          "options": {
-            "a": "few",
-            "b": "a few",
-            "c": "little",
-            "d": "many"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "13. There are _____ students in the class. (a small number). (Fill in the blank.)",
+          "answers": [
+            "a few"
+          ],
           "explanation": "Countable, positive, small number → a few."
         },
         {
-          "type": "mc",
-          "question": "14. I need _____ time to think. (a small amount)",
-          "options": {
-            "a": "little",
-            "b": "a little",
-            "c": "few",
-            "d": "a few"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "14. I need _____ time to think. (a small amount). (Fill in the blank.)",
+          "answers": [
+            "a little"
+          ],
           "explanation": "Uncountable, positive → a little."
         },
         {
-          "type": "mc",
-          "question": "15. _____ people know about this. (almost nobody)",
-          "options": {
-            "a": "A few",
-            "b": "Few",
-            "c": "A little",
-            "d": "Little"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "15. _____ people know about this. (almost nobody). (Fill in the blank.)",
+          "answers": [
+            "Few"
+          ],
           "explanation": "Countable, negative sense → few."
         },
         {
-          "type": "mc",
-          "question": "16. There's _____ hope left. (almost none)",
-          "options": {
-            "a": "a little",
-            "b": "little",
-            "c": "a few",
-            "d": "few"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "16. There's _____ hope left. (almost none). (Fill in the blank.)",
+          "answers": [
+            "little"
+          ],
           "explanation": "Uncountable, negative sense → little."
         },
         {
-          "type": "mc",
-          "question": "17. How _____ money do you have?",
-          "options": {
-            "a": "much",
-            "b": "many",
-            "c": "some",
-            "d": "few"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "17. How _____ money do you have?. (Fill in the blank.)",
+          "answers": [
+            "much"
+          ],
           "explanation": "Money = uncountable → much."
         },
         {
-          "type": "mc",
-          "question": "18. There are _____ chairs in the room.",
-          "options": {
-            "a": "much",
-            "b": "little",
-            "c": "some",
-            "d": "any"
-          },
-          "correct_option": "c",
+          "type": "open",
+          "question": "18. There are _____ chairs in the room. (Fill in the blank.)",
+          "answers": [
+            "some"
+          ],
           "explanation": "Countable, positive → some (or several, a few, many)."
         },
         {
-          "type": "mc",
-          "question": "19. She has _____ patience with children.",
-          "options": {
-            "a": "many",
-            "b": "a lot of",
-            "c": "few",
-            "d": "any"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "19. She has _____ patience with children. (Fill in the blank.)",
+          "answers": [
+            "a lot of"
+          ],
           "explanation": "Patience = uncountable; positive → a lot of."
         },
         {
-          "type": "mc",
-          "question": "20. _____ of the cake was left.",
-          "options": {
-            "a": "Most",
-            "b": "Much",
-            "c": "Many",
-            "d": "Any"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "20. _____ of the cake was left. (Fill in the blank.)",
+          "answers": [
+            "Most"
+          ],
           "explanation": "Uncountable; most, some, half, or none."
         }
       ]
@@ -2422,86 +2320,646 @@
           ],
           "explanation": "Set out or set off = start a journey."
         },
-        {"type": "open", "question": "21. She went _____ to Prague. (return)", "answers": ["back"], "explanation": "Go back = return."},
-        {"type": "open", "question": "22. When did you come _____ ? (return)", "answers": ["back"], "explanation": "Come back = return."},
-        {"type": "open", "question": "23. Let's go _____ tonight. (leave the house)", "answers": ["out"], "explanation": "Go out = leave the house."},
-        {"type": "open", "question": "24. He pointed _____ the mistake. (draw attention to)", "answers": ["out"], "explanation": "Point out = draw attention to."},
-        {"type": "open", "question": "25. I found _____ the truth. (discover)", "answers": ["out"], "explanation": "Find out = discover."},
-        {"type": "open", "question": "26. Something came _____ at the meeting. (arose)", "answers": ["up"], "explanation": "Come up = arise, be mentioned."},
-        {"type": "open", "question": "27. She made _____ an excuse. (invent)", "answers": ["up"], "explanation": "Make up = invent."},
-        {"type": "open", "question": "28. He took _____ the company. (assume control)", "answers": ["over"], "explanation": "Take over = assume control."},
-        {"type": "open", "question": "29. She took _____ too much work. (accept)", "answers": ["on"], "explanation": "Take on = accept work."},
-        {"type": "open", "question": "30. The teacher gave _____ the papers. (distribute)", "answers": ["out"], "explanation": "Give out = distribute."},
-        {"type": "open", "question": "31. It turned _____ to be true. (resulted)", "answers": ["out"], "explanation": "Turn out = result."},
-        {"type": "open", "question": "32. Carry _____ with what you're doing. (continue)", "answers": ["on"], "explanation": "Carry on = continue."},
-        {"type": "open", "question": "33. Prices have gone _____. (increased)", "answers": ["up"], "explanation": "Go up = increase."},
-        {"type": "open", "question": "34. Get _____ of the car. (leave)", "answers": ["out"], "explanation": "Get out = leave."},
-        {"type": "open", "question": "35. Please sit _____. (take a seat)", "answers": ["down"], "explanation": "Sit down = take a seat."},
-        {"type": "open", "question": "36. He took _____ his wallet. (remove)", "answers": ["out"], "explanation": "Take out = remove, extract."},
-        {"type": "open", "question": "37. Come _____, we're late. (hurry)", "answers": ["on"], "explanation": "Come on = hurry."},
-        {"type": "open", "question": "38. The plane took _____ at six. (left the ground)", "answers": ["off"], "explanation": "Take off = leave (plane)."},
-        {"type": "open", "question": "39. Get _____ the bus. (board)", "answers": ["on"], "explanation": "Get on = board."},
-        {"type": "open", "question": "40. Turn _____ the light. (switch on)", "answers": ["on"], "explanation": "Turn on = switch on."},
-        {"type": "open", "question": "41. Put _____ your pen. (place down)", "answers": ["down"], "explanation": "Put down = place down."},
-        {"type": "open", "question": "42. I'm looking _____ my keys. (search for)", "answers": ["for"], "explanation": "Look for = search for."},
-        {"type": "open", "question": "43. Keep _____ trying. (continue)", "answers": ["on"], "explanation": "Keep on = continue."},
-        {"type": "open", "question": "44. Bring _____ the book. (return)", "answers": ["back"], "explanation": "Bring back = return something."},
-        {"type": "open", "question": "45. They cut _____ the electricity. (disconnected)", "answers": ["off"], "explanation": "Cut off = disconnect."},
-        {"type": "open", "question": "46. The car broke _____. (stopped working)", "answers": ["down"], "explanation": "Break down = stop working."},
-        {"type": "open", "question": "47. Prices have come _____. (decreased)", "answers": ["down"], "explanation": "Come down = decrease."},
-        {"type": "open", "question": "48. When did you get _____ ? (return)", "answers": ["back"], "explanation": "Get back = return."},
-        {"type": "open", "question": "49. The new law was brought _____ last year. (introduced)", "answers": ["in"], "explanation": "Bring in = introduce."},
-        {"type": "open", "question": "50. He asked her _____. (invited on a date)", "answers": ["out"], "explanation": "Ask out = invite on a date."},
-        {"type": "open", "question": "51. Back _____ your files. (copy)", "answers": ["up"], "explanation": "Back up = copy, support."},
-        {"type": "open", "question": "52. They broke _____ last year. (ended relationship)", "answers": ["up"], "explanation": "Break up = end relationship."},
-        {"type": "open", "question": "53. I bumped _____ an old friend. (met by chance)", "answers": ["into"], "explanation": "Bump into = meet by chance."},
-        {"type": "open", "question": "54. I'll check _____ the children. (verify)", "answers": ["on"], "explanation": "Check on = verify."},
-        {"type": "open", "question": "55. I came _____ an interesting article. (found by chance)", "answers": ["across"], "explanation": "Come across = find by chance."},
-        {"type": "open", "question": "56. She came down _____ flu. (became ill with)", "answers": ["with"], "explanation": "Come down with = become ill."},
-        {"type": "open", "question": "57. He came up _____ a solution. (thought of)", "answers": ["with"], "explanation": "Come up with = think of idea."},
-        {"type": "open", "question": "58. Do _____ your coat. (fasten)", "answers": ["up"], "explanation": "Do up = fasten."},
-        {"type": "open", "question": "59. We dressed _____ for the party. (wear smart clothes)", "answers": ["up"], "explanation": "Dress up = wear smart clothes."},
-        {"type": "open", "question": "60. I'll drop you _____ at the station. (deliver)", "answers": ["off"], "explanation": "Drop off = deliver."},
-        {"type": "open", "question": "61. He dropped _____ of university. (left school)", "answers": ["out"], "explanation": "Drop out = leave school."},
-        {"type": "open", "question": "62. We ended _____ at home. (finally were)", "answers": ["up"], "explanation": "End up = finally do or be."},
-        {"type": "open", "question": "63. They fell _____ over money. (quarrelled)", "answers": ["out"], "explanation": "Fall out = quarrel."},
-        {"type": "open", "question": "64. I can't figure _____ this problem. (solve)", "answers": ["out"], "explanation": "Figure out = understand, solve."},
-        {"type": "open", "question": "65. We need to get _____. (escape)", "answers": ["away"], "explanation": "Get away = escape."},
-        {"type": "open", "question": "66. They get _____ well. (have good relationship)", "answers": ["along"], "explanation": "Get along = have good relationship."},
-        {"type": "open", "question": "67. She got _____ her illness. (recovered from)", "answers": ["over"], "explanation": "Get over = recover from."},
-        {"type": "open", "question": "68. He gave _____ to pressure. (yielded)", "answers": ["in"], "explanation": "Give in = yield."},
-        {"type": "open", "question": "69. Give _____ the book. (return)", "answers": ["back"], "explanation": "Give back = return."},
-        {"type": "open", "question": "70. Go _____ and start. (proceed)", "answers": ["ahead"], "explanation": "Go ahead = proceed."},
-        {"type": "open", "question": "71. The alarm went _____. (rang)", "answers": ["off"], "explanation": "Go off = ring, explode."},
-        {"type": "open", "question": "72. Go _____ your answers. (review)", "answers": ["over"], "explanation": "Go over = review."},
-        {"type": "open", "question": "73. I grew _____ in Prague. (became adult)", "answers": ["up"], "explanation": "Grow up = become adult."},
-        {"type": "open", "question": "74. Hand _____ the sheets. (distribute)", "answers": ["out"], "explanation": "Hand out = distribute."},
-        {"type": "open", "question": "75. Hang _____ a second. (wait)", "answers": ["on"], "explanation": "Hang on = wait."},
-        {"type": "open", "question": "76. We hung _____ at the cafe. (spent time)", "answers": ["out"], "explanation": "Hang out = spend time."},
-        {"type": "open", "question": "77. Don't hold _____. (restrain yourself)", "answers": ["back"], "explanation": "Hold back = restrain."},
-        {"type": "open", "question": "78. Keep _____ the good work. (maintain)", "answers": ["up"], "explanation": "Keep up = maintain."},
-        {"type": "open", "question": "79. The match kicks _____ at three. (starts)", "answers": ["off"], "explanation": "Kick off = start."},
-        {"type": "open", "question": "80. Don't leave _____ any details. (omit)", "answers": ["out"], "explanation": "Leave out = omit."},
-        {"type": "open", "question": "81. He let me _____. (disappointed)", "answers": ["down"], "explanation": "Let down = disappoint."},
-        {"type": "open", "question": "82. Let me _____. (allow to enter)", "answers": ["in"], "explanation": "Let in = allow to enter."},
-        {"type": "open", "question": "83. We'll look _____ the matter. (investigate)", "answers": ["into"], "explanation": "Look into = investigate."},
-        {"type": "open", "question": "84. Look _____! (be careful)", "answers": ["out"], "explanation": "Look out = be careful."},
-        {"type": "open", "question": "85. I can't make _____ the writing. (understand)", "answers": ["out"], "explanation": "Make out = understand, see."},
-        {"type": "open", "question": "86. I'll pay you _____ tomorrow. (repay)", "answers": ["back"], "explanation": "Pay back = repay."},
-        {"type": "open", "question": "87. His hard work paid _____. (succeeded)", "answers": ["off"], "explanation": "Pay off = succeed."},
-        {"type": "open", "question": "88. Pick _____ a colour. (choose)", "answers": ["out"], "explanation": "Pick out = choose."},
-        {"type": "open", "question": "89. Put _____ some money. (save)", "answers": ["aside"], "explanation": "Put aside = save."},
-        {"type": "open", "question": "90. Put _____ your toys. (tidy)", "answers": ["away"], "explanation": "Put away = tidy."},
-        {"type": "open", "question": "91. She put _____ a proposal. (suggested)", "answers": ["forward"], "explanation": "Put forward = suggest."},
-        {"type": "open", "question": "92. Put _____ your hand. (raise)", "answers": ["up"], "explanation": "Put up = raise."},
-        {"type": "open", "question": "93. I ran _____ an old colleague. (met by chance)", "answers": ["into"], "explanation": "Run into = meet by chance."},
-        {"type": "open", "question": "94. Set _____ some time. (reserve)", "answers": ["aside"], "explanation": "Set aside = reserve."},
-        {"type": "open", "question": "95. He was showing _____. (displaying proudly)", "answers": ["off"], "explanation": "Show off = display proudly."},
-        {"type": "open", "question": "96. She didn't show _____. (arrive)", "answers": ["up"], "explanation": "Show up = arrive, appear."},
-        {"type": "open", "question": "97. Sit _____ straight. (rise to sitting)", "answers": ["up"], "explanation": "Sit up = rise to sitting."},
-        {"type": "open", "question": "98. We need to sort _____ the problem. (resolve)", "answers": ["out"], "explanation": "Sort out = resolve."},
-        {"type": "open", "question": "99. I wake _____ at six. (stop sleeping)", "answers": ["up"], "explanation": "Wake up = stop sleeping."},
-        {"type": "open", "question": "100. Write _____ the address. (record)", "answers": ["down"], "explanation": "Write down = record in writing."}
+        {
+          "type": "open",
+          "question": "21. She went _____ to Prague. (return)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Go back = return."
+        },
+        {
+          "type": "open",
+          "question": "22. When did you come _____ ? (return)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Come back = return."
+        },
+        {
+          "type": "open",
+          "question": "23. Let's go _____ tonight. (leave the house)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Go out = leave the house."
+        },
+        {
+          "type": "open",
+          "question": "24. He pointed _____ the mistake. (draw attention to)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Point out = draw attention to."
+        },
+        {
+          "type": "open",
+          "question": "25. I found _____ the truth. (discover)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Find out = discover."
+        },
+        {
+          "type": "open",
+          "question": "26. Something came _____ at the meeting. (arose)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Come up = arise, be mentioned."
+        },
+        {
+          "type": "open",
+          "question": "27. She made _____ an excuse. (invent)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Make up = invent."
+        },
+        {
+          "type": "open",
+          "question": "28. He took _____ the company. (assume control)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Take over = assume control."
+        },
+        {
+          "type": "open",
+          "question": "29. She took _____ too much work. (accept)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Take on = accept work."
+        },
+        {
+          "type": "open",
+          "question": "30. The teacher gave _____ the papers. (distribute)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Give out = distribute."
+        },
+        {
+          "type": "open",
+          "question": "31. It turned _____ to be true. (resulted)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Turn out = result."
+        },
+        {
+          "type": "open",
+          "question": "32. Carry _____ with what you're doing. (continue)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Carry on = continue."
+        },
+        {
+          "type": "open",
+          "question": "33. Prices have gone _____. (increased)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Go up = increase."
+        },
+        {
+          "type": "open",
+          "question": "34. Get _____ of the car. (leave)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Get out = leave."
+        },
+        {
+          "type": "open",
+          "question": "35. Please sit _____. (take a seat)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Sit down = take a seat."
+        },
+        {
+          "type": "open",
+          "question": "36. He took _____ his wallet. (remove)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Take out = remove, extract."
+        },
+        {
+          "type": "open",
+          "question": "37. Come _____, we're late. (hurry)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Come on = hurry."
+        },
+        {
+          "type": "open",
+          "question": "38. The plane took _____ at six. (left the ground)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Take off = leave (plane)."
+        },
+        {
+          "type": "open",
+          "question": "39. Get _____ the bus. (board)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Get on = board."
+        },
+        {
+          "type": "open",
+          "question": "40. Turn _____ the light. (switch on)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Turn on = switch on."
+        },
+        {
+          "type": "open",
+          "question": "41. Put _____ your pen. (place down)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Put down = place down."
+        },
+        {
+          "type": "open",
+          "question": "42. I'm looking _____ my keys. (search for)",
+          "answers": [
+            "for"
+          ],
+          "explanation": "Look for = search for."
+        },
+        {
+          "type": "open",
+          "question": "43. Keep _____ trying. (continue)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Keep on = continue."
+        },
+        {
+          "type": "open",
+          "question": "44. Bring _____ the book. (return)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Bring back = return something."
+        },
+        {
+          "type": "open",
+          "question": "45. They cut _____ the electricity. (disconnected)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Cut off = disconnect."
+        },
+        {
+          "type": "open",
+          "question": "46. The car broke _____. (stopped working)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Break down = stop working."
+        },
+        {
+          "type": "open",
+          "question": "47. Prices have come _____. (decreased)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Come down = decrease."
+        },
+        {
+          "type": "open",
+          "question": "48. When did you get _____ ? (return)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Get back = return."
+        },
+        {
+          "type": "open",
+          "question": "49. The new law was brought _____ last year. (introduced)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Bring in = introduce."
+        },
+        {
+          "type": "open",
+          "question": "50. He asked her _____. (invited on a date)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Ask out = invite on a date."
+        },
+        {
+          "type": "open",
+          "question": "51. Back _____ your files. (copy)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Back up = copy, support."
+        },
+        {
+          "type": "open",
+          "question": "52. They broke _____ last year. (ended relationship)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Break up = end relationship."
+        },
+        {
+          "type": "open",
+          "question": "53. I bumped _____ an old friend. (met by chance)",
+          "answers": [
+            "into"
+          ],
+          "explanation": "Bump into = meet by chance."
+        },
+        {
+          "type": "open",
+          "question": "54. I'll check _____ the children. (verify)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Check on = verify."
+        },
+        {
+          "type": "open",
+          "question": "55. I came _____ an interesting article. (found by chance)",
+          "answers": [
+            "across"
+          ],
+          "explanation": "Come across = find by chance."
+        },
+        {
+          "type": "open",
+          "question": "56. She came down _____ flu. (became ill with)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Come down with = become ill."
+        },
+        {
+          "type": "open",
+          "question": "57. He came up _____ a solution. (thought of)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Come up with = think of idea."
+        },
+        {
+          "type": "open",
+          "question": "58. Do _____ your coat. (fasten)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Do up = fasten."
+        },
+        {
+          "type": "open",
+          "question": "59. We dressed _____ for the party. (wear smart clothes)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Dress up = wear smart clothes."
+        },
+        {
+          "type": "open",
+          "question": "60. I'll drop you _____ at the station. (deliver)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Drop off = deliver."
+        },
+        {
+          "type": "open",
+          "question": "61. He dropped _____ of university. (left school)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Drop out = leave school."
+        },
+        {
+          "type": "open",
+          "question": "62. We ended _____ at home. (finally were)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "End up = finally do or be."
+        },
+        {
+          "type": "open",
+          "question": "63. They fell _____ over money. (quarrelled)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Fall out = quarrel."
+        },
+        {
+          "type": "open",
+          "question": "64. I can't figure _____ this problem. (solve)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Figure out = understand, solve."
+        },
+        {
+          "type": "open",
+          "question": "65. We need to get _____. (escape)",
+          "answers": [
+            "away"
+          ],
+          "explanation": "Get away = escape."
+        },
+        {
+          "type": "open",
+          "question": "66. They get _____ well. (have good relationship)",
+          "answers": [
+            "along"
+          ],
+          "explanation": "Get along = have good relationship."
+        },
+        {
+          "type": "open",
+          "question": "67. She got _____ her illness. (recovered from)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Get over = recover from."
+        },
+        {
+          "type": "open",
+          "question": "68. He gave _____ to pressure. (yielded)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Give in = yield."
+        },
+        {
+          "type": "open",
+          "question": "69. Give _____ the book. (return)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Give back = return."
+        },
+        {
+          "type": "open",
+          "question": "70. Go _____ and start. (proceed)",
+          "answers": [
+            "ahead"
+          ],
+          "explanation": "Go ahead = proceed."
+        },
+        {
+          "type": "open",
+          "question": "71. The alarm went _____. (rang)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Go off = ring, explode."
+        },
+        {
+          "type": "open",
+          "question": "72. Go _____ your answers. (review)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Go over = review."
+        },
+        {
+          "type": "open",
+          "question": "73. I grew _____ in Prague. (became adult)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Grow up = become adult."
+        },
+        {
+          "type": "open",
+          "question": "74. Hand _____ the sheets. (distribute)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Hand out = distribute."
+        },
+        {
+          "type": "open",
+          "question": "75. Hang _____ a second. (wait)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Hang on = wait."
+        },
+        {
+          "type": "open",
+          "question": "76. We hung _____ at the cafe. (spent time)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Hang out = spend time."
+        },
+        {
+          "type": "open",
+          "question": "77. Don't hold _____. (restrain yourself)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Hold back = restrain."
+        },
+        {
+          "type": "open",
+          "question": "78. Keep _____ the good work. (maintain)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Keep up = maintain."
+        },
+        {
+          "type": "open",
+          "question": "79. The match kicks _____ at three. (starts)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Kick off = start."
+        },
+        {
+          "type": "open",
+          "question": "80. Don't leave _____ any details. (omit)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Leave out = omit."
+        },
+        {
+          "type": "open",
+          "question": "81. He let me _____. (disappointed)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Let down = disappoint."
+        },
+        {
+          "type": "open",
+          "question": "82. Let me _____. (allow to enter)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Let in = allow to enter."
+        },
+        {
+          "type": "open",
+          "question": "83. We'll look _____ the matter. (investigate)",
+          "answers": [
+            "into"
+          ],
+          "explanation": "Look into = investigate."
+        },
+        {
+          "type": "open",
+          "question": "84. Look _____! (be careful)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Look out = be careful."
+        },
+        {
+          "type": "open",
+          "question": "85. I can't make _____ the writing. (understand)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Make out = understand, see."
+        },
+        {
+          "type": "open",
+          "question": "86. I'll pay you _____ tomorrow. (repay)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Pay back = repay."
+        },
+        {
+          "type": "open",
+          "question": "87. His hard work paid _____. (succeeded)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Pay off = succeed."
+        },
+        {
+          "type": "open",
+          "question": "88. Pick _____ a colour. (choose)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Pick out = choose."
+        },
+        {
+          "type": "open",
+          "question": "89. Put _____ some money. (save)",
+          "answers": [
+            "aside"
+          ],
+          "explanation": "Put aside = save."
+        },
+        {
+          "type": "open",
+          "question": "90. Put _____ your toys. (tidy)",
+          "answers": [
+            "away"
+          ],
+          "explanation": "Put away = tidy."
+        },
+        {
+          "type": "open",
+          "question": "91. She put _____ a proposal. (suggested)",
+          "answers": [
+            "forward"
+          ],
+          "explanation": "Put forward = suggest."
+        },
+        {
+          "type": "open",
+          "question": "92. Put _____ your hand. (raise)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Put up = raise."
+        },
+        {
+          "type": "open",
+          "question": "93. I ran _____ an old colleague. (met by chance)",
+          "answers": [
+            "into"
+          ],
+          "explanation": "Run into = meet by chance."
+        },
+        {
+          "type": "open",
+          "question": "94. Set _____ some time. (reserve)",
+          "answers": [
+            "aside"
+          ],
+          "explanation": "Set aside = reserve."
+        },
+        {
+          "type": "open",
+          "question": "95. He was showing _____. (displaying proudly)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Show off = display proudly."
+        },
+        {
+          "type": "open",
+          "question": "96. She didn't show _____. (arrive)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Show up = arrive, appear."
+        },
+        {
+          "type": "open",
+          "question": "97. Sit _____ straight. (rise to sitting)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Sit up = rise to sitting."
+        },
+        {
+          "type": "open",
+          "question": "98. We need to sort _____ the problem. (resolve)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Sort out = resolve."
+        },
+        {
+          "type": "open",
+          "question": "99. I wake _____ at six. (stop sleeping)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Wake up = stop sleeping."
+        },
+        {
+          "type": "open",
+          "question": "100. Write _____ the address. (record)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Write down = record in writing."
+        }
       ]
     }
   },
@@ -2570,7 +3028,8 @@
           "type": "open",
           "question": "8. I don't know if _____ . (Use the words: she / be / come. Statement order.)",
           "answers": [
-            "she is coming"
+            "she is coming",
+            "she's coming"
           ],
           "explanation": "Yes/No embedded: if she is coming."
         },
@@ -2578,7 +3037,8 @@
           "type": "open",
           "question": "9. Can you tell me what time _____ ? (Use the words: it / be. Statement order.)",
           "answers": [
-            "it is"
+            "it is",
+            "it's"
           ],
           "explanation": "Embedded: what time it is."
         },
@@ -2595,7 +3055,9 @@
           "question": "1. Wrong: 'I don't know what is the answer.' Correct the sentence.",
           "answers": [
             "I don't know what the answer is.",
-            "I don't know what the answer is"
+            "I do not know what the answer is.",
+            "I don't know what the answer is",
+            "I do not know what the answer is"
           ],
           "explanation": "Embedded: what the answer is (statement order)."
         },
@@ -2640,7 +3102,9 @@
           "question": "6. Wrong: 'I'm not sure what are the opening hours.' Correct the sentence.",
           "answers": [
             "I'm not sure what the opening hours are.",
-            "I'm not sure what the opening hours are"
+            "I am not sure what the opening hours are.",
+            "I'm not sure what the opening hours are",
+            "I am not sure what the opening hours are"
           ],
           "explanation": "Embedded: what the opening hours are."
         },
@@ -2649,7 +3113,9 @@
           "question": "7. Wrong: 'I don't know where is he.' Correct the sentence.",
           "answers": [
             "I don't know where he is.",
-            "I don't know where he is"
+            "I do not know where he is.",
+            "I don't know where he is",
+            "I do not know where he is"
           ],
           "explanation": "Embedded: where he is."
         },
@@ -2658,7 +3124,9 @@
           "question": "8. Wrong: 'Do you know if is she coming?' Correct the sentence.",
           "answers": [
             "Do you know if she is coming?",
-            "Do you know if she is coming"
+            "Do you know if she's coming?",
+            "Do you know if she is coming",
+            "Do you know if she's coming"
           ],
           "explanation": "Yes/No embedded: if she is coming."
         },
@@ -2667,7 +3135,9 @@
           "question": "9. Wrong: 'Can you tell me what time is it?' Correct the sentence.",
           "answers": [
             "Can you tell me what time it is?",
-            "Can you tell me what time it is"
+            "Can you tell me what time it's?",
+            "Can you tell me what time it is",
+            "Can you tell me what time it's"
           ],
           "explanation": "Embedded: what time it is."
         },
@@ -2721,8 +3191,12 @@
           "type": "open",
           "question": "4. Wrong: 'Everyone have their own copy.' Correct the sentence.",
           "answers": [
+            "Everyone has his own copy.",
+            "Everyone has his/her own copy.",
             "Everyone has their own copy.",
             "Everyone has his or her own copy.",
+            "Everyone has his own copy",
+            "Everyone has his/her own copy",
             "Everyone has their own copy",
             "Everyone has his or her own copy"
           ],
@@ -2869,12 +3343,12 @@
         },
         {
           "type": "open",
-          "question": "20. Wrong: 'The data shows a trend.' (Treating data as plural.) Correct to plural if preferred.",
+          "question": "20. Wrong: 'The number of students have increased.' Correct the sentence.",
           "answers": [
-            "The data show a trend.",
-            "The data show a trend"
+            "The number of students has increased.",
+            "The number of students has increased"
           ],
-          "explanation": "Data is often plural in formal use. (Data can be singular in modern usage too.)"
+          "explanation": "Subject is 'the number' (singular) → the number has increased."
         }
       ]
     }
@@ -3072,243 +3546,171 @@
       "summary": "Zero: present + present. First: if + present, will. Second: if + past, would. Third: if + past perfect, would have.",
       "questions": [
         {
-          "type": "mc",
-          "question": "1. Zero: If you heat ice, it _____.",
-          "options": {
-            "a": "melts",
-            "b": "melt",
-            "c": "will melt",
-            "d": "melted"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "1. Zero: If you heat ice, it _____. (Fill in the blank.)",
+          "answers": [
+            "melts"
+          ],
           "explanation": "Zero conditional: present + present for facts."
         },
         {
-          "type": "mc",
-          "question": "2. First: If it _____ tomorrow, we will stay at home.",
-          "options": {
-            "a": "rains",
-            "b": "will rain",
-            "c": "rain",
-            "d": "rained"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "2. First: If it _____ tomorrow, we will stay at home. (Fill in the blank.)",
+          "answers": [
+            "rains"
+          ],
           "explanation": "First conditional: if + present (rains), will in main clause."
         },
         {
-          "type": "mc",
-          "question": "3. Second: If I _____ more time, I would help you.",
-          "options": {
-            "a": "had",
-            "b": "have",
-            "c": "would have",
-            "d": "have had"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "3. Second: If I _____ more time, I would help you. (Fill in the blank.)",
+          "answers": [
+            "had"
+          ],
           "explanation": "Second conditional: if + past simple."
         },
         {
-          "type": "mc",
-          "question": "4. Second: If I were you, I _____.",
-          "options": {
-            "a": "would apologise",
-            "b": "will apologise",
-            "c": "apologise",
-            "d": "would have apologised"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "4. Second: If I were you, I _____. (Fill in the blank.)",
+          "answers": [
+            "would apologise"
+          ],
           "explanation": "Second conditional: would + base in main clause."
         },
         {
-          "type": "mc",
-          "question": "5. Third: If I _____ (know), I would have told you.",
-          "options": {
-            "a": "had known",
-            "b": "would have known",
-            "c": "knew",
-            "d": "know"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "5. Third: If I _____ (know), I would have told you. (Fill in the blank.)",
+          "answers": [
+            "had known"
+          ],
           "explanation": "Third conditional: if + past perfect."
         },
         {
-          "type": "mc",
-          "question": "6. Third: If she had left earlier, she _____ the train.",
-          "options": {
-            "a": "would have caught",
-            "b": "would catch",
-            "c": "had caught",
-            "d": "caught"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "6. Third: If she had left earlier, she _____ the train. (Fill in the blank.)",
+          "answers": [
+            "would have caught"
+          ],
           "explanation": "Third conditional: would have + past participle in main clause."
         },
         {
-          "type": "mc",
-          "question": "7. First: If you _____ early, call me.",
-          "options": {
-            "a": "finish",
-            "b": "will finish",
-            "c": "finished",
-            "d": "would finish"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "7. First: If you _____ early, call me. (Fill in the blank.)",
+          "answers": [
+            "finish"
+          ],
           "explanation": "First conditional: if + present; main clause can be imperative."
         },
         {
-          "type": "mc",
-          "question": "8. Zero: If you don't sleep well, you _____ tired.",
-          "options": {
-            "a": "feel",
-            "b": "felt",
-            "c": "will feel",
-            "d": "would feel"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "8. Zero: If you don't sleep well, you _____ tired. (Fill in the blank.)",
+          "answers": [
+            "feel"
+          ],
           "explanation": "Zero conditional: present in both clauses."
         },
         {
-          "type": "mc",
-          "question": "9. Second: If we _____ the lottery, we would travel the world.",
-          "options": {
-            "a": "won",
-            "b": "win",
-            "c": "would win",
-            "d": "had won"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "9. Second: If we _____ the lottery, we would travel the world. (Fill in the blank.)",
+          "answers": [
+            "won"
+          ],
           "explanation": "Second conditional: if + past simple (won)."
         },
         {
-          "type": "mc",
-          "question": "10. Third: If they hadn't missed the flight, they _____ on time.",
-          "options": {
-            "a": "would have arrived",
-            "b": "would arrive",
-            "c": "had arrived",
-            "d": "arrived"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "10. Third: If they hadn't missed the flight, they _____ on time. (Fill in the blank.)",
+          "answers": [
+            "would have arrived"
+          ],
           "explanation": "Third conditional: would have + past participle."
         },
         {
-          "type": "mc",
-          "question": "11. Wrong: 'If I will see him, I'll tell him.' Which is correct?",
-          "options": {
-            "a": "If I see him, I'll tell him.",
-            "b": "If I will see him, I'll tell him.",
-            "c": "If I would see him, I'll tell him.",
-            "d": "If I saw him, I'll tell him."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If I would see him, I'll tell him.' Correct the sentence.",
+          "answers": [
+            "If I see him, I'll tell him.",
+            "If I see him, I'll tell him"
+          ],
           "explanation": "First conditional: no 'will' in the if-clause; use present."
         },
         {
-          "type": "mc",
-          "question": "12. Wrong: 'If I would have time, I would help.' Which is correct?",
-          "options": {
-            "a": "If I had time, I would help.",
-            "b": "If I would have time, I would help.",
-            "c": "If I have time, I would help.",
-            "d": "If I had had time, I would help."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If I have time, I would help.' Correct the sentence.",
+          "answers": [
+            "If I had time, I would help.",
+            "If I had time, I would help"
+          ],
           "explanation": "Second conditional: if-clause uses past simple (had), not would have."
         },
         {
-          "type": "mc",
-          "question": "13. Wrong: 'If I would have known, I would have come.' Which is correct?",
-          "options": {
-            "a": "If I had known, I would have come.",
-            "b": "If I would have known, I would have come.",
-            "c": "If I knew, I would have come.",
-            "d": "If I had knew, I would have come."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If I knew, I would have come.' Correct the sentence.",
+          "answers": [
+            "If I had known, I would have come.",
+            "If I had known, I would have come"
+          ],
           "explanation": "Third conditional: if-clause uses past perfect (had known), not would have."
         },
         {
-          "type": "mc",
-          "question": "14. Wrong: 'If I had known, I would tell you.' (I didn't know, so I didn't tell.) Which is correct?",
-          "options": {
-            "a": "If I had known, I would have told you.",
-            "b": "If I had known, I would tell you.",
-            "c": "If I knew, I would have told you.",
-            "d": "If I would have known, I would have told you."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If I knew, I would have told you.' Correct the sentence.",
+          "answers": [
+            "If I had known, I would have told you.",
+            "If I had known, I would have told you"
+          ],
           "explanation": "Third conditional: would have told for unreal past."
         },
         {
-          "type": "mc",
-          "question": "15. Wrong: 'If it will rain, we will stay at home.' Which is correct?",
-          "options": {
-            "a": "If it rains, we will stay at home.",
-            "b": "If it will rain, we will stay at home.",
-            "c": "If it rained, we will stay at home.",
-            "d": "If it would rain, we will stay at home."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If it rained, we will stay at home.' Correct the sentence.",
+          "answers": [
+            "If it rains, we will stay at home.",
+            "If it rains, we will stay at home"
+          ],
           "explanation": "First conditional: present in if-clause (if it rains)."
         },
         {
-          "type": "mc",
-          "question": "16. Wrong: 'If she had left earlier, she would catch the train.' Which is correct?",
-          "options": {
-            "a": "If she had left earlier, she would have caught the train.",
-            "b": "If she had left earlier, she would catch the train.",
-            "c": "If she left earlier, she would have caught the train.",
-            "d": "If she would have left earlier, she would have caught the train."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If she left earlier, she would have caught the train.' Correct the sentence.",
+          "answers": [
+            "If she had left earlier, she would have caught the train.",
+            "If she had left earlier, she would have caught the train"
+          ],
           "explanation": "Third conditional: main clause needs would have + past participle."
         },
         {
-          "type": "mc",
-          "question": "17. Wrong: 'If you heat water to 100°C, it will boil.' (General fact.) Which is correct?",
-          "options": {
-            "a": "If you heat water to 100°C, it boils.",
-            "b": "If you heat water to 100°C, it will boil.",
-            "c": "If you heated water to 100°C, it boils.",
-            "d": "If you heat water to 100°C, it would boil."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If you heated water to 100°C, it boils.' Correct the sentence.",
+          "answers": [
+            "If you heat water to 100°C, it boils.",
+            "If you heat water to 100°C, it boils"
+          ],
           "explanation": "Zero conditional for general truth: present + present (it boils)."
         },
         {
-          "type": "mc",
-          "question": "18. Wrong: 'If he would try harder, he could pass.' Which is correct?",
-          "options": {
-            "a": "If he tried harder, he could pass.",
-            "b": "If he would try harder, he could pass.",
-            "c": "If he tries harder, he could pass.",
-            "d": "If he had tried harder, he could pass."
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "Wrong: 'If he tries harder, he could pass.' Correct the sentence.",
+          "answers": [
+            "If he tried harder, he could pass.",
+            "If he tried harder, he could pass"
+          ],
           "explanation": "Second conditional: if-clause uses past simple (tried), not would try."
         },
         {
-          "type": "mc",
-          "question": "19. Zero: If you _____ a glass, it breaks.",
-          "options": {
-            "a": "drop",
-            "b": "drops",
-            "c": "dropped",
-            "d": "will drop"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "19. Zero: If you _____ a glass, it breaks. (Fill in the blank.)",
+          "answers": [
+            "drop"
+          ],
           "explanation": "Zero conditional: present in both clauses."
         },
         {
-          "type": "mc",
-          "question": "20. First: If she _____, tell her I'm out.",
-          "options": {
-            "a": "calls",
-            "b": "call",
-            "c": "will call",
-            "d": "called"
-          },
-          "correct_option": "a",
+          "type": "open",
+          "question": "20. First: If she _____, tell her I'm out. (Fill in the blank.)",
+          "answers": [
+            "calls"
+          ],
           "explanation": "First conditional: if + present; imperative in main clause."
         }
       ]
@@ -3488,7 +3890,9 @@
           "question": "19. Wrong: 'no i don't think so.' Correct the sentence.",
           "answers": [
             "No, I don't think so.",
-            "No, I don't think so"
+            "No, I do not think so.",
+            "No, I don't think so",
+            "No, I do not think so"
           ],
           "explanation": "Capitalise first word and I; comma after No."
         },
@@ -4298,27 +4702,21 @@
       "summary": "Identifying tenses, choosing correct form.",
       "questions": [
         {
-          "type": "mc",
-          "question": "1. Which tense is 'She has been working'?",
-          "options": {
-            "a": "Present simple",
-            "b": "Present perfect continuous",
-            "c": "Past continuous",
-            "d": "Future perfect"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'Present simple.' Correct the sentence.",
+          "answers": [
+            "Present perfect continuous",
+            "Present perfect continuous"
+          ],
           "explanation": "have/has been + -ing = present perfect continuous."
         },
         {
-          "type": "mc",
-          "question": "2. Which tense is 'I had left before she arrived'?",
-          "options": {
-            "a": "Past simple",
-            "b": "Present perfect",
-            "c": "Past perfect",
-            "d": "Past continuous"
-          },
-          "correct_option": "c",
+          "type": "open",
+          "question": "Wrong: 'Past simple.' Correct the sentence.",
+          "answers": [
+            "Past perfect",
+            "Past perfect"
+          ],
           "explanation": "had + past participle = past perfect."
         },
         {
@@ -4346,15 +4744,12 @@
           "explanation": "Before past time → past perfect."
         },
         {
-          "type": "mc",
-          "question": "6. What aspect does 'I am working' show?",
-          "options": {
-            "a": "Simple",
-            "b": "Continuous",
-            "c": "Perfect",
-            "d": "Future"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'Simple.' Correct the sentence.",
+          "answers": [
+            "Continuous",
+            "Continuous"
+          ],
           "explanation": "Be + -ing = continuous (in progress)."
         },
         {
@@ -4374,15 +4769,12 @@
           "explanation": "Finished past → past simple."
         },
         {
-          "type": "mc",
-          "question": "9. Which tense describes a habit?",
-          "options": {
-            "a": "Past continuous",
-            "b": "Present simple",
-            "c": "Future perfect",
-            "d": "Past perfect"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'Past continuous.' Correct the sentence.",
+          "answers": [
+            "Present simple",
+            "Present simple"
+          ],
           "explanation": "Present simple for habits and routines."
         },
         {
@@ -4402,15 +4794,12 @@
           "explanation": "Before future → future perfect."
         },
         {
-          "type": "mc",
-          "question": "12. 'He will be working at 5' – what does it express?",
-          "options": {
-            "a": "A habit",
-            "b": "Action in progress at a future time",
-            "c": "Completed action",
-            "d": "Past action"
-          },
-          "correct_option": "b",
+          "type": "open",
+          "question": "Wrong: 'A habit.' Correct the sentence.",
+          "answers": [
+            "Action in progress at a future time",
+            "Action in progress at a future time"
+          ],
           "explanation": "Future continuous = in progress at a future time."
         },
         {
@@ -4439,15 +4828,12 @@
           "explanation": "Duration before past event → past perfect."
         },
         {
-          "type": "mc",
-          "question": "16. How many aspects does English have?",
-          "options": {
-            "a": "2",
-            "b": "3",
-            "c": "4",
-            "d": "5"
-          },
-          "correct_option": "c",
+          "type": "open",
+          "question": "Wrong: '2.' Correct the sentence.",
+          "answers": [
+            "4",
+            "4"
+          ],
           "explanation": "Simple, continuous, perfect, perfect continuous."
         },
         {
@@ -4490,26 +4876,201 @@
       "title": "Auxiliary Verbs – Gap fill and error correction",
       "summary": "Use do/does/did in questions and negatives; correct common errors (esp. Czech-style).",
       "questions": [
-        { "type": "open", "question": "1. She ____ (not / like) coffee. Put the correct form (negative present simple).", "answers": ["doesn't like", "does not like"], "explanation": "Third person singular negative → **doesn't** + base form **like**." },
-        { "type": "open", "question": "2. ____ you ____ (know) the answer? Fill in the auxiliary and use the correct form of the verb.", "answers": ["Do you know"], "explanation": "Present simple question → **Do** + subject + base form." },
-        { "type": "open", "question": "3. Wrong: 'He don't have a car.' Correct the sentence.", "answers": ["He doesn't have a car.", "He does not have a car."], "explanation": "He/she/it → **doesn't** (not *don't*)." },
-        { "type": "open", "question": "4. ____ she ____ (go) to the party? (past – fill in auxiliary and verb form)", "answers": ["Did she go"], "explanation": "Past simple question → **Did** + subject + **base form** (go)." },
-        { "type": "open", "question": "5. Wrong: 'I not understand.' Correct the sentence.", "answers": ["I don't understand.", "I do not understand."], "explanation": "Present simple negative needs **do not** / **don't**." },
-        { "type": "open", "question": "6. They ____ (not / see) him yesterday. Put the correct negative past form.", "answers": ["didn't see", "did not see"], "explanation": "Past simple negative → **didn't** + base form **see**." },
-        { "type": "open", "question": "7. Wrong: 'Did he went home?' Correct the sentence.", "answers": ["Did he go home?"], "explanation": "After **did** we use the **base form** (go), not past (went)." },
-        { "type": "open", "question": "8. ____ your brother ____ (have) a bike? (have = possess – standard question form)", "answers": ["Does your brother have"], "explanation": "Have as main verb (possess): **Do/Does** + subject + **have**." },
-        { "type": "open", "question": "9. Wrong: 'Why you did leave early?' Correct the sentence.", "answers": ["Why did you leave early?"], "explanation": "Question word + **did** + subject + base form." },
-        { "type": "open", "question": "10. She ____ (not / tell) me the truth. (past negative)", "answers": ["didn't tell", "did not tell"], "explanation": "Past simple negative → **didn't** + base form **tell**." },
-        { "type": "open", "question": "11. Wrong: 'She doesn't knows the answer.' Correct the sentence.", "answers": ["She doesn't know the answer."], "explanation": "After **doesn't** we use **base form** (know), not third person -s." },
-        { "type": "open", "question": "12. ____ they ____ (finish) the project? (past – fill in auxiliary and verb)", "answers": ["Did they finish"], "explanation": "Past simple question → **Did** + subject + base form." },
-        { "type": "open", "question": "13. Wrong: 'Have you a pen?' (meaning: Do you possess?) Correct to standard English.", "answers": ["Do you have a pen?"], "explanation": "Have (possess) in questions → **Do you have...?** (or *Have you got...?* in BrE)." },
-        { "type": "open", "question": "14. He ____ (not / want) to come. (present negative)", "answers": ["doesn't want", "does not want"], "explanation": "Third person singular negative → **doesn't** + base form." },
-        { "type": "open", "question": "15. Wrong: 'What did she said?' Correct the sentence.", "answers": ["What did she say?"], "explanation": "After **did** use **base form** (say)." },
-        { "type": "open", "question": "16. We ____ (not / hear) the news. (past negative)", "answers": ["didn't hear", "did not hear"], "explanation": "Past negative → **didn't** + base form **hear**." },
-        { "type": "open", "question": "17. Wrong: 'They doesn't need help.' Correct the sentence.", "answers": ["They don't need help.", "They do not need help."], "explanation": "Plural **they** → **don't** (not *doesn't*)." },
-        { "type": "open", "question": "18. ____ it ____ (rain) yesterday? (past question)", "answers": ["Did it rain"], "explanation": "Past simple question → **Did** + subject + base form." },
-        { "type": "open", "question": "19. Wrong: 'I didn't went there.' Correct the sentence.", "answers": ["I didn't go there."], "explanation": "After **didn't** use **base form** (go)." },
-        { "type": "open", "question": "20. Wrong: 'Where she did go?' Correct the sentence.", "answers": ["Where did she go?"], "explanation": "Wh-question: **Where** + **did** + subject + base form." }
+        {
+          "type": "open",
+          "question": "1. She ____ (not / like) coffee. Put the correct form (negative present simple).",
+          "answers": [
+            "doesn't like",
+            "does not like"
+          ],
+          "explanation": "Third person singular negative → **doesn't** + base form **like**."
+        },
+        {
+          "type": "open",
+          "question": "2. ____ you ____ (know) the answer? Fill in the auxiliary and use the correct form of the verb.",
+          "answers": [
+            "Do you know"
+          ],
+          "explanation": "Present simple question → **Do** + subject + base form."
+        },
+        {
+          "type": "open",
+          "question": "3. Wrong: 'He don't have a car.' Correct the sentence.",
+          "answers": [
+            "He doesn't have a car.",
+            "He does not have a car.",
+            "He doesn't have a car",
+            "He does not have a car"
+          ],
+          "explanation": "He/she/it → **doesn't** (not *don't*)."
+        },
+        {
+          "type": "open",
+          "question": "4. ____ she ____ (go) to the party? (past – fill in auxiliary and verb form)",
+          "answers": [
+            "Did she go"
+          ],
+          "explanation": "Past simple question → **Did** + subject + **base form** (go)."
+        },
+        {
+          "type": "open",
+          "question": "5. Wrong: 'I not understand.' Correct the sentence.",
+          "answers": [
+            "I don't understand.",
+            "I do not understand.",
+            "I don't understand",
+            "I do not understand"
+          ],
+          "explanation": "Present simple negative needs **do not** / **don't**."
+        },
+        {
+          "type": "open",
+          "question": "6. They ____ (not / see) him yesterday. Put the correct negative past form.",
+          "answers": [
+            "didn't see",
+            "did not see"
+          ],
+          "explanation": "Past simple negative → **didn't** + base form **see**."
+        },
+        {
+          "type": "open",
+          "question": "7. Wrong: 'Did he went home?' Correct the sentence.",
+          "answers": [
+            "Did he go home?"
+          ],
+          "explanation": "After **did** we use the **base form** (go), not past (went)."
+        },
+        {
+          "type": "open",
+          "question": "8. ____ your brother ____ (have) a bike? (have = possess – standard question form)",
+          "answers": [
+            "Does your brother have"
+          ],
+          "explanation": "Have as main verb (possess): **Do/Does** + subject + **have**."
+        },
+        {
+          "type": "open",
+          "question": "9. Wrong: 'Why you did leave early?' Correct the sentence.",
+          "answers": [
+            "Why did you leave early?"
+          ],
+          "explanation": "Question word + **did** + subject + base form."
+        },
+        {
+          "type": "open",
+          "question": "10. She ____ (not / tell) me the truth. (past negative)",
+          "answers": [
+            "didn't tell",
+            "did not tell"
+          ],
+          "explanation": "Past simple negative → **didn't** + base form **tell**."
+        },
+        {
+          "type": "open",
+          "question": "11. Wrong: 'She doesn't knows the answer.' Correct the sentence.",
+          "answers": [
+            "She doesn't know the answer.",
+            "She does not know the answer.",
+            "She doesn't know the answer",
+            "She does not know the answer"
+          ],
+          "explanation": "After **doesn't** we use **base form** (know), not third person -s."
+        },
+        {
+          "type": "open",
+          "question": "12. ____ they ____ (finish) the project? (past – fill in auxiliary and verb)",
+          "answers": [
+            "Did they finish"
+          ],
+          "explanation": "Past simple question → **Did** + subject + base form."
+        },
+        {
+          "type": "open",
+          "question": "13. Wrong: 'Have you a pen?' (meaning: Do you possess?) Correct to standard English.",
+          "answers": [
+            "Do you have a pen?"
+          ],
+          "explanation": "Have (possess) in questions → **Do you have...?** (or *Have you got...?* in BrE)."
+        },
+        {
+          "type": "open",
+          "question": "14. He ____ (not / want) to come. (present negative)",
+          "answers": [
+            "doesn't want",
+            "does not want"
+          ],
+          "explanation": "Third person singular negative → **doesn't** + base form."
+        },
+        {
+          "type": "open",
+          "question": "15. Wrong: 'What did she said?' Correct the sentence.",
+          "answers": [
+            "What did she say?"
+          ],
+          "explanation": "After **did** use **base form** (say)."
+        },
+        {
+          "type": "open",
+          "question": "16. We ____ (not / hear) the news. (past negative)",
+          "answers": [
+            "didn't hear",
+            "did not hear"
+          ],
+          "explanation": "Past negative → **didn't** + base form **hear**."
+        },
+        {
+          "type": "open",
+          "question": "17. Wrong: 'They doesn't need help.' Correct the sentence.",
+          "answers": [
+            "They don't need help.",
+            "They do not need help.",
+            "They don't need help",
+            "They do not need help"
+          ],
+          "explanation": "Plural **they** → **don't** (not *doesn't*)."
+        },
+        {
+          "type": "open",
+          "question": "18. ____ it ____ (rain) yesterday? (past question)",
+          "answers": [
+            "Did it rain"
+          ],
+          "explanation": "Past simple question → **Did** + subject + base form."
+        },
+        {
+          "type": "open",
+          "question": "19. Wrong: 'I didn't went there.' Correct the sentence.",
+          "answers": [
+            "I didn't go there."
+          ],
+          "explanation": "After **didn't** use **base form** (go)."
+        },
+        {
+          "type": "open",
+          "question": "20. Wrong: 'Where she did go?' Correct the sentence.",
+          "answers": [
+            "Where did she go?"
+          ],
+          "explanation": "Wh-question: **Where** + **did** + subject + base form."
+        }
+      ]
+    }
+  },
+  "fixed_phrases": {
+    "set1": {
+      "title": "Fixed phrases – Gap fill",
+      "summary": "Complete the sentence with the missing word from a fixed phrase.",
+      "questions": [
+        { "type": "open", "question": "1. They went abroad in search _____ sunshine.", "answers": ["of"], "explanation": "**In search of** (fixed phrase)." },
+        { "type": "open", "question": "2. It is no _____ available.", "answers": ["longer"], "explanation": "**No longer** = not anymore." },
+        { "type": "open", "question": "3. _____ fact, I've never been there.", "answers": ["In"], "explanation": "**In fact** = actually." },
+        { "type": "open", "question": "4. _____ course, you're right.", "answers": ["Of"], "explanation": "**Of course** = certainly." },
+        { "type": "open", "question": "5. _____ long as we're together, I'm happy.", "answers": ["As", "So"], "explanation": "**As long as** or **so long as** = provided that." },
+        { "type": "open", "question": "6. This is one _____ the best films I've seen.", "answers": ["of"], "explanation": "**One of the** (fixed phrase)." },
+        { "type": "open", "question": "7. _____ doing so, they saved time.", "answers": ["In", "By"], "explanation": "**In doing so** or **by doing so** = by doing that." },
+        { "type": "open", "question": "8. In spite _____ the rain, we went out.", "answers": ["of"], "explanation": "**In spite of** = despite." },
+        { "type": "open", "question": "9. _____ addition to English, she speaks Spanish.", "answers": ["In"], "explanation": "**In addition to** = as well as." },
+        { "type": "open", "question": "10. At _____, I didn't like him.", "answers": ["first"], "explanation": "**At first** = in the beginning." }
       ]
     }
   }

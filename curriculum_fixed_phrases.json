@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "title": "Fixed Phrases",
+    "sections": [
+      {
+        "title": "What are fixed phrases?",
+        "content": "**Fixed phrases** (also called **set phrases** or **collocations**) are groups of words that are always used together in a particular order. You cannot replace one word with a synonym without changing the meaning or sounding wrong. For example: we say **in search of** (not *in search for*), **no longer** (not *not longer*), **in fact** (not *in reality* in that sense), **of course** (not *for course*).\n\nFixed phrases are very common in English. They appear in everyday speech, formal writing, and especially in exams such as FCE, CAE and CPE Open Cloze, where one word per gap often tests whether you know the correct phrase."
+      },
+      {
+        "title": "How fixed phrases are used",
+        "content": "Fixed phrases can be:\n\n• **Prepositional phrases**: in search of, in spite of, in addition to, in charge of, in favour of, in terms of, on behalf of, on account of, as a result of, for the sake of.\n\n• **Adverbial phrases**: in fact, of course, at least, at first, at once, no longer, as well, as long as, as soon as, so far, once again.\n\n• **Other set expressions**: one of the, the first time, the same as, such as, as if, as though, would rather, had better.\n\nThere is no single rule – you need to **learn each phrase as a chunk**. Reading and listening help; so does practice and a good reference list."
+      },
+      {
+        "title": "Why they matter in exams",
+        "content": "In **Open Cloze** tasks (FCE, CAE, CPE), many gaps test fixed phrases. The missing word is often a small word – a preposition, an article, a linker or a particle – that belongs to a phrase. If you know the phrase, the answer is quick; if you don't, guessing is unreliable.\n\nTips:\n\n• Read the whole sentence and the ones before and after. The phrase may span a clause (e.g. **not only** … **but also**).\n• Learn phrases in context, not in isolation.\n• Use the **Reference** sheet (Fixed Phrases) in this app to revise common phrases before an exam."
+      },
+      {
+        "title": "Reference list",
+        "content": "A list of **common fixed phrases** with examples is on the **Reference** page. You can view it from the main Reference menu under **Fixed Phrases**. Use it for revision or when you see a phrase in practice and want to check the full form."
+      }
+    ]
+  },
+  "check": {
+    "title": "Test your understanding",
+    "questions": [
+      {
+        "type": "mc",
+        "question": "Which phrase is correct?",
+        "options": { "a": "in search for", "b": "in search of", "c": "in search to", "d": "in search at" },
+        "correct_option": "b",
+        "explanation": "The fixed phrase is **in search of** (e.g. in search of sunshine)."
+      },
+      {
+        "type": "mc",
+        "question": "Which phrase means 'not anymore'?",
+        "options": { "a": "not longer", "b": "no longer", "c": "any longer", "d": "no more" },
+        "correct_option": "b",
+        "explanation": "**No longer** = not anymore (e.g. It is no longer available)."
+      },
+      {
+        "type": "mc",
+        "question": "Complete: _____ course, you can try again.",
+        "options": { "a": "Of", "b": "For", "c": "In", "d": "At" },
+        "correct_option": "a",
+        "explanation": "**Of course** = certainly; naturally."
+      },
+      {
+        "type": "open",
+        "question": "Complete: _____ long as you're careful, it's fine.",
+        "answers": ["As", "So"],
+        "explanation": "**As long as** or **so long as** = on condition that; provided that."
+      }
+    ]
+  },
+  "practice_order": ["gapfill_simple", "gapfill_common"],
+  "practice": {
+    "gapfill_simple": {
+      "title": "Practice: Gap fill – Common fixed phrases",
+      "questions": [
+        { "type": "open", "question": "They went abroad in search _____ sunshine.", "answers": ["of"], "explanation": "**In search of** (fixed phrase)." },
+        { "type": "open", "question": "It is no _____ available.", "answers": ["longer"], "explanation": "**No longer** = not anymore." },
+        { "type": "open", "question": "_____ fact, I've never been there.", "answers": ["In"], "explanation": "**In fact** = actually; in reality." },
+        { "type": "open", "question": "_____ course, you're right.", "answers": ["Of"], "explanation": "**Of course** = certainly." },
+        { "type": "open", "question": "_____ long as we're together, I'm happy.", "answers": ["As", "So"], "explanation": "**As long as** or **so long as** = provided that." },
+        { "type": "open", "question": "This is one _____ the best films I've seen.", "answers": ["of"], "explanation": "**One of the** (fixed phrase)." },
+        { "type": "open", "question": "_____ doing so, they saved time.", "answers": ["In", "By"], "explanation": "**In doing so** or **by doing so** = by doing that." }
+      ]
+    },
+    "gapfill_common": {
+      "title": "Practice: More fixed phrases",
+      "questions": [
+        { "type": "open", "question": "In spite _____ the rain, we went out.", "answers": ["of"], "explanation": "**In spite of** = despite." },
+        { "type": "open", "question": "_____ addition to English, she speaks Spanish.", "answers": ["In"], "explanation": "**In addition to** = as well as." },
+        { "type": "open", "question": "At _____, I didn't like him, but now I do.", "answers": ["first"], "explanation": "**At first** = in the beginning." },
+        { "type": "open", "question": "_____ well as cooking, she cleans.", "answers": ["As"], "explanation": "**As well as** = in addition to." },
+        { "type": "open", "question": "It was _____ first time I had flown.", "answers": ["the"], "explanation": "**The first time** (fixed phrase)." },
+        { "type": "open", "question": "_____ the end of the day, we were tired.", "answers": ["By", "At"], "explanation": "**By/At the end of** (fixed phrase)." }
+      ]
+    }
+  }
+}

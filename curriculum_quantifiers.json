@@ -46,7 +46,7 @@
       {"type": "mc", "question": "'I need _____ help.' (a small amount, positive) Which fits?", "options": {"a": "little", "b": "a little", "c": "few", "d": "a few"}, "correct_option": "b", "explanation": "Help = uncountable; positive → a little."}
     ]
   },
-  "practice_order": ["gapfill", "errorcorrection"],
+  "practice_order": ["gapfill"],
   "practice": {
     "gapfill": {
       "title": "Practice: Choose the correct quantifier",

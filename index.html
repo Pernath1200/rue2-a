@@ -106,7 +106,18 @@
     .reference-phrasal-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-bottom: 1.5rem; }
     .reference-phrasal-table th, .reference-phrasal-table td { border: 1px solid rgba(86, 95, 137, 0.5); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
 .reference-phrasal-table th { background: var(--bg); color: var(--accent); font-weight: 600; }
-.reference-phrasal-table td:first-child { white-space: nowrap; }
+.reference-phrasal-table td, .reference-phrasal-table th { overflow-wrap: break-word; word-break: break-word; }
+    .exam-cloze-passage { overflow-wrap: break-word; }
+    .exam-cloze-passage input[type="text"] { width: 6em; min-width: 4em; margin: 0 0.2rem; padding: 0.25rem 0.35rem; font-size: 1rem; }
+    .exam-cloze-passage input.correct { border: 1px solid #2e7d32; background: rgba(46,125,50,0.15); }
+    .exam-cloze-passage input.wrong { border: 1px solid #c62828; background: rgba(198,40,40,0.1); }
+    .exam-cloze-topic-link { color: var(--accent); text-decoration: underline; cursor: pointer; }
+    .exam-cloze-topic-link:hover { opacity: 0.9; }
+    .exam-cloze-mc-row { margin: 0.4rem 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
+    .exam-cloze-mc-row .option { display: inline-block; padding: 0.25rem 0.5rem; cursor: pointer; border: 1px solid rgba(86,95,137,0.5); border-radius: 4px; }
+    .exam-cloze-mc-row .option.selected { border-color: var(--accent); background: rgba(86,95,137,0.2); }
+    .exam-cloze-mc-row .option.correct { border-color: #2e7d32; background: rgba(46,125,50,0.15); }
+    .exam-cloze-mc-row .option.wrong { border-color: #c62828; background: rgba(198,40,40,0.1); }
 .wrong-example { color: var(--muted); font-size: 0.9em; }
 .wrong-example s { text-decoration: line-through; }
     .reference-index-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 0.75rem; max-width: 100%; }
@@ -138,7 +149,37 @@
         </div>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
         <button type="button" id="openTopicSelectBtn">Choose Grammar Topic</button>
+        <button type="button" id="openExamPracticeBtn" class="secondary" style="margin-top: 0.5rem;">Exam Practice</button>
         <div class="memory-bank" id="memoryBankSummary"></div>
+      </div>
+      <div id="menuExamPractice" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose an exam task type.</p>
+        <button type="button" id="examOpenClozeBtn">Open Cloze</button>
+        <button type="button" id="examWordFormationBtn" class="secondary">Word Formation</button>
+        <button type="button" id="examSentenceTransformationBtn" class="secondary">Sentence Transformation</button>
+        <button type="button" id="examPracticeBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to main menu</button>
+      </div>
+      <div id="menuOpenCloze" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
+        <button type="button" id="openClozePart1Btn">Learn and Test</button>
+        <button type="button" id="openClozePart2Btn" class="secondary">Guided Practice</button>
+        <p style="margin: 0.75rem 0 0.35rem 0; color: var(--muted); font-size: 0.85rem;">Sample test by difficulty (Easy = multiple choice; Medium+ = type the word):</p>
+        <button type="button" id="openClozeEasyBtn">Easy</button>
+        <button type="button" id="openClozeMediumBtn" class="secondary">Medium</button>
+        <button type="button" id="openClozeHardBtn" class="secondary">Hard</button>
+        <button type="button" id="openClozeExpertBtn" class="secondary">Expert</button>
+        <button type="button" id="openClozeBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
+        <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Back to main menu</button>
+      </div>
+      <div id="menuExamClozeTestSelect" class="menu-panel hidden">
+        <p id="examClozeTestSelectHeading" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a test.</p>
+        <div id="examClozeTestSelectList" style="display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 0.75rem;"></div>
+        <button type="button" id="examClozeTestSelectRandomBtn" class="secondary">Random</button>
+        <button type="button" id="examClozeTestSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Open Cloze</button>
+      </div>
+      <div id="menuOpenClozeModes" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose difficulty. Easy = multiple choice; Medium and above = type the word.</p>
+        <button type="button" id="openClozeModesBackBtn" class="secondary" style="margin-top: 0.75rem;">Back</button>
       </div>
       <div id="menuTopicSelect" class="menu-panel hidden">
         <div class="scores" id="scoresSummary"></div>
@@ -148,6 +189,7 @@
         <button type="button" id="startPart1Btn" class="secondary">Learn and Test</button>
         <button type="button" id="startPart2Btn" class="secondary">Guided Practice</button>
         <button type="button" id="openPracticeSetupBtn" class="secondary">Further Practice</button>
+        <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
         <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to main menu</button>
       </div>
       <div id="menuPracticeSetup" class="hidden">
@@ -155,10 +197,8 @@
         <label for="numQuestionsSelect">Questions</label>
         <select id="numQuestionsSelect">
           <option value="20">20</option>
-          <option value="50">50</option>
-          <option value="100">100</option>
+          <option value="unlimited">Unlimited</option>
         </select>
-        <p style="margin-top: 0.75rem; color: var(--muted); font-size: 0.85rem; line-height: 1.4;">Reps build habits. 20 correct → good. 50 → strong. 100+ → automatic.</p>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
           <button type="button" id="practiceSetupBackBtn" class="secondary">Menu</button>
           <button type="button" id="startBtn">Start</button>
@@ -192,6 +232,29 @@
         <div id="feedbackText"></div>
         <div class="explanation" id="explanation"></div>
         <button id="nextBtn">Next</button>
+      </div>
+    </div>
+
+    <div id="examClozeTestScreen" class="hidden">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
+        <div class="progress" id="examClozeProgress" style="margin-bottom: 0;"></div>
+        <button type="button" id="examClozeExitBtn" class="secondary" style="margin-top: 0; flex: none;">Exit</button>
+      </div>
+      <div class="card question-block">
+        <h2 id="examClozeTitle" class="hidden" style="font-size: 1.1rem; margin-bottom: 0.5rem;"></h2>
+        <p id="examClozeInstructions" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.5rem;">Read the text and write one word for each gap (or choose for Easy).</p>
+        <div id="examClozePassage" class="exam-cloze-passage" style="line-height: 1.8; margin-bottom: 1rem;"></div>
+        <div id="examClozeMcRows" class="hidden" style="margin-top: 0.75rem;"></div>
+        <button type="button" id="examClozeSubmitBtn">Submit</button>
+      </div>
+      <div id="examClozeFeedbackBlock" class="card hidden" style="margin-top: 1rem;">
+        <div id="examClozeScoreText" style="font-weight: 600; margin-bottom: 0.5rem;"></div>
+        <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.35rem;">Answers and explanations:</p>
+        <div id="examClozeWrongList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem;">
+          <button type="button" id="examClozeBackToTestListBtn" class="secondary">Back to test list</button>
+          <button type="button" id="examClozeNextBtn">Next</button>
+        </div>
       </div>
     </div>
 
@@ -326,6 +389,14 @@
     let part2Order = PART2_ORDER;
     let quizMode = 'normal';
     let wrongTopics = new Set();
+    let examMode = null;
+    let examOpenClozeData = null;
+    let currentExamClozeTests = [];
+    let currentExamClozeTestIndex = 0;
+    let currentExamClozeMode = '';
+    let currentExamClozeTest = null;
+    let examClozeMcSelections = [];
+    let returnToAfterTopicSelect = null;
 
     function questionHash(q) {
       const s = (q.question || q.prompt || '').trim();
@@ -344,14 +415,14 @@
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
         return raw ? JSON.parse(raw) : { history: [] };
-      } catch { return { history: [] }; }
+      } catch (e) { return { history: [] }; }
     }
 
     function loadMemoryBank() {
       try {
         const raw = localStorage.getItem(MEMORY_KEY);
         return raw ? JSON.parse(raw) : {};
-      } catch { return {}; }
+      } catch (e) { return {}; }
     }
 
     function saveMemoryBankEntry(key, correct) {
@@ -480,8 +551,17 @@
       document.getElementById('prepositionsListScreen').classList.add('hidden');
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       document.getElementById('referenceScreen').classList.add('hidden');
-      document.getElementById('menuMain').classList.remove('hidden');
+      if (examMode === 'open_cloze') {
+        document.getElementById('menuOpenCloze').classList.remove('hidden');
+        document.getElementById('menuMain').classList.add('hidden');
+        document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      } else {
+        document.getElementById('menuMain').classList.remove('hidden');
+        document.getElementById('menuOpenCloze').classList.add('hidden');
+        document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      }
       document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       const diagSetup = document.getElementById('menuDiagnosticSetup');
       if (diagSetup) diagSetup.classList.add('hidden');
@@ -490,6 +570,26 @@
     function showTopicSelectMenu() {
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.remove('hidden');
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      document.getElementById('menuDiagnosticSetup').classList.add('hidden');
+      const backToPrevBtn = document.getElementById('topicSelectBackToPrevBtn');
+      if (backToPrevBtn) {
+        if (returnToAfterTopicSelect === 'exam_cloze_feedback') {
+          backToPrevBtn.classList.remove('hidden');
+          backToPrevBtn.textContent = 'Back to exam answers';
+        } else {
+          backToPrevBtn.classList.add('hidden');
+        }
+      }
+    }
+
+    function showExamPracticeMenu() {
+      document.getElementById('menuMain').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.remove('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
     }
@@ -497,8 +597,31 @@
     function showMainMenu() {
       document.getElementById('menuMain').classList.remove('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
+    }
+
+    function showOpenClozeMenu() {
+      currentTopic = { id: 'open_cloze', title: 'Open Cloze', curriculum: 'curriculum_open_cloze.json' };
+      examMode = 'open_cloze';
+      document.getElementById('menuMain').classList.add('hidden');
+      document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuPracticeSetup').classList.add('hidden');
+      document.getElementById('menuDiagnosticSetup').classList.add('hidden');
+    }
+
+    function showOpenClozeModes() {
+      document.getElementById('menuScreen').classList.remove('hidden');
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.remove('hidden');
     }
 
     function renderPrepositionsListContent(data) {
@@ -660,7 +783,9 @@
         ['Dependent Prepositions: Nouns', () => showReferenceDependentSection('nouns')],
         ['Dependent Prepositions: Adjectives', () => showReferenceDependentSection('adjectives')],
         ['Preposition + Verb Compound Nouns', () => showReferenceDependentSection('compound_nouns')],
-        ['Nouns: Uncountable and Always-Plural', showReferenceCountableUncountable]
+        ['Nouns: Uncountable and Always-Plural', showReferenceCountableUncountable],
+        ['Open Cloze: Word types', showReferenceOpenCloze],
+        ['Fixed Phrases', showReferenceFixedPhrases]
       ];
       items.forEach(([text, fn]) => {
         const btn = document.createElement('button');
@@ -712,6 +837,106 @@
         }
       }
       renderReferencePrepositionsContent(prepositionsListData);
+    }
+
+    let referenceOpenClozeData = null;
+
+    function renderReferenceOpenClozeContent(data) {
+      if (!data) return;
+      referenceView = 'open_cloze';
+      document.getElementById('referenceTitle').textContent = data.title || 'Open Cloze: Word types';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+      const categories = data.categories || [];
+      if (categories.length) {
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.style.tableLayout = 'fixed';
+        table.style.width = '100%';
+        table.innerHTML = '<colgroup><col style="width:25%"><col style="width:25%"><col style="width:25%"><col style="width:25%"></colgroup><thead><tr><th>Type</th><th>Definition</th><th>Words</th><th>Example</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        categories.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.type) + '</td><td>' + escapeAndBold(entry.definition || entry.description || '') + '</td><td>' + escapeAndBold(entry.words || '') + '</td><td class="reference-example-cell"></td>';
+          const exampleCell = tr.querySelector('.reference-example-cell');
+          if (exampleCell && entry.example) exampleCell.innerHTML = entry.example;
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceOpenCloze() {
+      if (!referenceOpenClozeData) {
+        try {
+          const res = await fetch(new URL('reference_open_cloze.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceOpenClozeData = await res.json();
+        } catch (e) {
+          alert('Could not load Open Cloze reference. ' + (e && e.message));
+          return;
+        }
+      }
+      renderReferenceOpenClozeContent(referenceOpenClozeData);
+    }
+
+    let referenceFixedPhrasesData = null;
+
+    function renderReferenceFixedPhrasesContent(data) {
+      if (!data) return;
+      referenceView = 'fixed_phrases';
+      document.getElementById('referenceTitle').textContent = data.title || 'Common fixed phrases';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+      const phrases = data.phrases || [];
+      if (phrases.length) {
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Phrase</th><th>Meaning</th><th>Example</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        phrases.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.phrase || '') + '</td><td>' + escapeAndBold(entry.meaning || '') + '</td><td>' + escapeAndBold(entry.example || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceFixedPhrases() {
+      if (!referenceFixedPhrasesData) {
+        try {
+          const res = await fetch(new URL('reference_fixed_phrases.json', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceFixedPhrasesData = await res.json();
+        } catch (e) {
+          alert('Could not load Fixed Phrases reference. ' + (e && e.message));
+          return;
+        }
+      }
+      renderReferenceFixedPhrasesContent(referenceFixedPhrasesData);
     }
 
     const DEPENDENT_SECTION_VIEWS = { verbs: 'dependent_verbs', nouns: 'dependent_nouns', adjectives: 'dependent_adjectives', compound_nouns: 'compound_nouns' };
@@ -850,7 +1075,7 @@
       const content = document.getElementById('referenceContent');
       content.innerHTML = '';
       const esc = (s) => (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-      const addSection = (label, arr, cols) => {
+      const addSection = (label, arr, cols, headerLabels) => {
         if (!arr || !arr.length) return;
         const h3 = document.createElement('h3');
         h3.textContent = label;
@@ -862,7 +1087,7 @@
         const table = document.createElement('table');
         table.className = 'reference-phrasal-table';
         table.setAttribute('border', '1');
-        const headers = cols.map(c => c.charAt(0).toUpperCase() + c.slice(1)).join('</th><th>');
+        const headers = (headerLabels || cols.map(c => c.charAt(0).toUpperCase() + c.slice(1))).join('</th><th>');
         table.innerHTML = '<thead><tr><th>' + headers + '</th></tr></thead><tbody></tbody>';
         const tbody = table.querySelector('tbody');
         arr.forEach(entry => {
@@ -873,8 +1098,8 @@
         });
         content.appendChild(table);
       };
-      addSection('30 common uncountable nouns', data.uncountable || [], ['word', 'note']);
-      addSection('Plural-only nouns (20)', data.always_plural || [], ['word', 'note']);
+      addSection('30 common uncountable nouns', data.uncountable || [], ['word', 'note'], ['Word', 'Example sentence']);
+      addSection('Plural-only nouns (20)', data.always_plural || [], ['word', 'note'], ['Word', 'Example sentence']);
       document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
       document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
     }
@@ -1179,7 +1404,7 @@
     }
 
     function onReferenceBackClick() {
-      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable') {
+      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze') {
         renderReferenceIndex();
       } else {
         hideReference();
@@ -1198,7 +1423,7 @@
       const introHtml = escapeAndBold(sections[index].content || '').replace(/\n/g, '<br>');
       document.getElementById('introContent').innerHTML = '<div class="intro-section">' + introHtml + '</div>';
       const isLastSection = index >= sections.length - 1;
-      const hasCheckQuestions = ((courseCurriculum?.check?.questions) || []).length > 0;
+      const hasCheckQuestions = ((courseCurriculum && courseCurriculum.check && courseCurriculum.check.questions) || []).length > 0;
       document.getElementById('introNextBtn').textContent = !isLastSection ? 'Next' : (hasCheckQuestions ? 'Start test' : 'Menu');
       introSectionIndex = index;
       document.getElementById('introPrepositionsListWrap').classList.add('hidden');
@@ -1258,17 +1483,21 @@
       if (!nextPhase) {
         coursePhase = null;
         if (coursePart === 2) {
+          coursePart = null;
+          if (examMode === 'open_cloze') {
+            showOpenClozeModes();
+            return;
+          }
           document.getElementById('resultScreen').classList.remove('hidden');
           document.getElementById('resultScore').textContent = 'Part 2 complete! Well done.';
           const sectionNames = part2Order.map(function(k) {
             const s = courseCurriculum.practice && courseCurriculum.practice[k];
-            return (s && s.title) ? s.title.replace(/^Practice: Gap fill –?\s*/i, '').trim() : k.replace(/_/g, ' ');
+            return (s && s.title) ? s.title.replace(new RegExp('^Practice: Gap fill –?\\s*', 'i'), '').trim() : k.replace(/_/g, ' ');
           });
           document.getElementById('ruleSummary').textContent = 'You have finished Practice: ' + sectionNames.join(', ') + '.';
           document.getElementById('resultNextStep').textContent = 'Suggested next step: Further Practice';
           document.getElementById('resultNextStepWrap').classList.remove('hidden');
           document.getElementById('retryWrongBtn').classList.add('hidden');
-          coursePart = null;
         }
         return;
       }
@@ -1407,12 +1636,254 @@
       showQuestion();
     }
 
+    function startExamClozeQuiz(mode, questions) {
+      const list = (questions || []).slice();
+      if (list.length === 0) {
+        alert('Coming soon.');
+        return;
+      }
+      for (let i = list.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [list[i], list[j]] = [list[j], list[i]];
+      }
+      coursePhase = null;
+      coursePart = null;
+      quizMode = 'normal';
+      wrongTopics = new Set();
+      currentQuestions = list;
+      currentSetId = 'open_cloze_' + mode;
+      currentSetTitle = 'Open Cloze – ' + (mode === 'easy' ? 'Easy (MC)' : mode === 'medium' ? 'Medium' : mode === 'hard' ? 'Hard' : 'Expert');
+      summary = list.length + ' questions (random order).';
+      currentIndex = 0;
+      score = 0;
+      wrongIndices = [];
+      isRetryRound = false;
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.getElementById('quizScreen').classList.remove('hidden');
+      document.getElementById('feedbackBlock').classList.add('hidden');
+      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      showQuestion();
+    }
+
+    async function loadAndStartExamCloze(mode) {
+      if (!examOpenClozeData) {
+        try {
+          const res = await fetch(new URL('exam_open_cloze.json?v=3', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load exam_open_cloze.json');
+          examOpenClozeData = await res.json();
+        } catch (e) {
+          alert('Could not load exam practice. ' + (e && e.message));
+          return;
+        }
+      }
+      const data = examOpenClozeData[mode];
+      if (!data || data.length === 0) {
+        alert('Coming soon.');
+        return;
+      }
+      const isTestsFormat = data[0] && data[0].passage && Array.isArray(data[0].gaps);
+      if (isTestsFormat) {
+        currentExamClozeTests = data;
+        currentExamClozeMode = mode;
+        showExamClozeTestSelectScreen();
+      } else {
+        startExamClozeQuiz(mode, data);
+      }
+    }
+
+    const EXAM_CLOZE_GAP = '_____';
+
+    function showExamClozeTestSelectScreen() {
+      const mode = currentExamClozeMode || 'easy';
+      const cap = mode.charAt(0).toUpperCase() + mode.slice(1);
+      document.getElementById('examClozeTestSelectHeading').textContent = 'Choose a test (' + cap + ').';
+      const listEl = document.getElementById('examClozeTestSelectList');
+      listEl.innerHTML = '';
+      const openClozePrefix = 'Open Cloze:';
+      (currentExamClozeTests || []).forEach((test, i) => {
+        const shortTitle = (test.title && test.title.indexOf(openClozePrefix) === 0)
+          ? test.title.slice(openClozePrefix.length).trim()
+          : (test.title ? test.title.trim() : '');
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'secondary';
+        btn.textContent = shortTitle ? 'Test ' + (i + 1) + ': ' + shortTitle : 'Test ' + (i + 1);
+        btn.dataset.index = String(i);
+        listEl.appendChild(btn);
+      });
+      document.getElementById('menuScreen').classList.remove('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuExamClozeTestSelect').classList.remove('hidden');
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
+    }
+
+    function startExamClozeTestByIndex(index) {
+      currentExamClozeTestIndex = index;
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
+      document.getElementById('examClozeTestScreen').classList.remove('hidden');
+      document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
+      renderExamClozeTest(currentExamClozeTests[currentExamClozeTestIndex]);
+    }
+
+    function renderExamClozeTest(test) {
+      currentExamClozeTest = test;
+      const total = currentExamClozeTests.length;
+      document.getElementById('examClozeProgress').textContent = 'Test ' + (currentExamClozeTestIndex + 1) + ' of ' + total;
+      const titleEl = document.getElementById('examClozeTitle');
+      if (test.title) {
+        titleEl.textContent = test.title;
+        titleEl.classList.remove('hidden');
+      } else {
+        titleEl.classList.add('hidden');
+      }
+      const instructionsEl = document.getElementById('examClozeInstructions');
+      instructionsEl.textContent = test.instructions || 'Read the text and write one word for each gap (or choose for Easy).';
+      const passageEl = document.getElementById('examClozePassage');
+      passageEl.innerHTML = '';
+      const segments = (test.passage || '').split(EXAM_CLOZE_GAP);
+      const gapCount = (test.gaps || []).length;
+      if (segments.length !== gapCount + 1) {
+        passageEl.textContent = 'Invalid passage (expected ' + gapCount + ' gaps).';
+        return;
+      }
+      const mcRowsEl = document.getElementById('examClozeMcRows');
+      mcRowsEl.innerHTML = '';
+      mcRowsEl.classList.add('hidden');
+      examClozeMcSelections = [];
+
+      if (test.type === 'mc') {
+        for (let i = 0; i < gapCount; i++) {
+          passageEl.appendChild(document.createTextNode(segments[i]));
+          const numSpan = document.createElement('span');
+          numSpan.className = 'exam-cloze-gap-num';
+          numSpan.textContent = ' (' + (i + 1) + ') ';
+          numSpan.style.color = 'var(--muted)';
+          passageEl.appendChild(numSpan);
+        }
+        passageEl.appendChild(document.createTextNode(segments[gapCount]));
+        const letters = ['a', 'b', 'c', 'd'];
+        test.gaps.forEach((gap, i) => {
+          const row = document.createElement('div');
+          row.className = 'exam-cloze-mc-row';
+          row.appendChild(document.createTextNode((i + 1) + '. '));
+          Object.entries(gap.options || {}).forEach(([key, text]) => {
+            const opt = document.createElement('span');
+            opt.className = 'option';
+            opt.dataset.gapIndex = String(i);
+            opt.dataset.option = key;
+            opt.textContent = key + ') ' + text;
+            opt.addEventListener('click', function() {
+              row.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+              opt.classList.add('selected');
+              examClozeMcSelections[i] = key;
+            });
+            row.appendChild(opt);
+          });
+          mcRowsEl.appendChild(row);
+        });
+        mcRowsEl.classList.remove('hidden');
+      } else {
+        for (let i = 0; i < gapCount; i++) {
+          passageEl.appendChild(document.createTextNode(segments[i]));
+          const input = document.createElement('input');
+          input.type = 'text';
+          input.placeholder = (i + 1).toString();
+          input.dataset.gapIndex = String(i);
+          input.setAttribute('autocomplete', 'off');
+          passageEl.appendChild(input);
+        }
+        passageEl.appendChild(document.createTextNode(segments[gapCount]));
+      }
+      document.getElementById('examClozeSubmitBtn').classList.remove('hidden');
+    }
+
+    function submitExamClozeTest() {
+      const test = currentExamClozeTest;
+      if (!test || !test.gaps) return;
+      const results = [];
+      let scoreCount = 0;
+      for (let i = 0; i < test.gaps.length; i++) {
+        const gap = test.gaps[i];
+        let correct = false;
+        let userVal = '';
+        if (test.type === 'mc') {
+          userVal = examClozeMcSelections[i];
+          correct = userVal === gap.correct_option;
+          const row = document.querySelector('.exam-cloze-mc-row:nth-child(' + (i + 1) + ')');
+          if (row) {
+            row.querySelectorAll('.option').forEach(o => {
+              o.classList.remove('selected', 'correct', 'wrong');
+              if (o.dataset.option === gap.correct_option) o.classList.add('correct');
+              else if (o.dataset.option === userVal && !correct) o.classList.add('wrong');
+            });
+          }
+        } else {
+          const input = document.querySelector('#examClozePassage input[data-gap-index="' + i + '"]');
+          userVal = input ? input.value.trim() : '';
+          correct = answerMatches(userVal, gap.answers || []);
+          if (input) {
+            input.readOnly = true;
+            input.classList.add(correct ? 'correct' : 'wrong');
+          }
+        }
+        if (correct) scoreCount++;
+        results.push({ index: i, correct, userVal, gap });
+      }
+      const total = test.gaps.length;
+      document.getElementById('examClozeScoreText').textContent = 'Score: ' + scoreCount + ' / ' + total;
+      const wrongList = document.getElementById('examClozeWrongList');
+      const allHtml = results.map(r => {
+        const correctAnswer = test.type === 'mc' ? (r.gap.options && r.gap.options[r.gap.correct_option]) : (r.gap.answers && r.gap.answers.length ? r.gap.answers.join(' or ') : (r.gap.answers && r.gap.answers[0]) || '');
+        const correctText = correctAnswer || '';
+        const topicId = r.gap.topic_id;
+        const topic = topics && topics.find(t => t.id === topicId);
+        const topicTitle = topic ? (topic.title || topicId) : topicId;
+        let line = '<p style="margin: 0.5rem 0;"><strong>Gap ' + (r.index + 1) + ':</strong> ';
+        if (topicId) {
+          line += '<a href="#" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+        }
+        line += escapeAndBold(r.gap.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
+        if (!r.correct && r.userVal !== undefined && r.userVal !== '') {
+          line += ' <span style="color: var(--muted);">You wrote: ' + escapeAndBold(r.userVal) + '</span>';
+        }
+        line += '</p>';
+        return line;
+      }).join('');
+      wrongList.innerHTML = allHtml;
+      document.getElementById('examClozeSubmitBtn').classList.add('hidden');
+      document.getElementById('examClozeFeedbackBlock').classList.remove('hidden');
+      const nextBtn = document.getElementById('examClozeNextBtn');
+      nextBtn.textContent = currentExamClozeTestIndex + 1 < currentExamClozeTests.length ? 'Next test' : 'Back to Open Cloze';
+      nextBtn.focus();
+    }
+
+    function onExamClozeNext() {
+      currentExamClozeTestIndex++;
+      if (currentExamClozeTestIndex >= currentExamClozeTests.length) {
+        document.getElementById('examClozeTestScreen').classList.add('hidden');
+        document.getElementById('menuScreen').classList.remove('hidden');
+        document.getElementById('menuOpenCloze').classList.remove('hidden');
+        return;
+      }
+      document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
+      renderExamClozeTest(currentExamClozeTests[currentExamClozeTestIndex]);
+    }
+
+    function onExamClozeExit() {
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      showExamClozeTestSelectScreen();
+    }
+
     function startQuiz() {
       coursePhase = null;
       quizMode = 'normal';
       wrongTopics = new Set();
       const numSelect = document.getElementById('numQuestionsSelect');
-      const num = Math.min(100, Math.max(20, parseInt(numSelect && numSelect.value, 10) || 20));
+      const val = numSelect && numSelect.value;
       const pool = Object.values(setsData).flatMap(s => s.questions || []);
       if (pool.length === 0) {
         alert('No questions available for this topic.');
@@ -1423,7 +1894,7 @@
         const j = Math.floor(Math.random() * (i + 1));
         [questions[i], questions[j]] = [questions[j], questions[i]];
       }
-      const max = Math.min(num, questions.length);
+      const max = (val === 'unlimited') ? questions.length : 20;
       currentQuestions = questions.slice(0, max);
       currentSetId = currentTopic.id;
       currentSetTitle = (currentTopic.title || currentTopic.id) + ' (' + max + ' questions)';
@@ -1471,6 +1942,7 @@
     }
 
     function hasValidTopicSelected() {
+      if (examMode === 'open_cloze' && currentTopic && currentTopic.curriculum) return true;
       const sel = document.getElementById('topicSelect');
       const val = sel && sel.value;
       return val !== '' && val !== '-1' && topics[parseInt(val, 10)] != null;
@@ -1490,7 +1962,7 @@
       if (!str || typeof str !== 'string') return { question: '', contextLabel: null };
       let s = str.trim().replace(/^\d+\.\s*/, '');
       let contextLabel = null;
-      const metaMatch = s.match(/^(Multiple choice|Error correction|Choose the best sentence)(?:\s+\(([^)]+)\))?\s*\n/i);
+      const metaMatch = s.match(new RegExp('^(Multiple choice|Error correction|Choose the best sentence)(?:\\s+\\(([^)]+)\\))?\\s*\\n', 'i'));
       if (metaMatch) {
         contextLabel = metaMatch[2] ? metaMatch[2].trim() : null;
         s = s.slice(metaMatch[0].length);
@@ -1699,6 +2171,7 @@
       showQuestion();
     }
 
+    try {
     document.getElementById('startBtn').addEventListener('click', startQuiz);
     document.getElementById('startPart1Btn').addEventListener('click', startPart1);
     document.getElementById('startPart2Btn').addEventListener('click', startPart2);
@@ -1716,11 +2189,82 @@
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.remove('hidden');
     });
-    document.getElementById('openTopicSelectBtn').addEventListener('click', showTopicSelectMenu);
-    document.getElementById('topicSelectBackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('openTopicSelectBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showTopicSelectMenu(); });
+    document.getElementById('topicSelectBackBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showMainMenu(); });
+    document.getElementById('topicSelectBackToPrevBtn').addEventListener('click', () => {
+      if (returnToAfterTopicSelect === 'exam_cloze_feedback') {
+        document.getElementById('menuScreen').classList.add('hidden');
+        document.getElementById('examClozeTestScreen').classList.remove('hidden');
+        document.getElementById('examClozeFeedbackBlock').classList.remove('hidden');
+      }
+    });
+    document.getElementById('openExamPracticeBtn').addEventListener('click', showExamPracticeMenu);
+    document.getElementById('examPracticeBackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('examOpenClozeBtn').addEventListener('click', showOpenClozeMenu);
+    document.getElementById('openClozePart1Btn').addEventListener('click', startPart1);
+    document.getElementById('openClozePart2Btn').addEventListener('click', startPart2);
+    document.getElementById('openClozeBackBtn').addEventListener('click', () => {
+      examMode = null;
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.remove('hidden');
+    });
+    document.getElementById('openClozeMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('openClozeEasyBtn').addEventListener('click', () => loadAndStartExamCloze('easy'));
+    document.getElementById('openClozeMediumBtn').addEventListener('click', () => loadAndStartExamCloze('medium'));
+    document.getElementById('openClozeHardBtn').addEventListener('click', () => loadAndStartExamCloze('hard'));
+    document.getElementById('openClozeExpertBtn').addEventListener('click', () => loadAndStartExamCloze('expert'));
+    const examClozeTestSelectBackBtn = document.getElementById('examClozeTestSelectBackBtn');
+    if (examClozeTestSelectBackBtn) examClozeTestSelectBackBtn.addEventListener('click', () => {
+      document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.remove('hidden');
+    });
+    const examClozeTestSelectList = document.getElementById('examClozeTestSelectList');
+    if (examClozeTestSelectList) examClozeTestSelectList.addEventListener('click', function(e) {
+      const btn = e.target && e.target.closest && e.target.closest('button[data-index]');
+      if (!btn || !currentExamClozeTests) return;
+      const index = parseInt(btn.dataset.index, 10);
+      if (!isNaN(index) && index >= 0 && index < currentExamClozeTests.length) startExamClozeTestByIndex(index);
+    });
+    const examClozeTestSelectRandomBtn = document.getElementById('examClozeTestSelectRandomBtn');
+    if (examClozeTestSelectRandomBtn) examClozeTestSelectRandomBtn.addEventListener('click', () => {
+      if (!currentExamClozeTests || currentExamClozeTests.length === 0) return;
+      startExamClozeTestByIndex(Math.floor(Math.random() * currentExamClozeTests.length));
+    });
+    const examClozeBackToTestListBtn = document.getElementById('examClozeBackToTestListBtn');
+    if (examClozeBackToTestListBtn) examClozeBackToTestListBtn.addEventListener('click', showExamClozeTestSelectScreen);
+    document.getElementById('openClozeModesBackBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.remove('hidden');
+    });
+    document.getElementById('examClozeSubmitBtn').addEventListener('click', submitExamClozeTest);
+    document.getElementById('examClozeNextBtn').addEventListener('click', onExamClozeNext);
+    document.getElementById('examClozeExitBtn').addEventListener('click', onExamClozeExit);
+    document.getElementById('examClozeFeedbackBlock').addEventListener('click', function(e) {
+      const link = e.target && e.target.closest('.exam-cloze-topic-link');
+      if (!link) return;
+      e.preventDefault();
+      const topicId = link.getAttribute('data-topic-id');
+      if (!topicId || !topics || !topics.length) return;
+      const idx = topics.findIndex(t => t.id === topicId);
+      if (idx === -1) return;
+      currentTopic = topics[idx];
+      applyTopic();
+      returnToAfterTopicSelect = 'exam_cloze_feedback';
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      showTopicSelectMenu();
+      const sel = document.getElementById('topicSelect');
+      if (sel) sel.value = String(idx);
+    });
+    document.getElementById('examWordFormationBtn').addEventListener('click', () => { alert('Word Formation – coming soon.'); });
+    document.getElementById('examSentenceTransformationBtn').addEventListener('click', () => { alert('Sentence Transformation – coming soon.'); });
     document.getElementById('openDiagnosticSetupBtn').addEventListener('click', () => {
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.remove('hidden');
     });
@@ -1732,12 +2276,12 @@
     document.getElementById('diagnostic50Btn').addEventListener('click', () => startDiagnostic(50));
     document.getElementById('diagnostic100Btn').addEventListener('click', () => startDiagnostic(100));
     document.getElementById('introNextBtn').addEventListener('click', () => {
-      if (introSectionIndex < (courseCurriculum?.intro?.sections?.length || 1) - 1) {
+      if (introSectionIndex < ((courseCurriculum && courseCurriculum.intro && courseCurriculum.intro.sections && courseCurriculum.intro.sections.length) || 1) - 1) {
         showIntroSection(introSectionIndex + 1);
       } else {
         document.getElementById('introScreen').classList.add('hidden');
         if (coursePart === 1) {
-          const checkQuestions = (courseCurriculum?.check?.questions || []);
+          const checkQuestions = (courseCurriculum && courseCurriculum.check && courseCurriculum.check.questions) || [];
           if (checkQuestions.length > 0) startCourseSection('check');
           else renderMenu();
         }
@@ -1784,11 +2328,13 @@
     document.getElementById('backToMenuBtn').addEventListener('click', renderMenu);
     document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
     document.getElementById('introExitBtn').addEventListener('click', renderMenu);
-    document.getElementById('viewPrepositionsListBtn')?.addEventListener('click', () => showPrepositionsList('menu'));
+    const viewPrepositionsListBtn = document.getElementById('viewPrepositionsListBtn');
+    if (viewPrepositionsListBtn) viewPrepositionsListBtn.addEventListener('click', () => showPrepositionsList('menu'));
     document.getElementById('viewPrepositionsListFromIntroBtn').addEventListener('click', () => showPrepositionsList('intro'));
     document.getElementById('prepositionsListBackBtn').addEventListener('click', hidePrepositionsList);
     document.getElementById('prepositionsListPrintBtn').addEventListener('click', () => window.print());
-    document.getElementById('viewPhrasalVerbsDictionaryBtn')?.addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
+    const viewPhrasalVerbsDictBtn = document.getElementById('viewPhrasalVerbsDictionaryBtn');
+    if (viewPhrasalVerbsDictBtn) viewPhrasalVerbsDictBtn.addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
     document.getElementById('viewPhrasalVerbsFromIntroBtn').addEventListener('click', () => showPhrasalVerbsDictionary('intro'));
     document.getElementById('phrasalVerbsDictionaryBackBtn').addEventListener('click', hidePhrasalVerbsDictionary);
     document.getElementById('phrasalVerbsDictionaryPrintBtn').addEventListener('click', () => window.print());
@@ -1828,9 +2374,14 @@
       }
     });
 
+    } catch (err) {
+      console.error('Quiz setup failed:', err);
+      alert('Quiz setup failed. Open the Developer Console (F12) and check the Console tab for details.\n\nError: ' + (err && err.message));
+    }
+
     (async function init() {
       try {
-        const mRes = await fetch(new URL('manifest.json?v=5', getBaseUrl()));
+        const mRes = await fetch(new URL('manifest.json?v=6', getBaseUrl()));
         if (mRes.ok) {
           const mData = await mRes.json();
           topics = mData.topics || [];
@@ -1855,12 +2406,12 @@
         renderMenu();
       } catch (err) {
         topics = [
+          { id: 'auxiliary_verbs', title: 'Auxiliary Verbs', curriculum: 'curriculum_auxiliary_verbs.json', questions_key: 'auxiliary_verbs' },
           { id: 'comparatives', title: 'Comparatives and Superlatives', curriculum: 'curriculum_comparatives.json', questions_key: 'comparatives' },
           { id: 'conjunctions_linkers', title: 'Conjunctions and Linkers', curriculum: 'curriculum_conjunctions_linkers.json', questions_key: 'conjunctions_linkers' },
           { id: 'articles', title: 'Determiners: Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
           { id: 'quantifiers', title: 'Determiners: Quantifiers', curriculum: 'curriculum_quantifiers.json', questions_key: 'quantifiers' },
           { id: 'infinitive_ing', title: 'Infinitive and -ing Form', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
-          { id: 'auxiliary_verbs', title: 'Auxiliary Verbs', curriculum: 'curriculum_auxiliary_verbs.json', questions_key: 'auxiliary_verbs' },
           { id: 'modal_verbs', title: 'Modal Verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' },
           { id: 'countable_uncountable', title: 'Nouns: Uncountable and Always-Plural', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
@@ -1878,7 +2429,8 @@
           { id: 'present_perfect', title: 'Tenses: Present Perfect Simple vs Continuous', curriculum: 'curriculum.json', questions_key: 'sets' },
           { id: 'will_going_to', title: 'Tenses: Will and Going To', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' },
           { id: 'verb_subject_agreement', title: 'Verb–Subject Agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
-          { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' }
+          { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' },
+          { id: 'fixed_phrases', title: 'Fixed Phrases', curriculum: 'curriculum_fixed_phrases.json', questions_key: 'fixed_phrases' }
         ];
         currentTopic = topics[0];
         const sel = document.getElementById('topicSelect');

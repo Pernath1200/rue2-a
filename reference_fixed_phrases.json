@@ -1,0 +1,30 @@
+{
+  "title": "Common fixed phrases",
+  "intro": "These phrases are used as fixed chunks in English. One word cannot be swapped for a synonym without changing the meaning or sounding wrong. (Verb + preposition combinations such as depend on, take part in are covered in **Reference → Dependent prepositions**.)",
+  "phrases": [
+    { "phrase": "in search of", "meaning": "looking for", "example": "They went abroad in search of sunshine." },
+    { "phrase": "no longer", "meaning": "not anymore", "example": "It is no longer available." },
+    { "phrase": "in fact", "meaning": "actually; in reality", "example": "In fact, I've never been there." },
+    { "phrase": "of course", "meaning": "certainly; naturally", "example": "Of course, you're right." },
+    { "phrase": "as long as / so long as", "meaning": "provided that; on condition that", "example": "As long as you're careful, it's fine." },
+    { "phrase": "one of the", "meaning": "part of a group (e.g. one of the best)", "example": "This is one of the best films I've seen." },
+    { "phrase": "in doing so / by doing so", "meaning": "by doing that", "example": "In doing so, they saved time." },
+    { "phrase": "in spite of", "meaning": "despite", "example": "In spite of the rain, we went out." },
+    { "phrase": "in addition to", "meaning": "as well as", "example": "In addition to English, she speaks Spanish." },
+    { "phrase": "at first", "meaning": "in the beginning", "example": "At first, I didn't like him." },
+    { "phrase": "as well as", "meaning": "in addition to", "example": "As well as cooking, she cleans." },
+    { "phrase": "the first time", "meaning": "initial occasion", "example": "It was the first time I had flown." },
+    { "phrase": "by the end of", "meaning": "no later than the end of", "example": "By the end of the day, we were tired." },
+    { "phrase": "with the rise of", "meaning": "as (something) increased", "example": "With the rise of the internet, habits changed." },
+    { "phrase": "in the wild", "meaning": "in natural habitat", "example": "They studied chimpanzees in the wild." },
+    { "phrase": "in charge of", "meaning": "responsible for", "example": "She is in charge of the project." },
+    { "phrase": "in favour of", "meaning": "supporting", "example": "I'm in favour of the plan." },
+    { "phrase": "on behalf of", "meaning": "representing", "example": "I'm speaking on behalf of the team." },
+    { "phrase": "as a result of", "meaning": "because of", "example": "As a result of the delay, we missed the flight." },
+    { "phrase": "for the sake of", "meaning": "for the benefit of", "example": "For the sake of clarity, I'll repeat it." },
+    { "phrase": "at least", "meaning": "no less than; anyway", "example": "At least we tried." },
+    { "phrase": "at once", "meaning": "immediately", "example": "We left at once." },
+    { "phrase": "as soon as", "meaning": "when; immediately after", "example": "Call me as soon as you arrive." },
+    { "phrase": "so far", "meaning": "until now", "example": "So far, so good." }
+  ]
+}
