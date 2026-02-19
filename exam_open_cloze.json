@@ -28,9 +28,9 @@
         { "answers": ["no"], "explanation": "No longer (fixed phrase).", "topic_id": "fixed_phrases" },
         { "answers": ["In"], "explanation": "In fact (fixed phrase).", "topic_id": "fixed_phrases" },
         { "answers": ["part"], "explanation": "Take part in (fixed phrase).", "topic_id": "fixed_phrases" },
-        { "answers": ["When", "After"], "explanation": "When/After they return (time).", "topic_id": "conjunctions_linkers" },
+        { "answers": ["When"], "explanation": "When they return (time).", "topic_id": "conjunctions_linkers" },
         { "answers": ["Of"], "explanation": "Of course (fixed phrase).", "topic_id": "fixed_phrases" },
-        { "answers": ["Despite", "Notwithstanding"], "explanation": "Despite the benefits (contrast).", "topic_id": "prepositions" },
+        { "answers": ["Despite"], "explanation": "Despite the benefits (contrast).", "topic_id": "prepositions" },
         { "answers": ["of"], "explanation": "One of the most (fixed phrase).", "topic_id": "fixed_phrases" }
       ]
     }
@@ -45,7 +45,7 @@
         { "answers": ["an"], "explanation": "To such an extent that (result).", "topic_id": "articles" },
         { "answers": ["does"], "explanation": "Not only does this threaten (inversion).", "topic_id": "conjunctions_linkers" },
         { "answers": ["who"], "explanation": "Relative pronoun: communities who have lived.", "topic_id": "relative_pronouns" },
-        { "answers": ["Despite", "Notwithstanding"], "explanation": "Despite the scale (contrast).", "topic_id": "prepositions" },
+        { "answers": ["Despite"], "explanation": "Despite the scale (contrast).", "topic_id": "prepositions" },
         { "answers": ["that"], "explanation": "Believe that + clause.", "topic_id": "conjunctions_linkers" },
         { "answers": ["What"], "explanation": "What is certain (nominal relative clause).", "topic_id": "relative_pronouns" },
         { "answers": ["but"], "explanation": "Not only ... but also.", "topic_id": "conjunctions_linkers" },
@@ -61,7 +61,7 @@
       "passage": "The development of artificial intelligence raises profound ethical questions that society has only begun to confront. As machines become capable of performing tasks that were once the exclusive preserve of human beings, we are forced to reconsider what we mean by consciousness, responsibility and fairness. Algorithms that determine everything from loan applications to prison sentences can perpetuate and even amplify the biases present in the data _____ which they are trained, with consequences that may be difficult to reverse. _____ the potential benefits of AI in fields such as medicine and scientific research are considerable, there is a growing consensus that the technology must be subject _____ robust regulation and oversight. The question of _____ autonomous systems should be held accountable when their decisions cause harm remains largely unresolved, and legal frameworks in most countries have yet to catch _____ with the pace of technological change. Some philosophers and technologists have called _____ a moratorium on certain applications of AI until these issues can be properly addressed. _____ remains clear is that the choices we make in the coming decades will shape not only the role of AI in our daily lives _____ the very nature of human agency and dignity in an increasingly automated world.",
       "gaps": [
         { "answers": ["on"], "explanation": "Trained on (preposition with data).", "topic_id": "prepositions" },
-        { "answers": ["Although", "While", "Whilst"], "explanation": "Although the benefits (concession).", "topic_id": "conjunctions_linkers" },
+        { "answers": ["Although"], "explanation": "Although the benefits (concession).", "topic_id": "conjunctions_linkers" },
         { "answers": ["to"], "explanation": "Subject to (fixed phrase).", "topic_id": "prepositions" },
         { "answers": ["whether"], "explanation": "Question of whether (indirect question).", "topic_id": "conjunctions_linkers" },
         { "answers": ["up"], "explanation": "Catch up with (phrasal verb).", "topic_id": "phrasal_verbs" },

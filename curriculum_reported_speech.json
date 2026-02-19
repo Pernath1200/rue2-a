@@ -184,10 +184,9 @@
           "type": "open",
           "question": "\"Are you ready?\" → He asked me _____ I was ready.",
           "answers": [
-            "if",
-            "whether"
+            "if"
           ],
-          "explanation": "Yes/No reported: if or whether + statement order."
+          "explanation": "Yes/No reported: if (or whether) + statement order."
         },
         {
           "type": "open",

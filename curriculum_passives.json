@@ -19,12 +19,16 @@
         "content": "**By** + agent (who did it): The play was written **by Shakespeare**.\n\nWe often **omit** by when the agent is obvious: He was arrested. The meeting was postponed.\n\nSome passives use a different preposition:\n• **interested in** (not by)\n• **filled with**, **known for**\n\nExamples: I'm interested in this. The room was filled with balloons."
       },
       {
+        "title": "Causative have and get",
+        "content": "We use **have** or **get** + **object** + **past participle** when we arrange for someone else to do something for us, or when something is done to us (often without our choosing):\n\n• **Have/get something done:** I **had** my hair **cut**. She **had** her car **repaired** last week. We **got** the document **translated**.\n• **Experience something (often negative):** He **had** his wallet **stolen**. They **had** their roof **damaged** in the storm.\n\n**Form:** have/get + (object) + **past participle** (not infinitive, not -ing).\n\n• Right: I had my hair **cut**. She got her eyes **tested**.\n• Wrong: I had my hair *to cut* / *cutting*. She got her eyes *to test*.\n\n**Have** is more neutral; **get** is often more informal or suggests more effort: I **got** my bike **fixed** (I arranged it / made it happen). Use **have** in formal writing."
+      },
+      {
         "title": "Quick summary",
-        "content": "• Passive = **be** (in the right tense) + **past participle**.\n• Use passive when the agent is unknown, unimportant, or we want to focus on the action/object.\n• Agent = **by** + noun (often omitted).\n• Don't confuse tense: **was written** = past passive; **has been written** = present perfect passive.\n• With modals: **can be done**, **must be sent**, **should be checked**."
+        "content": "• Passive = **be** (in the right tense) + **past participle**.\n• Use passive when the agent is unknown, unimportant, or we want to focus on the action/object.\n• Agent = **by** + noun (often omitted).\n• **Causative:** have/get + object + **past participle** (I had my hair cut; She got the document translated).\n• Don't confuse tense: **was written** = past passive; **has been written** = present perfect passive.\n• With modals: **can be done**, **must be sent**, **should be checked**."
       },
       {
         "title": "Typical learner errors",
-        "content": "• **Past participle:** Wrong: The letter was *send*. Right: The letter was **sent**.\n• **Tense in be:** Wrong: The building *is* built in 1990. Right: The building **was** built in 1990.\n• **Active vs passive:** Wrong: English *speaks* everywhere. Right: English **is spoken** everywhere.\n• **One 'be' with modals:** Wrong: It can *be be* done. Right: It can **be** done."
+        "content": "• **Past participle:** Wrong: The letter was *send*. Right: The letter was **sent**.\n• **Tense in be:** Wrong: The building *is* built in 1990. Right: The building **was** built in 1990.\n• **Active vs passive:** Wrong: English *speaks* everywhere. Right: English **is spoken** everywhere.\n• **One 'be' with modals:** Wrong: It can *be be* done. Right: It can **be** done.\n• **Causative:** Wrong: I had my hair *to cut* / *cutting*. Right: I had my hair **cut**."
       }
     ]
   },
@@ -90,10 +94,36 @@
         },
         "correct_option": "a",
         "explanation": "Present perfect passive: have/has been + past participle."
+      },
+      {
+        "type": "mc",
+        "question": "Which sentence is correct? (causative have/get)",
+        "options": {
+          "a": "I had my hair to cut.",
+          "b": "I had my hair cut.",
+          "c": "I had my hair cutting.",
+          "d": "I had my hair cutted."
+        },
+        "correct_option": "b",
+        "explanation": "Causative: have + object + past participle. Cut is the past participle."
+      },
+      {
+        "type": "mc",
+        "question": "'She ____ her car ____ last week.' (arranged for someone to repair it)",
+        "options": {
+          "a": "had / repaired",
+          "b": "had / repair",
+          "c": "got / to repair",
+          "d": "had / repairing"
+        },
+        "correct_option": "a",
+        "explanation": "Causative: have/get + object + past participle. Had her car repaired."
       }
     ]
   },
   "practice_order": [
+    "gapfill",
+    "errorcorrection",
     "mc"
   ],
   "practice": {
@@ -196,6 +226,30 @@
             "can be found"
           ],
           "explanation": "Modal passive: can be + found (find → found)."
+        },
+        {
+          "type": "open",
+          "question": "I had my hair _____ (cut) yesterday.",
+          "answers": [
+            "cut"
+          ],
+          "explanation": "Causative: have + object + past participle. Cut is the past participle."
+        },
+        {
+          "type": "open",
+          "question": "She had her car _____ (repair) last week.",
+          "answers": [
+            "repaired"
+          ],
+          "explanation": "Causative: have + object + past participle. Repair → repaired."
+        },
+        {
+          "type": "open",
+          "question": "We got the document _____ (translate) into English.",
+          "answers": [
+            "translated"
+          ],
+          "explanation": "Causative: get + object + past participle. Translate → translated."
         }
       ]
     },
@@ -273,6 +327,24 @@
             "The meeting was postponed"
           ],
           "explanation": "Passive: was + past participle (postponed)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I had my hair to cut.' Correct the sentence.",
+          "answers": [
+            "I had my hair cut.",
+            "I had my hair cut"
+          ],
+          "explanation": "Causative: have + object + past participle (not infinitive). Cut is the past participle."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She got her eyes testing.' Correct the sentence.",
+          "answers": [
+            "She got her eyes tested.",
+            "She got her eyes tested"
+          ],
+          "explanation": "Causative: get + object + past participle. Test → tested."
         }
       ]
     },
@@ -398,6 +470,30 @@
           },
           "correct_option": "a",
           "explanation": "Present perfect passive: have/has been + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "Which sentence is correct? (causative have/get)",
+          "options": {
+            "a": "I had my hair to cut.",
+            "b": "I had my hair cut.",
+            "c": "I had my hair cutting.",
+            "d": "I had my hair cutted."
+          },
+          "correct_option": "b",
+          "explanation": "Causative: have + object + past participle. Cut is the past participle."
+        },
+        {
+          "type": "mc",
+          "question": "'He ____ his wallet ____ on the bus.' (something bad happened to him)",
+          "options": {
+            "a": "had / stolen",
+            "b": "had / steal",
+            "c": "got / to steal",
+            "d": "had / stealing"
+          },
+          "correct_option": "a",
+          "explanation": "Causative/experience: have + object + past participle. Had his wallet stolen."
         }
       ]
     }

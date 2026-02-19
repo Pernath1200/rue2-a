@@ -104,19 +104,17 @@
           "type": "open",
           "question": "The book ____ I'm reading is by a Czech author.",
           "answers": [
-            "that",
-            "which"
+            "that"
           ],
-          "explanation": "For things we use **that** or **which**, not **what**."
+          "explanation": "For things we use **that** (or which), not **what**."
         },
         {
           "type": "open",
           "question": "The woman ____ lives next door is very kind.",
           "answers": [
-            "who",
-            "that"
+            "who"
           ],
-          "explanation": "For people (subject of the clause) we use **who** or **that**."
+          "explanation": "For people (subject of the clause) we use **who** (or that)."
         },
         {
           "type": "open",
@@ -130,27 +128,23 @@
           "type": "open",
           "question": "The man ____ I spoke to was the manager.",
           "answers": [
-            "who",
-            "that",
-            "whom"
+            "who"
           ],
-          "explanation": "For people (object) we use **who**, **that**, or **whom**; we can also omit: The man I spoke to."
+          "explanation": "For people (object) we use **who** (or that/whom); we can also omit: The man I spoke to."
         },
         {
           "type": "open",
           "question": "I don't remember the day ____ we first met.",
           "answers": [
-            "when",
-            "that"
+            "when"
           ],
-          "explanation": "For time we use **when** or **that**, not **what**."
+          "explanation": "For time we use **when** (or that), not **what**."
         },
         {
           "type": "open",
           "question": "The film ____ we saw yesterday was boring.",
           "answers": [
-            "that",
-            "which"
+            "that"
           ],
           "explanation": "For things we use **that** or **which**, never **what** after a noun."
         },
@@ -174,10 +168,9 @@
           "type": "open",
           "question": "The teacher ____ taught us English has retired.",
           "answers": [
-            "who",
-            "that"
+            "who"
           ],
-          "explanation": "For people (subject) we use **who** or **that**."
+          "explanation": "For people (subject) we use **who** (or that)."
         },
         {
           "type": "open",
@@ -191,20 +184,17 @@
           "type": "open",
           "question": "The reason ____ I'm late is the traffic.",
           "answers": [
-            "why",
-            "that"
+            "why"
           ],
-          "explanation": "For reason we often use **why** or **that** (the reason why/that I'm late)."
+          "explanation": "For reason we use **why** (or that)."
         },
         {
           "type": "open",
           "question": "The hotel ____ we stayed was very comfortable.",
           "answers": [
-            "where",
-            "that",
-            "which"
+            "where"
           ],
-          "explanation": "For place we use **where** or **that/which** (the hotel where we stayed / that we stayed at)."
+          "explanation": "For place we use **where** (or that/which we stayed at)."
         }
       ]
     },

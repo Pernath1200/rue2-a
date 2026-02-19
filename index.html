@@ -148,7 +148,7 @@
     <div id="menuScreen" class="card">
       <div id="menuMain" class="menu-panel">
         <div class="actions" style="margin-bottom: 0.65rem;">
-          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Grammar Test</button>
+          <button type="button" id="openDiagnosticSetupBtn" class="secondary">Start Here: Grammar Test</button>
         </div>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
         <button type="button" id="openTopicSelectBtn">Choose Grammar Topic</button>
@@ -160,7 +160,7 @@
         <button type="button" id="examOpenClozeBtn">Open Cloze</button>
         <button type="button" id="examWordFormationBtn" class="secondary">Word Formation</button>
         <button type="button" id="examSentenceTransformationBtn" class="secondary">Sentence Transformation</button>
-        <button type="button" id="examPracticeBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to main menu</button>
+        <button type="button" id="examPracticeBackBtn" class="secondary" style="margin-top: 0.75rem;">Main Menu</button>
       </div>
       <div id="menuOpenCloze" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
@@ -172,7 +172,40 @@
         <button type="button" id="openClozeHardBtn" class="secondary">Hard</button>
         <button type="button" id="openClozeExpertBtn" class="secondary">Expert</button>
         <button type="button" id="openClozeBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
-        <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Back to main menu</button>
+        <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Main Menu</button>
+      </div>
+      <div id="menuWordFormation" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Word Formation (Reading &amp; Use of English Part 3). Use the stem word to form the correct word for each gap.</p>
+        <div class="actions" style="margin-bottom: 0.65rem;">
+          <button type="button" id="wordFormationReferenceBtn" class="secondary">Reference: Prefixes &amp; Suffixes</button>
+        </div>
+        <div class="actions" style="margin-bottom: 0.65rem;">
+          <button type="button" id="wordFormationPart1Btn" class="secondary">Learn and Test</button>
+        </div>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
+        <button type="button" id="wordFormationPart2Btn" class="secondary">Guided Practice</button>
+        <p style="margin: 0.75rem 0 0.35rem 0; color: var(--muted); font-size: 0.85rem;">Sample test by difficulty:</p>
+        <button type="button" id="wordFormationEasyBtn">Easy</button>
+        <button type="button" id="wordFormationMediumBtn" class="secondary">Medium</button>
+        <button type="button" id="wordFormationHardBtn" class="secondary">Hard</button>
+        <button type="button" id="wordFormationExpertBtn" class="secondary">Expert</button>
+        <button type="button" id="wordFormationBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
+        <button type="button" id="wordFormationMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Main Menu</button>
+      </div>
+      <div id="menuSentenceTransform" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Sentence Transformation (Reading &amp; Use of English Part 4). Complete the second sentence using the key word.</p>
+        <div class="actions" style="margin-bottom: 0.65rem;">
+          <button type="button" id="sentenceTransformPart1Btn" class="secondary">Learn and Test</button>
+        </div>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
+        <button type="button" id="sentenceTransformPart2Btn" class="secondary">Guided Practice</button>
+        <p style="margin: 0.75rem 0 0.35rem 0; color: var(--muted); font-size: 0.85rem;">Sample test by difficulty:</p>
+        <button type="button" id="sentenceTransformEasyBtn">Easy</button>
+        <button type="button" id="sentenceTransformMediumBtn" class="secondary">Medium</button>
+        <button type="button" id="sentenceTransformHardBtn" class="secondary">Hard</button>
+        <button type="button" id="sentenceTransformExpertBtn" class="secondary">Expert</button>
+        <button type="button" id="sentenceTransformBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
+        <button type="button" id="sentenceTransformMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Main Menu</button>
       </div>
       <div id="menuExamClozeTestSelect" class="menu-panel hidden">
         <p id="examClozeTestSelectHeading" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a test.</p>
@@ -193,7 +226,7 @@
         <button type="button" id="startPart2Btn" class="secondary">Guided Practice</button>
         <button type="button" id="openPracticeSetupBtn" class="secondary">Further Practice</button>
         <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
-        <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to main menu</button>
+        <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Main Menu</button>
       </div>
       <div id="menuPracticeSetup" class="hidden">
         <p id="practiceSetupTopic" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;"></p>
@@ -257,6 +290,28 @@
         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem;">
           <button type="button" id="examClozeBackToTestListBtn" class="secondary">Back to test list</button>
           <button type="button" id="examClozeNextBtn">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="examTransformTestScreen" class="hidden">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
+        <div class="progress" id="examTransformProgress" style="margin-bottom: 0;"></div>
+        <button type="button" id="examTransformExitBtn" class="secondary" style="margin-top: 0; flex: none;">Exit</button>
+      </div>
+      <div class="card question-block">
+        <h2 id="examTransformTitle" class="hidden" style="font-size: 1.1rem; margin-bottom: 0.5rem;"></h2>
+        <p id="examTransformInstructions" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.75rem;"></p>
+        <div id="examTransformItems" class="exam-cloze-passage" style="display: flex; flex-direction: column; gap: 1rem;"></div>
+        <button type="button" id="examTransformSubmitBtn" style="margin-top: 0.5rem;">Submit</button>
+      </div>
+      <div id="examTransformFeedbackBlock" class="card hidden" style="margin-top: 1rem;">
+        <div id="examTransformScoreText" style="font-weight: 600; margin-bottom: 0.5rem;"></div>
+        <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.35rem;">Answers and explanations:</p>
+        <div id="examTransformWrongList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem;">
+          <button type="button" id="examTransformBackToTestListBtn" class="secondary">Back to test list</button>
+          <button type="button" id="examTransformNextBtn">Next</button>
         </div>
       </div>
     </div>
@@ -398,6 +453,14 @@
     let currentExamClozeTestIndex = 0;
     let currentExamClozeMode = '';
     let currentExamClozeTest = null;
+    let currentExamType = 'open_cloze';
+    let currentExamSubMenu = 'open_cloze';
+    let examWordFormationData = null;
+    let examSentenceTransformData = null;
+    let currentExamTransformTests = [];
+    let currentExamTransformTestIndex = 0;
+    let currentExamTransformTest = null;
+    let currentExamTransformMode = '';
     let examClozeMcSelections = [];
     let returnToAfterTopicSelect = null;
 
@@ -554,9 +617,21 @@
       document.getElementById('prepositionsListScreen').classList.add('hidden');
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       document.getElementById('referenceScreen').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
       if (examMode === 'open_cloze') {
         document.getElementById('menuOpenCloze').classList.remove('hidden');
         document.getElementById('menuMain').classList.add('hidden');
+        document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      } else if (examMode === 'word_formation') {
+        document.getElementById('menuWordFormation').classList.remove('hidden');
+        document.getElementById('menuMain').classList.add('hidden');
+        document.getElementById('menuOpenCloze').classList.add('hidden');
+        document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      } else if (examMode === 'sentence_transformation') {
+        document.getElementById('menuSentenceTransform').classList.remove('hidden');
+        document.getElementById('menuMain').classList.add('hidden');
+        document.getElementById('menuOpenCloze').classList.add('hidden');
         document.getElementById('menuOpenClozeModes').classList.add('hidden');
       } else {
         document.getElementById('menuMain').classList.remove('hidden');
@@ -593,6 +668,9 @@
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.remove('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
     }
@@ -602,6 +680,8 @@
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
@@ -615,6 +695,8 @@
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
     }
@@ -788,7 +870,9 @@
         ['Preposition + Verb Compound Nouns', () => showReferenceDependentSection('compound_nouns')],
         ['Nouns: Uncountable and Always-Plural', showReferenceCountableUncountable],
         ['Open Cloze: Word types', showReferenceOpenCloze],
-        ['Fixed Phrases', showReferenceFixedPhrases]
+        ['Fixed Phrases', showReferenceFixedPhrases],
+        ['Word Formation: Prefixes & Suffixes', showReferenceWordFormation],
+        ['Linkers and Conjunctions', showReferenceConjunctionsLinkers]
       ];
       items.forEach(([text, fn]) => {
         const btn = document.createElement('button');
@@ -892,6 +976,169 @@
         }
       }
       renderReferenceOpenClozeContent(referenceOpenClozeData);
+    }
+
+    let referenceWordFormationData = null;
+
+    function renderReferenceWordFormationContent(data) {
+      if (!data) return;
+      referenceView = 'word_formation';
+      document.getElementById('referenceTitle').textContent = data.title || 'Word Formation: Prefixes and Suffixes';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+      const prefixes = data.prefixes || [];
+      if (prefixes.length) {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.style.color = 'var(--accent)';
+        h3.textContent = '30 common prefixes';
+        content.appendChild(h3);
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.style.marginBottom = '1.5rem';
+        table.innerHTML = '<thead><tr><th>Prefix</th><th>Meaning</th><th>Example words</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        prefixes.forEach(entry => {
+          const tr = document.createElement('tr');
+          const ex = (entry.examples || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.prefix || '') + '</td><td>' + escapeAndBold(entry.meaning || '') + '</td><td>' + ex + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      const suffixes = data.suffixes || [];
+      if (suffixes.length) {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.style.color = 'var(--accent)';
+        h3.textContent = '30 common suffixes';
+        content.appendChild(h3);
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Suffix</th><th>Part of speech</th><th>Example words</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        suffixes.forEach(entry => {
+          const tr = document.createElement('tr');
+          const ex = (entry.examples || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.suffix || '') + '</td><td>' + escapeAndBold(entry.partOfSpeech || '') + '</td><td>' + ex + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceWordFormation() {
+      if (!referenceWordFormationData) {
+        try {
+          const res = await fetch(new URL('reference_word_formation.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceWordFormationData = await res.json();
+        } catch (e) {
+          alert('Could not load Word Formation reference. ' + (e && e.message));
+          return;
+        }
+      }
+      renderReferenceWordFormationContent(referenceWordFormationData);
+    }
+
+    let referenceConjunctionsLinkersData = null;
+
+    function renderReferenceConjunctionsLinkersContent(data) {
+      if (!data) return;
+      referenceView = 'conjunctions_linkers';
+      document.getElementById('referenceTitle').textContent = data.title || 'Linkers and Conjunctions';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+      const categories = data.logical_categories || [];
+      if (categories.length) {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.style.color = 'var(--accent)';
+        h3.textContent = 'Four logical categories';
+        content.appendChild(h3);
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.style.marginBottom = '1.5rem';
+        table.style.tableLayout = 'fixed';
+        table.style.width = '100%';
+        table.innerHTML = '<colgroup><col style="width: 22%; min-width: 8em;"><col style="width: 38%"><col style="width: 40%"></colgroup><thead><tr><th>Category</th><th>Meaning</th><th>Linkers and conjunctions</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        categories.forEach(entry => {
+          const tr = document.createElement('tr');
+          const td0 = document.createElement('td');
+          td0.style.whiteSpace = 'nowrap';
+          td0.innerHTML = escapeAndBold(entry.category || '');
+          const td1 = document.createElement('td');
+          td1.innerHTML = escapeAndBold(entry.meaning || '');
+          const td2 = document.createElement('td');
+          td2.innerHTML = escapeAndBold(entry.linkers || '');
+          tr.appendChild(td0);
+          tr.appendChild(td1);
+          tr.appendChild(td2);
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      const essayLinkers = data.essay_linkers || [];
+      if (essayLinkers.length) {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.style.color = 'var(--accent)';
+        h3.textContent = 'Linkers in essays and writing tasks';
+        content.appendChild(h3);
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Phrase</th><th>Use</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        essayLinkers.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.phrase || '') + '</td><td>' + escapeAndBold(entry.use || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceConjunctionsLinkers() {
+      if (!referenceConjunctionsLinkersData) {
+        try {
+          const res = await fetch(new URL('reference_conjunctions_linkers.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceConjunctionsLinkersData = await res.json();
+        } catch (e) {
+          alert('Could not load Linkers and Conjunctions reference. ' + (e && e.message));
+          return;
+        }
+      }
+      renderReferenceConjunctionsLinkersContent(referenceConjunctionsLinkersData);
     }
 
     let referenceFixedPhrasesData = null;
@@ -1407,7 +1654,7 @@
     }
 
     function onReferenceBackClick() {
-      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze') {
+      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers') {
         renderReferenceIndex();
       } else {
         hideReference();
@@ -1489,6 +1736,20 @@
           coursePart = null;
           if (examMode === 'open_cloze') {
             showOpenClozeModes();
+            return;
+          }
+          if (examMode === 'word_formation') {
+            document.getElementById('menuScreen').classList.remove('hidden');
+            document.getElementById('sectionCompleteScreen').classList.add('hidden');
+            document.getElementById('resultScreen').classList.add('hidden');
+            document.getElementById('menuWordFormation').classList.remove('hidden');
+            return;
+          }
+          if (examMode === 'sentence_transformation') {
+            document.getElementById('menuScreen').classList.remove('hidden');
+            document.getElementById('sectionCompleteScreen').classList.add('hidden');
+            document.getElementById('resultScreen').classList.add('hidden');
+            document.getElementById('menuSentenceTransform').classList.remove('hidden');
             return;
           }
           document.getElementById('resultScreen').classList.remove('hidden');
@@ -1688,27 +1949,84 @@
       }
       const isTestsFormat = data[0] && data[0].passage && Array.isArray(data[0].gaps);
       if (isTestsFormat) {
+        currentExamType = 'open_cloze';
+        currentExamSubMenu = 'open_cloze';
         currentExamClozeTests = data;
         currentExamClozeMode = mode;
-        showExamClozeTestSelectScreen();
+        showExamTestSelectScreen();
       } else {
         startExamClozeQuiz(mode, data);
       }
     }
 
+    async function loadAndStartExamWordFormation(mode) {
+      if (!examWordFormationData) {
+        try {
+          const res = await fetch(new URL('exam_word_formation.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load exam_word_formation.json');
+          examWordFormationData = await res.json();
+        } catch (e) {
+          alert('Could not load Word Formation. ' + (e && e.message));
+          return;
+        }
+      }
+      const data = examWordFormationData[mode];
+      if (!data || data.length === 0) {
+        alert('No tests available for this level yet.');
+        return;
+      }
+      currentExamType = 'word_formation';
+      currentExamSubMenu = 'word_formation';
+      currentExamClozeTests = data;
+      currentExamClozeMode = mode;
+      showExamTestSelectScreen();
+    }
+
+    async function loadAndStartExamSentenceTransform(mode) {
+      if (!examSentenceTransformData) {
+        try {
+          const res = await fetch(new URL('exam_sentence_transformation.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load exam_sentence_transformation.json');
+          examSentenceTransformData = await res.json();
+        } catch (e) {
+          alert('Could not load Sentence Transformation. ' + (e && e.message));
+          return;
+        }
+      }
+      const data = examSentenceTransformData[mode];
+      if (!data || data.length === 0) {
+        alert('No tests available for this level yet.');
+        return;
+      }
+      currentExamType = 'sentence_transformation';
+      currentExamSubMenu = 'sentence_transformation';
+      currentExamTransformTests = data;
+      currentExamTransformMode = mode;
+      showExamTestSelectScreen();
+    }
+
     const EXAM_CLOZE_GAP = '_____';
 
-    function showExamClozeTestSelectScreen() {
-      const mode = currentExamClozeMode || 'easy';
+    function getCurrentExamTests() {
+      return currentExamType === 'sentence_transformation' ? currentExamTransformTests : currentExamClozeTests;
+    }
+
+    function showExamTestSelectScreen() {
+      const mode = (currentExamType === 'sentence_transformation' ? currentExamTransformMode : currentExamClozeMode) || 'easy';
       const cap = mode.charAt(0).toUpperCase() + mode.slice(1);
-      document.getElementById('examClozeTestSelectHeading').textContent = 'Choose a test (' + cap + ').';
+      const typeLabel = currentExamType === 'open_cloze' ? 'Open Cloze' : currentExamType === 'word_formation' ? 'Word Formation' : 'Sentence Transformation';
+      document.getElementById('examClozeTestSelectHeading').textContent = typeLabel + ' – Choose a test (' + cap + ').';
+      const backBtn = document.getElementById('examClozeTestSelectBackBtn');
+      if (backBtn) backBtn.textContent = 'Back to ' + typeLabel;
       const listEl = document.getElementById('examClozeTestSelectList');
       listEl.innerHTML = '';
+      const tests = getCurrentExamTests() || [];
       const openClozePrefix = 'Open Cloze:';
-      (currentExamClozeTests || []).forEach((test, i) => {
-        const shortTitle = (test.title && test.title.indexOf(openClozePrefix) === 0)
-          ? test.title.slice(openClozePrefix.length).trim()
-          : (test.title ? test.title.trim() : '');
+      const wfPrefix = 'Word Formation:';
+      tests.forEach((test, i) => {
+        let shortTitle = (test.title || '').trim();
+        if (currentExamType === 'open_cloze' && shortTitle.indexOf(openClozePrefix) === 0) shortTitle = shortTitle.slice(openClozePrefix.length).trim();
+        else if (currentExamType === 'word_formation' && shortTitle.indexOf(wfPrefix) === 0) shortTitle = shortTitle.slice(wfPrefix.length).trim();
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'secondary';
@@ -1718,18 +2036,37 @@
       });
       document.getElementById('menuScreen').classList.remove('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
       document.getElementById('menuExamClozeTestSelect').classList.remove('hidden');
       document.getElementById('examClozeTestScreen').classList.add('hidden');
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
+      document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
+    }
+
+    function showExamClozeTestSelectScreen() {
+      showExamTestSelectScreen();
     }
 
     function startExamClozeTestByIndex(index) {
       currentExamClozeTestIndex = index;
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
       document.getElementById('examClozeTestScreen').classList.remove('hidden');
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
       renderExamClozeTest(currentExamClozeTests[currentExamClozeTestIndex]);
+    }
+
+    function startExamTransformTestByIndex(index) {
+      currentExamTransformTestIndex = index;
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.getElementById('examTransformTestScreen').classList.remove('hidden');
+      document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
+      renderExamTransformTest(currentExamTransformTests[currentExamTransformTestIndex]);
     }
 
     function renderExamClozeTest(test) {
@@ -1772,7 +2109,8 @@
         test.gaps.forEach((gap, i) => {
           const row = document.createElement('div');
           row.className = 'exam-cloze-mc-row';
-          row.appendChild(document.createTextNode((i + 1) + '. '));
+          const label = (i + 1) + (currentExamType === 'word_formation' && gap.stem ? ' (' + gap.stem + '): ' : '. ');
+          row.appendChild(document.createTextNode(label));
           Object.entries(gap.options || {}).forEach(([key, text]) => {
             const opt = document.createElement('span');
             opt.className = 'option';
@@ -1798,6 +2136,12 @@
           input.dataset.gapIndex = String(i);
           input.setAttribute('autocomplete', 'off');
           passageEl.appendChild(input);
+          if (currentExamType === 'word_formation' && test.gaps[i] && test.gaps[i].stem) {
+            const stemSpan = document.createElement('span');
+            stemSpan.style.color = 'var(--muted)';
+            stemSpan.textContent = ' (' + test.gaps[i].stem + ') ';
+            passageEl.appendChild(stemSpan);
+          }
         }
         passageEl.appendChild(document.createTextNode(segments[gapCount]));
       }
@@ -1860,7 +2204,8 @@
       document.getElementById('examClozeSubmitBtn').classList.add('hidden');
       document.getElementById('examClozeFeedbackBlock').classList.remove('hidden');
       const nextBtn = document.getElementById('examClozeNextBtn');
-      nextBtn.textContent = currentExamClozeTestIndex + 1 < currentExamClozeTests.length ? 'Next test' : 'Back to Open Cloze';
+      const backLabel = currentExamSubMenu === 'word_formation' ? 'Back to Word Formation' : 'Back to Open Cloze';
+      nextBtn.textContent = currentExamClozeTestIndex + 1 < currentExamClozeTests.length ? 'Next test' : backLabel;
       nextBtn.focus();
     }
 
@@ -1868,8 +2213,10 @@
       currentExamClozeTestIndex++;
       if (currentExamClozeTestIndex >= currentExamClozeTests.length) {
         document.getElementById('examClozeTestScreen').classList.add('hidden');
+        document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
         document.getElementById('menuScreen').classList.remove('hidden');
-        document.getElementById('menuOpenCloze').classList.remove('hidden');
+        if (currentExamSubMenu === 'word_formation') document.getElementById('menuWordFormation').classList.remove('hidden');
+        else document.getElementById('menuOpenCloze').classList.remove('hidden');
         return;
       }
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
@@ -1878,7 +2225,87 @@
 
     function onExamClozeExit() {
       document.getElementById('examClozeTestScreen').classList.add('hidden');
-      showExamClozeTestSelectScreen();
+      showExamTestSelectScreen();
+    }
+
+    function renderExamTransformTest(test) {
+      currentExamTransformTest = test;
+      const total = currentExamTransformTests.length;
+      document.getElementById('examTransformProgress').textContent = 'Test ' + (currentExamTransformTestIndex + 1) + ' of ' + total;
+      const titleEl = document.getElementById('examTransformTitle');
+      if (test.title) {
+        titleEl.textContent = test.title;
+        titleEl.classList.remove('hidden');
+      } else titleEl.classList.add('hidden');
+      document.getElementById('examTransformInstructions').textContent = test.instructions || 'Complete the second sentence using the key word.';
+      const container = document.getElementById('examTransformItems');
+      container.innerHTML = '';
+      (test.items || []).forEach((item, i) => {
+        const block = document.createElement('div');
+        block.className = 'card';
+        block.style.marginBottom = '0.5rem';
+        block.innerHTML = '<p style="margin: 0 0 0.35rem 0; font-size: 0.95rem;">' + (i + 1) + '. ' + escapeAndBold(item.sentence1) + '</p>' +
+          '<p style="margin: 0 0 0.35rem 0; font-size: 0.9rem; color: var(--accent);"><strong>' + (item.keyword || '') + '</strong></p>' +
+          '<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem;"><span>' + escapeAndBold(item.sentence2_prefix || '') + '</span><input type="text" data-item-index="' + i + '" style="width: 8em; min-width: 5em;" autocomplete="off"><span>' + escapeAndBold(item.sentence2_suffix || '') + '</span></p>';
+        container.appendChild(block);
+      });
+      document.getElementById('examTransformSubmitBtn').classList.remove('hidden');
+    }
+
+    function submitExamTransformTest() {
+      const test = currentExamTransformTest;
+      if (!test || !test.items) return;
+      const results = [];
+      let scoreCount = 0;
+      test.items.forEach((item, i) => {
+        const input = document.querySelector('#examTransformItems input[data-item-index="' + i + '"]');
+        const userVal = input ? input.value.trim() : '';
+        const correct = answerMatches(userVal, item.answers || []);
+        if (correct) scoreCount++;
+        if (input) {
+          input.readOnly = true;
+          input.classList.add(correct ? 'correct' : 'wrong');
+        }
+        results.push({ index: i, correct, userVal, item });
+      });
+      const total = test.items.length;
+      document.getElementById('examTransformScoreText').textContent = 'Score: ' + scoreCount + ' / ' + total;
+      const wrongList = document.getElementById('examTransformWrongList');
+      wrongList.innerHTML = results.map(r => {
+        const correctText = (r.item.answers && r.item.answers.length) ? r.item.answers.join(' or ') : '';
+        const topicId = r.item.topic_id;
+        const topic = topics && topics.find(t => t.id === topicId);
+        const topicTitle = topic ? (topic.title || topicId) : topicId;
+        let line = '<p style="margin: 0.5rem 0;"><strong>Item ' + (r.index + 1) + ':</strong> ';
+        if (topicId) line += '<a href="#" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+        line += escapeAndBold(r.item.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
+        if (!r.correct && r.userVal !== '') line += ' <span style="color: var(--muted);">You wrote: ' + escapeAndBold(r.userVal) + '</span>';
+        line += '</p>';
+        return line;
+      }).join('');
+      document.getElementById('examTransformSubmitBtn').classList.add('hidden');
+      document.getElementById('examTransformFeedbackBlock').classList.remove('hidden');
+      const nextBtn = document.getElementById('examTransformNextBtn');
+      nextBtn.textContent = currentExamTransformTestIndex + 1 < currentExamTransformTests.length ? 'Next test' : 'Back to Sentence Transformation';
+      nextBtn.focus();
+    }
+
+    function onExamTransformNext() {
+      currentExamTransformTestIndex++;
+      if (currentExamTransformTestIndex >= currentExamTransformTests.length) {
+        document.getElementById('examTransformTestScreen').classList.add('hidden');
+        document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
+        document.getElementById('menuScreen').classList.remove('hidden');
+        document.getElementById('menuSentenceTransform').classList.remove('hidden');
+        return;
+      }
+      document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
+      renderExamTransformTest(currentExamTransformTests[currentExamTransformTestIndex]);
+    }
+
+    function onExamTransformExit() {
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
+      showExamTestSelectScreen();
     }
 
     function startQuiz() {
@@ -1946,6 +2373,8 @@
 
     function hasValidTopicSelected() {
       if (examMode === 'open_cloze' && currentTopic && currentTopic.curriculum) return true;
+      if (examMode === 'word_formation' && currentTopic && currentTopic.curriculum) return true;
+      if (examMode === 'sentence_transformation' && currentTopic && currentTopic.curriculum) return true;
       const sel = document.getElementById('topicSelect');
       const val = sel && sel.value;
       return val !== '' && val !== '-1' && topics[parseInt(val, 10)] != null;
@@ -2219,19 +2648,31 @@
     const examClozeTestSelectBackBtn = document.getElementById('examClozeTestSelectBackBtn');
     if (examClozeTestSelectBackBtn) examClozeTestSelectBackBtn.addEventListener('click', () => {
       document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
-      document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
+      if (currentExamSubMenu === 'word_formation') document.getElementById('menuWordFormation').classList.remove('hidden');
+      else if (currentExamSubMenu === 'sentence_transformation') document.getElementById('menuSentenceTransform').classList.remove('hidden');
+      else document.getElementById('menuOpenCloze').classList.remove('hidden');
     });
     const examClozeTestSelectList = document.getElementById('examClozeTestSelectList');
     if (examClozeTestSelectList) examClozeTestSelectList.addEventListener('click', function(e) {
       const btn = e.target && e.target.closest && e.target.closest('button[data-index]');
-      if (!btn || !currentExamClozeTests) return;
+      if (!btn) return;
+      const tests = getCurrentExamTests();
+      if (!tests || tests.length === 0) return;
       const index = parseInt(btn.dataset.index, 10);
-      if (!isNaN(index) && index >= 0 && index < currentExamClozeTests.length) startExamClozeTestByIndex(index);
+      if (isNaN(index) || index < 0 || index >= tests.length) return;
+      if (currentExamType === 'sentence_transformation') startExamTransformTestByIndex(index);
+      else startExamClozeTestByIndex(index);
     });
     const examClozeTestSelectRandomBtn = document.getElementById('examClozeTestSelectRandomBtn');
     if (examClozeTestSelectRandomBtn) examClozeTestSelectRandomBtn.addEventListener('click', () => {
-      if (!currentExamClozeTests || currentExamClozeTests.length === 0) return;
-      startExamClozeTestByIndex(Math.floor(Math.random() * currentExamClozeTests.length));
+      const tests = getCurrentExamTests();
+      if (!tests || tests.length === 0) return;
+      const index = Math.floor(Math.random() * tests.length);
+      if (currentExamType === 'sentence_transformation') startExamTransformTestByIndex(index);
+      else startExamClozeTestByIndex(index);
     });
     const examClozeBackToTestListBtn = document.getElementById('examClozeBackToTestListBtn');
     if (examClozeBackToTestListBtn) examClozeBackToTestListBtn.addEventListener('click', showExamClozeTestSelectScreen);
@@ -2260,13 +2701,94 @@
       const sel = document.getElementById('topicSelect');
       if (sel) sel.value = String(idx);
     });
-    document.getElementById('examWordFormationBtn').addEventListener('click', () => { alert('Word Formation – coming soon.'); });
-    document.getElementById('examSentenceTransformationBtn').addEventListener('click', () => { alert('Sentence Transformation – coming soon.'); });
+    function showWordFormationMenu() {
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.remove('hidden');
+    }
+    function showSentenceTransformMenu() {
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.remove('hidden');
+    }
+    document.getElementById('examWordFormationBtn').addEventListener('click', showWordFormationMenu);
+    document.getElementById('examSentenceTransformationBtn').addEventListener('click', showSentenceTransformMenu);
+    document.getElementById('wordFormationReferenceBtn').addEventListener('click', () => {
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
+      document.getElementById('referenceScreen').classList.remove('hidden');
+      document.body.classList.add('viewing-reference');
+      showReferenceWordFormation();
+    });
+    document.getElementById('wordFormationPart1Btn').addEventListener('click', () => {
+      currentTopic = { id: 'word_formation', title: 'Word Formation', curriculum: 'curriculum_word_formation.json' };
+      examMode = 'word_formation';
+      startPart1();
+    });
+    document.getElementById('wordFormationPart2Btn').addEventListener('click', () => {
+      currentTopic = { id: 'word_formation', title: 'Word Formation', curriculum: 'curriculum_word_formation.json' };
+      examMode = 'word_formation';
+      startPart2();
+    });
+    document.getElementById('sentenceTransformPart1Btn').addEventListener('click', () => {
+      currentTopic = { id: 'sentence_transformation', title: 'Sentence Transformation', curriculum: 'curriculum_sentence_transformation.json' };
+      examMode = 'sentence_transformation';
+      startPart1();
+    });
+    document.getElementById('sentenceTransformPart2Btn').addEventListener('click', () => {
+      currentTopic = { id: 'sentence_transformation', title: 'Sentence Transformation', curriculum: 'curriculum_sentence_transformation.json' };
+      examMode = 'sentence_transformation';
+      startPart2();
+    });
+    document.getElementById('wordFormationEasyBtn').addEventListener('click', () => loadAndStartExamWordFormation('easy'));
+    document.getElementById('wordFormationMediumBtn').addEventListener('click', () => loadAndStartExamWordFormation('medium'));
+    document.getElementById('wordFormationHardBtn').addEventListener('click', () => loadAndStartExamWordFormation('hard'));
+    document.getElementById('wordFormationExpertBtn').addEventListener('click', () => loadAndStartExamWordFormation('expert'));
+    document.getElementById('wordFormationBackBtn').addEventListener('click', () => {
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.remove('hidden');
+    });
+    document.getElementById('wordFormationMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('sentenceTransformEasyBtn').addEventListener('click', () => loadAndStartExamSentenceTransform('easy'));
+    document.getElementById('sentenceTransformMediumBtn').addEventListener('click', () => loadAndStartExamSentenceTransform('medium'));
+    document.getElementById('sentenceTransformHardBtn').addEventListener('click', () => loadAndStartExamSentenceTransform('hard'));
+    document.getElementById('sentenceTransformExpertBtn').addEventListener('click', () => loadAndStartExamSentenceTransform('expert'));
+    document.getElementById('sentenceTransformBackBtn').addEventListener('click', () => {
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.remove('hidden');
+    });
+    document.getElementById('sentenceTransformMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('examTransformSubmitBtn').addEventListener('click', submitExamTransformTest);
+    document.getElementById('examTransformNextBtn').addEventListener('click', onExamTransformNext);
+    document.getElementById('examTransformBackToTestListBtn').addEventListener('click', showExamTestSelectScreen);
+    document.getElementById('examTransformExitBtn').addEventListener('click', onExamTransformExit);
+    document.getElementById('examTransformFeedbackBlock').addEventListener('click', function(e) {
+      const link = e.target && e.target.closest('.exam-cloze-topic-link');
+      if (!link) return;
+      e.preventDefault();
+      const topicId = link.getAttribute('data-topic-id');
+      if (!topicId || !topics || !topics.length) return;
+      const idx = topics.findIndex(t => t.id === topicId);
+      if (idx === -1) return;
+      currentTopic = topics[idx];
+      applyTopic();
+      returnToAfterTopicSelect = 'exam_transform_feedback';
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
+      document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      showTopicSelectMenu();
+      const sel = document.getElementById('topicSelect');
+      if (sel) sel.value = String(idx);
+    });
     document.getElementById('openDiagnosticSetupBtn').addEventListener('click', () => {
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.remove('hidden');

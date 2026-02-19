@@ -98,7 +98,7 @@
       "questions": [
         {"type": "makesentence", "prompt": "you / see / film / last week", "answers": ["I saw the film last week.", "I saw a film last week."], "explanation": "Last week → past simple."},
         {"type": "makesentence", "prompt": "she / live / here / five years (still lives here)", "answers": ["She has lived here for five years.", "She's lived here for five years."], "explanation": "Duration up to now → present perfect."},
-        {"type": "makesentence", "prompt": "you / ever / be / New York", "answers": ["I have ever been to New York.", "Have you ever been to New York?", "I have been to New York.", "I've been to New York."], "explanation": "Life experience: 'I have been to New York' or 'Have you ever been to New York?' – accepting first person."},
+        {"type": "makesentence", "prompt": "you / ever / be / New York (form the question)", "answers": ["Have you ever been to New York?", "Have you ever been to New York"], "explanation": "Life experience question: Have you ever been to ...? (ever with present perfect)."},
         {"type": "makesentence", "prompt": "they / just / arrive", "answers": ["They have just arrived.", "They've just arrived."], "explanation": "Just (recent) → present perfect."}
       ]
     },

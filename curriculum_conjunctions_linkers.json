@@ -19,6 +19,10 @@
         "content": "Linkers often start a **new sentence** or clause. They show the link to what went before:\n\n• **However** / **Nevertheless** – contrast: It was hard. **However**, we succeeded.\n• **Therefore** / **So** – result: It was late. **Therefore**, we left.\n• **Moreover** / **Furthermore** – addition: It's cheap. **Moreover**, it's good.\n• **For example** / **For instance** – example: I like fruit, **for example** apples and oranges.\n• **In fact** – emphasis: I liked it. **In fact**, I loved it.\n• **On the other hand** – contrast: It's expensive. **On the other hand**, it lasts.\n\nUse a **comma** after the linker when it starts a sentence: **However**, we agreed."
       },
       {
+        "title": "Linkers in essays and writing tasks",
+        "content": "In essays and other writing tasks, **linkers** help with **cohesion** and **coherence**.\n\n**Cohesion** means that sentences and paragraphs are clearly connected (e.g. *Furthermore*, *However*, *As a result*). The reader can see how one idea leads to the next.\n\n**Coherence** means that the text makes sense as a whole: the argument or narrative flows logically. Linkers signal the **structure** of your writing (introduction, main points, examples, contrast, conclusion) so the reader can follow your line of thought.\n\nUsing linkers well makes your writing easier to read and more persuasive. A **Reference** list of linkers and conjunctions (including four logical categories and linkers for essays) is available from **Reference** → **Linkers and Conjunctions**."
+      },
+      {
         "title": "Contrast, cause, and time",
         "content": "**Contrast:** but, although, though, however, whereas, while\n• **Although** it was cold, we went out. It was cold **but** we went out.\n• **Whereas** and **while** can contrast two things: She likes tea **whereas** he prefers coffee.\n\n**Cause and effect:** because, since, as, so, therefore\n• **Because** and **so** don't go together: Wrong: *Because* it rained, *so* we stayed. Right: **Because** it rained, we stayed. **Or:** It rained **so** we stayed.\n\n**Time:** when, while, before, after, until, as soon as\n• **When** = at that time; **while** = during (often with continuous): I read **while** she was cooking."
       },
@@ -126,32 +130,25 @@
           "type": "open",
           "question": "Fill in: It was difficult. _____, we managed to finish. (contrast)",
           "answers": [
-            "However",
-            "Nevertheless",
-            "However,",
-            "Nevertheless,"
+            "However"
           ],
-          "explanation": "However or Nevertheless shows contrast (difficult vs we managed)."
+          "explanation": "However shows contrast (difficult vs we managed)."
         },
         {
           "type": "open",
           "question": "Fill in: He didn't study. _____, he failed the exam. (result)",
           "answers": [
-            "Therefore",
-            "So",
-            "Therefore,",
-            "So,"
+            "Therefore"
           ],
-          "explanation": "Therefore or So shows result (didn't study → failed)."
+          "explanation": "Therefore shows result (didn't study → failed)."
         },
         {
           "type": "open",
           "question": "Fill in: I was reading _____ she was cooking. (at the same time)",
           "answers": [
-            "while",
-            "when"
+            "while"
           ],
-          "explanation": "While = during, two ongoing actions. When is also possible but while is clearer for simultaneous actions."
+          "explanation": "While = during, two ongoing actions."
         },
         {
           "type": "open",
@@ -179,32 +176,25 @@
           "type": "open",
           "question": "Fill in: The film was long. _____, it was very good.",
           "answers": [
-            "However",
-            "Nevertheless",
-            "On the other hand",
-            "However,",
-            "Nevertheless,",
-            "On the other hand,"
+            "However"
           ],
-          "explanation": "Contrast: long vs good. However, Nevertheless, or On the other hand."
+          "explanation": "Contrast: long vs good. However."
         },
         {
           "type": "open",
           "question": "Fill in: _____ you see him, tell him to call me.",
           "answers": [
-            "When",
-            "If"
+            "When"
           ],
-          "explanation": "When = at the time you see him. If = in case you see him. Both can work; when implies you expect to see him."
+          "explanation": "When = at the time you see him."
         },
         {
           "type": "open",
           "question": "Fill in: _____ it was expensive, we decided to buy it. (contrast)",
           "answers": [
-            "Although",
-            "Though"
+            "Although"
           ],
-          "explanation": "Although or Though introduces a contrast (expensive vs we bought it)."
+          "explanation": "Although introduces a contrast (expensive vs we bought it)."
         }
       ]
     },

@@ -134,11 +134,9 @@
           "type": "open",
           "question": "It ____ rain later, so take an umbrella. (possibility)",
           "answers": [
-            "may",
-            "might",
-            "could"
+            "might"
           ],
-          "explanation": "Possibility → **may**, **might**, or **could** + base verb."
+          "explanation": "Possibility → **might** (or may/could) + base verb."
         },
         {
           "type": "open",

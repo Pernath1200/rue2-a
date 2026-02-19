@@ -47,8 +47,8 @@
       {
         "type": "open",
         "question": "Complete: _____ long as you're careful, it's fine.",
-        "answers": ["As", "So"],
-        "explanation": "**As long as** or **so long as** = on condition that; provided that."
+        "answers": ["As"],
+        "explanation": "**As long as** = on condition that; provided that."
       }
     ]
   },
@@ -61,9 +61,9 @@
         { "type": "open", "question": "It is no _____ available.", "answers": ["longer"], "explanation": "**No longer** = not anymore." },
         { "type": "open", "question": "_____ fact, I've never been there.", "answers": ["In"], "explanation": "**In fact** = actually; in reality." },
         { "type": "open", "question": "_____ course, you're right.", "answers": ["Of"], "explanation": "**Of course** = certainly." },
-        { "type": "open", "question": "_____ long as we're together, I'm happy.", "answers": ["As", "So"], "explanation": "**As long as** or **so long as** = provided that." },
+        { "type": "open", "question": "_____ long as we're together, I'm happy.", "answers": ["As"], "explanation": "**As long as** = provided that." },
         { "type": "open", "question": "This is one _____ the best films I've seen.", "answers": ["of"], "explanation": "**One of the** (fixed phrase)." },
-        { "type": "open", "question": "_____ doing so, they saved time.", "answers": ["In", "By"], "explanation": "**In doing so** or **by doing so** = by doing that." }
+        { "type": "open", "question": "_____ doing so, they saved time.", "answers": ["By"], "explanation": "**By doing so** = by doing that." }
       ]
     },
     "gapfill_common": {
@@ -74,7 +74,7 @@
         { "type": "open", "question": "At _____, I didn't like him, but now I do.", "answers": ["first"], "explanation": "**At first** = in the beginning." },
         { "type": "open", "question": "_____ well as cooking, she cleans.", "answers": ["As"], "explanation": "**As well as** = in addition to." },
         { "type": "open", "question": "It was _____ first time I had flown.", "answers": ["the"], "explanation": "**The first time** (fixed phrase)." },
-        { "type": "open", "question": "_____ the end of the day, we were tired.", "answers": ["By", "At"], "explanation": "**By/At the end of** (fixed phrase)." }
+        { "type": "open", "question": "_____ the end of the day, we were tired.", "answers": ["By"], "explanation": "**By the end of the day** (fixed phrase)." }
       ]
     }
   }

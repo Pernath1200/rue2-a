@@ -162,11 +162,11 @@
         },
         {
           "type": "open",
-          "question": "The book is ____ the table.",
+          "question": "The book is lying ____ the table. (on the surface)",
           "answers": [
             "on"
           ],
-          "explanation": "We use **on** when something is on top of a surface (on the table, on the wall, on the floor). Use **in** for inside a space and **at** for a point or place as a meeting point."
+          "explanation": "We use **on** when something is on top of a surface (on the table, on the wall). 'Lying' implies contact with the surface → **on**."
         },
         {
           "type": "open",
@@ -242,11 +242,11 @@
         },
         {
           "type": "open",
-          "question": "The pen is ____ the desk.",
+          "question": "The pen is lying ____ the desk. (on the surface)",
           "answers": [
             "on"
           ],
-          "explanation": "On top of a surface → on."
+          "explanation": "On top of a surface → **on**. 'Lying' implies contact with the surface."
         },
         {
           "type": "open",
@@ -268,10 +268,9 @@
           "type": "open",
           "question": "We stayed ____ midnight.",
           "answers": [
-            "until",
-            "till"
+            "until"
           ],
-          "explanation": "Up to a time (we stayed up to midnight) → until or till."
+          "explanation": "Up to a time (we stayed up to midnight) → until."
         },
         {
           "type": "open",
@@ -429,10 +428,9 @@
           "type": "open",
           "question": "The temperature dropped ____ zero.",
           "answers": [
-            "below",
-            "under"
+            "below"
           ],
-          "explanation": "Lower than (temperature) → below or under."
+          "explanation": "Lower than (temperature) → below."
         },
         {
           "type": "open",
@@ -694,11 +692,11 @@
         },
         {
           "type": "open",
-          "question": "The book is ____ the table.",
+          "question": "The book is lying ____ the table. (on the surface)",
           "answers": [
             "on"
           ],
-          "explanation": "**on** – on a surface (on the table, on the wall)."
+          "explanation": "**on** – on a surface (on the table). 'Lying' implies contact with the surface."
         },
         {
           "type": "open",
@@ -920,10 +918,9 @@
           "type": "open",
           "question": "It costs ____ 10 pounds.",
           "answers": [
-            "around",
             "about"
           ],
-          "explanation": "**around** / **about** – approximately (around 10, about 5)."
+          "explanation": "**about** – approximately (about 10)."
         },
         {
           "type": "open",
@@ -961,8 +958,7 @@
           "type": "open",
           "question": "We stayed ____ midnight.",
           "answers": [
-            "until",
-            "till"
+            "until"
           ],
           "explanation": "**until** – up to a time (until midnight)."
         },
@@ -984,11 +980,11 @@
         },
         {
           "type": "open",
-          "question": "The keys are ____ the door.",
+          "question": "The keys are ____ the door. (We hid them at the back so nobody would see them.)",
           "answers": [
             "behind"
           ],
-          "explanation": "**behind** – at the back of (behind the door)."
+          "explanation": "**behind** – at the back of (behind the door). Context (hid at the back) rules out by, on, in."
         },
         {
           "type": "open",
@@ -1175,10 +1171,9 @@
           "type": "open",
           "question": "She dreams ____ travelling the world.",
           "answers": [
-            "of",
-            "about"
+            "of"
           ],
-          "explanation": "Dependent preposition (verb). Dream **of** or **about** something (dream of/about success). See Reference → Dependent prepositions: Verbs."
+          "explanation": "Dependent preposition (verb). Dream **of** something (dream of success). See Reference → Dependent prepositions: Verbs."
         },
         {
           "type": "open",
@@ -1354,10 +1349,9 @@
           "type": "open",
           "question": "He has a lot of experience ____ teaching.",
           "answers": [
-            "in",
-            "of"
+            "in"
           ],
-          "explanation": "Dependent preposition (noun). Experience **in** or **of** something (experience in marketing). See Reference → Dependent prepositions: Nouns."
+          "explanation": "Dependent preposition (noun). Experience **in** something (experience in teaching). See Reference → Dependent prepositions: Nouns."
         },
         {
           "type": "open",
@@ -1419,10 +1413,9 @@
           "type": "open",
           "question": "She gave a talk ____ climate change.",
           "answers": [
-            "on",
-            "about"
+            "on"
           ],
-          "explanation": "Dependent preposition (noun). Talk **on** or **about** something (a talk on/about health). See Reference → Dependent prepositions: Nouns."
+          "explanation": "Dependent preposition (noun). Talk **on** something (a talk on health). See Reference → Dependent prepositions: Nouns."
         },
         {
           "type": "open",

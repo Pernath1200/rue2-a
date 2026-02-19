@@ -390,7 +390,7 @@
         },
         {
           "type": "open",
-          "question": "4. The book is ____ the table.",
+          "question": "4. The book is lying ____ the table. (on the surface)",
           "answers": [
             "on"
           ],
@@ -470,7 +470,7 @@
         },
         {
           "type": "open",
-          "question": "14. The pen is ____ the desk.",
+          "question": "14. The pen is lying ____ the desk. (on the surface)",
           "answers": [
             "on"
           ],
@@ -496,10 +496,9 @@
           "type": "open",
           "question": "17. We stayed ____ midnight. (up to that time, left at or before)",
           "answers": [
-            "until",
-            "till"
+            "until"
           ],
-          "explanation": "Up to a time → until or till."
+          "explanation": "Up to a time → until (till is informal)."
         },
         {
           "type": "open",
@@ -519,12 +518,11 @@
         },
         {
           "type": "open",
-          "question": "2. We walked right ____ the park from one side to the other to reach the station.",
+          "question": "2. We walked right ____ the tunnel from one side to the other to reach the station.",
           "answers": [
-            "through",
-            "across"
+            "through"
           ],
-          "explanation": "We use **through** or **across** when we move from one side of an area to the other (through/across the park). **Through** often suggests being inside the space; **across** for crossing a surface or area. Use **along** for following a line (along the path)."
+          "explanation": "We use **through** when we move from one side to the other **inside** an enclosed space (through the tunnel, through the door). Use **across** for crossing a surface or open area (across the field); **along** for following a line (along the path)."
         }
       ]
     }
@@ -539,83 +537,65 @@
           "question": "1. Wrong: The book what I read was very long. Correct the sentence.",
           "answers": [
             "The book that I read was very long.",
-            "The book which I read was very long.",
-            "The book that I read was very long",
-            "The book which I read was very long"
+            "The book that I read was very long"
           ],
-          "explanation": "Use **that** or **which** for things, never **what** after a noun."
+          "explanation": "Use **that** (or which) for things, never **what** after a noun."
         },
         {
           "type": "open",
           "question": "2. Wrong: The man what I met yesterday is a doctor. Correct the sentence.",
           "answers": [
             "The man who I met yesterday is a doctor.",
-            "The man that I met yesterday is a doctor.",
-            "The man who I met yesterday is a doctor",
-            "The man that I met yesterday is a doctor"
+            "The man who I met yesterday is a doctor"
           ],
-          "explanation": "Use **who** or **that** for people, not **what**."
+          "explanation": "Use **who** (or that) for people, not **what**."
         },
         {
           "type": "open",
           "question": "3. Wrong: The film what we saw was really good. Correct the sentence.",
           "answers": [
             "The film that we saw was really good.",
-            "The film which we saw was really good.",
-            "The film that we saw was really good",
-            "The film which we saw was really good"
+            "The film that we saw was really good"
           ],
-          "explanation": "For things use **that** or **which**, never **what**."
+          "explanation": "For things use **that** (or which), never **what**."
         },
         {
           "type": "open",
           "question": "4. Wrong: The woman what works here is from Prague. Correct the sentence.",
           "answers": [
             "The woman who works here is from Prague.",
-            "The woman that works here is from Prague.",
-            "The woman who works here is from Prague",
-            "The woman that works here is from Prague"
+            "The woman who works here is from Prague"
           ],
-          "explanation": "For people use **who** or **that**, not **what**."
+          "explanation": "For people use **who** (or that), not **what**."
         },
         {
           "type": "open",
           "question": "5. Wrong: The house what I was born in is very old. Correct the sentence.",
           "answers": [
             "The house where I was born is very old.",
-            "The house that I was born in is very old.",
-            "The house which I was born in is very old.",
-            "The house where I was born is very old",
-            "The house that I was born in is very old",
-            "The house which I was born in is very old"
+            "The house where I was born is very old"
           ],
-          "explanation": "Use **where** or **that/which I was born in**, not **what**."
+          "explanation": "Use **where** for place (or that/which I was born in), not **what**."
         },
         {
           "type": "open",
           "question": "6. Wrong: The day what we arrived was Monday. Correct the sentence.",
           "answers": [
             "The day when we arrived was Monday.",
-            "The day that we arrived was Monday.",
-            "The day when we arrived was Monday",
-            "The day that we arrived was Monday"
+            "The day when we arrived was Monday"
           ],
-          "explanation": "For time use **when** or **that**, not **what**."
+          "explanation": "For time use **when** (or that), not **what**."
         },
         {
           "type": "open",
           "question": "7. Wrong: That's the reason what I left. Correct the sentence.",
           "answers": [
             "That's the reason why I left.",
-            "That is the reason why I left.",
-            "That's the reason that I left.",
-            "That is the reason that I left.",
             "That's the reason why I left",
-            "That is the reason why I left",
-            "That's the reason that I left",
-            "That is the reason that I left"
+            "That is the reason why I left.",
+            "That is the reason why I left"
           ],
-          "explanation": "For reason use **why** or **that**, not **what**."
+          "explanation": "For reason use **why** (or that), not **what**."
         },
         {
           "type": "open",
@@ -629,10 +609,9 @@
           "type": "open",
           "question": "9. The book ____ I bought yesterday is excellent. (Defining – identifies which book.)",
           "answers": [
-            "that",
-            "which"
+            "that"
           ],
-          "explanation": "Defining clause: **that** or **which** both correct. **That** more common in speech."
+          "explanation": "Defining clause: **that** (or which) identifies which book. **That** is preferred here."
         },
         {
           "type": "open",
@@ -646,10 +625,9 @@
           "type": "open",
           "question": "11. The laptop ____ I use for work has broken. (Defining – which one.)",
           "answers": [
-            "that",
-            "which"
+            "that"
           ],
-          "explanation": "Defining clause: **that** or **which** both correct."
+          "explanation": "Defining clause: **that** (or which) identifies which laptop."
         },
         {
           "type": "open",
@@ -663,10 +641,9 @@
           "type": "open",
           "question": "13. The document ____ you need is on the desk. (Defining.)",
           "answers": [
-            "that",
-            "which"
+            "that"
           ],
-          "explanation": "Defining clause: **that** or **which**."
+          "explanation": "Defining clause: **that** (or which) identifies which document."
         },
         {
           "type": "open",
@@ -680,10 +657,9 @@
           "type": "open",
           "question": "15. The woman ____ lives next door is very kind.",
           "answers": [
-            "who",
-            "that"
+            "who"
           ],
-          "explanation": "For people (subject): **who** or **that**."
+          "explanation": "For people (subject): **who** (or that in informal use)."
         },
         {
           "type": "open",
@@ -705,20 +681,17 @@
           "type": "open",
           "question": "18. I don't remember the day ____ we first met.",
           "answers": [
-            "when",
-            "that"
+            "when"
           ],
-          "explanation": "For time: **when** or **that**."
+          "explanation": "For time: **when** (or that in informal use)."
         },
         {
           "type": "open",
           "question": "19. The man ____ I spoke to was the manager.",
           "answers": [
-            "who",
-            "that",
-            "whom"
+            "who"
           ],
-          "explanation": "For people (object): **who**, **that**, or **whom**."
+          "explanation": "For people (object): **who** (or whom in formal use, or that)."
         },
         {
           "type": "open",
@@ -786,10 +759,9 @@
           "question": "6. That bag looks heavy. I ____ (carry) it for you. Put the verb in the correct tense.",
           "answers": [
             "will carry",
-            "'ll carry",
-            "can carry"
+            "'ll carry"
           ],
-          "explanation": "Offer: both will (I'll do it) and can (I'm able to) are natural here."
+          "explanation": "Offer at the moment of speaking → will (I'll do it)."
         },
         {
           "type": "open",
@@ -1355,10 +1327,9 @@
           "type": "open",
           "question": "10. My flat is ____ (far) from the centre than yours.",
           "answers": [
-            "farther",
-            "further"
+            "farther"
           ],
-          "explanation": "Far → farther/further. Word order: farther from X than Y."
+          "explanation": "Far → farther for physical distance. Word order: farther from X than Y."
         },
         {
           "type": "open",
@@ -2287,12 +2258,11 @@
         },
         {
           "type": "open",
-          "question": "17. Fill _____ this form. (complete)",
+          "question": "17. Fill _____ this form. (complete – one word)",
           "answers": [
-            "in",
-            "out"
+            "in"
           ],
-          "explanation": "Fill in / fill out = complete a form."
+          "explanation": "Fill in = complete (a form)."
         },
         {
           "type": "open",
@@ -2304,21 +2274,19 @@
         },
         {
           "type": "open",
-          "question": "19. Hold _____ a moment. (wait)",
+          "question": "19. Hold _____ a moment. (wait – one word)",
           "answers": [
-            "on",
-            "up"
+            "on"
           ],
-          "explanation": "Hold on or hold up = wait."
+          "explanation": "Hold on = wait (on the phone or in person)."
         },
         {
           "type": "open",
-          "question": "20. They set _____ early to reach the coast before lunch.",
+          "question": "20. They set _____ early to reach the coast before lunch. (one word)",
           "answers": [
-            "out",
-            "off"
+            "out"
           ],
-          "explanation": "Set out or set off = start a journey."
+          "explanation": "Set out = start a journey."
         },
         {
           "type": "open",
@@ -3426,10 +3394,9 @@
           "type": "open",
           "question": "9. \"Are you ready?\" → He asked me _____ I was ready.",
           "answers": [
-            "if",
-            "whether"
+            "if"
           ],
-          "explanation": "Yes/No reported: if or whether + statement order."
+          "explanation": "Yes/No reported: if (or whether) + statement order."
         },
         {
           "type": "open",
@@ -4145,36 +4112,27 @@
         },
         {
           "type": "open",
-          "question": "3. Fill in: It was difficult. _____, we managed to finish. (contrast)",
+          "question": "3. Fill in: It was difficult. _____, we managed to finish. (contrast – one linker at the start of the second sentence)",
           "answers": [
-            "However",
-            "Nevertheless",
-            "But",
-            "However,",
-            "Nevertheless,",
-            "But,"
+            "However"
           ],
-          "explanation": "However, Nevertheless, or But shows contrast (difficult vs we managed)."
+          "explanation": "However shows contrast (difficult vs we managed). Use a comma after the linker when it starts the sentence."
         },
         {
           "type": "open",
-          "question": "4. Fill in: He didn't study. _____, he failed the exam. (result)",
+          "question": "4. Fill in: He didn't study. _____, he failed the exam. (result – one linker at the start of the second sentence)",
           "answers": [
-            "Therefore",
-            "So",
-            "Therefore,",
-            "So,"
+            "Therefore"
           ],
-          "explanation": "Therefore or So shows result (didn't study → failed)."
+          "explanation": "Therefore shows result (didn't study → failed). Use a comma after the linker when it starts the sentence."
         },
         {
           "type": "open",
-          "question": "5. Fill in: I was reading _____ she was cooking. (at the same time)",
+          "question": "5. Fill in: I was reading _____ she was cooking. (at the same time; one word)",
           "answers": [
-            "while",
-            "when"
+            "while"
           ],
-          "explanation": "While = during, two ongoing actions. When is also possible but while is clearer for simultaneous actions."
+          "explanation": "While = during, two ongoing actions at the same time. When can mean 'at that time' but does not stress simultaneity as clearly."
         },
         {
           "type": "open",
@@ -4189,112 +4147,83 @@
         },
         {
           "type": "open",
-          "question": "7. Fill in: We need to hurry _____ we miss the train. (negative result to avoid)",
+          "question": "7. Fill in: We need to hurry _____ we'll miss the train. (negative result to avoid – one word)",
           "answers": [
-            "or",
-            "otherwise",
-            "or we will",
-            "otherwise we will"
+            "or"
           ],
-          "explanation": "Or or otherwise (+ we'll) = negative result to avoid. Both or and otherwise are correct."
+          "explanation": "Or links hurry with the negative result (we'll miss the train) to avoid."
         },
         {
           "type": "open",
-          "question": "8. Fill in: The film was long. _____, it was very good.",
+          "question": "8. Fill in: The film was long. _____, it was very good. (contrast – one linker at the start of the second sentence)",
           "answers": [
-            "However",
-            "Nevertheless",
-            "On the other hand",
-            "But",
-            "However,",
-            "Nevertheless,",
-            "On the other hand,",
-            "But,"
+            "However"
           ],
-          "explanation": "Contrast: long vs good. However, Nevertheless, On the other hand, or But."
+          "explanation": "However shows contrast (long vs very good). Use a comma after the linker when it starts the sentence."
         },
         {
           "type": "open",
-          "question": "9. Fill in: _____ you see him, tell him to call me.",
+          "question": "9. Fill in: _____ you see him next, tell him to call me. (at the time you see him – one word)",
           "answers": [
-            "When",
-            "If"
+            "When"
           ],
-          "explanation": "When = at the time you see him. If = in case you see him. Both can work."
+          "explanation": "When = at the time you see him. Here 'next' implies a future occasion, so when is the natural fit."
         },
         {
           "type": "open",
-          "question": "10. Fill in: _____ it was expensive, we decided to buy it. (contrast)",
+          "question": "10. Fill in: _____ it was expensive, we decided to buy it. (contrast – one word)",
           "answers": [
-            "Although",
-            "Though"
+            "Although"
           ],
-          "explanation": "Although or Though introduces a contrast (expensive vs we bought it)."
+          "explanation": "Although introduces a contrast (expensive vs we bought it)."
         },
         {
           "type": "open",
-          "question": "11. Fill in: She likes tea _____ he prefers coffee. (contrast)",
+          "question": "11. Fill in: She likes tea _____ he prefers coffee. (contrast – one word)",
           "answers": [
-            "whereas",
-            "while",
-            "but"
+            "whereas"
           ],
-          "explanation": "Whereas, while, or but shows contrast between two preferences."
+          "explanation": "Whereas shows contrast between two preferences (tea vs coffee)."
         },
         {
           "type": "open",
-          "question": "12. Fill in: I'll phone you _____ I get there. (at the moment of arrival)",
+          "question": "12. Fill in: I'll phone you _____ I get there. (at the moment of arrival – one word)",
           "answers": [
-            "when",
-            "as soon as",
-            "once"
+            "when"
           ],
-          "explanation": "When, as soon as, or once = subordinating conjunction, at that moment."
+          "explanation": "When = at that moment (I get there)."
         },
         {
           "type": "open",
-          "question": "13. Fill in: We left early _____ we wouldn't miss the bus. (purpose)",
+          "question": "13. Fill in: We left early _____ we wouldn't miss the bus. (purpose – two words)",
           "answers": [
-            "so that",
-            "in order that",
-            "so"
+            "so that"
           ],
-          "explanation": "Purpose → so that, in order that, or so + clause."
+          "explanation": "So that introduces a purpose clause (we wouldn't miss the bus)."
         },
         {
           "type": "open",
-          "question": "14. Fill in: We left early _____ miss the bus. (purpose)",
+          "question": "14. Fill in: We left early _____ miss the bus. (purpose, negative – four words: so as not to)",
           "answers": [
-            "so as not to",
-            "in order not to",
-            "to not",
-            "not to"
+            "so as not to"
           ],
-          "explanation": "Purpose + negative: to not, not to (common); so as not to, in order not to (more formal)."
+          "explanation": "So as not to = in order not to; purpose + negative infinitive."
         },
         {
           "type": "open",
-          "question": "15. Fill in: It's cheap. _____, it's good quality.",
+          "question": "15. Fill in: It's cheap. _____, it's good quality. (addition – one linker at the start of the second sentence)",
           "answers": [
-            "Moreover",
-            "Furthermore",
-            "Besides",
-            "Moreover,",
-            "Furthermore,",
-            "Besides,"
+            "Moreover"
           ],
-          "explanation": "Moreover, Furthermore, or Besides = addition."
+          "explanation": "Moreover adds a second positive point (cheap and good quality). Use a comma after the linker."
         },
         {
           "type": "open",
-          "question": "16. Fill in: I love fruit, _____ apples and oranges.",
+          "question": "16. Fill in: I love fruit, _____ apples and oranges. (introduce examples – two words)",
           "answers": [
-            "for example",
-            "for instance",
-            "such as",
-            "like"
+            "for example"
           ],
-          "explanation": "For example, for instance, such as, or like introduces examples."
+          "explanation": "For example introduces examples (apples and oranges)."
         },
         {
           "type": "open",
@@ -4306,12 +4235,11 @@
         },
         {
           "type": "open",
-          "question": "18. Fill in: Don't leave _____ I get back. (wait for me)",
+          "question": "18. Fill in: Don't leave _____ I get back. (wait for me – one word)",
           "answers": [
-            "until",
-            "before"
+            "until"
           ],
-          "explanation": "Wait up to that moment. Until or before = subordinating conjunction + clause. (Until introduces a time clause here.)"
+          "explanation": "Until = up to the moment I get back (don't leave before that)."
         },
         {
           "type": "open",
@@ -4326,13 +4254,11 @@
         },
         {
           "type": "open",
-          "question": "20. Fill in: He passed the exam _____ he had studied hard.",
+          "question": "20. Fill in: He passed the exam _____ he had studied hard. (reason – one word)",
           "answers": [
-            "because",
-            "since",
-            "as"
+            "because"
           ],
-          "explanation": "Because, since, or as = cause."
+          "explanation": "Because = cause (he had studied hard → he passed)."
         }
       ]
     }
@@ -4363,31 +4289,25 @@
           "type": "open",
           "question": "3. We ____ wear a uniform at school. (external rule)",
           "answers": [
-            "have to",
-            "must"
+            "have to"
           ],
-          "explanation": "External obligation (school rule) → have to or must."
+          "explanation": "External obligation (school rule) → have to (or must)."
         },
         {
           "type": "open",
           "question": "4. It ____ rain later, so take an umbrella. (possibility)",
           "answers": [
-            "may",
-            "might",
-            "could"
+            "might"
           ],
-          "explanation": "Possibility → may, might, or could + base verb."
+          "explanation": "Possibility → might (or may/could) + base verb."
         },
         {
           "type": "open",
           "question": "5. You ____ tell anyone – it's a secret. (obligation not to)",
           "answers": [
-            "must not",
-            "mustn't",
-            "cannot",
-            "can't"
+            "mustn't"
           ],
-          "explanation": "Obligation not to do something → must not or cannot."
+          "explanation": "Obligation not to do something → mustn't (must not)."
         },
         {
           "type": "open",
@@ -4409,38 +4329,33 @@
           "type": "open",
           "question": "8. You ____ be 18 to vote. (rule)",
           "answers": [
-            "must",
-            "have to"
+            "must"
           ],
-          "explanation": "Obligation/rule → must or have to."
+          "explanation": "Obligation/rule → must (or have to)."
         },
         {
           "type": "open",
           "question": "9. It ____ be true! (disbelief)",
           "answers": [
-            "can't",
-            "cannot"
+            "can't"
           ],
-          "explanation": "Negative deduction → can't/cannot."
+          "explanation": "Negative deduction → can't (cannot)."
         },
         {
           "type": "open",
           "question": "10. ____ I use your phone? (permission)",
           "answers": [
-            "may",
-            "can",
-            "could"
+            "can"
           ],
-          "explanation": "Permission → may, can, or could."
+          "explanation": "Permission → can (or may/could)."
         },
         {
           "type": "open",
           "question": "11. We ____ leave now or we'll be late. (necessity)",
           "answers": [
-            "must",
-            "have to"
+            "must"
           ],
-          "explanation": "Necessity → must or have to."
+          "explanation": "Necessity → must (or have to)."
         },
         {
           "type": "open",
@@ -4454,29 +4369,25 @@
           "type": "open",
           "question": "13. You ____ see a doctor. (strong advice)",
           "answers": [
-            "should",
-            "ought to"
+            "should"
           ],
-          "explanation": "Advice → should or ought to."
+          "explanation": "Advice → should (or ought to)."
         },
         {
           "type": "open",
           "question": "14. ____ you help me, please? (request)",
           "answers": [
-            "could",
-            "can",
-            "would"
+            "could"
           ],
-          "explanation": "Polite request → could, can, or would."
+          "explanation": "Polite request → could (or can/would)."
         },
         {
           "type": "open",
           "question": "15. I ____ to go now. (necessity, have to)",
           "answers": [
-            "have to",
-            "have got to"
+            "have to"
           ],
-          "explanation": "Necessity → have to."
+          "explanation": "Necessity → have to (or have got to)."
         },
         {
           "type": "open",
@@ -4490,20 +4401,17 @@
           "type": "open",
           "question": "17. They ____ be at home. (possibility)",
           "answers": [
-            "might",
-            "may",
-            "could"
+            "might"
           ],
-          "explanation": "Possibility → might, may, or could."
+          "explanation": "Possibility → might (or may/could)."
         },
         {
           "type": "open",
           "question": "18. You ____ not park here. (prohibition)",
           "answers": [
-            "must",
-            "may"
+            "must"
           ],
-          "explanation": "Prohibition → must not or may not."
+          "explanation": "Prohibition → must not (or may not)."
         },
         {
           "type": "open",
@@ -5065,9 +4973,9 @@
         { "type": "open", "question": "2. It is no _____ available.", "answers": ["longer"], "explanation": "**No longer** = not anymore." },
         { "type": "open", "question": "3. _____ fact, I've never been there.", "answers": ["In"], "explanation": "**In fact** = actually." },
         { "type": "open", "question": "4. _____ course, you're right.", "answers": ["Of"], "explanation": "**Of course** = certainly." },
-        { "type": "open", "question": "5. _____ long as we're together, I'm happy.", "answers": ["As", "So"], "explanation": "**As long as** or **so long as** = provided that." },
+        { "type": "open", "question": "5. _____ long as we're together, I'm happy.", "answers": ["As"], "explanation": "**As long as** = provided that." },
         { "type": "open", "question": "6. This is one _____ the best films I've seen.", "answers": ["of"], "explanation": "**One of the** (fixed phrase)." },
-        { "type": "open", "question": "7. _____ doing so, they saved time.", "answers": ["In", "By"], "explanation": "**In doing so** or **by doing so** = by doing that." },
+        { "type": "open", "question": "7. _____ doing so, they saved time.", "answers": ["By"], "explanation": "**By doing so** = by doing that." },
         { "type": "open", "question": "8. In spite _____ the rain, we went out.", "answers": ["of"], "explanation": "**In spite of** = despite." },
         { "type": "open", "question": "9. _____ addition to English, she speaks Spanish.", "answers": ["In"], "explanation": "**In addition to** = as well as." },
         { "type": "open", "question": "10. At _____, I didn't like him.", "answers": ["first"], "explanation": "**At first** = in the beginning." }
