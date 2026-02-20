@@ -570,7 +570,7 @@
         {"type": "open", "question": "38. What was the cause ____ the accident?", "answers": ["of"], "explanation": "Dependent preposition (noun): cause **of** something."},
         {"type": "open", "question": "39. She made a comment ____ the report.", "answers": ["on"], "explanation": "Dependent preposition (noun): comment **on** something."},
         {"type": "open", "question": "40. There was a complaint ____ the service.", "answers": ["about"], "explanation": "Dependent preposition (noun): complaint **about** something."},
-        {"type": "open", "question": "41. There is concern ____ the environment.", "answers": ["about"], "explanation": "Dependent preposition (noun): concern **about** or **for** something."},
+        {"type": "open", "question": "41. There is concern ____ the environment.", "answers": ["about", "for"], "explanation": "Dependent preposition (noun): concern **about** or **for** something."},
         {"type": "open", "question": "42. There's a connection ____ the two events.", "answers": ["between"], "explanation": "Dependent preposition (noun): connection **with** or **between**."},
         {"type": "open", "question": "43. Keep in contact ____ old friends.", "answers": ["with"], "explanation": "Dependent preposition (noun): contact **with** someone."},
         {"type": "open", "question": "44. There was damage ____ the building.", "answers": ["to"], "explanation": "Dependent preposition (noun): damage **to** something."},
@@ -1943,7 +1943,7 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. I have _____ milk in the fridge. (Fill in the blank.)",
+          "question": "1. (Positive statement – you have a certain amount.) I have _____ milk in the fridge. (Fill in the blank.)",
           "answers": [
             "some"
           ],
@@ -2081,7 +2081,7 @@
         },
         {
           "type": "open",
-          "question": "18. There are _____ chairs in the room. (Fill in the blank.)",
+          "question": "18. (Positive.) There are _____ chairs in the room. (Fill in the blank.)",
           "answers": [
             "some"
           ],
@@ -2145,7 +2145,7 @@
         },
         {
           "type": "open",
-          "question": "5. We _____ (have) dinner at 8 pm last night. Put the verb in the correct tense.",
+          "question": "5. (We were in the middle of dinner at that moment.) We _____ (have) dinner at 8 pm last night. Put the verb in the correct tense.",
           "answers": [
             "were having"
           ],
@@ -2194,11 +2194,11 @@
         },
         {
           "type": "open",
-          "question": "11. At 9 pm she _____ (still work). Put the verb in the correct tense.",
+          "question": "11. (Yesterday evening.) At 9 pm she _____ (still work). Put the verb in the correct tense.",
           "answers": [
             "was still working"
           ],
-          "explanation": "In progress at a moment → past continuous."
+          "explanation": "In progress at a moment in the past → past continuous."
         },
         {
           "type": "open",
@@ -5319,7 +5319,7 @@
         },
         {
           "type": "open",
-          "question": "2. By 9 o'clock he _____ (finish) his homework. Put the verb in the correct tense.",
+          "question": "2. (That evening.) By 9 o'clock he _____ (finish) his homework. Put the verb in the correct tense.",
           "answers": [
             "had finished"
           ],
