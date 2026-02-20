@@ -223,12 +223,12 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'have been eating.' Correct the sentence.",
+          "question": "Wrong: 'I have been eating. I'm not hungry now.' Correct the sentence.",
           "answers": [
-            "have eaten",
-            "have eaten"
+            "I have eaten. I'm not hungry now.",
+            "I have eaten. I'm not hungry now"
           ],
-          "explanation": "Result now (not hungry) → present perfect."
+          "explanation": "Result now (not hungry) → present perfect simple (have eaten). Use present perfect continuous (have been eating) for an activity over a period, not for a result in the present."
         },
         {
           "type": "open",
@@ -524,6 +524,165 @@
           ],
           "explanation": "We use **through** when we move from one side to the other **inside** an enclosed space (through the tunnel, through the door). Use **across** for crossing a surface or open area (across the field); **along** for following a line (along the path)."
         }
+      ]
+    },
+    "set2": {
+      "title": "Prepositions: Dependent (Verbs, nouns, adjectives)",
+      "summary": "Gap fill: one preposition per collocation from the Reference list (verb + prep, noun + prep, adjective + prep).",
+      "questions": [
+        {"type": "open", "question": "1. They accused him ____ stealing.", "answers": ["of"], "explanation": "Dependent preposition (verb): accuse someone **of** something."},
+        {"type": "open", "question": "2. She apologised ____ being late.", "answers": ["for"], "explanation": "Dependent preposition (verb): apologise **for** something."},
+        {"type": "open", "question": "3. He applied ____ the job.", "answers": ["for"], "explanation": "Dependent preposition (verb): apply **for** a job or visa."},
+        {"type": "open", "question": "4. She doesn't approve ____ smoking.", "answers": ["of"], "explanation": "Dependent preposition (verb): approve **of** something."},
+        {"type": "open", "question": "5. We arrived ____ the station.", "answers": ["at"], "explanation": "Dependent preposition (verb): arrive **at** a place."},
+        {"type": "open", "question": "6. They arrived ____ London.", "answers": ["in"], "explanation": "Dependent preposition (verb): arrive **in** a city or country."},
+        {"type": "open", "question": "7. She asked ____ help.", "answers": ["for"], "explanation": "Dependent preposition (verb): ask **for** something."},
+        {"type": "open", "question": "8. I believe ____ justice.", "answers": ["in"], "explanation": "Dependent preposition (verb): believe **in** something."},
+        {"type": "open", "question": "9. This book belongs ____ me.", "answers": ["to"], "explanation": "Dependent preposition (verb): belong **to** someone."},
+        {"type": "open", "question": "10. We all benefited ____ the course.", "answers": ["from"], "explanation": "Dependent preposition (verb): benefit **from** something."},
+        {"type": "open", "question": "11. He cares ____ the environment.", "answers": ["about"], "explanation": "Dependent preposition (verb): care **about** something."},
+        {"type": "open", "question": "12. She refused to comment ____ the report.", "answers": ["on"], "explanation": "Dependent preposition (verb): comment **on** something."},
+        {"type": "open", "question": "13. They complained ____ the noise.", "answers": ["about"], "explanation": "Dependent preposition (verb): complain **about** something."},
+        {"type": "open", "question": "14. She complained ____ the manager.", "answers": ["to"], "explanation": "Dependent preposition (verb): complain **to** someone."},
+        {"type": "open", "question": "15. Concentrate ____ your work.", "answers": ["on"], "explanation": "Dependent preposition (verb): concentrate **on** something."},
+        {"type": "open", "question": "16. She congratulated him ____ passing the exam.", "answers": ["on"], "explanation": "Dependent preposition (verb): congratulate someone **on** something."},
+        {"type": "open", "question": "17. The team consists ____ ten members.", "answers": ["of"], "explanation": "Dependent preposition (verb): consist **of** something."},
+        {"type": "open", "question": "18. We need to deal ____ this problem.", "answers": ["with"], "explanation": "Dependent preposition (verb): deal **with** something."},
+        {"type": "open", "question": "19. We decided ____ a date.", "answers": ["on"], "explanation": "Dependent preposition (verb): decide **on** something."},
+        {"type": "open", "question": "20. It depends ____ the weather.", "answers": ["on"], "explanation": "Dependent preposition (verb): depend **on** something."},
+        {"type": "open", "question": "21. She dreams ____ travelling the world.", "answers": ["of"], "explanation": "Dependent preposition (verb): dream **of** or **about** something."},
+        {"type": "open", "question": "22. They escaped ____ the building.", "answers": ["from"], "explanation": "Dependent preposition (verb): escape **from** something."},
+        {"type": "open", "question": "23. Focus ____ the main point.", "answers": ["on"], "explanation": "Dependent preposition (verb): focus **on** something."},
+        {"type": "open", "question": "24. I heard ____ the accident.", "answers": ["about"], "explanation": "Dependent preposition (verb): hear **about** (learn about) something."},
+        {"type": "open", "question": "25. We haven't heard ____ him for weeks.", "answers": ["from"], "explanation": "Dependent preposition (verb): hear **from** someone."},
+        {"type": "open", "question": "26. She insisted ____ paying.", "answers": ["on"], "explanation": "Dependent preposition (verb): insist **on** something."},
+        {"type": "open", "question": "27. They invested ____ property.", "answers": ["in"], "explanation": "Dependent preposition (verb): invest **in** something."},
+        {"type": "open", "question": "28. She invited me ____ the party.", "answers": ["to"], "explanation": "Dependent preposition (verb): invite someone **to** something."},
+        {"type": "open", "question": "29. Listen ____ the radio.", "answers": ["to"], "explanation": "Dependent preposition (verb): listen **to** something."},
+        {"type": "open", "question": "30. Look ____ the board.", "answers": ["at"], "explanation": "Dependent preposition (verb): look **at** something."},
+        {"type": "open", "question": "31. I'm looking ____ my keys.", "answers": ["for"], "explanation": "Dependent preposition (verb): look **for** something."},
+        {"type": "open", "question": "32. He objected ____ the proposal.", "answers": ["to"], "explanation": "Dependent preposition (verb): object **to** something."},
+        {"type": "open", "question": "33. I'll pay ____ the tickets.", "answers": ["for"], "explanation": "Dependent preposition (verb): pay **for** something."},
+        {"type": "open", "question": "34. We're preparing ____ the exam.", "answers": ["for"], "explanation": "Dependent preposition (verb): prepare **for** something."},
+        {"type": "open", "question": "35. The answer ____ the question is on page 5.", "answers": ["to"], "explanation": "Dependent preposition (noun): answer **to** something."},
+        {"type": "open", "question": "36. We need a new approach ____ the problem.", "answers": ["to"], "explanation": "Dependent preposition (noun): approach **to** something."},
+        {"type": "open", "question": "37. She has a positive attitude ____ work.", "answers": ["to"], "explanation": "Dependent preposition (noun): attitude **to** or **towards** something."},
+        {"type": "open", "question": "38. What was the cause ____ the accident?", "answers": ["of"], "explanation": "Dependent preposition (noun): cause **of** something."},
+        {"type": "open", "question": "39. She made a comment ____ the report.", "answers": ["on"], "explanation": "Dependent preposition (noun): comment **on** something."},
+        {"type": "open", "question": "40. There was a complaint ____ the service.", "answers": ["about"], "explanation": "Dependent preposition (noun): complaint **about** something."},
+        {"type": "open", "question": "41. There is concern ____ the environment.", "answers": ["about"], "explanation": "Dependent preposition (noun): concern **about** or **for** something."},
+        {"type": "open", "question": "42. There's a connection ____ the two events.", "answers": ["between"], "explanation": "Dependent preposition (noun): connection **with** or **between**."},
+        {"type": "open", "question": "43. Keep in contact ____ old friends.", "answers": ["with"], "explanation": "Dependent preposition (noun): contact **with** someone."},
+        {"type": "open", "question": "44. There was damage ____ the building.", "answers": ["to"], "explanation": "Dependent preposition (noun): damage **to** something."},
+        {"type": "open", "question": "45. There's a demand ____ better transport.", "answers": ["for"], "explanation": "Dependent preposition (noun): demand **for** something."},
+        {"type": "open", "question": "46. What's the difference ____ the two versions?", "answers": ["between"], "explanation": "Dependent preposition (noun): difference **between** things."},
+        {"type": "open", "question": "47. He has difficulty ____ spelling.", "answers": ["with"], "explanation": "Dependent preposition (noun): difficulty **in** or **with** something."},
+        {"type": "open", "question": "48. We had a discussion ____ the budget.", "answers": ["about"], "explanation": "Dependent preposition (noun): discussion **about** or **on** something."},
+        {"type": "open", "question": "49. The drug has an effect ____ patients.", "answers": ["on"], "explanation": "Dependent preposition (noun): effect **on** something."},
+        {"type": "open", "question": "50. She has experience ____ teaching.", "answers": ["in"], "explanation": "Dependent preposition (noun): experience **in** or **of** something."},
+        {"type": "open", "question": "51. She has a fear ____ flying.", "answers": ["of"], "explanation": "Dependent preposition (noun): fear **of** something."},
+        {"type": "open", "question": "52. Social media has an impact ____ society.", "answers": ["on"], "explanation": "Dependent preposition (noun): impact **on** something."},
+        {"type": "open", "question": "53. There was an increase ____ prices.", "answers": ["in"], "explanation": "Dependent preposition (noun): increase **in** something."},
+        {"type": "open", "question": "54. She has an interest ____ art.", "answers": ["in"], "explanation": "Dependent preposition (noun): interest **in** something."},
+        {"type": "open", "question": "55. I received an invitation ____ the wedding.", "answers": ["to"], "explanation": "Dependent preposition (noun): invitation **to** something."},
+        {"type": "open", "question": "56. Hard work is the key ____ success.", "answers": ["to"], "explanation": "Dependent preposition (noun): key **to** something."},
+        {"type": "open", "question": "57. There's a lack ____ time.", "answers": ["of"], "explanation": "Dependent preposition (noun): lack **of** something."},
+        {"type": "open", "question": "58. There's a link ____ diet and health.", "answers": ["between"], "explanation": "Dependent preposition (noun): link **between** or **with**."},
+        {"type": "open", "question": "59. There's a need ____ more staff.", "answers": ["for"], "explanation": "Dependent preposition (noun): need **for** something."},
+        {"type": "open", "question": "60. What was her reaction ____ the news?", "answers": ["to"], "explanation": "Dependent preposition (noun): reaction **to** something."},
+        {"type": "open", "question": "61. What's the reason ____ the delay?", "answers": ["for"], "explanation": "Dependent preposition (noun): reason **for** something."},
+        {"type": "open", "question": "62. She has a good relationship ____ her boss.", "answers": ["with"], "explanation": "Dependent preposition (noun): relationship **with** someone."},
+        {"type": "open", "question": "63. I'm waiting for a reply ____ your email.", "answers": ["to"], "explanation": "Dependent preposition (noun): reply **to** something."},
+        {"type": "open", "question": "64. We sent a request ____ information.", "answers": ["for"], "explanation": "Dependent preposition (noun): request **for** something."},
+        {"type": "open", "question": "65. They're doing research ____ climate change.", "answers": ["into"], "explanation": "Dependent preposition (noun): research **into** or **on** something."},
+        {"type": "open", "question": "66. The government's response ____ the crisis was slow.", "answers": ["to"], "explanation": "Dependent preposition (noun): response **to** something."},
+        {"type": "open", "question": "67. What was the result ____ the election?", "answers": ["of"], "explanation": "Dependent preposition (noun): result **of** something."},
+        {"type": "open", "question": "68. She's afraid ____ spiders.", "answers": ["of"], "explanation": "Dependent preposition (adjective): afraid **of** something."},
+        {"type": "open", "question": "69. I'm allergic ____ nuts.", "answers": ["to"], "explanation": "Dependent preposition (adjective): allergic **to** something."},
+        {"type": "open", "question": "70. He's angry ____ the delay.", "answers": ["about"], "explanation": "Dependent preposition (adjective): angry **about** something."},
+        {"type": "open", "question": "71. She's angry ____ me.", "answers": ["with"], "explanation": "Dependent preposition (adjective): angry **with** someone."},
+        {"type": "open", "question": "72. I'm annoyed ____ the mistake.", "answers": ["about"], "explanation": "Dependent preposition (adjective): annoyed **about** something."},
+        {"type": "open", "question": "73. She's annoyed ____ the children.", "answers": ["with"], "explanation": "Dependent preposition (adjective): annoyed **with** someone."},
+        {"type": "open", "question": "74. She's anxious ____ the exam.", "answers": ["about"], "explanation": "Dependent preposition (adjective): anxious **about** something."},
+        {"type": "open", "question": "75. He's aware ____ the problem.", "answers": ["of"], "explanation": "Dependent preposition (adjective): aware **of** something."},
+        {"type": "open", "question": "76. He's bad ____ remembering names.", "answers": ["at"], "explanation": "Dependent preposition (adjective): bad **at** something."},
+        {"type": "open", "question": "77. She's capable ____ doing the job.", "answers": ["of"], "explanation": "Dependent preposition (adjective): capable **of** something."},
+        {"type": "open", "question": "78. I'm not certain ____ the date.", "answers": ["about"], "explanation": "Dependent preposition (adjective): certain **about** something."},
+        {"type": "open", "question": "79. She's clever ____ maths.", "answers": ["at"], "explanation": "Dependent preposition (adjective): clever **at** something."},
+        {"type": "open", "question": "80. The issue is connected ____ funding.", "answers": ["with"], "explanation": "Dependent preposition (adjective): connected **with** something."},
+        {"type": "open", "question": "81. He's conscious ____ his weight.", "answers": ["of"], "explanation": "Dependent preposition (adjective): conscious **of** something."},
+        {"type": "open", "question": "82. I'm content ____ the result.", "answers": ["with"], "explanation": "Dependent preposition (adjective): content **with** something."},
+        {"type": "open", "question": "83. She's curious ____ the new system.", "answers": ["about"], "explanation": "Dependent preposition (adjective): curious **about** something."},
+        {"type": "open", "question": "84. It's different ____ what I expected.", "answers": ["from"], "explanation": "Dependent preposition (adjective): different **from** or **to** something."},
+        {"type": "open", "question": "85. She's disappointed ____ her score.", "answers": ["with"], "explanation": "Dependent preposition (adjective): disappointed **with** or **in** something."},
+        {"type": "open", "question": "86. They're excited ____ the trip.", "answers": ["about"], "explanation": "Dependent preposition (adjective): excited **about** something."},
+        {"type": "open", "question": "87. Are you familiar ____ the system?", "answers": ["with"], "explanation": "Dependent preposition (adjective): familiar **with** something."},
+        {"type": "open", "question": "88. He's famous ____ his novels.", "answers": ["for"], "explanation": "Dependent preposition (adjective): famous **for** something."},
+        {"type": "open", "question": "89. I'm fed up ____ the noise.", "answers": ["with"], "explanation": "Dependent preposition (adjective): fed up **with** something."},
+        {"type": "open", "question": "90. The room was full ____ people.", "answers": ["of"], "explanation": "Dependent preposition (adjective): full **of** something."},
+        {"type": "open", "question": "91. She's good ____ maths.", "answers": ["at"], "explanation": "Dependent preposition (adjective): good **at** a subject or skill."},
+        {"type": "open", "question": "92. Exercise is good ____ you.", "answers": ["for"], "explanation": "Dependent preposition (adjective): good **for** (beneficial for) someone."},
+        {"type": "open", "question": "93. She's good ____ children.", "answers": ["with"], "explanation": "Dependent preposition (adjective): good **with** people or things."},
+        {"type": "open", "question": "94. We're grateful ____ your help.", "answers": ["for"], "explanation": "Dependent preposition (adjective): grateful **for** something."},
+        {"type": "open", "question": "95. He was found guilty ____ fraud.", "answers": ["of"], "explanation": "Dependent preposition (adjective): guilty **of** something."},
+        {"type": "open", "question": "96. I'm interested ____ history.", "answers": ["in"], "explanation": "Dependent preposition (adjective): interested **in** something."},
+        {"type": "open", "question": "97. He's jealous ____ her success.", "answers": ["of"], "explanation": "Dependent preposition (adjective): jealous **of** something."},
+        {"type": "open", "question": "98. They're keen ____ starting soon.", "answers": ["on"], "explanation": "Dependent preposition (adjective): keen **on** something."},
+        {"type": "open", "question": "99. She's always kind ____ animals.", "answers": ["to"], "explanation": "Dependent preposition (adjective): kind **to** someone or something."},
+        {"type": "open", "question": "100. She's married ____ a doctor.", "answers": ["to"], "explanation": "Dependent preposition (adjective): married **to** someone."},
+        {"type": "open", "question": "101. Sunscreen protects you ____ the sun.", "answers": ["from"], "explanation": "Dependent preposition (verb): protect someone **from** something."},
+        {"type": "open", "question": "102. She's recovering ____ the operation.", "answers": ["from"], "explanation": "Dependent preposition (verb): recover **from** something."},
+        {"type": "open", "question": "103. He referred ____ his notes.", "answers": ["to"], "explanation": "Dependent preposition (verb): refer **to** something."},
+        {"type": "open", "question": "104. You can rely ____ me.", "answers": ["on"], "explanation": "Dependent preposition (verb): rely **on** someone."},
+        {"type": "open", "question": "105. That song reminds me ____ summer.", "answers": ["of"], "explanation": "Dependent preposition (verb): remind someone **of** something."},
+        {"type": "open", "question": "106. They're searching ____ the missing child.", "answers": ["for"], "explanation": "Dependent preposition (verb): search **for** something."},
+        {"type": "open", "question": "107. I need to speak ____ the manager.", "answers": ["to"], "explanation": "Dependent preposition (verb): speak **to** or **with** someone."},
+        {"type": "open", "question": "108. She specialises ____ tax law.", "answers": ["in"], "explanation": "Dependent preposition (verb): specialise **in** something."},
+        {"type": "open", "question": "109. He succeeded ____ passing the exam.", "answers": ["in"], "explanation": "Dependent preposition (verb): succeed **in** something."},
+        {"type": "open", "question": "110. He suffers ____ headaches.", "answers": ["from"], "explanation": "Dependent preposition (verb): suffer **from** something."},
+        {"type": "open", "question": "111. She took part ____ the discussion.", "answers": ["in"], "explanation": "Dependent preposition (verb): take part **in** something."},
+        {"type": "open", "question": "112. We talked ____ the project.", "answers": ["about"], "explanation": "Dependent preposition (verb): talk **about** something."},
+        {"type": "open", "question": "113. I'll think ____ your offer.", "answers": ["about"], "explanation": "Dependent preposition (verb): think **about** something."},
+        {"type": "open", "question": "114. We're waiting ____ the bus.", "answers": ["for"], "explanation": "Dependent preposition (verb): wait **for** someone or something."},
+        {"type": "open", "question": "115. She wished ____ good weather.", "answers": ["for"], "explanation": "Dependent preposition (verb): wish **for** something."},
+        {"type": "open", "question": "116. Don't worry ____ it.", "answers": ["about"], "explanation": "Dependent preposition (verb): worry **about** something."},
+        {"type": "open", "question": "117. There was a rise ____ unemployment.", "answers": ["in"], "explanation": "Dependent preposition (noun): rise **in** something."},
+        {"type": "open", "question": "118. We need a solution ____ this problem.", "answers": ["to"], "explanation": "Dependent preposition (noun): solution **to** something."},
+        {"type": "open", "question": "119. She has a talent ____ music.", "answers": ["for"], "explanation": "Dependent preposition (noun): talent **for** something."},
+        {"type": "open", "question": "120. He gave a talk ____ climate change.", "answers": ["on"], "explanation": "Dependent preposition (noun): talk **on** or **about** something."},
+        {"type": "open", "question": "121. It's a way ____ solving the problem.", "answers": ["of"], "explanation": "Dependent preposition (noun): way **of** doing something."},
+        {"type": "open", "question": "122. The advantage ____ living in the city is the transport.", "answers": ["of"], "explanation": "Dependent preposition (noun): advantage **of** something."},
+        {"type": "open", "question": "123. We need to raise awareness ____ the issue.", "answers": ["of"], "explanation": "Dependent preposition (noun): awareness **of** something."},
+        {"type": "open", "question": "124. He has a belief ____ democracy.", "answers": ["in"], "explanation": "Dependent preposition (noun): belief **in** something."},
+        {"type": "open", "question": "125. She made a contribution ____ the project.", "answers": ["to"], "explanation": "Dependent preposition (noun): contribution **to** something."},
+        {"type": "open", "question": "126. Her dedication ____ her work is impressive.", "answers": ["to"], "explanation": "Dependent preposition (noun): dedication **to** something."},
+        {"type": "open", "question": "127. Can you give a description ____ the suspect?", "answers": ["of"], "explanation": "Dependent preposition (noun): description **of** something."},
+        {"type": "open", "question": "128. There was evidence ____ his guilt.", "answers": ["of"], "explanation": "Dependent preposition (noun): evidence **of** something."},
+        {"type": "open", "question": "129. This is an example ____ good practice.", "answers": ["of"], "explanation": "Dependent preposition (noun): example **of** something."},
+        {"type": "open", "question": "130. She has good knowledge ____ the subject.", "answers": ["of"], "explanation": "Dependent preposition (noun): knowledge **of** something."},
+        {"type": "open", "question": "131. There was opposition ____ the plan.", "answers": ["to"], "explanation": "Dependent preposition (noun): opposition **to** something."},
+        {"type": "open", "question": "132. She has a preference ____ tea over coffee.", "answers": ["for"], "explanation": "Dependent preposition (noun): preference **for** something."},
+        {"type": "open", "question": "133. There was a reduction ____ costs.", "answers": ["in"], "explanation": "Dependent preposition (noun): reduction **in** something."},
+        {"type": "open", "question": "134. I'm nervous ____ the interview.", "answers": ["about"], "explanation": "Dependent preposition (adjective): nervous **about** something."},
+        {"type": "open", "question": "135. She's pleased ____ her results.", "answers": ["with"], "explanation": "Dependent preposition (adjective): pleased **with** something."},
+        {"type": "open", "question": "136. The app is popular ____ teenagers.", "answers": ["with"], "explanation": "Dependent preposition (adjective): popular **with** someone."},
+        {"type": "open", "question": "137. He's proud ____ his daughter.", "answers": ["of"], "explanation": "Dependent preposition (adjective): proud **of** someone or something."},
+        {"type": "open", "question": "138. Are you ready ____ the test?", "answers": ["for"], "explanation": "Dependent preposition (adjective): ready **for** something."},
+        {"type": "open", "question": "139. She's responsible ____ the project.", "answers": ["for"], "explanation": "Dependent preposition (adjective): responsible **for** something."},
+        {"type": "open", "question": "140. The manager is responsible ____ the board.", "answers": ["to"], "explanation": "Dependent preposition (adjective): responsible **to** (answerable to) someone."},
+        {"type": "open", "question": "141. We're satisfied ____ the service.", "answers": ["with"], "explanation": "Dependent preposition (adjective): satisfied **with** something."},
+        {"type": "open", "question": "142. He's serious ____ his career.", "answers": ["about"], "explanation": "Dependent preposition (adjective): serious **about** something."},
+        {"type": "open", "question": "143. Your bag is similar ____ mine.", "answers": ["to"], "explanation": "Dependent preposition (adjective): similar **to** something."},
+        {"type": "open", "question": "144. I'm sorry ____ the mess.", "answers": ["about"], "explanation": "Dependent preposition (adjective): sorry **about** something."},
+        {"type": "open", "question": "145. I feel sorry ____ him.", "answers": ["for"], "explanation": "Dependent preposition (adjective): sorry **for** (feel pity for) someone."},
+        {"type": "open", "question": "146. This film is not suitable ____ children.", "answers": ["for"], "explanation": "Dependent preposition (adjective): suitable **for** something."},
+        {"type": "open", "question": "147. I'm sure ____ the time.", "answers": ["about"], "explanation": "Dependent preposition (adjective): sure **about** or **of** something."},
+        {"type": "open", "question": "148. We were surprised ____ the news.", "answers": ["at"], "explanation": "Dependent preposition (adjective): surprised **at** or **by** something."},
+        {"type": "open", "question": "149. I'm tired ____ waiting.", "answers": ["of"], "explanation": "Dependent preposition (adjective): tired **of** (bored with) something."},
+        {"type": "open", "question": "150. I'm tired ____ the journey.", "answers": ["from"], "explanation": "Dependent preposition (adjective): tired **from** (physically tired because of) something."},
+        {"type": "open", "question": "151. That's typical ____ him.", "answers": ["of"], "explanation": "Dependent preposition (adjective): typical **of** someone or something."},
+        {"type": "open", "question": "152. I'm used ____ getting up early.", "answers": ["to"], "explanation": "Dependent preposition (adjective): used **to** (accustomed to) something."},
+        {"type": "open", "question": "153. We're worried ____ the results.", "answers": ["about"], "explanation": "Dependent preposition (adjective): worried **about** something."}
       ]
     }
   },
@@ -2927,6 +3086,718 @@
             "down"
           ],
           "explanation": "Write down = record in writing."
+        },
+        {
+          "type": "open",
+          "question": "101. They did away _____ the old rules. (abolish)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Do away with = abolish."
+        },
+        {
+          "type": "open",
+          "question": "102. She went through _____ the plan. (completed despite difficulty)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Go through with = complete despite difficulty."
+        },
+        {
+          "type": "open",
+          "question": "103. Traffic held us _____. (delayed)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Hold up = delay; rob."
+        },
+        {
+          "type": "open",
+          "question": "104. I look forward _____ seeing you. (anticipate with pleasure)",
+          "answers": [
+            "to"
+          ],
+          "explanation": "Look forward to = anticipate with pleasure."
+        },
+        {
+          "type": "open",
+          "question": "105. I look up _____ my sister. (admire)",
+          "answers": [
+            "to"
+          ],
+          "explanation": "Look up to = admire."
+        },
+        {
+          "type": "open",
+          "question": "106. They pulled _____ the deal. (succeeded – difficult)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Pull off = succeed at something difficult."
+        },
+        {
+          "type": "open",
+          "question": "107. I can't put up _____ this noise. (tolerate)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Put up with = tolerate."
+        },
+        {
+          "type": "open",
+          "question": "108. The bath ran _____. (overflowed)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Run over = overflow; hit with vehicle."
+        },
+        {
+          "type": "open",
+          "question": "109. We saw them _____ at the airport. (said goodbye)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "See off = say goodbye at station/airport."
+        },
+        {
+          "type": "open",
+          "question": "110. Send _____ the application. (post)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Send off = post; dismiss."
+        },
+        {
+          "type": "open",
+          "question": "111. The project was set _____. (delayed)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Set back = delay; cost."
+        },
+        {
+          "type": "open",
+          "question": "112. The factory shut _____. (stopped operating)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Shut down = close (business, computer)."
+        },
+        {
+          "type": "open",
+          "question": "113. Slow _____! (reduce speed)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Slow down = reduce speed."
+        },
+        {
+          "type": "open",
+          "question": "114. Speak _____, please. (speak louder)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Speak up = speak louder; state opinion."
+        },
+        {
+          "type": "open",
+          "question": "115. We need to speed _____. (accelerate)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Speed up = accelerate."
+        },
+        {
+          "type": "open",
+          "question": "116. I'll stand _____ you. (support)",
+          "answers": [
+            "by"
+          ],
+          "explanation": "Stand by = support; wait."
+        },
+        {
+          "type": "open",
+          "question": "117. Stand _____ when the teacher enters. (rise to feet)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Stand up = rise to feet."
+        },
+        {
+          "type": "open",
+          "question": "118. We stayed _____ late. (did not go to bed)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Stay up = not go to bed."
+        },
+        {
+          "type": "open",
+          "question": "119. She takes _____ her mother. (resembles – family)",
+          "answers": [
+            "after"
+          ],
+          "explanation": "Take after = resemble (family)."
+        },
+        {
+          "type": "open",
+          "question": "120. Take _____ the plates. (remove)",
+          "answers": [
+            "away"
+          ],
+          "explanation": "Take away = remove."
+        },
+        {
+          "type": "open",
+          "question": "121. I take _____ what I said. (withdraw)",
+          "answers": [
+            "back"
+          ],
+          "explanation": "Take back = return; withdraw."
+        },
+        {
+          "type": "open",
+          "question": "122. Take care _____ yourself. (look after)",
+          "answers": [
+            "of"
+          ],
+          "explanation": "Take care of = look after."
+        },
+        {
+          "type": "open",
+          "question": "123. Take _____ the details. (write)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Take down = write; remove."
+        },
+        {
+          "type": "open",
+          "question": "124. She took _____ tennis. (started – hobby)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Take up = start (hobby); occupy."
+        },
+        {
+          "type": "open",
+          "question": "125. Let's talk it _____. (discuss)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Talk over = discuss."
+        },
+        {
+          "type": "open",
+          "question": "126. She told him _____. (scolded)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Tell off = scold."
+        },
+        {
+          "type": "open",
+          "question": "127. Think it _____. (consider)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Think over = consider."
+        },
+        {
+          "type": "open",
+          "question": "128. Don't throw _____ the receipt. (discard)",
+          "answers": [
+            "away"
+          ],
+          "explanation": "Throw away = discard."
+        },
+        {
+          "type": "open",
+          "question": "129. Try _____ the jacket. (test clothes)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Try on = test (clothes)."
+        },
+        {
+          "type": "open",
+          "question": "130. He turned _____ the offer. (refused)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Turn down = refuse; reduce volume."
+        },
+        {
+          "type": "open",
+          "question": "131. She didn't turn _____. (arrive)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Turn up = arrive; increase volume."
+        },
+        {
+          "type": "open",
+          "question": "132. We've used _____ the milk. (used completely)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Use up = use completely."
+        },
+        {
+          "type": "open",
+          "question": "133. Warm _____ before exercising. (prepare – sport)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Warm up = heat; prepare (sport)."
+        },
+        {
+          "type": "open",
+          "question": "134. Watch _____! (be careful)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Watch out = be careful."
+        },
+        {
+          "type": "open",
+          "question": "135. The children wore me _____. (made tired)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Wear out = make tired; use until damaged."
+        },
+        {
+          "type": "open",
+          "question": "136. Calm _____. (become calm)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Calm down = become calm."
+        },
+        {
+          "type": "open",
+          "question": "137. I need to catch _____ with my work. (reach same level)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Catch up = reach same level."
+        },
+        {
+          "type": "open",
+          "question": "138. Clean _____ the kitchen. (tidy)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Clean up = tidy."
+        },
+        {
+          "type": "open",
+          "question": "139. The shop closed _____. (stopped operating)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Close down = stop operating."
+        },
+        {
+          "type": "open",
+          "question": "140. Come _____, please. (enter)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Come in = enter."
+        },
+        {
+          "type": "open",
+          "question": "141. You can count _____ me. (rely on)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Count on = rely on."
+        },
+        {
+          "type": "open",
+          "question": "142. We need to deal _____ this. (handle)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Deal with = handle."
+        },
+        {
+          "type": "open",
+          "question": "143. Many species are dying _____. (becoming extinct)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Die out = become extinct."
+        },
+        {
+          "type": "open",
+          "question": "144. We drew _____ a plan. (prepared – document)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Draw up = prepare (document)."
+        },
+        {
+          "type": "open",
+          "question": "145. Let's eat _____ tonight. (eat in a restaurant)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Eat out = eat in a restaurant."
+        },
+        {
+          "type": "open",
+          "question": "146. She fell _____ with her work. (failed to keep up)",
+          "answers": [
+            "behind"
+          ],
+          "explanation": "Fall behind = fail to keep up."
+        },
+        {
+          "type": "open",
+          "question": "147. Get _____ the car. (enter vehicle)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Get in = enter (vehicle); arrive."
+        },
+        {
+          "type": "open",
+          "question": "148. Get _____ the bus. (leave vehicle)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Get off = leave (vehicle)."
+        },
+        {
+          "type": "open",
+          "question": "149. He gave _____ his old clothes. (donated)",
+          "answers": [
+            "away"
+          ],
+          "explanation": "Give away = donate; reveal."
+        },
+        {
+          "type": "open",
+          "question": "150. Prices went _____. (decreased)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Go down = decrease; be recorded."
+        },
+        {
+          "type": "open",
+          "question": "151. The tie goes _____ the shirt. (match)",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Go with = match; accompany."
+        },
+        {
+          "type": "open",
+          "question": "152. Hand _____ the keys. (give to someone)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Hand over = give to someone."
+        },
+        {
+          "type": "open",
+          "question": "153. Join _____ the game. (participate)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Join in = participate."
+        },
+        {
+          "type": "open",
+          "question": "154. Keep _____ from the fire. (stay at a distance)",
+          "answers": [
+            "away"
+          ],
+          "explanation": "Keep away = stay at a distance."
+        },
+        {
+          "type": "open",
+          "question": "155. The company laid _____ 100 workers. (dismissed)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Lay off = dismiss (workers)."
+        },
+        {
+          "type": "open",
+          "question": "156. I left my bag _____. (forgot to take)",
+          "answers": [
+            "behind"
+          ],
+          "explanation": "Leave behind = not take; forget."
+        },
+        {
+          "type": "open",
+          "question": "157. They live _____ a small pension. (survive with)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Live on = survive with."
+        },
+        {
+          "type": "open",
+          "question": "158. Lock _____ when you leave. (lock doors)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Lock up = lock doors; imprison."
+        },
+        {
+          "type": "open",
+          "question": "159. Log _____ to your account. (enter computer)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Log in = enter (computer)."
+        },
+        {
+          "type": "open",
+          "question": "160. Don't forget to log _____. (exit computer)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Log out = exit (computer)."
+        },
+        {
+          "type": "open",
+          "question": "161. They moved _____ last week. (started living there)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Move in = start living somewhere."
+        },
+        {
+          "type": "open",
+          "question": "162. We're moving _____ next month. (leaving the place)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Move out = leave a place."
+        },
+        {
+          "type": "open",
+          "question": "163. He passed _____ from the heat. (fainted)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Pass out = faint; distribute."
+        },
+        {
+          "type": "open",
+          "question": "164. Pass _____ the message. (transmit)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Pass on = transmit."
+        },
+        {
+          "type": "open",
+          "question": "165. Plug _____ the laptop. (connect electrical)",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Plug in = connect (electrical)."
+        },
+        {
+          "type": "open",
+          "question": "166. The train pulled _____. (left)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Pull out = withdraw; leave."
+        },
+        {
+          "type": "open",
+          "question": "167. We pushed _____ to the next town. (continued)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Push on = continue."
+        },
+        {
+          "type": "open",
+          "question": "168. Ring me _____ tomorrow. (call on phone)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Ring up = call (on phone)."
+        },
+        {
+          "type": "open",
+          "question": "169. They ripped us _____. (overcharged)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Rip off = cheat; overcharge."
+        },
+        {
+          "type": "open",
+          "question": "170. We can't rule _____ that possibility. (exclude)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Rule out = exclude."
+        },
+        {
+          "type": "open",
+          "question": "171. The concert sold _____. (sold all tickets)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Sell out = sell all; betray for gain."
+        },
+        {
+          "type": "open",
+          "question": "172. They settled _____ in the country. (became calm; started family)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Settle down = become calm; start family life."
+        },
+        {
+          "type": "open",
+          "question": "173. Sign _____ for the course. (register)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Sign up = register."
+        },
+        {
+          "type": "open",
+          "question": "174. Switch _____ the light. (turn on)",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Switch on = turn on."
+        },
+        {
+          "type": "open",
+          "question": "175. Switch _____ your phone. (turn off)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "Switch off = turn off."
+        },
+        {
+          "type": "open",
+          "question": "176. She tore _____ the letter. (ripped into pieces)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Tear up = rip into pieces."
+        },
+        {
+          "type": "open",
+          "question": "177. I can't tell them _____. (distinguish)",
+          "answers": [
+            "apart"
+          ],
+          "explanation": "Tell apart = distinguish."
+        },
+        {
+          "type": "open",
+          "question": "178. Tidy _____ your room. (make tidy)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Tidy up = make tidy."
+        },
+        {
+          "type": "open",
+          "question": "179. He tripped _____ the cable. (fell over)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "Trip over = fall over."
+        },
+        {
+          "type": "open",
+          "question": "180. Turn _____ and go back. (reverse direction)",
+          "answers": [
+            "around"
+          ],
+          "explanation": "Turn around = reverse direction."
+        },
+        {
+          "type": "open",
+          "question": "181. Wait _____ me. (stay until I arrive)",
+          "answers": [
+            "for"
+          ],
+          "explanation": "Wait for = stay until someone arrives."
+        },
+        {
+          "type": "open",
+          "question": "182. He walked _____ of the meeting. (left angrily)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Walk out = leave angrily."
+        },
+        {
+          "type": "open",
+          "question": "183. I'll wash _____. (wash dishes)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Wash up = wash dishes."
+        },
+        {
+          "type": "open",
+          "question": "184. Watch _____ for pickpockets. (be careful of)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Watch out for = be careful of."
+        },
+        {
+          "type": "open",
+          "question": "185. Wind _____ after work. (relax)",
+          "answers": [
+            "down"
+          ],
+          "explanation": "Wind down = relax; close (business)."
+        },
+        {
+          "type": "open",
+          "question": "186. The flood wiped _____ the village. (destroyed completely)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Wipe out = destroy completely."
+        },
+        {
+          "type": "open",
+          "question": "187. Let's wrap _____ the meeting. (conclude)",
+          "answers": [
+            "up"
+          ],
+          "explanation": "Wrap up = conclude; dress warmly."
+        },
+        {
+          "type": "open",
+          "question": "188. Fill _____ the application. (complete – form)",
+          "answers": [
+            "out"
+          ],
+          "explanation": "Fill out = complete (a form)."
+        },
+        {
+          "type": "open",
+          "question": "189. I couldn't get _____ on the phone. (make contact)",
+          "answers": [
+            "through"
+          ],
+          "explanation": "Get through = finish; make contact."
         }
       ]
     }

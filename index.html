@@ -156,77 +156,97 @@
         <div class="memory-bank" id="memoryBankSummary"></div>
       </div>
       <div id="menuExamPractice" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose an exam task type.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick one exam task.</p>
         <button type="button" id="examOpenClozeBtn">Open Cloze</button>
         <button type="button" id="examWordFormationBtn" class="secondary">Word Formation</button>
         <button type="button" id="examSentenceTransformationBtn" class="secondary">Sentence Transformation</button>
-        <button type="button" id="examPracticeBackBtn" class="secondary" style="margin-top: 0.75rem;">Main Menu</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="examPracticeBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
+        <button type="button" id="examPracticeMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuOpenCloze" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
         <button type="button" id="openClozePart1Btn">Learn and Test</button>
-        <button type="button" id="openClozePart2Btn" class="secondary">Guided Practice</button>
-        <p style="margin: 0.75rem 0 0.35rem 0; color: var(--muted); font-size: 0.85rem;">Sample test by difficulty (Easy = multiple choice; Medium+ = type the word):</p>
+        <button type="button" id="openClozePart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Guided Practice</button>
+        <button type="button" id="openClozeFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Further Practice</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="openClozeBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
+        <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+      </div>
+      <div id="menuOpenClozeFurther" class="menu-panel hidden">
+        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Pick a level. Easy: choose the word. Medium and above: type the word.</p>
         <button type="button" id="openClozeEasyBtn">Easy</button>
         <button type="button" id="openClozeMediumBtn" class="secondary">Medium</button>
         <button type="button" id="openClozeHardBtn" class="secondary">Hard</button>
         <button type="button" id="openClozeExpertBtn" class="secondary">Expert</button>
-        <button type="button" id="openClozeBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
-        <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Main Menu</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="openClozeFurtherBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Open Cloze</button>
+        <button type="button" id="openClozeFurtherMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuWordFormation" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Word Formation (Reading &amp; Use of English Part 3). Use the stem word to form the correct word for each gap.</p>
-        <div class="actions" style="margin-bottom: 0.65rem;">
-          <button type="button" id="wordFormationReferenceBtn" class="secondary">Reference: Prefixes &amp; Suffixes</button>
-        </div>
-        <div class="actions" style="margin-bottom: 0.65rem;">
-          <button type="button" id="wordFormationPart1Btn" class="secondary">Learn and Test</button>
-        </div>
-        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
-        <button type="button" id="wordFormationPart2Btn" class="secondary">Guided Practice</button>
-        <p style="margin: 0.75rem 0 0.35rem 0; color: var(--muted); font-size: 0.85rem;">Sample test by difficulty:</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 3: Use the word in capitals to make a new word for each gap.</p>
+        <button type="button" id="wordFormationPart1Btn">Learn and Test</button>
+        <button type="button" id="wordFormationPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Guided Practice</button>
+        <button type="button" id="wordFormationFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Further Practice</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="wordFormationBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
+        <button type="button" id="wordFormationMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+      </div>
+      <div id="menuWordFormationFurther" class="menu-panel hidden">
+        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Sample test by difficulty:</p>
         <button type="button" id="wordFormationEasyBtn">Easy</button>
         <button type="button" id="wordFormationMediumBtn" class="secondary">Medium</button>
         <button type="button" id="wordFormationHardBtn" class="secondary">Hard</button>
         <button type="button" id="wordFormationExpertBtn" class="secondary">Expert</button>
-        <button type="button" id="wordFormationBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
-        <button type="button" id="wordFormationMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Main Menu</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="wordFormationFurtherBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Word Formation</button>
+        <button type="button" id="wordFormationFurtherMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuSentenceTransform" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Sentence Transformation (Reading &amp; Use of English Part 4). Complete the second sentence using the key word.</p>
-        <div class="actions" style="margin-bottom: 0.65rem;">
-          <button type="button" id="sentenceTransformPart1Btn" class="secondary">Learn and Test</button>
-        </div>
-        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
-        <button type="button" id="sentenceTransformPart2Btn" class="secondary">Guided Practice</button>
-        <p style="margin: 0.75rem 0 0.35rem 0; color: var(--muted); font-size: 0.85rem;">Sample test by difficulty:</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 4: Finish the second sentence. Use the key word. Same meaning as the first.</p>
+        <button type="button" id="sentenceTransformPart1Btn">Learn and Test</button>
+        <button type="button" id="sentenceTransformPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Guided Practice</button>
+        <button type="button" id="sentenceTransformFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Further Practice</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="sentenceTransformBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
+        <button type="button" id="sentenceTransformMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+      </div>
+      <div id="menuSentenceTransformFurther" class="menu-panel hidden">
+        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Sample test by difficulty:</p>
         <button type="button" id="sentenceTransformEasyBtn">Easy</button>
         <button type="button" id="sentenceTransformMediumBtn" class="secondary">Medium</button>
         <button type="button" id="sentenceTransformHardBtn" class="secondary">Hard</button>
         <button type="button" id="sentenceTransformExpertBtn" class="secondary">Expert</button>
-        <button type="button" id="sentenceTransformBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Exam Practice</button>
-        <button type="button" id="sentenceTransformMainMenuBtn" class="secondary" style="margin-top: 0.35rem;">Main Menu</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="sentenceTransformFurtherBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Sentence Transformation</button>
+        <button type="button" id="sentenceTransformFurtherMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuExamClozeTestSelect" class="menu-panel hidden">
-        <p id="examClozeTestSelectHeading" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a test.</p>
+        <p id="examClozeTestSelectHeading" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a test.</p>
         <div id="examClozeTestSelectList" style="display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 0.75rem;"></div>
         <button type="button" id="examClozeTestSelectRandomBtn" class="secondary">Random</button>
-        <button type="button" id="examClozeTestSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Back to Open Cloze</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="examClozeTestSelectBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
+        <button type="button" id="examClozeTestSelectMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuOpenClozeModes" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose difficulty. Easy = multiple choice; Medium and above = type the word.</p>
-        <button type="button" id="openClozeModesBackBtn" class="secondary" style="margin-top: 0.75rem;">Back</button>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a level. Easy: choose the word. Medium and above: type the word.</p>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="openClozeModesBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
+        <button type="button" id="openClozeModesMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuTopicSelect" class="menu-panel hidden">
         <div class="scores" id="scoresSummary"></div>
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a topic, then select a practice mode.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a topic. Then pick how you want to practise.</p>
         <label for="topicSelect" style="margin-top: 0.35rem;">Topic</label>
-        <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
+        <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Pick a grammar topic"></select>
         <button type="button" id="startPart1Btn" class="secondary">Learn and Test</button>
         <button type="button" id="startPart2Btn" class="secondary">Guided Practice</button>
         <button type="button" id="openPracticeSetupBtn" class="secondary">Further Practice</button>
         <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
-        <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.75rem;">Main Menu</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
+        <button type="button" id="topicSelectMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuPracticeSetup" class="hidden">
         <p id="practiceSetupTopic" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;"></p>
@@ -236,27 +256,34 @@
           <option value="unlimited">Unlimited</option>
         </select>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
-          <button type="button" id="practiceSetupBackBtn" class="secondary">Menu</button>
+          <button type="button" id="practiceSetupBackBtn" class="secondary">Back</button>
+          <button type="button" id="practiceSetupMainMenuBtn" class="secondary">Main Menu</button>
           <button type="button" id="startBtn">Start</button>
         </div>
       </div>
       <div id="menuDiagnosticSetup" class="hidden">
-        <p style="margin-bottom: 0.75rem; color: var(--muted); font-size: 0.9rem;">Choose how many questions. Wrong answers will suggest topics to revise.</p>
+        <p style="margin-bottom: 0.75rem; color: var(--muted); font-size: 0.9rem;">Pick how many questions. Wrong answers will show topics to study.</p>
         <div class="actions" style="margin-bottom: 0.5rem;">
           <button type="button" id="diagnostic20Btn" class="secondary">Basic – 20 questions</button>
           <button type="button" id="diagnostic50Btn" class="secondary">Intermediate – 50 questions</button>
           <button type="button" id="diagnostic100Btn" class="secondary">Extended – 100 questions</button>
         </div>
-        <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.75rem;">Menu</button>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
+        <button type="button" id="diagnosticSetupMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
     </div>
 
     <div id="quizScreen" class="hidden">
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
         <div class="progress" id="progress" style="margin-bottom: 0;"></div>
-        <button type="button" id="exitQuizBtn" class="secondary" style="margin-top: 0; flex: none;">Exit</button>
+        <div style="display: flex; gap: 0.35rem; flex: none;">
+          <button type="button" id="exitQuizBtn" class="secondary" style="margin-top: 0;">Back</button>
+          <button type="button" id="quizMainMenuBtn" class="secondary" style="margin-top: 0;">Main Menu</button>
+        </div>
       </div>
       <div class="card question-block">
+        <p id="quizGapFillInstruction" class="hidden" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.4rem;">Type in the missing words.</p>
         <div class="question-text" id="questionText"></div>
         <div id="openBlock" class="hidden">
           <input type="text" id="openInput" placeholder="Type your answer">
@@ -274,11 +301,14 @@
     <div id="examClozeTestScreen" class="hidden">
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
         <div class="progress" id="examClozeProgress" style="margin-bottom: 0;"></div>
-        <button type="button" id="examClozeExitBtn" class="secondary" style="margin-top: 0; flex: none;">Exit</button>
+        <div style="display: flex; gap: 0.35rem; flex: none;">
+          <button type="button" id="examClozeExitBtn" class="secondary" style="margin-top: 0;">Back</button>
+          <button type="button" id="examClozeMainMenuBtn" class="secondary" style="margin-top: 0;">Main Menu</button>
+        </div>
       </div>
       <div class="card question-block">
         <h2 id="examClozeTitle" class="hidden" style="font-size: 1.1rem; margin-bottom: 0.5rem;"></h2>
-        <p id="examClozeInstructions" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.5rem;">Read the text and write one word for each gap (or choose for Easy).</p>
+        <p id="examClozeInstructions" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.5rem;">Read the text. Write one word in each gap. (Easy: choose from options.)</p>
         <div id="examClozePassage" class="exam-cloze-passage" style="line-height: 1.8; margin-bottom: 1rem;"></div>
         <div id="examClozeMcRows" class="hidden" style="margin-top: 0.75rem;"></div>
         <button type="button" id="examClozeSubmitBtn">Submit</button>
@@ -289,6 +319,7 @@
         <div id="examClozeWrongList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem;">
           <button type="button" id="examClozeBackToTestListBtn" class="secondary">Back to test list</button>
+          <button type="button" id="examClozeFeedbackMainMenuBtn" class="secondary">Main Menu</button>
           <button type="button" id="examClozeNextBtn">Next</button>
         </div>
       </div>
@@ -297,7 +328,10 @@
     <div id="examTransformTestScreen" class="hidden">
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
         <div class="progress" id="examTransformProgress" style="margin-bottom: 0;"></div>
-        <button type="button" id="examTransformExitBtn" class="secondary" style="margin-top: 0; flex: none;">Exit</button>
+        <div style="display: flex; gap: 0.35rem; flex: none;">
+          <button type="button" id="examTransformExitBtn" class="secondary" style="margin-top: 0;">Back</button>
+          <button type="button" id="examTransformMainMenuBtn" class="secondary" style="margin-top: 0;">Main Menu</button>
+        </div>
       </div>
       <div class="card question-block">
         <h2 id="examTransformTitle" class="hidden" style="font-size: 1.1rem; margin-bottom: 0.5rem;"></h2>
@@ -311,6 +345,7 @@
         <div id="examTransformWrongList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem;">
           <button type="button" id="examTransformBackToTestListBtn" class="secondary">Back to test list</button>
+          <button type="button" id="examTransformFeedbackMainMenuBtn" class="secondary">Main Menu</button>
           <button type="button" id="examTransformNextBtn">Next</button>
         </div>
       </div>
@@ -328,7 +363,8 @@
         </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
           <button type="button" id="introNextBtn">Next</button>
-          <button type="button" id="introExitBtn" class="secondary">Menu</button>
+          <button type="button" id="introBackBtn" class="secondary">Back</button>
+          <button type="button" id="introMainMenuBtn" class="secondary">Main Menu</button>
         </div>
       </div>
     </div>
@@ -341,7 +377,7 @@
           <button type="button" id="sectionCompleteRetryWrongBtn" class="secondary">Retry wrong answers</button>
         </div>
         <div id="sectionCompleteFurtherPracticeWrap" class="hidden" style="margin-top: 0.75rem;">
-          <p id="sectionCompleteFurtherPracticeText" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);">Suggested next step: Further Practice</p>
+          <p id="sectionCompleteFurtherPracticeText" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);">Next: do more practice.</p>
           <button type="button" id="sectionCompleteFurtherPracticeBtn" class="secondary">Further Practice</button>
         </div>
         <div id="sectionCompleteNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
@@ -352,7 +388,11 @@
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
           <div id="sectionCompleteCorrectList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
         </div>
-        <button type="button" id="sectionCompleteNextBtn">Next section</button>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+          <button type="button" id="sectionCompleteNextBtn">Next section</button>
+          <button type="button" id="sectionCompleteBackBtn" class="secondary">Back</button>
+          <button type="button" id="sectionCompleteMainMenuBtn" class="secondary">Main Menu</button>
+        </div>
       </div>
     </div>
 
@@ -371,12 +411,13 @@
         </div>
         <div id="topicsToReviewBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Topics to practise</h3>
-          <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">You had errors in these areas. Choose a topic to revise the rules and practise.</p>
+          <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">You had mistakes here. Pick a topic to learn and practise.</p>
           <div id="topicsToReviewList" class="actions"></div>
         </div>
         <div class="actions">
           <button id="retryWrongBtn" class="secondary">Try again</button>
-          <button id="backToMenuBtn">Menu</button>
+          <button type="button" id="resultBackBtn" class="secondary">Back</button>
+          <button type="button" id="backToMenuBtn" class="secondary">Main Menu</button>
         </div>
       </div>
     </div>
@@ -387,7 +428,8 @@
         <h2 id="prepositionsListTitle" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">Prepositions in English</h2>
         <div class="actions" style="margin-top: 0.5rem;">
           <button type="button" id="prepositionsListPrintBtn" class="secondary">Print list</button>
-          <button type="button" id="prepositionsListBackBtn">Menu</button>
+          <button type="button" id="prepositionsListBackBtn" class="secondary">Back</button>
+          <button type="button" id="prepositionsListMainMenuBtn" class="secondary">Main Menu</button>
         </div>
       </div>
     </div>
@@ -397,7 +439,8 @@
         <h2 id="phrasalVerbsDictionaryTitle" style="margin-top: 1.25rem; margin-bottom: 0.5rem;">Phrasal verb dictionary</h2>
         <div class="actions" style="margin-top: 0.5rem;">
           <button type="button" id="phrasalVerbsDictionaryPrintBtn" class="secondary">Print dictionary</button>
-          <button type="button" id="phrasalVerbsDictionaryBackBtn">Menu</button>
+          <button type="button" id="phrasalVerbsDictionaryBackBtn" class="secondary">Back</button>
+          <button type="button" id="phrasalVerbsDictionaryMainMenuBtn" class="secondary">Main Menu</button>
         </div>
       </div>
     </div>
@@ -409,7 +452,8 @@
           <span id="referencePrintDownloadWrap" class="hidden">
             <button type="button" id="referencePrintBtn" class="secondary">Print</button>
           </span>
-          <button type="button" id="referenceBackBtn">Back</button>
+          <button type="button" id="referenceBackBtn" class="secondary">Back</button>
+          <button type="button" id="referenceMainMenuBtn" class="secondary">Main Menu</button>
         </div>
       </div>
     </div>
@@ -585,7 +629,7 @@
     }
 
     async function loadQuestions() {
-      const res = await fetch(new URL('questions.json?v=3', getBaseUrl()));
+      const res = await fetch(new URL('questions.json?v=5', getBaseUrl()));
       if (!res.ok) throw new Error('Could not load questions.json');
       allQuestionsData = await res.json();
       setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
@@ -618,13 +662,17 @@
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       document.getElementById('referenceScreen').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       if (examMode === 'open_cloze') {
         document.getElementById('menuOpenCloze').classList.remove('hidden');
         document.getElementById('menuMain').classList.add('hidden');
         document.getElementById('menuOpenClozeModes').classList.add('hidden');
       } else if (examMode === 'word_formation') {
         document.getElementById('menuWordFormation').classList.remove('hidden');
+        document.getElementById('menuWordFormationFurther').classList.add('hidden');
         document.getElementById('menuMain').classList.add('hidden');
         document.getElementById('menuOpenCloze').classList.add('hidden');
         document.getElementById('menuOpenClozeModes').classList.add('hidden');
@@ -650,7 +698,9 @@
       document.getElementById('menuTopicSelect').classList.remove('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
       const backToPrevBtn = document.getElementById('topicSelectBackToPrevBtn');
@@ -669,19 +719,37 @@
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.remove('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
     }
 
     function showMainMenu() {
+      document.getElementById('introScreen').classList.add('hidden');
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.getElementById('prepositionsListScreen').classList.add('hidden');
+      document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
+      document.getElementById('referenceScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
+      document.body.classList.remove('viewing-reference');
+      document.getElementById('quizScreen').classList.add('hidden');
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
+      document.getElementById('menuScreen').classList.remove('hidden');
       document.getElementById('menuMain').classList.remove('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
@@ -695,8 +763,11 @@
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
     }
@@ -855,7 +926,7 @@
       p.style.color = 'var(--muted)';
       p.style.marginBottom = '0.5rem';
       p.style.fontSize = '0.9rem';
-      p.textContent = 'Choose a reference list:';
+      p.textContent = 'Pick a list:';
       content.appendChild(p);
       const grid = document.createElement('div');
       grid.className = 'reference-index-grid';
@@ -1715,7 +1786,7 @@
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -1742,6 +1813,7 @@
             document.getElementById('menuScreen').classList.remove('hidden');
             document.getElementById('sectionCompleteScreen').classList.add('hidden');
             document.getElementById('resultScreen').classList.add('hidden');
+            document.getElementById('menuWordFormationFurther').classList.add('hidden');
             document.getElementById('menuWordFormation').classList.remove('hidden');
             return;
           }
@@ -1749,6 +1821,7 @@
             document.getElementById('menuScreen').classList.remove('hidden');
             document.getElementById('sectionCompleteScreen').classList.add('hidden');
             document.getElementById('resultScreen').classList.add('hidden');
+            document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
             document.getElementById('menuSentenceTransform').classList.remove('hidden');
             return;
           }
@@ -1827,7 +1900,7 @@
       num = Math.min(100, Math.max(20, parseInt(num, 10) || 50));
       let allData;
       try {
-        const res = await fetch(new URL('questions.json?v=3', getBaseUrl()));
+        const res = await fetch(new URL('questions.json?v=5', getBaseUrl()));
         if (!res.ok) throw new Error('Could not load questions');
         allData = await res.json();
       } catch (e) {
@@ -1864,7 +1937,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -1896,7 +1969,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -1927,7 +2000,7 @@
       document.getElementById('resultScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -2015,7 +2088,7 @@
       const mode = (currentExamType === 'sentence_transformation' ? currentExamTransformMode : currentExamClozeMode) || 'easy';
       const cap = mode.charAt(0).toUpperCase() + mode.slice(1);
       const typeLabel = currentExamType === 'open_cloze' ? 'Open Cloze' : currentExamType === 'word_formation' ? 'Word Formation' : 'Sentence Transformation';
-      document.getElementById('examClozeTestSelectHeading').textContent = typeLabel + ' – Choose a test (' + cap + ').';
+      document.getElementById('examClozeTestSelectHeading').textContent = typeLabel + ' – Pick a test (' + cap + ').';
       const backBtn = document.getElementById('examClozeTestSelectBackBtn');
       if (backBtn) backBtn.textContent = 'Back to ' + typeLabel;
       const listEl = document.getElementById('examClozeTestSelectList');
@@ -2036,8 +2109,11 @@
       });
       document.getElementById('menuScreen').classList.remove('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuExamClozeTestSelect').classList.remove('hidden');
       document.getElementById('examClozeTestScreen').classList.add('hidden');
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
@@ -2081,7 +2157,7 @@
         titleEl.classList.add('hidden');
       }
       const instructionsEl = document.getElementById('examClozeInstructions');
-      instructionsEl.textContent = test.instructions || 'Read the text and write one word for each gap (or choose for Easy).';
+      instructionsEl.textContent = (test.instructions || 'Read the text. Write one word in each gap. (Easy: choose from options.)');
       const passageEl = document.getElementById('examClozePassage');
       passageEl.innerHTML = '';
       const segments = (test.passage || '').split(EXAM_CLOZE_GAP);
@@ -2215,8 +2291,13 @@
         document.getElementById('examClozeTestScreen').classList.add('hidden');
         document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
         document.getElementById('menuScreen').classList.remove('hidden');
-        if (currentExamSubMenu === 'word_formation') document.getElementById('menuWordFormation').classList.remove('hidden');
-        else document.getElementById('menuOpenCloze').classList.remove('hidden');
+        if (currentExamSubMenu === 'word_formation') {
+          document.getElementById('menuWordFormationFurther').classList.add('hidden');
+          document.getElementById('menuWordFormation').classList.remove('hidden');
+        } else {
+          document.getElementById('menuOpenClozeFurther').classList.add('hidden');
+          document.getElementById('menuOpenCloze').classList.remove('hidden');
+        }
         return;
       }
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
@@ -2237,7 +2318,7 @@
         titleEl.textContent = test.title;
         titleEl.classList.remove('hidden');
       } else titleEl.classList.add('hidden');
-      document.getElementById('examTransformInstructions').textContent = test.instructions || 'Complete the second sentence using the key word.';
+      document.getElementById('examTransformInstructions').textContent = (test.instructions || 'Finish the second sentence. Use the key word. Same meaning as the first.');
       const container = document.getElementById('examTransformItems');
       container.innerHTML = '';
       (test.items || []).forEach((item, i) => {
@@ -2296,6 +2377,7 @@
         document.getElementById('examTransformTestScreen').classList.add('hidden');
         document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
         document.getElementById('menuScreen').classList.remove('hidden');
+        document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
         document.getElementById('menuSentenceTransform').classList.remove('hidden');
         return;
       }
@@ -2337,7 +2419,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -2367,7 +2449,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -2424,7 +2506,9 @@
       document.getElementById('submitBtn').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
 
+      const gapFillInstructionEl = document.getElementById('quizGapFillInstruction');
       if (q.type === 'mc') {
+        if (gapFillInstructionEl) gapFillInstructionEl.classList.add('hidden');
         const mcBlock = document.getElementById('mcBlock');
         mcBlock.classList.remove('hidden');
         mcBlock.innerHTML = '';
@@ -2443,6 +2527,7 @@
         });
         selectedMc = null;
       } else {
+        if (gapFillInstructionEl) gapFillInstructionEl.classList.remove('hidden');
         document.getElementById('openBlock').classList.remove('hidden');
         document.getElementById('openInput').focus();
       }
@@ -2599,7 +2684,7 @@
       isRetryRound = true;
       document.getElementById('resultScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     }
 
@@ -2614,6 +2699,7 @@
       }
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.remove('hidden');
+      applyTopic();
       const topicEl = document.getElementById('practiceSetupTopic');
       if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
     });
@@ -2621,8 +2707,10 @@
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.remove('hidden');
     });
+    document.getElementById('practiceSetupMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('openTopicSelectBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showTopicSelectMenu(); });
     document.getElementById('topicSelectBackBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showMainMenu(); });
+    document.getElementById('topicSelectMainMenuBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showMainMenu(); });
     document.getElementById('topicSelectBackToPrevBtn').addEventListener('click', () => {
       if (returnToAfterTopicSelect === 'exam_cloze_feedback') {
         document.getElementById('menuScreen').classList.add('hidden');
@@ -2632,6 +2720,7 @@
     });
     document.getElementById('openExamPracticeBtn').addEventListener('click', showExamPracticeMenu);
     document.getElementById('examPracticeBackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('examPracticeMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('examOpenClozeBtn').addEventListener('click', showOpenClozeMenu);
     document.getElementById('openClozePart1Btn').addEventListener('click', startPart1);
     document.getElementById('openClozePart2Btn').addEventListener('click', startPart2);
@@ -2641,6 +2730,15 @@
       document.getElementById('menuExamPractice').classList.remove('hidden');
     });
     document.getElementById('openClozeMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('openClozeFurtherBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.remove('hidden');
+    });
+    document.getElementById('openClozeFurtherBackBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.remove('hidden');
+    });
+    document.getElementById('openClozeFurtherMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('openClozeEasyBtn').addEventListener('click', () => loadAndStartExamCloze('easy'));
     document.getElementById('openClozeMediumBtn').addEventListener('click', () => loadAndStartExamCloze('medium'));
     document.getElementById('openClozeHardBtn').addEventListener('click', () => loadAndStartExamCloze('hard'));
@@ -2649,12 +2747,23 @@
     if (examClozeTestSelectBackBtn) examClozeTestSelectBackBtn.addEventListener('click', () => {
       document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
-      if (currentExamSubMenu === 'word_formation') document.getElementById('menuWordFormation').classList.remove('hidden');
-      else if (currentExamSubMenu === 'sentence_transformation') document.getElementById('menuSentenceTransform').classList.remove('hidden');
-      else document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
+        if (currentExamSubMenu === 'word_formation') {
+          document.getElementById('menuWordFormationFurther').classList.add('hidden');
+          document.getElementById('menuWordFormation').classList.remove('hidden');
+        } else if (currentExamSubMenu === 'sentence_transformation') {
+          document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
+          document.getElementById('menuSentenceTransform').classList.remove('hidden');
+        } else {
+          document.getElementById('menuOpenClozeFurther').classList.add('hidden');
+          document.getElementById('menuOpenCloze').classList.remove('hidden');
+        }
     });
+    const examClozeTestSelectMainMenuBtn = document.getElementById('examClozeTestSelectMainMenuBtn');
+    if (examClozeTestSelectMainMenuBtn) examClozeTestSelectMainMenuBtn.addEventListener('click', showMainMenu);
     const examClozeTestSelectList = document.getElementById('examClozeTestSelectList');
     if (examClozeTestSelectList) examClozeTestSelectList.addEventListener('click', function(e) {
       const btn = e.target && e.target.closest && e.target.closest('button[data-index]');
@@ -2680,9 +2789,12 @@
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.remove('hidden');
     });
+    document.getElementById('openClozeModesMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('examClozeSubmitBtn').addEventListener('click', submitExamClozeTest);
     document.getElementById('examClozeNextBtn').addEventListener('click', onExamClozeNext);
     document.getElementById('examClozeExitBtn').addEventListener('click', onExamClozeExit);
+    document.getElementById('examClozeMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('examClozeFeedbackMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('examClozeFeedbackBlock').addEventListener('click', function(e) {
       const link = e.target && e.target.closest('.exam-cloze-topic-link');
       if (!link) return;
@@ -2704,24 +2816,23 @@
     function showWordFormationMenu() {
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.remove('hidden');
     }
     function showSentenceTransformMenu() {
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.remove('hidden');
     }
     document.getElementById('examWordFormationBtn').addEventListener('click', showWordFormationMenu);
     document.getElementById('examSentenceTransformationBtn').addEventListener('click', showSentenceTransformMenu);
-    document.getElementById('wordFormationReferenceBtn').addEventListener('click', () => {
-      document.getElementById('menuScreen').classList.add('hidden');
-      document.getElementById('referenceBtnWrap').classList.add('hidden');
-      document.getElementById('referenceScreen').classList.remove('hidden');
-      document.body.classList.add('viewing-reference');
-      showReferenceWordFormation();
-    });
     document.getElementById('wordFormationPart1Btn').addEventListener('click', () => {
       currentTopic = { id: 'word_formation', title: 'Word Formation', curriculum: 'curriculum_word_formation.json' };
       examMode = 'word_formation';
@@ -2732,6 +2843,24 @@
       examMode = 'word_formation';
       startPart2();
     });
+    document.getElementById('wordFormationFurtherBtn').addEventListener('click', () => {
+      document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.remove('hidden');
+    });
+    document.getElementById('wordFormationFurtherBackBtn').addEventListener('click', () => {
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
+      document.getElementById('menuWordFormation').classList.remove('hidden');
+    });
+    document.getElementById('wordFormationFurtherMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('sentenceTransformFurtherBtn').addEventListener('click', () => {
+      document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.remove('hidden');
+    });
+    document.getElementById('sentenceTransformFurtherBackBtn').addEventListener('click', () => {
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
+      document.getElementById('menuSentenceTransform').classList.remove('hidden');
+    });
+    document.getElementById('sentenceTransformFurtherMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('sentenceTransformPart1Btn').addEventListener('click', () => {
       currentTopic = { id: 'sentence_transformation', title: 'Sentence Transformation', curriculum: 'curriculum_sentence_transformation.json' };
       examMode = 'sentence_transformation';
@@ -2764,6 +2893,8 @@
     document.getElementById('examTransformNextBtn').addEventListener('click', onExamTransformNext);
     document.getElementById('examTransformBackToTestListBtn').addEventListener('click', showExamTestSelectScreen);
     document.getElementById('examTransformExitBtn').addEventListener('click', onExamTransformExit);
+    document.getElementById('examTransformMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('examTransformFeedbackMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('examTransformFeedbackBlock').addEventListener('click', function(e) {
       const link = e.target && e.target.closest('.exam-cloze-topic-link');
       if (!link) return;
@@ -2787,8 +2918,11 @@
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
+      document.getElementById('menuWordFormationFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
+      document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.remove('hidden');
@@ -2797,6 +2931,7 @@
       document.getElementById('menuDiagnosticSetup').classList.add('hidden');
       document.getElementById('menuMain').classList.remove('hidden');
     });
+    document.getElementById('diagnosticSetupMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('diagnostic20Btn').addEventListener('click', () => startDiagnostic(20));
     document.getElementById('diagnostic50Btn').addEventListener('click', () => startDiagnostic(50));
     document.getElementById('diagnostic100Btn').addEventListener('click', () => startDiagnostic(100));
@@ -2813,6 +2948,8 @@
       }
     });
     document.getElementById('sectionCompleteNextBtn').addEventListener('click', advanceCourseToNext);
+    document.getElementById('sectionCompleteBackBtn').addEventListener('click', renderMenu);
+    document.getElementById('sectionCompleteMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('sectionCompleteGuidedPracticeBtn').addEventListener('click', () => {
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
       startPart2();
@@ -2826,7 +2963,7 @@
       isRetryRound = true;
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
       document.getElementById('quizScreen').classList.remove('hidden');
-      document.getElementById('exitQuizBtn').textContent = 'Exit';
+      document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
     });
     document.getElementById('sectionCompleteFurtherPracticeBtn').addEventListener('click', () => {
@@ -2835,6 +2972,7 @@
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.remove('hidden');
+      applyTopic();
       const topicEl = document.getElementById('practiceSetupTopic');
       if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
     });
@@ -2844,27 +2982,34 @@
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuPracticeSetup').classList.remove('hidden');
+      applyTopic();
       const topicEl = document.getElementById('practiceSetupTopic');
       if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
     });
     document.getElementById('submitBtn').addEventListener('click', submitAnswer);
     document.getElementById('nextBtn').addEventListener('click', nextQuestion);
     document.getElementById('retryWrongBtn').addEventListener('click', retryWrong);
-    document.getElementById('backToMenuBtn').addEventListener('click', renderMenu);
+    document.getElementById('backToMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('resultBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
-    document.getElementById('introExitBtn').addEventListener('click', renderMenu);
+    document.getElementById('quizMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('introBackBtn').addEventListener('click', showMainMenu);
+    document.getElementById('introMainMenuBtn').addEventListener('click', showMainMenu);
     const viewPrepositionsListBtn = document.getElementById('viewPrepositionsListBtn');
     if (viewPrepositionsListBtn) viewPrepositionsListBtn.addEventListener('click', () => showPrepositionsList('menu'));
     document.getElementById('viewPrepositionsListFromIntroBtn').addEventListener('click', () => showPrepositionsList('intro'));
     document.getElementById('prepositionsListBackBtn').addEventListener('click', hidePrepositionsList);
+    document.getElementById('prepositionsListMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('prepositionsListPrintBtn').addEventListener('click', () => window.print());
     const viewPhrasalVerbsDictBtn = document.getElementById('viewPhrasalVerbsDictionaryBtn');
     if (viewPhrasalVerbsDictBtn) viewPhrasalVerbsDictBtn.addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
     document.getElementById('viewPhrasalVerbsFromIntroBtn').addEventListener('click', () => showPhrasalVerbsDictionary('intro'));
     document.getElementById('phrasalVerbsDictionaryBackBtn').addEventListener('click', hidePhrasalVerbsDictionary);
+    document.getElementById('phrasalVerbsDictionaryMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('phrasalVerbsDictionaryPrintBtn').addEventListener('click', () => window.print());
     document.getElementById('openReferenceBtn').addEventListener('click', showReference);
     document.getElementById('referenceBackBtn').addEventListener('click', onReferenceBackClick);
+    document.getElementById('referenceMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('referencePrintBtn').addEventListener('click', () => window.print());
     document.getElementById('openInput').addEventListener('keydown', function(e) {
       if (e.key === 'Enter') { e.preventDefault(); submitAnswer(); }
@@ -2906,7 +3051,7 @@
 
     (async function init() {
       try {
-        const mRes = await fetch(new URL('manifest.json?v=6', getBaseUrl()));
+        const mRes = await fetch(new URL('manifest.json?v=7', getBaseUrl()));
         if (mRes.ok) {
           const mData = await mRes.json();
           topics = mData.topics || [];
@@ -2916,7 +3061,7 @@
             sel.innerHTML = '';
             const placeholder = document.createElement('option');
             placeholder.value = '-1';
-            placeholder.textContent = 'Choose a topic';
+            placeholder.textContent = 'Pick a topic';
             placeholder.selected = true;
             sel.appendChild(placeholder);
             topics.forEach((t, i) => {
@@ -2942,6 +3087,7 @@
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
           { id: 'phrasal_verbs', title: 'Phrasal Verbs', curriculum: 'curriculum_phrasal_verbs.json', questions_key: 'phrasal_verbs' },
           { id: 'prepositions', title: 'Prepositions', curriculum: 'curriculum_prepositions.json', questions_key: 'prepositions' },
+          { id: 'prepositions_dependent', title: 'Prepositions: Dependent', curriculum: 'curriculum_prepositions_dependent.json', questions_key: 'prepositions' },
           { id: 'punctuation', title: 'Punctuation and Capitalisation', curriculum: 'curriculum_punctuation.json', questions_key: 'punctuation' },
           { id: 'relative_pronouns', title: 'Relative Pronouns', curriculum: 'curriculum_relative_pronouns.json', questions_key: 'relative_pronouns' },
           { id: 'reported_speech', title: 'Reported Speech', curriculum: 'curriculum_reported_speech.json', questions_key: 'reported_speech' },
@@ -2962,7 +3108,7 @@
         sel.innerHTML = '';
         const placeholder = document.createElement('option');
         placeholder.value = '-1';
-        placeholder.textContent = 'Choose a topic';
+        placeholder.textContent = 'Pick a topic';
         placeholder.selected = true;
         sel.appendChild(placeholder);
         topics.forEach((t, i) => {
