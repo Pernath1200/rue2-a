@@ -25,6 +25,26 @@
     { "phrase": "at least", "meaning": "no less than; anyway", "example": "At least we tried." },
     { "phrase": "at once", "meaning": "immediately", "example": "We left at once." },
     { "phrase": "as soon as", "meaning": "when; immediately after", "example": "Call me as soon as you arrive." },
-    { "phrase": "so far", "meaning": "until now", "example": "So far, so good." }
+    { "phrase": "so far", "meaning": "until now", "example": "So far, so good." },
+    { "phrase": "on the other hand", "meaning": "introducing a contrasting point", "example": "The hotel is cheap. On the other hand, the location is poor." },
+    { "phrase": "in the meantime", "meaning": "meanwhile / in the intervening period", "example": "I'll make dinner. In the meantime, you can relax." },
+    { "phrase": "by the way", "meaning": "used to introduce a new or related topic", "example": "By the way, have you heard from Sarah?" },
+    { "phrase": "in other words", "meaning": "to explain something differently or more clearly", "example": "He's frugal. In other words, he's careful with money." },
+    { "phrase": "on average", "meaning": "typically or as a general rule", "example": "On average, people check their phones 100 times a day." },
+    { "phrase": "in general", "meaning": "generally speaking / overall", "example": "In general, technology has improved our lives." },
+    { "phrase": "from time to time", "meaning": "occasionally", "example": "We eat out from time to time." },
+    { "phrase": "in the long run", "meaning": "over a long period / eventually", "example": "Saving money will help you in the long run." },
+    { "phrase": "to some extent / to a certain extent", "meaning": "partly or to a limited degree", "example": "To some extent, I agree with the proposal." },
+    { "phrase": "at risk (of)", "meaning": "in danger (of something bad happening)", "example": "Many animals are at risk of extinction." },
+    { "phrase": "up to date", "meaning": "current or modern", "example": "Make sure your passport is up to date." },
+    { "phrase": "out of the question", "meaning": "impossible or not allowed", "example": "Giving up now is out of the question." },
+    { "phrase": "needless to say", "meaning": "obviously (used to emphasize)", "example": "Needless to say, everyone was shocked by the news." },
+    { "phrase": "it goes without saying (that)", "meaning": "it is obvious / clear that", "example": "It goes without saying that hard work is essential." },
+    { "phrase": "in terms of", "meaning": "regarding / with respect to", "example": "In terms of quality, this product is excellent." },
+    { "phrase": "thanks to", "meaning": "because of (often positive)", "example": "Thanks to modern medicine, many diseases are curable." },
+    { "phrase": "according to", "meaning": "as stated by / in accordance with", "example": "According to experts, climate change is accelerating." },
+    { "phrase": "with regard to", "meaning": "concerning / about (formal)", "example": "With regard to your email, I have attached the file." },
+    { "phrase": "on no account / under no circumstances", "meaning": "never / not for any reason", "example": "On no account should you open the door to strangers." },
+    { "phrase": "all in all", "meaning": "when everything is considered", "example": "All in all, the trip was a great success." }
   ]
 }

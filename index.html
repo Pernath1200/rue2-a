@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <title>English Grammar Check</title>
   <style>
     :root {
@@ -80,6 +81,8 @@
     .result-fail { color: var(--wrong); }
     .progress { margin-bottom: 1rem; color: var(--muted); font-size: 0.9rem; }
     .topic-label { display: block; font-size: 0.85rem; color: var(--accent); margin-bottom: 0.35rem; font-weight: 600; }
+    .topic-label.diagnostic-topic-link { cursor: pointer; text-decoration: underline; }
+    .topic-label.diagnostic-topic-link:hover { opacity: 0.9; }
     input[type="text"] { width: 100%; padding: 0.6rem; border-radius: var(--radius); border: 1px solid rgba(86, 95, 137, 0.5); background: var(--bg); color: var(--text); }
     .summary { margin-top: 1.5rem; padding: 1rem; background: var(--surface); border-radius: var(--radius); font-size: 0.9rem; line-height: 1.6; }
     .hidden { display: none !important; }
@@ -166,9 +169,9 @@
       </div>
       <div id="menuOpenCloze" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
-        <button type="button" id="openClozePart1Btn">Learn and Test</button>
-        <button type="button" id="openClozePart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Guided Practice</button>
-        <button type="button" id="openClozeFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Further Practice</button>
+        <button type="button" id="openClozePart1Btn">Step 1: Intro</button>
+        <button type="button" id="openClozePart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Step 2: Guided Practice</button>
+        <button type="button" id="openClozeFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Step 3: Further Practice</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="openClozeBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
         <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
@@ -185,9 +188,9 @@
       </div>
       <div id="menuWordFormation" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 3: Use the word in capitals to make a new word for each gap.</p>
-        <button type="button" id="wordFormationPart1Btn">Learn and Test</button>
-        <button type="button" id="wordFormationPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Guided Practice</button>
-        <button type="button" id="wordFormationFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Further Practice</button>
+        <button type="button" id="wordFormationPart1Btn">Step 1: Intro</button>
+        <button type="button" id="wordFormationPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Step 2: Guided Practice</button>
+        <button type="button" id="wordFormationFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Step 3: Further Practice</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="wordFormationBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
         <button type="button" id="wordFormationMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
@@ -204,9 +207,9 @@
       </div>
       <div id="menuSentenceTransform" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 4: Finish the second sentence. Use the key word. Same meaning as the first.</p>
-        <button type="button" id="sentenceTransformPart1Btn">Learn and Test</button>
-        <button type="button" id="sentenceTransformPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Guided Practice</button>
-        <button type="button" id="sentenceTransformFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Further Practice</button>
+        <button type="button" id="sentenceTransformPart1Btn">Step 1: Intro</button>
+        <button type="button" id="sentenceTransformPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Step 2: Guided Practice</button>
+        <button type="button" id="sentenceTransformFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Step 3: Further Practice</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="sentenceTransformBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
         <button type="button" id="sentenceTransformMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
@@ -240,9 +243,9 @@
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a topic. Then pick how you want to practise.</p>
         <label for="topicSelect" style="margin-top: 0.35rem;">Topic</label>
         <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Pick a grammar topic"></select>
-        <button type="button" id="startPart1Btn" class="secondary">Learn and Test</button>
-        <button type="button" id="startPart2Btn" class="secondary">Guided Practice</button>
-        <button type="button" id="openPracticeSetupBtn" class="secondary">Further Practice</button>
+        <button type="button" id="startPart1Btn" class="secondary">Step 1: Intro</button>
+        <button type="button" id="startPart2Btn" class="secondary">Step 2: Guided Practice</button>
+        <button type="button" id="openPracticeSetupBtn" class="secondary">Step 3: Further Practice</button>
         <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
@@ -378,11 +381,11 @@
         </div>
         <div id="sectionCompleteFurtherPracticeWrap" class="hidden" style="margin-top: 0.75rem;">
           <p id="sectionCompleteFurtherPracticeText" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);">Next: do more practice.</p>
-          <button type="button" id="sectionCompleteFurtherPracticeBtn" class="secondary">Further Practice</button>
+          <button type="button" id="sectionCompleteFurtherPracticeBtn" class="secondary">Step 3: Further Practice</button>
         </div>
         <div id="sectionCompleteNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
           <p id="sectionCompleteNextStep" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);"></p>
-          <button type="button" id="sectionCompleteGuidedPracticeBtn" class="secondary">Guided Practice</button>
+          <button type="button" id="sectionCompleteGuidedPracticeBtn" class="secondary">Step 2: Guided Practice</button>
         </div>
         <div id="sectionCompleteCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
@@ -402,7 +405,7 @@
         <p id="resultScore"></p>
         <div id="resultNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
           <p id="resultNextStep" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);"></p>
-          <button type="button" id="resultFurtherPracticeBtn" class="secondary">Further Practice</button>
+          <button type="button" id="resultFurtherPracticeBtn" class="secondary">Step 3: Further Practice</button>
         </div>
         <div class="summary" id="ruleSummary"></div>
         <div id="wrongAnswersCorrectBlock" class="hidden" style="margin-top: 1rem;">
@@ -632,11 +635,21 @@
       const res = await fetch(new URL('questions.json?v=5', getBaseUrl()));
       if (!res.ok) throw new Error('Could not load questions.json');
       allQuestionsData = await res.json();
-      setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
+      if (currentTopic.id === 'prepositions_dependent') {
+        const preps = allQuestionsData['prepositions'];
+        setsData = (preps && preps.set2) ? { set1: preps.set2 } : {};
+      } else {
+        setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
+      }
     }
 
     function applyTopic() {
-      setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
+      if (currentTopic.id === 'prepositions_dependent') {
+        const preps = allQuestionsData['prepositions'];
+        setsData = (preps && preps.set2) ? { set1: preps.set2 } : {};
+      } else {
+        setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
+      }
     }
 
     function renderMenu() {
@@ -693,6 +706,29 @@
       if (diagSetup) diagSetup.classList.add('hidden');
     }
 
+    function applyHashAndShowTopic() {
+      const hash = window.location.hash || '';
+      const match = hash.match(/^#topic\/([^/]+)$/);
+      if (!match || !topics || !topics.length) return;
+      const topicId = decodeURIComponent(match[1]);
+      const idx = topics.findIndex(t => t.id === topicId);
+      if (idx === -1) return;
+      currentTopic = topics[idx];
+      applyTopic();
+      document.getElementById('menuScreen').classList.remove('hidden');
+      document.getElementById('quizScreen').classList.add('hidden');
+      document.getElementById('introScreen').classList.add('hidden');
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
+      document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
+      showTopicSelectMenu();
+      const sel = document.getElementById('topicSelect');
+      if (sel) sel.value = String(idx);
+    }
+
     function showTopicSelectMenu() {
       document.getElementById('menuMain').classList.add('hidden');
       document.getElementById('menuTopicSelect').classList.remove('hidden');
@@ -708,9 +744,17 @@
         if (returnToAfterTopicSelect === 'exam_cloze_feedback') {
           backToPrevBtn.classList.remove('hidden');
           backToPrevBtn.textContent = 'Back to exam answers';
+        } else if (returnToAfterTopicSelect === 'diagnostic') {
+          backToPrevBtn.classList.remove('hidden');
+          backToPrevBtn.textContent = 'Back to test';
         } else {
           backToPrevBtn.classList.add('hidden');
         }
+      }
+      if (returnToAfterTopicSelect === 'diagnostic' && currentTopic && topics && topics.length) {
+        const idx = topics.findIndex(t => t.id === currentTopic.id);
+        const sel = document.getElementById('topicSelect');
+        if (sel && idx >= 0) sel.value = String(idx);
       }
     }
 
@@ -1832,7 +1876,7 @@
             return (s && s.title) ? s.title.replace(new RegExp('^Practice: Gap fill –?\\s*', 'i'), '').trim() : k.replace(/_/g, ' ');
           });
           document.getElementById('ruleSummary').textContent = 'You have finished Practice: ' + sectionNames.join(', ') + '.';
-          document.getElementById('resultNextStep').textContent = 'Suggested next step: Further Practice';
+          document.getElementById('resultNextStep').textContent = 'Suggested next step: Step 3: Further Practice';
           document.getElementById('resultNextStepWrap').classList.remove('hidden');
           document.getElementById('retryWrongBtn').classList.add('hidden');
         }
@@ -2267,7 +2311,7 @@
         const topicTitle = topic ? (topic.title || topicId) : topicId;
         let line = '<p style="margin: 0.5rem 0;"><strong>Gap ' + (r.index + 1) + ':</strong> ';
         if (topicId) {
-          line += '<a href="#" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+          line += '<a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
         }
         line += escapeAndBold(r.gap.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
         if (!r.correct && r.userVal !== undefined && r.userVal !== '') {
@@ -2358,7 +2402,7 @@
         const topic = topics && topics.find(t => t.id === topicId);
         const topicTitle = topic ? (topic.title || topicId) : topicId;
         let line = '<p style="margin: 0.5rem 0;"><strong>Item ' + (r.index + 1) + ':</strong> ';
-        if (topicId) line += '<a href="#" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+        if (topicId) line += '<a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
         line += escapeAndBold(r.item.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
         if (!r.correct && r.userVal !== '') line += ' <span style="color: var(--muted);">You wrote: ' + escapeAndBold(r.userVal) + '</span>';
         line += '</p>';
@@ -2496,7 +2540,12 @@
       ].filter(Boolean).join(': ') || '';
       const questionEl = document.getElementById('questionText');
       if (topicLabel) {
-        questionEl.innerHTML = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</span>' + promptHtml;
+        const escapedLabel = topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        if (quizMode === 'diagnostic' && q.topic) {
+          questionEl.innerHTML = '<a href="#topic/' + (q.topic + '').replace(/"/g, '&quot;') + '" class="topic-label diagnostic-topic-link" data-topic-id="' + (q.topic + '').replace(/"/g, '&quot;') + '">' + escapedLabel + '</a>' + promptHtml;
+        } else {
+          questionEl.innerHTML = '<span class="topic-label">' + escapedLabel + '</span>' + promptHtml;
+        }
       } else {
         questionEl.innerHTML = promptHtml;
       }
@@ -2527,7 +2576,11 @@
         });
         selectedMc = null;
       } else {
-        if (gapFillInstructionEl) gapFillInstructionEl.classList.remove('hidden');
+        if (gapFillInstructionEl) {
+          gapFillInstructionEl.classList.remove('hidden');
+          const isCorrectSentence = (q.question || '').toLowerCase().indexOf('correct the sentence') !== -1;
+          gapFillInstructionEl.textContent = isCorrectSentence ? 'Type the full correct sentence.' : 'Type in the missing words.';
+        }
         document.getElementById('openBlock').classList.remove('hidden');
         document.getElementById('openInput').focus();
       }
@@ -2561,7 +2614,12 @@
       let explanationHtml = escapeAndBold(q.explanation || '');
       if (q.topic && explanationHtml) {
         const topicLabel = getTopicLabelForDisplay(q.topic);
-        explanationHtml = '<span class="topic-label">' + topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + ':</span> ' + explanationHtml;
+        const escapedTopicLabel = topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        if (quizMode === 'diagnostic') {
+          explanationHtml = '<a href="#topic/' + (q.topic + '').replace(/"/g, '&quot;') + '" class="topic-label diagnostic-topic-link" data-topic-id="' + (q.topic + '').replace(/"/g, '&quot;') + '">' + escapedTopicLabel + '</a>: ' + explanationHtml;
+        } else {
+          explanationHtml = '<span class="topic-label">' + escapedTopicLabel + ':</span> ' + explanationHtml;
+        }
       }
       if (correct) {
         document.getElementById('feedbackText').innerHTML = '<span class="result-ok">Correct.</span>';
@@ -2611,7 +2669,7 @@
         const sectionRetryWrap = document.getElementById('sectionCompleteRetryWrap');
         const sectionFurtherWrap = document.getElementById('sectionCompleteFurtherPracticeWrap');
         if (coursePart === 1) {
-          sectionNextStepEl.textContent = 'Suggested next step: Guided Practice';
+          sectionNextStepEl.textContent = 'Suggested next step: Step 2: Guided Practice';
           sectionNextStepWrap.classList.remove('hidden');
           sectionRetryWrap.classList.toggle('hidden', wrongIndices.length === 0);
           sectionFurtherWrap.classList.add('hidden');
@@ -2716,6 +2774,9 @@
         document.getElementById('menuScreen').classList.add('hidden');
         document.getElementById('examClozeTestScreen').classList.remove('hidden');
         document.getElementById('examClozeFeedbackBlock').classList.remove('hidden');
+      } else if (returnToAfterTopicSelect === 'diagnostic') {
+        document.getElementById('menuScreen').classList.add('hidden');
+        document.getElementById('quizScreen').classList.remove('hidden');
       }
     });
     document.getElementById('openExamPracticeBtn').addEventListener('click', showExamPracticeMenu);
@@ -2806,6 +2867,7 @@
       currentTopic = topics[idx];
       applyTopic();
       returnToAfterTopicSelect = 'exam_cloze_feedback';
+      location.hash = 'topic/' + topicId;
       document.getElementById('examClozeTestScreen').classList.add('hidden');
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
       document.getElementById('menuScreen').classList.remove('hidden');
@@ -2906,6 +2968,7 @@
       currentTopic = topics[idx];
       applyTopic();
       returnToAfterTopicSelect = 'exam_transform_feedback';
+      location.hash = 'topic/' + topicId;
       document.getElementById('examTransformTestScreen').classList.add('hidden');
       document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
       document.getElementById('menuScreen').classList.remove('hidden');
@@ -2993,6 +3056,24 @@
     document.getElementById('resultBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
     document.getElementById('quizMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('quizScreen').addEventListener('click', function(e) {
+      const link = e.target && e.target.closest && e.target.closest('.diagnostic-topic-link');
+      if (!link) return;
+      e.preventDefault();
+      const topicId = link.getAttribute('data-topic-id');
+      if (!topicId || !topics || !topics.length) return;
+      const idx = topics.findIndex(t => t.id === topicId);
+      if (idx === -1) return;
+      currentTopic = topics[idx];
+      applyTopic();
+      returnToAfterTopicSelect = 'diagnostic';
+      location.hash = 'topic/' + topicId;
+      document.getElementById('quizScreen').classList.add('hidden');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      showTopicSelectMenu();
+      const sel = document.getElementById('topicSelect');
+      if (sel) sel.value = String(idx);
+    });
     document.getElementById('introBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('introMainMenuBtn').addEventListener('click', showMainMenu);
     const viewPrepositionsListBtn = document.getElementById('viewPrepositionsListBtn');
@@ -3051,7 +3132,7 @@
 
     (async function init() {
       try {
-        const mRes = await fetch(new URL('manifest.json?v=7', getBaseUrl()));
+        const mRes = await fetch(new URL('manifest.json?v=8', getBaseUrl()));
         if (mRes.ok) {
           const mData = await mRes.json();
           topics = mData.topics || [];
@@ -3074,6 +3155,7 @@
         }
         await loadQuestions();
         renderMenu();
+        applyHashAndShowTopic();
       } catch (err) {
         topics = [
           { id: 'auxiliary_verbs', title: 'Auxiliary Verbs', curriculum: 'curriculum_auxiliary_verbs.json', questions_key: 'auxiliary_verbs' },
@@ -3120,8 +3202,11 @@
         document.getElementById('scoresSummary').textContent = 'Could not load manifest. Topic list loaded from fallback. Double-click start_server.bat and open http://localhost:8080 for full features.';
         await loadQuestions().catch(() => {});
         renderMenu();
+        applyHashAndShowTopic();
       }
     })();
+
+    window.addEventListener('hashchange', applyHashAndShowTopic);
 
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register(new URL('sw.js', document.baseURI || window.location.href).href, { scope: './' }).catch(function() {});
