@@ -177,7 +177,7 @@
         },
         {
           "type": "open",
-          "question": "First: If you _____ early, call me. (one word; e.g. finish or arrive)",
+          "question": "First: If you _____ early, call me. (one word; present simple, e.g. finish or leave)",
           "answers": [
             "finish",
             "arrive"

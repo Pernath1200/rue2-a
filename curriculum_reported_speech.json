@@ -12,15 +12,15 @@
         "diagram": {
           "type": "table",
           "title": "Tense backshift in reported speech",
-          "headers": ["Direct speech", "→", "Reported speech"],
+          "headers": ["Direct speech", "Example", "→", "Reported speech", "Example"],
           "rows": [
-            ["present simple", "→", "past simple"],
-            ["present continuous", "→", "past continuous"],
-            ["present perfect", "→", "past perfect"],
-            ["will", "→", "would"],
-            ["can", "→", "could"],
-            ["must", "→", "had to"],
-            ["may", "→", "might"]
+            ["present simple", "\"I **like** it.\"", "→", "past simple", "He said he **liked** it."],
+            ["present continuous", "\"I **am leaving**.\"", "→", "past continuous", "She said she **was leaving**."],
+            ["present perfect", "\"I **have finished**.\"", "→", "past perfect", "He said he **had finished**."],
+            ["will", "\"I **will help**.\"", "→", "would", "She said she **would help**."],
+            ["can", "\"I **can swim**.\"", "→", "could", "He said he **could swim**."],
+            ["must", "\"I **must go**.\"", "→", "had to", "She said she **had to** go."],
+            ["may", "\"I **may be** late.\"", "→", "might", "He said he **might be** late."]
           ]
         }
       },

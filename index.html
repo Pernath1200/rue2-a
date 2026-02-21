@@ -45,6 +45,50 @@
       min-height: 100vh;
     }
     .container { max-width: 640px; margin: 0 auto; }
+    /* Front-page hero: compact zen spacing (zero scroll, 620–700px target) */
+    .hero-stack {
+      max-width: 28.75rem; /* 460px */
+      margin: 0 auto;
+      padding: 2.5rem 1rem 2.5rem; /* top 2.2–2.8rem, bottom 2.2–2.8rem */
+    }
+    .hero-stack #menuScreen {
+      padding: 2.2rem 1.25rem;
+      margin-bottom: 0;
+    }
+    .hero-stack #menuMain .actions {
+      margin-bottom: 1.5rem; /* gap between 3 main buttons: 1.4–1.7rem */
+    }
+    .hero-stack #menuMain .actions button {
+      margin-top: 0;
+      padding: 1.2rem 2rem; /* 1.15–1.3rem vertical × 2rem horizontal */
+    }
+    .hero-stack #menuMain hr {
+      margin: 1.5rem 0;
+    }
+    .hero-stack #menuMain > button {
+      margin-top: 1.5rem;
+      padding: 1.2rem 2rem;
+    }
+    .hero-stack #menuMain .memory-bank {
+      margin-top: 1.5rem;
+    }
+    .hero-stack #referenceBtnWrap {
+      margin-top: 3rem; /* 2.8–3.3rem gap to Reference */
+    }
+    .hero-stack #referenceBtnWrap button {
+      padding: 1.2rem 2rem;
+    }
+    @media (max-height: 720px) {
+      .hero-stack { padding: 1.75rem 1rem 1.75rem; }
+      .hero-stack #menuScreen { padding: 1.75rem 1.25rem; }
+      .hero-stack #menuMain .actions { margin-bottom: 1.25rem; }
+      .hero-stack #menuMain hr { margin: 1.25rem 0; }
+      .hero-stack #menuMain > button { margin-top: 1.25rem; padding: 1.1rem 2rem; }
+      .hero-stack #menuMain .actions button { padding: 1.1rem 2rem; }
+      .hero-stack #menuMain .memory-bank { margin-top: 1.25rem; }
+      .hero-stack #referenceBtnWrap { margin-top: 2.25rem; }
+      .hero-stack #referenceBtnWrap button { padding: 1.1rem 2rem; }
+    }
     h1 { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--accent); }
     .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
     .card {
@@ -57,7 +101,7 @@
       padding: 1rem;
       margin-bottom: 0.75rem;
     }
-    #referenceBtnWrap, #reportedQuestionsWrap {
+    #referenceBtnWrap {
       padding-left: 1rem;
       padding-right: 1rem;
     }
@@ -197,14 +241,15 @@
 </head>
 <body class="theme-cursor">
   <div class="container">
+    <div class="hero-stack">
     <div id="menuScreen" class="card">
       <div id="menuMain" class="menu-panel">
-        <div class="actions" style="margin-bottom: 0.65rem;">
+        <div class="actions">
           <button type="button" id="openDiagnosticSetupBtn" class="secondary">Start Here: Grammar Test</button>
         </div>
-        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.65rem 0;" />
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5);" />
         <button type="button" id="openTopicSelectBtn">Choose Grammar Topic</button>
-        <button type="button" id="openExamPracticeBtn" class="secondary" style="margin-top: 0.5rem;">Exam Practice</button>
+        <button type="button" id="openExamPracticeBtn" class="secondary">Exam Practice</button>
         <div class="memory-bank" id="memoryBankSummary"></div>
       </div>
       <div id="menuExamPractice" class="menu-panel hidden">
@@ -449,6 +494,7 @@
           <button type="button" id="sectionCompleteNextBtn">Next section</button>
           <button type="button" id="sectionCompleteBackBtn" class="secondary">Back</button>
           <button type="button" id="sectionCompleteMainMenuBtn" class="secondary">Main Menu</button>
+          <button type="button" id="viewReportedQuestionsBtnSection" class="secondary">View reported questions</button>
         </div>
       </div>
     </div>
@@ -475,6 +521,7 @@
           <button id="retryWrongBtn" class="secondary">Try again</button>
           <button type="button" id="resultBackBtn" class="secondary">Back</button>
           <button type="button" id="backToMenuBtn" class="secondary">Main Menu</button>
+          <button type="button" id="viewReportedQuestionsBtnResult" class="secondary">View reported questions</button>
         </div>
       </div>
     </div>
@@ -515,11 +562,9 @@
       </div>
     </div>
 
-    <div id="referenceBtnWrap" style="margin-top: 1rem; margin-bottom: 1rem;">
+    <div id="referenceBtnWrap">
       <button type="button" id="openReferenceBtn" class="secondary">Reference</button>
     </div>
-    <div id="reportedQuestionsWrap" style="margin-top: 0.5rem;">
-      <button type="button" id="viewReportedQuestionsBtn" class="secondary">View reported questions</button>
     </div>
   </div>
 
@@ -3378,7 +3423,16 @@
     document.getElementById('flagReasonCancelBtn').addEventListener('click', function() {
       document.getElementById('flagReasonOverlay').classList.add('hidden');
     });
-    document.getElementById('viewReportedQuestionsBtn').addEventListener('click', function() {
+    var viewReportedBtn = document.getElementById('viewReportedQuestionsBtn');
+    if (viewReportedBtn) viewReportedBtn.addEventListener('click', function() {
+      renderReportedQuestionsList();
+      document.getElementById('reportedQuestionsOverlay').classList.remove('hidden');
+    });
+    document.getElementById('viewReportedQuestionsBtnResult').addEventListener('click', function() {
+      renderReportedQuestionsList();
+      document.getElementById('reportedQuestionsOverlay').classList.remove('hidden');
+    });
+    document.getElementById('viewReportedQuestionsBtnSection').addEventListener('click', function() {
       renderReportedQuestionsList();
       document.getElementById('reportedQuestionsOverlay').classList.remove('hidden');
     });

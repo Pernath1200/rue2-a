@@ -121,10 +121,10 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'have been reading.' Correct the sentence.",
+          "question": "Wrong: 'I have been reading that book.' (You mean you finished it; the result matters.) Correct the sentence.",
           "answers": [
-            "have read",
-            "have read"
+            "I have read that book.",
+            "I have read that book"
           ],
           "explanation": "We focus on completion (how much is done), so we use the present perfect simple."
         },
@@ -3010,7 +3010,9 @@
           "question": "6. Wrong: 'We had dinner at 8 pm.' (You mean you were in the middle of dinner at that moment.) Correct the sentence.",
           "answers": [
             "We were having dinner at 8 pm.",
-            "We were having dinner at 8 pm"
+            "We were having dinner at 8 pm",
+            "We were having dinner at 8pm.",
+            "We were having dinner at 8pm"
           ],
           "explanation": "Action in progress at a moment → past continuous."
         },
@@ -5186,7 +5188,7 @@
         },
         {
           "type": "open",
-          "question": "7. First: If you _____ early, call me. (one word; e.g. finish or arrive)",
+          "question": "7. First: If you _____ early, call me. (one word; present simple, e.g. finish or leave)",
           "answers": [
             "finish",
             "arrive"

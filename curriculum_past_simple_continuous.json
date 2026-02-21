@@ -257,7 +257,9 @@
           "question": "Wrong: 'We had dinner at 8 pm.' (You mean you were in the middle of dinner at that moment.) Correct the sentence.",
           "answers": [
             "We were having dinner at 8 pm.",
-            "We were having dinner at 8 pm"
+            "We were having dinner at 8 pm",
+            "We were having dinner at 8pm.",
+            "We were having dinner at 8pm"
           ],
           "explanation": "Action in progress at a moment → past continuous."
         }
