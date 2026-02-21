@@ -28,7 +28,17 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **Coordinating** (and, but, or, so, yet): between two main clauses.\n• **Subordinating** (because, although, when, if): introduce a dependent clause.\n• **Linkers** (however, therefore, for example): often at the start of a sentence; comma after.\n• Don't use **because** and **so** together. Don't use **although** and **but** together.\n• Choose the right word for the meaning: contrast (but, although, however), cause (because, so), time (when, while)."
+        "content": "• **Coordinating** (and, but, or, so, yet): between two main clauses.\n• **Subordinating** (because, although, when, if): introduce a dependent clause.\n• **Linkers** (however, therefore, for example): often at the start of a sentence; comma after.\n• Don't use **because** and **so** together. Don't use **although** and **but** together.\n• Choose the right word for the meaning: contrast (but, although, however), cause (because, so), time (when, while).",
+        "diagram": {
+          "type": "table",
+          "title": "Conjunctions and linkers by type",
+          "headers": ["Type", "Words", "Position"],
+          "rows": [
+            ["Coordinating", "and, but, or, so, yet", "Between two main clauses"],
+            ["Subordinating", "because, although, when, if, while", "Start of dependent clause"],
+            ["Linkers", "however, therefore, for example", "Start of new sentence + comma"]
+          ]
+        }
       }
     ]
   },

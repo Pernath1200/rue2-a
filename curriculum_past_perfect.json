@@ -16,7 +16,16 @@
       },
       {
         "title": "Past perfect vs past simple",
-        "content": "**Two past events:**\n• The one that happened **first** → past perfect.\n• The one that happened **later** (or is the main focus) → past simple.\n\nWhen I **arrived** (past simple – main event), the film **had already started** (past perfect – earlier).\n\nIf the order is clear from **before** / **after** / **when**, we sometimes use past simple for both: She **left** before I **arrived**. But past perfect is clearer: She **had left** before I arrived."
+        "content": "**Two past events:**\n• The one that happened **first** → past perfect.\n• The one that happened **later** (or is the main focus) → past simple.\n\nWhen I **arrived** (past simple – main event), the film **had already started** (past perfect – earlier).\n\nIf the order is clear from **before** / **after** / **when**, we sometimes use past simple for both: She **left** before I **arrived**. But past perfect is clearer: She **had left** before I arrived.",
+        "diagram": {
+          "type": "timeline",
+          "title": "Past perfect: two events in the past",
+          "events": [
+            {"label": "Earlier event", "detail": "had + past participle", "style": "past"},
+            {"label": "Later event", "detail": "past simple", "style": "past"},
+            {"label": "Now", "detail": "speaking time", "style": "now"}
+          ]
+        }
       },
       {
         "title": "Quick summary",

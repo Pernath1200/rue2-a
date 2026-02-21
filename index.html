@@ -139,6 +139,34 @@
       .no-print-hide { position: absolute; left: 0; top: 0; width: 100%; background: white; color: #111; padding: 1rem; }
       .no-print-hide .actions { display: none !important; }
     }
+    .diagram { margin: 1rem 0 0.5rem; border-radius: var(--radius); overflow: hidden; }
+    .diagram-title { font-size: 0.85rem; font-weight: 600; color: var(--accent); margin-bottom: 0.5rem; }
+    .diagram-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .diagram-table th { background: rgba(37, 99, 235, 0.15); color: var(--accent); font-weight: 600; padding: 0.45rem 0.5rem; text-align: left; border: 1px solid rgba(86, 95, 137, 0.35); }
+    .diagram-table td { padding: 0.4rem 0.5rem; border: 1px solid rgba(86, 95, 137, 0.25); vertical-align: top; }
+    .diagram-table tr:nth-child(even) td { background: rgba(37, 99, 235, 0.04); }
+    .diagram-table td.dt-highlight { background: rgba(37, 99, 235, 0.1); font-weight: 600; }
+    .diagram-formula { display: flex; flex-direction: column; gap: 0.5rem; }
+    .diagram-formula-item { background: var(--bg); border: 1px solid rgba(86, 95, 137, 0.35); border-radius: var(--radius); padding: 0.5rem 0.65rem; font-size: 0.85rem; line-height: 1.5; }
+    .diagram-formula-label { font-weight: 600; color: var(--accent); margin-right: 0.4rem; }
+    .diagram-formula-arrow { color: var(--correct); font-weight: 700; margin: 0 0.2rem; }
+    .diagram-comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .diagram-comparison-col { background: var(--bg); border: 1px solid rgba(86, 95, 137, 0.35); border-radius: var(--radius); padding: 0.5rem 0.65rem; }
+    .diagram-comparison-col h4 { font-size: 0.85rem; font-weight: 600; color: var(--accent); margin: 0 0 0.35rem; }
+    .diagram-comparison-col ul { margin: 0; padding-left: 1.1rem; font-size: 0.82rem; line-height: 1.55; }
+    .diagram-comparison-col li { margin-bottom: 0.15rem; }
+    @media (max-width: 420px) { .diagram-comparison { grid-template-columns: 1fr; } }
+    .diagram-timeline { position: relative; display: flex; justify-content: space-between; align-items: flex-start; padding: 1.2rem 0 0; margin-bottom: 0.5rem; min-height: 60px; }
+    .diagram-timeline::before { content: ''; position: absolute; top: 1.2rem; left: 8%; right: 8%; height: 3px; background: rgba(86, 95, 137, 0.5); }
+    .diagram-timeline-point { position: relative; text-align: center; z-index: 1; flex: 1; }
+    .diagram-timeline-marker { width: 14px; height: 14px; border-radius: 50%; background: var(--accent); margin: 0 auto 0.35rem; position: relative; top: -5px; }
+    .diagram-timeline-marker.tl-past { background: var(--muted); }
+    .diagram-timeline-marker.tl-now { background: var(--correct); box-shadow: 0 0 6px rgba(126, 184, 122, 0.5); }
+    .diagram-timeline-marker.tl-future { background: var(--accent); }
+    .diagram-timeline-label { font-size: 0.75rem; font-weight: 600; color: var(--text); }
+    .diagram-timeline-detail { font-size: 0.7rem; color: var(--muted); margin-top: 0.15rem; }
+    .diagram-timeline-span { position: absolute; top: -0.1rem; height: 3px; background: var(--accent); opacity: 0.5; }
+    .diagram-timeline-span-label { position: absolute; top: -1rem; font-size: 0.65rem; color: var(--accent); white-space: nowrap; left: 50%; transform: translateX(-50%); }
   </style>
   <meta name="theme-color" content="#2563eb">
   <link rel="manifest" href="pwa-manifest.json">
@@ -1776,6 +1804,77 @@
       }
     }
 
+    function renderDiagram(diagramData) {
+      if (!diagramData || !diagramData.type) return '';
+      const esc = (s) => escapeAndBold(s || '');
+      const titleHtml = diagramData.title ? '<div class="diagram-title">' + esc(diagramData.title) + '</div>' : '';
+
+      if (diagramData.type === 'table') {
+        const headers = diagramData.headers || [];
+        const rows = diagramData.rows || [];
+        let html = '<div class="diagram">' + titleHtml + '<table class="diagram-table"><thead><tr>';
+        headers.forEach(h => { html += '<th>' + esc(h) + '</th>'; });
+        html += '</tr></thead><tbody>';
+        rows.forEach(row => {
+          const cells = Array.isArray(row) ? row : (row.cells || []);
+          const hl = !Array.isArray(row) && row.highlight;
+          html += '<tr>';
+          cells.forEach((c, ci) => {
+            html += '<td' + (hl || ci === 0 ? ' class="dt-highlight"' : '') + '>' + esc(c) + '</td>';
+          });
+          html += '</tr>';
+        });
+        html += '</tbody></table></div>';
+        return html;
+      }
+
+      if (diagramData.type === 'formula') {
+        const items = diagramData.items || [];
+        let html = '<div class="diagram">' + titleHtml + '<div class="diagram-formula">';
+        items.forEach(item => {
+          const label = item.label ? '<span class="diagram-formula-label">' + esc(item.label) + '</span>' : '';
+          const formula = (item.formula || '').replace(/→/g, '<span class="diagram-formula-arrow">→</span>');
+          html += '<div class="diagram-formula-item">' + label + esc(formula).replace(/→/g, '<span class="diagram-formula-arrow">→</span>') + '</div>';
+        });
+        html += '</div></div>';
+        return html;
+      }
+
+      if (diagramData.type === 'comparison') {
+        const left = diagramData.left || {};
+        const right = diagramData.right || {};
+        let html = '<div class="diagram">' + titleHtml + '<div class="diagram-comparison">';
+        [left, right].forEach(col => {
+          html += '<div class="diagram-comparison-col"><h4>' + esc(col.title || '') + '</h4>';
+          if (col.points && col.points.length) {
+            html += '<ul>';
+            col.points.forEach(p => { html += '<li>' + esc(p) + '</li>'; });
+            html += '</ul>';
+          }
+          html += '</div>';
+        });
+        html += '</div></div>';
+        return html;
+      }
+
+      if (diagramData.type === 'timeline') {
+        const events = diagramData.events || [];
+        let html = '<div class="diagram">' + titleHtml + '<div class="diagram-timeline">';
+        events.forEach(ev => {
+          const markerClass = ev.style === 'past' ? 'tl-past' : ev.style === 'now' ? 'tl-now' : ev.style === 'future' ? 'tl-future' : '';
+          html += '<div class="diagram-timeline-point">';
+          html += '<div class="diagram-timeline-marker ' + markerClass + '"></div>';
+          html += '<div class="diagram-timeline-label">' + esc(ev.label || '') + '</div>';
+          if (ev.detail) html += '<div class="diagram-timeline-detail">' + esc(ev.detail) + '</div>';
+          html += '</div>';
+        });
+        html += '</div></div>';
+        return html;
+      }
+
+      return '';
+    }
+
     function showIntroSection(index) {
       const intro = courseCurriculum.intro || {};
       const sections = intro.sections || [];
@@ -1786,7 +1885,8 @@
       }
       document.getElementById('introTitle').textContent = sections[index].title || 'Introduction';
       const introHtml = escapeAndBold(sections[index].content || '').replace(/\n/g, '<br>');
-      document.getElementById('introContent').innerHTML = '<div class="intro-section">' + introHtml + '</div>';
+      const diagramHtml = sections[index].diagram ? renderDiagram(sections[index].diagram) : '';
+      document.getElementById('introContent').innerHTML = '<div class="intro-section">' + introHtml + '</div>' + diagramHtml;
       const isLastSection = index >= sections.length - 1;
       const hasCheckQuestions = ((courseCurriculum && courseCurriculum.check && courseCurriculum.check.questions) || []).length > 0;
       document.getElementById('introNextBtn').textContent = !isLastSection ? 'Next' : (hasCheckQuestions ? 'Start test' : 'Menu');

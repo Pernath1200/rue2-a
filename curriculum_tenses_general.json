@@ -4,7 +4,17 @@
     "sections": [
       {
         "title": "Introduction",
-        "content": "In English, **tense** tells us **when** something happens (past, present, or future). We combine **time** (past / present / future) with **aspect** (simple / continuous / perfect / perfect continuous) to get the 12 tense forms.\n\nUnlike in Czech, English does not change the verb ending for person in most tenses (except 3rd person singular present: he/she/it **works**). We use **auxiliary verbs** (do, does, did, have, has, had, will, be) to form questions, negatives, and many positive forms. **Czech** conjugates the verb (dělám, děláš, dělá…); **English** often uses two or more words: *I have been waiting*, *She will have left*. Czech distinguishes perfective vs imperfective by verbs or prefixes; English distinguishes **simple** vs **continuous** vs **perfect** by structure. Think about **time** (when?) and **aspect** (fact, in progress, completed, or lasting), not a 1:1 match with Czech.\n\n**Aspect** is how we look at the action in time. The next four pages cover: **Simple** (fact, habit, single event), **Continuous** (in progress), **Perfect** (completed, result), **Perfect continuous** (duration + result)."
+        "content": "In English, **tense** tells us **when** something happens (past, present, or future). We combine **time** (past / present / future) with **aspect** (simple / continuous / perfect / perfect continuous) to get the 12 tense forms.\n\nUnlike in Czech, English does not change the verb ending for person in most tenses (except 3rd person singular present: he/she/it **works**). We use **auxiliary verbs** (do, does, did, have, has, had, will, be) to form questions, negatives, and many positive forms. **Czech** conjugates the verb (dělám, děláš, dělá…); **English** often uses two or more words: *I have been waiting*, *She will have left*. Czech distinguishes perfective vs imperfective by verbs or prefixes; English distinguishes **simple** vs **continuous** vs **perfect** by structure. Think about **time** (when?) and **aspect** (fact, in progress, completed, or lasting), not a 1:1 match with Czech.\n\n**Aspect** is how we look at the action in time. The next four pages cover: **Simple** (fact, habit, single event), **Continuous** (in progress), **Perfect** (completed, result), **Perfect continuous** (duration + result).",
+        "diagram": {
+          "type": "table",
+          "title": "The 12 English tenses (3 times × 4 aspects)",
+          "headers": ["", "Simple", "Continuous", "Perfect", "Perfect Continuous"],
+          "rows": [
+            ["**Past**", "I worked", "I was working", "I had worked", "I had been working"],
+            ["**Present**", "I work", "I am working", "I have worked", "I have been working"],
+            ["**Future**", "I will work", "I will be working", "I will have worked", "I will have been working"]
+          ]
+        }
       },
       {
         "title": "Simple aspect",

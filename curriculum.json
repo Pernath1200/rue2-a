@@ -16,7 +16,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Result / how many / stative verb → SIMPLE (have + past participle).\n• Duration / how long / visible effect now → CONTINUOUS (have been + -ing).\n• When both are possible, simple = result; continuous = activity or time."
+        "content": "• Result / how many / stative verb → SIMPLE (have + past participle).\n• Duration / how long / visible effect now → CONTINUOUS (have been + -ing).\n• When both are possible, simple = result; continuous = activity or time.",
+        "diagram": {
+          "type": "comparison",
+          "title": "Present perfect: simple vs continuous",
+          "left": {
+            "title": "Simple (have + pp)",
+            "points": ["Result or completion", "How many (I've read 3 books)", "Life experience (ever been?)", "Stative verbs (know, like, have)"]
+          },
+          "right": {
+            "title": "Continuous (have been + -ing)",
+            "points": ["Duration / how long", "Activity in progress or just stopped", "Visible effect now (dirty hands)", "Repeated / temporary activity"]
+          }
+        }
       },
       {
         "title": "Common mistakes",

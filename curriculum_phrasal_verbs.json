@@ -20,7 +20,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Phrasal verb = **verb + particle** = special meaning (give up = stop trying).\n• **Separable:** Turn it on. **Inseparable:** look after the children.\n• Learn as whole phrases. Full list: **Reference → Phrasal verb dictionary**."
+        "content": "• Phrasal verb = **verb + particle** = special meaning (give up = stop trying).\n• **Separable:** Turn it on. **Inseparable:** look after the children.\n• Learn as whole phrases. Full list: **Reference → Phrasal verb dictionary**.",
+        "diagram": {
+          "type": "comparison",
+          "title": "Separable vs inseparable phrasal verbs",
+          "left": {
+            "title": "Separable",
+            "points": ["Object can go in the middle", "Turn **the light** on.", "Pronoun MUST go in middle", "Turn **it** on. (not: turn on it)"]
+          },
+          "right": {
+            "title": "Inseparable",
+            "points": ["Object always after particle", "Look after **the children**.", "Pronoun also after particle", "Look after **them**."]
+          }
+        }
       }
     ]
   },

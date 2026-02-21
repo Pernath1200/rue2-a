@@ -24,7 +24,18 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **Zero:** if + present, present → facts, general truths (If you heat ice, it melts.)\n• **First:** if + present, will + base → real future (If it rains, I will stay home.)\n• **Second:** if + past, would + base → unreal present/future (If I had time, I would help.)\n• **Third:** if + past perfect, would have + past participle → unreal past (If I had known, I would have told you.)\n• Never use **will** or **would** in the **if-clause** (only in the main clause for first/second/third)."
+        "content": "• **Zero:** if + present, present → facts, general truths (If you heat ice, it melts.)\n• **First:** if + present, will + base → real future (If it rains, I will stay home.)\n• **Second:** if + past, would + base → unreal present/future (If I had time, I would help.)\n• **Third:** if + past perfect, would have + past participle → unreal past (If I had known, I would have told you.)\n• Never use **will** or **would** in the **if-clause** (only in the main clause for first/second/third).",
+        "diagram": {
+          "type": "table",
+          "title": "Conditional types at a glance",
+          "headers": ["Type", "If-clause", "Main clause", "Use"],
+          "rows": [
+            ["Zero", "if + present", "present", "Facts, general truths"],
+            ["First", "if + present", "will + base", "Real future possibility"],
+            ["Second", "if + past", "would + base", "Unreal / hypothetical now"],
+            ["Third", "if + past perfect", "would have + pp", "Unreal past"]
+          ]
+        }
       },
       {
         "title": "Typical learner errors",

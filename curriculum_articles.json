@@ -20,7 +20,17 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **a/an** – first mention, one of many, singular countable; **a** + consonant sound, **an** + vowel sound.\n• **the** – listener knows which one; unique (the sun); second mention; superlatives (the best); specified context; some place names.\n• **∅ (no article)** – plural/uncountable in general; meals (have breakfast); go to work/school; most names.\n• In this course we write **∅** or say **no article** when nothing is used before the noun."
+        "content": "• **a/an** – first mention, one of many, singular countable; **a** + consonant sound, **an** + vowel sound.\n• **the** – listener knows which one; unique (the sun); second mention; superlatives (the best); specified context; some place names.\n• **∅ (no article)** – plural/uncountable in general; meals (have breakfast); go to work/school; most names.\n• In this course we write **∅** or say **no article** when nothing is used before the noun.",
+        "diagram": {
+          "type": "table",
+          "title": "Which article to use?",
+          "headers": ["Article", "When", "Example"],
+          "rows": [
+            ["**a / an**", "First mention, one of many, singular countable", "I bought **a** car. She's **an** engineer."],
+            ["**the**", "Listener knows which; unique; second mention", "**The** sun. I bought a car. **The** car is red."],
+            ["**∅ (none)**", "General plural/uncountable; meals; most names", "Cats are animals. Go to work. London."]
+          ]
+        }
       },
       {
         "title": "Typical learner errors",

@@ -12,7 +12,16 @@
       },
       {
         "title": "Embedded questions: when to use statement order",
-        "content": "Use **statement order** (subject + verb) after *I don't know*, *Can you tell me*, *I wonder*, *Tell me*, *Do you know*, *I'm not sure*.\n\n• I don't know what **the answer is**. ✓  Czenglish: *I don't know what is the answer.* ✗\n• I wonder when **he left**. ✓  Czenglish: *I wonder when did he leave.* ✗ (no *did*)\n• Do you know **if she is** coming? ✓  Czenglish: *Do you know if is she coming?* ✗\n\n**Rule:** Subject before verb. Past: when **he left** (not *when did he leave*). Present: how much **it costs** (not *does it cost*)."
+        "content": "Use **statement order** (subject + verb) after *I don't know*, *Can you tell me*, *I wonder*, *Tell me*, *Do you know*, *I'm not sure*.\n\n• I don't know what **the answer is**. ✓  Czenglish: *I don't know what is the answer.* ✗\n• I wonder when **he left**. ✓  Czenglish: *I wonder when did he leave.* ✗ (no *did*)\n• Do you know **if she is** coming? ✓  Czenglish: *Do you know if is she coming?* ✗\n\n**Rule:** Subject before verb. Past: when **he left** (not *when did he leave*). Present: how much **it costs** (not *does it cost*).",
+        "diagram": {
+          "type": "formula",
+          "title": "Direct vs embedded word order",
+          "items": [
+            {"label": "Direct:", "formula": "Question word + **verb** + subject?"},
+            {"label": "Embedded:", "formula": "… question word + **subject** + verb."},
+            {"label": "Example:", "formula": "What **is** the answer? → I don't know what the answer **is**."}
+          ]
+        }
       },
       {
         "title": "Frequency adverbs: where they go",
@@ -20,7 +29,16 @@
       },
       {
         "title": "Frequency adverbs: common mistakes",
-        "content": "**Wrong (Czenglish):** I go *often* to the gym.\n**Right:** I **often go** to the gym.\n\n**Wrong (Czenglish):** She *always is* late.\n**Right:** She **is always** late. (After **be**, the adverb goes after *am/is/are*.)\n\n**Wrong (Czenglish):** They *usually are* at home.\n**Right:** They **are usually** at home.\n\n**Rule of thumb:** With **be** → subject + be + adverb. With other verbs → subject + adverb + verb (or after first auxiliary in negatives/questions)."
+        "content": "**Wrong (Czenglish):** I go *often* to the gym.\n**Right:** I **often go** to the gym.\n\n**Wrong (Czenglish):** She *always is* late.\n**Right:** She **is always** late. (After **be**, the adverb goes after *am/is/are*.)\n\n**Wrong (Czenglish):** They *usually are* at home.\n**Right:** They **are usually** at home.\n\n**Rule of thumb:** With **be** → subject + be + adverb. With other verbs → subject + adverb + verb (or after first auxiliary in negatives/questions).",
+        "diagram": {
+          "type": "formula",
+          "title": "Frequency adverb position",
+          "items": [
+            {"label": "With be:", "formula": "subject + **be** + adverb (She **is always** late)"},
+            {"label": "Other verbs:", "formula": "subject + adverb + **verb** (I **often go** to the gym)"},
+            {"label": "With auxiliary:", "formula": "auxiliary + adverb + verb (She doesn't **often** eat out)"}
+          ]
+        }
       },
       {
         "title": "Additive particles: \"also\" (také)",

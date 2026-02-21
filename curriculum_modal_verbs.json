@@ -16,7 +16,20 @@
       },
       {
         "title": "Summary – when to use which",
-        "content": "• **Obligation:** *must* (strong, from the speaker), *have to* (often external), *ought to* / *should* (advice or weaker obligation).\n• **Possibility:** *may*, *might*, *could* (*It might rain*).\n• **Ability:** *can*, *could* (past), *be able to* (when you need another tense).\n• **Permission:** *can*, *may*, *could* (polite).\n• **Advice:** *should*, *ought to* (*You should / ought to rest*).\n\nRemember: modals have no -s and no *to* before the main verb (except *ought to*); semi-modals like *have to* and *ought to* use *to* + infinitive."
+        "content": "• **Obligation:** *must* (strong, from the speaker), *have to* (often external), *ought to* / *should* (advice or weaker obligation).\n• **Possibility:** *may*, *might*, *could* (*It might rain*).\n• **Ability:** *can*, *could* (past), *be able to* (when you need another tense).\n• **Permission:** *can*, *may*, *could* (polite).\n• **Advice:** *should*, *ought to* (*You should / ought to rest*).\n\nRemember: modals have no -s and no *to* before the main verb (except *ought to*); semi-modals like *have to* and *ought to* use *to* + infinitive.",
+        "diagram": {
+          "type": "table",
+          "title": "Modal verbs by meaning",
+          "headers": ["Meaning", "Modals", "Example"],
+          "rows": [
+            ["Obligation (strong)", "must, have to", "You **must** wear a seatbelt."],
+            ["Advice / weak obligation", "should, ought to", "You **should** see a doctor."],
+            ["Possibility", "may, might, could", "It **might** rain tomorrow."],
+            ["Ability", "can, could, be able to", "She **can** swim."],
+            ["Permission", "can, may, could", "**May** I sit here?"],
+            ["Offer / promise", "will, shall", "I**'ll** help you."]
+          ]
+        }
       }
     ]
   },

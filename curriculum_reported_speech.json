@@ -8,7 +8,21 @@
       },
       {
         "title": "Tense backshift",
-        "content": "When we report with **said/told/asked** (past), we usually shift the tense:\n\n• Present → Past: \"I like it.\" → He said he **liked** it.\n• Will → Would: \"I will help.\" → She said she **would** help.\n• Can → Could: \"I can swim.\" → He said he **could** swim.\n• Present perfect → Past perfect: \"I have seen it.\" → He said he **had seen** it.\n• Must → Had to: \"I must go.\" → She said she **had to** go.\n\nExamples: I am tired → she was tired. We will come → they would come."
+        "content": "When we report with **said/told/asked** (past), we usually shift the tense:\n\n• Present → Past: \"I like it.\" → He said he **liked** it.\n• Will → Would: \"I will help.\" → She said she **would** help.\n• Can → Could: \"I can swim.\" → He said he **could** swim.\n• Present perfect → Past perfect: \"I have seen it.\" → He said he **had seen** it.\n• Must → Had to: \"I must go.\" → She said she **had to** go.\n\nExamples: I am tired → she was tired. We will come → they would come.",
+        "diagram": {
+          "type": "table",
+          "title": "Tense backshift in reported speech",
+          "headers": ["Direct speech", "→", "Reported speech"],
+          "rows": [
+            ["present simple", "→", "past simple"],
+            ["present continuous", "→", "past continuous"],
+            ["present perfect", "→", "past perfect"],
+            ["will", "→", "would"],
+            ["can", "→", "could"],
+            ["must", "→", "had to"],
+            ["may", "→", "might"]
+          ]
+        }
       },
       {
         "title": "Pronouns and time/place words",

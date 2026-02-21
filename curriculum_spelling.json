@@ -4,7 +4,19 @@
     "sections": [
       {
         "title": "What this section covers",
-        "content": "**50 commonly misspelt words** – silent letters, double letters, tricky patterns (e.g. ie/ei, -ence/-ance).\n\n• **Check** – test your recognition.\n• **Practice** – correct sentences with misspellings.\n\nTip: Learn in small groups. Notice patterns: receive (i before e after c), accommodation (double c, double m), necessary (one c, double s)."
+        "content": "**50 commonly misspelt words** – silent letters, double letters, tricky patterns (e.g. ie/ei, -ence/-ance).\n\n• **Check** – test your recognition.\n• **Practice** – correct sentences with misspellings.\n\nTip: Learn in small groups. Notice patterns: receive (i before e after c), accommodation (double c, double m), necessary (one c, double s).",
+        "diagram": {
+          "type": "table",
+          "title": "Common spelling traps",
+          "headers": ["Pattern", "Remember", "Words"],
+          "rows": [
+            ["i before e after c", "rec**ei**ve, c**ei**ling", "receive, ceiling, deceive"],
+            ["Double letters", "acc**omm**odation, emb**arr**ass", "accommodation, embarrass, occurrence"],
+            ["One c, double s", "ne**c**e**ss**ary", "necessary"],
+            ["Silent letters", "k**n**owledge, Wed**n**esday", "knowledge, Wednesday, February"],
+            ["-par- not -per-", "se**par**ate (think: part)", "separate, desperate"]
+          ]
+        }
       },
       {
         "title": "The word list (50 words)",

@@ -8,7 +8,17 @@
       },
       {
         "title": "How to form comparatives",
-        "content": "**Short adjectives** (1–2 syllables like tall, easy): add **-er**\n• tall → taller; easy → easier (y → ier); big → bigger (double consonant)\n\n**Long adjectives** (2+ syllables like expensive): **more + adjective**\n• more expensive, more interesting\n\n**Irregular:** good → **better**; bad → **worse**; far → **farther/further**\n\nUse **than** after: taller than me. More expensive than the others."
+        "content": "**Short adjectives** (1–2 syllables like tall, easy): add **-er**\n• tall → taller; easy → easier (y → ier); big → bigger (double consonant)\n\n**Long adjectives** (2+ syllables like expensive): **more + adjective**\n• more expensive, more interesting\n\n**Irregular:** good → **better**; bad → **worse**; far → **farther/further**\n\nUse **than** after: taller than me. More expensive than the others.",
+        "diagram": {
+          "type": "table",
+          "title": "Forming comparatives",
+          "headers": ["Type", "Rule", "Example"],
+          "rows": [
+            ["Short (1–2 syll.)", "adj + **-er**", "tall → taller, easy → easier"],
+            ["Long (2+ syll.)", "**more** + adj", "expensive → more expensive"],
+            ["Irregular", "learn each one", "good → better, bad → worse"]
+          ]
+        }
       },
       {
         "title": "Using comparatives",
@@ -20,7 +30,17 @@
       },
       {
         "title": "Superlatives – the best, the most, the least",
-        "content": "Superlatives compare **one person or thing with all the others in a group**. We use **the + superlative**:\n\n• **Short adjectives:** add **-est**\n  – tall → **the tallest**\n  – big → **the biggest** (double consonant)\n  – easy → **the easiest** (y → iest)\n\n• **Long adjectives:** **the most + adjective**\n  – **the most interesting**, **the most expensive**, **the most comfortable**"
+        "content": "Superlatives compare **one person or thing with all the others in a group**. We use **the + superlative**:\n\n• **Short adjectives:** add **-est**\n  – tall → **the tallest**\n  – big → **the biggest** (double consonant)\n  – easy → **the easiest** (y → iest)\n\n• **Long adjectives:** **the most + adjective**\n  – **the most interesting**, **the most expensive**, **the most comfortable**",
+        "diagram": {
+          "type": "table",
+          "title": "Forming superlatives",
+          "headers": ["Type", "Rule", "Example"],
+          "rows": [
+            ["Short (1–2 syll.)", "the + adj + **-est**", "tall → the tallest"],
+            ["Long (2+ syll.)", "**the most** + adj", "the most interesting"],
+            ["Irregular", "learn each one", "good → the best, bad → the worst"]
+          ]
+        }
       },
       {
         "title": "Superlatives – irregular and use",

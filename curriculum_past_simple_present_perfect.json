@@ -16,7 +16,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Finished past time (yesterday, last week, in 2019, when?) → Past simple (did, went, saw).\n• Past linked to now, no specific time, or result still true → Present perfect (have/has + past participle).\n• Don't use present perfect with a finished past time expression (wrong: I have seen him yesterday)."
+        "content": "• Finished past time (yesterday, last week, in 2019, when?) → Past simple (did, went, saw).\n• Past linked to now, no specific time, or result still true → Present perfect (have/has + past participle).\n• Don't use present perfect with a finished past time expression (wrong: I have seen him yesterday).",
+        "diagram": {
+          "type": "comparison",
+          "title": "Past simple vs present perfect",
+          "left": {
+            "title": "Past Simple",
+            "points": ["Finished past time", "yesterday, last week, ago, in 2019", "When did you go?", "Sequence: got up, had breakfast, left", "Form: did / went / saw"]
+          },
+          "right": {
+            "title": "Present Perfect",
+            "points": ["Linked to now, no specific time", "ever, never, just, yet, already", "Have you ever been to …?", "for / since (still true now)", "Form: have/has + past participle"]
+          }
+        }
       },
       {
         "title": "Typical errors",

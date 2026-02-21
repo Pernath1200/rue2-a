@@ -24,7 +24,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **Commas:** lists, after introductory phrases, before but/and when joining two sentences, around non-defining clauses. Not before 'that' (I think that…).\n• **Capitalise:** I, first word of sentence, proper nouns, days, months, nationalities, languages.\n• Don't transfer Czech comma or capitalisation rules – follow English rules."
+        "content": "• **Commas:** lists, after introductory phrases, before but/and when joining two sentences, around non-defining clauses. Not before 'that' (I think that…).\n• **Capitalise:** I, first word of sentence, proper nouns, days, months, nationalities, languages.\n• Don't transfer Czech comma or capitalisation rules – follow English rules.",
+        "diagram": {
+          "type": "table",
+          "title": "Key punctuation and capitalisation rules",
+          "headers": ["Rule", "English", "Example"],
+          "rows": [
+            ["Comma before 'that'", "Usually **no**", "I think that he is right."],
+            ["Comma + but/and", "Yes, joining **two sentences**", "I called, but she was busy."],
+            ["Days and months", "**Capitalise**", "Monday, January"],
+            ["Pronoun I", "Always **capital**", "He and I went."],
+            ["Nationalities", "**Capitalise**", "English, French, Czech"]
+          ]
+        }
       }
     ]
   },
