@@ -20,7 +20,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **Past simple** – completed actions, specific past time, sequence of events, short interrupting action. (did, went, saw)\n• **Past continuous** – action in progress at a moment in the past, background action, two parallel actions. (was/were + -ing)\n• **Interrupted:** Long action = past continuous; short event = past simple. (I was reading when the phone rang.)\n• **While** – often past continuous for the action in progress. **When** – past simple for the event, past continuous for the background."
+        "content": "• **Past simple** – completed actions, specific past time, sequence of events, short interrupting action. (did, went, saw)\n• **Past continuous** – action in progress at a moment in the past, background action, two parallel actions. (was/were + -ing)\n• **Interrupted:** Long action = past continuous; short event = past simple. (I was reading when the phone rang.)\n• **While** – often past continuous for the action in progress. **When** – past simple for the event, past continuous for the background.",
+        "diagram": {
+          "type": "comparison",
+          "title": "Past simple vs past continuous",
+          "left": {
+            "title": "Past Simple",
+            "points": ["Completed action", "Specific past time", "Sequence of events", "Short / interrupting action", "Form: did / went / saw"]
+          },
+          "right": {
+            "title": "Past Continuous",
+            "points": ["Action in progress", "Background action", "Two parallel actions", "Longer action (interrupted)", "Form: was/were + -ing"]
+          }
+        }
       },
       {
         "title": "Typical learner errors",

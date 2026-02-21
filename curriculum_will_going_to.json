@@ -20,7 +20,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Already planned / intention / prediction from what you see now → **going to** (am/is/are going to + verb).\n• Just decided now / offer / promise / refusal / general prediction → **will** (will/won't + verb).\n• When in doubt: plan or evidence now = going to; spontaneous or voluntary = will."
+        "content": "• Already planned / intention / prediction from what you see now → **going to** (am/is/are going to + verb).\n• Just decided now / offer / promise / refusal / general prediction → **will** (will/won't + verb).\n• When in doubt: plan or evidence now = going to; spontaneous or voluntary = will.",
+        "diagram": {
+          "type": "comparison",
+          "title": "Will vs going to",
+          "left": {
+            "title": "Going to",
+            "points": ["Already decided / planned", "Intention before now", "Prediction from present evidence", "Look – it's going to rain!"]
+          },
+          "right": {
+            "title": "Will",
+            "points": ["Decision at the moment", "Offer, promise, refusal", "General prediction (guess)", "I'll get it! I'll help you."]
+          }
+        }
       },
       {
         "title": "Typical errors",
