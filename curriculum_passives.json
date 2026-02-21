@@ -12,7 +12,19 @@
       },
       {
         "title": "Form: be + past participle",
-        "content": "Passive = **be** (in the right tense) + **past participle** (written, done, built).\n\nTense is in **be**, not in the participle:\n\n• Present: **is/are** + participle (The room is cleaned.)\n• Past: **was/were** + participle (The room was cleaned.)\n• Present perfect: **has/have been** + participle\n• Future: **will be** + participle\n• Modals: **must/can be** + participle\n\nExamples: The letter was sent. It must be done by Friday."
+        "content": "Passive = **be** (in the right tense) + **past participle** (written, done, built).\n\nTense is in **be**, not in the participle:\n\n• Present: **is/are** + participle (The room is cleaned.)\n• Past: **was/were** + participle (The room was cleaned.)\n• Present perfect: **has/have been** + participle\n• Future: **will be** + participle\n• Modals: **must/can be** + participle\n\nExamples: The letter was sent. It must be done by Friday.",
+        "diagram": {
+          "type": "table",
+          "title": "Passive forms by tense",
+          "headers": ["Tense", "Form", "Example"],
+          "rows": [
+            ["Present", "is / are + pp", "The room **is cleaned**."],
+            ["Past", "was / were + pp", "The room **was cleaned**."],
+            ["Present perfect", "has / have been + pp", "It **has been done**."],
+            ["Future", "will be + pp", "It **will be sent**."],
+            ["Modal", "can / must be + pp", "It **must be checked**."]
+          ]
+        }
       },
       {
         "title": "By-agent and other prepositions",
@@ -20,7 +32,16 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Passive = **be** (in the right tense) + **past participle**.\n• Use passive when the agent is unknown, unimportant, or we want to focus on the action/object.\n• Agent = **by** + noun (often omitted).\n• Don't confuse tense: **was written** = past passive; **has been written** = present perfect passive.\n• With modals: **can be done**, **must be sent**, **should be checked**."
+        "content": "• Passive = **be** (in the right tense) + **past participle**.\n• Use passive when the agent is unknown, unimportant, or we want to focus on the action/object.\n• Agent = **by** + noun (often omitted).\n• Don't confuse tense: **was written** = past passive; **has been written** = present perfect passive.\n• With modals: **can be done**, **must be sent**, **should be checked**.",
+        "diagram": {
+          "type": "formula",
+          "title": "Active → Passive transformation",
+          "items": [
+            {"label": "Active:", "formula": "Subject + verb + object"},
+            {"label": "Passive:", "formula": "Object → be (tense) + past participle (+ by agent)"},
+            {"label": "Example:", "formula": "The dog bit the man → The man **was bitten** by the dog"}
+          ]
+        }
       },
       {
         "title": "Typical learner errors",

@@ -12,7 +12,16 @@
       },
       {
         "title": "Direct vs embedded (summary)",
-        "content": "**Direct:** What **is** the answer? Where **is** the station? (verb before subject)\n\n**Embedded:** I don't know what the answer **is**. Can you tell me where the station **is**? (subject before verb)\n\nYes/No: I don't know **if she is** coming. (not: if is she coming)\n\nExamples: what the answer is, where he lives, when they left, how much it costs."
+        "content": "**Direct:** What **is** the answer? Where **is** the station? (verb before subject)\n\n**Embedded:** I don't know what the answer **is**. Can you tell me where the station **is**? (subject before verb)\n\nYes/No: I don't know **if she is** coming. (not: if is she coming)\n\nExamples: what the answer is, where he lives, when they left, how much it costs.",
+        "diagram": {
+          "type": "formula",
+          "title": "Direct vs embedded word order",
+          "items": [
+            {"label": "Direct:", "formula": "Question word + **verb** + subject?"},
+            {"label": "Embedded:", "formula": "… question word + **subject** + verb."},
+            {"label": "Example:", "formula": "What **is** the answer? → I don't know what the answer **is**."}
+          ]
+        }
       },
       {
         "title": "Adjectives: position (English vs Czech)",
@@ -20,7 +29,15 @@
       },
       {
         "title": "Order of adjectives (English vs Czech)",
-        "content": "When there are **several adjectives** before a noun, English follows a typical **order**:\n\n• **Opinion** → **size** → **age** → **shape** → **colour** → **origin** → **material** → **purpose**\n• a **beautiful old Italian** leather bag\n• a **big round red** ball\n• a **small young** man\n\n**Czech** often uses a different order (e.g. colour before size, or noun + adjective). Don't transfer Czech order — use the English pattern: opinion and size first, then age, colour, origin, etc.\n\nTip: You don't need to learn the list by heart; read and listen to notice the usual order."
+        "content": "When there are **several adjectives** before a noun, English follows a typical **order**:\n\n• **Opinion** → **size** → **age** → **shape** → **colour** → **origin** → **material** → **purpose**\n• a **beautiful old Italian** leather bag\n• a **big round red** ball\n• a **small young** man\n\n**Czech** often uses a different order (e.g. colour before size, or noun + adjective). Don't transfer Czech order — use the English pattern: opinion and size first, then age, colour, origin, etc.\n\nTip: You don't need to learn the list by heart; read and listen to notice the usual order.",
+        "diagram": {
+          "type": "formula",
+          "title": "Adjective order before a noun",
+          "items": [
+            {"formula": "Opinion → Size → Age → Shape → Colour → Origin → Material → Purpose → **NOUN**"},
+            {"label": "Example:", "formula": "a **beautiful** **old** **Italian** leather bag"}
+          ]
+        }
       },
       {
         "title": "Typical errors",
