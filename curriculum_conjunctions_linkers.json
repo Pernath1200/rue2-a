@@ -12,7 +12,7 @@
       },
       {
         "title": "Subordinating conjunctions",
-        "content": "**Because, although, when, if, that, while, before, after** introduce a **subordinate** (dependent) clause:\n\n• We left **because** it was late.\n• **Although** it rained, we went out.\n• **When** she arrived, we started.\n• **If** you come, I'll be happy.\n• I think **that** he is right.\n• **While** I was waiting, I read.\n• **Before** you go, close the window.\n• **After** she left, we cleaned.\n\nThe subordinate clause can come first or second: **Because** it was late, we left. We left **because** it was late."
+        "content": "**Because, although, when, if, whether, that, while, before, after** introduce a **subordinate** (dependent) clause:\n\n• We left **because** it was late.\n• **Although** it rained, we went out.\n• **When** she arrived, we started.\n• **If** you come, I'll be happy.\n• **Whether** (or not) she comes, we'll start at eight. I don't know **whether** he agreed.\n• I think **that** he is right.\n• **While** I was waiting, I read.\n• **Before** you go, close the window.\n• **After** she left, we cleaned.\n\nThe subordinate clause can come first or second: **Because** it was late, we left. We left **because** it was late. **Whether** introduces a yes/no alternative or indirect question."
       },
       {
         "title": "Linkers (discourse markers)",
@@ -104,6 +104,18 @@
         },
         "correct_option": "d",
         "explanation": "Whereas and while can both show contrast between two things. She likes tea, whereas/while he prefers coffee."
+      },
+      {
+        "type": "mc",
+        "question": "Which fits? 'I don't know _____ she agreed.'",
+        "options": {
+          "a": "if",
+          "b": "whether",
+          "c": "that",
+          "d": "Both a and b are correct."
+        },
+        "correct_option": "d",
+        "explanation": "Whether and if can both introduce an indirect yes/no question (I don't know whether/if she agreed). Whether is often preferred in formal writing."
       }
     ]
   },
@@ -197,6 +209,15 @@
             "When"
           ],
           "explanation": "When = at the time you see him."
+        },
+        {
+          "type": "open",
+          "question": "Fill in: I don't know _____ she's coming. (introducing a yes/no alternative – one word)",
+          "answers": [
+            "whether",
+            "if"
+          ],
+          "explanation": "Whether and if can both introduce an indirect yes/no question (whether/if she's coming or not)."
         },
         {
           "type": "open",

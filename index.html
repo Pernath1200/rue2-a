@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title>English Grammar Check</title>
+  <title></title>
   <style>
     :root {
       --bg: #1a1b26;
@@ -16,6 +16,25 @@
       --accent: #2563eb;
       --radius: 8px;
     }
+    /* Optional: Black/minimal theme. Add class "theme-cursor" to <body> to try. Remove to revert. */
+    body.theme-cursor {
+      --bg: #0d0d0d;
+      --surface: #141414;
+      --text: #ffffff;
+      --muted: #a0a0a0;
+      --correct: #22c55e;
+      --wrong: #ef4444;
+      --accent: #569cd6;
+    }
+    body.theme-cursor { padding: 0.5rem; }
+    body.theme-cursor .card { padding: 1rem; margin-bottom: 0.75rem; }
+    body.theme-cursor button { border-color: var(--accent); background: transparent; }
+    body.theme-cursor button.secondary { border-color: var(--accent); background: transparent; }
+    body.theme-cursor input,
+    body.theme-cursor select { border-color: var(--accent); }
+    body.theme-cursor .option { border-color: rgba(86, 156, 214, 0.5); }
+    body.theme-cursor .option:hover,
+    body.theme-cursor .option.selected { border-color: var(--accent); }
     * { box-sizing: border-box; }
     body {
       font-family: 'Segoe UI', system-ui, sans-serif;
@@ -37,6 +56,10 @@
     #menuScreen {
       padding: 1rem;
       margin-bottom: 0.75rem;
+    }
+    #referenceBtnWrap, #reportedQuestionsWrap {
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
     label { display: block; margin-bottom: 0.25rem; color: var(--muted); font-size: 0.85rem; }
     select, input[type="number"], button {
@@ -168,14 +191,12 @@
     .diagram-timeline-span { position: absolute; top: -0.1rem; height: 3px; background: var(--accent); opacity: 0.5; }
     .diagram-timeline-span-label { position: absolute; top: -1rem; font-size: 0.65rem; color: var(--accent); white-space: nowrap; left: 50%; transform: translateX(-50%); }
   </style>
-  <meta name="theme-color" content="#2563eb">
+  <meta name="theme-color" content="#569cd6">
   <link rel="manifest" href="pwa-manifest.json">
   <link rel="apple-touch-icon" href="icon.svg">
 </head>
-<body>
+<body class="theme-cursor">
   <div class="container">
-    <h1>English Grammar Check</h1>
-
     <div id="menuScreen" class="card">
       <div id="menuMain" class="menu-panel">
         <div class="actions" style="margin-bottom: 0.65rem;">
@@ -293,7 +314,7 @@
         </div>
       </div>
       <div id="menuDiagnosticSetup" class="hidden">
-        <p style="margin-bottom: 0.75rem; color: var(--muted); font-size: 0.9rem;">Pick how many questions. Wrong answers will show topics to study.</p>
+        <p style="margin-bottom: 0.75rem; color: var(--muted); font-size: 0.9rem;">Select an Option. Wrong answers will show topics to study.</p>
         <div class="actions" style="margin-bottom: 0.5rem;">
           <button type="button" id="diagnostic20Btn" class="secondary">Basic – 20 questions</button>
           <button type="button" id="diagnostic50Btn" class="secondary">Intermediate – 50 questions</button>
@@ -317,10 +338,11 @@
         <p id="quizGapFillInstruction" class="hidden" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.4rem;">Type in the missing words.</p>
         <div class="question-text" id="questionText"></div>
         <div id="openBlock" class="hidden">
-          <input type="text" id="openInput" placeholder="Type your answer">
+          <input type="text" id="openInput" placeholder="Type your answer" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
         </div>
         <div id="mcBlock" class="options hidden"></div>
         <button type="button" id="submitBtn">Submit</button>
+        <button type="button" id="reportQuestionBtn" class="secondary" style="margin-left: 0.5rem; margin-top: 0.35rem;">Flag question</button>
       </div>
       <div id="feedbackBlock" class="card hidden">
         <div id="feedbackText"></div>
@@ -396,6 +418,10 @@
           <button type="button" id="introNextBtn">Next</button>
           <button type="button" id="introBackBtn" class="secondary">Back</button>
           <button type="button" id="introMainMenuBtn" class="secondary">Main Menu</button>
+        </div>
+        <div id="introOpenClozeRefBar" class="hidden" style="margin-top: 1rem; padding: 0.75rem; background: var(--surface); border-radius: var(--radius); border-top: 1px solid var(--border);">
+          <p style="font-size: 0.85rem; color: var(--muted); margin: 0 0 0.5rem 0;">Open Cloze Reference</p>
+          <button type="button" id="viewOpenClozeRefFromIntroBtn" class="secondary">Open Cloze Reference Sheet</button>
         </div>
       </div>
     </div>
@@ -492,11 +518,46 @@
     <div id="referenceBtnWrap" style="margin-top: 1rem; margin-bottom: 1rem;">
       <button type="button" id="openReferenceBtn" class="secondary">Reference</button>
     </div>
+    <div id="reportedQuestionsWrap" style="margin-top: 0.5rem;">
+      <button type="button" id="viewReportedQuestionsBtn" class="secondary">View reported questions</button>
+    </div>
+  </div>
+
+  <div id="flagReasonOverlay" class="hidden" style="position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 101; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+    <div class="card" style="max-width: 400px;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Why are you flagging this question?</h3>
+      <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem;">
+        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="flagReason" value="nonsense"> Nonsense</label>
+        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="flagReason" value="ambiguity"> Ambiguity</label>
+        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="flagReason" value="other"> Other (please state)</label>
+      </div>
+      <div id="flagReasonOtherWrap" class="hidden" style="margin-bottom: 1rem;">
+        <input type="text" id="flagReasonOtherInput" placeholder="Please state the reason" style="width: 100%;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        <button type="button" id="flagReasonSubmitBtn">Submit</button>
+        <button type="button" id="flagReasonCancelBtn" class="secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="reportedQuestionsOverlay" class="hidden" style="position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 100; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+    <div class="card" style="max-width: 520px; max-height: 85vh; overflow: auto;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Flagged questions (for review)</h3>
+      <p id="reportedQuestionsEmpty" class="hidden" style="color: var(--muted); font-size: 0.9rem;">No questions flagged yet. Use “Flag question” during a quiz to add one.</p>
+      <ul id="reportedQuestionsList" style="font-size: 0.9rem; line-height: 1.5; margin: 0.5rem 0 1rem 0; padding-left: 1.25rem;"></ul>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+        <button type="button" id="reportedQuestionsCopyBtn" class="secondary">Copy all to clipboard</button>
+        <button type="button" id="reportedQuestionsClearBtn" class="secondary">Clear list</button>
+        <button type="button" id="reportedQuestionsCloseBtn">Close</button>
+      </div>
+    </div>
   </div>
 
   <script>
     const STORAGE_KEY = 'presentPerfectQuizScores';
     const MEMORY_KEY = 'presentPerfectQuizMemory';
+    const REPORTED_QUESTIONS_KEY = 'reportedQuestions';
     let topics = [];
     let currentTopic = { id: 'present_perfect', title: 'English Grammar Check', curriculum: 'curriculum.json', questions_key: 'sets' };
     let allQuestionsData = {};
@@ -648,11 +709,15 @@
 
     function answerMatches(user, accepted) {
       const u = normalize(user);
+      const uNoStop = u.replace(/\.\s*$/, '');
       if (u === '') {
         const noArticleValues = ['no article', '∅', 'nothing'];
         if (accepted.some(a => noArticleValues.includes(normalize(a)))) return true;
       }
-      return accepted.some(a => normalize(a) === u);
+      return accepted.some(a => {
+        const n = normalize(a);
+        return n === u || (uNoStop !== '' && n.replace(/\.\s*$/, '') === uNoStop);
+      });
     }
 
     function getBaseUrl() {
@@ -775,11 +840,14 @@
         } else if (returnToAfterTopicSelect === 'diagnostic') {
           backToPrevBtn.classList.remove('hidden');
           backToPrevBtn.textContent = 'Back to test';
+        } else if (returnToAfterTopicSelect === 'open_cloze_guided') {
+          backToPrevBtn.classList.remove('hidden');
+          backToPrevBtn.textContent = 'Back to Open Cloze';
         } else {
           backToPrevBtn.classList.add('hidden');
         }
       }
-      if (returnToAfterTopicSelect === 'diagnostic' && currentTopic && topics && topics.length) {
+      if ((returnToAfterTopicSelect === 'diagnostic' || returnToAfterTopicSelect === 'open_cloze_guided') && currentTopic && topics && topics.length) {
         const idx = topics.findIndex(t => t.id === currentTopic.id);
         const sel = document.getElementById('topicSelect');
         if (sel && idx >= 0) sel.value = String(idx);
@@ -988,6 +1056,7 @@
     let dependentPrepositionsData = null;
     let countableUncountableData = null;
     let referenceView = 'index';
+    let referenceReturnTo = 'menu';
 
     function renderReferenceIndex() {
       referenceView = 'index';
@@ -1119,6 +1188,15 @@
         }
       }
       renderReferenceOpenClozeContent(referenceOpenClozeData);
+    }
+
+    async function showOpenClozeRefFromIntro() {
+      referenceReturnTo = 'intro';
+      document.getElementById('introScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
+      document.getElementById('referenceScreen').classList.remove('hidden');
+      document.body.classList.add('viewing-reference');
+      await showReferenceOpenCloze();
     }
 
     let referenceWordFormationData = null;
@@ -1699,6 +1777,7 @@
     }
 
     async function showReference() {
+      referenceReturnTo = 'menu';
       renderReferenceIndex();
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('introScreen').classList.add('hidden');
@@ -1790,6 +1869,7 @@
     }
 
     function hideReference() {
+      referenceReturnTo = 'menu';
       document.getElementById('referenceScreen').classList.add('hidden');
       document.getElementById('referenceBtnWrap').classList.remove('hidden');
       document.getElementById('menuScreen').classList.remove('hidden');
@@ -1798,6 +1878,14 @@
 
     function onReferenceBackClick() {
       if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers') {
+        if (referenceReturnTo === 'intro') {
+          referenceReturnTo = 'menu';
+          document.getElementById('referenceScreen').classList.add('hidden');
+          document.getElementById('referenceBtnWrap').classList.remove('hidden');
+          document.getElementById('introScreen').classList.remove('hidden');
+          document.body.classList.remove('viewing-reference');
+          return;
+        }
         renderReferenceIndex();
       } else {
         hideReference();
@@ -1893,6 +1981,8 @@
       introSectionIndex = index;
       document.getElementById('introPrepositionsListWrap').classList.add('hidden');
       document.getElementById('introPhrasalVerbsWrap').classList.add('hidden');
+      const openClozeRefBar = document.getElementById('introOpenClozeRefBar');
+      if (openClozeRefBar) openClozeRefBar.classList.toggle('hidden', !(currentTopic && currentTopic.id === 'open_cloze'));
     }
 
     function startCourseSection(phase) {
@@ -2040,6 +2130,16 @@
       startCourseSection(first);
     }
 
+    const FULL_TOPIC_TITLES = {
+      conditionals: 'Tenses: Conditionals (Zero, First, Second, Third)',
+      tenses_general: 'Tenses: General',
+      past_perfect: 'Tenses: Past Perfect Simple and Past Perfect Continuous',
+      past_simple_continuous: 'Tenses: Past Simple and Past Continuous',
+      past_simple_present_perfect: 'Tenses: Past Simple vs Present Perfect',
+      present_perfect: 'Tenses: Present Perfect Simple vs Continuous',
+      will_going_to: 'Tenses: Will and Going To'
+    };
+
     async function startDiagnostic(num) {
       num = Math.min(100, Math.max(20, parseInt(num, 10) || 50));
       let allData;
@@ -2059,7 +2159,7 @@
         Object.values(sets).forEach(function(set) {
           const qs = set.questions || [];
           qs.forEach(function(q) {
-            pool.push(Object.assign({}, q, { topic: t.id }));
+            pool.push(Object.assign({}, q, { topic: t.id, topicTitle: FULL_TOPIC_TITLES[t.id] || t.title || getTopicTitle(t.id) }));
           });
         });
       });
@@ -2320,7 +2420,10 @@
           passageEl.appendChild(document.createTextNode(segments[i]));
           const numSpan = document.createElement('span');
           numSpan.className = 'exam-cloze-gap-num';
-          numSpan.textContent = ' (' + (i + 1) + ') ';
+          const gap = test.gaps[i];
+          const topic = gap && gap.topic_id && topics && topics.find(t => t.id === gap.topic_id);
+          const topicTitle = topic ? (topic.title || gap.topic_id) : (gap && gap.topic_id) || '';
+          numSpan.textContent = topicTitle ? ' (' + (i + 1) + ' – ' + topicTitle + ') ' : ' (' + (i + 1) + ') ';
           numSpan.style.color = 'var(--muted)';
           passageEl.appendChild(numSpan);
         }
@@ -2329,7 +2432,9 @@
         test.gaps.forEach((gap, i) => {
           const row = document.createElement('div');
           row.className = 'exam-cloze-mc-row';
-          const label = (i + 1) + (currentExamType === 'word_formation' && gap.stem ? ' (' + gap.stem + '): ' : '. ');
+          const topic = gap.topic_id && topics && topics.find(t => t.id === gap.topic_id);
+          const topicTitle = topic ? (topic.title || gap.topic_id) : gap.topic_id || '';
+          const label = (i + 1) + (topicTitle ? ' (' + topicTitle + ')' : '') + (currentExamType === 'word_formation' && gap.stem ? ' (' + gap.stem + '): ' : '. ');
           row.appendChild(document.createTextNode(label));
           Object.entries(gap.options || {}).forEach(([key, text]) => {
             const opt = document.createElement('span');
@@ -2355,12 +2460,23 @@
           input.placeholder = (i + 1).toString();
           input.dataset.gapIndex = String(i);
           input.setAttribute('autocomplete', 'off');
+          input.setAttribute('autocorrect', 'off');
+          input.setAttribute('autocapitalize', 'off');
+          input.setAttribute('spellcheck', 'false');
           passageEl.appendChild(input);
           if (currentExamType === 'word_formation' && test.gaps[i] && test.gaps[i].stem) {
             const stemSpan = document.createElement('span');
             stemSpan.style.color = 'var(--muted)';
             stemSpan.textContent = ' (' + test.gaps[i].stem + ') ';
             passageEl.appendChild(stemSpan);
+          }
+          if (test.gaps[i] && test.gaps[i].topic_id) {
+            const topic = topics && topics.find(t => t.id === test.gaps[i].topic_id);
+            const topicTitle = topic ? (topic.title || test.gaps[i].topic_id) : test.gaps[i].topic_id;
+            const topicSpan = document.createElement('span');
+            topicSpan.style.color = 'var(--muted)';
+            topicSpan.textContent = ' (' + topicTitle + ') ';
+            passageEl.appendChild(topicSpan);
           }
         }
         passageEl.appendChild(document.createTextNode(segments[gapCount]));
@@ -2411,7 +2527,7 @@
         const topicTitle = topic ? (topic.title || topicId) : topicId;
         let line = '<p style="margin: 0.5rem 0;"><strong>Gap ' + (r.index + 1) + ':</strong> ';
         if (topicId) {
-          line += '<a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+          line += 'Type: <a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
         }
         line += escapeAndBold(r.gap.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
         if (!r.correct && r.userVal !== undefined && r.userVal !== '') {
@@ -2471,7 +2587,7 @@
         block.style.marginBottom = '0.5rem';
         block.innerHTML = '<p style="margin: 0 0 0.35rem 0; font-size: 0.95rem;">' + (i + 1) + '. ' + escapeAndBold(item.sentence1) + '</p>' +
           '<p style="margin: 0 0 0.35rem 0; font-size: 0.9rem; color: var(--accent);"><strong>' + (item.keyword || '') + '</strong></p>' +
-          '<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem;"><span>' + escapeAndBold(item.sentence2_prefix || '') + '</span><input type="text" data-item-index="' + i + '" style="width: 8em; min-width: 5em;" autocomplete="off"><span>' + escapeAndBold(item.sentence2_suffix || '') + '</span></p>';
+          '<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem;"><span>' + escapeAndBold(item.sentence2_prefix || '') + '</span><input type="text" data-item-index="' + i + '" style="width: 8em; min-width: 5em;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"><span>' + escapeAndBold(item.sentence2_suffix || '') + '</span></p>';
         container.appendChild(block);
       });
       document.getElementById('examTransformSubmitBtn').classList.remove('hidden');
@@ -2611,9 +2727,49 @@
       return toTitleCase(t ? (t.title || topicId) : topicId);
     }
     function getTopicLabelForDisplay(topicId) {
-      const title = getTopicTitle(topicId);
-      if (title && title.indexOf('Tenses:') === 0) return 'Tenses';
-      return title;
+      return getTopicTitle(topicId) || '';
+    }
+
+    function getReportedQuestions() {
+      try { return JSON.parse(localStorage.getItem(REPORTED_QUESTIONS_KEY) || '[]'); } catch (e) { return []; }
+    }
+    function addReportedQuestion(reasonType, reasonOther) {
+      if (!currentQuestions.length || currentIndex < 0 || currentIndex >= currentQuestions.length) return;
+      const q = currentQuestions[currentIndex];
+      const topicId = (currentTopic && currentTopic.id) ? currentTopic.id : '';
+      const topicTitle = (currentTopic && currentTopic.title) ? currentTopic.title : '';
+      const questionText = (q.prompt || q.question || '').replace(/\s+/g, ' ').trim();
+      const source = quizMode === 'diagnostic' ? 'Grammar Test' : quizMode === 'practice' ? 'Practice' : 'Quiz';
+      const list = getReportedQuestions();
+      list.push({ topicId, topicTitle, questionText, source, timestamp: new Date().toISOString(), reasonType: reasonType || '', reasonOther: reasonOther || '' });
+      localStorage.setItem(REPORTED_QUESTIONS_KEY, JSON.stringify(list));
+      const btn = document.getElementById('reportQuestionBtn');
+      if (btn) { const orig = btn.textContent; btn.textContent = 'Flagged'; setTimeout(function() { btn.textContent = orig; }, 1500); }
+    }
+    function renderReportedQuestionsList() {
+      const list = getReportedQuestions();
+      const emptyEl = document.getElementById('reportedQuestionsEmpty');
+      const listEl = document.getElementById('reportedQuestionsList');
+      if (!listEl) return;
+      if (list.length === 0) {
+        if (emptyEl) emptyEl.classList.remove('hidden');
+        listEl.innerHTML = '';
+        return;
+      }
+      if (emptyEl) emptyEl.classList.add('hidden');
+      listEl.innerHTML = list.map(function(r, i) {
+        const qShort = r.questionText.length > 120 ? r.questionText.slice(0, 117) + '...' : r.questionText;
+        const topic = r.topicTitle || r.topicId || '—';
+        const date = r.timestamp ? new Date(r.timestamp).toLocaleString() : '—';
+        const reasonLabel = r.reasonType === 'other' && r.reasonOther ? 'Other: ' + r.reasonOther : (r.reasonType === 'nonsense' ? 'Nonsense' : r.reasonType === 'ambiguity' ? 'Ambiguity' : r.reasonType ? r.reasonType : '—');
+        return '<li style="margin-bottom: 0.5rem;">' + escapeHtml(topic) + ' · ' + escapeHtml(r.source) + ' · ' + escapeHtml(date) + (reasonLabel !== '—' ? ' · Reason: ' + escapeHtml(reasonLabel) : '') + '<br><span style="color: var(--muted);">' + escapeHtml(qShort) + '</span></li>';
+      }).join('');
+    }
+    function escapeHtml(s) {
+      if (s == null) return '';
+      const t = document.createElement('textarea');
+      t.textContent = s;
+      return t.innerHTML;
     }
 
     function cleanQuestionDisplay(str) {
@@ -2635,13 +2791,14 @@
       const { question: promptRaw, contextLabel } = cleanQuestionDisplay(q.prompt || q.question || '');
       const promptHtml = escapeAndBold(promptRaw);
       const topicLabel = [
-        q.topic ? getTopicLabelForDisplay(q.topic) : '',
+        q.topicTitle || (q.topic ? getTopicLabelForDisplay(q.topic) : ''),
         contextLabel || ''
       ].filter(Boolean).join(': ') || '';
       const questionEl = document.getElementById('questionText');
       if (topicLabel) {
         const escapedLabel = topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        if (quizMode === 'diagnostic' && q.topic) {
+        const showTopicAsLink = (quizMode === 'diagnostic' && q.topic) || (coursePart === 2 && examMode === 'open_cloze' && q.topic);
+        if (showTopicAsLink) {
           questionEl.innerHTML = '<a href="#topic/' + (q.topic + '').replace(/"/g, '&quot;') + '" class="topic-label diagnostic-topic-link" data-topic-id="' + (q.topic + '').replace(/"/g, '&quot;') + '">' + escapedLabel + '</a>' + promptHtml;
         } else {
           questionEl.innerHTML = '<span class="topic-label">' + escapedLabel + '</span>' + promptHtml;
@@ -2712,10 +2869,11 @@
 
       const correctAnswerText = q.type === 'mc' ? (q.options && q.options[q.correct_option]) : (q.answers && q.answers[0]);
       let explanationHtml = escapeAndBold(q.explanation || '');
-      if (q.topic && explanationHtml) {
-        const topicLabel = getTopicLabelForDisplay(q.topic);
+      if ((q.topicTitle || q.topic) && explanationHtml) {
+        const topicLabel = q.topicTitle || getTopicLabelForDisplay(q.topic);
         const escapedTopicLabel = topicLabel.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        if (quizMode === 'diagnostic') {
+        const showTopicAsLink = quizMode === 'diagnostic' || (coursePart === 2 && examMode === 'open_cloze');
+        if (showTopicAsLink) {
           explanationHtml = '<a href="#topic/' + (q.topic + '').replace(/"/g, '&quot;') + '" class="topic-label diagnostic-topic-link" data-topic-id="' + (q.topic + '').replace(/"/g, '&quot;') + '">' + escapedTopicLabel + '</a>: ' + explanationHtml;
         } else {
           explanationHtml = '<span class="topic-label">' + escapedTopicLabel + ':</span> ' + explanationHtml;
@@ -2874,7 +3032,7 @@
         document.getElementById('menuScreen').classList.add('hidden');
         document.getElementById('examClozeTestScreen').classList.remove('hidden');
         document.getElementById('examClozeFeedbackBlock').classList.remove('hidden');
-      } else if (returnToAfterTopicSelect === 'diagnostic') {
+      } else if (returnToAfterTopicSelect === 'diagnostic' || returnToAfterTopicSelect === 'open_cloze_guided') {
         document.getElementById('menuScreen').classList.add('hidden');
         document.getElementById('quizScreen').classList.remove('hidden');
       }
@@ -3166,7 +3324,7 @@
       if (idx === -1) return;
       currentTopic = topics[idx];
       applyTopic();
-      returnToAfterTopicSelect = 'diagnostic';
+      returnToAfterTopicSelect = (quizMode === 'diagnostic') ? 'diagnostic' : (coursePart === 2 && examMode === 'open_cloze') ? 'open_cloze_guided' : 'diagnostic';
       location.hash = 'topic/' + topicId;
       document.getElementById('quizScreen').classList.add('hidden');
       document.getElementById('menuScreen').classList.remove('hidden');
@@ -3185,12 +3343,63 @@
     const viewPhrasalVerbsDictBtn = document.getElementById('viewPhrasalVerbsDictionaryBtn');
     if (viewPhrasalVerbsDictBtn) viewPhrasalVerbsDictBtn.addEventListener('click', () => showPhrasalVerbsDictionary('menu'));
     document.getElementById('viewPhrasalVerbsFromIntroBtn').addEventListener('click', () => showPhrasalVerbsDictionary('intro'));
+    const viewOpenClozeRefFromIntroBtn = document.getElementById('viewOpenClozeRefFromIntroBtn');
+    if (viewOpenClozeRefFromIntroBtn) viewOpenClozeRefFromIntroBtn.addEventListener('click', showOpenClozeRefFromIntro);
     document.getElementById('phrasalVerbsDictionaryBackBtn').addEventListener('click', hidePhrasalVerbsDictionary);
     document.getElementById('phrasalVerbsDictionaryMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('phrasalVerbsDictionaryPrintBtn').addEventListener('click', () => window.print());
     document.getElementById('openReferenceBtn').addEventListener('click', showReference);
     document.getElementById('referenceBackBtn').addEventListener('click', onReferenceBackClick);
     document.getElementById('referenceMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('reportQuestionBtn').addEventListener('click', function() {
+      if (!currentQuestions.length || currentIndex < 0 || currentIndex >= currentQuestions.length) return;
+      document.querySelectorAll('input[name="flagReason"]').forEach(function(radio) { radio.checked = false; });
+      var otherWrap = document.getElementById('flagReasonOtherWrap');
+      var otherInput = document.getElementById('flagReasonOtherInput');
+      if (otherWrap) otherWrap.classList.add('hidden');
+      if (otherInput) otherInput.value = '';
+      document.getElementById('flagReasonOverlay').classList.remove('hidden');
+    });
+    document.querySelectorAll('input[name="flagReason"]').forEach(function(radio) {
+      radio.addEventListener('change', function() {
+        var wrap = document.getElementById('flagReasonOtherWrap');
+        if (!wrap) return;
+        if (this.value === 'other') { wrap.classList.remove('hidden'); document.getElementById('flagReasonOtherInput').focus(); } else { wrap.classList.add('hidden'); }
+      });
+    });
+    document.getElementById('flagReasonSubmitBtn').addEventListener('click', function() {
+      var selected = document.querySelector('input[name="flagReason"]:checked');
+      if (!selected) return;
+      var reasonType = selected.value;
+      var reasonOther = (reasonType === 'other') ? (document.getElementById('flagReasonOtherInput').value || '').trim() : '';
+      addReportedQuestion(reasonType, reasonOther);
+      document.getElementById('flagReasonOverlay').classList.add('hidden');
+    });
+    document.getElementById('flagReasonCancelBtn').addEventListener('click', function() {
+      document.getElementById('flagReasonOverlay').classList.add('hidden');
+    });
+    document.getElementById('viewReportedQuestionsBtn').addEventListener('click', function() {
+      renderReportedQuestionsList();
+      document.getElementById('reportedQuestionsOverlay').classList.remove('hidden');
+    });
+    document.getElementById('reportedQuestionsCloseBtn').addEventListener('click', function() {
+      document.getElementById('reportedQuestionsOverlay').classList.add('hidden');
+    });
+    document.getElementById('reportedQuestionsCopyBtn').addEventListener('click', function() {
+      const list = getReportedQuestions();
+      const text = list.length === 0 ? 'No flagged questions.' : list.map(function(r) {
+        const reason = r.reasonType === 'other' && r.reasonOther ? 'Other: ' + r.reasonOther : (r.reasonType === 'nonsense' ? 'Nonsense' : r.reasonType === 'ambiguity' ? 'Ambiguity' : r.reasonType || '—');
+        return '---\nTopic: ' + (r.topicTitle || r.topicId || '—') + '\nSource: ' + (r.source || '—') + '\nDate: ' + (r.timestamp ? new Date(r.timestamp).toLocaleString() : '—') + (reason !== '—' ? '\nReason: ' + reason : '') + '\nQuestion: ' + (r.questionText || '');
+      }).join('\n\n');
+      navigator.clipboard.writeText(text).then(function() { document.getElementById('reportedQuestionsCopyBtn').textContent = 'Copied!'; setTimeout(function() { document.getElementById('reportedQuestionsCopyBtn').textContent = 'Copy all to clipboard'; }, 1500); }).catch(function() {});
+    });
+    document.getElementById('reportedQuestionsClearBtn').addEventListener('click', function() {
+      if (getReportedQuestions().length === 0) return;
+      if (confirm('Clear all flagged questions? This cannot be undone.')) {
+        localStorage.removeItem(REPORTED_QUESTIONS_KEY);
+        renderReportedQuestionsList();
+      }
+    });
     document.getElementById('referencePrintBtn').addEventListener('click', () => window.print());
     document.getElementById('openInput').addEventListener('keydown', function(e) {
       if (e.key === 'Enter') { e.preventDefault(); submitAnswer(); }
@@ -3232,7 +3441,7 @@
 
     (async function init() {
       try {
-        const mRes = await fetch(new URL('manifest.json?v=8', getBaseUrl()));
+        const mRes = await fetch(new URL('manifest.json?v=9', getBaseUrl()));
         if (mRes.ok) {
           const mData = await mRes.json();
           topics = mData.topics || [];
@@ -3276,7 +3485,7 @@
           { id: 'spelling', title: 'Spelling', curriculum: 'curriculum_spelling.json', questions_key: 'spelling' },
           { id: 'conditionals', title: 'Tenses: Conditionals (Zero, First, Second, Third)', curriculum: 'curriculum_conditionals.json', questions_key: 'conditionals' },
           { id: 'tenses_general', title: 'Tenses: General', curriculum: 'curriculum_tenses_general.json', questions_key: 'tenses_general' },
-          { id: 'past_perfect', title: 'Tenses: Past Perfect', curriculum: 'curriculum_past_perfect.json', questions_key: 'past_perfect' },
+          { id: 'past_perfect', title: 'Tenses: Past Perfect Simple and Past Perfect Continuous', curriculum: 'curriculum_past_perfect.json', questions_key: 'past_perfect' },
           { id: 'past_simple_continuous', title: 'Tenses: Past Simple and Past Continuous', curriculum: 'curriculum_past_simple_continuous.json', questions_key: 'past_simple_continuous' },
           { id: 'past_simple_present_perfect', title: 'Tenses: Past Simple vs Present Perfect', curriculum: 'curriculum_past_simple_present_perfect.json', questions_key: 'past_simple_present_perfect' },
           { id: 'present_perfect', title: 'Tenses: Present Perfect Simple vs Continuous', curriculum: 'curriculum.json', questions_key: 'sets' },

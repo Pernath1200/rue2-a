@@ -215,11 +215,11 @@
         },
         {
           "type": "open",
-          "question": "12. She is ____ (old) she looks.",
+          "question": "12. She is ____ (old) she looks. (She looks younger than she is.)",
           "answers": [
             "older than"
           ],
-          "explanation": "Old → older."
+          "explanation": "Old → older + than. Context: she looks younger, so she is older than she looks."
         }
       ]
     },

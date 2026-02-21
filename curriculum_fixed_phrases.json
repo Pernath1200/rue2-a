@@ -63,7 +63,7 @@
         { "type": "open", "question": "_____ course, you're right.", "answers": ["Of"], "explanation": "**Of course** = certainly." },
         { "type": "open", "question": "_____ long as we're together, I'm happy.", "answers": ["As"], "explanation": "**As long as** = provided that." },
         { "type": "open", "question": "This is one _____ the best films I've seen.", "answers": ["of"], "explanation": "**One of the** (fixed phrase)." },
-        { "type": "open", "question": "_____ doing so, they saved time.", "answers": ["By"], "explanation": "**By doing so** = by doing that." }
+        { "type": "open", "question": "_____ doing so, they saved time.", "answers": ["By", "In"], "explanation": "**By doing so** or **In doing so** = by/in doing that." }
       ]
     },
     "gapfill_common": {
@@ -74,7 +74,9 @@
         { "type": "open", "question": "At _____, I didn't like him, but now I do.", "answers": ["first"], "explanation": "**At first** = in the beginning." },
         { "type": "open", "question": "_____ well as cooking, she cleans.", "answers": ["As"], "explanation": "**As well as** = in addition to." },
         { "type": "open", "question": "It was _____ first time I had flown.", "answers": ["the"], "explanation": "**The first time** (fixed phrase)." },
-        { "type": "open", "question": "_____ the end of the day, we were tired.", "answers": ["By"], "explanation": "**By the end of the day** (fixed phrase)." }
+        { "type": "open", "question": "_____ the end of the day, we were tired.", "answers": ["By"], "explanation": "**By the end of the day** (fixed phrase)." },
+        { "type": "open", "question": "The match was cancelled on account _____ the rain.", "answers": ["of"], "explanation": "**On account of** = because of." },
+        { "type": "open", "question": "We went out in spite of the _____ that it was raining.", "answers": ["fact"], "explanation": "**In spite of the fact that** = although." }
       ]
     }
   }

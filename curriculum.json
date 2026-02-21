@@ -94,7 +94,6 @@
         {"type": "open", "question": "Your hair is wet. ____ you ____ (run) in the rain?", "answers": ["have you been running"], "explanation": "What you see now = present perfect continuous."},
         {"type": "open", "question": "I ____ (know) him since we started high school.", "answers": ["have known"], "explanation": "'Know' is stative; we use the present perfect simple."},
         {"type": "open", "question": "They ____ (not sleep) well lately because of the noisy neighbours.", "answers": ["have not been sleeping", "haven't been sleeping"], "explanation": "Something that is still going on lately = present perfect continuous."},
-        {"type": "open", "question": "We ____ (look) for a new flat for months.", "answers": ["have been looking"], "explanation": "How long = present perfect continuous."},
         {"type": "open", "question": "He ____ (send) ten job applications this week.", "answers": ["has sent"], "explanation": "How many completed → present perfect simple."},
         {"type": "open", "question": "She ____ (have) that car since 2020.", "answers": ["has had"], "explanation": "'Have' (possession) is stative. Present perfect simple."}
       ]

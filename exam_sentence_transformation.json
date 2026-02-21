@@ -1,0 +1,58 @@
+{
+  "easy": [
+    {
+      "title": "Sentence Transformation: FCE-style (guided)",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first. Use the word in capitals. Do not change the word. You must use between two and five words (FCE Part 4).",
+      "items": [
+        { "sentence1": "I last saw him in May.", "keyword": "SINCE", "sentence2_prefix": "I haven't ", "sentence2_suffix": " him since May.", "answers": ["seen"], "explanation": "Present perfect: haven't seen (experience since a point in time).", "topic_id": "past_simple_present_perfect" },
+        { "sentence1": "It's possible that she forgot the meeting.", "keyword": "MIGHT", "sentence2_prefix": "She ", "sentence2_suffix": " forgotten the meeting.", "answers": ["might have"], "explanation": "Modal of possibility in the past: might have + past participle.", "topic_id": "modal_verbs" },
+        { "sentence1": "They are building a new school in the town.", "keyword": "BEING", "sentence2_prefix": "A new school is ", "sentence2_suffix": " in the town.", "answers": ["being built"], "explanation": "Passive present continuous: is being built.", "topic_id": "passives" },
+        { "sentence1": "I don't have enough money to buy a car.", "keyword": "AFFORD", "sentence2_prefix": "I can't ", "sentence2_suffix": " a car.", "answers": ["afford to buy"], "explanation": "Afford + to-infinitive.", "topic_id": "infinitive_ing" },
+        { "sentence1": "We couldn't go out because of the rain.", "keyword": "PREVENTED", "sentence2_prefix": "The rain ", "sentence2_suffix": " going out.", "answers": ["prevented us from"], "explanation": "Prevent someone from + -ing.", "topic_id": "infinitive_ing" },
+        { "sentence1": "She started working here three years ago.", "keyword": "FOR", "sentence2_prefix": "She has been working here ", "sentence2_suffix": " three years.", "answers": ["for"], "explanation": "For + period of time (duration).", "topic_id": "present_perfect" }
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "title": "Sentence Transformation: FCE Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first. Use the word in capitals. Do not change the word. You must use between two and five words.",
+      "items": [
+        { "sentence1": "They cancelled the match because of the weather.", "keyword": "CALLED", "sentence2_prefix": "The match was ", "sentence2_suffix": " because of the weather.", "answers": ["called off"], "explanation": "Call off = cancel (phrasal verb, passive).", "topic_id": "phrasal_verbs" },
+        { "sentence1": "I regret not studying harder for the exam.", "keyword": "WISH", "sentence2_prefix": "I ", "sentence2_suffix": " harder for the exam.", "answers": ["wish I had studied", "wish I'd studied"], "explanation": "I wish + past perfect (regret about the past).", "topic_id": "conditionals" },
+        { "sentence1": "Nobody in the class is taller than Maria.", "keyword": "TALLEST", "sentence2_prefix": "Maria is ", "sentence2_suffix": " in the class.", "answers": ["the tallest"], "explanation": "Superlative: the tallest.", "topic_id": "comparatives" },
+        { "sentence1": "It wasn't necessary for you to bring a gift.", "keyword": "NEED", "sentence2_prefix": "You ", "sentence2_suffix": " brought a gift.", "answers": ["needn't have", "didn't need to"], "explanation": "Needn't have + past participle = it wasn't necessary (but you did).", "topic_id": "modal_verbs" },
+        { "sentence1": "They say that the painting is worth millions.", "keyword": "SAID", "sentence2_prefix": "The painting ", "sentence2_suffix": " worth millions.", "answers": ["is said to be"], "explanation": "Passive reporting: is said to be.", "topic_id": "passives" },
+        { "sentence1": "I've never been to Japan before.", "keyword": "FIRST", "sentence2_prefix": "It's the ", "sentence2_suffix": " I've been to Japan.", "answers": ["first time"], "explanation": "It's the first time + present perfect.", "topic_id": "present_perfect" }
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "title": "Sentence Transformation: CAE Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first. Use the word in capitals. Do not change the word. You must use between three and six words.",
+      "items": [
+        { "sentence1": "I had no idea that he was leaving.", "keyword": "UNAWARE", "sentence2_prefix": "I was ", "sentence2_suffix": " that he was leaving.", "answers": ["unaware of the fact"], "explanation": "Unaware of the fact that + clause.", "topic_id": "conjunctions_linkers" },
+        { "sentence1": "She was the only person who could solve the problem.", "keyword": "NOBODY", "sentence2_prefix": "Apart from her, ", "sentence2_suffix": " could solve the problem.", "answers": ["nobody else"], "explanation": "Nobody else = no other person.", "topic_id": "quantifiers" },
+        { "sentence1": "They didn't succeed in finding a solution.", "keyword": "FAILED", "sentence2_prefix": "They ", "sentence2_suffix": " a solution.", "answers": ["failed to find"], "explanation": "Fail + to-infinitive.", "topic_id": "infinitive_ing" },
+        { "sentence1": "It's not worth trying to change his mind.", "keyword": "POINT", "sentence2_prefix": "There's ", "sentence2_suffix": " to change his mind.", "answers": ["no point in trying"], "explanation": "There's no point in + -ing.", "topic_id": "infinitive_ing" },
+        { "sentence1": "The manager said we could leave early.", "keyword": "PERMISSION", "sentence2_prefix": "The manager gave us ", "sentence2_suffix": " early.", "answers": ["permission to leave"], "explanation": "Give permission to + infinitive.", "topic_id": "infinitive_ing" },
+        { "sentence1": "I don't object to you using my phone.", "keyword": "MIND", "sentence2_prefix": "I ", "sentence2_suffix": " my phone.", "answers": ["don't mind you using"], "explanation": "Don't mind + -ing or object + -ing.", "topic_id": "infinitive_ing" }
+      ]
+    }
+  ],
+  "expert": [
+    {
+      "title": "Sentence Transformation: CPE Part 4",
+      "instructions": "Complete the second sentence so that it has a similar meaning to the first. Use the word in capitals. Do not change the word. You must use between three and eight words.",
+      "items": [
+        { "sentence1": "Under no circumstances should you leave the building.", "keyword": "ACCOUNT", "sentence2_prefix": "On ", "sentence2_suffix": " should you leave the building.", "answers": ["no account"], "explanation": "On no account = under no circumstances (inversion).", "topic_id": "conjunctions_linkers" },
+        { "sentence1": "It was only when I got home that I realised my mistake.", "keyword": "DID", "sentence2_prefix": "Only when I got home ", "sentence2_suffix": " my mistake.", "answers": ["did I realise"], "explanation": "Inversion after 'only when': did I realise.", "topic_id": "word_order" },
+        { "sentence1": "She is unlikely to agree to the proposal.", "keyword": "LIKELIHOOD", "sentence2_prefix": "There is ", "sentence2_suffix": " to the proposal.", "answers": ["little likelihood of her agreeing"], "explanation": "There is little likelihood of + -ing.", "topic_id": "infinitive_ing" },
+        { "sentence1": "They had no intention of apologising.", "keyword": "INTENDED", "sentence2_prefix": "They ", "sentence2_suffix": " apologise.", "answers": ["did not intend to"], "explanation": "Had no intention of + -ing / did not intend to + infinitive.", "topic_id": "infinitive_ing" },
+        { "sentence1": "The outcome was not what we had expected.", "keyword": "SHORT", "sentence2_prefix": "The outcome ", "sentence2_suffix": " our expectations.", "answers": ["fell short of"], "explanation": "Fall short of = not meet.", "topic_id": "phrasal_verbs" },
+        { "sentence1": "He was determined to succeed despite the setbacks.", "keyword": "DETERMINATION", "sentence2_prefix": "Such ", "sentence2_suffix": " that he overcame the setbacks.", "answers": ["was his determination to succeed"], "explanation": "Such + be + noun + that (inversion for emphasis).", "topic_id": "conjunctions_linkers" }
+      ]
+    }
+  ]
+}

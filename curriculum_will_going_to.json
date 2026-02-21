@@ -255,9 +255,11 @@
             "Look at the sky – it's going to rain.",
             "Look at the sky – it is going to rain.",
             "Look at the sky – it's going to rain",
-            "Look at the sky – it is going to rain"
+            "Look at the sky – it is going to rain",
+            "It's going to rain.",
+            "It is going to rain."
           ],
-          "explanation": "Prediction from present evidence → going to."
+          "explanation": "Prediction from present evidence → going to. Contractions (it's) and full form (it is) are both accepted."
         },
         {
           "type": "open",

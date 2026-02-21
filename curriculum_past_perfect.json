@@ -1,18 +1,18 @@
 {
   "intro": {
-    "title": "Past Perfect",
+    "title": "Past Perfect Simple and Past Perfect Continuous",
     "sections": [
       {
-        "title": "What is the past perfect?",
-        "content": "**Past perfect** = **had + past participle** (had gone, had finished, had written).\n\nIt describes an action that was **completed before** another past action or before a time in the past.\n\n• Past simple: I **left** at 5. (one past event)\n• Past perfect: When I arrived, she **had** already **left**. (she left before I arrived)\n\nExamples: He had finished his homework before dinner. By 2020 they had sold the house."
+        "title": "Link to Present Perfect",
+        "content": "In **Tenses: Present Perfect Simple vs Continuous** you learned:\n\n• **Present perfect simple** = have/has + past participle (result, how many, life experience).\n• **Present perfect continuous** = have/has been + -ing (how long, activity up to now).\n\n**Past perfect** is the same idea, but for a **time before another past time**. We use **had** instead of have/has:\n\n• **Past perfect simple** = had + past participle (e.g. had finished, had left).\n• **Past perfect continuous** = had been + -ing (e.g. had been waiting, had been working).\n\nSo: earlier past = had; later past = past simple."
       },
       {
-        "title": "When do we use it?",
-        "content": "Use the past perfect when:\n\n• Something happened **before** another past action: When I got home, my sister **had cooked** dinner. (cooking was finished before I got home)\n• Something was true **by** a time in the past: By 9 o'clock she **had left**. I **had never been** there before 2020.\n• To give **cause or reason** in the past: I was tired because I **hadn't slept** well.\n\nOften used with: **before**, **by the time**, **when** (with past simple in the other clause), **already**, **never**."
+        "title": "What is the past perfect simple?",
+        "content": "**Past perfect simple** = **had + past participle** (had gone, had finished, had written).\n\nIt describes an action that was **completed before** another past action or before a time in the past.\n\n• Past simple: I **left** at 5. (one past event)\n• Past perfect: When I arrived, she **had** already **left**. (she left before I arrived)\n\nExamples: He had finished his homework before dinner. By 2020 they had sold the house."
       },
       {
-        "title": "Form: had + past participle",
-        "content": "**Positive:** subject + **had** + past participle — She had gone. They had finished.\n\n**Negative:** subject + **had not (hadn't)** + past participle — He hadn't seen it.\n\n**Question:** **Had** + subject + past participle? — Had you left before 5?\n\n**Past participle:** regular → -ed (finished, opened). Irregular → learnt list (gone, written, seen, left)."
+        "title": "What is the past perfect continuous?",
+        "content": "**Past perfect continuous** = **had been + -ing** (had been waiting, had been working).\n\nUse it when we focus on **how long** something had been happening before another past event, or on the **activity** (not just the result) before that time.\n\n• When she arrived, I **had been waiting** for an hour. (how long I had been waiting)\n• His hands were dirty because he **had been repairing** the car. (activity before the past moment)\n\nCompare: She **had left** (simple – completed). She **had been living** there for years (continuous – duration before a past time)."
       },
       {
         "title": "Past perfect vs past simple",
@@ -28,18 +28,38 @@
         }
       },
       {
+        "title": "When do we use simple vs continuous?",
+        "content": "**Past perfect simple** – result, completion, or single event before another past time:\n• By 9 o'clock she **had left**. I **had never been** there before 2020. He was tired because he **hadn't slept** well.\n\n**Past perfect continuous** – duration or ongoing activity before another past time:\n• When I got there, they **had been arguing** for hours. The ground was wet; it **had been raining**.\n\nSame idea as Present Perfect: simple = result/how many; continuous = how long/activity."
+      },
+      {
+        "title": "Form",
+        "content": "**Past perfect simple:** subject + **had** + past participle — She had gone. They had finished. **Negative:** hadn't + participle. **Question:** Had you left?\n\n**Past perfect continuous:** subject + **had been** + -ing — She had been waiting. They had been working. **Negative:** hadn't been + -ing. **Question:** Had you been waiting?\n\n**Past perfect vs past simple:** The event that happened **first** → past perfect. The **later** or main event → past simple. When I **arrived** (past simple), the film **had already started** (past perfect)."
+      },
+      {
         "title": "Quick summary",
-        "content": "• Past perfect = **had** + past participle. Use it for something **before** another past action or **by** a time in the past.\n• First past event → past perfect. Second/main event → past simple.\n• Typical: By the time..., When I got there..., She had already left. I had never seen it before."
+        "content": "• **Past perfect simple** = had + past participle. Use for something **completed** before another past action or by a time in the past.\n• **Past perfect continuous** = had been + -ing. Use for **how long** or ongoing activity before another past time.\n• First past event → past perfect. Second/main event → past simple. Revise **Present Perfect Simple vs Continuous** if the simple/continuous choice feels unclear."
       },
       {
         "title": "Typical errors",
-        "content": "• **Using past simple for the earlier action:** Wrong: When I arrived, she *left*. Right: When I arrived, she **had left**.\n• **Using had with did:** Wrong: I *had went*. She *had didn't see* it. Right: I **had gone**. She **hadn't seen** it. (No did – had is the auxiliary.)\n• **Using past perfect for the main event:** Wrong: She had left when I had arrived. Right: She **had left** when I **arrived**.\n• **Overusing past perfect:** If the order is clear (e.g. She left before I arrived), past simple for both is fine.\n\nTip: Earlier past = had + participle. Later past = past simple."
+        "content": "• **Using past simple for the earlier action:** Wrong: When I arrived, she *left*. Right: When I arrived, she **had left**.\n• **Using had with did:** Wrong: I *had went*. Right: I **had gone**. (Had + past participle; no did.)\n• **Using past perfect for the main event:** Wrong: She had left when I had arrived. Right: She **had left** when I **arrived**.\n• **Confusing simple and continuous:** Wrong: She had been left when I got there. Right: She **had left** (completed) or She **had been waiting** (duration).\n\nTip: Earlier past = had (+ been + -ing for duration). Later past = past simple."
       }
     ]
   },
   "check": {
     "title": "Test your understanding",
     "questions": [
+      {
+        "type": "mc",
+        "question": "'When she arrived, I _____ for an hour.' (Focus on how long I had been waiting.) Which fits?",
+        "options": {
+          "a": "waited",
+          "b": "had waited",
+          "c": "had been waiting",
+          "d": "was waiting"
+        },
+        "correct_option": "c",
+        "explanation": "How long before another past event → past perfect continuous."
+      },
       {
         "type": "mc",
         "question": "'When I got there, she _____ home.' (She left before I got there.) Which fits?",
@@ -107,15 +127,23 @@
   ],
   "practice": {
     "gapfill": {
-      "title": "Practice: Past perfect",
+      "title": "Practice: Past perfect simple and continuous",
       "questions": [
+        {
+          "type": "open",
+          "question": "When she arrived, I _____ (wait) for an hour.",
+          "answers": [
+            "had been waiting"
+          ],
+          "explanation": "How long before another past event → past perfect continuous."
+        },
         {
           "type": "open",
           "question": "When I got home, my sister _____ (already / go) to bed.",
           "answers": [
             "had already gone"
           ],
-          "explanation": "Earlier past action → past perfect."
+          "explanation": "Earlier past action → past perfect simple."
         },
         {
           "type": "open",
@@ -252,8 +280,20 @@
       ]
     },
     "mc": {
-      "title": "Practice: Past Perfect (multiple choice)",
+      "title": "Practice: Past Perfect Simple and Continuous (multiple choice)",
       "questions": [
+        {
+          "type": "mc",
+          "question": "'When she arrived, I _____ for an hour.' (Focus on how long I had been waiting.) Which fits?",
+          "options": {
+            "a": "waited",
+            "b": "had waited",
+            "c": "had been waiting",
+            "d": "was waiting"
+          },
+          "correct_option": "c",
+          "explanation": "How long before another past event → past perfect continuous."
+        },
         {
           "type": "mc",
           "question": "'When I got there, she _____ home.' (She left before I got there.) Which fits?",
@@ -264,7 +304,7 @@
             "d": "was leaving"
           },
           "correct_option": "b",
-          "explanation": "Action before another past action → past perfect."
+          "explanation": "Action before another past action → past perfect simple."
         },
         {
           "type": "mc",

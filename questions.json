@@ -57,10 +57,10 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'worked / has had.' Correct the sentence.",
+          "question": "Wrong: 'He worked / has had many jobs.' Correct the sentence.",
           "answers": [
-            "has worked / has had",
-            "has worked / has had"
+            "He has worked / has had many jobs.",
+            "He has worked / has had many jobs"
           ],
           "explanation": "Both verbs refer to long-term states, so we use the present perfect simple to describe his experience and completed changes."
         },
@@ -88,20 +88,12 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'I see you're tired. How long have you worked today?.' Correct the sentence.",
+          "question": "Wrong: 'I see you're tired. How long have you worked today?' Correct the sentence.",
           "answers": [
             "I see you're tired. How long have you been working today?",
             "I see you're tired. How long have you been working today?"
           ],
           "explanation": "We ask about the duration of an activity that explains the tiredness now, so we prefer the present perfect continuous."
-        },
-        {
-          "type": "open",
-          "question": "1. We ____ (look) for a new flat for months. Put the verb in the correct tense.",
-          "answers": [
-            "have been looking"
-          ],
-          "explanation": "We focus on how long the search has been going on, so we use the present perfect continuous."
         },
         {
           "type": "open",
@@ -138,12 +130,12 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'have worked.' Correct the sentence.",
+          "question": "Wrong: 'I'm tired because I have worked all day.' Correct the sentence.",
           "answers": [
-            "have been working",
-            "have been working"
+            "I'm tired because I have been working all day.",
+            "I'm tired because I have been working all day"
           ],
-          "explanation": "We explain why they're tired now (duration of activity), so we use the present perfect continuous."
+          "explanation": "Context (all day = duration) shows why they're tired now; we use the present perfect continuous (have been working)."
         },
         {
           "type": "open",
@@ -158,7 +150,7 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'Have you made cakes?.' Correct the sentence.",
+          "question": "Wrong: 'Have you made cakes?' Correct the sentence.",
           "answers": [
             "Have you been making cakes?",
             "Have you been making cakes?"
@@ -229,15 +221,6 @@
             "I have eaten. I'm not hungry now"
           ],
           "explanation": "Result now (not hungry) → present perfect simple (have eaten). Use present perfect continuous (have been eating) for an activity over a period, not for a result in the present."
-        },
-        {
-          "type": "open",
-          "question": "Wrong: 'have you been.' Correct the sentence.",
-          "answers": [
-            "did you go",
-            "did you go"
-          ],
-          "explanation": "When (specific time) → past simple."
         },
         {
           "type": "open",
@@ -535,7 +518,6 @@
         {"type": "open", "question": "3. He applied ____ the job.", "answers": ["for"], "explanation": "Dependent preposition (verb): apply **for** a job or visa."},
         {"type": "open", "question": "4. She doesn't approve ____ smoking.", "answers": ["of"], "explanation": "Dependent preposition (verb): approve **of** something."},
         {"type": "open", "question": "5. We arrived ____ the station.", "answers": ["at"], "explanation": "Dependent preposition (verb): arrive **at** a place."},
-        {"type": "open", "question": "6. They arrived ____ London.", "answers": ["in"], "explanation": "Dependent preposition (verb): arrive **in** a city or country."},
         {"type": "open", "question": "7. She asked ____ help.", "answers": ["for"], "explanation": "Dependent preposition (verb): ask **for** something."},
         {"type": "open", "question": "8. I believe ____ justice.", "answers": ["in"], "explanation": "Dependent preposition (verb): believe **in** something."},
         {"type": "open", "question": "9. This book belongs ____ me.", "answers": ["to"], "explanation": "Dependent preposition (verb): belong **to** someone."},
@@ -550,7 +532,7 @@
         {"type": "open", "question": "18. We need to deal ____ this problem.", "answers": ["with"], "explanation": "Dependent preposition (verb): deal **with** something."},
         {"type": "open", "question": "19. We decided ____ a date.", "answers": ["on"], "explanation": "Dependent preposition (verb): decide **on** something."},
         {"type": "open", "question": "20. It depends ____ the weather.", "answers": ["on"], "explanation": "Dependent preposition (verb): depend **on** something."},
-        {"type": "open", "question": "21. She dreams ____ travelling the world.", "answers": ["of"], "explanation": "Dependent preposition (verb): dream **of** or **about** something."},
+        {"type": "open", "question": "21. She dreams ____ travelling the world.", "answers": ["of", "about"], "explanation": "Dependent preposition (verb): dream **of** or **about** something."},
         {"type": "open", "question": "22. They escaped ____ the building.", "answers": ["from"], "explanation": "Dependent preposition (verb): escape **from** something."},
         {"type": "open", "question": "23. Focus ____ the main point.", "answers": ["on"], "explanation": "Dependent preposition (verb): focus **on** something."},
         {"type": "open", "question": "24. I heard ____ the accident.", "answers": ["about"], "explanation": "Dependent preposition (verb): hear **about** (learn about) something."},
@@ -559,27 +541,27 @@
         {"type": "open", "question": "27. They invested ____ property.", "answers": ["in"], "explanation": "Dependent preposition (verb): invest **in** something."},
         {"type": "open", "question": "28. She invited me ____ the party.", "answers": ["to"], "explanation": "Dependent preposition (verb): invite someone **to** something."},
         {"type": "open", "question": "29. Listen ____ the radio.", "answers": ["to"], "explanation": "Dependent preposition (verb): listen **to** something."},
-        {"type": "open", "question": "30. Look ____ the board.", "answers": ["at"], "explanation": "Dependent preposition (verb): look **at** something."},
+        {"type": "open", "question": "30. Look ____ the board.", "answers": ["at", "for"], "explanation": "Dependent preposition (verb): look **at** something."},
         {"type": "open", "question": "31. I'm looking ____ my keys.", "answers": ["for"], "explanation": "Dependent preposition (verb): look **for** something."},
         {"type": "open", "question": "32. He objected ____ the proposal.", "answers": ["to"], "explanation": "Dependent preposition (verb): object **to** something."},
         {"type": "open", "question": "33. I'll pay ____ the tickets.", "answers": ["for"], "explanation": "Dependent preposition (verb): pay **for** something."},
         {"type": "open", "question": "34. We're preparing ____ the exam.", "answers": ["for"], "explanation": "Dependent preposition (verb): prepare **for** something."},
         {"type": "open", "question": "35. The answer ____ the question is on page 5.", "answers": ["to"], "explanation": "Dependent preposition (noun): answer **to** something."},
         {"type": "open", "question": "36. We need a new approach ____ the problem.", "answers": ["to"], "explanation": "Dependent preposition (noun): approach **to** something."},
-        {"type": "open", "question": "37. She has a positive attitude ____ work.", "answers": ["to"], "explanation": "Dependent preposition (noun): attitude **to** or **towards** something."},
+        {"type": "open", "question": "37. She has a positive attitude ____ work.", "answers": ["to", "towards"], "explanation": "Dependent preposition (noun): attitude **to** or **towards** something."},
         {"type": "open", "question": "38. What was the cause ____ the accident?", "answers": ["of"], "explanation": "Dependent preposition (noun): cause **of** something."},
         {"type": "open", "question": "39. She made a comment ____ the report.", "answers": ["on"], "explanation": "Dependent preposition (noun): comment **on** something."},
         {"type": "open", "question": "40. There was a complaint ____ the service.", "answers": ["about"], "explanation": "Dependent preposition (noun): complaint **about** something."},
         {"type": "open", "question": "41. There is concern ____ the environment.", "answers": ["about", "for"], "explanation": "Dependent preposition (noun): concern **about** or **for** something."},
-        {"type": "open", "question": "42. There's a connection ____ the two events.", "answers": ["between"], "explanation": "Dependent preposition (noun): connection **with** or **between**."},
+        {"type": "open", "question": "42. There's a connection ____ the two events.", "answers": ["between", "with"], "explanation": "Dependent preposition (noun): connection **with** or **between**."},
         {"type": "open", "question": "43. Keep in contact ____ old friends.", "answers": ["with"], "explanation": "Dependent preposition (noun): contact **with** someone."},
         {"type": "open", "question": "44. There was damage ____ the building.", "answers": ["to"], "explanation": "Dependent preposition (noun): damage **to** something."},
         {"type": "open", "question": "45. There's a demand ____ better transport.", "answers": ["for"], "explanation": "Dependent preposition (noun): demand **for** something."},
         {"type": "open", "question": "46. What's the difference ____ the two versions?", "answers": ["between"], "explanation": "Dependent preposition (noun): difference **between** things."},
-        {"type": "open", "question": "47. He has difficulty ____ spelling.", "answers": ["with"], "explanation": "Dependent preposition (noun): difficulty **in** or **with** something."},
-        {"type": "open", "question": "48. We had a discussion ____ the budget.", "answers": ["about"], "explanation": "Dependent preposition (noun): discussion **about** or **on** something."},
+        {"type": "open", "question": "47. He has difficulty ____ spelling.", "answers": ["with", "in"], "explanation": "Dependent preposition (noun): difficulty **in** or **with** something."},
+        {"type": "open", "question": "48. We had a discussion ____ the budget.", "answers": ["about", "on"], "explanation": "Dependent preposition (noun): discussion **about** or **on** something."},
         {"type": "open", "question": "49. The drug has an effect ____ patients.", "answers": ["on"], "explanation": "Dependent preposition (noun): effect **on** something."},
-        {"type": "open", "question": "50. She has experience ____ teaching.", "answers": ["in"], "explanation": "Dependent preposition (noun): experience **in** or **of** something."},
+        {"type": "open", "question": "50. She has experience ____ teaching.", "answers": ["in", "of"], "explanation": "Dependent preposition (noun): experience **in** or **of** something."},
         {"type": "open", "question": "51. She has a fear ____ flying.", "answers": ["of"], "explanation": "Dependent preposition (noun): fear **of** something."},
         {"type": "open", "question": "52. Social media has an impact ____ society.", "answers": ["on"], "explanation": "Dependent preposition (noun): impact **on** something."},
         {"type": "open", "question": "53. There was an increase ____ prices.", "answers": ["in"], "explanation": "Dependent preposition (noun): increase **in** something."},
@@ -587,42 +569,42 @@
         {"type": "open", "question": "55. I received an invitation ____ the wedding.", "answers": ["to"], "explanation": "Dependent preposition (noun): invitation **to** something."},
         {"type": "open", "question": "56. Hard work is the key ____ success.", "answers": ["to"], "explanation": "Dependent preposition (noun): key **to** something."},
         {"type": "open", "question": "57. There's a lack ____ time.", "answers": ["of"], "explanation": "Dependent preposition (noun): lack **of** something."},
-        {"type": "open", "question": "58. There's a link ____ diet and health.", "answers": ["between"], "explanation": "Dependent preposition (noun): link **between** or **with**."},
+        {"type": "open", "question": "58. There's a link ____ diet and health.", "answers": ["between", "with"], "explanation": "Dependent preposition (noun): link **between** or **with**."},
         {"type": "open", "question": "59. There's a need ____ more staff.", "answers": ["for"], "explanation": "Dependent preposition (noun): need **for** something."},
         {"type": "open", "question": "60. What was her reaction ____ the news?", "answers": ["to"], "explanation": "Dependent preposition (noun): reaction **to** something."},
         {"type": "open", "question": "61. What's the reason ____ the delay?", "answers": ["for"], "explanation": "Dependent preposition (noun): reason **for** something."},
         {"type": "open", "question": "62. She has a good relationship ____ her boss.", "answers": ["with"], "explanation": "Dependent preposition (noun): relationship **with** someone."},
         {"type": "open", "question": "63. I'm waiting for a reply ____ your email.", "answers": ["to"], "explanation": "Dependent preposition (noun): reply **to** something."},
         {"type": "open", "question": "64. We sent a request ____ information.", "answers": ["for"], "explanation": "Dependent preposition (noun): request **for** something."},
-        {"type": "open", "question": "65. They're doing research ____ climate change.", "answers": ["into"], "explanation": "Dependent preposition (noun): research **into** or **on** something."},
+        {"type": "open", "question": "65. They're doing research ____ climate change.", "answers": ["into", "on", "about"], "explanation": "Dependent preposition (noun): research **into**, **on** or **about** something."},
         {"type": "open", "question": "66. The government's response ____ the crisis was slow.", "answers": ["to"], "explanation": "Dependent preposition (noun): response **to** something."},
         {"type": "open", "question": "67. What was the result ____ the election?", "answers": ["of"], "explanation": "Dependent preposition (noun): result **of** something."},
         {"type": "open", "question": "68. She's afraid ____ spiders.", "answers": ["of"], "explanation": "Dependent preposition (adjective): afraid **of** something."},
         {"type": "open", "question": "69. I'm allergic ____ nuts.", "answers": ["to"], "explanation": "Dependent preposition (adjective): allergic **to** something."},
-        {"type": "open", "question": "70. He's angry ____ the delay.", "answers": ["about"], "explanation": "Dependent preposition (adjective): angry **about** something."},
-        {"type": "open", "question": "71. She's angry ____ me.", "answers": ["with"], "explanation": "Dependent preposition (adjective): angry **with** someone."},
-        {"type": "open", "question": "72. I'm annoyed ____ the mistake.", "answers": ["about"], "explanation": "Dependent preposition (adjective): annoyed **about** something."},
-        {"type": "open", "question": "73. She's annoyed ____ the children.", "answers": ["with"], "explanation": "Dependent preposition (adjective): annoyed **with** someone."},
+        {"type": "open", "question": "70. He's angry ____ the delay.", "answers": ["about", "with"], "explanation": "Dependent preposition (adjective): angry **about** something."},
+        {"type": "open", "question": "71. She's angry ____ me.", "answers": ["with", "about"], "explanation": "Dependent preposition (adjective): angry **with** someone."},
+        {"type": "open", "question": "72. I'm annoyed ____ the mistake.", "answers": ["about", "with"], "explanation": "Dependent preposition (adjective): annoyed **about** something."},
+        {"type": "open", "question": "73. She's annoyed ____ the children.", "answers": ["with", "about"], "explanation": "Dependent preposition (adjective): annoyed **with** someone."},
         {"type": "open", "question": "74. She's anxious ____ the exam.", "answers": ["about"], "explanation": "Dependent preposition (adjective): anxious **about** something."},
         {"type": "open", "question": "75. He's aware ____ the problem.", "answers": ["of"], "explanation": "Dependent preposition (adjective): aware **of** something."},
         {"type": "open", "question": "76. He's bad ____ remembering names.", "answers": ["at"], "explanation": "Dependent preposition (adjective): bad **at** something."},
         {"type": "open", "question": "77. She's capable ____ doing the job.", "answers": ["of"], "explanation": "Dependent preposition (adjective): capable **of** something."},
         {"type": "open", "question": "78. I'm not certain ____ the date.", "answers": ["about"], "explanation": "Dependent preposition (adjective): certain **about** something."},
         {"type": "open", "question": "79. She's clever ____ maths.", "answers": ["at"], "explanation": "Dependent preposition (adjective): clever **at** something."},
-        {"type": "open", "question": "80. The issue is connected ____ funding.", "answers": ["with"], "explanation": "Dependent preposition (adjective): connected **with** something."},
+        {"type": "open", "question": "80. The issue is connected ____ funding.", "answers": ["with", "to"], "explanation": "Dependent preposition (adjective): connected **with** or **to** something."},
         {"type": "open", "question": "81. He's conscious ____ his weight.", "answers": ["of"], "explanation": "Dependent preposition (adjective): conscious **of** something."},
         {"type": "open", "question": "82. I'm content ____ the result.", "answers": ["with"], "explanation": "Dependent preposition (adjective): content **with** something."},
         {"type": "open", "question": "83. She's curious ____ the new system.", "answers": ["about"], "explanation": "Dependent preposition (adjective): curious **about** something."},
-        {"type": "open", "question": "84. It's different ____ what I expected.", "answers": ["from"], "explanation": "Dependent preposition (adjective): different **from** or **to** something."},
-        {"type": "open", "question": "85. She's disappointed ____ her score.", "answers": ["with"], "explanation": "Dependent preposition (adjective): disappointed **with** or **in** something."},
+        {"type": "open", "question": "84. It's different ____ what I expected.", "answers": ["from", "to"], "explanation": "Dependent preposition (adjective): different **from** or **to** something."},
+        {"type": "open", "question": "85. She's disappointed ____ her score.", "answers": ["with", "in"], "explanation": "Dependent preposition (adjective): disappointed **with** or **in** something."},
         {"type": "open", "question": "86. They're excited ____ the trip.", "answers": ["about"], "explanation": "Dependent preposition (adjective): excited **about** something."},
         {"type": "open", "question": "87. Are you familiar ____ the system?", "answers": ["with"], "explanation": "Dependent preposition (adjective): familiar **with** something."},
         {"type": "open", "question": "88. He's famous ____ his novels.", "answers": ["for"], "explanation": "Dependent preposition (adjective): famous **for** something."},
         {"type": "open", "question": "89. I'm fed up ____ the noise.", "answers": ["with"], "explanation": "Dependent preposition (adjective): fed up **with** something."},
         {"type": "open", "question": "90. The room was full ____ people.", "answers": ["of"], "explanation": "Dependent preposition (adjective): full **of** something."},
-        {"type": "open", "question": "91. She's good ____ maths.", "answers": ["at"], "explanation": "Dependent preposition (adjective): good **at** a subject or skill."},
-        {"type": "open", "question": "92. Exercise is good ____ you.", "answers": ["for"], "explanation": "Dependent preposition (adjective): good **for** (beneficial for) someone."},
-        {"type": "open", "question": "93. She's good ____ children.", "answers": ["with"], "explanation": "Dependent preposition (adjective): good **with** people or things."},
+        {"type": "open", "question": "91. She's good ____ maths.", "answers": ["at", "for", "with"], "explanation": "Dependent preposition (adjective): good **at** a subject or skill."},
+        {"type": "open", "question": "92. Exercise is good ____ you.", "answers": ["for", "at", "with"], "explanation": "Dependent preposition (adjective): good **for** (beneficial for) someone."},
+        {"type": "open", "question": "93. She's good ____ children.", "answers": ["with", "at", "for"], "explanation": "Dependent preposition (adjective): good **with** people or things."},
         {"type": "open", "question": "94. We're grateful ____ your help.", "answers": ["for"], "explanation": "Dependent preposition (adjective): grateful **for** something."},
         {"type": "open", "question": "95. He was found guilty ____ fraud.", "answers": ["of"], "explanation": "Dependent preposition (adjective): guilty **of** something."},
         {"type": "open", "question": "96. I'm interested ____ history.", "answers": ["in"], "explanation": "Dependent preposition (adjective): interested **in** something."},
@@ -636,7 +618,7 @@
         {"type": "open", "question": "104. You can rely ____ me.", "answers": ["on"], "explanation": "Dependent preposition (verb): rely **on** someone."},
         {"type": "open", "question": "105. That song reminds me ____ summer.", "answers": ["of"], "explanation": "Dependent preposition (verb): remind someone **of** something."},
         {"type": "open", "question": "106. They're searching ____ the missing child.", "answers": ["for"], "explanation": "Dependent preposition (verb): search **for** something."},
-        {"type": "open", "question": "107. I need to speak ____ the manager.", "answers": ["to"], "explanation": "Dependent preposition (verb): speak **to** or **with** someone."},
+        {"type": "open", "question": "107. I need to speak ____ the manager.", "answers": ["to", "with"], "explanation": "Dependent preposition (verb): speak **to** or **with** someone."},
         {"type": "open", "question": "108. She specialises ____ tax law.", "answers": ["in"], "explanation": "Dependent preposition (verb): specialise **in** something."},
         {"type": "open", "question": "109. He succeeded ____ passing the exam.", "answers": ["in"], "explanation": "Dependent preposition (verb): succeed **in** something."},
         {"type": "open", "question": "110. He suffers ____ headaches.", "answers": ["from"], "explanation": "Dependent preposition (verb): suffer **from** something."},
@@ -649,7 +631,7 @@
         {"type": "open", "question": "117. There was a rise ____ unemployment.", "answers": ["in"], "explanation": "Dependent preposition (noun): rise **in** something."},
         {"type": "open", "question": "118. We need a solution ____ this problem.", "answers": ["to"], "explanation": "Dependent preposition (noun): solution **to** something."},
         {"type": "open", "question": "119. She has a talent ____ music.", "answers": ["for"], "explanation": "Dependent preposition (noun): talent **for** something."},
-        {"type": "open", "question": "120. He gave a talk ____ climate change.", "answers": ["on"], "explanation": "Dependent preposition (noun): talk **on** or **about** something."},
+        {"type": "open", "question": "120. He gave a talk ____ climate change.", "answers": ["on", "about"], "explanation": "Dependent preposition (noun): talk **on** or **about** something."},
         {"type": "open", "question": "121. It's a way ____ solving the problem.", "answers": ["of"], "explanation": "Dependent preposition (noun): way **of** doing something."},
         {"type": "open", "question": "122. The advantage ____ living in the city is the transport.", "answers": ["of"], "explanation": "Dependent preposition (noun): advantage **of** something."},
         {"type": "open", "question": "123. We need to raise awareness ____ the issue.", "answers": ["of"], "explanation": "Dependent preposition (noun): awareness **of** something."},
@@ -665,21 +647,20 @@
         {"type": "open", "question": "133. There was a reduction ____ costs.", "answers": ["in"], "explanation": "Dependent preposition (noun): reduction **in** something."},
         {"type": "open", "question": "134. I'm nervous ____ the interview.", "answers": ["about"], "explanation": "Dependent preposition (adjective): nervous **about** something."},
         {"type": "open", "question": "135. She's pleased ____ her results.", "answers": ["with"], "explanation": "Dependent preposition (adjective): pleased **with** something."},
-        {"type": "open", "question": "136. The app is popular ____ teenagers.", "answers": ["with"], "explanation": "Dependent preposition (adjective): popular **with** someone."},
+        {"type": "open", "question": "136. The app is popular ____ teenagers.", "answers": ["with", "among", "amongst"], "explanation": "Dependent preposition (adjective): popular **with** or **among** someone (amongst = variant of among)."},
         {"type": "open", "question": "137. He's proud ____ his daughter.", "answers": ["of"], "explanation": "Dependent preposition (adjective): proud **of** someone or something."},
         {"type": "open", "question": "138. Are you ready ____ the test?", "answers": ["for"], "explanation": "Dependent preposition (adjective): ready **for** something."},
-        {"type": "open", "question": "139. She's responsible ____ the project.", "answers": ["for"], "explanation": "Dependent preposition (adjective): responsible **for** something."},
-        {"type": "open", "question": "140. The manager is responsible ____ the board.", "answers": ["to"], "explanation": "Dependent preposition (adjective): responsible **to** (answerable to) someone."},
+        {"type": "open", "question": "139. She's responsible ____ the project.", "answers": ["for", "to"], "explanation": "Dependent preposition (adjective): responsible **for** something."},
+        {"type": "open", "question": "140. The manager is responsible ____ the board.", "answers": ["to", "for"], "explanation": "Dependent preposition (adjective): responsible **to** (answerable to) someone."},
         {"type": "open", "question": "141. We're satisfied ____ the service.", "answers": ["with"], "explanation": "Dependent preposition (adjective): satisfied **with** something."},
         {"type": "open", "question": "142. He's serious ____ his career.", "answers": ["about"], "explanation": "Dependent preposition (adjective): serious **about** something."},
         {"type": "open", "question": "143. Your bag is similar ____ mine.", "answers": ["to"], "explanation": "Dependent preposition (adjective): similar **to** something."},
-        {"type": "open", "question": "144. I'm sorry ____ the mess.", "answers": ["about"], "explanation": "Dependent preposition (adjective): sorry **about** something."},
-        {"type": "open", "question": "145. I feel sorry ____ him.", "answers": ["for"], "explanation": "Dependent preposition (adjective): sorry **for** (feel pity for) someone."},
+        {"type": "open", "question": "144. I'm sorry ____ the mess.", "answers": ["about", "for"], "explanation": "Dependent preposition (adjective): sorry **about** or **for** something."},
+        {"type": "open", "question": "145. I feel sorry ____ him.", "answers": ["for", "about"], "explanation": "Dependent preposition (adjective): sorry **for** (feel pity for) someone."},
         {"type": "open", "question": "146. This film is not suitable ____ children.", "answers": ["for"], "explanation": "Dependent preposition (adjective): suitable **for** something."},
-        {"type": "open", "question": "147. I'm sure ____ the time.", "answers": ["about"], "explanation": "Dependent preposition (adjective): sure **about** or **of** something."},
-        {"type": "open", "question": "148. We were surprised ____ the news.", "answers": ["at"], "explanation": "Dependent preposition (adjective): surprised **at** or **by** something."},
-        {"type": "open", "question": "149. I'm tired ____ waiting.", "answers": ["of"], "explanation": "Dependent preposition (adjective): tired **of** (bored with) something."},
-        {"type": "open", "question": "150. I'm tired ____ the journey.", "answers": ["from"], "explanation": "Dependent preposition (adjective): tired **from** (physically tired because of) something."},
+        {"type": "open", "question": "147. I'm sure ____ the time.", "answers": ["about", "of"], "explanation": "Dependent preposition (adjective): sure **about** or **of** something."},
+        {"type": "open", "question": "148. We were surprised ____ the news.", "answers": ["at", "by"], "explanation": "Dependent preposition (adjective): surprised **at** or **by** something."},
+        {"type": "open", "question": "149. I'm tired ____ waiting.", "answers": ["of", "from"], "explanation": "Dependent preposition (adjective): tired **of** (bored with) something."},
         {"type": "open", "question": "151. That's typical ____ him.", "answers": ["of"], "explanation": "Dependent preposition (adjective): typical **of** someone or something."},
         {"type": "open", "question": "152. I'm used ____ getting up early.", "answers": ["to"], "explanation": "Dependent preposition (adjective): used **to** (accustomed to) something."},
         {"type": "open", "question": "153. We're worried ____ the results.", "answers": ["about"], "explanation": "Dependent preposition (adjective): worried **about** something."}
@@ -800,9 +781,10 @@
           "type": "open",
           "question": "13. The document ____ you need is on the desk. (Defining.)",
           "answers": [
-            "that"
+            "that",
+            "which"
           ],
-          "explanation": "Defining clause: **that** (or which) identifies which document."
+          "explanation": "Defining clause: **that** or **which** – both acceptable; identifies which document."
         },
         {
           "type": "open",
@@ -987,9 +969,11 @@
             "Look at the sky – it's going to rain.",
             "Look at the sky – it is going to rain.",
             "Look at the sky – it's going to rain",
-            "Look at the sky – it is going to rain"
+            "Look at the sky – it is going to rain",
+            "It's going to rain.",
+            "It is going to rain."
           ],
-          "explanation": "Prediction from present evidence → going to."
+          "explanation": "Prediction from present evidence → going to. Contractions (it's) and full form (it is) are both accepted."
         },
         {
           "type": "open",
@@ -1227,8 +1211,8 @@
   },
   "spelling": {
     "set1": {
-      "title": "Spelling – Correct the spelling (1–10)",
-      "summary": "Words 1–10: accommodation, achieve, across, address, aggressive, apparently, appearance, argument, beginning, believe.",
+      "title": "Spelling – Correct the spelling (1–200)",
+      "summary": "200 commonly misspelt words – accommodation through pronunciation. Exam essentials (FCE Listening Part 2, Use of English Part 2 & 3) and common teen mistakes.",
       "questions": [
         {
           "type": "open",
@@ -1401,7 +1385,783 @@
             "Don't disappoint them."
           ],
           "explanation": "Disappoint: one s, double p."
-        }
+        },
+        {
+          "type": "open",
+          "question": "21. Wrong: 'We must protect the enviroment.' Correct the sentence.",
+          "answers": [
+            "We must protect the environment."
+          ],
+          "explanation": "Environment: n before m."
+        },
+        {
+          "type": "open",
+          "question": "22. Wrong: 'The equipement is ready.' Correct the sentence.",
+          "answers": [
+            "The equipment is ready."
+          ],
+          "explanation": "Equipment: no a after p."
+        },
+        {
+          "type": "open",
+          "question": "23. Wrong: 'Don't exagerate.' Correct the sentence.",
+          "answers": [
+            "Don't exaggerate."
+          ],
+          "explanation": "Exaggerate: double g."
+        },
+        {
+          "type": "open",
+          "question": "24. Wrong: 'That was excelent.' Correct the sentence.",
+          "answers": [
+            "That was excellent."
+          ],
+          "explanation": "Excellent: double l."
+        },
+        {
+          "type": "open",
+          "question": "25. Wrong: 'The existance of life on Mars.' Correct the sentence.",
+          "answers": [
+            "The existence of life on Mars."
+          ],
+          "explanation": "Existence: -ence not -ance."
+        },
+        {
+          "type": "open",
+          "question": "26. Wrong: 'She has a lot of experiance.' Correct the sentence.",
+          "answers": [
+            "She has a lot of experience."
+          ],
+          "explanation": "Experience: i before e."
+        },
+        {
+          "type": "open",
+          "question": "27. Wrong: 'This place looks familar.' Correct the sentence.",
+          "answers": [
+            "This place looks familiar."
+          ],
+          "explanation": "Familiar: i after l."
+        },
+        {
+          "type": "open",
+          "question": "28. Wrong: 'See you in Febuary.' Correct the sentence.",
+          "answers": [
+            "See you in February."
+          ],
+          "explanation": "February: r before u."
+        },
+        {
+          "type": "open",
+          "question": "29. Wrong: 'He speaks a foriegn language.' Correct the sentence.",
+          "answers": [
+            "He speaks a foreign language."
+          ],
+          "explanation": "Foreign: e before i."
+        },
+        {
+          "type": "open",
+          "question": "30. Wrong: 'The goverment announced new plans.' Correct the sentence.",
+          "answers": [
+            "The government announced new plans."
+          ],
+          "explanation": "Government: n before m."
+        },
+        {
+          "type": "open",
+          "question": "31. Wrong: 'We gaurantee quality.' Correct the sentence.",
+          "answers": [
+            "We guarantee quality."
+          ],
+          "explanation": "Guarantee: u before a."
+        },
+        {
+          "type": "open",
+          "question": "32. Wrong: 'Don't harrass them.' Correct the sentence.",
+          "answers": [
+            "Don't harass them."
+          ],
+          "explanation": "Harass: one r, double s."
+        },
+        {
+          "type": "open",
+          "question": "33. Wrong: 'What's your heighth?' Correct the sentence.",
+          "answers": [
+            "What's your height?"
+          ],
+          "explanation": "Height: no h at the end."
+        },
+        {
+          "type": "open",
+          "question": "34. Wrong: 'Reply imediately.' Correct the sentence.",
+          "answers": [
+            "Reply immediately."
+          ],
+          "explanation": "Immediately: double m."
+        },
+        {
+          "type": "open",
+          "question": "35. Wrong: 'An independant country.' Correct the sentence.",
+          "answers": [
+            "An independent country."
+          ],
+          "explanation": "Independent: -ent not -ant."
+        },
+        {
+          "type": "open",
+          "question": "36. Wrong: 'Artificial inteligence.' Correct the sentence.",
+          "answers": [
+            "Artificial intelligence."
+          ],
+          "explanation": "Intelligence: double l."
+        },
+        {
+          "type": "open",
+          "question": "37. Wrong: 'She bought some jewellry.' Correct the sentence.",
+          "answers": [
+            "She bought some jewellery."
+          ],
+          "explanation": "Jewellery: double l, -ery (UK)."
+        },
+        {
+          "type": "open",
+          "question": "38. Wrong: 'Knowlege is power.' Correct the sentence.",
+          "answers": [
+            "Knowledge is power."
+          ],
+          "explanation": "Knowledge: d before g."
+        },
+        {
+          "type": "open",
+          "question": "39. Wrong: 'The labratory is closed.' Correct the sentence.",
+          "answers": [
+            "The laboratory is closed."
+          ],
+          "explanation": "Laboratory: o before r."
+        },
+        {
+          "type": "open",
+          "question": "40. Wrong: 'In your liesure time.' Correct the sentence.",
+          "answers": [
+            "In your leisure time."
+          ],
+          "explanation": "Leisure: e before i."
+        },
+        {
+          "type": "open",
+          "question": "41. Wrong: 'Meet me at the libary.' Correct the sentence.",
+          "answers": [
+            "Meet me at the library."
+          ],
+          "explanation": "Library: r before a."
+        },
+        {
+          "type": "open",
+          "question": "42. Wrong: 'Regular maintainance is needed.' Correct the sentence.",
+          "answers": [
+            "Regular maintenance is needed."
+          ],
+          "explanation": "Maintenance: -ance, ten in the middle."
+        },
+        {
+          "type": "open",
+          "question": "43. Wrong: 'Take your medecine.' Correct the sentence.",
+          "answers": [
+            "Take your medicine."
+          ],
+          "explanation": "Medicine: i before c."
+        },
+        {
+          "type": "open",
+          "question": "44. Wrong: 'A minature version.' Correct the sentence.",
+          "answers": [
+            "A miniature version."
+          ],
+          "explanation": "Miniature: i before a."
+        },
+        {
+          "type": "open",
+          "question": "45. Wrong: 'It's neccessary to book.' Correct the sentence.",
+          "answers": [
+            "It's necessary to book."
+          ],
+          "explanation": "Necessary: one c, double s."
+        },
+        {
+          "type": "open",
+          "question": "46. Wrong: 'Our nieghbour is friendly.' Correct the sentence.",
+          "answers": [
+            "Our neighbour is friendly."
+          ],
+          "explanation": "Neighbour: e before i, u before o (UK)."
+        },
+        {
+          "type": "open",
+          "question": "47. Wrong: 'On this ocasion.' Correct the sentence.",
+          "answers": [
+            "On this occasion."
+          ],
+          "explanation": "Occasion: double c."
+        },
+        {
+          "type": "open",
+          "question": "48. Wrong: 'It occured last week.' Correct the sentence.",
+          "answers": [
+            "It occurred last week."
+          ],
+          "explanation": "Occurred: double c, double r."
+        },
+        {
+          "type": "open",
+          "question": "49. Wrong: 'A great oportunity.' Correct the sentence.",
+          "answers": [
+            "A great opportunity."
+          ],
+          "explanation": "Opportunity: double p."
+        },
+        {
+          "type": "open",
+          "question": "50. Wrong: 'The lines are parrallel.' Correct the sentence.",
+          "answers": [
+            "The lines are parallel."
+          ],
+          "explanation": "Parallel: one r, double l."
+        },
+        {
+          "type": "open",
+          "question": "51. Wrong: 'The parliment voted.' Correct the sentence.",
+          "answers": [
+            "The parliament voted."
+          ],
+          "explanation": "Parliament: i after l."
+        },
+        {
+          "type": "open",
+          "question": "52. Wrong: 'Nothing particuler.' Correct the sentence.",
+          "answers": [
+            "Nothing in particular."
+          ],
+          "explanation": "Particular: -ar not -er. The common phrase is 'nothing in particular'."
+        },
+        {
+          "type": "open",
+          "question": "53. Wrong: 'I tried to persaude him.' Correct the sentence.",
+          "answers": [
+            "I tried to persuade him."
+          ],
+          "explanation": "Persuade: u before a."
+        },
+        {
+          "type": "open",
+          "question": "54. Wrong: 'In posession of a ticket.' Correct the sentence.",
+          "answers": [
+            "In possession of a ticket."
+          ],
+          "explanation": "Possession: double s."
+        },
+        {
+          "type": "open",
+          "question": "55. Wrong: 'She prefered to stay.' Correct the sentence.",
+          "answers": [
+            "She preferred to stay."
+          ],
+          "explanation": "Preferred: double r before -ed."
+        },
+        {
+          "type": "open",
+          "question": "56. Wrong: 'It was a priviledge.' Correct the sentence.",
+          "answers": [
+            "It was a privilege."
+          ],
+          "explanation": "Privilege: i before e."
+        },
+        {
+          "type": "open",
+          "question": "57. Wrong: 'His proffession is teaching.' Correct the sentence.",
+          "answers": [
+            "His profession is teaching."
+          ],
+          "explanation": "Profession: one f, double s."
+        },
+        {
+          "type": "open",
+          "question": "58. Wrong: 'Check the pronounciation.' Correct the sentence.",
+          "answers": [
+            "Check the pronunciation."
+          ],
+          "explanation": "Pronunciation: nunci (from pronounce)."
+        },
+        {
+          "type": "open",
+          "question": "59. Wrong: 'Join the que.' Correct the sentence.",
+          "answers": [
+            "Join the queue."
+          ],
+          "explanation": "Queue: double u, then e."
+        },
+        {
+          "type": "open",
+          "question": "60. Wrong: 'Did you recieve it?' Correct the sentence.",
+          "answers": [
+            "Did you receive it?"
+          ],
+          "explanation": "Receive: e before i (after c)."
+        },
+        {
+          "type": "open",
+          "question": "61. Wrong: 'I reccommend this book.' Correct the sentence.",
+          "answers": [
+            "I recommend this book."
+          ],
+          "explanation": "Recommend: one c, double m."
+        },
+        {
+          "type": "open",
+          "question": "62. Wrong: 'See the referance list.' Correct the sentence.",
+          "answers": [
+            "See the reference list."
+          ],
+          "explanation": "Reference: e before a."
+        },
+        {
+          "type": "open",
+          "question": "63. Wrong: 'Is this relevent?' Correct the sentence.",
+          "answers": [
+            "Is this relevant?"
+          ],
+          "explanation": "Relevant: a before e."
+        },
+        {
+          "type": "open",
+          "question": "64. Wrong: 'We ate at the restarant.' Correct the sentence.",
+          "answers": [
+            "We ate at the restaurant."
+          ],
+          "explanation": "Restaurant: au in the middle."
+        },
+        {
+          "type": "open",
+          "question": "65. Wrong: 'A sense of rythm.' Correct the sentence.",
+          "answers": [
+            "A sense of rhythm."
+          ],
+          "explanation": "Rhythm: h after r, no vowel between."
+        },
+        {
+          "type": "open",
+          "question": "66. Wrong: 'Check the schedual.' Correct the sentence.",
+          "answers": [
+            "Check the schedule."
+          ],
+          "explanation": "Schedule: c-h, then edule."
+        },
+        {
+          "type": "open",
+          "question": "67. Wrong: 'Talk to the secratary.' Correct the sentence.",
+          "answers": [
+            "Talk to the secretary."
+          ],
+          "explanation": "Secretary: e before t, a before r."
+        },
+        {
+          "type": "open",
+          "question": "68. Wrong: 'Keep them seperate.' Correct the sentence.",
+          "answers": [
+            "Keep them separate."
+          ],
+          "explanation": "Separate: a in the middle (par in the middle)."
+        },
+        {
+          "type": "open",
+          "question": "69. Wrong: 'Yours sincerly.' Correct the sentence.",
+          "answers": [
+            "Yours sincerely."
+          ],
+          "explanation": "Sincerely: e before l."
+        },
+        {
+          "type": "open",
+          "question": "70. Wrong: 'A successfull campaign.' Correct the sentence.",
+          "answers": [
+            "A successful campaign."
+          ],
+          "explanation": "Successful: one l, double s."
+        },
+        {
+          "type": "open",
+          "question": "71. Wrong: 'See you tommorrow.' Correct the sentence.",
+          "answers": [
+            "See you tomorrow."
+          ],
+          "explanation": "Tomorrow: one m, double r."
+        },
+        {
+          "type": "open",
+          "question": "72. Wrong: 'Heavy trafic today.' Correct the sentence.",
+          "answers": [
+            "Heavy traffic today."
+          ],
+          "explanation": "Traffic: double f, double c."
+        },
+        {
+          "type": "open",
+          "question": "73. Wrong: 'That was unneccessary.' Correct the sentence.",
+          "answers": [
+            "That was unnecessary."
+          ],
+          "explanation": "Unnecessary: one c, double s."
+        },
+        {
+          "type": "open",
+          "question": "74. Wrong: 'Wait untill Monday.' Correct the sentence.",
+          "answers": [
+            "Wait until Monday."
+          ],
+          "explanation": "Until: one l."
+        },
+        {
+          "type": "open",
+          "question": "75. Wrong: 'The whether is fine today.' Correct the sentence.",
+          "answers": [
+            "The weather is fine today."
+          ],
+          "explanation": "Weather: a (rain, etc.); whether = if."
+        },
+        {
+          "type": "open",
+          "question": "76. Wrong: 'Next Wensday.' Correct the sentence.",
+          "answers": [
+            "Next Wednesday."
+          ],
+          "explanation": "Wednesday: d before n."
+        },
+        {
+          "type": "open",
+          "question": "77. Wrong: 'That's wierd.' Correct the sentence.",
+          "answers": [
+            "That's weird."
+          ],
+          "explanation": "Weird: e before i (exception to rule)."
+        },
+        {
+          "type": "open",
+          "question": "78. Wrong: 'Creative writting.' Correct the sentence.",
+          "answers": [
+            "Creative writing."
+          ],
+          "explanation": "Writing: one t (from write)."
+        },
+        {
+          "type": "open",
+          "question": "79. Wrong: 'The comittee met.' Correct the sentence.",
+          "answers": [
+            "The committee met."
+          ],
+          "explanation": "Committee: double m, double t, double e."
+        },
+        {
+          "type": "open",
+          "question": "80. Wrong: 'Don't embarass me.' Correct the sentence.",
+          "answers": [
+            "Don't embarrass me."
+          ],
+          "explanation": "Embarrass: double r, double s."
+        },
+        {
+          "type": "open",
+          "question": "81. Wrong: 'It was appparent to everyone.' Correct the sentence.",
+          "answers": [
+            "It was apparent to everyone."
+          ],
+          "explanation": "Apparent: double p."
+        },
+        {
+          "type": "open",
+          "question": "82. Wrong: 'Attendance is compulsary.' Correct the sentence.",
+          "answers": [
+            "Attendance is compulsory."
+          ],
+          "explanation": "Compulsory: o before u, -ory."
+        },
+        {
+          "type": "open",
+          "question": "83. Wrong: 'Exercise is benificial.' Correct the sentence.",
+          "answers": [
+            "Exercise is beneficial."
+          ],
+          "explanation": "Beneficial: one n, -cial."
+        },
+        {
+          "type": "open",
+          "question": "84. Wrong: 'The plan is changable.' Correct the sentence.",
+          "answers": [
+            "The plan is changeable."
+          ],
+          "explanation": "Changeable: keep the e before -able."
+        },
+        {
+          "type": "open",
+          "question": "85. Wrong: 'She is commited to the project.' Correct the sentence.",
+          "answers": [
+            "She is committed to the project."
+          ],
+          "explanation": "Committed: double m, double t."
+        },
+        {
+          "type": "open",
+          "question": "86. Wrong: 'We reached a concensus.' Correct the sentence.",
+          "answers": [
+            "We reached a consensus."
+          ],
+          "explanation": "Consensus: -sus not -census."
+        },
+        {
+          "type": "open",
+          "question": "87. Wrong: 'The decision caused controversey.' Correct the sentence.",
+          "answers": [
+            "The decision caused controversy."
+          ],
+          "explanation": "Controversy: -sy not -sey."
+        },
+        {
+          "type": "open",
+          "question": "88. Wrong: 'For your conveniance.' Correct the sentence.",
+          "answers": [
+            "For your convenience."
+          ],
+          "explanation": "Convenience: -ience, i before e."
+        },
+        {
+          "type": "open",
+          "question": "89. Wrong: 'He accepted the critisism.' Correct the sentence.",
+          "answers": [
+            "He accepted the criticism."
+          ],
+          "explanation": "Criticism: -ism not -isim."
+        },
+        {
+          "type": "open",
+          "question": "90. Wrong: 'Out of curiocity.' Correct the sentence.",
+          "answers": [
+            "Out of curiosity."
+          ],
+          "explanation": "Curiosity: -osity (from curious)."
+        },
+        {
+          "type": "open",
+          "question": "91. Wrong: 'Make a descision.' Correct the sentence.",
+          "answers": [
+            "Make a decision."
+          ],
+          "explanation": "Decision: -sion not -cion."
+        },
+        {
+          "type": "open",
+          "question": "92. Wrong: 'A detailed discription.' Correct the sentence.",
+          "answers": [
+            "A detailed description."
+          ],
+          "explanation": "Description: e after s (from describe)."
+        },
+        {
+          "type": "open",
+          "question": "93. Wrong: 'Economic developement.' Correct the sentence.",
+          "answers": [
+            "Economic development.",
+            "Economic development"
+          ],
+          "explanation": "Development: no e after p. With or without full stop."
+        },
+        {
+          "type": "open",
+          "question": "94. Wrong: 'Look it up in the dictionery.' Correct the sentence.",
+          "answers": [
+            "Look it up in the dictionary."
+          ],
+          "explanation": "Dictionary: -ary not -ery."
+        },
+        {
+          "type": "open",
+          "question": "95. Wrong: 'The stain will disapear.' Correct the sentence.",
+          "answers": [
+            "The stain will disappear."
+          ],
+          "explanation": "Disappear: double p."
+        },
+        {
+          "type": "open",
+          "question": "96. Wrong: 'On the eigth floor.' Correct the sentence.",
+          "answers": [
+            "On the eighth floor."
+          ],
+          "explanation": "Eighth: add -h to eight."
+        },
+        {
+          "type": "open",
+          "question": "97. Wrong: 'An efficent system.' Correct the sentence.",
+          "answers": [
+            "An efficient system."
+          ],
+          "explanation": "Efficient: double f, -ient."
+        },
+        {
+          "type": "open",
+          "question": "98. Wrong: 'Are you eligable?' Correct the sentence.",
+          "answers": [
+            "Are you eligible?"
+          ],
+          "explanation": "Eligible: -ible not -able."
+        },
+        {
+          "type": "open",
+          "question": "99. Wrong: 'In case of emergancy.' Correct the sentence.",
+          "answers": [
+            "In case of emergency."
+          ],
+          "explanation": "Emergency: -ency not -ancy."
+        },
+        {
+          "type": "open",
+          "question": "100. Wrong: 'Enviromental issues matter.' Correct the sentence.",
+          "answers": [
+            "Environmental issues matter."
+          ],
+          "explanation": "Environmental: from environment, -mental."
+        },
+        {
+          "type": "open",
+          "question": "101. Wrong: 'I really dispised reading.' Correct the sentence.",
+          "answers": [
+            "I really despised reading."
+          ],
+          "explanation": "Despised: e before i (from despise)."
+        },
+        {
+          "type": "open",
+          "question": "102. Wrong: 'It felt boring and unplesent.' Correct the sentence.",
+          "answers": [
+            "It felt boring and unpleasant."
+          ],
+          "explanation": "Unpleasant: pleasant with un-; a before e."
+        },
+        {
+          "type": "open",
+          "question": "103. Wrong: 'When I turend 11.' Correct the sentence.",
+          "answers": [
+            "When I turned 11."
+          ],
+          "explanation": "Turned: u before r (from turn)."
+        },
+        {
+          "type": "open",
+          "question": "104. Wrong: 'Reading brings a lot of exitment.' Correct the sentence.",
+          "answers": [
+            "Reading brings a lot of excitement."
+          ],
+          "explanation": "Excitement: c after x (from excite)."
+        },
+        {
+          "type": "open",
+          "question": "105. Wrong: 'I spoted a book in the shop.' Correct the sentence.",
+          "answers": [
+            "I spotted a book in the shop."
+          ],
+          "explanation": "Spotted: double t (from spot + -ed)."
+        },
+        {"type": "open", "question": "106. Wrong: 'She said becuase she was tired.' Correct the sentence.", "answers": ["She said because she was tired."], "explanation": "Because: be + cause."},
+        {"type": "open", "question": "107. Wrong: 'Althought it rained, we went out.' Correct the sentence.", "answers": ["Although it rained, we went out."], "explanation": "Although: no t at the end."},
+        {"type": "open", "question": "108. Wrong: 'Howver, I disagree.' Correct the sentence.", "answers": ["However, I disagree."], "explanation": "However: how + ever."},
+        {"type": "open", "question": "109. Wrong: 'Therefor, we must act.' Correct the sentence.", "answers": ["Therefore, we must act."], "explanation": "Therefore: there + fore."},
+        {"type": "open", "question": "110. Wrong: 'I wonder wether she will come.' Correct the sentence.", "answers": ["I wonder whether she will come."], "explanation": "Whether: wh- + ether (like weather but different meaning)."},
+        {"type": "open", "question": "111. Wrong: 'Dispight the rain, we continued.' Correct the sentence.", "answers": ["Despite the rain, we continued."], "explanation": "Despite: de- + spite (no g)."},
+        {"type": "open", "question": "112. Wrong: 'Acording to the report.' Correct the sentence.", "answers": ["According to the report."], "explanation": "According: double c."},
+        {"type": "open", "question": "113. Wrong: 'They did it themselfs.' Correct the sentence.", "answers": ["They did it themselves."], "explanation": "Themselves: them + selves."},
+        {"type": "open", "question": "114. Wrong: 'I need somthing to drink.' Correct the sentence.", "answers": ["I need something to drink."], "explanation": "Something: some + thing."},
+        {"type": "open", "question": "115. Wrong: 'She has beautifull eyes.' Correct the sentence.", "answers": ["She has beautiful eyes."], "explanation": "Beautiful: beauty + -ful (one l)."},
+        {"type": "open", "question": "116. Wrong: 'It was a wonderfull day.' Correct the sentence.", "answers": ["It was a wonderful day."], "explanation": "Wonderful: wonder + -ful (one l)."},
+        {"type": "open", "question": "117. Wrong: 'See you on Thursay.' Correct the sentence.", "answers": ["See you on Thursday."], "explanation": "Thursday: Thurs + day (like Thor)."},
+        {"type": "open", "question": "118. Wrong: 'We bought new furnature.' Correct the sentence.", "answers": ["We bought new furniture."], "explanation": "Furniture: -iture (not -ature)."},
+        {"type": "open", "question": "119. Wrong: 'It was a long jurney.' Correct the sentence.", "answers": ["It was a long journey."], "explanation": "Journey: jour- + ney."},
+        {"type": "open", "question": "120. Wrong: 'We went on holaday.' Correct the sentence.", "answers": ["We went on holiday."], "explanation": "Holiday: holi + day (holy day)."},
+        {"type": "open", "question": "121. Wrong: 'It was quite an advendure.' Correct the sentence.", "answers": ["It was quite an adventure."], "explanation": "Adventure: -vent- in the middle."},
+        {"type": "open", "question": "122. Wrong: 'We did an experement.' Correct the sentence.", "answers": ["We did an experiment."], "explanation": "Experiment: -per- in the middle."},
+        {"type": "open", "question": "123. Wrong: 'The course was chalenging.' Correct the sentence.", "answers": ["The course was challenging."], "explanation": "Challenging: challenge + -ing (double l)."},
+        {"type": "open", "question": "124. Wrong: 'She showed great determanation.' Correct the sentence.", "answers": ["She showed great determination."], "explanation": "Determination: determine + -ation (i before n)."},
+        {"type": "open", "question": "125. Wrong: 'It was an efective solution.' Correct the sentence.", "answers": ["It was an effective solution."], "explanation": "Effective: effect + -ive (double f)."},
+        {"type": "open", "question": "126. Wrong: 'The students were motiviated.' Correct the sentence.", "answers": ["The students were motivated."], "explanation": "Motivated: motivate + -d (one i)."},
+        {"type": "open", "question": "127. Wrong: 'He strives for perfecton.' Correct the sentence.", "answers": ["He strives for perfection."], "explanation": "Perfection: perfect + -ion."},
+        {"type": "open", "question": "128. Wrong: 'The scenary was stunning.' Correct the sentence.", "answers": ["The scenery was stunning."], "explanation": "Scenery: scene + -ery."},
+        {"type": "open", "question": "129. Wrong: 'Full-time employement.' Correct the sentence.", "answers": ["Full-time employment."], "explanation": "Employment: employ + -ment."},
+        {"type": "open", "question": "130. Wrong: 'Job secuirty is important.' Correct the sentence.", "answers": ["Job security is important."], "explanation": "Security: secure + -ity."},
+        {"type": "open", "question": "131. Wrong: 'The distibution of wealth.' Correct the sentence.", "answers": ["The distribution of wealth."], "explanation": "Distribution: distribute + -ion."},
+        {"type": "open", "question": "132. Wrong: 'A good relatonship with colleagues.' Correct the sentence.", "answers": ["A good relationship with colleagues."], "explanation": "Relationship: relate + -tion + -ship."},
+        {"type": "open", "question": "133. Wrong: 'An enquiry into the matter.' Correct the sentence.", "answers": ["An inquiry into the matter."], "explanation": "Inquiry: inquire + -y (AmE; BrE inquiry or enquiry)."},
+        {"type": "open", "question": "134. Wrong: 'Greater autonamy for staff.' Correct the sentence.", "answers": ["Greater autonomy for staff."], "explanation": "Autonomy: auto- + -nomy."},
+        {"type": "open", "question": "135. Wrong: 'She will probaly agree.' Correct the sentence.", "answers": ["She will probably agree."], "explanation": "Probably: probable + -ly (double b)."},
+        {"type": "open", "question": "136. Wrong: 'Especialy in summer.' Correct the sentence.", "answers": ["Especially in summer."], "explanation": "Especially: especial + -ly."},
+        {"type": "open", "question": "137. Wrong: 'I actualy enjoyed it.' Correct the sentence.", "answers": ["I actually enjoyed it."], "explanation": "Actually: actual + -ly."},
+        {"type": "open", "question": "138. Wrong: 'I realy appreciate it.' Correct the sentence.", "answers": ["I really appreciate it."], "explanation": "Really: real + -ly (double l)."},
+        {"type": "open", "question": "139. Wrong: 'She usualy arrives early.' Correct the sentence.", "answers": ["She usually arrives early."], "explanation": "Usually: usual + -ly."},
+        {"type": "open", "question": "140. Wrong: 'We generaly avoid that.' Correct the sentence.", "answers": ["We generally avoid that."], "explanation": "Generally: general + -ly."},
+        {"type": "open", "question": "141. Wrong: 'A comfortible chair.' Correct the sentence.", "answers": ["A comfortable chair."], "explanation": "Comfortable: comfort + -able."},
+        {"type": "open", "question": "142. Wrong: 'She is responsibile for the team.' Correct the sentence.", "answers": ["She is responsible for the team."], "explanation": "Responsible: respond + -ible."},
+        {"type": "open", "question": "143. Wrong: 'Are you availible tomorrow?' Correct the sentence.", "answers": ["Are you available tomorrow?"], "explanation": "Available: avail + -able."},
+        {"type": "open", "question": "144. Wrong: 'Is it possable?' Correct the sentence.", "answers": ["Is it possible?"], "explanation": "Possible: poss + -ible (double s)."},
+        {"type": "open", "question": "145. Wrong: 'Perhapse we should wait.' Correct the sentence.", "answers": ["Perhaps we should wait."], "explanation": "Perhaps: per + haps."},
+        {"type": "open", "question": "146. Wrong: 'That was very intresting.' Correct the sentence.", "answers": ["That was very interesting."], "explanation": "Interesting: interest + -ing."},
+        {"type": "open", "question": "147. Wrong: 'She is a proffessional.' Correct the sentence.", "answers": ["She is a professional."], "explanation": "Professional: profession + -al (one f)."},
+        {"type": "open", "question": "148. Wrong: 'Traditonal methods.' Correct the sentence.", "answers": ["Traditional methods."], "explanation": "Traditional: tradition + -al."},
+        {"type": "open", "question": "149. Wrong: 'In Janurary we travelled.' Correct the sentence.", "answers": ["In January we travelled."], "explanation": "January: Janu- + -ary."},
+        {"type": "open", "question": "150. Wrong: 'We're meeting in Septmber.' Correct the sentence.", "answers": ["We're meeting in September."], "explanation": "September: Sept + -ember."},
+        {"type": "open", "question": "151. Wrong: 'We climbed the mountian.' Correct the sentence.", "answers": ["We climbed the mountain."], "explanation": "Mountain: mount + -ain."},
+        {"type": "open", "question": "152. Wrong: 'We visited the museam.' Correct the sentence.", "answers": ["We visited the museum."], "explanation": "Museum: muse + -um."},
+        {"type": "open", "question": "153. Wrong: 'She studies at univercity.' Correct the sentence.", "answers": ["She studies at university."], "explanation": "University: uni- + -versity."},
+        {"type": "open", "question": "154. Wrong: 'We went to the cinima.' Correct the sentence.", "answers": ["We went to the cinema."], "explanation": "Cinema: cine- + -ma."},
+        {"type": "open", "question": "155. Wrong: 'The stadiam was full.' Correct the sentence.", "answers": ["The stadium was full."], "explanation": "Stadium: stadi- + -um."},
+        {"type": "open", "question": "156. Wrong: 'We saw a play at the theator.' Correct the sentence.", "answers": ["We saw a play at the theatre."], "explanation": "Theatre: theat- + -re (BrE; theater in AmE)."},
+        {"type": "open", "question": "157. Wrong: 'The cathederal is magnificent.' Correct the sentence.", "answers": ["The cathedral is magnificent."], "explanation": "Cathedral: cathed- + -ral."},
+        {"type": "open", "question": "158. Wrong: 'She sed she would come.' Correct the sentence.", "answers": ["She said she would come."], "explanation": "Said: from say (irregular past)."},
+        {"type": "open", "question": "159. Wrong: 'Many peple were there.' Correct the sentence.", "answers": ["Many people were there."], "explanation": "People: peo- + ple."},
+        {"type": "open", "question": "160. Wrong: 'Please anwser the question.' Correct the sentence.", "answers": ["Please answer the question."], "explanation": "Answer: an- + -swer (silent w)."},
+        {"type": "open", "question": "161. Wrong: 'We have enogh time.' Correct the sentence.", "answers": ["We have enough time."], "explanation": "Enough: e-nough (gh = f sound)."},
+        {"type": "open", "question": "162. Wrong: 'We walked throught the park.' Correct the sentence.", "answers": ["We walked through the park."], "explanation": "Through: throu- + gh (no t)."},
+        {"type": "open", "question": "163. Wrong: 'I throught about it.' Correct the sentence.", "answers": ["I thought about it."], "explanation": "Thought: from think (irregular)."},
+        {"type": "open", "question": "164. Wrong: 'She bot a new phone.' Correct the sentence.", "answers": ["She bought a new phone."], "explanation": "Bought: from buy (irregular)."},
+        {"type": "open", "question": "165. Wrong: 'He brung some flowers.' Correct the sentence.", "answers": ["He brought some flowers."], "explanation": "Brought: from bring (irregular)."},
+        {"type": "open", "question": "166. Wrong: 'It was very dificult.' Correct the sentence.", "answers": ["It was very difficult."], "explanation": "Difficult: dif- + -ficult (double f)."},
+        {"type": "open", "question": "167. Wrong: 'We finaly finished.' Correct the sentence.", "answers": ["We finally finished."], "explanation": "Finally: final + -ly."},
+        {"type": "open", "question": "168. Wrong: 'He works in the feild.' Correct the sentence.", "answers": ["He works in the field."], "explanation": "Field: i before e."},
+        {"type": "open", "question": "169. Wrong: 'What's your wieght?' Correct the sentence.", "answers": ["What's your weight?"], "explanation": "Weight: weigh + -t (e before i)."},
+        {"type": "open", "question": "170. Wrong: 'Ether option is fine.' Correct the sentence.", "answers": ["Either option is fine."], "explanation": "Either: ei- + -ther."},
+        {"type": "open", "question": "171. Wrong: 'Nieghter of them came.' Correct the sentence.", "answers": ["Neither of them came."], "explanation": "Neither: ne- + -ither (ei)."},
+        {"type": "open", "question": "172. Wrong: 'It's diferent from before.' Correct the sentence.", "answers": ["It's different from before."], "explanation": "Different: differ + -ent (double f)."},
+        {"type": "open", "question": "173. Wrong: 'Try anothe one.' Correct the sentence.", "answers": ["Try another one."], "explanation": "Another: an + other."},
+        {"type": "open", "question": "174. Wrong: 'We need to suceed.' Correct the sentence.", "answers": ["We need to succeed."], "explanation": "Succeed: suc- + ceed (double c, double e)."},
+        {"type": "open", "question": "175. Wrong: 'A wide variaty of options.' Correct the sentence.", "answers": ["A wide variety of options."], "explanation": "Variety: vary + -ety."},
+        {"type": "open", "question": "176. Wrong: 'Yours sincerly.' Correct the sentence.", "answers": ["Yours sincerely."], "explanation": "Sincerely: sincere + -ly."},
+        {"type": "open", "question": "177. Wrong: 'We need to accomodate everyone.' Correct the sentence.", "answers": ["We need to accommodate everyone."], "explanation": "Accommodate: double c, double m."},
+        {"type": "open", "question": "178. Wrong: 'She apreciates your help.' Correct the sentence.", "answers": ["She appreciates your help."], "explanation": "Appreciates: ap- + preciate (double p)."},
+        {"type": "open", "question": "179. Wrong: 'A heirachy of levels.' Correct the sentence.", "answers": ["A hierarchy of levels."], "explanation": "Hierarchy: hier- + archy."},
+        {"type": "open", "question": "180. Wrong: 'I'm gratefull for your help.' Correct the sentence.", "answers": ["I'm grateful for your help."], "explanation": "Grateful: grate + -ful (one l)."},
+        {"type": "open", "question": "181. Wrong: 'A neccessary change.' Correct the sentence.", "answers": ["A necessary change."], "explanation": "Necessary: one c, double s."},
+        {"type": "open", "question": "182. Wrong: 'He's very independant.' Correct the sentence.", "answers": ["He's very independent."], "explanation": "Independent: -ent at the end."},
+        {"type": "open", "question": "183. Wrong: 'The goverment announced it.' Correct the sentence.", "answers": ["The government announced it."], "explanation": "Government: n before m."},
+        {"type": "open", "question": "184. Wrong: 'She recieved the award.' Correct the sentence.", "answers": ["She received the award."], "explanation": "Received: i before e except after c."},
+        {"type": "open", "question": "185. Wrong: 'I would recomend it.' Correct the sentence.", "answers": ["I would recommend it."], "explanation": "Recommend: double c, double m."},
+        {"type": "open", "question": "186. Wrong: 'They're very sucessful.' Correct the sentence.", "answers": ["They're very successful."], "explanation": "Successful: success + -ful (one l)."},
+        {"type": "open", "question": "187. Wrong: 'The enviornment is at risk.' Correct the sentence.", "answers": ["The environment is at risk."], "explanation": "Environment: n before m."},
+        {"type": "open", "question": "188. Wrong: 'I definately agree.' Correct the sentence.", "answers": ["I definitely agree."], "explanation": "Definitely: -ite- from finite."},
+        {"type": "open", "question": "189. Wrong: 'She has alot of experiance.' Correct the sentence.", "answers": ["She has a lot of experience."], "explanation": "Experience: -ence (not -ance)."},
+        {"type": "open", "question": "190. Wrong: 'An oportunity to learn.' Correct the sentence.", "answers": ["An opportunity to learn."], "explanation": "Opportunity: double p."},
+        {"type": "open", "question": "191. Wrong: 'Keep them seperate.' Correct the sentence.", "answers": ["Keep them separate."], "explanation": "Separate: -par- in the middle."},
+        {"type": "open", "question": "192. Wrong: 'It was a suprise.' Correct the sentence.", "answers": ["It was a surprise."], "explanation": "Surprise: double r."},
+        {"type": "open", "question": "193. Wrong: 'Occassionally we meet.' Correct the sentence.", "answers": ["Occasionally we meet."], "explanation": "Occasionally: occasion + -ally."},
+        {"type": "open", "question": "194. Wrong: 'I'm begining to understand.' Correct the sentence.", "answers": ["I'm beginning to understand."], "explanation": "Beginning: double n."},
+        {"type": "open", "question": "195. Wrong: 'She's embarassed.' Correct the sentence.", "answers": ["She's embarrassed."], "explanation": "Embarrassed: double r, double s."},
+        {"type": "open", "question": "196. Wrong: 'The existance of evidence.' Correct the sentence.", "answers": ["The existence of evidence."], "explanation": "Existence: -ence not -ance."},
+        {"type": "open", "question": "197. Wrong: 'Immediatly after that.' Correct the sentence.", "answers": ["Immediately after that."], "explanation": "Immediately: double m."},
+        {"type": "open", "question": "198. Wrong: 'Knowlege is power.' Correct the sentence.", "answers": ["Knowledge is power."], "explanation": "Knowledge: -ledge."},
+        {"type": "open", "question": "199. Wrong: 'A peice of advice.' Correct the sentence.", "answers": ["A piece of advice."], "explanation": "Piece: i before e."},
+        {"type": "open", "question": "200. Wrong: 'Your pronounciation is good.' Correct the sentence.", "answers": ["Your pronunciation is good."], "explanation": "Pronunciation: -nun- from pronounce."}
       ]
     }
   },
@@ -1500,11 +2260,11 @@
         },
         {
           "type": "open",
-          "question": "12. She is ____ (old) she looks.",
+          "question": "12. She is ____ (old) she looks. (She looks younger than she is.)",
           "answers": [
             "older than"
           ],
-          "explanation": "Old → older + than."
+          "explanation": "Old → older + than. Context: she looks younger, so she is older than she looks."
         },
         {
           "type": "open",
@@ -1951,7 +2711,7 @@
         },
         {
           "type": "open",
-          "question": "2. Do you have _____ sugar?. (Fill in the blank.)",
+          "question": "2. Do you have _____ sugar? (Fill in the blank.)",
           "answers": [
             "any"
           ],
@@ -1959,7 +2719,7 @@
         },
         {
           "type": "open",
-          "question": "3. How _____ people were at the party?. (Fill in the blank.)",
+          "question": "3. How _____ people were at the party? (Fill in the blank.)",
           "answers": [
             "many"
           ],
@@ -1983,11 +2743,11 @@
         },
         {
           "type": "open",
-          "question": "6. We need _____ eggs for the cake. (Fill in the blank.)",
+          "question": "6. The recipe says we only need a small number. We need _____ eggs for the cake. (Fill in the blank.)",
           "answers": [
             "a few"
           ],
-          "explanation": "Countable, positive → a few."
+          "explanation": "Context (only a small number) → a few. Countable, positive."
         },
         {
           "type": "open",
@@ -1999,23 +2759,15 @@
         },
         {
           "type": "open",
-          "question": "8. He has _____ experience in teaching. (a lot). (Fill in the blank.)",
-          "answers": [
-            "a lot of"
-          ],
-          "explanation": "Positive, uncountable → a lot of."
-        },
-        {
-          "type": "open",
-          "question": "9. _____ the students passed the exam. (Fill in the blank.)",
+          "question": "9. Not one student failed. _____ the students passed the exam. (Fill in the blank.)",
           "answers": [
             "All"
           ],
-          "explanation": "Whole group → all."
+          "explanation": "Context (not one failed) shows the whole group → all."
         },
         {
           "type": "open",
-          "question": "10. Would you like _____ tea?. (Fill in the blank.)",
+          "question": "10. (Offering a cup – expecting yes.) Would you like _____ tea? (Fill in the blank.)",
           "answers": [
             "some"
           ],
@@ -2032,7 +2784,7 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'How much books did you read?.' Correct the sentence.",
+          "question": "Wrong: 'How much books did you read?' Correct the sentence.",
           "answers": [
             "How many books did you read?",
             "How many books did you read?"
@@ -2073,11 +2825,11 @@
         },
         {
           "type": "open",
-          "question": "17. How _____ money do you have?. (Fill in the blank.)",
+          "question": "17. How _____ money do you have? (quantity – one word)",
           "answers": [
             "much"
           ],
-          "explanation": "Money = uncountable → much."
+          "explanation": "Money is uncountable → **much** (not *many*, which is for countable nouns)."
         },
         {
           "type": "open",
@@ -2097,11 +2849,11 @@
         },
         {
           "type": "open",
-          "question": "20. _____ of the cake was left. (Fill in the blank.)",
+          "question": "20. We only had a small slice each; _____ of the cake was left. (Fill in the blank.)",
           "answers": [
             "Most"
           ],
-          "explanation": "Uncountable; most, some, half, or none."
+          "explanation": "Context shows most remained (we only had a small slice each). Uncountable noun → most."
         }
       ]
     }
@@ -3787,9 +4539,10 @@
           "type": "open",
           "question": "188. Fill _____ the application. (complete – form)",
           "answers": [
-            "out"
+            "out",
+            "in"
           ],
-          "explanation": "Fill out = complete (a form)."
+          "explanation": "Fill out or fill in = complete (a form); both are acceptable."
         },
         {
           "type": "open",
@@ -4433,11 +5186,12 @@
         },
         {
           "type": "open",
-          "question": "7. First: If you _____ early, call me. (Fill in the blank.)",
+          "question": "7. First: If you _____ early, call me. (one word; e.g. finish or arrive)",
           "answers": [
-            "finish"
+            "finish",
+            "arrive"
           ],
-          "explanation": "First conditional: if + present; main clause can be imperative."
+          "explanation": "First conditional: if + present simple; main clause can be imperative. Common verbs: finish (work), arrive, etc."
         },
         {
           "type": "open",
@@ -5066,7 +5820,16 @@
         },
         {
           "type": "open",
-          "question": "13. Fill in: We left early _____ we wouldn't miss the bus. (purpose – two words)",
+          "question": "13. Fill in: I don't know _____ she's coming. (introducing a yes/no alternative – one word)",
+          "answers": [
+            "whether",
+            "if"
+          ],
+          "explanation": "Whether and if can both introduce an indirect yes/no question (whether/if she's coming or not)."
+        },
+        {
+          "type": "open",
+          "question": "14. Fill in: We left early _____ we wouldn't miss the bus. (purpose – two words)",
           "answers": [
             "so that"
           ],
@@ -5074,7 +5837,7 @@
         },
         {
           "type": "open",
-          "question": "14. Fill in: We left early _____ miss the bus. (purpose, negative – four words: so as not to)",
+          "question": "15. Fill in: We left early _____ miss the bus. (purpose, negative – four words: so as not to)",
           "answers": [
             "so as not to"
           ],
@@ -5082,7 +5845,7 @@
         },
         {
           "type": "open",
-          "question": "15. Fill in: It's cheap. _____, it's good quality. (addition – one linker at the start of the second sentence)",
+          "question": "16. Fill in: It's cheap. _____, it's good quality. (addition – one linker at the start of the second sentence)",
           "answers": [
             "Moreover"
           ],
@@ -5090,7 +5853,7 @@
         },
         {
           "type": "open",
-          "question": "16. Fill in: I love fruit, _____ apples and oranges. (introduce examples – two words)",
+          "question": "17. Fill in: I love fruit, _____ apples and oranges. (introduce examples – two words)",
           "answers": [
             "for example"
           ],
@@ -5098,7 +5861,7 @@
         },
         {
           "type": "open",
-          "question": "17. Fill in: _____ you don't hurry, you'll be late.",
+          "question": "18. Fill in: _____ you don't hurry, you'll be late.",
           "answers": [
             "If"
           ],
@@ -5106,7 +5869,7 @@
         },
         {
           "type": "open",
-          "question": "18. Fill in: Don't leave _____ I get back. (wait for me – one word)",
+          "question": "19. Fill in: Don't leave _____ I get back. (wait for me – one word)",
           "answers": [
             "until"
           ],
@@ -5114,7 +5877,7 @@
         },
         {
           "type": "open",
-          "question": "19. Wrong: 'Since it was cold, so we turned on the heating.' Correct the sentence.",
+          "question": "20. Wrong: 'Since it was cold, so we turned on the heating.' Correct the sentence.",
           "answers": [
             "Since it was cold, we turned on the heating.",
             "It was cold so we turned on the heating.",
@@ -5254,11 +6017,11 @@
         },
         {
           "type": "open",
-          "question": "15. I ____ to go now. (necessity, have to)",
+          "question": "15. I ____ to go now. (necessity; one word)",
           "answers": [
-            "have to"
+            "have"
           ],
-          "explanation": "Necessity → have to (or have got to)."
+          "explanation": "Necessity → I have to go. The blank is just 'have' (to avoid 'have to to go')."
         },
         {
           "type": "open",
@@ -5457,12 +6220,12 @@
         },
         {
           "type": "open",
-          "question": "19. Wrong: 'I had went to London.' Correct.",
+          "question": "19. Wrong: 'By the time she arrived, I had went to London.' Correct the sentence.",
           "answers": [
-            "I had gone to London.",
-            "I had gone to London"
+            "By the time she arrived, I had gone to London.",
+            "By the time she arrived, I had gone to London"
           ],
-          "explanation": "Past perfect = had + past participle (gone)."
+          "explanation": "Past perfect = had + past participle (gone). Context (by the time she arrived) makes past perfect clear."
         },
         {
           "type": "open",
@@ -5757,11 +6520,11 @@
         },
         {
           "type": "open",
-          "question": "12. ____ they ____ (finish) the project? (past – fill in auxiliary and verb)",
+          "question": "12. ____ they ____ (they/finish) the project? (Past simple – fill in auxiliary and verb.)",
           "answers": [
             "Did they finish"
           ],
-          "explanation": "Past simple question → **Did** + subject + base form."
+          "explanation": "Past simple question → **Did** + subject + base form (finish)."
         },
         {
           "type": "open",
@@ -5846,7 +6609,7 @@
         { "type": "open", "question": "4. _____ course, you're right.", "answers": ["Of"], "explanation": "**Of course** = certainly." },
         { "type": "open", "question": "5. _____ long as we're together, I'm happy.", "answers": ["As"], "explanation": "**As long as** = provided that." },
         { "type": "open", "question": "6. This is one _____ the best films I've seen.", "answers": ["of"], "explanation": "**One of the** (fixed phrase)." },
-        { "type": "open", "question": "7. _____ doing so, they saved time.", "answers": ["By"], "explanation": "**By doing so** = by doing that." },
+        { "type": "open", "question": "7. _____ doing so, they saved time.", "answers": ["By", "In"], "explanation": "**By doing so** or **In doing so** = by/in doing that." },
         { "type": "open", "question": "8. In spite _____ the rain, we went out.", "answers": ["of"], "explanation": "**In spite of** = despite." },
         { "type": "open", "question": "9. _____ addition to English, she speaks Spanish.", "answers": ["In"], "explanation": "**In addition to** = as well as." },
         { "type": "open", "question": "10. At _____, I didn't like him.", "answers": ["first"], "explanation": "**At first** = in the beginning." }

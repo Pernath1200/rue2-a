@@ -45,6 +45,8 @@
     { "phrase": "according to", "meaning": "as stated by / in accordance with", "example": "According to experts, climate change is accelerating." },
     { "phrase": "with regard to", "meaning": "concerning / about (formal)", "example": "With regard to your email, I have attached the file." },
     { "phrase": "on no account / under no circumstances", "meaning": "never / not for any reason", "example": "On no account should you open the door to strangers." },
-    { "phrase": "all in all", "meaning": "when everything is considered", "example": "All in all, the trip was a great success." }
+    { "phrase": "all in all", "meaning": "when everything is considered", "example": "All in all, the trip was a great success." },
+    { "phrase": "on account of", "meaning": "because of", "example": "The match was cancelled on account of the rain." },
+    { "phrase": "in spite of the fact that", "meaning": "although", "example": "We went out in spite of the fact that it was raining." }
   ]
 }

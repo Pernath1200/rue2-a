@@ -177,11 +177,12 @@
         },
         {
           "type": "open",
-          "question": "First: If you _____ early, call me.",
+          "question": "First: If you _____ early, call me. (one word; e.g. finish or arrive)",
           "answers": [
-            "finish"
+            "finish",
+            "arrive"
           ],
-          "explanation": "First conditional: if + present; main clause can be imperative."
+          "explanation": "First conditional: if + present simple; main clause can be imperative. Common verbs: finish, arrive."
         },
         {
           "type": "open",
