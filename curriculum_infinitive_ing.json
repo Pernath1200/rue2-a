@@ -28,7 +28,20 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **Want, decide, hope, promise, need, try (attempt)** → to-infinitive.\n• **Enjoy, finish, avoid, mind, suggest, consider** → -ing.\n• **Like, love, start, begin** → both (similar meaning).\n• **Remember, forget, stop, try, regret** → both but meaning changes (learn each pair).\n• **After a preposition** → always -ing: interested in learning, good at swimming.\n• **After too/enough** → to-infinitive: too late to change, old enough to drive.\n\nFull verb lists: **Reference → Infinitive and -ing form**."
+        "content": "• **Want, decide, hope, promise, need, try (attempt)** → to-infinitive.\n• **Enjoy, finish, avoid, mind, suggest, consider** → -ing.\n• **Like, love, start, begin** → both (similar meaning).\n• **Remember, forget, stop, try, regret** → both but meaning changes (learn each pair).\n• **After a preposition** → always -ing: interested in learning, good at swimming.\n• **After too/enough** → to-infinitive: too late to change, old enough to drive.\n\nFull verb lists: **Reference → Infinitive and -ing form**.",
+        "diagram": {
+          "type": "table",
+          "title": "Verb patterns: to-infinitive vs -ing",
+          "headers": ["Pattern", "Verbs", "Example"],
+          "rows": [
+            ["verb + **to do**", "want, decide, hope, promise, agree", "I want **to learn**."],
+            ["verb + **doing**", "enjoy, finish, avoid, mind, suggest", "I enjoy **reading**."],
+            ["verb + both (same)", "like, love, start, begin", "I like **to swim** / **swimming**."],
+            ["verb + both (different)", "remember, forget, stop, try", "Stop **to drink** ≠ stop **drinking**."],
+            ["preposition + **doing**", "interested in, good at, tired of", "Good at **swimming**."],
+            ["too / enough + **to do**", "too + adj + to, adj + enough + to", "Too late **to change**."]
+          ]
+        }
       },
       {
         "title": "Typical errors",

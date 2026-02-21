@@ -28,7 +28,20 @@
       },
       {
         "title": "Quick summary",
-        "content": "• **Some** – positive; **any** – questions/negatives (some in offers).\n• **Much** – uncountable; **many** – countable (often in questions/negatives).\n• **A lot of** – both; positive statements.\n• **Few** (negative) vs **a few** (positive); **little** (negative) vs **a little** (positive).\n• **All, most, no, none** – whole/zero."
+        "content": "• **Some** – positive; **any** – questions/negatives (some in offers).\n• **Much** – uncountable; **many** – countable (often in questions/negatives).\n• **A lot of** – both; positive statements.\n• **Few** (negative) vs **a few** (positive); **little** (negative) vs **a little** (positive).\n• **All, most, no, none** – whole/zero.",
+        "diagram": {
+          "type": "table",
+          "title": "Quantifiers: countable vs uncountable",
+          "headers": ["", "Countable", "Uncountable"],
+          "rows": [
+            ["How many/much?", "**many** books", "**much** water"],
+            ["Some (positive)", "some books", "some water"],
+            ["Any (question/neg)", "any books", "any water"],
+            ["A lot of", "a lot of books", "a lot of water"],
+            ["Not many/much", "**few** (almost none)", "**little** (almost none)"],
+            ["Some (small amount)", "**a few** (positive)", "**a little** (positive)"]
+          ]
+        }
       },
       {
         "title": "Typical errors",

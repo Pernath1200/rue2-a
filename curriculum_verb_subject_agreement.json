@@ -20,7 +20,19 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Singular subject → singular verb; plural subject → plural verb.\n• **Third person singular** (he/she/it): present simple adds **-s** (has, goes, does, is).\n• Wrong: *He have been* → Right: He **has** been.\n• Find the real subject; ignore words in between (The list of items **is**).\n• And = plural; or/nor = agree with nearest; each/every = singular."
+        "content": "• Singular subject → singular verb; plural subject → plural verb.\n• **Third person singular** (he/she/it): present simple adds **-s** (has, goes, does, is).\n• Wrong: *He have been* → Right: He **has** been.\n• Find the real subject; ignore words in between (The list of items **is**).\n• And = plural; or/nor = agree with nearest; each/every = singular.",
+        "diagram": {
+          "type": "table",
+          "title": "Agreement rules",
+          "headers": ["Subject pattern", "Verb", "Example"],
+          "rows": [
+            ["he / she / it", "singular (**-s**)", "She **works**. He **has**."],
+            ["I / you / we / they", "plural (no -s)", "They **work**. We **have**."],
+            ["A and B", "plural", "Tom and Anna **are** friends."],
+            ["A or B / Neither … nor", "agree with nearest", "Neither he nor they **were** …"],
+            ["Each / Every", "singular", "Each of us **has** a copy."]
+          ]
+        }
       }
     ]
   },

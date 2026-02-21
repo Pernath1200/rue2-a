@@ -8,11 +8,31 @@
       },
       {
         "title": "Types of prepositions: Time",
-        "content": "Prepositions of **time** tell us when something happens.\n\n• **at** + clock time: at 5 o'clock, at noon, at midnight\n• **on** + day or date: on Monday, on 15th March\n• **in** + month, year, or period: in August, in 2020, in the morning\n• **for** + duration: for two hours, for a week\n• **since** + start of a period (until now): since 2020, since Monday\n• **by** = no later than: by Friday, by 5 pm\n• **until** = up to a time: until tomorrow, until midnight\n• **during** = within a period: during the meeting, during the film\n• **before** / **after**: before dinner, after the lesson"
+        "content": "Prepositions of **time** tell us when something happens.\n\n• **at** + clock time: at 5 o'clock, at noon, at midnight\n• **on** + day or date: on Monday, on 15th March\n• **in** + month, year, or period: in August, in 2020, in the morning\n• **for** + duration: for two hours, for a week\n• **since** + start of a period (until now): since 2020, since Monday\n• **by** = no later than: by Friday, by 5 pm\n• **until** = up to a time: until tomorrow, until midnight\n• **during** = within a period: during the meeting, during the film\n• **before** / **after**: before dinner, after the lesson",
+        "diagram": {
+          "type": "table",
+          "title": "at / on / in for time",
+          "headers": ["Preposition", "Used with", "Example"],
+          "rows": [
+            ["**at**", "Clock time, night, weekend", "at 5 o'clock, at noon"],
+            ["**on**", "Days, dates", "on Monday, on 15th March"],
+            ["**in**", "Months, years, periods", "in August, in the morning"]
+          ]
+        }
       },
       {
         "title": "Types of prepositions: Place and position",
-        "content": "Prepositions of **place** tell us where something is or where it happens.\n\n• **in** = inside: in the box, in the room, in London\n• **on** = on a surface: on the table, on the wall, on the floor\n• **at** = at a point or place: at the door, at the bus stop, at home\n• **above** / **below** = higher or lower than: above the clouds, below zero\n• **under** = underneath: under the table, under the bridge\n• **behind** / **in front of**: behind the door, in front of the house\n• **between** = in the middle of two: between you and me, between 9 and 10\n• **among** = within a group: among friends, among the crowd\n• **near** = close to: near the station\n• **beside** / **next to** = at the side of: beside the window"
+        "content": "Prepositions of **place** tell us where something is or where it happens.\n\n• **in** = inside: in the box, in the room, in London\n• **on** = on a surface: on the table, on the wall, on the floor\n• **at** = at a point or place: at the door, at the bus stop, at home\n• **above** / **below** = higher or lower than: above the clouds, below zero\n• **under** = underneath: under the table, under the bridge\n• **behind** / **in front of**: behind the door, in front of the house\n• **between** = in the middle of two: between you and me, between 9 and 10\n• **among** = within a group: among friends, among the crowd\n• **near** = close to: near the station\n• **beside** / **next to** = at the side of: beside the window",
+        "diagram": {
+          "type": "table",
+          "title": "at / on / in for place",
+          "headers": ["Preposition", "Meaning", "Example"],
+          "rows": [
+            ["**in**", "Inside / enclosed", "in the box, in London"],
+            ["**on**", "On a surface", "on the table, on the wall"],
+            ["**at**", "At a point / place", "at the door, at the bus stop"]
+          ]
+        }
       },
       {
         "title": "Types of prepositions: Movement and direction",
