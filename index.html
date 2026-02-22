@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title></title>
+  <title>Grammar · Practice & reference</title>
   <style>
     :root {
       --bg: #1a1b26;
@@ -200,6 +200,29 @@
     body.viewing-reference #referenceScreen .reference-index-grid { gap: 0.35rem 0.6rem; }
     body.viewing-reference #referenceScreen .reference-index-grid button { margin-top: 0; }
     body.viewing-reference #referenceScreen .actions { margin-top: 0.65rem; }
+    body.viewing-reference .container { max-width: 56rem; }
+    /* Intro and quiz: wider container + compact layout for no-scroll fit */
+    body.viewing-content .container { max-width: 56rem; }
+    body.viewing-content { padding-top: 0.5rem; }
+    body.viewing-content h1 { margin-bottom: 0.3rem; }
+    body.viewing-content .sub { margin-bottom: 0.5rem; font-size: 0.85rem; }
+    body.viewing-content #introScreen .card { padding: 1rem; margin-bottom: 0.65rem; }
+    body.viewing-content #introScreen .intro-section { margin-bottom: 0.65rem; }
+    body.viewing-content #introScreen .intro-section h3 { margin-bottom: 0.35rem; font-size: 0.95rem; }
+    body.viewing-content #quizScreen .card { padding: 1rem; }
+    body.viewing-content #quizScreen .question-block { margin-bottom: 0.75rem; }
+    body.viewing-content #quizScreen .question-text { margin-bottom: 0.5rem; }
+    body.viewing-content #quizScreen .options { gap: 0.35rem; }
+    body.viewing-content #quizScreen .option { padding: 0.5rem; }
+    body.viewing-content #examClozeTestScreen .card { padding: 1rem; }
+    body.viewing-content #examClozeTestScreen .question-block { margin-bottom: 0; }
+    body.viewing-content #examClozeTestScreen #examClozePassage { margin-bottom: 0.6rem; }
+    body.viewing-content #examTransformTestScreen .card { padding: 1rem; }
+    body.viewing-content #examTransformTestScreen .question-block { margin-bottom: 0; }
+    body.viewing-content #examTransformItems .card { margin-bottom: 0.4rem; }
+    body.viewing-content .reference-phrasal-table td, body.viewing-content .reference-phrasal-table th { word-break: normal; }
+    .reference-phrasal-table td, .reference-phrasal-table th { word-break: normal; }
+    .diagram-table td, .diagram-table th { word-break: normal; overflow-wrap: break-word; }
     @media print {
       body * { visibility: hidden; }
       .no-print-hide, .no-print-hide * { visibility: visible; }
@@ -770,7 +793,7 @@
     }
 
     async function loadQuestions() {
-      const res = await fetch(new URL('questions.json?v=5', getBaseUrl()));
+      const res = await fetch(new URL('questions.json?v=6', getBaseUrl()));
       if (!res.ok) throw new Error('Could not load questions.json');
       allQuestionsData = await res.json();
       if (currentTopic.id === 'prepositions_dependent') {
@@ -921,7 +944,7 @@
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       document.getElementById('referenceScreen').classList.add('hidden');
       document.getElementById('referenceBtnWrap').classList.remove('hidden');
-      document.body.classList.remove('viewing-reference');
+      document.body.classList.remove('viewing-reference', 'viewing-content');
       document.getElementById('quizScreen').classList.add('hidden');
       document.getElementById('examClozeTestScreen').classList.add('hidden');
       document.getElementById('examTransformTestScreen').classList.add('hidden');
@@ -1022,6 +1045,7 @@
     function hidePrepositionsList() {
       document.getElementById('prepositionsListScreen').classList.add('hidden');
       if (prepositionsListReturnTo === 'intro') {
+        document.body.classList.add('viewing-content');
         document.getElementById('introScreen').classList.remove('hidden');
       } else {
         document.getElementById('menuScreen').classList.remove('hidden');
@@ -1090,6 +1114,7 @@
     function hidePhrasalVerbsDictionary() {
       document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
       if (phrasalVerbsDictionaryReturnTo === 'intro') {
+        document.body.classList.add('viewing-content');
         document.getElementById('introScreen').classList.remove('hidden');
       } else {
         document.getElementById('menuScreen').classList.remove('hidden');
@@ -1240,6 +1265,7 @@
       document.getElementById('introScreen').classList.add('hidden');
       document.getElementById('referenceBtnWrap').classList.add('hidden');
       document.getElementById('referenceScreen').classList.remove('hidden');
+      document.body.classList.remove('viewing-content');
       document.body.classList.add('viewing-reference');
       await showReferenceOpenCloze();
     }
@@ -1828,6 +1854,7 @@
       document.getElementById('introScreen').classList.add('hidden');
       document.getElementById('referenceBtnWrap').classList.add('hidden');
       document.getElementById('referenceScreen').classList.remove('hidden');
+      document.body.classList.remove('viewing-content');
       document.body.classList.add('viewing-reference');
     }
 
@@ -1929,6 +1956,7 @@
           document.getElementById('referenceBtnWrap').classList.remove('hidden');
           document.getElementById('introScreen').classList.remove('hidden');
           document.body.classList.remove('viewing-reference');
+          document.body.classList.add('viewing-content');
           return;
         }
         renderReferenceIndex();
@@ -2063,6 +2091,7 @@
       wrongIndices = [];
       isRetryRound = false;
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
@@ -2142,6 +2171,7 @@
       }
       coursePart = 1;
       document.getElementById('menuScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('introScreen').classList.remove('hidden');
       introSectionIndex = 0;
       showIntroSection(0);
@@ -2189,7 +2219,7 @@
       num = Math.min(100, Math.max(20, parseInt(num, 10) || 50));
       let allData;
       try {
-        const res = await fetch(new URL('questions.json?v=5', getBaseUrl()));
+        const res = await fetch(new URL('questions.json?v=6', getBaseUrl()));
         if (!res.ok) throw new Error('Could not load questions');
         allData = await res.json();
       } catch (e) {
@@ -2201,7 +2231,8 @@
         const key = t.questions_key || t.id;
         const sets = allData[key];
         if (!sets || typeof sets !== 'object') return;
-        Object.values(sets).forEach(function(set) {
+        Object.entries(sets).forEach(function([setId, set]) {
+          if (setId === 'set_staging') return; // exclude staging from Grammar Test pool
           const qs = set.questions || [];
           qs.forEach(function(q) {
             pool.push(Object.assign({}, q, { topic: t.id, topicTitle: FULL_TOPIC_TITLES[t.id] || t.title || getTopicTitle(t.id) }));
@@ -2224,6 +2255,7 @@
       quizMode = 'diagnostic';
       wrongTopics = new Set();
       document.getElementById('menuScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
@@ -2256,6 +2288,7 @@
       quizMode = 'practice';
       wrongTopics = new Set();
       document.getElementById('menuScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
@@ -2287,6 +2320,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
       document.getElementById('resultScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
@@ -2419,6 +2453,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
       document.getElementById('examTransformTestScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('examClozeTestScreen').classList.remove('hidden');
       document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
       renderExamClozeTest(currentExamClozeTests[currentExamClozeTestIndex]);
@@ -2429,6 +2464,7 @@
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('menuExamClozeTestSelect').classList.add('hidden');
       document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('examTransformTestScreen').classList.remove('hidden');
       document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
       renderExamTransformTest(currentExamTransformTests[currentExamTransformTestIndex]);
@@ -2593,6 +2629,7 @@
     function onExamClozeNext() {
       currentExamClozeTestIndex++;
       if (currentExamClozeTestIndex >= currentExamClozeTests.length) {
+        document.body.classList.remove('viewing-content');
         document.getElementById('examClozeTestScreen').classList.add('hidden');
         document.getElementById('examClozeFeedbackBlock').classList.add('hidden');
         document.getElementById('menuScreen').classList.remove('hidden');
@@ -2610,6 +2647,7 @@
     }
 
     function onExamClozeExit() {
+      document.body.classList.remove('viewing-content');
       document.getElementById('examClozeTestScreen').classList.add('hidden');
       showExamTestSelectScreen();
     }
@@ -2679,6 +2717,7 @@
     function onExamTransformNext() {
       currentExamTransformTestIndex++;
       if (currentExamTransformTestIndex >= currentExamTransformTests.length) {
+        document.body.classList.remove('viewing-content');
         document.getElementById('examTransformTestScreen').classList.add('hidden');
         document.getElementById('examTransformFeedbackBlock').classList.add('hidden');
         document.getElementById('menuScreen').classList.remove('hidden');
@@ -2691,6 +2730,7 @@
     }
 
     function onExamTransformExit() {
+      document.body.classList.remove('viewing-content');
       document.getElementById('examTransformTestScreen').classList.add('hidden');
       showExamTestSelectScreen();
     }
@@ -2722,6 +2762,7 @@
       isRetryRound = false;
 
       document.getElementById('menuScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
@@ -2752,6 +2793,7 @@
       isRetryRound = false;
 
       document.getElementById('menuScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
@@ -2961,6 +3003,7 @@
 
     function finishQuiz() {
       if (!isRetryRound) saveScore(currentSetId, currentSetTitle, score, currentQuestions.length);
+      document.body.classList.remove('viewing-content');
       document.getElementById('quizScreen').classList.add('hidden');
       const isSpellingWithWrong = currentTopic && currentTopic.id === 'spelling' && wrongIndices.length > 0;
       const correctAnswersHtml = isSpellingWithWrong ? buildSpellingCorrectAnswersHtml() : '';
@@ -3044,6 +3087,7 @@
       wrongIndices = [];
       isRetryRound = true;
       document.getElementById('resultScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
@@ -3079,6 +3123,7 @@
         document.getElementById('examClozeFeedbackBlock').classList.remove('hidden');
       } else if (returnToAfterTopicSelect === 'diagnostic' || returnToAfterTopicSelect === 'open_cloze_guided') {
         document.getElementById('menuScreen').classList.add('hidden');
+        document.body.classList.add('viewing-content');
         document.getElementById('quizScreen').classList.remove('hidden');
       }
     });
@@ -3328,6 +3373,7 @@
       wrongIndices = [];
       isRetryRound = true;
       document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
       document.getElementById('quizScreen').classList.remove('hidden');
       document.getElementById('exitQuizBtn').textContent = 'Back';
       showQuestion();
@@ -3571,9 +3617,11 @@
 
     window.addEventListener('hashchange', applyHashAndShowTopic);
 
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register(new URL('sw.js', document.baseURI || window.location.href).href, { scope: './' }).catch(function() {});
-    }
+    // Service worker disabled so the app always loads fresh from the server (no cache).
+    // To re-enable for offline use, uncomment the block below.
+    // if ('serviceWorker' in navigator) {
+    //   navigator.serviceWorker.register(new URL('sw.js', document.baseURI || window.location.href).href, { scope: './' }).catch(function() {});
+    // }
   </script>
 </body>
 </html>

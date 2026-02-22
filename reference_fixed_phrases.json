@@ -47,6 +47,15 @@
     { "phrase": "on no account / under no circumstances", "meaning": "never / not for any reason", "example": "On no account should you open the door to strangers." },
     { "phrase": "all in all", "meaning": "when everything is considered", "example": "All in all, the trip was a great success." },
     { "phrase": "on account of", "meaning": "because of", "example": "The match was cancelled on account of the rain." },
-    { "phrase": "in spite of the fact that", "meaning": "although", "example": "We went out in spite of the fact that it was raining." }
+    { "phrase": "in spite of the fact that", "meaning": "although", "example": "We went out in spite of the fact that it was raining." },
+    { "phrase": "in contrast to", "meaning": "unlike; as opposed to", "example": "In contrast to his brother, he prefers tea." },
+    { "phrase": "as opposed to", "meaning": "rather than; in contrast with", "example": "We use butter, as opposed to margarine." },
+    { "phrase": "in line with", "meaning": "in agreement with; following", "example": "The changes are in line with the new policy." },
+    { "phrase": "for the time being", "meaning": "for now; temporarily", "example": "For the time being, we'll stay here." },
+    { "phrase": "at the expense of", "meaning": "causing harm or loss to", "example": "Growth came at the expense of the environment." },
+    { "phrase": "with a view to", "meaning": "with the aim of", "example": "They met with a view to reaching an agreement." },
+    { "phrase": "in place of", "meaning": "instead of", "example": "We use plastic in place of glass." },
+    { "phrase": "regardless of", "meaning": "without considering; despite", "example": "Everyone is welcome regardless of their background." },
+    { "phrase": "for the purpose of", "meaning": "in order to", "example": "The data was collected for the purpose of research." }
   ]
 }

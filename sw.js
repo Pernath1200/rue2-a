@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grammar-check-v1';
+const CACHE_NAME = 'grammar-check-v2';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

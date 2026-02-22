@@ -9,7 +9,10 @@ echo *** THIS WINDOW IS THE SERVER ***
 echo - If you close this window, the site will stop working.
 echo - Leave this window open, then in your browser open:
 echo   http://127.0.0.1:8080
-echo   (Use 127.0.0.1 if localhost gives an error.)
+echo   (IMPORTANT: include :8080 - not just 127.0.0.1)
+echo.
+echo URL copied to clipboard. Paste it in your browser.
+echo http://127.0.0.1:8080 | clip
 echo.
 echo Opening browser in 4 seconds...
 echo.

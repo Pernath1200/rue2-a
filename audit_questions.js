@@ -238,6 +238,8 @@ function checkShortOrContextFree(report, data) {
   const hintWords = /past|yesterday|tomorrow|quantity|uncountable|countable|one word|e\.g\.|example|present|future|first|second|zero|conditional|much|many|some|few/i;
   for (const { source, topicOrSet, setId, questionIndex, q } of iterQuestionsJson(data)) {
     if (q.type === 'mc') continue;
+    // Skip prepositions and fixed_phrases – these are often short but unambiguous
+    if (topicOrSet === 'prepositions' || topicOrSet === 'fixed_phrases') continue;
     const questionText = (q.question || q.prompt || '').trim();
     if (questionText.length < 50 && questionText.includes('____') && !hintWords.test(questionText)) {
       report.short_or_context_free.push({
