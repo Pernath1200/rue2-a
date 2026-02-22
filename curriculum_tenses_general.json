@@ -3,34 +3,90 @@
     "title": "Tenses: General",
     "sections": [
       {
-        "title": "Introduction",
-        "content": "In English, **tense** tells us **when** something happens (past, present, or future). We combine **time** (past / present / future) with **aspect** (simple / continuous / perfect / perfect continuous) to get the 12 tense forms.\n\nUnlike in Czech, English does not change the verb ending for person in most tenses (except 3rd person singular present: he/she/it **works**). We use **auxiliary verbs** (do, does, did, have, has, had, will, be) to form questions, negatives, and many positive forms. **Czech** conjugates the verb (dělám, děláš, dělá…); **English** often uses two or more words: *I have been waiting*, *She will have left*. Czech distinguishes perfective vs imperfective by verbs or prefixes; English distinguishes **simple** vs **continuous** vs **perfect** by structure. Think about **time** (when?) and **aspect** (fact, in progress, completed, or lasting), not a 1:1 match with Czech.\n\n**Aspect** is how we look at the action in time. The next four pages cover: **Simple** (fact, habit, single event), **Continuous** (in progress), **Perfect** (completed, result), **Perfect continuous** (duration + result).",
+        "title": "Introduction (1)",
+        "content": "In English, **tense** tells us **when** something happens (past, present, or future). We combine **time** (past / present / future) with **aspect** (simple / continuous / perfect / perfect continuous) to get the 12 tense forms."
+      },
+      {
+        "title": "Introduction (2)",
+        "content": "English does not change the verb ending for person in most tenses (except 3rd person singular present: he/she/it **works**). We use **auxiliary verbs** (do, does, did, have, has, had, will, be) to form questions, negatives, and many positive forms."
+      },
+      {
+        "title": "Introduction (2)",
+        "content": "**English** often uses two or more words: *I have been waiting*, *She will have left*. English distinguishes **simple** vs **continuous** vs **perfect** by structure. Think about **time** (when?) and **aspect** (fact, in progress, completed, or lasting)."
+      },
+      {
+        "title": "Introduction (3)",
+        "content": "**Aspect** is how we look at the action in time. The next four pages cover: **Simple** (fact, habit, single event), **Continuous** (in progress), **Perfect** (completed, result), **Perfect continuous** (duration + result).",
         "diagram": {
           "type": "table",
           "title": "The 12 English tenses (3 times × 4 aspects)",
-          "headers": ["", "Simple", "Continuous", "Perfect", "Perfect Continuous"],
+          "headers": [
+            "",
+            "Simple",
+            "Continuous",
+            "Perfect",
+            "Perfect Continuous"
+          ],
           "rows": [
-            ["**Past**", "I worked", "I was working", "I had worked", "I had been working"],
-            ["**Present**", "I work", "I am working", "I have worked", "I have been working"],
-            ["**Future**", "I will work", "I will be working", "I will have worked", "I will have been working"]
+            [
+              "**Past**",
+              "I worked",
+              "I was working",
+              "I had worked",
+              "I had been working"
+            ],
+            [
+              "**Present**",
+              "I work",
+              "I am working",
+              "I have worked",
+              "I have been working"
+            ],
+            [
+              "**Future**",
+              "I will work",
+              "I will be working",
+              "I will have worked",
+              "I will have been working"
+            ]
           ]
         }
       },
       {
-        "title": "Simple aspect",
-        "content": "We don't focus on duration or completion. It's a fact, a habit, or a single event.\n\n**Present simple:** Base verb (he/she/it: base + **-s**). Negative/question: **do/does** + base. Facts, habits, routines, timetables. *I work every day. She likes coffee. The train leaves at 5.*\n\n**Past simple:** Past form (**-ed** or irregular). Negative/question: **did** + base. Completed action or state in the past. *I worked yesterday. She left at 5. They lived in London in 2019.*\n\n**Future simple:** **will** + base (or **going to** + base for plans or evidence-based predictions). Predictions, promises, intentions. *I will help you. She is going to study medicine. It's going to rain.*"
+        "title": "Simple aspect (1)",
+        "content": "We don't focus on duration or completion. It's a fact, a habit, or a single event.\n\n**Present simple:** Base verb (he/she/it: base + **-s**). Negative/question: **do/does** + base. Facts, habits, routines, timetables. *I work every day. She likes coffee. The train leaves at 5.*"
       },
       {
-        "title": "Continuous aspect",
-        "content": "The action is (or was, or will be) **in progress** at a given time. We use **be + -ing**.\n\n**Present continuous:** **am/is/are** + **-ing**. Something happening now or around now; temporary situation. *I am working. She is studying for her exam. They are living in Paris for a year.*\n\n**Past continuous:** **was/were** + **-ing**. Action in progress at a time in the past; background when something else happened. *I was working when she called. At 5 o'clock they were having dinner.*\n\n**Future continuous:** **will be** + **-ing**. Action in progress at a time in the future. *I will be working at 5. This time tomorrow she will be flying to Rome.*"
+        "title": "Simple aspect (2)",
+        "content": "**Past simple:** Past form (**-ed** or irregular). Negative/question: **did** + base. Completed action or state in the past. *I worked yesterday. She left at 5. They lived in London in 2019.*\n\n**Future simple:** **will** + base (or **going to** + base for plans or evidence-based predictions). Predictions, promises, intentions. *I will help you. She is going to study medicine. It's going to rain.*"
       },
       {
-        "title": "Perfect aspect",
-        "content": "We focus on **completion** and often on the **result** or **relevance** at a later time. We use **have/has/had** + past participle.\n\n**Present perfect:** **have/has** + past participle. Past action with result or relevance now; experience; something that started in the past and continues (often with *for/since*). *I have finished. She has been to Japan. We have known them for years.*\n\n**Past perfect:** **had** + past participle. Something completed **before** another time or action in the past. *I had finished when she arrived. She had already left. They had never been there before.*\n\n**Future perfect:** **will have** + past participle. Something completed **before** a time in the future. *I will have finished by 5. She will have left by the time you arrive.*"
+        "title": "Continuous aspect (1)",
+        "content": "The action is (or was, or will be) **in progress** at a given time. We use **be + -ing**.\n\n**Present continuous:** **am/is/are** + **-ing**. Something happening now or around now; temporary situation. *I am working. She is studying for her exam. They are living in Paris for a year.*"
       },
       {
-        "title": "Perfect continuous aspect",
-        "content": "The action **lasted** over a period and often has a **visible result or relevance** later. We use **have/has/had been + -ing**.\n\n**Present perfect continuous:** **have/has been** + **-ing**. How long something has been going on (duration); often a visible result now. *I have been waiting for an hour. She has been working all morning. Your hands are dirty – I've been painting.*\n\n**Past perfect continuous:** **had been** + **-ing**. How long something had been going on before another time in the past. *I had been waiting for an hour when she finally came. She had been working there for five years when she quit.*\n\n**Future perfect continuous:** **will have been** + **-ing**. How long something will have been going on by a time in the future (less common). *By next month I will have been working here for ten years. She will have been travelling for three weeks when she gets back.*"
+        "title": "Continuous aspect (2)",
+        "content": "**Past continuous:** **was/were** + **-ing**. Action in progress at a time in the past; background when something else happened. *I was working when she called. At 5 o'clock they were having dinner.*\n\n**Future continuous:** **will be** + **-ing**. Action in progress at a time in the future. *I will be working at 5. This time tomorrow she will be flying to Rome.*"
+      },
+      {
+        "title": "Perfect aspect (1)",
+        "content": "We focus on **completion** and often on the **result** or **relevance** at a later time. We use **have/has/had** + past participle.\n\n**Present perfect:** **have/has** + past participle. Past action with result or relevance now; experience; something that started in the past and continues (often with *for/since*). *I have finished. She has been to Japan. We have known them for years.*"
+      },
+      {
+        "title": "Perfect aspect (2)",
+        "content": "**Past perfect:** **had** + past participle. Something completed **before** another time or action in the past. *I had finished when she arrived. She had already left. They had never been there before.*\n\n**Future perfect:** **will have** + past participle. Something completed **before** a time in the future. *I will have finished by 5. She will have left by the time you arrive.*"
+      },
+      {
+        "title": "Perfect continuous aspect (1)",
+        "content": "The action **lasted** over a period and often has a **visible result or relevance** later. We use **have/has/had been + -ing**.\n\n**Present perfect continuous:** **have/has been** + **-ing**. How long something has been going on (duration); often a visible result now. *I have been waiting for an hour. She has been working all morning. Your hands are dirty – I've been painting.*"
+      },
+      {
+        "title": "Perfect continuous aspect (1)",
+        "content": "**Past perfect continuous:** **had been** + **-ing**. How long something had been going on before another time in the past. *I had been waiting for an hour when she finally came. She had been working there for five years when she quit.*"
+      },
+      {
+        "title": "Perfect continuous aspect (2)",
+        "content": "**Future perfect continuous:** **will have been** + **-ing**. How long something will have been going on by a time in the future (less common). *By next month I will have been working here for ten years. She will have been travelling for three weeks when she gets back.*"
       }
     ]
   },
@@ -59,7 +115,7 @@
           "d": "By changing the word order only"
         },
         "correct_option": "b",
-        "explanation": "English uses **auxiliary verbs** (do, does, did, have, has, had, will, am/is/are, was/were) to form questions, negatives, and many positive forms – unlike Czech, which often changes the verb ending."
+        "explanation": "English uses **auxiliary verbs** (do, does, did, have, has, had, will, am/is/are, was/were) to form questions, negatives, and many positive forms."
       },
       {
         "type": "mc",
@@ -123,33 +179,145 @@
       },
       {
         "type": "mc",
-        "question": "How does English differ from Czech in expressing 'time' and 'aspect'?",
+        "question": "How does English typically express time and aspect?",
         "options": {
-          "a": "English uses one word per tense; Czech uses several.",
-          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.",
-          "c": "Czech has no aspect.",
+          "a": "English uses one word per tense.",
+          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); time and aspect are shown by structure.",
+          "c": "English has no aspect.",
           "d": "English has no future tense."
         },
         "correct_option": "b",
-        "explanation": "**English** uses auxiliaries and often two or more words (I have been waiting). **Czech** often combines time and aspect in one word (e.g. dělal = past imperfective) and distinguishes perfective/imperfective by verbs or prefixes."
+        "explanation": "**English** uses auxiliaries and often two or more words (e.g. I have been waiting). Time and aspect are shown by the verb structure, not by a single conjugated form."
       }
     ]
   },
-  "practice_order": ["mc"],
+  "practice_order": [
+    "mc"
+  ],
   "practice": {
     "mc": {
       "title": "Practice: Tenses general (multiple choice)",
       "questions": [
-        {"type": "mc", "question": "How do we get the 12 tense forms in English?", "options": {"a": "3 times + 4 aspects", "b": "4 times + 3 aspects", "c": "2 times + 6 aspects", "d": "6 times + 2 aspects"}, "correct_option": "a", "explanation": "We combine **3 times** (present, past, future) with **4 aspects** (simple, continuous, perfect, perfect continuous) to get 12 forms."},
-        {"type": "mc", "question": "In English, how do we usually form questions and negatives in most tenses?", "options": {"a": "By changing the verb ending for each person", "b": "By using auxiliary verbs (do, does, did, have, will, be, etc.)", "c": "By adding a suffix to the main verb", "d": "By changing the word order only"}, "correct_option": "b", "explanation": "English uses **auxiliary verbs** to form questions, negatives, and many positive forms."},
-        {"type": "mc", "question": "What is **aspect** in English grammar?", "options": {"a": "The person (I, you, he/she) of the subject", "b": "The way we look at the action in time (e.g. in progress, completed)", "c": "The time of day when something happens", "d": "Whether the sentence is positive or negative"}, "correct_option": "b", "explanation": "**Aspect** is how we view the action in time."},
-        {"type": "mc", "question": "Which aspect do we use when the action is **in progress** at a given time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "b", "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."},
-        {"type": "mc", "question": "'I have been waiting for an hour.' – Which tense form is this?", "options": {"a": "Present simple", "b": "Present continuous", "c": "Present perfect simple", "d": "Present perfect continuous"}, "correct_option": "d", "explanation": "**Present perfect continuous**: have/has been + -ing."},
-        {"type": "mc", "question": "'She had left before I arrived.' – Which tense form is this?", "options": {"a": "Past simple", "b": "Past continuous", "c": "Past perfect simple", "d": "Past perfect continuous"}, "correct_option": "c", "explanation": "**Past perfect simple**: had + past participle."},
-        {"type": "mc", "question": "Which aspect focuses on **completion** and often on the **result** or relevance at a later time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "c", "explanation": "**Perfect** – we focus on completion and result/relevance."},
-        {"type": "mc", "question": "How does English differ from Czech in expressing 'time' and 'aspect'?", "options": {"a": "English uses one word per tense; Czech uses several.", "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.", "c": "Czech has no aspect.", "d": "English has no future tense."}, "correct_option": "b", "explanation": "**English** uses auxiliaries; **Czech** often combines time and aspect in one word."},
-        {"type": "mc", "question": "How do we get the 12 tense forms in English?", "options": {"a": "3 times + 4 aspects", "b": "4 times + 3 aspects", "c": "2 times + 6 aspects", "d": "6 times + 2 aspects"}, "correct_option": "a", "explanation": "We combine **3 times** (present, past, future) with **4 aspects** to get 12 forms."},
-        {"type": "mc", "question": "Which aspect do we use when the action is **in progress** at a given time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "b", "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."}
+        {
+          "type": "mc",
+          "question": "How do we get the 12 tense forms in English?",
+          "options": {
+            "a": "3 times + 4 aspects",
+            "b": "4 times + 3 aspects",
+            "c": "2 times + 6 aspects",
+            "d": "6 times + 2 aspects"
+          },
+          "correct_option": "a",
+          "explanation": "We combine **3 times** (present, past, future) with **4 aspects** (simple, continuous, perfect, perfect continuous) to get 12 forms."
+        },
+        {
+          "type": "mc",
+          "question": "In English, how do we usually form questions and negatives in most tenses?",
+          "options": {
+            "a": "By changing the verb ending for each person",
+            "b": "By using auxiliary verbs (do, does, did, have, will, be, etc.)",
+            "c": "By adding a suffix to the main verb",
+            "d": "By changing the word order only"
+          },
+          "correct_option": "b",
+          "explanation": "English uses **auxiliary verbs** to form questions, negatives, and many positive forms."
+        },
+        {
+          "type": "mc",
+          "question": "What is **aspect** in English grammar?",
+          "options": {
+            "a": "The person (I, you, he/she) of the subject",
+            "b": "The way we look at the action in time (e.g. in progress, completed)",
+            "c": "The time of day when something happens",
+            "d": "Whether the sentence is positive or negative"
+          },
+          "correct_option": "b",
+          "explanation": "**Aspect** is how we view the action in time."
+        },
+        {
+          "type": "mc",
+          "question": "Which aspect do we use when the action is **in progress** at a given time?",
+          "options": {
+            "a": "Simple",
+            "b": "Continuous",
+            "c": "Perfect",
+            "d": "Perfect continuous"
+          },
+          "correct_option": "b",
+          "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."
+        },
+        {
+          "type": "mc",
+          "question": "'I have been waiting for an hour.' – Which tense form is this?",
+          "options": {
+            "a": "Present simple",
+            "b": "Present continuous",
+            "c": "Present perfect simple",
+            "d": "Present perfect continuous"
+          },
+          "correct_option": "d",
+          "explanation": "**Present perfect continuous**: have/has been + -ing."
+        },
+        {
+          "type": "mc",
+          "question": "'She had left before I arrived.' – Which tense form is this?",
+          "options": {
+            "a": "Past simple",
+            "b": "Past continuous",
+            "c": "Past perfect simple",
+            "d": "Past perfect continuous"
+          },
+          "correct_option": "c",
+          "explanation": "**Past perfect simple**: had + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "Which aspect focuses on **completion** and often on the **result** or relevance at a later time?",
+          "options": {
+            "a": "Simple",
+            "b": "Continuous",
+            "c": "Perfect",
+            "d": "Perfect continuous"
+          },
+          "correct_option": "c",
+          "explanation": "**Perfect** – we focus on completion and result/relevance."
+        },
+        {
+          "type": "mc",
+          "question": "How does English typically express time and aspect?",
+          "options": {
+            "a": "English uses one word per tense.",
+            "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); time and aspect are shown by structure.",
+            "c": "English has no aspect.",
+            "d": "English has no future tense."
+          },
+          "correct_option": "b",
+          "explanation": "**English** uses auxiliaries and often two or more words; time and aspect are shown by structure."
+        },
+        {
+          "type": "mc",
+          "question": "How do we get the 12 tense forms in English?",
+          "options": {
+            "a": "3 times + 4 aspects",
+            "b": "4 times + 3 aspects",
+            "c": "2 times + 6 aspects",
+            "d": "6 times + 2 aspects"
+          },
+          "correct_option": "a",
+          "explanation": "We combine **3 times** (present, past, future) with **4 aspects** to get 12 forms."
+        },
+        {
+          "type": "mc",
+          "question": "Which aspect do we use when the action is **in progress** at a given time?",
+          "options": {
+            "a": "Simple",
+            "b": "Continuous",
+            "c": "Perfect",
+            "d": "Perfect continuous"
+          },
+          "correct_option": "b",
+          "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."
+        }
       ]
     }
   }

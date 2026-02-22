@@ -3,8 +3,12 @@
     "title": "Comparatives and Superlatives",
     "sections": [
       {
-        "title": "What are comparatives?",
-        "content": "Comparatives are used to compare **two people, things or situations**. In English we usually add **-er** to short adjectives (taller, faster) or use **more + adjective** with longer adjectives (more interesting, more expensive). We often use **than** after a comparative: taller than, more expensive than.\n\nExamples:\n• My sister is **taller than** me.\n• This exercise is **easier than** the last one.\n• Prague is **smaller than** London.\n• This film is **more interesting than** the book."
+        "title": "What are comparatives? (1)",
+        "content": "Comparatives are used to compare **two people, things or situations**. In English we usually add **-er** to short adjectives (taller, faster) or use **more + adjective** with longer adjectives (more interesting, more expensive). We often use **than** after a comparative: taller than, more expensive than."
+      },
+      {
+        "title": "What are comparatives? (2)",
+        "content": "Examples:\n• My sister is **taller than** me.\n• This exercise is **easier than** the last one.\n• Prague is **smaller than** London.\n• This film is **more interesting than** the book."
       },
       {
         "title": "How to form comparatives",
@@ -12,11 +16,27 @@
         "diagram": {
           "type": "table",
           "title": "Forming comparatives",
-          "headers": ["Type", "Rule", "Example"],
+          "headers": [
+            "Type",
+            "Rule",
+            "Example"
+          ],
           "rows": [
-            ["Short (1–2 syll.)", "adj + **-er**", "tall → taller, easy → easier"],
-            ["Long (2+ syll.)", "**more** + adj", "expensive → more expensive"],
-            ["Irregular", "learn each one", "good → better, bad → worse"]
+            [
+              "Short (1–2 syll.)",
+              "adj + **-er**",
+              "tall → taller, easy → easier"
+            ],
+            [
+              "Long (2+ syll.)",
+              "**more** + adj",
+              "expensive → more expensive"
+            ],
+            [
+              "Irregular",
+              "learn each one",
+              "good → better, bad → worse"
+            ]
           ]
         }
       },
@@ -34,21 +54,45 @@
         "diagram": {
           "type": "table",
           "title": "Forming superlatives",
-          "headers": ["Type", "Rule", "Example"],
+          "headers": [
+            "Type",
+            "Rule",
+            "Example"
+          ],
           "rows": [
-            ["Short (1–2 syll.)", "the + adj + **-est**", "tall → the tallest"],
-            ["Long (2+ syll.)", "**the most** + adj", "the most interesting"],
-            ["Irregular", "learn each one", "good → the best, bad → the worst"]
+            [
+              "Short (1–2 syll.)",
+              "the + adj + **-est**",
+              "tall → the tallest"
+            ],
+            [
+              "Long (2+ syll.)",
+              "**the most** + adj",
+              "the most interesting"
+            ],
+            [
+              "Irregular",
+              "learn each one",
+              "good → the best, bad → the worst"
+            ]
           ]
         }
       },
       {
-        "title": "Superlatives – irregular and use",
-        "content": "**Irregular superlatives:**\n• good → **the best**\n• bad → **the worst**\n• far → **the farthest** / **the furthest**\n• little → **the least**\n• many/much → **the most**\n\n**Use with:** **in + place/group** or **I've ever + past participle**\n\nExamples: She is **the tallest in the class**. This is **the most difficult test I've ever done**. It's **the best restaurant in town**. That was **the worst day of my life**."
+        "title": "Superlatives – irregular and use (1)",
+        "content": "**Irregular superlatives:**\n• good → **the best**\n• bad → **the worst**\n• far → **the farthest** / **the furthest**\n• little → **the least**\n• many/much → **the most**"
       },
       {
-        "title": "Typical errors",
-        "content": "• **No double comparative:** Wrong: more *easier*, more *better*. Right: **easier**, **better**.\n• **Short adjective:** Wrong: more *tall*. Right: **taller**.\n• **Long adjective:** Wrong: *interestinger*. Right: **more interesting**.\n• **Than:** Wrong: She is taller *me*. Right: She is taller **than** me.\n• **Not as … as:** Wrong: not so tall *like* her brother. Right: not **as tall as** her brother."
+        "title": "Superlatives – irregular and use (2)",
+        "content": "**Use with:** **in + place/group** or **I've ever + past participle**\n\nExamples: She is **the tallest in the class**. This is **the most difficult test I've ever done**. It's **the best restaurant in town**. That was **the worst day of my life**."
+      },
+      {
+        "title": "Typical errors (1)",
+        "content": "• **No double comparative:** Wrong: more *easier*, more *better*. Right: **easier**, **better**.\n• **Short adjective:** Wrong: more *tall*. Right: **taller**.\n• **Long adjective:** Wrong: *interestinger*. Right: **more interesting**."
+      },
+      {
+        "title": "Typical errors (2)",
+        "content": "• **Than:** Wrong: She is taller *me*. Right: She is taller **than** me.\n• **Not as … as:** Wrong: not so tall *like* her brother. Right: not **as tall as** her brother."
       }
     ]
   },
@@ -113,7 +157,7 @@
           "d": "She is not as tall as her brother."
         },
         "correct_option": "d",
-        "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+        "explanation": "The pattern is not as + adjective + as (not so ... like is a common mistake)."
       }
     ]
   },
@@ -509,7 +553,7 @@
             "d": "She is not as tall as her brother."
           },
           "correct_option": "d",
-          "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+          "explanation": "The pattern is not as + adjective + as (not so ... like is a common mistake)."
         },
         {
           "type": "mc",
@@ -569,7 +613,7 @@
             "d": "She is not as tall as her brother."
           },
           "correct_option": "d",
-          "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+          "explanation": "The pattern is not as + adjective + as (not so ... like is a common mistake)."
         }
       ]
     }

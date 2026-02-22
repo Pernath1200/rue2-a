@@ -3,40 +3,84 @@
     "title": "Past Simple and Past Continuous",
     "sections": [
       {
-        "title": "What are we comparing?",
-        "content": "**Past simple** (I went, she did, they saw) describes completed actions or events at a specific time in the past. **Past continuous** (I was going, she was doing, they were watching) describes an action **in progress** at a moment in the past – it was happening over a period, often when something else happened.\n\n• Past simple: **did** / **went** / **saw** (completed)\n• Past continuous: **was/were + -ing** (in progress)"
+        "title": "What are we comparing? (1)",
+        "content": "**Past simple** (I went, she did, they saw) describes completed actions or events at a specific time in the past. **Past continuous** (I was going, she was doing, they were watching) describes an action **in progress** at a moment in the past – it was happening over a period, often when something else happened."
       },
       {
-        "title": "When we use Past Simple",
-        "content": "Use the **past simple** when:\n\n• The action or event is **completed** in the past: I finished the report. She left at five.\n• We talk about a **specific time** (yesterday, last week, at 3 o'clock, when...): I saw him yesterday. What did you do last night?\n• We tell a **sequence of events**: I got up, had breakfast, and went to work.\n• Short actions that **interrupt** a longer action: The phone rang while I was cooking. (rang = past simple)\n\nForm: regular verbs → **-ed**; irregular verbs → past form (went, saw, wrote)."
+        "title": "What are we comparing? (2)",
+        "content": "• Past simple: **did** / **went** / **saw** (completed)\n• Past continuous: **was/were + -ing** (in progress)"
       },
       {
-        "title": "When we use Past Continuous",
-        "content": "Use the **past continuous** when:\n\n• An action was **in progress** at a moment in the past: At 8 pm I was watching TV. (I had started and was in the middle of it.)\n• We describe **background** or **longer** action when something else happened: I **was walking** home when I **met** an old friend. (walking = in progress; met = the event)\n• Two actions in progress at the same time (parallel): She **was cooking** while he **was setting** the table.\n• To show that something was **temporary** or **in progress** then: Last year she was working in London.\n\nForm: **was/were + verb + -ing** (was reading, were playing)."
+        "title": "When we use Past Simple (1)",
+        "content": "Use the **past simple** when:\n\n• The action or event is **completed** in the past: I finished the report. She left at five.\n• We talk about a **specific time** (yesterday, last week, at 3 o'clock, when...): I saw him yesterday. What did you do last night?"
       },
       {
-        "title": "Interrupted actions: when and while",
-        "content": "When one action **interrupts** another:\n\n• The **longer** action (in progress) → **past continuous**: I **was reading** when the phone rang.\n• The **shorter** or **interrupting** action → **past simple**: I was reading when the phone **rang**.\n\nWith **while** we often use past continuous for the action that was in progress:\n• **While** I **was cooking**, she **was setting** the table. (both in progress)\n• **While** she **was working**, the phone **rang**. (working = background; rang = event)\n\n**When** can be followed by past simple or past continuous: When I **arrived** (past simple), they **were having** dinner (past continuous)."
+        "title": "When we use Past Simple (2)",
+        "content": "• We tell a **sequence of events**: I got up, had breakfast, and went to work.\n• Short actions that **interrupt** a longer action: The phone rang while I was cooking. (rang = past simple)"
       },
       {
-        "title": "Quick summary",
-        "content": "• **Past simple** – completed actions, specific past time, sequence of events, short interrupting action. (did, went, saw)\n• **Past continuous** – action in progress at a moment in the past, background action, two parallel actions. (was/were + -ing)\n• **Interrupted:** Long action = past continuous; short event = past simple. (I was reading when the phone rang.)\n• **While** – often past continuous for the action in progress. **When** – past simple for the event, past continuous for the background.",
+        "title": "When we use Past Simple (2)",
+        "content": "Form: regular verbs → **-ed**; irregular verbs → past form (went, saw, wrote)."
+      },
+      {
+        "title": "When we use Past Continuous (1)",
+        "content": "Use the **past continuous** when:\n\n• An action was **in progress** at a moment in the past: At 8 pm I was watching TV. (I had started and was in the middle of it.)\n• We describe **background** or **longer** action when something else happened: I **was walking** home when I **met** an old friend. (walking = in progress; met = the event)"
+      },
+      {
+        "title": "When we use Past Continuous (2)",
+        "content": "• Two actions in progress at the same time (parallel): She **was cooking** while he **was setting** the table.\n• To show that something was **temporary** or **in progress** then: Last year she was working in London.\n\nForm: **was/were + verb + -ing** (was reading, were playing)."
+      },
+      {
+        "title": "Interrupted actions: when and while (1)",
+        "content": "When one action **interrupts** another:\n\n• The **longer** action (in progress) → **past continuous**: I **was reading** when the phone rang.\n• The **shorter** or **interrupting** action → **past simple**: I was reading when the phone **rang**."
+      },
+      {
+        "title": "Interrupted actions: when and while (2)",
+        "content": "With **while** we often use past continuous for the action that was in progress:\n• **While** I **was cooking**, she **was setting** the table. (both in progress)\n• **While** she **was working**, the phone **rang**. (working = background; rang = event)\n\n**When** can be followed by past simple or past continuous: When I **arrived** (past simple), they **were having** dinner (past continuous)."
+      },
+      {
+        "title": "Quick summary (1)",
+        "content": "• **Past simple** – completed actions, specific past time, sequence of events, short interrupting action. (did, went, saw)\n• **Past continuous** – action in progress at a moment in the past, background action, two parallel actions. (was/were + -ing)\n• **Interrupted:** Long action = past continuous; short event = past simple. (I was reading when the phone rang.)"
+      },
+      {
+        "title": "Quick summary (2)",
+        "content": "• **While** – often past continuous for the action in progress. **When** – past simple for the event, past continuous for the background.",
         "diagram": {
           "type": "comparison",
           "title": "Past simple vs past continuous",
           "left": {
             "title": "Past Simple",
-            "points": ["Completed action", "Specific past time", "Sequence of events", "Short / interrupting action", "Form: did / went / saw"]
+            "points": [
+              "Completed action",
+              "Specific past time",
+              "Sequence of events",
+              "Short / interrupting action",
+              "Form: did / went / saw"
+            ]
           },
           "right": {
             "title": "Past Continuous",
-            "points": ["Action in progress", "Background action", "Two parallel actions", "Longer action (interrupted)", "Form: was/were + -ing"]
+            "points": [
+              "Action in progress",
+              "Background action",
+              "Two parallel actions",
+              "Longer action (interrupted)",
+              "Form: was/were + -ing"
+            ]
           }
         }
       },
       {
-        "title": "Typical learner errors",
-        "content": "• **Using past simple for an action in progress:** Wrong: *I read when the phone rang.* (if you mean you were in the middle of reading) Right: **I was reading when the phone rang.**\n• **Using past continuous for a short completed action:** Wrong: *The phone was ringing when I was reading.* (if the phone rang once) Right: **The phone rang when I was reading.**\n• **Using past continuous for a finished time:** Wrong: *I was going to the cinema yesterday.* (if you mean you went and it's done) Right: **I went to the cinema yesterday.**\n• **Using two past simples for interrupted action:** Wrong: *I read when she called.* (unclear; were you in the middle of reading?) Right: **I was reading when she called.**\n\nTip: In progress at a moment = past continuous. Completed event or specific time = past simple."
+        "title": "Typical learner errors (1)",
+        "content": "• **Using past simple for an action in progress:** Wrong: *I read when the phone rang.* (if you mean you were in the middle of reading) Right: **I was reading when the phone rang.**\n• **Using past continuous for a short completed action:** Wrong: *The phone was ringing when I was reading.* (if the phone rang once) Right: **The phone rang when I was reading.**"
+      },
+      {
+        "title": "Typical learner errors (2)",
+        "content": "• **Using past continuous for a finished time:** Wrong: *I was going to the cinema yesterday.* (if you mean you went and it's done) Right: **I went to the cinema yesterday.**"
+      },
+      {
+        "title": "Typical learner errors (2)",
+        "content": "• **Using two past simples for interrupted action:** Wrong: *I read when she called.* (unclear; were you in the middle of reading?) Right: **I was reading when she called.**\n\nTip: In progress at a moment = past continuous. Completed event or specific time = past simple."
       }
     ]
   },

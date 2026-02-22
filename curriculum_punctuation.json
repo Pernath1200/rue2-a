@@ -4,37 +4,73 @@
     "sections": [
       {
         "title": "What this section covers",
-        "content": "**Punctuation** (especially commas) and **capitalisation** in English.\n\nFocus on differences from Czech so you can avoid common mistakes.\n\n• **Check** – test your understanding.\n• **Practice** – add or correct punctuation and capitals."
+        "content": "**Punctuation** (especially commas) and **capitalisation** in English.\n\nFocus on common mistakes and how to avoid them.\n\n• **Check** – test your understanding.\n• **Practice** – add or correct punctuation and capitals."
       },
       {
-        "title": "Commas – when to use them",
-        "content": "Use a comma:\n\n• **In lists** (before 'and' optional in British English): apples, oranges, and bananas.\n• **After introductory words or phrases:** However, we agreed. After the meeting, he left.\n• **Before but, and, or, so, yet** when they join two full sentences: I called, but she was busy.\n• **Around extra (non-defining) information:** My brother, who lives in London, is a doctor.\n\nDo **not** use a comma when the information is essential (defining): The man who called yesterday left a message."
+        "title": "Commas – when to use them (1)",
+        "content": "Use a comma:\n\n• **In lists** (before 'and' optional in British English): apples, oranges, and bananas.\n• **After introductory words or phrases:** However, we agreed. After the meeting, he left.\n• **Before but, and, or, so, yet** when they join two full sentences: I called, but she was busy.\n• **Around extra (non-defining) information:** My brother, who lives in London, is a doctor."
       },
       {
-        "title": "Czech vs English – commas",
-        "content": "**Differences that often cause mistakes:**\n\n• **Before že (that):** Czech often uses a comma before že. English usually does **not**: I think that he is right. (no comma before 'that' in most cases)\n\n• **Before and/but:** In English we use a comma when and/but joins two **full sentences**: She smiled, and I waved. If you only join two words or short phrases, no comma: She smiled and waved.\n\n• **Lists:** Czech may use a comma where English uses no comma (e.g. before a final item). In British English the last comma (before 'and') is optional."
+        "title": "Commas – when to use them (2)",
+        "content": "Do **not** use a comma when the information is essential (defining): The man who called yesterday left a message."
       },
       {
-        "title": "Capitalisation",
-        "content": "In English we capitalise:\n\n• **I** (the person) – always: He and I went.\n• **First word of a sentence.**\n• **Proper nouns:** London, Jan, the European Union.\n• **Days and months:** Monday, March. (Czech: pondělí, březen – small letter)\n• **Nationalities and languages:** English, Czech, French.\n• **Titles of books/films:** (main words) The Lord of the Rings.\n\nDo **not** capitalise general nouns (e.g. 'university' unless part of a name: Oxford University)."
+        "title": "Commas (English) (1)",
+        "content": "**Differences that often cause mistakes:**\n\n• **Before 'that':** In some languages a comma is used before the equivalent of 'that'. In English we usually do **not**: I think that he is right. (no comma before 'that' in most cases)"
       },
       {
-        "title": "Czech vs English – capitalisation",
-        "content": "**Typical mistakes for Czech learners:**\n\n• **Days and months** – In English always capitalise: **Monday**, **January**. In Czech they are written with a small letter (pondělí, leden).\n\n• **I** – In English **I** is always a capital letter. In Czech 'já' is not capitalised.\n\n• **Nationalities/languages** – English, Czech, German (capital in English).\n\n• **First word after a colon** – In English it depends on style; often capital if a full sentence follows. In Czech often small letter."
+        "title": "Commas (English) (2)",
+        "content": "• **Before and/but:** In English we use a comma when and/but joins two **full sentences**: She smiled, and I waved. If you only join two words or short phrases, no comma: She smiled and waved.\n\n• **Lists:** In British English the last comma (before 'and') is optional."
+      },
+      {
+        "title": "Capitalisation (1)",
+        "content": "In English we capitalise:\n\n• **I** (the person) – always: He and I went.\n• **First word of a sentence.**\n• **Proper nouns:** London, Jan, the European Union.\n• **Days and months:** Monday, March. (In English we capitalise them.)\n• **Nationalities and languages:** English, French, German.\n• **Titles of books/films:** (main words) The Lord of the Rings."
+      },
+      {
+        "title": "Capitalisation (2)",
+        "content": "Do **not** capitalise general nouns (e.g. 'university' unless part of a name: Oxford University)."
+      },
+      {
+        "title": "Capitalisation (English)",
+        "content": "**Common mistakes:**\n\n• **Days and months** – In English always capitalise: **Monday**, **January**.\n\n• **I** – In English **I** is always a capital letter.\n\n• **Nationalities/languages** – English, German, French (capital in English).\n\n• **First word after a colon** – In English it depends on style; often capital if a full sentence follows."
       },
       {
         "title": "Quick summary",
-        "content": "• **Commas:** lists, after introductory phrases, before but/and when joining two sentences, around non-defining clauses. Not before 'that' (I think that…).\n• **Capitalise:** I, first word of sentence, proper nouns, days, months, nationalities, languages.\n• Don't transfer Czech comma or capitalisation rules – follow English rules.",
+        "content": "• **Commas:** lists, after introductory phrases, before but/and when joining two sentences, around non-defining clauses. Not before 'that' (I think that…).\n• **Capitalise:** I, first word of sentence, proper nouns, days, months, nationalities, languages.\n• Follow English rules for commas and capitalisation.",
         "diagram": {
           "type": "table",
           "title": "Key punctuation and capitalisation rules",
-          "headers": ["Rule", "English", "Example"],
+          "headers": [
+            "Rule",
+            "English",
+            "Example"
+          ],
           "rows": [
-            ["Comma before 'that'", "Usually **no**", "I think that he is right."],
-            ["Comma + but/and", "Yes, joining **two sentences**", "I called, but she was busy."],
-            ["Days and months", "**Capitalise**", "Monday, January"],
-            ["Pronoun I", "Always **capital**", "He and I went."],
-            ["Nationalities", "**Capitalise**", "English, French, Czech"]
+            [
+              "Comma before 'that'",
+              "Usually **no**",
+              "I think that he is right."
+            ],
+            [
+              "Comma + but/and",
+              "Yes, joining **two sentences**",
+              "I called, but she was busy."
+            ],
+            [
+              "Days and months",
+              "**Capitalise**",
+              "Monday, January"
+            ],
+            [
+              "Pronoun I",
+              "Always **capital**",
+              "He and I went."
+            ],
+            [
+              "Nationalities",
+              "**Capitalise**",
+              "English, French, German"
+            ]
           ]
         }
       }
@@ -53,7 +89,7 @@
           "d": "I think, that, he is right."
         },
         "correct_option": "a",
-        "explanation": "In English we usually do not put a comma before 'that' in this type of sentence (unlike Czech before že)."
+        "explanation": "In English we usually do not put a comma before 'that' in this type of sentence."
       },
       {
         "type": "mc",
@@ -65,7 +101,7 @@
           "d": "monday and Tuesday"
         },
         "correct_option": "b",
-        "explanation": "Days of the week are capitalised in English (unlike in Czech)."
+        "explanation": "Days of the week are capitalised in English."
       },
       {
         "type": "mc",
@@ -219,7 +255,7 @@
             "d": "I think, that, he is right."
           },
           "correct_option": "a",
-          "explanation": "In English we usually do not put a comma before 'that' in this type of sentence (unlike Czech before že)."
+          "explanation": "In English we usually do not put a comma before 'that' in this type of sentence."
         },
         {
           "type": "mc",
@@ -231,7 +267,7 @@
             "d": "monday and Tuesday"
           },
           "correct_option": "b",
-          "explanation": "Days of the week are capitalised in English (unlike in Czech)."
+          "explanation": "Days of the week are capitalised in English."
         },
         {
           "type": "mc",
@@ -279,7 +315,7 @@
             "d": "I think, that, he is right."
           },
           "correct_option": "a",
-          "explanation": "In English we usually do not put a comma before 'that' in this type of sentence (unlike Czech before že)."
+          "explanation": "In English we usually do not put a comma before 'that' in this type of sentence."
         },
         {
           "type": "mc",
@@ -291,7 +327,7 @@
             "d": "monday and Tuesday"
           },
           "correct_option": "b",
-          "explanation": "Days of the week are capitalised in English (unlike in Czech)."
+          "explanation": "Days of the week are capitalised in English."
         },
         {
           "type": "mc",

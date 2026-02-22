@@ -3,24 +3,44 @@
     "title": "Relative pronouns",
     "sections": [
       {
-        "title": "What are relative pronouns?",
-        "content": "Relative pronouns (who, which, that, where, when, whose) introduce a relative clause that tells us more about a noun.\n\nExamples:\n• The woman **who** lives next door is a doctor. (person)\n• The book **which/that** I'm reading is very good. (thing)\n• This is the house **where** I was born. (place)\n• I remember the day **when** we first met. (time)\n• The person **whose** bag was stolen reported it. (possession)"
+        "title": "What are relative pronouns? (1)",
+        "content": "Relative pronouns (who, which, that, where, when, whose) introduce a relative clause that tells us more about a noun."
       },
       {
-        "title": "Which relative pronoun to use",
-        "content": "• **Who** (or **that**) – for people: the man who/that I saw.\n• **Which** or **that** – for things: the book which/that I read.\n• **Where** – for places: the town where I grew up. (Or: the town that/which I grew up in.)\n• **When** – for time: the day when we met. (Or: the day that we met.)\n• **Whose** – for possession: the girl whose bike was stolen.\n\nIn defining relative clauses we can often omit the pronoun when it is the object: The book (that) I read was good."
+        "title": "What are relative pronouns? (2)",
+        "content": "Examples:\n• The woman **who** lives next door is a doctor. (person)\n• The book **which/that** I'm reading is very good. (thing)\n• This is the house **where** I was born. (place)\n• I remember the day **when** we first met. (time)\n• The person **whose** bag was stolen reported it. (possession)"
       },
       {
-        "title": "That vs which",
-        "content": "**Defining clause** (essential, no comma): The book **that/which** I lent you is on the table. Use **that** or **which** for things.\n\n**Non-defining clause** (extra info, with comma): This book, **which** I bought yesterday, is good. Prague, **which** is the capital, is beautiful. Use **which** only — never **that** after a comma.\n\n**Rule:** No comma → that or which. Comma (extra info) → **which** only.\n\nAfter **everything, something, anything:** Everything **that** he said was true. (That is more natural than which.)"
+        "title": "Which relative pronoun to use (1)",
+        "content": "• **Who** (or **that**) – for people: the man who/that I saw.\n• **Which** or **that** – for things: the book which/that I read.\n• **Where** – for places: the town where I grew up. (Or: the town that/which I grew up in.)\n• **When** – for time: the day when we met. (Or: the day that we met.)\n• **Whose** – for possession: the girl whose bike was stolen."
       },
       {
-        "title": "Typical mistakes",
-        "content": "• **Which for people:** Wrong: The woman *which* lives next door. Right: The woman **who/that** lives next door. (Which = things only.)\n• **That after comma:** Wrong: Prague, *that* is the capital, is beautiful. Right: Prague, **which** is the capital, is beautiful.\n• **Everything/something:** Everything **that** he said (that is natural here).\n• **Comma for extra info:** My car, **which** is ten years old, still works. (Comma = extra info; use which.)\n\nSummary: People → who or that. Things, no comma → that or which. Things, with comma → which only."
+        "title": "Which relative pronoun to use (2)",
+        "content": "In defining relative clauses we can often omit the pronoun when it is the object: The book (that) I read was good."
+      },
+      {
+        "title": "That vs which (1)",
+        "content": "**Defining clause** (essential, no comma): The book **that/which** I lent you is on the table. Use **that** or **which** for things.\n\n**Non-defining clause** (extra info, with comma): This book, **which** I bought yesterday, is good. Prague, **which** is the capital, is beautiful. Use **which** only — never **that** after a comma."
+      },
+      {
+        "title": "That vs which (2)",
+        "content": "**Rule:** No comma → that or which. Comma (extra info) → **which** only.\n\nAfter **everything, something, anything:** Everything **that** he said was true. (That is more natural than which.)"
+      },
+      {
+        "title": "Typical mistakes (1)",
+        "content": "• **Which for people:** Wrong: The woman *which* lives next door. Right: The woman **who/that** lives next door. (Which = things only.)\n• **That after comma:** Wrong: Prague, *that* is the capital, is beautiful. Right: Prague, **which** is the capital, is beautiful."
+      },
+      {
+        "title": "Typical mistakes (2)",
+        "content": "• **Everything/something:** Everything **that** he said (that is natural here).\n• **Comma for extra info:** My car, **which** is ten years old, still works. (Comma = extra info; use which.)"
+      },
+      {
+        "title": "Typical mistakes (2)",
+        "content": "Summary: People → who or that. Things, no comma → that or which. Things, with comma → which only."
       },
       {
         "title": "Don't use 'what' as relative pronoun",
-        "content": "In English we do **not** use **what** after a noun (Czech 'co'):\n\n• Wrong: The book *what* I read. Right: The book **that/which** I read.\n• Wrong: The man *what* I saw. Right: The man **who/that** I saw.\n• Wrong: The house *what* I was born in. Right: The house **where** I was born (or that/which I was born in).\n\n**What** = 'the thing(s) that' (no noun before it): **What** I need is a holiday."
+        "content": "In English we do **not** use **what** after a noun:\n\n• Wrong: The book *what* I read. Right: The book **that/which** I read.\n• Wrong: The man *what* I saw. Right: The man **who/that** I saw.\n• Wrong: The house *what* I was born in. Right: The house **where** I was born (or that/which I was born in).\n\n**What** = 'the thing(s) that' (no noun before it): **What** I need is a holiday."
       },
       {
         "title": "Quick summary",
@@ -28,13 +48,37 @@
         "diagram": {
           "type": "table",
           "title": "Relative pronouns at a glance",
-          "headers": ["Refers to", "Defining (no comma)", "Non-defining (comma)"],
+          "headers": [
+            "Refers to",
+            "Defining (no comma)",
+            "Non-defining (comma)"
+          ],
           "rows": [
-            ["Person", "**who** or **that**", "**who**"],
-            ["Thing", "**which** or **that**", "**which** (not that)"],
-            ["Place", "**where**", "**where**"],
-            ["Time", "**when**", "**when**"],
-            ["Possession", "**whose**", "**whose**"]
+            [
+              "Person",
+              "**who** or **that**",
+              "**who**"
+            ],
+            [
+              "Thing",
+              "**which** or **that**",
+              "**which** (not that)"
+            ],
+            [
+              "Place",
+              "**where**",
+              "**where**"
+            ],
+            [
+              "Time",
+              "**when**",
+              "**when**"
+            ],
+            [
+              "Possession",
+              "**whose**",
+              "**whose**"
+            ]
           ]
         }
       }
@@ -114,7 +158,7 @@
       "questions": [
         {
           "type": "open",
-          "question": "The book ____ I'm reading is by a Czech author.",
+          "question": "The book ____ I'm reading is by a famous author.",
           "answers": [
             "that"
           ],
@@ -211,7 +255,7 @@
       ]
     },
     "errorcorrection": {
-      "title": "Practice: Correct the relative pronoun (Czech-style errors)",
+      "title": "Practice: Correct the relative pronoun (common mistakes)",
       "questions": [
         {
           "type": "open",

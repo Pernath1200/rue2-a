@@ -8,7 +8,7 @@
       },
       {
         "title": "Zero conditional",
-        "content": "**If + present**, **present** (both clauses).\n\nFor **general truths** and **facts**:\n\n• If you heat ice, it melts.\n• If you mix red and blue, you get purple.\n• If I don't sleep well, I feel tired.\n\n**When** = whenever: When you heat water to 100°C, it boils."
+        "content": "**If + present**, **present** (both clauses).\n\nFor **general truths** and **facts**:\n\n• If you heat ice, it melts.\n• If you mix red and blue, you get purple.\n• If I don't sleep well, I feel tired.\n\n**When** = whenever: When you heat water to 100 degrees, it boils."
       },
       {
         "title": "First conditional",
@@ -23,17 +23,46 @@
         "content": "**If + past perfect**, **would have + past participle**.\n\nFor **unreal past** – something that did not happen:\n\n• If I had known, I would have told you.\n• If she had left earlier, she would have caught the train.\n• If they hadn't missed the flight, they would have arrived on time.\n\n**No would have in the if-clause:** If I **had known** (not *would have known*), I would have come."
       },
       {
-        "title": "Quick summary",
-        "content": "• **Zero:** if + present, present → facts, general truths (If you heat ice, it melts.)\n• **First:** if + present, will + base → real future (If it rains, I will stay home.)\n• **Second:** if + past, would + base → unreal present/future (If I had time, I would help.)\n• **Third:** if + past perfect, would have + past participle → unreal past (If I had known, I would have told you.)\n• Never use **will** or **would** in the **if-clause** (only in the main clause for first/second/third).",
+        "title": "Quick summary (1)",
+        "content": "• **Zero:** if + present, present → facts, general truths (If you heat ice, it melts.)\n• **First:** if + present, will + base → real future (If it rains, I will stay home.)\n• **Second:** if + past, would + base → unreal present/future (If I had time, I would help.)"
+      },
+      {
+        "title": "Quick summary (2)",
+        "content": "• **Third:** if + past perfect, would have + past participle → unreal past (If I had known, I would have told you.)\n• Never use **will** or **would** in the **if-clause** (only in the main clause for first/second/third).",
         "diagram": {
           "type": "table",
           "title": "Conditional types at a glance",
-          "headers": ["Type", "If-clause", "Main clause", "Use"],
+          "headers": [
+            "Type",
+            "If-clause",
+            "Main clause",
+            "Use"
+          ],
           "rows": [
-            ["Zero", "if + present", "present", "Facts, general truths"],
-            ["First", "if + present", "will + base", "Real future possibility"],
-            ["Second", "if + past", "would + base", "Unreal / hypothetical now"],
-            ["Third", "if + past perfect", "would have + pp", "Unreal past"]
+            [
+              "Zero",
+              "if + present",
+              "present",
+              "Facts, general truths"
+            ],
+            [
+              "First",
+              "if + present",
+              "will + base",
+              "Real future possibility"
+            ],
+            [
+              "Second",
+              "if + past",
+              "would + base",
+              "Unreal / hypothetical now"
+            ],
+            [
+              "Third",
+              "if + past perfect",
+              "would have + pp",
+              "Unreal past"
+            ]
           ]
         }
       },
@@ -48,7 +77,7 @@
     "questions": [
       {
         "type": "mc",
-        "question": "Which type of conditional is: 'If you heat water to 100°C, it boils.'?",
+        "question": "Which type of conditional is: 'If you heat water to 100 degrees, it boils.'?",
         "options": {
           "a": "Zero",
           "b": "First",
@@ -269,10 +298,10 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'If you heat water to 100°C, it will boil.' (General fact.) Correct to zero conditional.",
+          "question": "Wrong: 'If you heat water to 100 degrees, it will boil.' (General fact.) Correct to zero conditional.",
           "answers": [
-            "If you heat water to 100°C, it boils.",
-            "If you heat water to 100°C, it boils"
+            "If you heat water to 100 degrees, it boils.",
+            "If you heat water to 100 degrees, it boils"
           ],
           "explanation": "Zero conditional for general truth: present + present (it boils)."
         },
@@ -292,7 +321,7 @@
       "questions": [
         {
           "type": "mc",
-          "question": "Which type of conditional is: 'If you heat water to 100°C, it boils.'?",
+          "question": "Which type of conditional is: 'If you heat water to 100 degrees, it boils.'?",
           "options": {
             "a": "Zero",
             "b": "First",
@@ -364,7 +393,7 @@
         },
         {
           "type": "mc",
-          "question": "Which type of conditional is: 'If you heat water to 100°C, it boils.'?",
+          "question": "Which type of conditional is: 'If you heat water to 100 degrees, it boils.'?",
           "options": {
             "a": "Zero",
             "b": "First",

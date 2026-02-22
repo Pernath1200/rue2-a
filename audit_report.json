@@ -4956,12 +4956,12 @@
         "check": "mc_manual_check",
         "correct_option": "b",
         "options": {
-          "a": "English uses one word per tense; Czech uses several.",
-          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.",
-          "c": "Czech has no aspect.",
+          "a": "English uses one word per tense.",
+          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); time and aspect are shown by structure.",
+          "c": "English has no aspect.",
           "d": "English has no future tense."
         },
-        "questionSnippet": "How does English differ from Czech in expressing 'time' and ..."
+        "questionSnippet": "How does English typically express time and aspect?"
       },
       {
         "source": "curriculum_tenses_general.json",
@@ -5068,12 +5068,12 @@
         "check": "mc_manual_check",
         "correct_option": "b",
         "options": {
-          "a": "English uses one word per tense; Czech uses several.",
-          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.",
-          "c": "Czech has no aspect.",
+          "a": "English uses one word per tense.",
+          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); time and aspect are shown by structure.",
+          "c": "English has no aspect.",
           "d": "English has no future tense."
         },
-        "questionSnippet": "How does English differ from Czech in expressing 'time' and ..."
+        "questionSnippet": "How does English typically express time and aspect?"
       },
       {
         "source": "curriculum_tenses_general.json",
@@ -6002,6 +6002,62 @@
     },
     {
       "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 21,
+      "check": "short_or_context_free",
+      "questionSnippet": "22. The teacher ____ taught us maths has retired."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "short_or_context_free",
+      "questionSnippet": "30. The café ____ we had lunch is closed now."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 30,
+      "check": "short_or_context_free",
+      "questionSnippet": "31. Anything ____ you say may be used in court."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "short_or_context_free",
+      "questionSnippet": "36. The office ____ I work is in the centre."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "short_or_context_free",
+      "questionSnippet": "41. The town ____ I grew up has changed a lot."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "short_or_context_free",
+      "questionSnippet": "45. Nothing ____ he does surprises me anymore."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "relative_pronouns",
+      "setId": "set1",
+      "questionIndex": 48,
+      "check": "short_or_context_free",
+      "questionSnippet": "49. The company ____ she works for is expanding."
+    },
+    {
+      "source": "questions.json",
       "topicOrSet": "infinitive_ing",
       "setId": "set1",
       "questionIndex": 0,
@@ -6103,6 +6159,294 @@
       "questionIndex": 19,
       "check": "short_or_context_free",
       "questionSnippet": "5. They managed ____ (finish) on time."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 20,
+      "check": "short_or_context_free",
+      "questionSnippet": "6. I expect ____ (hear) from him soon."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 21,
+      "check": "short_or_context_free",
+      "questionSnippet": "7. She offered ____ (help) us with the move."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 22,
+      "check": "short_or_context_free",
+      "questionSnippet": "8. He admitted ____ (make) a mistake."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "short_or_context_free",
+      "questionSnippet": "9. We plan ____ (visit) Prague next year."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 24,
+      "check": "short_or_context_free",
+      "questionSnippet": "10. I dislike ____ (wait) in queues."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "short_or_context_free",
+      "questionSnippet": "11. She pretended ____ (be) ill."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 26,
+      "check": "short_or_context_free",
+      "questionSnippet": "12. They risk ____ (lose) everything."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 27,
+      "check": "short_or_context_free",
+      "questionSnippet": "13. He failed ____ (pass) the exam."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 28,
+      "check": "short_or_context_free",
+      "questionSnippet": "14. I keep ____ (forget) his name."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "short_or_context_free",
+      "questionSnippet": "15. She intends ____ (apply) for the job."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 32,
+      "check": "short_or_context_free",
+      "questionSnippet": "18. He tends ____ (arrive) late."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 33,
+      "check": "short_or_context_free",
+      "questionSnippet": "19. I miss ____ (see) my family."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 34,
+      "check": "short_or_context_free",
+      "questionSnippet": "20. She chose ____ (stay) at home."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "short_or_context_free",
+      "questionSnippet": "21. They delayed ____ (pay) the bill."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "short_or_context_free",
+      "questionSnippet": "22. He deserves ____ (win) the prize."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 37,
+      "check": "short_or_context_free",
+      "questionSnippet": "23. I fancy ____ (go) out tonight."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 38,
+      "check": "short_or_context_free",
+      "questionSnippet": "24. We need ____ (book) the tickets soon."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 39,
+      "check": "short_or_context_free",
+      "questionSnippet": "25. She enjoys ____ (swim) in the sea."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 42,
+      "check": "short_or_context_free",
+      "questionSnippet": "28. I recommend ____ (try) the local food."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "short_or_context_free",
+      "questionSnippet": "29. They afford ____ (buy) a new car."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "short_or_context_free",
+      "questionSnippet": "30. She avoids ____ (drive) at night."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 45,
+      "check": "short_or_context_free",
+      "questionSnippet": "31. We would like ____ (invite) you to the party."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 46,
+      "check": "short_or_context_free",
+      "questionSnippet": "32. He admitted ____ (break) the window."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 48,
+      "check": "short_or_context_free",
+      "questionSnippet": "34. I prefer ____ (walk) to cycling."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 49,
+      "check": "short_or_context_free",
+      "questionSnippet": "35. They decided ____ (postpone) the meeting."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 51,
+      "check": "short_or_context_free",
+      "questionSnippet": "37. He appears ____ (be) very tired."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 52,
+      "check": "short_or_context_free",
+      "questionSnippet": "38. I've finished ____ (read) the report."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 53,
+      "check": "short_or_context_free",
+      "questionSnippet": "39. We aim ____ (finish) by Friday."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 54,
+      "check": "short_or_context_free",
+      "questionSnippet": "40. She denied ____ (see) him that day."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 56,
+      "check": "short_or_context_free",
+      "questionSnippet": "42. He seems ____ (know) the answer."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 57,
+      "check": "short_or_context_free",
+      "questionSnippet": "43. I don't mind ____ (wait) a bit longer."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 58,
+      "check": "short_or_context_free",
+      "questionSnippet": "44. They attempted ____ (climb) the mountain."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 59,
+      "check": "short_or_context_free",
+      "questionSnippet": "45. She gave up ____ (smoke) last year."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 60,
+      "check": "short_or_context_free",
+      "questionSnippet": "46. We hope ____ (visit) you soon."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 61,
+      "check": "short_or_context_free",
+      "questionSnippet": "47. He postponed ____ (tell) her the news."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "infinitive_ing",
+      "setId": "set1",
+      "questionIndex": 62,
+      "check": "short_or_context_free",
+      "questionSnippet": "48. I'd love ____ (come) to your wedding."
     },
     {
       "source": "questions.json",
@@ -6210,11 +6554,235 @@
     },
     {
       "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 20,
+      "check": "short_or_context_free",
+      "questionSnippet": "21. This room is ____ (cold) the one next door."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 21,
+      "check": "short_or_context_free",
+      "questionSnippet": "22. She speaks ____ (fluently) her sister."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 22,
+      "check": "short_or_context_free",
+      "questionSnippet": "23. It was ____ (expensive) I expected."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "short_or_context_free",
+      "questionSnippet": "24. He is ____ (young) person in the team."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 24,
+      "check": "short_or_context_free",
+      "questionSnippet": "25. This road is ____ (busy) it was last year."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "short_or_context_free",
+      "questionSnippet": "26. She works ____ (hard) anyone else."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 26,
+      "check": "short_or_context_free",
+      "questionSnippet": "27. This is ____ (far) I've ever run."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 28,
+      "check": "short_or_context_free",
+      "questionSnippet": "29. He drives ____ (fast) he should."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 31,
+      "check": "short_or_context_free",
+      "questionSnippet": "32. This bag is ____ (heavy) that one."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 32,
+      "check": "short_or_context_free",
+      "questionSnippet": "33. It was ____ (bad) day of my life."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 33,
+      "check": "short_or_context_free",
+      "questionSnippet": "34. He runs ____ (slowly) his brother."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 34,
+      "check": "short_or_context_free",
+      "questionSnippet": "35. This is ____ (cheap) option."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "short_or_context_free",
+      "questionSnippet": "36. The weather is ____ (nice) it was last week."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "short_or_context_free",
+      "questionSnippet": "37. She sings ____ (beautifully) anyone I know."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 37,
+      "check": "short_or_context_free",
+      "questionSnippet": "38. This test is ____ (simple) the previous one."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 38,
+      "check": "short_or_context_free",
+      "questionSnippet": "39. He is ____ (tall) boy in the school."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 39,
+      "check": "short_or_context_free",
+      "questionSnippet": "40. The journey took ____ (long) we thought."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "short_or_context_free",
+      "questionSnippet": "41. She is ____ (old) her husband."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 41,
+      "check": "short_or_context_free",
+      "questionSnippet": "42. This is ____ (interesting) book I've read."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 42,
+      "check": "short_or_context_free",
+      "questionSnippet": "43. He speaks ____ (quietly) his sister."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "short_or_context_free",
+      "questionSnippet": "44. The situation got ____ (bad) as time went on."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "short_or_context_free",
+      "questionSnippet": "45. She is ____ (pretty) girl in the class."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 45,
+      "check": "short_or_context_free",
+      "questionSnippet": "46. This car is ____ (reliable) the old one."
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "comparatives",
+      "setId": "set1",
+      "questionIndex": 48,
+      "check": "short_or_context_free",
+      "questionSnippet": "49. She is ____ (careful) driver I know."
+    },
+    {
+      "source": "questions.json",
       "topicOrSet": "quantifiers",
       "setId": "set1",
       "questionIndex": 1,
       "check": "short_or_context_free",
       "questionSnippet": "2. Do you have _____ sugar? (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 32,
+      "check": "short_or_context_free",
+      "questionSnippet": "34. We need _____ more time. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "short_or_context_free",
+      "questionSnippet": "45. We have _____ options. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "short_or_context_free",
+      "questionSnippet": "46. There isn't _____ bread. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 46,
+      "check": "short_or_context_free",
+      "questionSnippet": "48. I need _____ help. (Fill in the blank.)"
     },
     {
       "source": "questions.json",
@@ -7465,5 +8033,756 @@
       "questionSnippet": "20. We ____ book in advance. (advisability)"
     }
   ],
-  "ambiguity": []
+  "ambiguity": [
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 19,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "20. She ____ (work) on this project for three months. Put the verb in the correct tense.",
+      "answer": "has been working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 21,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "22. How long ____ you ____ (know) your best friend? Put the verb in the correct tense.",
+      "answer": "have you known"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "24. Your hands are dirty. ____ you ____ (work) in the garden? Put the verb in the correct tense.",
+      "answer": "have you been working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 24,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "25. He ____ (write) six emails this morning. Put the verb in the correct tense.",
+      "answer": "has written"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "26. We ____ (wait) for the bus for 20 minutes. Put the verb in the correct tense.",
+      "answer": "have been waiting"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "30. The children ____ (play) in the garden all afternoon. Put the verb in the correct tense.",
+      "answer": "have been playing"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 31,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "32. She ____ (teach) at this school for ten years. Put the verb in the correct tense.",
+      "answer": "has been teaching"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 33,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "34. How many times ____ you ____ (see) that film? Put the verb in the correct tense.",
+      "answer": "have you seen"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 34,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "35. He ____ (look) for his keys for the last half hour. Put the verb in the correct tense.",
+      "answer": "has been looking"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 37,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "38. I ____ (always want) to learn the piano. Put the verb in the correct tense.",
+      "answer": "have always wanted"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "41. How long ____ she ____ (work) here? Put the verb in the correct tense.",
+      "answer": "has she been working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "44. He ____ (sleep) badly recently. Put the verb in the correct tense.",
+      "answer": "has been sleeping"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 26,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "27. How long ____ you ____ (have) this phone? Put the verb in the correct tense.",
+      "answer": "have you had"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 27,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "28. He ____ (leave) the office at 6 pm. Put the verb in the correct tense.",
+      "answer": "left"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "30. I ____ (go) to the cinema last Saturday. Put the verb in the correct tense.",
+      "answer": "went"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "36. He ____ (work) for this company for ten years. Put the verb in the correct tense.",
+      "answer": "has worked"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "37. We ____ (meet) at the conference in Berlin. Put the verb in the correct tense.",
+      "answer": "met"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "41. They ____ (be) together for three years. Put the verb in the correct tense.",
+      "answer": "have been"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 41,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "42. The train ____ (leave) at 9 am. Put the verb in the correct tense.",
+      "answer": "left"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "45. How long ____ they ____ (be) married? Put the verb in the correct tense.",
+      "answer": "have they been"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 47,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "48. We ____ (have) lunch at that café last Tuesday. Put the verb in the correct tense.",
+      "answer": "had"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 20,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "6. We ____ (have) a party next Saturday. (We've booked the hall.) Put the verb in the correct tense.",
+      "answer": "are going to have"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "9. Don't worry – I ____ (help) you. Put the verb in the correct tense.",
+      "answer": "will help"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 24,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "10. Look at the traffic – we ____ (be) late. Put the verb in the correct tense.",
+      "answer": "are going to be"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "11. I ____ (probably stay) at home tonight. Put the verb in the correct tense.",
+      "answer": "will probably stay"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 26,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "12. They ____ (fly) to Rome next month. (Tickets are booked.) Put the verb in the correct tense.",
+      "answer": "are going to fly"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 27,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "13. I ____ (not forget) what you said. Put the verb in the correct tense.",
+      "answer": "won't forget"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 28,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "14. Be careful – you ____ (drop) that glass. Put the verb in the correct tense.",
+      "answer": "are going to drop"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 30,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "16. I ____ (give) you a hand with that. Put the verb in the correct tense.",
+      "answer": "will give"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "21. The weather forecast says it ____ (rain) at the weekend. Put the verb in the correct tense.",
+      "answer": "will rain"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "22. I ____ (pay) for the coffee. Put the verb in the correct tense.",
+      "answer": "will pay"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 38,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "24. I ____ (try) my best. Put the verb in the correct tense.",
+      "answer": "will try"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 39,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "25. She ____ (start) her new job on Monday. (Contract signed.) Put the verb in the correct tense.",
+      "answer": "is going to start"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "26. Don't get up – I ____ (answer) the door. Put the verb in the correct tense.",
+      "answer": "will answer"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 41,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "27. He ____ (probably get) the job. Put the verb in the correct tense.",
+      "answer": "will probably get"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 42,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "28. We ____ (have) a meeting at 3. (It's in the diary.) Put the verb in the correct tense.",
+      "answer": "are going to have"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 45,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "31. I ____ (send) you the file as soon as I can. Put the verb in the correct tense.",
+      "answer": "will send"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 47,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "33. They ____ (not be) late. Put the verb in the correct tense.",
+      "answer": "won't be"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 48,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "34. I ____ (take) the 9 o'clock train. (I've got the ticket.) Put the verb in the correct tense.",
+      "answer": "am going to take"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 49,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "35. It ____ (take) about an hour. Put the verb in the correct tense.",
+      "answer": "will take"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 50,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "36. We ____ (get) married in the summer. (We've set the date.) Put the verb in the correct tense.",
+      "answer": "are going to get"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 51,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "37. I ____ (not tell) her what you said. Put the verb in the correct tense.",
+      "answer": "won't tell"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 52,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "38. He ____ (be) 30 next month. Put the verb in the correct tense.",
+      "answer": "will be"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 54,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "40. She ____ (not give) up. Put the verb in the correct tense.",
+      "answer": "won't give"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 57,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "43. We ____ (need) more time. Put the verb in the correct tense.",
+      "answer": "will need"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 58,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "44. She ____ (apply) for the job. (She's decided.) Put the verb in the correct tense.",
+      "answer": "is going to apply"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 59,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "45. I ____ (not do) that again. Put the verb in the correct tense.",
+      "answer": "won't do"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 60,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "46. They ____ (build) a new school. (Plans are approved.) Put the verb in the correct tense.",
+      "answer": "are going to build"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 20,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "9. The house _____ (build) in the 1960s. Put the verb in the correct tense.",
+      "answer": "was built"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 21,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "10. The meeting _____ (cancel) because of the storm. Put the verb in the correct tense.",
+      "answer": "was cancelled"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "12. The car _____ (repair) at the moment. Put the verb in the correct tense.",
+      "answer": "is being repaired"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "14. The form _____ (must / complete) before Friday. Put the verb in the correct tense.",
+      "answer": "must be completed"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "18. The project _____ (complete) by the end of the year. Put the verb in the correct tense.",
+      "answer": "will be completed"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 30,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "19. Coffee _____ (grow) in Brazil. Put the verb in the correct tense.",
+      "answer": "is grown"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 34,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "23. The new rules _____ (introduce) next month. Put the verb in the correct tense.",
+      "answer": "will be introduced"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "24. The window _____ (break) by the children. Put the verb in the correct tense.",
+      "answer": "was broken"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "25. The application _____ (should / submit) by email. Put the verb in the correct tense.",
+      "answer": "should be submitted"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 37,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "26. The tickets _____ (sell) out. Put the verb in the correct tense.",
+      "answer": "have been sold"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "29. The room _____ (clean) every morning. Put the verb in the correct tense.",
+      "answer": "is cleaned"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 41,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "30. The book _____ (translate) into many languages. Put the verb in the correct tense.",
+      "answer": "has been translated"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 47,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "36. The problem _____ (solve) by the team. Put the verb in the correct tense.",
+      "answer": "was solved"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 48,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "37. The film _____ (direct) by a famous director. Put the verb in the correct tense.",
+      "answer": "was directed"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 51,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "40. Tea _____ (drink) all over the world. Put the verb in the correct tense.",
+      "answer": "is drunk"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 54,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "43. The question _____ (can / answer) easily. Put the verb in the correct tense.",
+      "answer": "can be answered"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 56,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "45. The story _____ (tell) many times. Put the verb in the correct tense.",
+      "answer": "has been told"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 57,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "46. The new product _____ (launch) next month. Put the verb in the correct tense.",
+      "answer": "will be launched"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 59,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "48. The work _____ (may / delay) by the weather. Put the verb in the correct tense.",
+      "answer": "may be delayed"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "passives",
+      "setId": "set1",
+      "questionIndex": 60,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "49. The museum _____ (visit) by thousands of people every year. Put the verb in the correct tense.",
+      "answer": "is visited"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "12. She _____ (work) in the garden all afternoon. Put the verb in the correct tense.",
+      "answer": "was working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "18. I _____ (not know) the answer, so I didn't say anything. Put the verb in the correct tense.",
+      "answer": "didn't know"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "26. He _____ (not see) the sign because he was on his phone. Put the verb in the correct tense.",
+      "answer": "didn't see"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 51,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "34. I _____ (not understand) what she was saying. Put the verb in the correct tense.",
+      "answer": "didn't understand"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 53,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "36. She _____ (wear) a red dress at the party. Put the verb in the correct tense.",
+      "answer": "was wearing"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 55,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "38. He _____ (not notice) the mistake until later. Put the verb in the correct tense.",
+      "answer": "didn't notice"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_continuous",
+      "setId": "set1",
+      "questionIndex": 64,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "47. We _____ (not expect) to see you there. Put the verb in the correct tense.",
+      "answer": "didn't expect"
+    }
+  ]
 }

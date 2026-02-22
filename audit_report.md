@@ -2170,10 +2170,10 @@ You _____ ...
   - c: Perfect
   - d: Perfect continuous
 
-- **#7** correct_option: **b** | How does English differ from Czech in expressing 'time' and ...
-  - a: English uses one word per tense; Czech uses severa...
+- **#7** correct_option: **b** | How does English typically express time and aspect?
+  - a: English uses one word per tense.
   - b: English often uses auxiliaries + main verb (e.g. I...
-  - c: Czech has no aspect.
+  - c: English has no aspect.
   - d: English has no future tense.
 
 - **#8** correct_option: **a** | How do we get the 12 tense forms in English?
@@ -2218,10 +2218,10 @@ You _____ ...
   - c: Perfect
   - d: Perfect continuous
 
-- **#15** correct_option: **b** | How does English differ from Czech in expressing 'time' and ...
-  - a: English uses one word per tense; Czech uses severa...
+- **#15** correct_option: **b** | How does English typically express time and aspect?
+  - a: English uses one word per tense.
   - b: English often uses auxiliaries + main verb (e.g. I...
-  - c: Czech has no aspect.
+  - c: English has no aspect.
   - d: English has no future tense.
 
 - **#16** correct_option: **a** | How do we get the 12 tense forms in English?
@@ -2617,6 +2617,13 @@ You _____ ...
 - **questions.json** relative_pronouns/set1 [#16]: 17. This is the house ____ I was born.
 - **questions.json** relative_pronouns/set1 [#18]: 19. The man ____ I spoke to was the manager.
 - **questions.json** relative_pronouns/set1 [#19]: 20. Everything ____ he said was true.
+- **questions.json** relative_pronouns/set1 [#21]: 22. The teacher ____ taught us maths has retired.
+- **questions.json** relative_pronouns/set1 [#29]: 30. The café ____ we had lunch is closed now.
+- **questions.json** relative_pronouns/set1 [#30]: 31. Anything ____ you say may be used in court.
+- **questions.json** relative_pronouns/set1 [#35]: 36. The office ____ I work is in the centre.
+- **questions.json** relative_pronouns/set1 [#40]: 41. The town ____ I grew up has changed a lot.
+- **questions.json** relative_pronouns/set1 [#44]: 45. Nothing ____ he does surprises me anymore.
+- **questions.json** relative_pronouns/set1 [#48]: 49. The company ____ she works for is expanding.
 - **questions.json** infinitive_ing/set1 [#0]: 1. I want ____ (learn) Spanish.
 - **questions.json** infinitive_ing/set1 [#1]: 2. She enjoys ____ (read) in the evening.
 - **questions.json** infinitive_ing/set1 [#2]: 3. He decided ____ (apply) for the job.
@@ -2630,6 +2637,42 @@ You _____ ...
 - **questions.json** infinitive_ing/set1 [#17]: 3. She refused ____ (answer) the question.
 - **questions.json** infinitive_ing/set1 [#18]: 4. We're considering ____ (move) to the country.
 - **questions.json** infinitive_ing/set1 [#19]: 5. They managed ____ (finish) on time.
+- **questions.json** infinitive_ing/set1 [#20]: 6. I expect ____ (hear) from him soon.
+- **questions.json** infinitive_ing/set1 [#21]: 7. She offered ____ (help) us with the move.
+- **questions.json** infinitive_ing/set1 [#22]: 8. He admitted ____ (make) a mistake.
+- **questions.json** infinitive_ing/set1 [#23]: 9. We plan ____ (visit) Prague next year.
+- **questions.json** infinitive_ing/set1 [#24]: 10. I dislike ____ (wait) in queues.
+- **questions.json** infinitive_ing/set1 [#25]: 11. She pretended ____ (be) ill.
+- **questions.json** infinitive_ing/set1 [#26]: 12. They risk ____ (lose) everything.
+- **questions.json** infinitive_ing/set1 [#27]: 13. He failed ____ (pass) the exam.
+- **questions.json** infinitive_ing/set1 [#28]: 14. I keep ____ (forget) his name.
+- **questions.json** infinitive_ing/set1 [#29]: 15. She intends ____ (apply) for the job.
+- **questions.json** infinitive_ing/set1 [#32]: 18. He tends ____ (arrive) late.
+- **questions.json** infinitive_ing/set1 [#33]: 19. I miss ____ (see) my family.
+- **questions.json** infinitive_ing/set1 [#34]: 20. She chose ____ (stay) at home.
+- **questions.json** infinitive_ing/set1 [#35]: 21. They delayed ____ (pay) the bill.
+- **questions.json** infinitive_ing/set1 [#36]: 22. He deserves ____ (win) the prize.
+- **questions.json** infinitive_ing/set1 [#37]: 23. I fancy ____ (go) out tonight.
+- **questions.json** infinitive_ing/set1 [#38]: 24. We need ____ (book) the tickets soon.
+- **questions.json** infinitive_ing/set1 [#39]: 25. She enjoys ____ (swim) in the sea.
+- **questions.json** infinitive_ing/set1 [#42]: 28. I recommend ____ (try) the local food.
+- **questions.json** infinitive_ing/set1 [#43]: 29. They afford ____ (buy) a new car.
+- **questions.json** infinitive_ing/set1 [#44]: 30. She avoids ____ (drive) at night.
+- **questions.json** infinitive_ing/set1 [#45]: 31. We would like ____ (invite) you to the party.
+- **questions.json** infinitive_ing/set1 [#46]: 32. He admitted ____ (break) the window.
+- **questions.json** infinitive_ing/set1 [#48]: 34. I prefer ____ (walk) to cycling.
+- **questions.json** infinitive_ing/set1 [#49]: 35. They decided ____ (postpone) the meeting.
+- **questions.json** infinitive_ing/set1 [#51]: 37. He appears ____ (be) very tired.
+- **questions.json** infinitive_ing/set1 [#52]: 38. I've finished ____ (read) the report.
+- **questions.json** infinitive_ing/set1 [#53]: 39. We aim ____ (finish) by Friday.
+- **questions.json** infinitive_ing/set1 [#54]: 40. She denied ____ (see) him that day.
+- **questions.json** infinitive_ing/set1 [#56]: 42. He seems ____ (know) the answer.
+- **questions.json** infinitive_ing/set1 [#57]: 43. I don't mind ____ (wait) a bit longer.
+- **questions.json** infinitive_ing/set1 [#58]: 44. They attempted ____ (climb) the mountain.
+- **questions.json** infinitive_ing/set1 [#59]: 45. She gave up ____ (smoke) last year.
+- **questions.json** infinitive_ing/set1 [#60]: 46. We hope ____ (visit) you soon.
+- **questions.json** infinitive_ing/set1 [#61]: 47. He postponed ____ (tell) her the news.
+- **questions.json** infinitive_ing/set1 [#62]: 48. I'd love ____ (come) to your wedding.
 - **questions.json** comparatives/set1 [#0]: 1. My sister is ____ (tall) me.
 - **questions.json** comparatives/set1 [#1]: 2. This exercise is ____ (easy) the last one.
 - **questions.json** comparatives/set1 [#2]: 3. London is ____ (big) Prague.
@@ -2643,7 +2686,35 @@ You _____ ...
 - **questions.json** comparatives/set1 [#17]: 18. She is ____ (tall) girl in the class.
 - **questions.json** comparatives/set1 [#18]: 19. This is ____ (good) restaurant in town.
 - **questions.json** comparatives/set1 [#19]: 20. That was the ____ (bad) exam I've ever done.
+- **questions.json** comparatives/set1 [#20]: 21. This room is ____ (cold) the one next door.
+- **questions.json** comparatives/set1 [#21]: 22. She speaks ____ (fluently) her sister.
+- **questions.json** comparatives/set1 [#22]: 23. It was ____ (expensive) I expected.
+- **questions.json** comparatives/set1 [#23]: 24. He is ____ (young) person in the team.
+- **questions.json** comparatives/set1 [#24]: 25. This road is ____ (busy) it was last year.
+- **questions.json** comparatives/set1 [#25]: 26. She works ____ (hard) anyone else.
+- **questions.json** comparatives/set1 [#26]: 27. This is ____ (far) I've ever run.
+- **questions.json** comparatives/set1 [#28]: 29. He drives ____ (fast) he should.
+- **questions.json** comparatives/set1 [#31]: 32. This bag is ____ (heavy) that one.
+- **questions.json** comparatives/set1 [#32]: 33. It was ____ (bad) day of my life.
+- **questions.json** comparatives/set1 [#33]: 34. He runs ____ (slowly) his brother.
+- **questions.json** comparatives/set1 [#34]: 35. This is ____ (cheap) option.
+- **questions.json** comparatives/set1 [#35]: 36. The weather is ____ (nice) it was last week.
+- **questions.json** comparatives/set1 [#36]: 37. She sings ____ (beautifully) anyone I know.
+- **questions.json** comparatives/set1 [#37]: 38. This test is ____ (simple) the previous one.
+- **questions.json** comparatives/set1 [#38]: 39. He is ____ (tall) boy in the school.
+- **questions.json** comparatives/set1 [#39]: 40. The journey took ____ (long) we thought.
+- **questions.json** comparatives/set1 [#40]: 41. She is ____ (old) her husband.
+- **questions.json** comparatives/set1 [#41]: 42. This is ____ (interesting) book I've read.
+- **questions.json** comparatives/set1 [#42]: 43. He speaks ____ (quietly) his sister.
+- **questions.json** comparatives/set1 [#43]: 44. The situation got ____ (bad) as time went on.
+- **questions.json** comparatives/set1 [#44]: 45. She is ____ (pretty) girl in the class.
+- **questions.json** comparatives/set1 [#45]: 46. This car is ____ (reliable) the old one.
+- **questions.json** comparatives/set1 [#48]: 49. She is ____ (careful) driver I know.
 - **questions.json** quantifiers/set1 [#1]: 2. Do you have _____ sugar? (Fill in the blank.)
+- **questions.json** quantifiers/set1 [#32]: 34. We need _____ more time. (Fill in the blank.)
+- **questions.json** quantifiers/set1 [#43]: 45. We have _____ options. (Fill in the blank.)
+- **questions.json** quantifiers/set1 [#44]: 46. There isn't _____ bread. (Fill in the blank.)
+- **questions.json** quantifiers/set1 [#46]: 48. I need _____ help. (Fill in the blank.)
 - **questions.json** phrasal_verbs/set1 [#0]: 1. Please go _____ with your work. (continue)
 - **questions.json** phrasal_verbs/set1 [#2]: 3. We set _____ a meeting for Monday. (arranged)
 - **questions.json** phrasal_verbs/set1 [#3]: 4. I'll pick you _____ at seven. (collect)
@@ -2803,5 +2874,228 @@ You _____ ...
 
 ## 5. Ambiguity (blank could be multiple answers without context)
 
-None.
-
+- **questions.json** sets/set1 [#19] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 20. She ____ (work) on this project for three months. Put the verb in the correct tense.
+  - Expected answer: has been working
+- **questions.json** sets/set1 [#21] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 22. How long ____ you ____ (know) your best friend? Put the verb in the correct tense.
+  - Expected answer: have you known
+- **questions.json** sets/set1 [#23] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 24. Your hands are dirty. ____ you ____ (work) in the garden? Put the verb in the correct tense.
+  - Expected answer: have you been working
+- **questions.json** sets/set1 [#24] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 25. He ____ (write) six emails this morning. Put the verb in the correct tense.
+  - Expected answer: has written
+- **questions.json** sets/set1 [#25] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 26. We ____ (wait) for the bus for 20 minutes. Put the verb in the correct tense.
+  - Expected answer: have been waiting
+- **questions.json** sets/set1 [#29] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 30. The children ____ (play) in the garden all afternoon. Put the verb in the correct tense.
+  - Expected answer: have been playing
+- **questions.json** sets/set1 [#31] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 32. She ____ (teach) at this school for ten years. Put the verb in the correct tense.
+  - Expected answer: has been teaching
+- **questions.json** sets/set1 [#33] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 34. How many times ____ you ____ (see) that film? Put the verb in the correct tense.
+  - Expected answer: have you seen
+- **questions.json** sets/set1 [#34] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 35. He ____ (look) for his keys for the last half hour. Put the verb in the correct tense.
+  - Expected answer: has been looking
+- **questions.json** sets/set1 [#37] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 38. I ____ (always want) to learn the piano. Put the verb in the correct tense.
+  - Expected answer: have always wanted
+- **questions.json** sets/set1 [#40] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 41. How long ____ she ____ (work) here? Put the verb in the correct tense.
+  - Expected answer: has she been working
+- **questions.json** sets/set1 [#43] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 44. He ____ (sleep) badly recently. Put the verb in the correct tense.
+  - Expected answer: has been sleeping
+- **questions.json** past_simple_present_perfect/set1 [#26] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 27. How long ____ you ____ (have) this phone? Put the verb in the correct tense.
+  - Expected answer: have you had
+- **questions.json** past_simple_present_perfect/set1 [#27] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 28. He ____ (leave) the office at 6 pm. Put the verb in the correct tense.
+  - Expected answer: left
+- **questions.json** past_simple_present_perfect/set1 [#29] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 30. I ____ (go) to the cinema last Saturday. Put the verb in the correct tense.
+  - Expected answer: went
+- **questions.json** past_simple_present_perfect/set1 [#35] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 36. He ____ (work) for this company for ten years. Put the verb in the correct tense.
+  - Expected answer: has worked
+- **questions.json** past_simple_present_perfect/set1 [#36] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 37. We ____ (meet) at the conference in Berlin. Put the verb in the correct tense.
+  - Expected answer: met
+- **questions.json** past_simple_present_perfect/set1 [#40] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 41. They ____ (be) together for three years. Put the verb in the correct tense.
+  - Expected answer: have been
+- **questions.json** past_simple_present_perfect/set1 [#41] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 42. The train ____ (leave) at 9 am. Put the verb in the correct tense.
+  - Expected answer: left
+- **questions.json** past_simple_present_perfect/set1 [#44] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 45. How long ____ they ____ (be) married? Put the verb in the correct tense.
+  - Expected answer: have they been
+- **questions.json** past_simple_present_perfect/set1 [#47] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 48. We ____ (have) lunch at that café last Tuesday. Put the verb in the correct tense.
+  - Expected answer: had
+- **questions.json** will_going_to/set1 [#20] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 6. We ____ (have) a party next Saturday. (We've booked the hall.) Put the verb in the correct tense.
+  - Expected answer: are going to have
+- **questions.json** will_going_to/set1 [#23] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 9. Don't worry – I ____ (help) you. Put the verb in the correct tense.
+  - Expected answer: will help
+- **questions.json** will_going_to/set1 [#24] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 10. Look at the traffic – we ____ (be) late. Put the verb in the correct tense.
+  - Expected answer: are going to be
+- **questions.json** will_going_to/set1 [#25] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 11. I ____ (probably stay) at home tonight. Put the verb in the correct tense.
+  - Expected answer: will probably stay
+- **questions.json** will_going_to/set1 [#26] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 12. They ____ (fly) to Rome next month. (Tickets are booked.) Put the verb in the correct tense.
+  - Expected answer: are going to fly
+- **questions.json** will_going_to/set1 [#27] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 13. I ____ (not forget) what you said. Put the verb in the correct tense.
+  - Expected answer: won't forget
+- **questions.json** will_going_to/set1 [#28] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 14. Be careful – you ____ (drop) that glass. Put the verb in the correct tense.
+  - Expected answer: are going to drop
+- **questions.json** will_going_to/set1 [#30] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 16. I ____ (give) you a hand with that. Put the verb in the correct tense.
+  - Expected answer: will give
+- **questions.json** will_going_to/set1 [#35] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 21. The weather forecast says it ____ (rain) at the weekend. Put the verb in the correct tense.
+  - Expected answer: will rain
+- **questions.json** will_going_to/set1 [#36] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 22. I ____ (pay) for the coffee. Put the verb in the correct tense.
+  - Expected answer: will pay
+- **questions.json** will_going_to/set1 [#38] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 24. I ____ (try) my best. Put the verb in the correct tense.
+  - Expected answer: will try
+- **questions.json** will_going_to/set1 [#39] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 25. She ____ (start) her new job on Monday. (Contract signed.) Put the verb in the correct tense.
+  - Expected answer: is going to start
+- **questions.json** will_going_to/set1 [#40] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 26. Don't get up – I ____ (answer) the door. Put the verb in the correct tense.
+  - Expected answer: will answer
+- **questions.json** will_going_to/set1 [#41] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 27. He ____ (probably get) the job. Put the verb in the correct tense.
+  - Expected answer: will probably get
+- **questions.json** will_going_to/set1 [#42] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 28. We ____ (have) a meeting at 3. (It's in the diary.) Put the verb in the correct tense.
+  - Expected answer: are going to have
+- **questions.json** will_going_to/set1 [#45] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 31. I ____ (send) you the file as soon as I can. Put the verb in the correct tense.
+  - Expected answer: will send
+- **questions.json** will_going_to/set1 [#47] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 33. They ____ (not be) late. Put the verb in the correct tense.
+  - Expected answer: won't be
+- **questions.json** will_going_to/set1 [#48] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 34. I ____ (take) the 9 o'clock train. (I've got the ticket.) Put the verb in the correct tense.
+  - Expected answer: am going to take
+- **questions.json** will_going_to/set1 [#49] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 35. It ____ (take) about an hour. Put the verb in the correct tense.
+  - Expected answer: will take
+- **questions.json** will_going_to/set1 [#50] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 36. We ____ (get) married in the summer. (We've set the date.) Put the verb in the correct tense.
+  - Expected answer: are going to get
+- **questions.json** will_going_to/set1 [#51] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 37. I ____ (not tell) her what you said. Put the verb in the correct tense.
+  - Expected answer: won't tell
+- **questions.json** will_going_to/set1 [#52] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 38. He ____ (be) 30 next month. Put the verb in the correct tense.
+  - Expected answer: will be
+- **questions.json** will_going_to/set1 [#54] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 40. She ____ (not give) up. Put the verb in the correct tense.
+  - Expected answer: won't give
+- **questions.json** will_going_to/set1 [#57] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 43. We ____ (need) more time. Put the verb in the correct tense.
+  - Expected answer: will need
+- **questions.json** will_going_to/set1 [#58] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 44. She ____ (apply) for the job. (She's decided.) Put the verb in the correct tense.
+  - Expected answer: is going to apply
+- **questions.json** will_going_to/set1 [#59] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 45. I ____ (not do) that again. Put the verb in the correct tense.
+  - Expected answer: won't do
+- **questions.json** will_going_to/set1 [#60] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 46. They ____ (build) a new school. (Plans are approved.) Put the verb in the correct tense.
+  - Expected answer: are going to build
+- **questions.json** passives/set1 [#20] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 9. The house _____ (build) in the 1960s. Put the verb in the correct tense.
+  - Expected answer: was built
+- **questions.json** passives/set1 [#21] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 10. The meeting _____ (cancel) because of the storm. Put the verb in the correct tense.
+  - Expected answer: was cancelled
+- **questions.json** passives/set1 [#23] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 12. The car _____ (repair) at the moment. Put the verb in the correct tense.
+  - Expected answer: is being repaired
+- **questions.json** passives/set1 [#25] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 14. The form _____ (must / complete) before Friday. Put the verb in the correct tense.
+  - Expected answer: must be completed
+- **questions.json** passives/set1 [#29] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 18. The project _____ (complete) by the end of the year. Put the verb in the correct tense.
+  - Expected answer: will be completed
+- **questions.json** passives/set1 [#30] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 19. Coffee _____ (grow) in Brazil. Put the verb in the correct tense.
+  - Expected answer: is grown
+- **questions.json** passives/set1 [#34] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 23. The new rules _____ (introduce) next month. Put the verb in the correct tense.
+  - Expected answer: will be introduced
+- **questions.json** passives/set1 [#35] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 24. The window _____ (break) by the children. Put the verb in the correct tense.
+  - Expected answer: was broken
+- **questions.json** passives/set1 [#36] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 25. The application _____ (should / submit) by email. Put the verb in the correct tense.
+  - Expected answer: should be submitted
+- **questions.json** passives/set1 [#37] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 26. The tickets _____ (sell) out. Put the verb in the correct tense.
+  - Expected answer: have been sold
+- **questions.json** passives/set1 [#40] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 29. The room _____ (clean) every morning. Put the verb in the correct tense.
+  - Expected answer: is cleaned
+- **questions.json** passives/set1 [#41] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 30. The book _____ (translate) into many languages. Put the verb in the correct tense.
+  - Expected answer: has been translated
+- **questions.json** passives/set1 [#47] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 36. The problem _____ (solve) by the team. Put the verb in the correct tense.
+  - Expected answer: was solved
+- **questions.json** passives/set1 [#48] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 37. The film _____ (direct) by a famous director. Put the verb in the correct tense.
+  - Expected answer: was directed
+- **questions.json** passives/set1 [#51] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 40. Tea _____ (drink) all over the world. Put the verb in the correct tense.
+  - Expected answer: is drunk
+- **questions.json** passives/set1 [#54] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 43. The question _____ (can / answer) easily. Put the verb in the correct tense.
+  - Expected answer: can be answered
+- **questions.json** passives/set1 [#56] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 45. The story _____ (tell) many times. Put the verb in the correct tense.
+  - Expected answer: has been told
+- **questions.json** passives/set1 [#57] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 46. The new product _____ (launch) next month. Put the verb in the correct tense.
+  - Expected answer: will be launched
+- **questions.json** passives/set1 [#59] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 48. The work _____ (may / delay) by the weather. Put the verb in the correct tense.
+  - Expected answer: may be delayed
+- **questions.json** passives/set1 [#60] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 49. The museum _____ (visit) by thousands of people every year. Put the verb in the correct tense.
+  - Expected answer: is visited
+- **questions.json** past_simple_continuous/set1 [#29] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 12. She _____ (work) in the garden all afternoon. Put the verb in the correct tense.
+  - Expected answer: was working
+- **questions.json** past_simple_continuous/set1 [#35] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 18. I _____ (not know) the answer, so I didn't say anything. Put the verb in the correct tense.
+  - Expected answer: didn't know
+- **questions.json** past_simple_continuous/set1 [#43] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 26. He _____ (not see) the sign because he was on his phone. Put the verb in the correct tense.
+  - Expected answer: didn't see
+- **questions.json** past_simple_continuous/set1 [#51] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 34. I _____ (not understand) what she was saying. Put the verb in the correct tense.
+  - Expected answer: didn't understand
+- **questions.json** past_simple_continuous/set1 [#53] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 36. She _____ (wear) a red dress at the party. Put the verb in the correct tense.
+  - Expected answer: was wearing
+- **questions.json** past_simple_continuous/set1 [#55] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 38. He _____ (not notice) the mistake until later. Put the verb in the correct tense.
+  - Expected answer: didn't notice
+- **questions.json** past_simple_continuous/set1 [#64] (ambiguity_tense): Verb tense blank with no time reference (past/present/future unclear).
+  - 47. We _____ (not expect) to see you there. Put the verb in the correct tense.
+  - Expected answer: didn't expect

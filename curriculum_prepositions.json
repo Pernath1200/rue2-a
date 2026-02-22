@@ -3,68 +3,196 @@
     "title": "Prepositions",
     "sections": [
       {
-        "title": "What are prepositions?",
-        "content": "**Prepositions** are short words that link a noun (or noun phrase) to the rest of the sentence. They show the **relationship** between things: when, where, how, why, or in what way.\n\nThey answer questions like: **When?** (at 5 o'clock, on Monday). **Where?** (in the room, on the table, at the door). **Where to/from?** (to the station, from London). **How?** (by train, with a knife). **What about?** (talk about the project).\n\nEnglish often uses different prepositions than other languages – so don't translate word for word. Learn the English pattern (e.g. **in** the morning, **at** night)."
+        "title": "What are prepositions? (1)",
+        "content": "**Prepositions** are short words that link a noun (or noun phrase) to the rest of the sentence. They show the **relationship** between things: when, where, how, why, or in what way."
       },
       {
-        "title": "Types of prepositions: Time",
-        "content": "Prepositions of **time** tell us when something happens.\n\n• **at** + clock time: at 5 o'clock, at noon, at midnight\n• **on** + day or date: on Monday, on 15th March\n• **in** + month, year, or period: in August, in 2020, in the morning\n• **for** + duration: for two hours, for a week\n• **since** + start of a period (until now): since 2020, since Monday\n• **by** = no later than: by Friday, by 5 pm\n• **until** = up to a time: until tomorrow, until midnight\n• **during** = within a period: during the meeting, during the film\n• **before** / **after**: before dinner, after the lesson",
+        "title": "What are prepositions? (2)",
+        "content": "They answer questions like: **When?** (at 5 o'clock, on Monday). **Where?** (in the room, on the table, at the door). **Where to/from?** (to the station, from London). **How?** (by train, with a knife). **What about?** (talk about the project)."
+      },
+      {
+        "title": "What are prepositions? (2)",
+        "content": "English often uses different prepositions than other languages – so don't translate word for word. Learn the English pattern (e.g. **in** the morning, **at** night)."
+      },
+      {
+        "title": "Types of prepositions: Time (1)",
+        "content": "Prepositions of **time** tell us when something happens.\n\n• **at** + clock time: at 5 o'clock, at noon, at midnight\n• **on** + day or date: on Monday, on 15th March\n• **in** + month, year, or period: in August, in 2020, in the morning\n• **for** + duration: for two hours, for a week\n• **since** + start of a period (until now): since 2020, since Monday"
+      },
+      {
+        "title": "Types of prepositions: Time (2)",
+        "content": "• **by** = no later than: by Friday, by 5 pm\n• **until** = up to a time: until tomorrow, until midnight\n• **during** = within a period: during the meeting, during the film\n• **before** / **after**: before dinner, after the lesson",
         "diagram": {
           "type": "table",
           "title": "at / on / in for time",
-          "headers": ["Preposition", "Used with", "Example"],
+          "headers": [
+            "Preposition",
+            "Used with",
+            "Example"
+          ],
           "rows": [
-            ["**at**", "Clock time, night, weekend", "at 5 o'clock, at noon"],
-            ["**on**", "Days, dates", "on Monday, on 15th March"],
-            ["**in**", "Months, years, periods", "in August, in the morning"]
+            [
+              "**at**",
+              "Clock time, night, weekend",
+              "at 5 o'clock, at noon"
+            ],
+            [
+              "**on**",
+              "Days, dates",
+              "on Monday, on 15th March"
+            ],
+            [
+              "**in**",
+              "Months, years, periods",
+              "in August, in the morning"
+            ]
           ]
         }
       },
       {
-        "title": "Types of prepositions: Place and position",
-        "content": "Prepositions of **place** tell us where something is or where it happens.\n\n• **in** = inside: in the box, in the room, in London\n• **on** = on a surface: on the table, on the wall, on the floor\n• **at** = at a point or place: at the door, at the bus stop, at home\n• **above** / **below** = higher or lower than: above the clouds, below zero\n• **under** = underneath: under the table, under the bridge\n• **behind** / **in front of**: behind the door, in front of the house\n• **between** = in the middle of two: between you and me, between 9 and 10\n• **among** = within a group: among friends, among the crowd\n• **near** = close to: near the station\n• **beside** / **next to** = at the side of: beside the window",
+        "title": "Types of prepositions: Place and position (1)",
+        "content": "Prepositions of **place** tell us where something is or where it happens.\n\n• **in** = inside: in the box, in the room, in London\n• **on** = on a surface: on the table, on the wall, on the floor\n• **at** = at a point or place: at the door, at the bus stop, at home\n• **above** / **below** = higher or lower than: above the clouds, below zero\n• **under** = underneath: under the table, under the bridge"
+      },
+      {
+        "title": "Types of prepositions: Place and position (2)",
+        "content": "• **behind** / **in front of**: behind the door, in front of the house\n• **between** = in the middle of two: between you and me, between 9 and 10\n• **among** = within a group: among friends, among the crowd\n• **near** = close to: near the station\n• **beside** / **next to** = at the side of: beside the window",
         "diagram": {
           "type": "table",
           "title": "at / on / in for place",
-          "headers": ["Preposition", "Meaning", "Example"],
+          "headers": [
+            "Preposition",
+            "Meaning",
+            "Example"
+          ],
           "rows": [
-            ["**in**", "Inside / enclosed", "in the box, in London"],
-            ["**on**", "On a surface", "on the table, on the wall"],
-            ["**at**", "At a point / place", "at the door, at the bus stop"]
+            [
+              "**in**",
+              "Inside / enclosed",
+              "in the box, in London"
+            ],
+            [
+              "**on**",
+              "On a surface",
+              "on the table, on the wall"
+            ],
+            [
+              "**at**",
+              "At a point / place",
+              "at the door, at the bus stop"
+            ]
           ]
         }
       },
       {
-        "title": "Types of prepositions: Movement and direction",
-        "content": "Prepositions of **movement** or **direction** show where something goes or comes from.\n\n• **to** = towards a place: go to school, walk to the station\n• **from** = origin: from London, from the shop\n• **into** = movement inside: go into the room, get into the car\n• **out of** = exit: get out of the car, out of the room\n• **through** = from one side to the other (inside): through the tunnel, through the park\n• **across** = from one side to the other (surface): across the road, across the bridge\n• **along** = following a line: along the river, along the street\n• **up** / **down**: up the stairs, down the hill\n• **towards** = in the direction of: towards the city\n• **over** = above and across: over the bridge, over the wall"
+        "title": "Types of prepositions: Movement and direction (1)",
+        "content": "Prepositions of **movement** or **direction** show where something goes or comes from."
       },
       {
-        "title": "Types of prepositions: Other uses",
-        "content": "Prepositions also express **means**, **instrument**, **topic**, **purpose**, **cause**, and similar ideas.\n\n• **by** + means: by train, by car, written by hand\n• **with** = together with or using: with a friend, cut with a knife\n• **without** = not having: without money, without help\n• **about** = on the topic of: talk about the project, a film about war\n• **for** = purpose or recipient: for you, for the meeting, reason for the delay\n• **of** = belonging to, part of, made of: the capital of France, cup of tea, made of wood\n• **as** = in the role of: work as a teacher\n• **like** = similar to: look like, sound like"
+        "title": "Types of prepositions: Movement and direction (2)",
+        "content": "• **to** = towards a place: go to school, walk to the station\n• **from** = origin: from London, from the shop\n• **into** = movement inside: go into the room, get into the car\n• **out of** = exit: get out of the car, out of the room\n• **through** = from one side to the other (inside): through the tunnel, through the park"
       },
       {
-        "title": "Dependent prepositions – what they are",
-        "content": "Some verbs, nouns, and adjectives in English are **always or usually followed by a particular preposition**. You cannot freely choose another one. These are called **dependent prepositions**.\n\nFor example: we say **interested in** (not *interested on*), **good at** (not *good in*), **depend on** (not *depend from*). The preposition is \"fixed\" with that word.\n\nThere is no simple rule – you need to **learn each combination**. The next pages give examples with verbs, nouns, and adjectives. Practice and reference lists will help you remember them."
+        "title": "Types of prepositions: Movement and direction (2)",
+        "content": "• **across** = from one side to the other (surface): across the road, across the bridge\n• **along** = following a line: along the river, along the street\n• **up** / **down**: up the stairs, down the hill\n• **towards** = in the direction of: towards the city\n• **over** = above and across: over the bridge, over the wall"
       },
       {
-        "title": "Dependent prepositions with verbs",
-        "content": "Many verbs are followed by a fixed preposition before the object.\n\n• **depend on** something/someone: It depends on the weather.\n• **listen to** something: Listen to the radio.\n• **wait for** someone/something: We're waiting for the bus.\n• **look for** something: I'm looking for my keys.\n• **apologise for** something: She apologised for being late.\n• **apply for** something: He applied for the job.\n• **believe in** something: I believe in justice.\n• **complain about** something: They complained about the noise.\n• **insist on** something: She insisted on paying.\n• **focus on** something: Focus on the main point.\n• **suffer from** something: He suffers from headaches.\n• **accuse someone of** something: They accused him of lying.\n\nWrong: depend *from*, interested *on*, good *in*. Learn the correct pair. A full word list (50 examples) is on **Reference → Dependent prepositions: Verbs**."
+        "title": "Types of prepositions: Other uses (1)",
+        "content": "Prepositions also express **means**, **instrument**, **topic**, **purpose**, **cause**, and similar ideas."
       },
       {
-        "title": "Dependent prepositions with nouns",
-        "content": "Many nouns are followed by a fixed preposition when they are used with a complement.\n\n• **reason for** something: What's the reason for the delay?\n• **solution to** a problem: We need a solution to the problem.\n• **answer to** a question: the answer to the question\n• **increase in** something: an increase in prices\n• **relationship with** someone: a good relationship with her boss\n• **interest in** something: an interest in art\n• **fear of** something: a fear of flying\n• **demand for** something: a demand for better transport\n• **complaint about** something: a complaint about the service\n• **experience in** something: experience in teaching\n• **difference between** A and B: the difference between the two versions\n\nThese patterns often mirror the verb (e.g. interested in → interest in; depend on → dependence on). A full word list (50 examples) is on **Reference → Dependent prepositions: Nouns**."
+        "title": "Types of prepositions: Other uses (1)",
+        "content": "• **by** + means: by train, by car, written by hand\n• **with** = together with or using: with a friend, cut with a knife\n• **without** = not having: without money, without help\n• **about** = on the topic of: talk about the project, a film about war\n• **for** = purpose or recipient: for you, for the meeting, reason for the delay"
       },
       {
-        "title": "Dependent prepositions with adjectives",
-        "content": "Many adjectives are followed by a fixed preposition when they describe someone or something in relation to another idea.\n\n• **interested in** something: I'm interested in history.\n• **good at** something (skill): She's good at maths. **good for** (beneficial): Exercise is good for you. **good with** (people/tools): She's good with children.\n• **bad at** something: He's bad at remembering names.\n• **afraid of** something: She's afraid of spiders.\n• **proud of** someone/something: He's proud of his daughter.\n• **tired of** something (bored): I'm tired of waiting. **tired from** (physically): I'm tired from the journey.\n• **responsible for** something (task): She's responsible for the project. **responsible to** someone (answerable to): The manager is responsible to the board.\n• **worried about** something: We're worried about the results.\n• **keen on** something: They're keen on starting soon.\n• **capable of** something: She's capable of doing the job.\n• **famous for** something: He's famous for his novels.\n• **allergic to** something: I'm allergic to nuts.\n• **grateful for** something: We're grateful for your help.\n• **familiar with** something: Are you familiar with the system?\n\nLearn each phrase as a chunk. Where the same word takes different prepositions (e.g. responsible for vs responsible to), the meaning changes – see **Reference → Dependent prepositions: Adjectives** for a full list (50 examples)."
+        "title": "Types of prepositions: Other uses (2)",
+        "content": "• **of** = belonging to, part of, made of: the capital of France, cup of tea, made of wood\n• **as** = in the role of: work as a teacher\n• **like** = similar to: look like, sound like"
       },
       {
-        "title": "Prepositions in phrasal verbs",
-        "content": "Many **phrasal verbs** are made of a verb + a **particle** that looks like a preposition (on, off, up, down, in, out, through, etc.). The particle often loses its literal meaning – the **whole phrase** has a single meaning.\n\nExamples:\n• **put on** (clothes): Put on your coat.\n• **take off** (clothes; leave the ground): Take off your shoes. The plane took off.\n• **give up** (stop trying): Don't give up.\n• **look after** (take care of): She looks after the children.\n• **turn on** / **turn off** (switch): Turn on the light.\n• **find out** (discover): I found out the truth.\n\nYou cannot guess the meaning from the verb and preposition alone – **phrasal verbs must be learned**. For the **Phrasal verbs** topic in this course, see its intro and practice; for a full list and definitions, use **Reference → Phrasal verb dictionary** (reference sheet)."
+        "title": "Dependent prepositions – what they are (1)",
+        "content": "Some verbs, nouns, and adjectives in English are **always or usually followed by a particular preposition**. You cannot freely choose another one. These are called **dependent prepositions**."
       },
       {
-        "title": "Prepositions in compound nouns",
-        "content": "Sometimes a **preposition** (or a word that looks like one) is part of a **compound noun**. The result is a single word or fixed phrase.\n\nExamples:\n• **input** (what you put in; data or advice)\n• **output** (what comes out; results or products)\n• **outlook** (view or prospect: a positive outlook)\n• **income** (money that comes in)\n• **outcome** (the result)\n• **bypass** (a road that goes past a place)\n• **overview** (a general view)\n\nHere the \"preposition\" is not used separately in the same way – it's part of the word. Learning these as **vocabulary** (compound nouns) helps you use them correctly. A word list (50 examples) is on **Reference → Preposition + verb compound nouns**."
+        "title": "Dependent prepositions – what they are (2)",
+        "content": "For example: we say **interested in** (not *interested on*), **good at** (not *good in*), **depend on** (not *depend from*). The preposition is \"fixed\" with that word.\n\nThere is no simple rule – you need to **learn each combination**. The next pages give examples with verbs, nouns, and adjectives. Practice and reference lists will help you remember them."
+      },
+      {
+        "title": "Dependent prepositions with verbs (1)",
+        "content": "Many verbs are followed by a fixed preposition before the object."
+      },
+      {
+        "title": "Dependent prepositions with verbs (1)",
+        "content": "• **depend on** something/someone: It depends on the weather.\n• **listen to** something: Listen to the radio.\n• **wait for** someone/something: We're waiting for the bus.\n• **look for** something: I'm looking for my keys.\n• **apologise for** something: She apologised for being late.\n• **apply for** something: He applied for the job."
+      },
+      {
+        "title": "Dependent prepositions with verbs (2)",
+        "content": "• **believe in** something: I believe in justice.\n• **complain about** something: They complained about the noise.\n• **insist on** something: She insisted on paying.\n• **focus on** something: Focus on the main point.\n• **suffer from** something: He suffers from headaches.\n• **accuse someone of** something: They accused him of lying."
+      },
+      {
+        "title": "Dependent prepositions with verbs (2)",
+        "content": "Wrong: depend *from*, interested *on*, good *in*. Learn the correct pair. A full word list (50 examples) is on **Reference → Dependent prepositions: Verbs**."
+      },
+      {
+        "title": "Dependent prepositions with nouns (1)",
+        "content": "Many nouns are followed by a fixed preposition when they are used with a complement."
+      },
+      {
+        "title": "Dependent prepositions with nouns (1)",
+        "content": "• **reason for** something: What's the reason for the delay?\n• **solution to** a problem: We need a solution to the problem.\n• **answer to** a question: the answer to the question\n• **increase in** something: an increase in prices\n• **relationship with** someone: a good relationship with her boss\n• **interest in** something: an interest in art"
+      },
+      {
+        "title": "Dependent prepositions with nouns (2)",
+        "content": "• **fear of** something: a fear of flying\n• **demand for** something: a demand for better transport\n• **complaint about** something: a complaint about the service\n• **experience in** something: experience in teaching\n• **difference between** A and B: the difference between the two versions"
+      },
+      {
+        "title": "Dependent prepositions with nouns (2)",
+        "content": "These patterns often mirror the verb (e.g. interested in → interest in; depend on → dependence on). A full word list (50 examples) is on **Reference → Dependent prepositions: Nouns**."
+      },
+      {
+        "title": "Dependent prepositions with adjectives (1)",
+        "content": "Many adjectives are followed by a fixed preposition when they describe someone or something in relation to another idea."
+      },
+      {
+        "title": "Dependent prepositions with adjectives (1)",
+        "content": "• **interested in** something: I'm interested in history.\n• **good at** something (skill): She's good at maths. **good for** (beneficial): Exercise is good for you. **good with** (people/tools): She's good with children.\n• **bad at** something: He's bad at remembering names.\n• **afraid of** something: She's afraid of spiders.\n• **proud of** someone/something: He's proud of his daughter."
+      },
+      {
+        "title": "Dependent prepositions with adjectives (2)",
+        "content": "• **tired of** something (bored): I'm tired of waiting. **tired from** (physically): I'm tired from the journey.\n• **responsible for** something (task): She's responsible for the project. **responsible to** someone (answerable to): The manager is responsible to the board."
+      },
+      {
+        "title": "Dependent prepositions with adjectives (1)",
+        "content": "• **worried about** something: We're worried about the results.\n• **keen on** something: They're keen on starting soon.\n• **capable of** something: She's capable of doing the job.\n• **famous for** something: He's famous for his novels."
+      },
+      {
+        "title": "Dependent prepositions with adjectives (2)",
+        "content": "• **allergic to** something: I'm allergic to nuts.\n• **grateful for** something: We're grateful for your help.\n• **familiar with** something: Are you familiar with the system?"
+      },
+      {
+        "title": "Dependent prepositions with adjectives (2)",
+        "content": "Learn each phrase as a chunk. Where the same word takes different prepositions (e.g. responsible for vs responsible to), the meaning changes – see **Reference → Dependent prepositions: Adjectives** for a full list (50 examples)."
+      },
+      {
+        "title": "Prepositions in phrasal verbs (1)",
+        "content": "Many **phrasal verbs** are made of a verb + a **particle** that looks like a preposition (on, off, up, down, in, out, through, etc.). The particle often loses its literal meaning – the **whole phrase** has a single meaning."
+      },
+      {
+        "title": "Prepositions in phrasal verbs (2)",
+        "content": "Examples:\n• **put on** (clothes): Put on your coat.\n• **take off** (clothes; leave the ground): Take off your shoes. The plane took off.\n• **give up** (stop trying): Don't give up.\n• **look after** (take care of): She looks after the children.\n• **turn on** / **turn off** (switch): Turn on the light.\n• **find out** (discover): I found out the truth."
+      },
+      {
+        "title": "Prepositions in phrasal verbs (2)",
+        "content": "You cannot guess the meaning from the verb and preposition alone – **phrasal verbs must be learned**. For the **Phrasal verbs** topic in this course, see its intro and practice; for a full list and definitions, use **Reference → Phrasal verb dictionary** (reference sheet)."
+      },
+      {
+        "title": "Prepositions in compound nouns (1)",
+        "content": "Sometimes a **preposition** (or a word that looks like one) is part of a **compound noun**. The result is a single word or fixed phrase."
+      },
+      {
+        "title": "Prepositions in compound nouns (2)",
+        "content": "Examples:\n• **input** (what you put in; data or advice)\n• **output** (what comes out; results or products)\n• **outlook** (view or prospect: a positive outlook)\n• **income** (money that comes in)\n• **outcome** (the result)\n• **bypass** (a road that goes past a place)\n• **overview** (a general view)"
+      },
+      {
+        "title": "Prepositions in compound nouns (2)",
+        "content": "Here the \"preposition\" is not used separately in the same way – it's part of the word. Learning these as **vocabulary** (compound nouns) helps you use them correctly. A word list (50 examples) is on **Reference → Preposition + verb compound nouns**."
       },
       {
         "title": "Reference list",

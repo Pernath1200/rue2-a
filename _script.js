@@ -42,6 +42,15 @@
       return (h >>> 0).toString(36);
     }
 
+    function shuffleArray(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
     function escapeAndBold(str) {
       if (str == null || str === '') return '';
       const s = String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -1372,7 +1381,7 @@
           const row = document.createElement('div');
           row.className = 'exam-cloze-mc-row';
           row.appendChild(document.createTextNode((i + 1) + '. '));
-          Object.entries(gap.options || {}).forEach(([key, text]) => {
+          shuffleArray(Object.entries(gap.options || {})).forEach(([key, text]) => {
             const opt = document.createElement('span');
             opt.className = 'option';
             opt.dataset.gapIndex = String(i);
@@ -1382,6 +1391,8 @@
               row.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
               opt.classList.add('selected');
               examClozeMcSelections[i] = key;
+              const test = currentExamClozeTest;
+              if (test && test.gaps && test.gaps.every((_, idx) => examClozeMcSelections[idx])) submitExamClozeTest();
             });
             row.appendChild(opt);
           });
@@ -1589,23 +1600,25 @@
       document.getElementById('openBlock').classList.add('hidden');
       document.getElementById('mcBlock').classList.add('hidden');
       document.getElementById('openInput').value = '';
-      document.getElementById('submitBtn').classList.remove('hidden');
       document.getElementById('feedbackBlock').classList.add('hidden');
+      if (q.type !== 'mc') document.getElementById('submitBtn').classList.remove('hidden');
+      else document.getElementById('submitBtn').classList.add('hidden');
 
       if (q.type === 'mc') {
         const mcBlock = document.getElementById('mcBlock');
         mcBlock.classList.remove('hidden');
         mcBlock.innerHTML = '';
-        const letters = ['a', 'b', 'c', 'd'];
-        Object.entries(q.options || {}).forEach(([key, text]) => {
+        shuffleArray(Object.entries(q.options || {})).forEach(([key, text]) => {
           const div = document.createElement('div');
           div.className = 'option';
           div.dataset.option = key;
           div.innerHTML = key + ') ' + escapeAndBold(text);
           div.addEventListener('click', () => {
+            if (!document.getElementById('feedbackBlock').classList.contains('hidden')) return;
             mcBlock.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
             div.classList.add('selected');
             selectedMc = key;
+            submitAnswer();
           });
           mcBlock.appendChild(div);
         });

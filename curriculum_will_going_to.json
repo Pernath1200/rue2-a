@@ -11,12 +11,20 @@
         "content": "Use **going to** when:\n\n• **Already decided or planned:** I'm going to study medicine. We're going to meet on Friday.\n• **Intention:** She's going to buy a new car.\n• **Prediction from present evidence:** Look at those clouds – it's going to rain. He's going to fall!\n• **About to happen:** The film is going to start in a minute.\n\nTip: Plan or intention **before** now → going to."
       },
       {
-        "title": "When to use WILL",
-        "content": "Use **will** when:\n\n• **Decision at the moment:** The phone's ringing. – I'll get it. I'll have a coffee.\n• **Offer, promise, refusal:** I'll help you. I won't tell anyone.\n• **General prediction** (no evidence now): I think it will rain tomorrow. She'll probably be late.\n• **Future facts:** The meeting will be at 3 pm.\n• With **think, hope, probably:** I hope she will come.\n\nTip: **Just decided now** or **offering/promising** → will."
+        "title": "When to use WILL (1)",
+        "content": "Use **will** when:\n\n• **Decision at the moment:** The phone's ringing. – I'll get it. I'll have a coffee.\n• **Offer, promise, refusal:** I'll help you. I won't tell anyone.\n• **General prediction** (no evidence now): I think it will rain tomorrow. She'll probably be late.\n• **Future facts:** The meeting will be at 3 pm.\n• With **think, hope, probably:** I hope she will come."
       },
       {
-        "title": "The difference",
-        "content": "• **Already planned** → going to: I'm going to see him tomorrow.\n• **Just decided now** → will: The phone's ringing. – I'll get it.\n• **Prediction from what you see** → going to: Those clouds – it's going to rain.\n• **Prediction (guess)** → will: I think he'll pass.\n• **Offer, promise** → will: I'll help you. I won't forget.\n\nExamples: I'll go (decision now) vs I'm going to go (I already planned it)."
+        "title": "When to use WILL (2)",
+        "content": "Tip: **Just decided now** or **offering/promising** → will."
+      },
+      {
+        "title": "The difference (1)",
+        "content": "• **Already planned** → going to: I'm going to see him tomorrow.\n• **Just decided now** → will: The phone's ringing. – I'll get it.\n• **Prediction from what you see** → going to: Those clouds – it's going to rain.\n• **Prediction (guess)** → will: I think he'll pass.\n• **Offer, promise** → will: I'll help you. I won't forget."
+      },
+      {
+        "title": "The difference (2)",
+        "content": "Examples: I'll go (decision now) vs I'm going to go (I already planned it)."
       },
       {
         "title": "Quick summary",
@@ -26,17 +34,31 @@
           "title": "Will vs going to",
           "left": {
             "title": "Going to",
-            "points": ["Already decided / planned", "Intention before now", "Prediction from present evidence", "Look – it's going to rain!"]
+            "points": [
+              "Already decided / planned",
+              "Intention before now",
+              "Prediction from present evidence",
+              "Look – it's going to rain!"
+            ]
           },
           "right": {
             "title": "Will",
-            "points": ["Decision at the moment", "Offer, promise, refusal", "General prediction (guess)", "I'll get it! I'll help you."]
+            "points": [
+              "Decision at the moment",
+              "Offer, promise, refusal",
+              "General prediction (guess)",
+              "I'll get it! I'll help you."
+            ]
           }
         }
       },
       {
-        "title": "Typical errors",
-        "content": "• **Plan:** Wrong: I *will* meet her tomorrow (already arranged). Right: I'm **going to** meet her tomorrow.\n• **Spontaneous:** Wrong: (Phone rings) I'm *going to* get it. Right: I'll get it.\n• **Evidence:** Wrong: Look at the sky – it *will* rain. Right: It's **going to** rain.\n• **Offer:** Wrong: I'm *going to* help you (offer now). Right: I'll help you.\n\nTip: Decided before now? → going to. Deciding now / offering? → will."
+        "title": "Typical errors (1)",
+        "content": "• **Plan:** Wrong: I *will* meet her tomorrow (already arranged). Right: I'm **going to** meet her tomorrow.\n• **Spontaneous:** Wrong: (Phone rings) I'm *going to* get it. Right: I'll get it.\n• **Evidence:** Wrong: Look at the sky – it *will* rain. Right: It's **going to** rain.\n• **Offer:** Wrong: I'm *going to* help you (offer now). Right: I'll help you."
+      },
+      {
+        "title": "Typical errors (2)",
+        "content": "Tip: Decided before now? → going to. Deciding now / offering? → will."
       }
     ]
   },

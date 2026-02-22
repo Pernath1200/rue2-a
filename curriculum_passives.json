@@ -3,26 +3,58 @@
     "title": "Passives",
     "sections": [
       {
-        "title": "What is the passive?",
-        "content": "**Active:** the subject does the action. *The dog bit the man.*\n\n**Passive:** we focus on what happened; the object becomes the subject. We use **be + past participle**:\n\n• Present: The letter **is written**.\n• Past: The letter **was written** yesterday.\n• Present perfect: The letter **has been written**.\n• Modals: The letter **can be written** / **must be sent**.\n\nExamples: The man was bitten by the dog. English is spoken everywhere."
+        "title": "What is the passive? (1)",
+        "content": "**Active:** the subject does the action. *The dog bit the man.*\n\n**Passive:** we focus on what happened; the object becomes the subject. We use **be + past participle**:"
+      },
+      {
+        "title": "What is the passive? (2)",
+        "content": "• Present: The letter **is written**.\n• Past: The letter **was written** yesterday.\n• Present perfect: The letter **has been written**.\n• Modals: The letter **can be written** / **must be sent**.\n\nExamples: The man was bitten by the dog. English is spoken everywhere."
       },
       {
         "title": "When do we use the passive?",
         "content": "Use the passive when:\n\n• The **agent is unknown or unimportant:** My bike was stolen. English is spoken everywhere.\n• We want to **focus on the action or result:** The report has been finished. The hospital was opened last year.\n• In **formal writing:** The experiment was carried out. It is believed that …\n\nTo say who did it: **by + agent** — The window was broken **by the storm**."
       },
       {
-        "title": "Form: be + past participle",
-        "content": "Passive = **be** (in the right tense) + **past participle** (written, done, built).\n\nTense is in **be**, not in the participle:\n\n• Present: **is/are** + participle (The room is cleaned.)\n• Past: **was/were** + participle (The room was cleaned.)\n• Present perfect: **has/have been** + participle\n• Future: **will be** + participle\n• Modals: **must/can be** + participle\n\nExamples: The letter was sent. It must be done by Friday.",
+        "title": "Form: be + past participle (1)",
+        "content": "Passive = **be** (in the right tense) + **past participle** (written, done, built).\n\nTense is in **be**, not in the participle:"
+      },
+      {
+        "title": "Form: be + past participle (2)",
+        "content": "• Present: **is/are** + participle (The room is cleaned.)\n• Past: **was/were** + participle (The room was cleaned.)\n• Present perfect: **has/have been** + participle\n• Future: **will be** + participle\n• Modals: **must/can be** + participle\n\nExamples: The letter was sent. It must be done by Friday.",
         "diagram": {
           "type": "table",
           "title": "Passive forms by tense",
-          "headers": ["Tense", "Form", "Example"],
+          "headers": [
+            "Tense",
+            "Form",
+            "Example"
+          ],
           "rows": [
-            ["Present", "is / are + pp", "The room **is cleaned**."],
-            ["Past", "was / were + pp", "The room **was cleaned**."],
-            ["Present perfect", "has / have been + pp", "It **has been done**."],
-            ["Future", "will be + pp", "It **will be sent**."],
-            ["Modal", "can / must be + pp", "It **must be checked**."]
+            [
+              "Present",
+              "is / are + pp",
+              "The room **is cleaned**."
+            ],
+            [
+              "Past",
+              "was / were + pp",
+              "The room **was cleaned**."
+            ],
+            [
+              "Present perfect",
+              "has / have been + pp",
+              "It **has been done**."
+            ],
+            [
+              "Future",
+              "will be + pp",
+              "It **will be sent**."
+            ],
+            [
+              "Modal",
+              "can / must be + pp",
+              "It **must be checked**."
+            ]
           ]
         }
       },
@@ -31,25 +63,50 @@
         "content": "**By** + agent (who did it): The play was written **by Shakespeare**.\n\nWe often **omit** by when the agent is obvious: He was arrested. The meeting was postponed.\n\nSome passives use a different preposition:\n• **interested in** (not by)\n• **filled with**, **known for**\n\nExamples: I'm interested in this. The room was filled with balloons."
       },
       {
-        "title": "Causative have and get",
-        "content": "We use **have** or **get** + **object** + **past participle** when we arrange for someone else to do something for us, or when something is done to us (often without our choosing):\n\n• **Have/get something done:** I **had** my hair **cut**. She **had** her car **repaired** last week. We **got** the document **translated**.\n• **Experience something (often negative):** He **had** his wallet **stolen**. They **had** their roof **damaged** in the storm.\n\n**Form:** have/get + (object) + **past participle** (not infinitive, not -ing).\n\n• Right: I had my hair **cut**. She got her eyes **tested**.\n• Wrong: I had my hair *to cut* / *cutting*. She got her eyes *to test*.\n\n**Have** is more neutral; **get** is often more informal or suggests more effort: I **got** my bike **fixed** (I arranged it / made it happen). Use **have** in formal writing."
+        "title": "Causative have and get (1)",
+        "content": "We use **have** or **get** + **object** + **past participle** when we arrange for someone else to do something for us, or when something is done to us (often without our choosing):"
       },
       {
-        "title": "Quick summary",
-        "content": "• Passive = **be** (in the right tense) + **past participle**.\n• Use passive when the agent is unknown, unimportant, or we want to focus on the action/object.\n• Agent = **by** + noun (often omitted).\n• **Causative:** have/get + object + **past participle** (I had my hair cut; She got the document translated).\n• Don't confuse tense: **was written** = past passive; **has been written** = present perfect passive.\n• With modals: **can be done**, **must be sent**, **should be checked**.",
+        "title": "Causative have and get (2)",
+        "content": "• **Have/get something done:** I **had** my hair **cut**. She **had** her car **repaired** last week. We **got** the document **translated**.\n• **Experience something (often negative):** He **had** his wallet **stolen**. They **had** their roof **damaged** in the storm."
+      },
+      {
+        "title": "Causative have and get (2)",
+        "content": "**Form:** have/get + (object) + **past participle** (not infinitive, not -ing).\n\n• Right: I had my hair **cut**. She got her eyes **tested**.\n• Wrong: I had my hair *to cut* / *cutting*. She got her eyes *to test*.\n\n**Have** is more neutral; **get** is often more informal or suggests more effort: I **got** my bike **fixed** (I arranged it / made it happen). Use **have** in formal writing."
+      },
+      {
+        "title": "Quick summary (1)",
+        "content": "• Passive = **be** (in the right tense) + **past participle**.\n• Use passive when the agent is unknown, unimportant, or we want to focus on the action/object.\n• Agent = **by** + noun (often omitted).\n• **Causative:** have/get + object + **past participle** (I had my hair cut; She got the document translated)."
+      },
+      {
+        "title": "Quick summary (2)",
+        "content": "• Don't confuse tense: **was written** = past passive; **has been written** = present perfect passive.\n• With modals: **can be done**, **must be sent**, **should be checked**.",
         "diagram": {
           "type": "formula",
           "title": "Active → Passive transformation",
           "items": [
-            {"label": "Active:", "formula": "Subject + verb + object"},
-            {"label": "Passive:", "formula": "Object → be (tense) + past participle (+ by agent)"},
-            {"label": "Example:", "formula": "The dog bit the man → The man **was bitten** by the dog"}
+            {
+              "label": "Active:",
+              "formula": "Subject + verb + object"
+            },
+            {
+              "label": "Passive:",
+              "formula": "Object → be (tense) + past participle (+ by agent)"
+            },
+            {
+              "label": "Example:",
+              "formula": "The dog bit the man → The man **was bitten** by the dog"
+            }
           ]
         }
       },
       {
-        "title": "Typical learner errors",
-        "content": "• **Past participle:** Wrong: The letter was *send*. Right: The letter was **sent**.\n• **Tense in be:** Wrong: The building *is* built in 1990. Right: The building **was** built in 1990.\n• **Active vs passive:** Wrong: English *speaks* everywhere. Right: English **is spoken** everywhere.\n• **One 'be' with modals:** Wrong: It can *be be* done. Right: It can **be** done.\n• **Causative:** Wrong: I had my hair *to cut* / *cutting*. Right: I had my hair **cut**."
+        "title": "Typical learner errors (1)",
+        "content": "• **Past participle:** Wrong: The letter was *send*. Right: The letter was **sent**.\n• **Tense in be:** Wrong: The building *is* built in 1990. Right: The building **was** built in 1990.\n• **Active vs passive:** Wrong: English *speaks* everywhere. Right: English **is spoken** everywhere."
+      },
+      {
+        "title": "Typical learner errors (2)",
+        "content": "• **One 'be' with modals:** Wrong: It can *be be* done. Right: It can **be** done.\n• **Causative:** Wrong: I had my hair *to cut* / *cutting*. Right: I had my hair **cut**."
       }
     ]
   },
