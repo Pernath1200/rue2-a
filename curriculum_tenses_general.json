@@ -4,7 +4,7 @@
     "sections": [
       {
         "title": "Introduction",
-        "content": "In English, **tense** tells us **when** something happens (past, present, or future). We combine **time** (past / present / future) with **aspect** (simple / continuous / perfect / perfect continuous) to get the 12 tense forms.\n\nUnlike in Czech, English does not change the verb ending for person in most tenses (except 3rd person singular present: he/she/it **works**). We use **auxiliary verbs** (do, does, did, have, has, had, will, be) to form questions, negatives, and many positive forms. **Czech** conjugates the verb (dělám, děláš, dělá…); **English** often uses two or more words: *I have been waiting*, *She will have left*. Czech distinguishes perfective vs imperfective by verbs or prefixes; English distinguishes **simple** vs **continuous** vs **perfect** by structure. Think about **time** (when?) and **aspect** (fact, in progress, completed, or lasting), not a 1:1 match with Czech.\n\n**Aspect** is how we look at the action in time. The next four pages cover: **Simple** (fact, habit, single event), **Continuous** (in progress), **Perfect** (completed, result), **Perfect continuous** (duration + result).",
+        "content": "In English, **tense** tells us **when** something happens (past, present, or future). We combine **time** (past / present / future) with **aspect** (simple / continuous / perfect / perfect continuous) to get the 12 tense forms.\n\nEnglish does not change the verb ending for person in most tenses (except 3rd person singular present: he/she/it **works**). We use **auxiliary verbs** (do, does, did, have, has, had, will, be) to form questions, negatives, and many positive forms. **English** often uses two or more words: *I have been waiting*, *She will have left*. English distinguishes **simple** vs **continuous** vs **perfect** by structure. Think about **time** (when?) and **aspect** (fact, in progress, completed, or lasting).\n\n**Aspect** is how we look at the action in time. The next four pages cover: **Simple** (fact, habit, single event), **Continuous** (in progress), **Perfect** (completed, result), **Perfect continuous** (duration + result).",
         "diagram": {
           "type": "table",
           "title": "The 12 English tenses (3 times × 4 aspects)",
@@ -59,7 +59,7 @@
           "d": "By changing the word order only"
         },
         "correct_option": "b",
-        "explanation": "English uses **auxiliary verbs** (do, does, did, have, has, had, will, am/is/are, was/were) to form questions, negatives, and many positive forms – unlike Czech, which often changes the verb ending."
+        "explanation": "English uses **auxiliary verbs** (do, does, did, have, has, had, will, am/is/are, was/were) to form questions, negatives, and many positive forms."
       },
       {
         "type": "mc",
@@ -123,15 +123,15 @@
       },
       {
         "type": "mc",
-        "question": "How does English differ from Czech in expressing 'time' and 'aspect'?",
+        "question": "How does English typically express time and aspect?",
         "options": {
-          "a": "English uses one word per tense; Czech uses several.",
-          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.",
-          "c": "Czech has no aspect.",
+          "a": "English uses one word per tense.",
+          "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); time and aspect are shown by structure.",
+          "c": "English has no aspect.",
           "d": "English has no future tense."
         },
         "correct_option": "b",
-        "explanation": "**English** uses auxiliaries and often two or more words (I have been waiting). **Czech** often combines time and aspect in one word (e.g. dělal = past imperfective) and distinguishes perfective/imperfective by verbs or prefixes."
+        "explanation": "**English** uses auxiliaries and often two or more words (e.g. I have been waiting). Time and aspect are shown by the verb structure, not by a single conjugated form."
       }
     ]
   },
@@ -147,7 +147,7 @@
         {"type": "mc", "question": "'I have been waiting for an hour.' – Which tense form is this?", "options": {"a": "Present simple", "b": "Present continuous", "c": "Present perfect simple", "d": "Present perfect continuous"}, "correct_option": "d", "explanation": "**Present perfect continuous**: have/has been + -ing."},
         {"type": "mc", "question": "'She had left before I arrived.' – Which tense form is this?", "options": {"a": "Past simple", "b": "Past continuous", "c": "Past perfect simple", "d": "Past perfect continuous"}, "correct_option": "c", "explanation": "**Past perfect simple**: had + past participle."},
         {"type": "mc", "question": "Which aspect focuses on **completion** and often on the **result** or relevance at a later time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "c", "explanation": "**Perfect** – we focus on completion and result/relevance."},
-        {"type": "mc", "question": "How does English differ from Czech in expressing 'time' and 'aspect'?", "options": {"a": "English uses one word per tense; Czech uses several.", "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); Czech often combines time and aspect in one conjugated verb.", "c": "Czech has no aspect.", "d": "English has no future tense."}, "correct_option": "b", "explanation": "**English** uses auxiliaries; **Czech** often combines time and aspect in one word."},
+        {"type": "mc", "question": "How does English typically express time and aspect?", "options": {"a": "English uses one word per tense.", "b": "English often uses auxiliaries + main verb (e.g. I have been waiting); time and aspect are shown by structure.", "c": "English has no aspect.", "d": "English has no future tense."}, "correct_option": "b", "explanation": "**English** uses auxiliaries and often two or more words; time and aspect are shown by structure."},
         {"type": "mc", "question": "How do we get the 12 tense forms in English?", "options": {"a": "3 times + 4 aspects", "b": "4 times + 3 aspects", "c": "2 times + 6 aspects", "d": "6 times + 2 aspects"}, "correct_option": "a", "explanation": "We combine **3 times** (present, past, future) with **4 aspects** to get 12 forms."},
         {"type": "mc", "question": "Which aspect do we use when the action is **in progress** at a given time?", "options": {"a": "Simple", "b": "Continuous", "c": "Perfect", "d": "Perfect continuous"}, "correct_option": "b", "explanation": "**Continuous (progressive)** – the action is in progress. We use **be + -ing**."}
       ]

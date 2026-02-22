@@ -12,6 +12,7 @@ const MIME = {
 };
 
 const server = http.createServer((req, res) => {
+  console.log(req.socket.remoteAddress + ' - ' + (req.method || 'GET') + ' ' + (req.url || '/'));
   let file = req.url === '/' ? '/index.html' : req.url;
   file = path.join(__dirname, file.replace(/\?.*$/, ''));
   const ext = path.extname(file);

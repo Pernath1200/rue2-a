@@ -4,15 +4,15 @@
     "sections": [
       {
         "title": "Three main problem areas",
-        "content": "Word order in English often causes mistakes for Czech learners. This topic focuses on **three** areas:\n\n1. **Embedded questions** – keeping **statement** word order (no inversion) after *I don't know*, *Can you tell me*, etc.\n   Czenglish: *I don't know what is the answer.* → correct: *I don't know what the answer is.*\n2. **Frequency adverbs** – where to put *often*, *usually*, *always*, *sometimes* (mid-position, not like Czech).\n   Czenglish: *I go often to the gym.* → correct: *I often go to the gym.*\n3. **Additive particles** – where to put *also* (Czech *také*), and the difference from *too* / *as well*.\n   Czenglish: *Also I want coffee.* → correct: *I also want coffee.*"
+        "content": "Word order in English often causes mistakes. This topic focuses on **three** areas:\n\n1. **Embedded questions** – keeping **statement** word order (no inversion) after *I don't know*, *Can you tell me*, etc.\n   Wrong: *I don't know what is the answer.* → correct: *I don't know what the answer is.*\n2. **Frequency adverbs** – where to put *often*, *usually*, *always*, *sometimes* (mid-position in English).\n   Wrong: *I go often to the gym.* → correct: *I often go to the gym.*\n3. **Additive particles** – where to put *also*, and the difference from *too* / *as well*.\n   Wrong: *Also I want coffee.* → correct: *I also want coffee.*"
       },
       {
         "title": "Embedded questions: no inversion",
-        "content": "In a **direct question** we put the verb before the subject:\n\n• What **is** the answer? Where **is** the station?\n\nWhen the question is **inside** another sentence (embedded), we use **statement** order – subject before verb:\n\n• I don't know what **the answer is**. ✓  Czenglish: *I don't know what is the answer.* ✗\n• Can you tell me where **the station is**? ✓  Czenglish: *Can you tell me where is the station?* ✗\n\n**Wrong:** I don't know what *is the answer*. (Czenglish)\n**Right:** I don't know what **the answer is**."
+        "content": "In a **direct question** we put the verb before the subject:\n\n• What **is** the answer? Where **is** the station?\n\nWhen the question is **inside** another sentence (embedded), we use **statement** order – subject before verb:\n\n• I don't know what **the answer is**. ✓  Wrong: *I don't know what is the answer.* ✗\n• Can you tell me where **the station is**? ✓  Wrong: *Can you tell me where is the station?* ✗\n\n**Wrong:** I don't know what *is the answer*.\n**Right:** I don't know what **the answer is**."
       },
       {
         "title": "Embedded questions: when to use statement order",
-        "content": "Use **statement order** (subject + verb) after *I don't know*, *Can you tell me*, *I wonder*, *Tell me*, *Do you know*, *I'm not sure*.\n\n• I don't know what **the answer is**. ✓  Czenglish: *I don't know what is the answer.* ✗\n• I wonder when **he left**. ✓  Czenglish: *I wonder when did he leave.* ✗ (no *did*)\n• Do you know **if she is** coming? ✓  Czenglish: *Do you know if is she coming?* ✗\n\n**Rule:** Subject before verb. Past: when **he left** (not *when did he leave*). Present: how much **it costs** (not *does it cost*).",
+        "content": "Use **statement order** (subject + verb) after *I don't know*, *Can you tell me*, *I wonder*, *Tell me*, *Do you know*, *I'm not sure*.\n\n• I don't know what **the answer is**. ✓  Wrong: *I don't know what is the answer.* ✗\n• I wonder when **he left**. ✓  Wrong: *I wonder when did he leave.* ✗ (no *did*)\n• Do you know **if she is** coming? ✓  Wrong: *Do you know if is she coming?* ✗\n\n**Rule:** Subject before verb. Past: when **he left** (not *when did he leave*). Present: how much **it costs** (not *does it cost*).",
         "diagram": {
           "type": "formula",
           "title": "Direct vs embedded word order",
@@ -25,11 +25,11 @@
       },
       {
         "title": "Frequency adverbs: where they go",
-        "content": "In **Czech**, frequency words (často, obvykle, vždy, někdy) can appear in different positions. In **English**, they usually go in **mid-position**: after the first auxiliary, or before the main verb.\n\n• I **always** go. ✓  Czenglish: *I go always.* / *Always I go.* ✗\n• She **often** eats there. ✓  Czenglish: *She eats often there.* ✗\n• He **usually** works from home. ✓  Czenglish: *He works usually from home.* ✗\n• I **sometimes** forget. ✓  Czenglish: *I forget sometimes.* ✗\n• With **be**: She **is always** late. ✓  Czenglish: *She always is late.* ✗\n• They **are usually** busy. ✓  Czenglish: *They usually are busy.* ✗\n• With one verb: adverb **before** the main verb (I often go). Czenglish: *I go often.* ✗\n• With auxiliary: adverb **after** the auxiliary (She doesn't **often** eat out. He has **always** been kind). ✓"
+        "content": "In **English**, frequency adverbs (*often*, *usually*, *always*, *sometimes*) usually go in **mid-position**: after the first auxiliary, or before the main verb.\n\n• I **always** go. ✓  Wrong: *I go always.* / *Always I go.* ✗\n• She **often** eats there. ✓  Wrong: *She eats often there.* ✗\n• He **usually** works from home. ✓  Wrong: *He works usually from home.* ✗\n• I **sometimes** forget. ✓  Wrong: *I forget sometimes.* ✗\n• With **be**: She **is always** late. ✓  Wrong: *She always is late.* ✗\n• They **are usually** busy. ✓  Wrong: *They usually are busy.* ✗\n• With one verb: adverb **before** the main verb (I often go). Wrong: *I go often.* ✗\n• With auxiliary: adverb **after** the auxiliary (She doesn't **often** eat out. He has **always** been kind). ✓"
       },
       {
         "title": "Frequency adverbs: common mistakes",
-        "content": "**Wrong (Czenglish):** I go *often* to the gym.\n**Right:** I **often go** to the gym.\n\n**Wrong (Czenglish):** She *always is* late.\n**Right:** She **is always** late. (After **be**, the adverb goes after *am/is/are*.)\n\n**Wrong (Czenglish):** They *usually are* at home.\n**Right:** They **are usually** at home.\n\n**Rule of thumb:** With **be** → subject + be + adverb. With other verbs → subject + adverb + verb (or after first auxiliary in negatives/questions).",
+        "content": "**Wrong:** I go *often* to the gym.\n**Right:** I **often go** to the gym.\n\n**Wrong:** She *always is* late.\n**Right:** She **is always** late. (After **be**, the adverb goes after *am/is/are*.)\n\n**Wrong:** They *usually are* at home.\n**Right:** They **are usually** at home.\n\n**Rule of thumb:** With **be** → subject + be + adverb. With other verbs → subject + adverb + verb (or after first auxiliary in negatives/questions).",
         "diagram": {
           "type": "formula",
           "title": "Frequency adverb position",
@@ -41,8 +41,8 @@
         }
       },
       {
-        "title": "Additive particles: \"also\" (také)",
-        "content": "In **Czech**, *také* is very flexible, so Czech learners often put **also** in the wrong place. In **English**, **also** usually goes in **mid-position**: before the main verb, or after the first auxiliary.\n\n• I **also** want coffee. ✓  Czenglish: *Also I want coffee.* / *I want also coffee.* ✗\n• She **also** said that. ✓  Czenglish: *Also she said that.* / *She said also that.* ✗\n• We **also** need milk. ✓  Czenglish: *Also we need milk.* ✗\n• With auxiliary: He has **also** been there. ✓  Czenglish: *He also has been there.* ✗\n• She will **also** join us. ✓  Czenglish: *Also she will join us.* ✗\n\n**Wrong (Czenglish):** *Also I want* coffee. *I want also* coffee.\n**Right:** I **also** want coffee."
+        "title": "Additive particles: \"also\"",
+        "content": "**Also** is often put in the wrong place. In **English**, **also** usually goes in **mid-position**: before the main verb, or after the first auxiliary.\n\n• I **also** want coffee. ✓  Wrong: *Also I want coffee.* / *I want also coffee.* ✗\n• She **also** said that. ✓  Wrong: *Also she said that.* / *She said also that.* ✗\n• We **also** need milk. ✓  Wrong: *Also we need milk.* ✗\n• With auxiliary: He has **also** been there. ✓  Wrong: *He also has been there.* ✗\n• She will **also** join us. ✓  Wrong: *Also she will join us.* ✗\n\n**Wrong:** *Also I want* coffee. *I want also* coffee.\n**Right:** I **also** want coffee."
       },
       {
         "title": "\"Also\" vs \"too\" and \"as well\"",
@@ -50,7 +50,7 @@
       },
       {
         "title": "Summary",
-        "content": "• **Embedded questions:** Statement order – what **the answer is**, when **he left**, how much **it costs**, if **she is** coming.\n   Czenglish: *I don't know what is the problem.* *I wonder when did he leave.* *Tell me how much does it cost.* *Do you know if is she coming?* → use statement order.\n\n• **Frequency adverbs** (often, usually, always, sometimes): mid-position – I often go; She is always late.\n   Czenglish: *I go often.* *She always is late.* *They usually are busy.* → adverb after *be*, before other verbs.\n\n• **Also:** mid-position (I also want). **Too** / **as well:** end position (I want it too).\n   Czenglish: *Also I want coffee.* *I want also coffee.* → *I also want coffee* or *I want coffee too*."
+        "content": "• **Embedded questions:** Statement order – what **the answer is**, when **he left**, how much **it costs**, if **she is** coming.\n   Wrong: *I don't know what is the problem.* *I wonder when did he leave.* → use statement order.\n\n• **Frequency adverbs** (often, usually, always, sometimes): mid-position – I often go; She is always late.\n   Wrong: *I go often.* *She always is late.* *They usually are busy.* → adverb after *be*, before other verbs.\n\n• **Also:** mid-position (I also want). **Too** / **as well:** end position (I want it too).\n   Wrong: *Also I want coffee.* *I want also coffee.* → *I also want coffee* or *I want coffee too*."
       }
     ]
   },

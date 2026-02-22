@@ -113,7 +113,7 @@
           "d": "She is not as tall as her brother."
         },
         "correct_option": "d",
-        "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+        "explanation": "The pattern is not as + adjective + as (not so ... like is a common mistake)."
       }
     ]
   },
@@ -509,7 +509,7 @@
             "d": "She is not as tall as her brother."
           },
           "correct_option": "d",
-          "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+          "explanation": "The pattern is not as + adjective + as (not so ... like is a common mistake)."
         },
         {
           "type": "mc",
@@ -569,7 +569,7 @@
             "d": "She is not as tall as her brother."
           },
           "correct_option": "d",
-          "explanation": "The pattern is not as + adjective + as (not so ... like is a common Czech-influenced error)."
+          "explanation": "The pattern is not as + adjective + as (not so ... like is a common mistake)."
         }
       ]
     }

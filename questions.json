@@ -172,7 +172,38 @@
             "have watched"
           ],
           "explanation": "We focus on the number of completed episodes, so we use the present perfect simple."
-        }
+        },
+        {"type": "open", "question": "20. She ____ (work) on this project for three months. Put the verb in the correct tense.", "answers": ["has been working"], "explanation": "Duration (for three months) up to now → present perfect continuous."},
+        {"type": "open", "question": "21. I ____ (never visit) Paris. Put the verb in the correct tense.", "answers": ["have never visited"], "explanation": "Life experience (no specific past time) → present perfect simple."},
+        {"type": "open", "question": "22. How long ____ you ____ (know) your best friend? Put the verb in the correct tense.", "answers": ["have you known"], "explanation": "Stative verb 'know' with how long → present perfect simple."},
+        {"type": "open", "question": "23. They ____ (just finish) the report. Put the verb in the correct tense.", "answers": ["have just finished"], "explanation": "Just = very recent completion → present perfect simple."},
+        {"type": "open", "question": "24. Your hands are dirty. ____ you ____ (work) in the garden? Put the verb in the correct tense.", "answers": ["Have you been working"], "explanation": "Visible result (dirty hands) from recent activity → present perfect continuous."},
+        {"type": "open", "question": "25. He ____ (write) six emails this morning. Put the verb in the correct tense.", "answers": ["has written"], "explanation": "Number of completed actions → present perfect simple."},
+        {"type": "open", "question": "26. We ____ (wait) for the bus for 20 minutes. Put the verb in the correct tense.", "answers": ["have been waiting"], "explanation": "Duration of activity → present perfect continuous."},
+        {"type": "open", "question": "27. She ____ (be) ill since Monday. Put the verb in the correct tense.", "answers": ["has been"], "explanation": "State since a point in time → present perfect simple (stative)."},
+        {"type": "open", "question": "28. I ____ (not see) him for ages. Put the verb in the correct tense.", "answers": ["have not seen", "haven't seen", "haven't seen"], "explanation": "Period up to now (for ages) → present perfect simple."},
+        {"type": "open", "question": "29. ____ you ever ____ (try) Japanese food? Put the verb in the correct tense.", "answers": ["Have you ever tried"], "explanation": "Ever = life experience → present perfect simple."},
+        {"type": "open", "question": "30. The children ____ (play) in the garden all afternoon. Put the verb in the correct tense.", "answers": ["have been playing"], "explanation": "Duration (all afternoon) → present perfect continuous."},
+        {"type": "open", "question": "31. I ____ (already read) that book. Put the verb in the correct tense.", "answers": ["have already read"], "explanation": "Already = completion before now → present perfect simple."},
+        {"type": "open", "question": "32. She ____ (teach) at this school for ten years. Put the verb in the correct tense.", "answers": ["has been teaching", "has taught"], "explanation": "Duration → present perfect continuous or simple (both possible for length of time)."},
+        {"type": "open", "question": "33. They ____ (not finish) the project yet. Put the verb in the correct tense.", "answers": ["have not finished", "haven't finished", "haven't finished"], "explanation": "Yet = not completed → present perfect simple."},
+        {"type": "open", "question": "34. How many times ____ you ____ (see) that film? Put the verb in the correct tense.", "answers": ["have you seen"], "explanation": "Number of times (experience) → present perfect simple."},
+        {"type": "open", "question": "35. He ____ (look) for his keys for the last half hour. Put the verb in the correct tense.", "answers": ["has been looking"], "explanation": "Duration of ongoing activity → present perfect continuous."},
+        {"type": "open", "question": "36. Wrong: 'I have been finishing my homework.' (You mean it's done now.) Correct the sentence.", "answers": ["I have finished my homework.", "I have finished my homework"], "explanation": "Completion with result now → present perfect simple."},
+        {"type": "open", "question": "37. Wrong: 'She has written three letters this morning.' (It's still morning and she may write more.) Correct the sentence if you mean she is still in progress.", "answers": ["She has been writing letters this morning.", "She has been writing letters this morning"], "explanation": "Activity in progress in a period still ongoing → present perfect continuous."},
+        {"type": "open", "question": "38. I ____ (always want) to learn the piano. Put the verb in the correct tense.", "answers": ["have always wanted"], "explanation": "Stative verb (want) with always → present perfect simple."},
+        {"type": "open", "question": "39. She ____ (study) English since she was ten. Put the verb in the correct tense.", "answers": ["has been studying", "has studied"], "explanation": "Since = from a point to now; duration → present perfect continuous or simple."},
+        {"type": "open", "question": "40. We ____ (not have) any problems so far. Put the verb in the correct tense.", "answers": ["have not had", "haven't had", "haven't had"], "explanation": "So far = up to now → present perfect simple."},
+        {"type": "open", "question": "41. How long ____ she ____ (work) here? Put the verb in the correct tense.", "answers": ["has she been working", "has she worked"], "explanation": "How long + duration → present perfect continuous or simple."},
+        {"type": "open", "question": "42. They ____ (just arrive) at the station. Put the verb in the correct tense.", "answers": ["have just arrived"], "explanation": "Just = very recent → present perfect simple."},
+        {"type": "open", "question": "43. I ____ (never be) to Australia. Put the verb in the correct tense.", "answers": ["have never been"], "explanation": "Life experience → present perfect simple."},
+        {"type": "open", "question": "44. He ____ (sleep) badly recently. Put the verb in the correct tense.", "answers": ["has been sleeping"], "explanation": "Recent repeated situation → present perfect continuous."},
+        {"type": "open", "question": "45. She ____ (read) 20 pages so far. Put the verb in the correct tense.", "answers": ["has read"], "explanation": "Quantity completed (so far) → present perfect simple."},
+        {"type": "open", "question": "46. Wrong: 'I have been losing my keys.' (You mean you lost them once and found them.) Correct the sentence.", "answers": ["I have lost my keys.", "I have lost my keys"], "explanation": "Single completed event with present result → present perfect simple."},
+        {"type": "open", "question": "47. We ____ (live) in this town since 2015. Put the verb in the correct tense.", "answers": ["have lived", "have been living"], "explanation": "Since + state/duration → present perfect simple or continuous."},
+        {"type": "open", "question": "48. ____ you ____ (do) your homework yet? Put the verb in the correct tense.", "answers": ["Have you done"], "explanation": "Yet in question → present perfect simple."},
+        {"type": "open", "question": "49. She ____ (paint) the kitchen all week. Put the verb in the correct tense.", "answers": ["has been painting"], "explanation": "Duration of activity → present perfect continuous."},
+        {"type": "open", "question": "50. I ____ (not eat) anything since breakfast. Put the verb in the correct tense.", "answers": ["have not eaten", "haven't eaten", "haven't eaten"], "explanation": "Since = from then until now → present perfect simple."}
       ]
     }
   },
@@ -338,7 +369,38 @@
             "graduated"
           ],
           "explanation": "Last month = finished time → past simple."
-        }
+        },
+        {"type": "open", "question": "20. I ____ (buy) a new car last week. Put the verb in the correct tense.", "answers": ["bought"], "explanation": "Last week = finished time → past simple."},
+        {"type": "open", "question": "21. She ____ (never be) to Japan. Put the verb in the correct tense.", "answers": ["has never been"], "explanation": "Life experience (no specific past time) → present perfect."},
+        {"type": "open", "question": "22. We ____ (move) here in 2020. Put the verb in the correct tense.", "answers": ["moved"], "explanation": "In 2020 = finished time → past simple."},
+        {"type": "open", "question": "23. He ____ (live) in London since 2018. Put the verb in the correct tense.", "answers": ["has lived"], "explanation": "Since = from then until now → present perfect."},
+        {"type": "open", "question": "24. They ____ (get) married when they were 25. Put the verb in the correct tense.", "answers": ["got"], "explanation": "When they were 25 = finished time → past simple."},
+        {"type": "open", "question": "25. I ____ (already see) that film twice. Put the verb in the correct tense.", "answers": ["have already seen"], "explanation": "Experience (already, twice) → present perfect."},
+        {"type": "open", "question": "26. She ____ (start) her new job yesterday. Put the verb in the correct tense.", "answers": ["started"], "explanation": "Yesterday → past simple."},
+        {"type": "open", "question": "27. How long ____ you ____ (have) this phone? Put the verb in the correct tense.", "answers": ["have you had"], "explanation": "How long + possession → present perfect."},
+        {"type": "open", "question": "28. He ____ (leave) the office at 6 pm. Put the verb in the correct tense.", "answers": ["left"], "explanation": "At 6 pm = specific past time → past simple."},
+        {"type": "open", "question": "29. We ____ (know) each other for five years. Put the verb in the correct tense.", "answers": ["have known"], "explanation": "For + period up to now → present perfect."},
+        {"type": "open", "question": "30. I ____ (go) to the cinema last Saturday. Put the verb in the correct tense.", "answers": ["went"], "explanation": "Last Saturday → past simple."},
+        {"type": "open", "question": "31. She ____ (just finish) her degree. Put the verb in the correct tense.", "answers": ["has just finished"], "explanation": "Just = very recent → present perfect."},
+        {"type": "open", "question": "32. They ____ (build) that house in 1999. Put the verb in the correct tense.", "answers": ["built"], "explanation": "In 1999 = finished time → past simple."},
+        {"type": "open", "question": "33. I ____ (never try) sushi. Put the verb in the correct tense.", "answers": ["have never tried"], "explanation": "Life experience → present perfect."},
+        {"type": "open", "question": "34. Wrong: 'I have seen him yesterday.' Correct the sentence.", "answers": ["I saw him yesterday.", "I saw him yesterday"], "explanation": "Yesterday = finished time → past simple."},
+        {"type": "open", "question": "35. Wrong: 'She lived here since 2015.' Correct the sentence.", "answers": ["She has lived here since 2015.", "She has lived here since 2015"], "explanation": "Since = from then to now → present perfect."},
+        {"type": "open", "question": "36. He ____ (work) for this company for ten years. Put the verb in the correct tense.", "answers": ["has worked"], "explanation": "For + period up to now → present perfect."},
+        {"type": "open", "question": "37. We ____ (meet) at the conference in Berlin. Put the verb in the correct tense.", "answers": ["met"], "explanation": "At the conference = finished event → past simple."},
+        {"type": "open", "question": "38. ____ you ____ (ever be) to New York? Put the verb in the correct tense.", "answers": ["Have you ever been"], "explanation": "Ever = life experience → present perfect."},
+        {"type": "open", "question": "39. She ____ (not see) him since Christmas. Put the verb in the correct tense.", "answers": ["has not seen", "hasn't seen", "hasn't seen"], "explanation": "Since = from Christmas until now → present perfect."},
+        {"type": "open", "question": "40. I ____ (break) my leg when I was skiing. Put the verb in the correct tense.", "answers": ["broke"], "explanation": "When I was skiing = finished time → past simple."},
+        {"type": "open", "question": "41. They ____ (be) together for three years. Put the verb in the correct tense.", "answers": ["have been"], "explanation": "For + duration up to now → present perfect."},
+        {"type": "open", "question": "42. The train ____ (leave) at 9 am. Put the verb in the correct tense.", "answers": ["left"], "explanation": "Specific past time → past simple."},
+        {"type": "open", "question": "43. I ____ (not speak) to him for months. Put the verb in the correct tense.", "answers": ["have not spoken", "haven't spoken", "haven't spoken"], "explanation": "For months = period up to now → present perfect."},
+        {"type": "open", "question": "44. She ____ (graduate) from university in 2021. Put the verb in the correct tense.", "answers": ["graduated"], "explanation": "In 2021 = finished time → past simple."},
+        {"type": "open", "question": "45. How long ____ they ____ (be) married? Put the verb in the correct tense.", "answers": ["have they been"], "explanation": "How long + state up to now → present perfect."},
+        {"type": "open", "question": "46. Wrong: 'Did you see the new film yet?' Correct the sentence.", "answers": ["Have you seen the new film yet?", "Have you seen the new film yet"], "explanation": "Yet = up to now → present perfect."},
+        {"type": "open", "question": "47. He ____ (write) three books so far. Put the verb in the correct tense.", "answers": ["has written"], "explanation": "So far = up to now → present perfect."},
+        {"type": "open", "question": "48. We ____ (have) lunch at that café last Tuesday. Put the verb in the correct tense.", "answers": ["had"], "explanation": "Last Tuesday → past simple."},
+        {"type": "open", "question": "49. She ____ (teach) here since she left university. Put the verb in the correct tense.", "answers": ["has taught"], "explanation": "Since = from then to now → present perfect."},
+        {"type": "open", "question": "50. I ____ (not watch) TV last night. Put the verb in the correct tense.", "answers": ["did not watch", "didn't watch"], "explanation": "Last night → past simple."}
       ]
     }
   },
@@ -1032,7 +1094,53 @@
             "will not tell"
           ],
           "explanation": "Promise → will."
-        }
+        },
+        {"type": "open", "question": "5. I ____ (call) you when I get there. Put the verb in the correct tense.", "answers": ["will call", "'ll call"], "explanation": "Promise / instant decision → will."},
+        {"type": "open", "question": "6. We ____ (have) a party next Saturday. (We've booked the hall.) Put the verb in the correct tense.", "answers": ["are going to have", "'re going to have"], "explanation": "Plan (booked) → going to."},
+        {"type": "open", "question": "7. I'm sure everything ____ (be) fine. Put the verb in the correct tense.", "answers": ["will be", "'ll be"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "8. She ____ (take) the exam in June. (She registered last week.) Put the verb in the correct tense.", "answers": ["is going to take", "'s going to take"], "explanation": "Plan (registered) → going to."},
+        {"type": "open", "question": "9. Don't worry – I ____ (help) you. Put the verb in the correct tense.", "answers": ["will help", "'ll help"], "explanation": "Offer → will."},
+        {"type": "open", "question": "10. Look at the traffic – we ____ (be) late. Put the verb in the correct tense.", "answers": ["are going to be", "'re going to be"], "explanation": "Prediction from present evidence → going to."},
+        {"type": "open", "question": "11. I ____ (probably stay) at home tonight. Put the verb in the correct tense.", "answers": ["will probably stay", "'ll probably stay"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "12. They ____ (fly) to Rome next month. (Tickets are booked.) Put the verb in the correct tense.", "answers": ["are going to fly", "'re going to fly"], "explanation": "Plan (tickets) → going to."},
+        {"type": "open", "question": "13. I ____ (not forget) what you said. Put the verb in the correct tense.", "answers": ["won't forget", "will not forget"], "explanation": "Promise → will."},
+        {"type": "open", "question": "14. Be careful – you ____ (drop) that glass. Put the verb in the correct tense.", "answers": ["are going to drop", "'re going to drop"], "explanation": "Prediction from present situation → going to."},
+        {"type": "open", "question": "15. He ____ (study) medicine. (He's wanted to since he was young.) Put the verb in the correct tense.", "answers": ["is going to study", "'s going to study"], "explanation": "Long-standing intention → going to."},
+        {"type": "open", "question": "16. I ____ (give) you a hand with that. Put the verb in the correct tense.", "answers": ["will give", "'ll give"], "explanation": "Offer at moment of speaking → will."},
+        {"type": "open", "question": "17. We ____ (meet) at 7. (We fixed it yesterday.) Put the verb in the correct tense.", "answers": ["are going to meet", "'re going to meet"], "explanation": "Arrangement → going to."},
+        {"type": "open", "question": "18. I think it ____ (snow) tomorrow. Put the verb in the correct tense.", "answers": ["will snow", "'ll snow"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "19. She ____ (not say) anything. I promise. Put the verb in the correct tense.", "answers": ["won't say", "will not say"], "explanation": "Promise → will."},
+        {"type": "open", "question": "20. Wrong: 'I will go to the gym tomorrow.' (You have a regular slot booked.) Correct the sentence.", "answers": ["I'm going to go to the gym tomorrow.", "I am going to go to the gym tomorrow.", "I'm going to go to the gym tomorrow", "I am going to go to the gym tomorrow"], "explanation": "Planned (slot booked) → going to."},
+        {"type": "open", "question": "21. The weather forecast says it ____ (rain) at the weekend. Put the verb in the correct tense.", "answers": ["will rain", "'ll rain", "is going to rain", "'s going to rain"], "explanation": "Forecast = prediction; will or going to both acceptable."},
+        {"type": "open", "question": "22. I ____ (pay) for the coffee. Put the verb in the correct tense.", "answers": ["will pay", "'ll pay"], "explanation": "Instant offer → will."},
+        {"type": "open", "question": "23. They ____ (move) house next year. (They've been planning it for months.) Put the verb in the correct tense.", "answers": ["are going to move", "'re going to move"], "explanation": "Plan (planning for months) → going to."},
+        {"type": "open", "question": "24. I ____ (try) my best. Put the verb in the correct tense.", "answers": ["will try", "'ll try"], "explanation": "Promise / intention → will."},
+        {"type": "open", "question": "25. She ____ (start) her new job on Monday. (Contract signed.) Put the verb in the correct tense.", "answers": ["is going to start", "'s going to start"], "explanation": "Fixed plan (contract) → going to."},
+        {"type": "open", "question": "26. Don't get up – I ____ (answer) the door. Put the verb in the correct tense.", "answers": ["will answer", "'ll answer"], "explanation": "Instant decision → will."},
+        {"type": "open", "question": "27. He ____ (probably get) the job. Put the verb in the correct tense.", "answers": ["will probably get", "'ll probably get"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "28. We ____ (have) a meeting at 3. (It's in the diary.) Put the verb in the correct tense.", "answers": ["are going to have", "'re going to have"], "explanation": "Arrangement (diary) → going to."},
+        {"type": "open", "question": "29. I ____ (never forget) this day. Put the verb in the correct tense.", "answers": ["will never forget", "'ll never forget"], "explanation": "Promise / strong intention → will."},
+        {"type": "open", "question": "30. Look at that queue – we ____ (wait) for ages. Put the verb in the correct tense.", "answers": ["are going to wait", "'re going to wait"], "explanation": "Prediction from evidence (queue) → going to."},
+        {"type": "open", "question": "31. I ____ (send) you the file as soon as I can. Put the verb in the correct tense.", "answers": ["will send", "'ll send"], "explanation": "Promise → will."},
+        {"type": "open", "question": "32. She ____ (retire) next year. (She's made the decision.) Put the verb in the correct tense.", "answers": ["is going to retire", "'s going to retire"], "explanation": "Decision already made → going to."},
+        {"type": "open", "question": "33. They ____ (not be) late. Put the verb in the correct tense.", "answers": ["won't be", "will not be"], "explanation": "Promise / prediction → will."},
+        {"type": "open", "question": "34. I ____ (take) the 9 o'clock train. (I've got the ticket.) Put the verb in the correct tense.", "answers": ["am going to take", "'m going to take"], "explanation": "Plan (ticket) → going to."},
+        {"type": "open", "question": "35. It ____ (take) about an hour. Put the verb in the correct tense.", "answers": ["will take", "'ll take"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "36. We ____ (get) married in the summer. (We've set the date.) Put the verb in the correct tense.", "answers": ["are going to get", "'re going to get"], "explanation": "Fixed plan (date set) → going to."},
+        {"type": "open", "question": "37. I ____ (not tell) her what you said. Put the verb in the correct tense.", "answers": ["won't tell", "will not tell"], "explanation": "Promise → will."},
+        {"type": "open", "question": "38. He ____ (be) 30 next month. Put the verb in the correct tense.", "answers": ["will be", "'ll be"], "explanation": "Future fact (age) → will."},
+        {"type": "open", "question": "39. I ____ (pick) you up at 8. (Already arranged.) Put the verb in the correct tense.", "answers": ["am going to pick", "'m going to pick"], "explanation": "Arrangement → going to."},
+        {"type": "open", "question": "40. She ____ (not give) up. Put the verb in the correct tense.", "answers": ["won't give", "will not give"], "explanation": "Determination → will."},
+        {"type": "open", "question": "41. Wrong: 'They're going to win.' (You're just guessing.) Correct the sentence if you mean a general prediction.", "answers": ["They'll win.", "They will win.", "They'll win", "They will win"], "explanation": "General prediction (guess) → will."},
+        {"type": "open", "question": "42. I ____ (let) you know when I hear. Put the verb in the correct tense.", "answers": ["will let", "'ll let"], "explanation": "Promise → will."},
+        {"type": "open", "question": "43. We ____ (need) more time. Put the verb in the correct tense.", "answers": ["will need", "'ll need"], "explanation": "Prediction → will."},
+        {"type": "open", "question": "44. She ____ (apply) for the job. (She's decided.) Put the verb in the correct tense.", "answers": ["is going to apply", "'s going to apply"], "explanation": "Intention (decided) → going to."},
+        {"type": "open", "question": "45. I ____ (not do) that again. Put the verb in the correct tense.", "answers": ["won't do", "will not do"], "explanation": "Promise → will."},
+        {"type": "open", "question": "46. They ____ (build) a new school. (Plans are approved.) Put the verb in the correct tense.", "answers": ["are going to build", "'re going to build"], "explanation": "Plan (approved) → going to."},
+        {"type": "open", "question": "47. It ____ (be) a nice day tomorrow. Put the verb in the correct tense.", "answers": ["will be", "'ll be"], "explanation": "General prediction → will."},
+        {"type": "open", "question": "48. He ____ (not come) to the party. (He's already said no.) Put the verb in the correct tense.", "answers": ["is not going to come", "isn't going to come", "'s not going to come"], "explanation": "Decision already made → going to."},
+        {"type": "open", "question": "49. I ____ (wait) for you. Put the verb in the correct tense.", "answers": ["will wait", "'ll wait"], "explanation": "Offer / promise → will."},
+        {"type": "open", "question": "50. We ____ (celebrate) when we finish. Put the verb in the correct tense.", "answers": ["will celebrate", "'ll celebrate"], "explanation": "Decision / prediction → will."}
       ]
     }
   },
@@ -2854,7 +2962,38 @@
             "Most"
           ],
           "explanation": "Context shows most remained (we only had a small slice each). Uncountable noun → most."
-        }
+        },
+        {"type": "open", "question": "21. There are _____ apples in the bowl. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, countable → some."},
+        {"type": "open", "question": "22. Is there _____ coffee left? (Fill in the blank.)", "answers": ["any"], "explanation": "Question → any."},
+        {"type": "open", "question": "23. He has _____ experience in this field. (Fill in the blank.)", "answers": ["a lot of", "lots of"], "explanation": "Uncountable, positive → a lot of / lots of."},
+        {"type": "open", "question": "24. _____ the students passed the test. (Fill in the blank.)", "answers": ["All"], "explanation": "Whole group → all."},
+        {"type": "open", "question": "25. There is _____ sugar in the jar. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
+        {"type": "open", "question": "26. We don't have _____ milk. (Fill in the blank.)", "answers": ["any"], "explanation": "Negative → any."},
+        {"type": "open", "question": "27. How _____ time do we have? (Fill in the blank.)", "answers": ["much"], "explanation": "Time = uncountable → much."},
+        {"type": "open", "question": "28. There are _____ books on the shelf. (Fill in the blank.)", "answers": ["several", "some", "a few", "many"], "explanation": "Countable, positive → several, some, a few, or many."},
+        {"type": "open", "question": "29. _____ of the information was useful. (Fill in the blank.)", "answers": ["Most"], "explanation": "Uncountable noun (information) → most."},
+        {"type": "open", "question": "30. I have _____ money left. (almost none). (Fill in the blank.)", "answers": ["little"], "explanation": "Uncountable, negative sense → little."},
+        {"type": "open", "question": "31. _____ of the cake was left – we'd eaten almost all of it. (Fill in the blank.)", "answers": ["Some", "A little"], "explanation": "Context (almost all gone) → some or a little left."},
+        {"type": "open", "question": "32. The room is empty. There are _____ chairs in the room. (Fill in the blank.)", "answers": ["no"], "explanation": "Empty room → no chairs."},
+        {"type": "open", "question": "33. (Positive.) I've got _____ news for you. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
+        {"type": "open", "question": "34. We need _____ more time. (Fill in the blank.)", "answers": ["a little", "some"], "explanation": "Uncountable, positive → a little or some."},
+        {"type": "open", "question": "35. _____ the guests have arrived. (Fill in the blank.)", "answers": ["Most of"], "explanation": "Most of + the + noun → most of the guests."},
+        {"type": "open", "question": "36. There are _____ people here. (Fill in the blank.)", "answers": ["many", "a lot of", "lots of", "some"], "explanation": "Countable, positive → many, a lot of, lots of, or some."},
+        {"type": "open", "question": "37. I don't have _____ questions. (Fill in the blank.)", "answers": ["any"], "explanation": "Negative → any."},
+        {"type": "open", "question": "38. She has _____ friends. (a small number, but positive). (Fill in the blank.)", "answers": ["a few"], "explanation": "Countable, positive, small number → a few."},
+        {"type": "open", "question": "39. There is _____ butter in the fridge. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
+        {"type": "open", "question": "40. _____ of the work is done. (Fill in the blank.)", "answers": ["Most"], "explanation": "Uncountable (work) → most."},
+        {"type": "open", "question": "41. Wrong: 'I have any milk.' Correct the sentence.", "answers": ["I have some milk.", "I have some milk"], "explanation": "Positive statement → some, not any."},
+        {"type": "open", "question": "42. How _____ eggs do we need? (Fill in the blank.)", "answers": ["many"], "explanation": "Eggs = countable → many."},
+        {"type": "open", "question": "43. There's _____ cheese left. (a small amount). (Fill in the blank.)", "answers": ["a little"], "explanation": "Uncountable, positive, small amount → a little."},
+        {"type": "open", "question": "44. _____ students passed the exam. (Fill in the blank.)", "answers": ["All the", "All"], "explanation": "Whole group → all (the) or all."},
+        {"type": "open", "question": "45. We have _____ options. (Fill in the blank.)", "answers": ["several", "some", "a few", "many"], "explanation": "Countable, positive → several, some, a few, or many."},
+        {"type": "open", "question": "46. There isn't _____ bread. (Fill in the blank.)", "answers": ["any"], "explanation": "Negative → any."},
+        {"type": "open", "question": "47. _____ people attended the meeting. (Fill in the blank.)", "answers": ["Many", "Several", "Some", "A few"], "explanation": "Countable, positive → many, several, some, or a few."},
+        {"type": "open", "question": "48. I need _____ help. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
+        {"type": "open", "question": "49. We've used almost everything; _____ of the paint was left. (Fill in the blank.)", "answers": ["A little", "Some"], "explanation": "Almost all used → a little or some left."},
+        {"type": "open", "question": "50. Do you have _____ brothers or sisters? (Fill in the blank.)", "answers": ["any"], "explanation": "Question → any."},
+        {"type": "open", "question": "51. There was _____ traffic this morning – the journey took twice as long. (Fill in the blank.)", "answers": ["a lot of", "lots of", "much"], "explanation": "Traffic = uncountable; context (took twice as long) shows a large amount → a lot of, lots of, or much."}
       ]
     }
   },
@@ -5313,7 +5452,7 @@
   "punctuation": {
     "set1": {
       "title": "Punctuation and capitalisation",
-      "summary": "Commas (including Czech vs English), capitalisation (I, days, months, languages, proper nouns).",
+      "summary": "Commas and capitalisation (I, days, months, languages, proper nouns).",
       "questions": [
         {
           "type": "open",
@@ -5322,7 +5461,7 @@
             "I think that she is coming.",
             "I think that she is coming"
           ],
-          "explanation": "No comma before 'that' in English (unlike Czech before že)."
+          "explanation": "No comma before 'that' in English."
         },
         {
           "type": "open",
@@ -6418,7 +6557,7 @@
   "auxiliary_verbs": {
     "set1": {
       "title": "Auxiliary Verbs – Gap fill and error correction",
-      "summary": "Use do/does/did in questions and negatives; correct common errors (esp. Czech-style).",
+      "summary": "Use do/does/did in questions and negatives; correct common mistakes.",
       "questions": [
         {
           "type": "open",

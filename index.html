@@ -150,6 +150,9 @@
     .topic-label { display: block; font-size: 0.85rem; color: var(--accent); margin-bottom: 0.35rem; font-weight: 600; }
     .topic-label.diagnostic-topic-link { cursor: pointer; text-decoration: underline; }
     .topic-label.diagnostic-topic-link:hover { opacity: 0.9; }
+    .question-block-flag-row { display: flex; justify-content: flex-end; margin-bottom: 0.35rem; }
+    .flag-question-btn { font-size: 0.8rem; padding: 0.35rem 0.6rem; border: 1px solid rgba(220, 80, 80, 0.8); background: rgba(220, 80, 80, 0.1); color: var(--text); border-radius: var(--radius); white-space: nowrap; }
+    .flag-question-btn:hover { background: rgba(220, 80, 80, 0.2); border-color: rgba(220, 80, 80, 1); }
     input[type="text"] { width: 100%; padding: 0.6rem; border-radius: var(--radius); border: 1px solid rgba(86, 95, 137, 0.5); background: var(--bg); color: var(--text); }
     .summary { margin-top: 1.5rem; padding: 1rem; background: var(--surface); border-radius: var(--radius); font-size: 0.9rem; line-height: 1.6; }
     .hidden { display: none !important; }
@@ -201,14 +204,19 @@
     body.viewing-reference #referenceScreen .reference-index-grid button { margin-top: 0; }
     body.viewing-reference #referenceScreen .actions { margin-top: 0.65rem; }
     body.viewing-reference .container { max-width: 56rem; }
-    /* Intro and quiz: wider container + compact layout for no-scroll fit */
-    body.viewing-content .container { max-width: 56rem; }
+    /* Intro and quiz: wide container + compact layout so key info fits at one glance (minimize scrolling) */
+    body.viewing-content .container { max-width: 72rem; }
     body.viewing-content { padding-top: 0.5rem; }
     body.viewing-content h1 { margin-bottom: 0.3rem; }
     body.viewing-content .sub { margin-bottom: 0.5rem; font-size: 0.85rem; }
     body.viewing-content #introScreen .card { padding: 1rem; margin-bottom: 0.65rem; }
-    body.viewing-content #introScreen .intro-section { margin-bottom: 0.65rem; }
+    body.viewing-content #introScreen .intro-section { margin-bottom: 0.65rem; font-size: 0.9rem; line-height: 1.5; }
     body.viewing-content #introScreen .intro-section h3 { margin-bottom: 0.35rem; font-size: 0.95rem; }
+    body.viewing-content #introScreen .diagram { margin: 0.5rem 0 0.35rem; }
+    body.viewing-content #introScreen .diagram-title { font-size: 0.8rem; margin-bottom: 0.35rem; }
+    body.viewing-content #introScreen .diagram-table { font-size: 0.8rem; }
+    body.viewing-content #introScreen .diagram-table th,
+    body.viewing-content #introScreen .diagram-table td { padding: 0.3rem 0.4rem; }
     body.viewing-content #quizScreen .card { padding: 1rem; }
     body.viewing-content #quizScreen .question-block { margin-bottom: 0.75rem; }
     body.viewing-content #quizScreen .question-text { margin-bottom: 0.5rem; }
@@ -281,8 +289,7 @@
         <button type="button" id="examWordFormationBtn" class="secondary">Word Formation</button>
         <button type="button" id="examSentenceTransformationBtn" class="secondary">Sentence Transformation</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
-        <button type="button" id="examPracticeBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
-        <button type="button" id="examPracticeMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+        <button type="button" id="examPracticeMainMenuBtn" class="secondary" style="margin-top: 0.5rem;">Main Menu</button>
       </div>
       <div id="menuOpenCloze" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
@@ -365,8 +372,7 @@
         <button type="button" id="openPracticeSetupBtn" class="secondary">Step 3: Further Practice</button>
         <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
-        <button type="button" id="topicSelectBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
-        <button type="button" id="topicSelectMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+        <button type="button" id="topicSelectMainMenuBtn" class="secondary" style="margin-top: 0.5rem;">Main Menu</button>
       </div>
       <div id="menuPracticeSetup" class="hidden">
         <p id="practiceSetupTopic" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;"></p>
@@ -389,8 +395,7 @@
           <button type="button" id="diagnostic100Btn" class="secondary">Extended – 100 questions</button>
         </div>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
-        <button type="button" id="diagnosticSetupBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
-        <button type="button" id="diagnosticSetupMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+        <button type="button" id="diagnosticSetupMainMenuBtn" class="secondary" style="margin-top: 0.5rem;">Main Menu</button>
       </div>
     </div>
 
@@ -403,14 +408,17 @@
         </div>
       </div>
       <div class="card question-block">
+        <div class="question-block-flag-row">
+          <button type="button" id="reportQuestionBtn" class="flag-question-btn" title="Report a problem with this question">Flag question</button>
+        </div>
         <p id="quizGapFillInstruction" class="hidden" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 0.4rem;">Type in the missing words.</p>
         <div class="question-text" id="questionText"></div>
+        <p id="quizQuestionInstruction" class="hidden" style="color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem; margin-bottom: 0.35rem;"></p>
         <div id="openBlock" class="hidden">
           <input type="text" id="openInput" placeholder="Type your answer" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
         </div>
         <div id="mcBlock" class="options hidden"></div>
         <button type="button" id="submitBtn">Submit</button>
-        <button type="button" id="reportQuestionBtn" class="secondary" style="margin-left: 0.5rem; margin-top: 0.35rem;">Flag question</button>
       </div>
       <div id="feedbackBlock" class="card hidden">
         <div id="feedbackText"></div>
@@ -484,7 +492,6 @@
         </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
           <button type="button" id="introNextBtn">Next</button>
-          <button type="button" id="introBackBtn" class="secondary">Back</button>
           <button type="button" id="introMainMenuBtn" class="secondary">Main Menu</button>
         </div>
         <div id="introOpenClozeRefBar" class="hidden" style="margin-top: 1rem; padding: 0.75rem; background: var(--surface); border-radius: var(--radius); border-top: 1px solid var(--border);">
@@ -542,7 +549,6 @@
         </div>
         <div class="actions">
           <button id="retryWrongBtn" class="secondary">Try again</button>
-          <button type="button" id="resultBackBtn" class="secondary">Back</button>
           <button type="button" id="backToMenuBtn" class="secondary">Main Menu</button>
           <button type="button" id="viewReportedQuestionsBtnResult" class="secondary">View reported questions</button>
         </div>
@@ -593,15 +599,9 @@
 
   <div id="flagReasonOverlay" class="hidden" style="position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); z-index: 101; display: flex; align-items: center; justify-content: center; padding: 1rem;">
     <div class="card" style="max-width: 400px;">
-      <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Why are you flagging this question?</h3>
-      <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem;">
-        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="flagReason" value="nonsense"> Nonsense</label>
-        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="flagReason" value="ambiguity"> Ambiguity</label>
-        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;"><input type="radio" name="flagReason" value="other"> Other (please state)</label>
-      </div>
-      <div id="flagReasonOtherWrap" class="hidden" style="margin-bottom: 1rem;">
-        <input type="text" id="flagReasonOtherInput" placeholder="Please state the reason" style="width: 100%;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-      </div>
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">State reason</h3>
+      <label for="flagReasonInput" style="display: block; font-size: 0.9rem; color: var(--muted); margin-bottom: 0.35rem;">Why are you flagging this question?</label>
+      <input type="text" id="flagReasonInput" placeholder="Why?" style="width: 100%; margin-bottom: 1rem;" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
       <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
         <button type="button" id="flagReasonSubmitBtn">Submit</button>
         <button type="button" id="flagReasonCancelBtn" class="secondary">Cancel</button>
@@ -1850,6 +1850,13 @@
     async function showReference() {
       referenceReturnTo = 'menu';
       renderReferenceIndex();
+      document.getElementById('quizScreen').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('prepositionsListScreen').classList.add('hidden');
+      document.getElementById('phrasalVerbsDictionaryScreen').classList.add('hidden');
+      document.getElementById('examClozeTestScreen').classList.add('hidden');
+      document.getElementById('examTransformTestScreen').classList.add('hidden');
       document.getElementById('menuScreen').classList.add('hidden');
       document.getElementById('introScreen').classList.add('hidden');
       document.getElementById('referenceBtnWrap').classList.add('hidden');
@@ -2848,7 +2855,7 @@
         const qShort = r.questionText.length > 120 ? r.questionText.slice(0, 117) + '...' : r.questionText;
         const topic = r.topicTitle || r.topicId || '—';
         const date = r.timestamp ? new Date(r.timestamp).toLocaleString() : '—';
-        const reasonLabel = r.reasonType === 'other' && r.reasonOther ? 'Other: ' + r.reasonOther : (r.reasonType === 'nonsense' ? 'Nonsense' : r.reasonType === 'ambiguity' ? 'Ambiguity' : r.reasonType ? r.reasonType : '—');
+        const reasonLabel = (r.reasonOther && r.reasonOther.trim()) ? r.reasonOther.trim() : (r.reasonType === 'nonsense' ? 'Nonsense' : r.reasonType === 'ambiguity' ? 'Ambiguity' : r.reasonType === 'other' && r.reasonOther ? 'Other: ' + r.reasonOther : r.reasonType ? r.reasonType : '—');
         return '<li style="margin-bottom: 0.5rem;">' + escapeHtml(topic) + ' · ' + escapeHtml(r.source) + ' · ' + escapeHtml(date) + (reasonLabel !== '—' ? ' · Reason: ' + escapeHtml(reasonLabel) : '') + '<br><span style="color: var(--muted);">' + escapeHtml(qShort) + '</span></li>';
       }).join('');
     }
@@ -2859,8 +2866,10 @@
       return t.innerHTML;
     }
 
+    const TRAILING_INSTRUCTION_REGEX = /\s+(Put the verb in the correct tense\.?|Correct the sentence\.?|Fill in the auxiliary and use the correct form of the verb\.?)\s*$/i;
+
     function cleanQuestionDisplay(str) {
-      if (!str || typeof str !== 'string') return { question: '', contextLabel: null };
+      if (!str || typeof str !== 'string') return { question: '', contextLabel: null, taskInstruction: null };
       let s = str.trim().replace(/^\d+\.\s*/, '');
       let contextLabel = null;
       const metaMatch = s.match(new RegExp('^(Multiple choice|Error correction|Choose the best sentence)(?:\\s+\\(([^)]+)\\))?\\s*\\n', 'i'));
@@ -2868,14 +2877,21 @@
         contextLabel = metaMatch[2] ? metaMatch[2].trim() : null;
         s = s.slice(metaMatch[0].length);
       }
-      return { question: s.trim(), contextLabel };
+      let taskInstruction = null;
+      const trailMatch = s.match(TRAILING_INSTRUCTION_REGEX);
+      if (trailMatch) {
+        taskInstruction = trailMatch[1].trim();
+        if (!/\.$/.test(taskInstruction)) taskInstruction += '.';
+        s = s.slice(0, trailMatch.index).trim();
+      }
+      return { question: s.trim(), contextLabel, taskInstruction };
     }
 
     function showQuestion() {
       const q = currentQuestions[currentIndex];
       const total = currentQuestions.length;
       document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${total}`;
-      const { question: promptRaw, contextLabel } = cleanQuestionDisplay(q.prompt || q.question || '');
+      const { question: promptRaw, contextLabel, taskInstruction } = cleanQuestionDisplay(q.prompt || q.question || '');
       const promptHtml = escapeAndBold(promptRaw);
       const topicLabel = [
         q.topicTitle || (q.topic ? getTopicLabelForDisplay(q.topic) : ''),
@@ -2892,6 +2908,16 @@
         }
       } else {
         questionEl.innerHTML = promptHtml;
+      }
+      const questionInstructionEl = document.getElementById('quizQuestionInstruction');
+      if (questionInstructionEl) {
+        if (taskInstruction) {
+          questionInstructionEl.textContent = taskInstruction;
+          questionInstructionEl.classList.remove('hidden');
+        } else {
+          questionInstructionEl.textContent = '';
+          questionInstructionEl.classList.add('hidden');
+        }
       }
       document.getElementById('openBlock').classList.add('hidden');
       document.getElementById('mcBlock').classList.add('hidden');
@@ -3114,7 +3140,6 @@
     });
     document.getElementById('practiceSetupMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('openTopicSelectBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showTopicSelectMenu(); });
-    document.getElementById('topicSelectBackBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showMainMenu(); });
     document.getElementById('topicSelectMainMenuBtn').addEventListener('click', () => { returnToAfterTopicSelect = null; showMainMenu(); });
     document.getElementById('topicSelectBackToPrevBtn').addEventListener('click', () => {
       if (returnToAfterTopicSelect === 'exam_cloze_feedback') {
@@ -3128,7 +3153,6 @@
       }
     });
     document.getElementById('openExamPracticeBtn').addEventListener('click', showExamPracticeMenu);
-    document.getElementById('examPracticeBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('examPracticeMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('examOpenClozeBtn').addEventListener('click', showOpenClozeMenu);
     document.getElementById('openClozePart1Btn').addEventListener('click', startPart1);
@@ -3338,10 +3362,6 @@
       document.getElementById('menuPracticeSetup').classList.add('hidden');
       document.getElementById('menuDiagnosticSetup').classList.remove('hidden');
     });
-    document.getElementById('diagnosticSetupBackBtn').addEventListener('click', () => {
-      document.getElementById('menuDiagnosticSetup').classList.add('hidden');
-      document.getElementById('menuMain').classList.remove('hidden');
-    });
     document.getElementById('diagnosticSetupMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('diagnostic20Btn').addEventListener('click', () => startDiagnostic(20));
     document.getElementById('diagnostic50Btn').addEventListener('click', () => startDiagnostic(50));
@@ -3402,7 +3422,6 @@
     document.getElementById('nextBtn').addEventListener('click', nextQuestion);
     document.getElementById('retryWrongBtn').addEventListener('click', retryWrong);
     document.getElementById('backToMenuBtn').addEventListener('click', showMainMenu);
-    document.getElementById('resultBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
     document.getElementById('quizMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('quizScreen').addEventListener('click', function(e) {
@@ -3423,7 +3442,6 @@
       const sel = document.getElementById('topicSelect');
       if (sel) sel.value = String(idx);
     });
-    document.getElementById('introBackBtn').addEventListener('click', showMainMenu);
     document.getElementById('introMainMenuBtn').addEventListener('click', showMainMenu);
     const viewPrepositionsListBtn = document.getElementById('viewPrepositionsListBtn');
     if (viewPrepositionsListBtn) viewPrepositionsListBtn.addEventListener('click', () => showPrepositionsList('menu'));
@@ -3444,26 +3462,13 @@
     document.getElementById('referenceMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('reportQuestionBtn').addEventListener('click', function() {
       if (!currentQuestions.length || currentIndex < 0 || currentIndex >= currentQuestions.length) return;
-      document.querySelectorAll('input[name="flagReason"]').forEach(function(radio) { radio.checked = false; });
-      var otherWrap = document.getElementById('flagReasonOtherWrap');
-      var otherInput = document.getElementById('flagReasonOtherInput');
-      if (otherWrap) otherWrap.classList.add('hidden');
-      if (otherInput) otherInput.value = '';
+      var input = document.getElementById('flagReasonInput');
+      if (input) { input.value = ''; input.focus(); }
       document.getElementById('flagReasonOverlay').classList.remove('hidden');
     });
-    document.querySelectorAll('input[name="flagReason"]').forEach(function(radio) {
-      radio.addEventListener('change', function() {
-        var wrap = document.getElementById('flagReasonOtherWrap');
-        if (!wrap) return;
-        if (this.value === 'other') { wrap.classList.remove('hidden'); document.getElementById('flagReasonOtherInput').focus(); } else { wrap.classList.add('hidden'); }
-      });
-    });
     document.getElementById('flagReasonSubmitBtn').addEventListener('click', function() {
-      var selected = document.querySelector('input[name="flagReason"]:checked');
-      if (!selected) return;
-      var reasonType = selected.value;
-      var reasonOther = (reasonType === 'other') ? (document.getElementById('flagReasonOtherInput').value || '').trim() : '';
-      addReportedQuestion(reasonType, reasonOther);
+      var reasonText = (document.getElementById('flagReasonInput').value || '').trim();
+      addReportedQuestion('', reasonText);
       document.getElementById('flagReasonOverlay').classList.add('hidden');
     });
     document.getElementById('flagReasonCancelBtn').addEventListener('click', function() {

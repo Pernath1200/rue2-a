@@ -6218,6 +6218,38 @@
     },
     {
       "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 32,
+      "check": "short_or_context_free",
+      "questionSnippet": "34. We need _____ more time. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "short_or_context_free",
+      "questionSnippet": "45. We have _____ options. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "short_or_context_free",
+      "questionSnippet": "46. There isn't _____ bread. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "quantifiers",
+      "setId": "set1",
+      "questionIndex": 46,
+      "check": "short_or_context_free",
+      "questionSnippet": "48. I need _____ help. (Fill in the blank.)"
+    },
+    {
+      "source": "questions.json",
       "topicOrSet": "phrasal_verbs",
       "setId": "set1",
       "questionIndex": 0,
@@ -7465,5 +7497,486 @@
       "questionSnippet": "20. We ____ book in advance. (advisability)"
     }
   ],
-  "ambiguity": []
+  "ambiguity": [
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 19,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "20. She ____ (work) on this project for three months. Put the verb in the correct tense.",
+      "answer": "has been working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 21,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "22. How long ____ you ____ (know) your best friend? Put the verb in the correct tense.",
+      "answer": "have you known"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "24. Your hands are dirty. ____ you ____ (work) in the garden? Put the verb in the correct tense.",
+      "answer": "have you been working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 24,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "25. He ____ (write) six emails this morning. Put the verb in the correct tense.",
+      "answer": "has written"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "26. We ____ (wait) for the bus for 20 minutes. Put the verb in the correct tense.",
+      "answer": "have been waiting"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "30. The children ____ (play) in the garden all afternoon. Put the verb in the correct tense.",
+      "answer": "have been playing"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 31,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "32. She ____ (teach) at this school for ten years. Put the verb in the correct tense.",
+      "answer": "has been teaching"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 33,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "34. How many times ____ you ____ (see) that film? Put the verb in the correct tense.",
+      "answer": "have you seen"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 34,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "35. He ____ (look) for his keys for the last half hour. Put the verb in the correct tense.",
+      "answer": "has been looking"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 37,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "38. I ____ (always want) to learn the piano. Put the verb in the correct tense.",
+      "answer": "have always wanted"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "41. How long ____ she ____ (work) here? Put the verb in the correct tense.",
+      "answer": "has she been working"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "sets",
+      "setId": "set1",
+      "questionIndex": 43,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "44. He ____ (sleep) badly recently. Put the verb in the correct tense.",
+      "answer": "has been sleeping"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 26,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "27. How long ____ you ____ (have) this phone? Put the verb in the correct tense.",
+      "answer": "have you had"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 27,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "28. He ____ (leave) the office at 6 pm. Put the verb in the correct tense.",
+      "answer": "left"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 29,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "30. I ____ (go) to the cinema last Saturday. Put the verb in the correct tense.",
+      "answer": "went"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "36. He ____ (work) for this company for ten years. Put the verb in the correct tense.",
+      "answer": "has worked"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "37. We ____ (meet) at the conference in Berlin. Put the verb in the correct tense.",
+      "answer": "met"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "41. They ____ (be) together for three years. Put the verb in the correct tense.",
+      "answer": "have been"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 41,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "42. The train ____ (leave) at 9 am. Put the verb in the correct tense.",
+      "answer": "left"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 44,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "45. How long ____ they ____ (be) married? Put the verb in the correct tense.",
+      "answer": "have they been"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "past_simple_present_perfect",
+      "setId": "set1",
+      "questionIndex": 47,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "48. We ____ (have) lunch at that café last Tuesday. Put the verb in the correct tense.",
+      "answer": "had"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 20,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "6. We ____ (have) a party next Saturday. (We've booked the hall.) Put the verb in the correct tense.",
+      "answer": "are going to have"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 23,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "9. Don't worry – I ____ (help) you. Put the verb in the correct tense.",
+      "answer": "will help"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 24,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "10. Look at the traffic – we ____ (be) late. Put the verb in the correct tense.",
+      "answer": "are going to be"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 25,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "11. I ____ (probably stay) at home tonight. Put the verb in the correct tense.",
+      "answer": "will probably stay"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 26,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "12. They ____ (fly) to Rome next month. (Tickets are booked.) Put the verb in the correct tense.",
+      "answer": "are going to fly"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 27,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "13. I ____ (not forget) what you said. Put the verb in the correct tense.",
+      "answer": "won't forget"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 28,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "14. Be careful – you ____ (drop) that glass. Put the verb in the correct tense.",
+      "answer": "are going to drop"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 30,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "16. I ____ (give) you a hand with that. Put the verb in the correct tense.",
+      "answer": "will give"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 35,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "21. The weather forecast says it ____ (rain) at the weekend. Put the verb in the correct tense.",
+      "answer": "will rain"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 36,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "22. I ____ (pay) for the coffee. Put the verb in the correct tense.",
+      "answer": "will pay"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 38,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "24. I ____ (try) my best. Put the verb in the correct tense.",
+      "answer": "will try"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 39,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "25. She ____ (start) her new job on Monday. (Contract signed.) Put the verb in the correct tense.",
+      "answer": "is going to start"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 40,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "26. Don't get up – I ____ (answer) the door. Put the verb in the correct tense.",
+      "answer": "will answer"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 41,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "27. He ____ (probably get) the job. Put the verb in the correct tense.",
+      "answer": "will probably get"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 42,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "28. We ____ (have) a meeting at 3. (It's in the diary.) Put the verb in the correct tense.",
+      "answer": "are going to have"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 45,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "31. I ____ (send) you the file as soon as I can. Put the verb in the correct tense.",
+      "answer": "will send"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 47,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "33. They ____ (not be) late. Put the verb in the correct tense.",
+      "answer": "won't be"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 48,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "34. I ____ (take) the 9 o'clock train. (I've got the ticket.) Put the verb in the correct tense.",
+      "answer": "am going to take"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 49,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "35. It ____ (take) about an hour. Put the verb in the correct tense.",
+      "answer": "will take"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 50,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "36. We ____ (get) married in the summer. (We've set the date.) Put the verb in the correct tense.",
+      "answer": "are going to get"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 51,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "37. I ____ (not tell) her what you said. Put the verb in the correct tense.",
+      "answer": "won't tell"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 52,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "38. He ____ (be) 30 next month. Put the verb in the correct tense.",
+      "answer": "will be"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 54,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "40. She ____ (not give) up. Put the verb in the correct tense.",
+      "answer": "won't give"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 57,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "43. We ____ (need) more time. Put the verb in the correct tense.",
+      "answer": "will need"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 58,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "44. She ____ (apply) for the job. (She's decided.) Put the verb in the correct tense.",
+      "answer": "is going to apply"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 59,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "45. I ____ (not do) that again. Put the verb in the correct tense.",
+      "answer": "won't do"
+    },
+    {
+      "source": "questions.json",
+      "topicOrSet": "will_going_to",
+      "setId": "set1",
+      "questionIndex": 60,
+      "check": "ambiguity_tense",
+      "reason": "Verb tense blank with no time reference (past/present/future unclear).",
+      "questionSnippet": "46. They ____ (build) a new school. (Plans are approved.) Put the verb in the correct tense.",
+      "answer": "are going to build"
+    }
+  ]
 }

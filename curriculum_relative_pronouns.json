@@ -20,7 +20,7 @@
       },
       {
         "title": "Don't use 'what' as relative pronoun",
-        "content": "In English we do **not** use **what** after a noun (Czech 'co'):\n\n• Wrong: The book *what* I read. Right: The book **that/which** I read.\n• Wrong: The man *what* I saw. Right: The man **who/that** I saw.\n• Wrong: The house *what* I was born in. Right: The house **where** I was born (or that/which I was born in).\n\n**What** = 'the thing(s) that' (no noun before it): **What** I need is a holiday."
+        "content": "In English we do **not** use **what** after a noun:\n\n• Wrong: The book *what* I read. Right: The book **that/which** I read.\n• Wrong: The man *what* I saw. Right: The man **who/that** I saw.\n• Wrong: The house *what* I was born in. Right: The house **where** I was born (or that/which I was born in).\n\n**What** = 'the thing(s) that' (no noun before it): **What** I need is a holiday."
       },
       {
         "title": "Quick summary",
@@ -114,7 +114,7 @@
       "questions": [
         {
           "type": "open",
-          "question": "The book ____ I'm reading is by a Czech author.",
+          "question": "The book ____ I'm reading is by a famous author.",
           "answers": [
             "that"
           ],
@@ -211,7 +211,7 @@
       ]
     },
     "errorcorrection": {
-      "title": "Practice: Correct the relative pronoun (Czech-style errors)",
+      "title": "Practice: Correct the relative pronoun (common mistakes)",
       "questions": [
         {
           "type": "open",
