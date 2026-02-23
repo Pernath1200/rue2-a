@@ -24,7 +24,11 @@
       },
       {
         "title": "Quick summary",
-        "content": "• Singular subject → singular verb; plural subject → plural verb.\n• **Third person singular** (he/she/it): present simple adds **-s** (has, goes, does, is).\n• Wrong: *He have been* → Right: He **has** been.\n• Find the real subject; ignore words in between (The list of items **is**).\n• And = plural; or/nor = agree with nearest; each/every = singular.",
+        "content": "• Singular subject → singular verb; plural subject → plural verb.\n• **Third person singular** (he/she/it): present simple adds **-s** (has, goes, does, is).\n• Wrong: *He have been* → Right: He **has** been.\n• Find the real subject; ignore words in between (The list of items **is**).\n• And = plural; or/nor = agree with nearest; each/every = singular.\n\nSee the reference table on the next page."
+      },
+      {
+        "title": "Agreement rules",
+        "content": "",
         "diagram": {
           "type": "table",
           "title": "Agreement rules",

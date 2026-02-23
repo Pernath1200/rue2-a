@@ -73,11 +73,16 @@
         {"type": "mc", "question": "How _____ people were at the party?", "options": {"a": "much", "b": "many", "c": "some", "d": "little"}, "correct_option": "b", "explanation": "Countable (people) → many."},
         {"type": "mc", "question": "She has _____ friends in London.", "options": {"a": "few", "b": "a few", "c": "little", "d": "a little"}, "correct_option": "b", "explanation": "Countable, positive (some) → a few."},
         {"type": "mc", "question": "There is _____ water left. (almost none)", "options": {"a": "little", "b": "a little", "c": "few", "d": "a few"}, "correct_option": "a", "explanation": "Uncountable, negative (almost none) → little."},
-        {"type": "mc", "question": "We have _____ time to finish.", "options": {"a": "little", "b": "a little", "c": "many", "d": "much"}, "correct_option": "b", "explanation": "Uncountable, positive (some) → a little."},
+        {"type": "mc", "question": "We have _____ time to finish. (some)", "options": {"a": "little", "b": "a little", "c": "many", "d": "much"}, "correct_option": "b", "explanation": "Uncountable, positive (some) → a little."},
         {"type": "mc", "question": "_____ the students passed the exam.", "options": {"a": "All", "b": "Most", "c": "No", "d": "Any"}, "correct_option": "a", "explanation": "The whole group → all."},
         {"type": "mc", "question": "I don't have _____ money.", "options": {"a": "some", "b": "any", "c": "many", "d": "few"}, "correct_option": "b", "explanation": "Negative → any."},
         {"type": "mc", "question": "There are _____ apples on the table. (a small number)", "options": {"a": "few", "b": "a few", "c": "little", "d": "a little"}, "correct_option": "b", "explanation": "Countable, positive → a few."},
-        {"type": "mc", "question": "He has _____ experience in teaching.", "options": {"a": "much", "b": "many", "c": "a lot of", "d": "few"}, "correct_option": "c", "explanation": "Positive statement, uncountable → a lot of."}
+        {"type": "mc", "question": "He has _____ experience in teaching.", "options": {"a": "much", "b": "many", "c": "a lot of", "d": "few"}, "correct_option": "c", "explanation": "Positive statement, uncountable → a lot of."},
+        {"type": "mc", "question": "We don't need to buy more bread. There's _____ bread in the cupboard. (more than sufficient)", "options": {"a": "plenty of", "b": "little", "c": "few", "d": "none"}, "correct_option": "a", "explanation": "Plenty of = more than enough; uncountable, positive."},
+        {"type": "mc", "question": "I've had two cups already. I'd like _____ coffee, please. (additional)", "options": {"a": "more", "b": "much", "c": "many", "d": "some"}, "correct_option": "a", "explanation": "Additional amount → more."},
+        {"type": "mc", "question": "Of all the options, this one causes _____ trouble. (minimum amount)", "options": {"a": "the least", "b": "little", "c": "few", "d": "less"}, "correct_option": "a", "explanation": "Superlative (minimum) → the least."},
+        {"type": "mc", "question": "We have _____ time to catch the train. (sufficient)", "options": {"a": "enough", "b": "much", "c": "many", "d": "some"}, "correct_option": "a", "explanation": "Sufficient = enough."},
+        {"type": "mc", "question": "I wanted some milk but there was _____ left. (not any)", "options": {"a": "none", "b": "any", "c": "some", "d": "no"}, "correct_option": "a", "explanation": "Not any (without noun) → none. 'There was none left.'"}
       ]
     },
     "errorcorrection": {

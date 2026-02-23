@@ -3044,9 +3044,10 @@
         },
         {
           "type": "open",
-          "question": "9. Not one student failed. _____ the students passed the exam. (Fill in the blank.)",
+          "question": "8. Not one student failed. _____ the students passed the exam. (whole group)",
           "answers": [
-            "All"
+            "All",
+            "all"
           ],
           "explanation": "Context (not one failed) shows the whole group → all."
         },
@@ -3143,18 +3144,18 @@
         {"type": "open", "question": "21. There are _____ apples in the bowl. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, countable → some."},
         {"type": "open", "question": "22. Is there _____ coffee left? (Fill in the blank.)", "answers": ["any"], "explanation": "Question → any."},
         {"type": "open", "question": "23. He has _____ experience in this field. (Fill in the blank.)", "answers": ["a lot of", "lots of"], "explanation": "Uncountable, positive → a lot of / lots of."},
-        {"type": "open", "question": "24. _____ the students passed the test. (Fill in the blank.)", "answers": ["All"], "explanation": "Whole group → all."},
+        {"type": "open", "question": "24. _____ the students passed the test. (whole group)", "answers": ["All", "all"], "explanation": "Whole group → all."},
         {"type": "open", "question": "25. There is _____ sugar in the jar. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
         {"type": "open", "question": "26. We don't have _____ milk. (Fill in the blank.)", "answers": ["any"], "explanation": "Negative → any."},
         {"type": "open", "question": "27. How _____ time do we have? (Fill in the blank.)", "answers": ["much"], "explanation": "Time = uncountable → much."},
         {"type": "open", "question": "28. There are _____ books on the shelf. (Fill in the blank.)", "answers": ["several", "some", "a few", "many"], "explanation": "Countable, positive → several, some, a few, or many."},
         {"type": "open", "question": "29. _____ of the information was useful. (Fill in the blank.)", "answers": ["Most"], "explanation": "Uncountable noun (information) → most."},
         {"type": "open", "question": "30. I have _____ money left. (almost none). (Fill in the blank.)", "answers": ["little"], "explanation": "Uncountable, negative sense → little."},
-        {"type": "open", "question": "31. _____ of the cake was left – we'd eaten almost all of it. (Fill in the blank.)", "answers": ["Some", "A little"], "explanation": "Context (almost all gone) → some or a little left."},
+        {"type": "open", "question": "31. _____ of the cake was left – we'd eaten almost all of it. (a small amount remaining)", "answers": ["Some", "A little", "some", "a little"], "explanation": "Context (almost all gone) → some or a little left."},
         {"type": "open", "question": "32. The room is empty. There are _____ chairs in the room. (Fill in the blank.)", "answers": ["no"], "explanation": "Empty room → no chairs."},
         {"type": "open", "question": "33. (Positive.) I've got _____ news for you. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
-        {"type": "open", "question": "34. We need _____ more time. (Fill in the blank.)", "answers": ["a little", "some"], "explanation": "Uncountable, positive → a little or some."},
-        {"type": "open", "question": "35. _____ the guests have arrived. (Fill in the blank.)", "answers": ["Most of"], "explanation": "Most of + the + noun → most of the guests."},
+        {"type": "open", "question": "34. We need _____ more time. (a bit more – one phrase)", "answers": ["a little", "some"], "explanation": "Uncountable, positive → a little or some."},
+        {"type": "open", "question": "35. _____ the guests have arrived. (two words: the majority of)", "answers": ["Most of", "most of"], "explanation": "Most of + the + noun → most of the guests."},
         {"type": "open", "question": "36. There are _____ people here. (Fill in the blank.)", "answers": ["many", "a lot of", "lots of", "some"], "explanation": "Countable, positive → many, a lot of, lots of, or some."},
         {"type": "open", "question": "37. I don't have _____ questions. (Fill in the blank.)", "answers": ["any"], "explanation": "Negative → any."},
         {"type": "open", "question": "38. She has _____ friends. (a small number, but positive). (Fill in the blank.)", "answers": ["a few"], "explanation": "Countable, positive, small number → a few."},
@@ -3163,14 +3164,21 @@
         {"type": "open", "question": "41. Wrong: 'I have any milk.' Correct the sentence.", "answers": ["I have some milk.", "I have some milk"], "explanation": "Positive statement → some, not any."},
         {"type": "open", "question": "42. How _____ eggs do we need? (Fill in the blank.)", "answers": ["many"], "explanation": "Eggs = countable → many."},
         {"type": "open", "question": "43. There's _____ cheese left. (a small amount). (Fill in the blank.)", "answers": ["a little"], "explanation": "Uncountable, positive, small amount → a little."},
-        {"type": "open", "question": "44. _____ students passed the exam. (Fill in the blank.)", "answers": ["All the", "All"], "explanation": "Whole group → all (the) or all."},
+        {"type": "open", "question": "44. _____ students passed the exam. (whole group)", "answers": ["All the", "All the", "All", "all"], "explanation": "Whole group → all (the) or all."},
         {"type": "open", "question": "45. We have _____ options. (Fill in the blank.)", "answers": ["several", "some", "a few", "many"], "explanation": "Countable, positive → several, some, a few, or many."},
         {"type": "open", "question": "46. There isn't _____ bread. (Fill in the blank.)", "answers": ["any"], "explanation": "Negative → any."},
         {"type": "open", "question": "47. _____ people attended the meeting. (Fill in the blank.)", "answers": ["Many", "Several", "Some", "A few"], "explanation": "Countable, positive → many, several, some, or a few."},
         {"type": "open", "question": "48. I need _____ help. (Fill in the blank.)", "answers": ["some"], "explanation": "Positive, uncountable → some."},
         {"type": "open", "question": "49. We've used almost everything; _____ of the paint was left. (Fill in the blank.)", "answers": ["A little", "Some"], "explanation": "Almost all used → a little or some left."},
         {"type": "open", "question": "50. Do you have _____ brothers or sisters? (Fill in the blank.)", "answers": ["any"], "explanation": "Question → any."},
-        {"type": "open", "question": "51. There was _____ traffic this morning – the journey took twice as long. (Fill in the blank.)", "answers": ["a lot of", "lots of", "much"], "explanation": "Traffic = uncountable; context (took twice as long) shows a large amount → a lot of, lots of, or much."}
+        {"type": "open", "question": "51. There was _____ traffic this morning – the journey took twice as long. (Fill in the blank.)", "answers": ["a lot of", "lots of", "much"], "explanation": "Traffic = uncountable; context (took twice as long) shows a large amount → a lot of, lots of, or much."},
+        {"type": "open", "question": "52. We don't need to buy more bread. There's _____ bread in the cupboard. (more than sufficient – one phrase)", "answers": ["plenty of"], "explanation": "Plenty of = more than enough; uncountable, positive."},
+        {"type": "open", "question": "53. I've had two cups already. I'd like _____ coffee, please. (additional amount)", "answers": ["more"], "explanation": "Additional amount → more."},
+        {"type": "open", "question": "54. Of all the options, this one causes _____ trouble. (minimum amount)", "answers": ["the least"], "explanation": "Superlative (minimum amount) → the least."},
+        {"type": "open", "question": "55. We have _____ time to catch the train. (sufficient)", "answers": ["enough"], "explanation": "Sufficient = enough."},
+        {"type": "open", "question": "56. She's old _____ to drive. (one word: sufficient)", "answers": ["enough"], "explanation": "After adjective = enough (old enough to drive)."},
+        {"type": "open", "question": "57. I wanted some milk but there was _____ left. (not any)", "answers": ["none"], "explanation": "Not any, without noun = none. 'There was none left.'"},
+        {"type": "open", "question": "58. _____ of the students failed the exam. (not one – the whole group passed)", "answers": ["None"], "explanation": "Not one = none (of the students)."}
       ]
     }
   },

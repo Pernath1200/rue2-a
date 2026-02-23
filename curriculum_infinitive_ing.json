@@ -64,7 +64,11 @@
       },
       {
         "title": "Quick summary (2)",
-        "content": "Full verb lists: **Reference → Infinitive and -ing form**.",
+        "content": "Full verb lists: **Reference → Infinitive and -ing form**.\n\nSee the reference table on the next page."
+      },
+      {
+        "title": "Verb patterns: to-infinitive vs -ing",
+        "content": "",
         "diagram": {
           "type": "table",
           "title": "Verb patterns: to-infinitive vs -ing",
