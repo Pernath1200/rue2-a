@@ -208,7 +208,8 @@
     #introScreen .card { margin-bottom: 1rem; display: flex; flex-direction: column; height: 80vh; min-height: 20rem; }
     #introScreen .card .intro-content-scroll { flex: 1; min-height: 0; overflow-y: auto; }
     #introScreen .card .intro-button-row,
-    #introScreen .card #introOpenClozeRefBar { flex-shrink: 0; }
+    #introScreen .card #introOpenClozeRefBar,
+    #introScreen .card #introReportedSpeechRefBar { flex-shrink: 0; }
     .prepositions-list-card h3 { font-size: 1rem; color: var(--accent); margin: 1rem 0 0.5rem 0; }
     .prepositions-list-card .list-words { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.5rem; }
     .prepositions-list-card .list-words span { background: var(--bg); padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.9rem; }
@@ -538,6 +539,10 @@
           <p style="font-size: 0.85rem; color: var(--muted); margin: 0 0 0.5rem 0;">Reference sheets</p>
           <button type="button" id="viewOpenClozeRefFromIntroBtn" class="secondary">Open Cloze Reference Sheet</button>
           <button type="button" id="viewFixedPhrasesRefFromIntroBtn" class="secondary">Fixed Phrases Reference Sheet</button>
+        </div>
+        <div id="introReportedSpeechRefBar" class="hidden" style="margin-top: 1rem; padding: 0.75rem; background: var(--surface); border-radius: var(--radius); border-top: 1px solid var(--border);">
+          <p style="font-size: 0.85rem; color: var(--muted); margin: 0 0 0.5rem 0;">Reference sheets</p>
+          <button type="button" id="viewReportedSpeechRefFromIntroBtn" class="secondary">Reported Speech Reference Sheet</button>
         </div>
       </div>
     </div>
@@ -1215,7 +1220,8 @@
         ['Open Cloze: Word types', showReferenceOpenCloze],
         ['Fixed Phrases', showReferenceFixedPhrases],
         ['Word Formation: Prefixes & Suffixes', showReferenceWordFormation],
-        ['Linkers and Conjunctions', showReferenceConjunctionsLinkers]
+        ['Linkers and Conjunctions', showReferenceConjunctionsLinkers],
+        ['Reported Speech', showReferenceReportedSpeech]
       ];
       items.forEach(([text, fn]) => {
         const btn = document.createElement('button');
@@ -1339,6 +1345,16 @@
       document.body.classList.remove('viewing-content');
       document.body.classList.add('viewing-reference');
       await showReferenceFixedPhrases();
+    }
+
+    async function showReportedSpeechRefFromIntro() {
+      referenceReturnTo = 'intro';
+      document.getElementById('introScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
+      document.getElementById('referenceScreen').classList.remove('hidden');
+      document.body.classList.remove('viewing-content');
+      document.body.classList.add('viewing-reference');
+      await showReferenceReportedSpeech();
     }
 
     let referenceWordFormationData = null;
@@ -1502,6 +1518,146 @@
         }
       }
       renderReferenceConjunctionsLinkersContent(referenceConjunctionsLinkersData);
+    }
+
+    let referenceReportedSpeechData = null;
+
+    function renderReferenceReportedSpeechContent(data) {
+      if (!data) return;
+      referenceView = 'reported_speech';
+      document.getElementById('referenceTitle').textContent = data.title || 'Reported Speech: Quick Reference';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+
+      const addHeading = (text) => {
+        const h3 = document.createElement('h3');
+        h3.style.fontSize = '1rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.style.color = 'var(--accent)';
+        h3.textContent = text;
+        content.appendChild(h3);
+      };
+
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+
+      const backshift = data.backshift || [];
+      if (backshift.length) {
+        addHeading('Tense backshift');
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Direct</th><th>Reported</th><th>Example</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        backshift.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.direct || '') + '</td><td>' + escapeAndBold(entry.reported || '') + '</td><td>' + escapeAndBold(entry.example || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+
+      const pronounShifts = data.pronoun_shifts || [];
+      if (pronounShifts.length) {
+        addHeading('Pronoun changes');
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        pronounShifts.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.direct || '') + '</td><td>' + escapeAndBold(entry.reported || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+
+      const timePlaceShifts = data.time_place_shifts || [];
+      if (timePlaceShifts.length) {
+        addHeading('Time and place changes');
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        timePlaceShifts.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.direct || '') + '</td><td>' + escapeAndBold(entry.reported || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+
+      const patterns = data.patterns || [];
+      if (patterns.length) {
+        addHeading('Core reporting patterns');
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Rule</th><th>Form</th><th>Example</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        patterns.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.rule || '') + '</td><td>' + escapeAndBold(entry.form || '') + '</td><td>' + escapeAndBold(entry.example || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+
+      const noBackshift = data.no_backshift || [];
+      if (noBackshift.length) {
+        addHeading('When no backshift is needed');
+        const ul = document.createElement('ul');
+        ul.style.margin = '0 0 1rem 1.1rem';
+        ul.style.padding = '0';
+        ul.style.lineHeight = '1.55';
+        noBackshift.forEach(item => {
+          const li = document.createElement('li');
+          li.innerHTML = escapeAndBold(item || '');
+          ul.appendChild(li);
+        });
+        content.appendChild(ul);
+      }
+
+      const commonErrors = data.common_errors || [];
+      if (commonErrors.length) {
+        addHeading('Common errors');
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Wrong</th><th>Right</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        commonErrors.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.wrong || '') + '</td><td>' + escapeAndBold(entry.right || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceReportedSpeech() {
+      if (!referenceReportedSpeechData) {
+        try {
+          const res = await fetch(new URL('reference_reported_speech.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceReportedSpeechData = await res.json();
+        } catch (e) {
+          alert('Could not load Reported Speech reference. ' + (e && e.message));
+          return;
+        }
+      }
+      renderReferenceReportedSpeechContent(referenceReportedSpeechData);
     }
 
     let referenceFixedPhrasesData = null;
@@ -2027,7 +2183,7 @@
     }
 
     function onReferenceBackClick() {
-      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers') {
+      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers' || referenceView === 'reported_speech') {
         if (referenceReturnTo === 'intro') {
           referenceReturnTo = 'menu';
           document.getElementById('referenceScreen').classList.add('hidden');
@@ -2126,6 +2282,7 @@
       const introHtml = escapeAndBold(sections[index].content || '').replace(/\n/g, '<br>');
       const diagramHtml = sections[index].diagram ? renderDiagram(sections[index].diagram) : '';
       const isOpenCloze = currentTopic && currentTopic.id === 'open_cloze';
+      const isReportedSpeech = currentTopic && currentTopic.id === 'reported_speech';
       document.getElementById('introContent').innerHTML = '<div class="intro-section">' + introHtml + '</div>' + diagramHtml;
       const isLastSection = index >= sections.length - 1;
       const hasCheckQuestions = ((courseCurriculum && courseCurriculum.check && courseCurriculum.check.questions) || []).length > 0;
@@ -2136,6 +2293,8 @@
       document.getElementById('introPhrasalVerbsWrap').classList.add('hidden');
       const openClozeRefBar = document.getElementById('introOpenClozeRefBar');
       if (openClozeRefBar) openClozeRefBar.classList.toggle('hidden', !isOpenCloze);
+      const reportedSpeechRefBar = document.getElementById('introReportedSpeechRefBar');
+      if (reportedSpeechRefBar) reportedSpeechRefBar.classList.toggle('hidden', !isReportedSpeech);
     }
 
     function startCourseSection(phase) {
@@ -3612,6 +3771,8 @@
     if (viewOpenClozeRefFromIntroBtn) viewOpenClozeRefFromIntroBtn.addEventListener('click', showOpenClozeRefFromIntro);
     const viewFixedPhrasesRefFromIntroBtn = document.getElementById('viewFixedPhrasesRefFromIntroBtn');
     if (viewFixedPhrasesRefFromIntroBtn) viewFixedPhrasesRefFromIntroBtn.addEventListener('click', showFixedPhrasesRefFromIntro);
+    const viewReportedSpeechRefFromIntroBtn = document.getElementById('viewReportedSpeechRefFromIntroBtn');
+    if (viewReportedSpeechRefFromIntroBtn) viewReportedSpeechRefFromIntroBtn.addEventListener('click', showReportedSpeechRefFromIntro);
     document.getElementById('phrasalVerbsDictionaryBackBtn').addEventListener('click', hidePhrasalVerbsDictionary);
     document.getElementById('phrasalVerbsDictionaryMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('phrasalVerbsDictionaryPrintBtn').addEventListener('click', () => window.print());

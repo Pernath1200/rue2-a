@@ -1394,7 +1394,7 @@
   },
   "spelling": {
     "set1": {
-      "title": "Spelling – Correct the spelling (1–200)",
+      "title": "Spelling – Correct the spelling (1–216)",
       "summary": "200 commonly misspelt words – accommodation through pronunciation. Exam essentials (FCE Listening Part 2, Use of English Part 2 & 3) and common teen mistakes.",
       "questions": [
         {
@@ -2344,7 +2344,23 @@
         {"type": "open", "question": "197. Wrong: 'Immediatly after that.' Correct the sentence.", "answers": ["Immediately after that."], "explanation": "Immediately: double m."},
         {"type": "open", "question": "198. Wrong: 'Knowlege is power.' Correct the sentence.", "answers": ["Knowledge is power."], "explanation": "Knowledge: -ledge."},
         {"type": "open", "question": "199. Wrong: 'A peice of advice.' Correct the sentence.", "answers": ["A piece of advice."], "explanation": "Piece: i before e."},
-        {"type": "open", "question": "200. Wrong: 'Your pronounciation is good.' Correct the sentence.", "answers": ["Your pronunciation is good."], "explanation": "Pronunciation: -nun- from pronounce."}
+        {"type": "open", "question": "200. Wrong: 'Your pronounciation is good.' Correct the sentence.", "answers": ["Your pronunciation is good."], "explanation": "Pronunciation: -nun- from pronounce."},
+        {"type": "open", "question": "201. Wrong: 'I checked everythning twice.' Correct the sentence.", "answers": ["I checked everything twice."], "explanation": "Everything: every + thing."},
+        {"type": "open", "question": "202. Wrong: 'We bought all the engredients for dinner.' Correct the sentence.", "answers": ["We bought all the ingredients for dinner."], "explanation": "Ingredients: -ie- and plural -s."},
+        {"type": "open", "question": "203. Wrong: 'That sounds recenable to me.' Correct the sentence.", "answers": ["That sounds reasonable to me."], "explanation": "Reasonable: reason + -able."},
+        {"type": "open", "question": "204. Wrong: 'Please squezze the lemon.' Correct the sentence.", "answers": ["Please squeeze the lemon."], "explanation": "Squeeze: squ- + -eeze."},
+        {"type": "open", "question": "205. Wrong: 'We stayed home insted of going out.' Correct the sentence.", "answers": ["We stayed home instead of going out."], "explanation": "Instead: in- + stead."},
+        {"type": "open", "question": "206. Wrong: 'They made the cake themselfs.' Correct the sentence.", "answers": ["They made the cake themselves."], "explanation": "Themselves: them + selves."},
+        {"type": "open", "question": "207. Wrong: 'Everybodies welcome at the event.' Correct the sentence.", "answers": ["Everybody's welcome at the event."], "explanation": "Everybody's = everybody is (apostrophe + s)."},
+        {"type": "open", "question": "208. Wrong: 'My perents are very supportive.' Correct the sentence.", "answers": ["My parents are very supportive."], "explanation": "Parents: par- + -ents."},
+        {"type": "open", "question": "209. Wrong: 'Thank you so mutch for your help.' Correct the sentence.", "answers": ["Thank you so much for your help."], "explanation": "Much: no t."},
+        {"type": "open", "question": "210. Wrong: 'I stayed home becose it was raining.' Correct the sentence.", "answers": ["I stayed home because it was raining."], "explanation": "Because: be + cause."},
+        {"type": "open", "question": "211. Wrong: 'Be cautiose when crossing the road.' Correct the sentence.", "answers": ["Be cautious when crossing the road."], "explanation": "Cautious: cauti- + -ous."},
+        {"type": "open", "question": "212. Wrong: 'I need to buy some grocerise.' Correct the sentence.", "answers": ["I need to buy some groceries."], "explanation": "Groceries: grocer + ies."},
+        {"type": "open", "question": "213. Wrong: 'This method gives us a big advantige.' Correct the sentence.", "answers": ["This method gives us a big advantage."], "explanation": "Advantage: -tage ending."},
+        {"type": "open", "question": "214. Wrong: 'Her pearants were waiting outside.' Correct the sentence.", "answers": ["Her parents were waiting outside."], "explanation": "Parents: par- + -ents."},
+        {"type": "open", "question": "215. Wrong: 'Genually speaking, this works well.' Correct the sentence.", "answers": ["Generally speaking, this works well."], "explanation": "Generally: general + -ly."},
+        {"type": "open", "question": "216. Wrong: 'Mabey we can try again tomorrow.' Correct the sentence.", "answers": ["Maybe we can try again tomorrow."], "explanation": "Maybe: may + be."}
       ]
     }
   },
@@ -6011,11 +6027,13 @@
           "question": "14. Wrong: 'She bought a new furniture.' Correct the sentence.",
           "answers": [
             "She bought new furniture.",
+            "She bought some furniture.",
             "She bought a piece of furniture.",
             "She bought new furniture",
+            "She bought some furniture",
             "She bought a piece of furniture"
           ],
-          "explanation": "Furniture is uncountable; no 'a' or use 'a piece of furniture'."
+          "explanation": "Furniture is uncountable; no 'a'. Use zero article/some + furniture, or a count unit (a piece of furniture)."
         },
         {
           "type": "open",
@@ -6041,12 +6059,14 @@
         },
         {
           "type": "open",
-          "question": "17. Wrong: 'Where are my shorts?' (referring to one pair) The verb can be plural. Correct if 'short' is used.",
+          "question": "17. Wrong: 'Where is my shorts?' Correct the sentence.",
           "answers": [
             "Where are my shorts?",
-            "Where are my shorts"
+            "Where is my pair of shorts?",
+            "Where are my shorts",
+            "Where is my pair of shorts"
           ],
-          "explanation": "Shorts is plural-only; 'are' is correct."
+          "explanation": "Shorts is plural-only, so use a plural verb (are). For one item, 'a pair of shorts' takes singular verb (is)."
         },
         {
           "type": "open",
@@ -6073,11 +6093,11 @@
           "question": "20. Wrong: 'He gave me a good advice.' Correct the sentence.",
           "answers": [
             "He gave me good advice.",
-            "He gave me a piece of good advice.",
+            "He gave me a good piece of advice.",
             "He gave me good advice",
-            "He gave me a piece of good advice"
+            "He gave me a good piece of advice"
           ],
-          "explanation": "Advice is uncountable; no 'a' or use 'a piece of'."
+          "explanation": "Advice is uncountable, so not 'a advice'. Use 'good advice' or 'a piece of advice'."
         }
       ]
     }

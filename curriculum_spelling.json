@@ -154,7 +154,8 @@
     "error_correction_17",
     "error_correction_18",
     "error_correction_19",
-    "error_correction_20"
+    "error_correction_20",
+    "error_correction_21"
   ],
   "practice": {
     "mc": {
@@ -1999,6 +2000,139 @@
             "Your pronunciation is good."
           ],
           "explanation": "Pronunciation: -nun- from pronounce."
+        }
+      ]
+    },
+    "error_correction_21": {
+      "title": "Practice: Correct the spelling (201–216)",
+      "questions": [
+        {
+          "type": "open",
+          "question": "Wrong: 'I checked everythning twice.' Correct the sentence.",
+          "answers": [
+            "I checked everything twice."
+          ],
+          "explanation": "Everything: every + thing."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'We bought all the engredients for dinner.' Correct the sentence.",
+          "answers": [
+            "We bought all the ingredients for dinner."
+          ],
+          "explanation": "Ingredients: -ie- and plural -s."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'That sounds recenable to me.' Correct the sentence.",
+          "answers": [
+            "That sounds reasonable to me."
+          ],
+          "explanation": "Reasonable: reason + -able."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Please squezze the lemon.' Correct the sentence.",
+          "answers": [
+            "Please squeeze the lemon."
+          ],
+          "explanation": "Squeeze: squ- + -eeze."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'We stayed home insted of going out.' Correct the sentence.",
+          "answers": [
+            "We stayed home instead of going out."
+          ],
+          "explanation": "Instead: in- + stead."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'They made the cake themselfs.' Correct the sentence.",
+          "answers": [
+            "They made the cake themselves."
+          ],
+          "explanation": "Themselves: them + selves."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Everybodies welcome at the event.' Correct the sentence.",
+          "answers": [
+            "Everybody's welcome at the event."
+          ],
+          "explanation": "Everybody's = everybody is (apostrophe + s)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'My perents are very supportive.' Correct the sentence.",
+          "answers": [
+            "My parents are very supportive."
+          ],
+          "explanation": "Parents: par- + -ents."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Thank you so mutch for your help.' Correct the sentence.",
+          "answers": [
+            "Thank you so much for your help."
+          ],
+          "explanation": "Much: no t."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I stayed home becose it was raining.' Correct the sentence.",
+          "answers": [
+            "I stayed home because it was raining."
+          ],
+          "explanation": "Because: be + cause."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Be cautiose when crossing the road.' Correct the sentence.",
+          "answers": [
+            "Be cautious when crossing the road."
+          ],
+          "explanation": "Cautious: cauti- + -ous."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I need to buy some grocerise.' Correct the sentence.",
+          "answers": [
+            "I need to buy some groceries."
+          ],
+          "explanation": "Groceries: grocer + ies."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'This method gives us a big advantige.' Correct the sentence.",
+          "answers": [
+            "This method gives us a big advantage."
+          ],
+          "explanation": "Advantage: -tage ending."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Her pearants were waiting outside.' Correct the sentence.",
+          "answers": [
+            "Her parents were waiting outside."
+          ],
+          "explanation": "Parents: par- + -ents."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Genually speaking, this works well.' Correct the sentence.",
+          "answers": [
+            "Generally speaking, this works well."
+          ],
+          "explanation": "Generally: general + -ly."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Mabey we can try again tomorrow.' Correct the sentence.",
+          "answers": [
+            "Maybe we can try again tomorrow."
+          ],
+          "explanation": "Maybe: may + be."
         }
       ]
     }
