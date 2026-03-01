@@ -109,12 +109,12 @@
         "type": "mc",
         "question": "Which is correct?",
         "options": {
-          "a": "Because it rained, so we stayed at home.",
-          "b": "Because it rained, we stayed at home.",
+          "a": "Because it rained, we stayed at home.",
+          "b": "Because it rained, so we stayed at home.",
           "c": "Because it rained, therefore we stayed.",
           "d": "It rained, because we stayed at home."
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Don't use because and so (or therefore) in the same sentence. Use one: Because it rained, we stayed. Or: It rained so we stayed."
       },
       {
@@ -122,11 +122,11 @@
         "question": "Which is correct?",
         "options": {
           "a": "Although he tried, but he failed.",
-          "b": "Although he tried, he failed.",
-          "c": "Although he tried, however he failed.",
+          "b": "Although he tried, however he failed.",
+          "c": "Although he tried, he failed.",
           "d": "Although he tried, and he failed."
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "Don't use although and but (or however) together. Use one: Although he tried, he failed. Or: He tried but he failed."
       },
       {
@@ -134,11 +134,11 @@
         "question": "Which linker fits? 'It was expensive. _____, we bought it.'",
         "options": {
           "a": "Therefore",
-          "b": "However",
-          "c": "Because",
-          "d": "Moreover"
+          "b": "Because",
+          "c": "Moreover",
+          "d": "However"
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "However shows contrast (expensive vs we bought it). Therefore would mean 'because it was expensive we bought it' which is odd."
       },
       {
@@ -158,11 +158,11 @@
         "question": "Which is correct?",
         "options": {
           "a": "She likes tea, whereas he prefers coffee.",
-          "b": "She likes tea, whereas he prefers coffee. (same)",
-          "c": "She likes tea, while he prefers coffee.",
-          "d": "Both a and c are correct."
+          "b": "Both a and c are correct.",
+          "c": "She likes tea, whereas he prefers coffee. (same)",
+          "d": "She likes tea, while he prefers coffee."
         },
-        "correct_option": "d",
+        "correct_option": "b",
         "explanation": "Whereas and while can both show contrast between two things. She likes tea, whereas/while he prefers coffee."
       },
       {
@@ -296,12 +296,12 @@
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "Because it rained, so we stayed at home.",
-            "b": "Because it rained, we stayed at home.",
+            "a": "Because it rained, we stayed at home.",
+            "b": "Because it rained, so we stayed at home.",
             "c": "Because it rained, therefore we stayed.",
             "d": "It rained, because we stayed at home."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Don't use because and so (or therefore) in the same sentence. Use one: Because it rained, we stayed. Or: It rained so we stayed."
         },
         {
@@ -309,11 +309,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "Although he tried, but he failed.",
-            "b": "Although he tried, he failed.",
-            "c": "Although he tried, however he failed.",
+            "b": "Although he tried, however he failed.",
+            "c": "Although he tried, he failed.",
             "d": "Although he tried, and he failed."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Don't use although and but (or however) together. Use one: Although he tried, he failed. Or: He tried but he failed."
         },
         {
@@ -321,11 +321,11 @@
           "question": "Which linker fits? 'It was expensive. _____, we bought it.'",
           "options": {
             "a": "Therefore",
-            "b": "However",
-            "c": "Because",
+            "b": "Because",
+            "c": "However",
             "d": "Moreover"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "However shows contrast (expensive vs we bought it). Therefore would mean 'because it was expensive we bought it' which is odd."
         },
         {
@@ -357,11 +357,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "Because it rained, so we stayed at home.",
-            "b": "Because it rained, we stayed at home.",
-            "c": "Because it rained, therefore we stayed.",
-            "d": "It rained, because we stayed at home."
+            "b": "It rained, because we stayed at home.",
+            "c": "Because it rained, we stayed at home.",
+            "d": "Because it rained, therefore we stayed."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Don't use because and so (or therefore) in the same sentence. Use one: Because it rained, we stayed. Or: It rained so we stayed."
         },
         {
@@ -369,11 +369,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "Although he tried, but he failed.",
-            "b": "Although he tried, he failed.",
-            "c": "Although he tried, however he failed.",
+            "b": "Although he tried, however he failed.",
+            "c": "Although he tried, he failed.",
             "d": "Although he tried, and he failed."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Don't use although and but (or however) together. Use one: Although he tried, he failed. Or: He tried but he failed."
         },
         {
@@ -381,11 +381,11 @@
           "question": "Which linker fits? 'It was expensive. _____, we bought it.'",
           "options": {
             "a": "Therefore",
-            "b": "However",
-            "c": "Because",
-            "d": "Moreover"
+            "b": "Because",
+            "c": "Moreover",
+            "d": "However"
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "However shows contrast (expensive vs we bought it). Therefore would mean 'because it was expensive we bought it' which is odd."
         },
         {

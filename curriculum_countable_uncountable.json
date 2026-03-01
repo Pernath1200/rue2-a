@@ -69,12 +69,12 @@
         "type": "mc",
         "question": "Which is correct?",
         "options": {
-          "a": "I need some advices.",
-          "b": "I need some advice.",
+          "a": "I need some advice.",
+          "b": "I need some advices.",
           "c": "I need an advice.",
           "d": "I need many advices."
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Advice is uncountable in English. Use 'some advice' or 'a piece of advice'."
       },
       {
@@ -82,30 +82,30 @@
         "question": "Which is correct?",
         "options": {
           "a": "The scissors is on the table.",
-          "b": "The scissors are on the table.",
-          "c": "A scissors is on the table.",
+          "b": "A scissors is on the table.",
+          "c": "The scissors are on the table.",
           "d": "The scissor is on the table."
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "Scissors is always plural and takes a plural verb (are)."
       },
-      {
-        "type": "mc",
-        "question": "Which is correct?",
-        "options": {
-          "a": "I have many homeworks.",
-          "b": "I have a lot of homework.",
-          "c": "I have many homework.",
-          "d": "I have five homeworks."
+{
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "I have many homeworks.",
+            "b": "I have a lot of homework.",
+            "c": "I have many homework.",
+            "d": "I have five homeworks."
+          },
+          "correct_option": "b",
+          "explanation": "Homework is uncountable. Use 'a lot of homework' or 'some homework'."
         },
-        "correct_option": "b",
-        "explanation": "Homework is uncountable. Use 'a lot of homework' or 'some homework'."
-      },
-      {
-        "type": "mc",
-        "question": "Which is correct?",
-        "options": {
-          "a": "This trousers is too long.",
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "This trousers is too long.",
           "b": "This trouser is too long.",
           "c": "These trousers are too long.",
           "d": "These trousers is too long."
@@ -118,11 +118,11 @@
         "question": "Which is correct?",
         "options": {
           "a": "The news are good.",
-          "b": "The news is good.",
-          "c": "A news is good.",
-          "d": "The news are good today."
+          "b": "A news is good.",
+          "c": "The news are good today.",
+          "d": "The news is good."
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "News is uncountable and takes a singular verb (is)."
       }
     ]
@@ -239,12 +239,12 @@
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "I need some advices.",
-            "b": "I need some advice.",
+            "a": "I need some advice.",
+            "b": "I need some advices.",
             "c": "I need an advice.",
             "d": "I need many advices."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Advice is uncountable in English. Use 'some advice' or 'a piece of advice'."
         },
         {
@@ -252,11 +252,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "The scissors is on the table.",
-            "b": "The scissors are on the table.",
-            "c": "A scissors is on the table.",
+            "b": "A scissors is on the table.",
+            "c": "The scissors are on the table.",
             "d": "The scissor is on the table."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Scissors is always plural and takes a plural verb (are)."
         },
         {
@@ -264,11 +264,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "I have many homeworks.",
-            "b": "I have a lot of homework.",
-            "c": "I have many homework.",
-            "d": "I have five homeworks."
+            "b": "I have many homework.",
+            "c": "I have five homeworks.",
+            "d": "I have a lot of homework."
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "Homework is uncountable. Use 'a lot of homework' or 'some homework'."
         },
         {
@@ -288,11 +288,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "The news are good.",
-            "b": "The news is good.",
-            "c": "A news is good.",
+            "b": "A news is good.",
+            "c": "The news is good.",
             "d": "The news are good today."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "News is uncountable and takes a singular verb (is)."
         },
         {
@@ -300,11 +300,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "I need some advices.",
-            "b": "I need some advice.",
-            "c": "I need an advice.",
-            "d": "I need many advices."
+            "b": "I need an advice.",
+            "c": "I need many advices.",
+            "d": "I need some advice."
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "Advice is uncountable in English. Use 'some advice' or 'a piece of advice'."
         },
         {
@@ -313,8 +313,8 @@
           "options": {
             "a": "The scissors is on the table.",
             "b": "The scissors are on the table.",
-            "c": "A scissors is on the table.",
-            "d": "The scissor is on the table."
+            "c": "The scissor is on the table.",
+            "d": "A scissors is on the table."
           },
           "correct_option": "b",
           "explanation": "Scissors is always plural and takes a plural verb (are)."
@@ -336,23 +336,23 @@
           "question": "Which is correct?",
           "options": {
             "a": "This trousers is too long.",
-            "b": "This trouser is too long.",
-            "c": "These trousers are too long.",
+            "b": "These trousers are too long.",
+            "c": "This trouser is too long.",
             "d": "These trousers is too long."
           },
-          "correct_option": "c",
+          "correct_option": "b",
           "explanation": "Trousers is always plural; use 'these' and a plural verb (are)."
         },
         {
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "The news are good.",
-            "b": "The news is good.",
+            "a": "The news is good.",
+            "b": "The news are good.",
             "c": "A news is good.",
             "d": "The news are good today."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "News is uncountable and takes a singular verb (is)."
         }
       ]

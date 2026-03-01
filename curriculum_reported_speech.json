@@ -129,24 +129,24 @@
         "type": "mc",
         "question": "\"Where do you live?\" → He asked …",
         "options": {
-          "a": "where do I live",
-          "b": "where I lived",
+          "a": "where I lived",
+          "b": "where do I live",
           "c": "where did I live",
           "d": "where I live"
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Reported question: statement order (where I lived) and past backshift."
       },
       {
         "type": "mc",
         "question": "Which sentence is correct?",
         "options": {
-          "a": "She told that she would come.",
-          "b": "She told me that she would come.",
+          "a": "She told me that she would come.",
+          "b": "She told that she would come.",
           "c": "She said me that she would come.",
           "d": "She told to me that she would come."
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Tell + person (tell me). Say does not take indirect object without 'to'."
       },
       {
@@ -154,11 +154,11 @@
         "question": "\"Close the window.\" → She …",
         "options": {
           "a": "said me to close the window",
-          "b": "told me to close the window",
-          "c": "said to close the window",
+          "b": "said to close the window",
+          "c": "told me to close the window",
           "d": "told to me close the window"
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "Reported command: tell + person + to-infinitive."
       },
       {
@@ -178,11 +178,11 @@
         "question": "\"Are you coming?\" → She asked me …",
         "options": {
           "a": "are you coming",
-          "b": "if I was coming",
-          "c": "if you are coming",
-          "d": "was I coming"
+          "b": "if you are coming",
+          "c": "was I coming",
+          "d": "if I was coming"
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "Yes/No reported question: if + statement order (if I was coming)."
       }
     ]
@@ -377,23 +377,23 @@
           "question": "\"Where do you live?\" → He asked …",
           "options": {
             "a": "where do I live",
-            "b": "where I lived",
-            "c": "where did I live",
+            "b": "where did I live",
+            "c": "where I lived",
             "d": "where I live"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Reported question: statement order (where I lived) and past backshift."
         },
         {
           "type": "mc",
           "question": "Which sentence is correct?",
           "options": {
-            "a": "She told that she would come.",
-            "b": "She told me that she would come.",
+            "a": "She told me that she would come.",
+            "b": "She told that she would come.",
             "c": "She said me that she would come.",
             "d": "She told to me that she would come."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Tell + person (tell me). Say does not take indirect object without 'to'."
         },
         {
@@ -412,12 +412,12 @@
           "type": "mc",
           "question": "\"I have finished my work.\" → He said …",
           "options": {
-            "a": "he has finished his work",
-            "b": "he finished his work",
-            "c": "he had finished his work",
+            "a": "he had finished his work",
+            "b": "he has finished his work",
+            "c": "he finished his work",
             "d": "he have finished his work"
           },
-          "correct_option": "c",
+          "correct_option": "a",
           "explanation": "Present perfect → past perfect in reported speech: had finished."
         },
         {
@@ -425,23 +425,23 @@
           "question": "\"Are you coming?\" → She asked me …",
           "options": {
             "a": "are you coming",
-            "b": "if I was coming",
-            "c": "if you are coming",
+            "b": "if you are coming",
+            "c": "if I was coming",
             "d": "was I coming"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Yes/No reported question: if + statement order (if I was coming)."
         },
         {
           "type": "mc",
           "question": "\"I am leaving tomorrow.\" Which reported sentence is correct?",
           "options": {
-            "a": "She said she was leaving the next day.",
-            "b": "She said she is leaving tomorrow.",
-            "c": "She said she was leaving tomorrow.",
-            "d": "She said she had left the next day."
+            "a": "She said she is leaving tomorrow.",
+            "b": "She said she had left the next day.",
+            "c": "She said she was leaving the next day.",
+            "d": "She said she was leaving tomorrow."
           },
-          "correct_option": "a",
+          "correct_option": "c",
           "explanation": "Backshift: am leaving → was leaving; tomorrow → the next day."
         },
         {
@@ -449,35 +449,35 @@
           "question": "\"Where do you live?\" → He asked …",
           "options": {
             "a": "where do I live",
-            "b": "where I lived",
-            "c": "where did I live",
+            "b": "where did I live",
+            "c": "where I lived",
             "d": "where I live"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Reported question: statement order (where I lived) and past backshift."
         },
         {
           "type": "mc",
           "question": "Which sentence is correct?",
           "options": {
-            "a": "She told that she would come.",
-            "b": "She told me that she would come.",
+            "a": "She told me that she would come.",
+            "b": "She told that she would come.",
             "c": "She said me that she would come.",
             "d": "She told to me that she would come."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Tell + person (tell me). Say does not take indirect object without 'to'."
         },
         {
           "type": "mc",
           "question": "\"Close the window.\" → She …",
           "options": {
-            "a": "said me to close the window",
-            "b": "told me to close the window",
-            "c": "said to close the window",
-            "d": "told to me close the window"
+            "a": "told me to close the window",
+            "b": "said me to close the window",
+            "c": "told to me close the window",
+            "d": "said to close the window"
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Reported command: tell + person + to-infinitive."
         }
       ]

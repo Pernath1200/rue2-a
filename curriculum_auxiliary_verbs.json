@@ -67,12 +67,12 @@
         "type": "mc",
         "question": "After *did* in a question or negative, which form of the main verb do we use?",
         "options": {
-          "a": "Past tense (e.g. went)",
-          "b": "Base form (e.g. go)",
+          "a": "Base form (e.g. go)",
+          "b": "Past tense (e.g. went)",
           "c": "-ing form",
           "d": "Past participle"
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "After **did** we always use the **base form** of the verb: *Did he go?* not *Did he went?*"
       },
       {
@@ -80,11 +80,11 @@
         "question": "Which is correct for *Have you a car?* (when 'have' means possess)?",
         "options": {
           "a": "Have you a car? (always correct)",
-          "b": "Do you have a car? (standard)",
-          "c": "Have you have a car?",
+          "b": "Have you have a car?",
+          "c": "Do you have a car? (standard)",
           "d": "Do you has a car?"
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "When **have** is a main verb (possess), we usually form questions with **Do you have...?** In British English *Have you got...?* is also common."
       },
       {
@@ -92,11 +92,11 @@
         "question": "Why is *I not know* wrong in English?",
         "options": {
           "a": "We must use 'no' instead of 'not'",
-          "b": "In present simple negative we need the auxiliary **do** + not",
-          "c": "We must use 'never'",
-          "d": "The verb must be past"
+          "b": "We must use 'never'",
+          "c": "The verb must be past",
+          "d": "In present simple negative we need the auxiliary **do** + not"
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "English requires the auxiliary **do** in present simple negatives: *I **do** not know* / *I don't know*."
       }
     ]
@@ -112,12 +112,12 @@
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "He don't know the answer.",
-            "b": "He doesn't know the answer.",
+            "a": "He doesn't know the answer.",
+            "b": "He don't know the answer.",
             "c": "He not know the answer.",
             "d": "He doesn't knows the answer."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Third person singular → **doesn't** + base form **know**."
         },
         {
@@ -125,11 +125,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "Did she went home?",
-            "b": "Did she go home?",
-            "c": "Did she goes home?",
+            "b": "Did she goes home?",
+            "c": "Did she go home?",
             "d": "Did she going home?"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "After **did** we use the **base form**: go."
         },
         {
@@ -137,35 +137,35 @@
           "question": "Which is correct?",
           "options": {
             "a": "Why you did leave?",
-            "b": "Why did you leave?",
+            "b": "Why did you left?",
             "c": "Why you leave?",
-            "d": "Why did you left?"
+            "d": "Why did you leave?"
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "Question word + **did** + subject + base form."
         },
         {
           "type": "mc",
           "question": "Which is correct? (have = possess)",
           "options": {
-            "a": "Have you a pen?",
-            "b": "Do you have a pen?",
+            "a": "Do you have a pen?",
+            "b": "Have you a pen?",
             "c": "Do you has a pen?",
             "d": "You have a pen?"
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "For *have* as main verb (possess), we use **Do you have...?**"
         },
         {
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "They don't have time.",
-            "b": "They doesn't have time.",
+            "a": "They doesn't have time.",
+            "b": "They don't have time.",
             "c": "They not have time.",
             "d": "They don't has time."
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Plural **they** → **don't**; after auxiliary, main verb is base form **have**."
         },
         {
@@ -173,11 +173,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "She didn't came yesterday.",
-            "b": "She didn't come yesterday.",
-            "c": "She not came yesterday.",
+            "b": "She not came yesterday.",
+            "c": "She didn't come yesterday.",
             "d": "She did not came yesterday."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "After **didn't** we use **base form**: come."
         },
         {
@@ -196,12 +196,12 @@
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "I don't understand.",
-            "b": "I not understand.",
+            "a": "I not understand.",
+            "b": "I don't understand.",
             "c": "I am not understand.",
             "d": "I no understand."
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Present simple negative → **don't** + base form."
         },
         {
@@ -209,23 +209,23 @@
           "question": "Which is correct?",
           "options": {
             "a": "Does she likes coffee?",
-            "b": "Does she like coffee?",
-            "c": "Do she like coffee?",
+            "b": "Do she like coffee?",
+            "c": "Does she like coffee?",
             "d": "She likes coffee?"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "**Does** (he/she/it) + base form **like**."
         },
         {
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "Where did they go?",
-            "b": "Where they went?",
-            "c": "Where did they went?",
-            "d": "Where did they gone?"
+            "a": "Where they went?",
+            "b": "Where did they went?",
+            "c": "Where did they gone?",
+            "d": "Where did they go?"
           },
-          "correct_option": "a",
+          "correct_option": "d",
           "explanation": "Did + subject + **base form** (go)."
         }
       ]

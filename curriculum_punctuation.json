@@ -100,11 +100,11 @@
         "question": "Which is correct?",
         "options": {
           "a": "monday and tuesday",
-          "b": "Monday and Tuesday",
-          "c": "Monday and tuesday",
+          "b": "Monday and tuesday",
+          "c": "Monday and Tuesday",
           "d": "monday and Tuesday"
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "Days of the week are capitalised in English."
       },
       {
@@ -112,23 +112,23 @@
         "question": "Which is correct?",
         "options": {
           "a": "She smiled and i waved.",
-          "b": "She smiled and I waved.",
-          "c": "She smiled and i Waved.",
+          "b": "She smiled and i Waved.",
+          "c": "She smiled and I waved.",
           "d": "she smiled and I waved."
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "The pronoun I is always capitalised in English. First word of sentence is capitalised."
       },
       {
         "type": "mc",
         "question": "Which is correct? (You have more than one brother; the London one is the doctor.)",
         "options": {
-          "a": "My brother who lives in London is a doctor.",
-          "b": "My brother, who lives in London, is a doctor.",
+          "a": "My brother, who lives in London, is a doctor.",
+          "b": "My brother who lives in London is a doctor.",
           "c": "My brother, who lives in London is a doctor.",
           "d": "My brother who lives in London, is a doctor."
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "When the clause is extra (non-defining) information, we put commas around it: My brother, who lives in London, is a doctor."
       },
       {
@@ -136,11 +136,11 @@
         "question": "Which is correct?",
         "options": {
           "a": "We speak english and czech.",
-          "b": "We speak English and Czech.",
-          "c": "We speak English and czech.",
+          "b": "We speak English and czech.",
+          "c": "We speak English and Czech.",
           "d": "we speak English and Czech."
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
       }
     ]
@@ -270,7 +270,7 @@
             "c": "Monday and tuesday",
             "d": "monday and Tuesday"
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "Days of the week are capitalised in English."
         },
         {
@@ -278,23 +278,23 @@
           "question": "Which is correct?",
           "options": {
             "a": "She smiled and i waved.",
-            "b": "She smiled and I waved.",
-            "c": "She smiled and i Waved.",
+            "b": "She smiled and i Waved.",
+            "c": "She smiled and I waved.",
             "d": "she smiled and I waved."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "The pronoun I is always capitalised in English. First word of sentence is capitalised."
         },
         {
           "type": "mc",
           "question": "Which is correct? (You have more than one brother; the London one is the doctor.)",
           "options": {
-            "a": "My brother who lives in London is a doctor.",
-            "b": "My brother, who lives in London, is a doctor.",
+            "a": "My brother, who lives in London, is a doctor.",
+            "b": "My brother who lives in London is a doctor.",
             "c": "My brother, who lives in London is a doctor.",
             "d": "My brother who lives in London, is a doctor."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "When the clause is extra (non-defining) information, we put commas around it: My brother, who lives in London, is a doctor."
         },
         {
@@ -302,11 +302,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "We speak english and czech.",
-            "b": "We speak English and Czech.",
-            "c": "We speak English and czech.",
+            "b": "We speak English and czech.",
+            "c": "We speak English and Czech.",
             "d": "we speak English and Czech."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
         },
         {
@@ -326,11 +326,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "monday and tuesday",
-            "b": "Monday and Tuesday",
-            "c": "Monday and tuesday",
+            "b": "Monday and tuesday",
+            "c": "Monday and Tuesday",
             "d": "monday and Tuesday"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Days of the week are capitalised in English."
         },
         {
@@ -338,35 +338,35 @@
           "question": "Which is correct?",
           "options": {
             "a": "She smiled and i waved.",
-            "b": "She smiled and I waved.",
-            "c": "She smiled and i Waved.",
-            "d": "she smiled and I waved."
+            "b": "She smiled and i Waved.",
+            "c": "she smiled and I waved.",
+            "d": "She smiled and I waved."
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "The pronoun I is always capitalised in English. First word of sentence is capitalised."
         },
         {
           "type": "mc",
           "question": "Which is correct? (You have more than one brother; the London one is the doctor.)",
           "options": {
-            "a": "My brother who lives in London is a doctor.",
-            "b": "My brother, who lives in London, is a doctor.",
+            "a": "My brother, who lives in London, is a doctor.",
+            "b": "My brother who lives in London is a doctor.",
             "c": "My brother, who lives in London is a doctor.",
             "d": "My brother who lives in London, is a doctor."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "When the clause is extra (non-defining) information, we put commas around it: My brother, who lives in London, is a doctor."
         },
         {
           "type": "mc",
           "question": "Which is correct?",
           "options": {
-            "a": "We speak english and czech.",
-            "b": "We speak English and Czech.",
+            "a": "We speak English and Czech.",
+            "b": "We speak english and czech.",
             "c": "We speak English and czech.",
             "d": "we speak English and Czech."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
         }
       ]

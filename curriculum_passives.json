@@ -161,24 +161,24 @@
         "type": "mc",
         "question": "Which is correct with a modal?",
         "options": {
-          "a": "The work must be done.",
-          "b": "The work must be done by someone.",
-          "c": "The work must done.",
-          "d": "The work must be do."
+          "a": "The work must done.",
+          "b": "The work must be done.",
+          "c": "The work must be do.",
+          "d": "The work must be done by someone."
         },
-        "correct_option": "a",
+        "correct_option": "b",
         "explanation": "Modal + be + past participle. Done is the past participle of do."
       },
       {
         "type": "mc",
         "question": "'The report ____ yet.' (Present perfect passive)",
         "options": {
-          "a": "has not been finished",
-          "b": "was not finished",
-          "c": "is not finished",
-          "d": "not has been finished"
+          "a": "was not finished",
+          "b": "not has been finished",
+          "c": "has not been finished",
+          "d": "is not finished"
         },
-        "correct_option": "a",
+        "correct_option": "c",
         "explanation": "Present perfect passive: have/has been + past participle."
       },
       {
@@ -197,12 +197,12 @@
         "type": "mc",
         "question": "'She ____ her car ____ last week.' (arranged for someone to repair it)",
         "options": {
-          "a": "had / repaired",
-          "b": "had / repair",
-          "c": "got / to repair",
-          "d": "had / repairing"
+          "a": "had / repair",
+          "b": "got / to repair",
+          "c": "had / repairing",
+          "d": "had / repaired"
         },
-        "correct_option": "a",
+        "correct_option": "d",
         "explanation": "Causative: have/get + object + past participle. Had her car repaired."
       }
     ]
@@ -477,48 +477,48 @@
           "type": "mc",
           "question": "Which is correct with a modal?",
           "options": {
-            "a": "The work must be done.",
-            "b": "The work must be done by someone.",
-            "c": "The work must done.",
-            "d": "The work must be do."
+            "a": "The work must done.",
+            "b": "The work must be done.",
+            "c": "The work must be do.",
+            "d": "The work must be done by someone."
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Modal + be + past participle. Done is the past participle of do."
         },
         {
           "type": "mc",
           "question": "'The report ____ yet.' (Present perfect passive)",
           "options": {
-            "a": "has not been finished",
-            "b": "was not finished",
-            "c": "is not finished",
-            "d": "not has been finished"
+            "a": "was not finished",
+            "b": "not has been finished",
+            "c": "has not been finished",
+            "d": "is not finished"
           },
-          "correct_option": "a",
+          "correct_option": "c",
           "explanation": "Present perfect passive: have/has been + past participle."
         },
         {
           "type": "mc",
           "question": "Which sentence is correct?",
           "options": {
-            "a": "The letter was sent yesterday.",
-            "b": "The letter was send yesterday.",
-            "c": "The letter was sented yesterday.",
+            "a": "The letter was send yesterday.",
+            "b": "The letter was sented yesterday.",
+            "c": "The letter was sent yesterday.",
             "d": "The letter is sent yesterday."
           },
-          "correct_option": "a",
+          "correct_option": "c",
           "explanation": "Passive = was + past participle. Send → sent."
         },
         {
           "type": "mc",
           "question": "Choose the correct passive form.",
           "options": {
-            "a": "English is speak all over the world.",
-            "b": "English speaks all over the world.",
-            "c": "English is spoken all over the world.",
+            "a": "English is spoken all over the world.",
+            "b": "English is speak all over the world.",
+            "c": "English speaks all over the world.",
             "d": "English spoken all over the world."
           },
-          "correct_option": "c",
+          "correct_option": "a",
           "explanation": "Passive: be + past participle. Speak → spoken."
         },
         {
@@ -538,9 +538,9 @@
           "question": "Which is correct with a modal?",
           "options": {
             "a": "The work must be done.",
-            "b": "The work must be done by someone.",
-            "c": "The work must done.",
-            "d": "The work must be do."
+            "b": "The work must done.",
+            "c": "The work must be do.",
+            "d": "The work must be done by someone."
           },
           "correct_option": "a",
           "explanation": "Modal + be + past participle. Done is the past participle of do."
@@ -549,36 +549,36 @@
           "type": "mc",
           "question": "'The report ____ yet.' (Present perfect passive)",
           "options": {
-            "a": "has not been finished",
-            "b": "was not finished",
+            "a": "was not finished",
+            "b": "has not been finished",
             "c": "is not finished",
             "d": "not has been finished"
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Present perfect passive: have/has been + past participle."
         },
         {
           "type": "mc",
           "question": "Which sentence is correct? (causative have/get)",
           "options": {
-            "a": "I had my hair to cut.",
-            "b": "I had my hair cut.",
+            "a": "I had my hair cut.",
+            "b": "I had my hair to cut.",
             "c": "I had my hair cutting.",
             "d": "I had my hair cutted."
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Causative: have + object + past participle. Cut is the past participle."
         },
         {
           "type": "mc",
           "question": "'He ____ his wallet ____ on the bus.' (something bad happened to him)",
           "options": {
-            "a": "had / stolen",
-            "b": "had / steal",
+            "a": "had / steal",
+            "b": "had / stolen",
             "c": "got / to steal",
             "d": "had / stealing"
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Causative/experience: have + object + past participle. Had his wallet stolen."
         }
       ]

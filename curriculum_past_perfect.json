@@ -112,12 +112,12 @@
         "type": "mc",
         "question": "'When I got there, she _____ home.' (She left before I got there.) Which fits?",
         "options": {
-          "a": "left",
-          "b": "had left",
+          "a": "had left",
+          "b": "left",
           "c": "has left",
           "d": "was leaving"
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Action before another past action → past perfect."
       },
       {
@@ -125,11 +125,11 @@
         "question": "'By 9 o'clock he _____ his homework.' Which fits?",
         "options": {
           "a": "finished",
-          "b": "had finished",
-          "c": "has finished",
+          "b": "has finished",
+          "c": "had finished",
           "d": "was finishing"
         },
-        "correct_option": "b",
+        "correct_option": "c",
         "explanation": "By + time in the past → past perfect."
       },
       {
@@ -137,11 +137,11 @@
         "question": "Which sentence is correct?",
         "options": {
           "a": "I had went to London.",
-          "b": "I had gone to London.",
-          "c": "I had go to London.",
-          "d": "I had going to London."
+          "b": "I had go to London.",
+          "c": "I had going to London.",
+          "d": "I had gone to London."
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "Past perfect = had + past participle. Go → gone."
       },
       {
@@ -161,11 +161,11 @@
         "question": "'When they arrived, the meeting _____.' (The meeting started before they arrived.) Which fits?",
         "options": {
           "a": "started",
-          "b": "had started",
-          "c": "has started",
-          "d": "was starting"
+          "b": "has started",
+          "c": "was starting",
+          "d": "had started"
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "Earlier past action → past perfect."
       }
     ]
@@ -394,24 +394,24 @@
           "type": "mc",
           "question": "'When they arrived, the meeting _____.' (The meeting started before they arrived.) Which fits?",
           "options": {
-            "a": "started",
-            "b": "had started",
+            "a": "had started",
+            "b": "started",
             "c": "has started",
             "d": "was starting"
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Earlier past action → past perfect."
         },
         {
           "type": "mc",
           "question": "'When I got there, she _____ home.' (She left before I got there.) Which fits?",
           "options": {
-            "a": "left",
-            "b": "had left",
+            "a": "had left",
+            "b": "left",
             "c": "has left",
             "d": "was leaving"
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Action before another past action → past perfect."
         },
         {
@@ -419,11 +419,11 @@
           "question": "'By 9 o'clock he _____ his homework.' Which fits?",
           "options": {
             "a": "finished",
-            "b": "had finished",
-            "c": "has finished",
+            "b": "has finished",
+            "c": "had finished",
             "d": "was finishing"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "By + time in the past → past perfect."
         },
         {
@@ -431,11 +431,11 @@
           "question": "Which sentence is correct?",
           "options": {
             "a": "I had went to London.",
-            "b": "I had gone to London.",
-            "c": "I had go to London.",
+            "b": "I had go to London.",
+            "c": "I had gone to London.",
             "d": "I had going to London."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Past perfect = had + past participle. Go → gone."
         },
         {
@@ -455,11 +455,11 @@
           "question": "'When they arrived, the meeting _____.' (The meeting started before they arrived.) Which fits?",
           "options": {
             "a": "started",
-            "b": "had started",
-            "c": "has started",
-            "d": "was starting"
+            "b": "has started",
+            "c": "was starting",
+            "d": "had started"
           },
-          "correct_option": "b",
+          "correct_option": "d",
           "explanation": "Earlier past action → past perfect."
         }
       ]

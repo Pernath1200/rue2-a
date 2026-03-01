@@ -47,12 +47,12 @@
         "type": "mc",
         "question": "Which sentence is correct?",
         "options": {
-          "a": "I'm interested on history.",
-          "b": "I'm interested in history.",
+          "a": "I'm interested in history.",
+          "b": "I'm interested on history.",
           "c": "I'm interested about history.",
           "d": "I'm interested for history."
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Dependent preposition (adjective): interested **in** something."
       },
       {
@@ -72,11 +72,11 @@
         "question": "Choose the correct noun + preposition pair.",
         "options": {
           "a": "a solution for the problem",
-          "b": "a solution to the problem",
-          "c": "a solution at the problem",
-          "d": "a solution on the problem"
+          "b": "a solution at the problem",
+          "c": "a solution on the problem",
+          "d": "a solution to the problem"
         },
-        "correct_option": "b",
+        "correct_option": "d",
         "explanation": "Dependent preposition (noun): solution **to** a problem."
       },
       {
@@ -95,12 +95,12 @@
         "type": "mc",
         "question": "Which option completes the sentence? 'They complained ____ the noise.'",
         "options": {
-          "a": "on",
-          "b": "about",
+          "a": "about",
+          "b": "on",
           "c": "for",
           "d": "of"
         },
-        "correct_option": "b",
+        "correct_option": "a",
         "explanation": "Dependent preposition (verb): complain **about** something."
       }
     ]

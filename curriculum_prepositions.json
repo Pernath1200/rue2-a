@@ -215,12 +215,12 @@
         "type": "mc",
         "question": "'At 5 o'clock' – what does 'at' express here?",
         "options": {
-          "a": "Time (point)",
-          "b": "Place (point)",
+          "a": "Place (point)",
+          "b": "Time (point)",
           "c": "Movement",
           "d": "Direction"
         },
-        "correct_option": "a",
+        "correct_option": "b",
         "explanation": "'At' with a clock time is Time (point) – a point in time. Some times are periods, e.g. in 1980. Place (point) is for location, e.g. at the door."
       },
       {
@@ -251,12 +251,12 @@
         "type": "mc",
         "question": "The keys are ____ the box. (We keep them inside.)",
         "options": {
-          "a": "in",
-          "b": "at",
+          "a": "at",
+          "b": "in",
           "c": "on",
           "d": "to"
         },
-        "correct_option": "a",
+        "correct_option": "b",
         "explanation": "Inside a space → in."
       },
       {
@@ -275,12 +275,12 @@
         "type": "mc",
         "question": "We'll meet ____ the bus stop.",
         "options": {
-          "a": "at",
-          "b": "in",
-          "c": "on",
-          "d": "for"
+          "a": "in",
+          "b": "on",
+          "c": "for",
+          "d": "at"
         },
-        "correct_option": "a",
+        "correct_option": "d",
         "explanation": "At a point or place → at."
       }
     ]
@@ -1650,12 +1650,12 @@
           "type": "mc",
           "question": "The keys are ____ the box. (We keep them inside.)",
           "options": {
-            "a": "in",
-            "b": "at",
+            "a": "at",
+            "b": "in",
             "c": "on",
             "d": "to"
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Inside a space → in."
         },
         {
@@ -1674,24 +1674,24 @@
           "type": "mc",
           "question": "We'll meet ____ the bus stop.",
           "options": {
-            "a": "at",
-            "b": "in",
-            "c": "on",
+            "a": "in",
+            "b": "on",
+            "c": "at",
             "d": "for"
           },
-          "correct_option": "a",
+          "correct_option": "c",
           "explanation": "At a point or place → at."
         },
         {
           "type": "mc",
           "question": "'At 5 o'clock' – what does 'at' express here?",
           "options": {
-            "a": "Time (point)",
-            "b": "Place (point)",
+            "a": "Place (point)",
+            "b": "Time (point)",
             "c": "Movement",
             "d": "Direction"
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "'At' with a clock time is Time (point) – a point in time. Some times are periods, e.g. in 1980. Place (point) is for location, e.g. at the door."
         },
         {
@@ -1722,12 +1722,12 @@
           "type": "mc",
           "question": "The keys are ____ the box. (We keep them inside.)",
           "options": {
-            "a": "in",
-            "b": "at",
-            "c": "on",
-            "d": "to"
+            "a": "at",
+            "b": "on",
+            "c": "to",
+            "d": "in"
           },
-          "correct_option": "a",
+          "correct_option": "d",
           "explanation": "Inside a space → in."
         }
       ]
