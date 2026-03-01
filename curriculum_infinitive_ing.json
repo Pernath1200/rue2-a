@@ -1,7 +1,19 @@
 {
   "intro": {
-    "title": "Infinitive and -ing form",
+    "title": "Verb Patterns: to-infinitive, -ing & bare infinitive",
     "sections": [
+      {
+        "title": "Key rule",
+        "content": "When one verb is followed by another verb, you usually need **to + infinitive** or **verb-ing**.\n\nYou **cannot** simply use the base form alone (I hope see ❌).\n\nExceptions exist – see the 'Bare Infinitive' section later."
+      },
+      {
+        "title": "Two main patterns",
+        "content": "**To-infinitive:** I want to leave. She decided to apply.\n\n**-ing:** I enjoy swimming. She finished reading.\n\nThe first verb decides which pattern you need."
+      },
+      {
+        "title": "Exceptions: bare infinitive",
+        "content": "Some contexts use the **base form** without \"to\" (bare infinitive): after modal verbs (can, must, will…), after **make** / **let**, after verbs of perception (see, hear, watch…), and in fixed phrases like **'d better**, **'d rather**. Details in the Bare Infinitive section at the end."
+      },
       {
         "title": "What are we comparing?",
         "content": "After verbs we use **to-infinitive** (to do) or **-ing** (doing). The verb decides which:\n\n• **To-infinitive:** I want to leave. She decided to apply.\n• **-ing:** I enjoy swimming. She finished reading.\n\nSome verbs take only one; some take both (sometimes different meaning). Learn each verb's pattern.\n\nFor full verb lists, go to **Reference → Infinitive and -ing form**."
@@ -122,6 +134,10 @@
       {
         "title": "Typical errors (2)",
         "content": "Tip: want/hope/decide → to-infinitive. enjoy/finish/avoid → -ing. For full lists, see **Reference → Infinitive and -ing form**."
+      },
+      {
+        "title": "Bare Infinitive – When NO \"to\" is correct",
+        "content": "• **Modal verbs** (can, must, will, should, may…): I can **swim**. She must **study**.\n• **make / let:** They made me **laugh**. Let me **help**.\n• **Verbs of perception** (see, hear, watch, feel, notice…): I saw her **leave**.\n• **help** (both OK): Help me **carry** / **to carry** the bags.\n• **Fixed phrases:** You'd better **go**, I'd rather **stay**."
       }
     ]
   },
@@ -187,6 +203,54 @@
         },
         "correct_option": "d",
         "explanation": "Stop doing = give up. Stop to do = pause in order to do."
+      },
+      {
+        "type": "mc",
+        "question": "'She made him _____ the form.' Which is correct?",
+        "options": {
+          "a": "to sign",
+          "b": "sign",
+          "c": "signing",
+          "d": "to signing"
+        },
+        "correct_option": "b",
+        "explanation": "Make + object + bare infinitive (no 'to')."
+      },
+      {
+        "type": "mc",
+        "question": "'I saw her _____ the room.' Which fits?",
+        "options": {
+          "a": "to leave",
+          "b": "leave",
+          "c": "leaving",
+          "d": "to leaving"
+        },
+        "correct_option": "b",
+        "explanation": "Verbs of perception (see, hear, watch) can take bare infinitive or -ing; bare infinitive often for the complete action."
+      },
+      {
+        "type": "mc",
+        "question": "Why is 'I hope see you soon' wrong?",
+        "options": {
+          "a": "Hope must be followed by -ing.",
+          "b": "After hope we need to-infinitive, not the base form alone.",
+          "c": "Hope is followed by that + clause only.",
+          "d": "We must use 'hoping'."
+        },
+        "correct_option": "b",
+        "explanation": "When one verb follows another, we usually need to + infinitive or -ing; we cannot use the base form alone after hope."
+      },
+      {
+        "type": "mc",
+        "question": "'You'd better _____ now.' Which is correct?",
+        "options": {
+          "a": "to go",
+          "b": "go",
+          "c": "going",
+          "d": "to going"
+        },
+        "correct_option": "b",
+        "explanation": "Fixed phrase 'd better is followed by bare infinitive (no 'to')."
       }
     ]
   },
@@ -292,6 +356,30 @@
             "going"
           ],
           "explanation": "Suggest + -ing."
+        },
+        {
+          "type": "open",
+          "question": "She can ____ (swim) very well.",
+          "answers": [
+            "swim"
+          ],
+          "explanation": "Modal verbs (can, must, will…) take bare infinitive (no 'to')."
+        },
+        {
+          "type": "open",
+          "question": "They made us ____ (wait) for an hour.",
+          "answers": [
+            "wait"
+          ],
+          "explanation": "Make + object + bare infinitive (no 'to')."
+        },
+        {
+          "type": "open",
+          "question": "I heard him ____ (leave) early.",
+          "answers": [
+            "leave"
+          ],
+          "explanation": "Verbs of perception (hear, see, watch) can take bare infinitive."
         }
       ]
     },
@@ -351,6 +439,24 @@
             "She finished writing the email"
           ],
           "explanation": "Finish + -ing, not to-infinitive."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She made him to laugh.' Correct the sentence.",
+          "answers": [
+            "She made him laugh.",
+            "She made him laugh"
+          ],
+          "explanation": "Make + object + bare infinitive (no 'to')."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Let me to help you.' Correct the sentence.",
+          "answers": [
+            "Let me help you.",
+            "Let me help you"
+          ],
+          "explanation": "Let + object + bare infinitive (no 'to')."
         }
       ]
     },
@@ -476,6 +582,54 @@
           },
           "correct_option": "d",
           "explanation": "Stop doing = give up. Stop to do = pause in order to do."
+        },
+        {
+          "type": "mc",
+          "question": "'Let me _____ you with that.' Which is correct?",
+          "options": {
+            "a": "to help",
+            "b": "help",
+            "c": "helping",
+            "d": "to helping"
+          },
+          "correct_option": "b",
+          "explanation": "Let + object + bare infinitive (no 'to')."
+        },
+        {
+          "type": "mc",
+          "question": "'I'd rather _____ at home tonight.' Which fits?",
+          "options": {
+            "a": "to stay",
+            "b": "stay",
+            "c": "staying",
+            "d": "to staying"
+          },
+          "correct_option": "b",
+          "explanation": "Fixed phrase 'd rather is followed by bare infinitive (no 'to')."
+        },
+        {
+          "type": "mc",
+          "question": "'We watched them _____ the match.' Which is correct?",
+          "options": {
+            "a": "to win",
+            "b": "win",
+            "c": "winning",
+            "d": "to winning"
+          },
+          "correct_option": "b",
+          "explanation": "Verbs of perception (watch, see, hear) take bare infinitive or -ing; bare infinitive for the complete action."
+        },
+        {
+          "type": "mc",
+          "question": "'He agreed _____ early.' Which is correct?",
+          "options": {
+            "a": "to come",
+            "b": "come",
+            "c": "coming",
+            "d": "to coming"
+          },
+          "correct_option": "a",
+          "explanation": "Agree is followed by to-infinitive, not bare infinitive."
         }
       ]
     }

@@ -1208,7 +1208,7 @@
       const grid = document.createElement('div');
       grid.className = 'reference-index-grid';
       const items = [
-        ['Infinitive and -ing Form', showReferenceInfinitiveIng],
+        ['Verb Patterns: to-infinitive, -ing & bare infinitive', showReferenceInfinitiveIng],
         ['Modal Verbs', showReferenceModalVerbs],
         ['Phrasal Verb Dictionary', showReferencePhrasalVerbs],
         ['Prepositions List', showReferencePrepositions],
@@ -1996,7 +1996,7 @@
     function renderReferenceInfinitiveIngContent(data) {
       if (!data) return;
       referenceView = 'infinitive_ing';
-      document.getElementById('referenceTitle').textContent = data.title || 'Infinitive and -ing: verb patterns';
+      document.getElementById('referenceTitle').textContent = data.title || 'Verb Patterns: to-infinitive, -ing & bare infinitive';
       const content = document.getElementById('referenceContent');
       content.innerHTML = '';
       if (data.intro) {
@@ -3896,7 +3896,7 @@
           { id: 'conjunctions_linkers', title: 'Conjunctions and Linkers', curriculum: 'curriculum_conjunctions_linkers.json', questions_key: 'conjunctions_linkers' },
           { id: 'articles', title: 'Determiners: Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
           { id: 'quantifiers', title: 'Determiners: Quantifiers', curriculum: 'curriculum_quantifiers.json', questions_key: 'quantifiers' },
-          { id: 'infinitive_ing', title: 'Infinitive and -ing Form', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
+          { id: 'fixed_phrases', title: 'Fixed Phrases', curriculum: 'curriculum_fixed_phrases.json', questions_key: 'fixed_phrases' },
           { id: 'modal_verbs', title: 'Modal Verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' },
           { id: 'countable_uncountable', title: 'Nouns: Uncountable and Always-Plural', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
@@ -3914,9 +3914,9 @@
           { id: 'past_simple_present_perfect', title: 'Tenses: Past Simple vs Present Perfect', curriculum: 'curriculum_past_simple_present_perfect.json', questions_key: 'past_simple_present_perfect' },
           { id: 'present_perfect', title: 'Tenses: Present Perfect Simple vs Continuous', curriculum: 'curriculum.json', questions_key: 'sets' },
           { id: 'will_going_to', title: 'Tenses: Will and Going To', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' },
+          { id: 'infinitive_ing', title: 'Verb Patterns: to-infinitive, -ing & bare infinitive', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
           { id: 'verb_subject_agreement', title: 'Verb–Subject Agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
-          { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' },
-          { id: 'fixed_phrases', title: 'Fixed Phrases', curriculum: 'curriculum_fixed_phrases.json', questions_key: 'fixed_phrases' }
+          { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' }
         ];
         currentTopic = topics[0];
         const sel = document.getElementById('topicSelect');
