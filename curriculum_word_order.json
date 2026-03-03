@@ -229,11 +229,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "Can you tell me where is the station?",
-            "b": "Can you tell me where the station is?",
-            "c": "Can you tell me where the station?",
+            "b": "Can you tell me where the station?",
+            "c": "Can you tell me where the station is?",
             "d": "Can you tell me where does the station?"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Embedded: where the station is."
         },
         {
@@ -277,11 +277,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "I wonder when did he leave.",
-            "b": "I wonder when he left.",
-            "c": "I wonder when left he.",
+            "b": "I wonder when left he.",
+            "c": "I wonder when he left.",
             "d": "I wonder when he did leave."
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Embedded: when he left (no did)."
         },
         {
@@ -301,11 +301,11 @@
           "question": "Which is correct?",
           "options": {
             "a": "Do you know what is his name?",
-            "b": "Do you know what his name is?",
-            "c": "Do you know what his name?",
+            "b": "Do you know what his name?",
+            "c": "Do you know what his name is?",
             "d": "Do you know what does his name?"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Embedded: what his name is."
         },
         {

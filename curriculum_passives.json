@@ -208,11 +208,137 @@
     ]
   },
   "practice_order": [
+    "guided_mc",
     "gapfill",
     "errorcorrection",
     "mc"
   ],
   "practice": {
+    "guided_mc": {
+      "title": "Guided Practice: Passives (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "The letter _____ yesterday.",
+          "options": {
+            "a": "sent",
+            "b": "was sent",
+            "c": "is send",
+            "d": "has send"
+          },
+          "correct_option": "b",
+          "explanation": "Past passive: was + past participle (was sent)."
+        },
+        {
+          "type": "mc",
+          "question": "English _____ in many countries.",
+          "options": {
+            "a": "speaks",
+            "b": "is spoken",
+            "c": "is speaking",
+            "d": "was spoken"
+          },
+          "correct_option": "b",
+          "explanation": "Present simple passive: is + past participle (is spoken)."
+        },
+        {
+          "type": "mc",
+          "question": "The new hospital _____ last year.",
+          "options": {
+            "a": "was opened",
+            "b": "opened",
+            "c": "has opened",
+            "d": "is opening"
+          },
+          "correct_option": "a",
+          "explanation": "Past passive: was + past participle (was opened)."
+        },
+        {
+          "type": "mc",
+          "question": "The work _____ already done.",
+          "options": {
+            "a": "has already done",
+            "b": "already is done",
+            "c": "has already been done",
+            "d": "was already do"
+          },
+          "correct_option": "c",
+          "explanation": "Present perfect passive: has been + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "The room _____ every day.",
+          "options": {
+            "a": "cleans",
+            "b": "is cleaned",
+            "c": "is cleaning",
+            "d": "was cleaned"
+          },
+          "correct_option": "b",
+          "explanation": "Present simple passive: is + past participle (is cleaned)."
+        },
+        {
+          "type": "mc",
+          "question": "My bike _____ last week.",
+          "options": {
+            "a": "is stolen",
+            "b": "stole",
+            "c": "was stolen",
+            "d": "has stole"
+          },
+          "correct_option": "c",
+          "explanation": "Past passive: was + past participle (was stolen)."
+        },
+        {
+          "type": "mc",
+          "question": "The report _____ by Friday.",
+          "options": {
+            "a": "must finish",
+            "b": "must be finished",
+            "c": "must been finished",
+            "d": "must finished"
+          },
+          "correct_option": "b",
+          "explanation": "Modal passive: modal + be + past participle (must be finished)."
+        },
+        {
+          "type": "mc",
+          "question": "The problem _____ at the meeting tomorrow.",
+          "options": {
+            "a": "will discuss",
+            "b": "is discussed",
+            "c": "will be discussed",
+            "d": "is being discuss"
+          },
+          "correct_option": "c",
+          "explanation": "Future passive: will be + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "The play _____ by Shakespeare.",
+          "options": {
+            "a": "wrote",
+            "b": "was written",
+            "c": "has writing",
+            "d": "is wrote"
+          },
+          "correct_option": "b",
+          "explanation": "Past passive: was written (by + agent)."
+        },
+        {
+          "type": "mc",
+          "question": "These documents _____ on the server.",
+          "options": {
+            "a": "can find",
+            "b": "can be found",
+            "c": "are can found",
+            "d": "can found"
+          },
+          "correct_option": "b",
+          "explanation": "Modal passive: can be + past participle (can be found)."
+        }
+      ]
+    },
     "gapfill": {
       "title": "Practice: Complete the passive",
       "questions": [

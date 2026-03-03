@@ -121,12 +121,12 @@
           "type": "mc",
           "question": "She has lived here _____ 2020.",
           "options": {
-            "a": "since",
-            "b": "for",
+            "a": "for",
+            "b": "since",
             "c": "from",
             "d": "during"
           },
-          "correct_option": "a",
+          "correct_option": "b",
           "explanation": "Since + a point in time (2020). We use present perfect.",
           "topic": "prepositions"
         },

@@ -313,11 +313,11 @@
           "question": "'Run out of' means:",
           "options": {
             "a": "meet by chance",
-            "b": "use up; have none left",
-            "c": "leave quickly",
+            "b": "leave quickly",
+            "c": "use up; have none left",
             "d": "hit with a vehicle"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Run out of = use up, have no more."
         },
         {
@@ -336,12 +336,12 @@
           "type": "mc",
           "question": "'Go through' means:",
           "options": {
-            "a": "review",
-            "b": "experience; examine",
+            "a": "experience; examine",
+            "b": "review",
             "c": "continue",
             "d": "enter"
           },
-          "correct_option": "b",
+          "correct_option": "a",
           "explanation": "Go through = experience; examine."
         },
         {
@@ -373,11 +373,11 @@
           "question": "'Set up' means:",
           "options": {
             "a": "postpone",
-            "b": "establish; arrange",
-            "c": "rise",
+            "b": "rise",
+            "c": "establish; arrange",
             "d": "switch on"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Set up = establish, arrange."
         },
         {
@@ -385,11 +385,11 @@
           "question": "'Carry on' means:",
           "options": {
             "a": "complete",
-            "b": "continue",
-            "c": "take care of",
+            "b": "take care of",
+            "c": "continue",
             "d": "distribute"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Carry on = continue."
         }
       ]

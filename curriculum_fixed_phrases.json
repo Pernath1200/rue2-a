@@ -86,10 +86,136 @@
     ]
   },
   "practice_order": [
+    "guided_mc",
     "gapfill_simple",
     "gapfill_common"
   ],
   "practice": {
+    "guided_mc": {
+      "title": "Guided practice: Fixed phrases (10 MC)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Which phrase is correct?",
+          "options": {
+            "a": "in search for",
+            "b": "in search of",
+            "c": "in search to",
+            "d": "in search at"
+          },
+          "correct_option": "b",
+          "explanation": "The fixed phrase is **in search of** (e.g. in search of sunshine)."
+        },
+        {
+          "type": "mc",
+          "question": "Which phrase means 'not anymore'?",
+          "options": {
+            "a": "not longer",
+            "b": "no longer",
+            "c": "any longer",
+            "d": "no more"
+          },
+          "correct_option": "b",
+          "explanation": "**No longer** = not anymore (e.g. It is no longer available)."
+        },
+        {
+          "type": "mc",
+          "question": "Complete: _____ course, you can try again.",
+          "options": {
+            "a": "Of",
+            "b": "For",
+            "c": "In",
+            "d": "At"
+          },
+          "correct_option": "a",
+          "explanation": "**Of course** = certainly; naturally."
+        },
+        {
+          "type": "mc",
+          "question": "Complete: _____ long as you're careful, it's fine.",
+          "options": {
+            "a": "So",
+            "b": "As",
+            "c": "For",
+            "d": "In"
+          },
+          "correct_option": "b",
+          "explanation": "**As long as** = on condition that; provided that."
+        },
+        {
+          "type": "mc",
+          "question": "_____ fact, I've never been there. Which word?",
+          "options": {
+            "a": "On",
+            "b": "At",
+            "c": "In",
+            "d": "For"
+          },
+          "correct_option": "c",
+          "explanation": "**In fact** = actually; in reality."
+        },
+        {
+          "type": "mc",
+          "question": "This is one _____ the best films I've seen. Which word?",
+          "options": {
+            "a": "from",
+            "b": "of",
+            "c": "in",
+            "d": "for"
+          },
+          "correct_option": "b",
+          "explanation": "**One of the** (fixed phrase)."
+        },
+        {
+          "type": "mc",
+          "question": "_____ doing so, they saved time. Which word?",
+          "options": {
+            "a": "For",
+            "b": "At",
+            "c": "By",
+            "d": "On"
+          },
+          "correct_option": "c",
+          "explanation": "**By doing so** or **In doing so** = by/in doing that."
+        },
+        {
+          "type": "mc",
+          "question": "In spite _____ the rain, we went out. Which word?",
+          "options": {
+            "a": "for",
+            "b": "from",
+            "c": "of",
+            "d": "at"
+          },
+          "correct_option": "c",
+          "explanation": "**In spite of** = despite."
+        },
+        {
+          "type": "mc",
+          "question": "_____ addition to English, she speaks Spanish. Which word?",
+          "options": {
+            "a": "On",
+            "b": "At",
+            "c": "In",
+            "d": "For"
+          },
+          "correct_option": "c",
+          "explanation": "**In addition to** = as well as."
+        },
+        {
+          "type": "mc",
+          "question": "At _____, I didn't like him, but now I do. Which word?",
+          "options": {
+            "a": "least",
+            "b": "first",
+            "c": "once",
+            "d": "last"
+          },
+          "correct_option": "b",
+          "explanation": "**At first** = in the beginning."
+        }
+      ]
+    },
     "gapfill_simple": {
       "title": "Practice: Gap fill – Common fixed phrases",
       "questions": [

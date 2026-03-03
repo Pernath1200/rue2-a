@@ -89,23 +89,23 @@
         "correct_option": "c",
         "explanation": "Scissors is always plural and takes a plural verb (are)."
       },
-{
-          "type": "mc",
-          "question": "Which is correct?",
-          "options": {
-            "a": "I have many homeworks.",
-            "b": "I have a lot of homework.",
-            "c": "I have many homework.",
-            "d": "I have five homeworks."
-          },
-          "correct_option": "b",
-          "explanation": "Homework is uncountable. Use 'a lot of homework' or 'some homework'."
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {
+          "a": "I have many homeworks.",
+          "b": "I have a lot of homework.",
+          "c": "I have many homework.",
+          "d": "I have five homeworks."
         },
-        {
-          "type": "mc",
-          "question": "Which is correct?",
-          "options": {
-            "a": "This trousers is too long.",
+        "correct_option": "b",
+        "explanation": "Homework is uncountable. Use 'a lot of homework' or 'some homework'."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {
+          "a": "This trousers is too long.",
           "b": "This trouser is too long.",
           "c": "These trousers are too long.",
           "d": "These trousers is too long."

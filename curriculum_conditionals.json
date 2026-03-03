@@ -154,9 +154,135 @@
     ]
   },
   "practice_order": [
-    "mc"
+    "guided_mc",
+    "gapfill"
   ],
   "practice": {
+    "guided_mc": {
+      "title": "Guided Practice: Conditionals (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Zero: If you heat ice, it _____.",
+          "options": {
+            "a": "melts",
+            "b": "melt",
+            "c": "will melt",
+            "d": "would melt"
+          },
+          "correct_option": "a",
+          "explanation": "Zero conditional: if + present, present (it melts)."
+        },
+        {
+          "type": "mc",
+          "question": "First: If it _____ tomorrow, we will stay at home.",
+          "options": {
+            "a": "rains",
+            "b": "will rain",
+            "c": "rained",
+            "d": "would rain"
+          },
+          "correct_option": "a",
+          "explanation": "First conditional: if + present simple (rains), will + base."
+        },
+        {
+          "type": "mc",
+          "question": "Second: If I _____ more time, I would help you.",
+          "options": {
+            "a": "have",
+            "b": "had",
+            "c": "will have",
+            "d": "would have"
+          },
+          "correct_option": "b",
+          "explanation": "Second conditional: if + past simple (had), would + base."
+        },
+        {
+          "type": "mc",
+          "question": "Second: If I were you, I _____ apologise.",
+          "options": {
+            "a": "will",
+            "b": "would",
+            "c": "would have",
+            "d": "had"
+          },
+          "correct_option": "b",
+          "explanation": "Second conditional: would + base verb (would apologise)."
+        },
+        {
+          "type": "mc",
+          "question": "Third: If I _____ known, I would have told you.",
+          "options": {
+            "a": "have",
+            "b": "knew",
+            "c": "had known",
+            "d": "would know"
+          },
+          "correct_option": "c",
+          "explanation": "Third conditional: if + past perfect (had known)."
+        },
+        {
+          "type": "mc",
+          "question": "Third: If she had left earlier, she _____ the train.",
+          "options": {
+            "a": "would catch",
+            "b": "caught",
+            "c": "would have caught",
+            "d": "had caught"
+          },
+          "correct_option": "c",
+          "explanation": "Third conditional: would have + past participle."
+        },
+        {
+          "type": "mc",
+          "question": "First: If you _____ early, call me.",
+          "options": {
+            "a": "will finish",
+            "b": "finished",
+            "c": "finish",
+            "d": "would finish"
+          },
+          "correct_option": "c",
+          "explanation": "First conditional: if + present simple (finish), main clause can be imperative."
+        },
+        {
+          "type": "mc",
+          "question": "Zero: If you don't sleep well, you _____ tired.",
+          "options": {
+            "a": "feel",
+            "b": "will feel",
+            "c": "felt",
+            "d": "would feel"
+          },
+          "correct_option": "a",
+          "explanation": "Zero conditional: present in both clauses (you feel)."
+        },
+        {
+          "type": "mc",
+          "question": "Second: If we _____ the lottery, we would travel the world.",
+          "options": {
+            "a": "win",
+            "b": "won",
+            "c": "will win",
+            "d": "would win"
+          },
+          "correct_option": "b",
+          "explanation": "Second conditional: if + past simple (won)."
+        },
+        {
+          "type": "mc",
+          "question": "Third: If they hadn't missed the flight, they _____ on time.",
+          "options": {
+            "a": "would arrive",
+            "b": "arrived",
+            "c": "would have arrived",
+            "d": "had arrived"
+          },
+          "correct_option": "c",
+          "explanation": "Third conditional: would have + past participle (would have arrived)."
+        }
+      ]
+    },
     "gapfill": {
       "title": "Practice: Conditionals (gap fill)",
       "questions": [

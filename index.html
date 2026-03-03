@@ -400,10 +400,11 @@
       <div id="menuTopicSelect" class="menu-panel hidden">
         <div class="scores" id="scoresSummary"></div>
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a topic. Then pick how you want to practise.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.85rem;">Step 2 = 10 multiple-choice questions. Step 3 = more questions (choose how many).</p>
         <label for="topicSelect" style="margin-top: 0.35rem;">Topic</label>
         <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Pick a grammar topic"></select>
         <button type="button" id="startPart1Btn" class="secondary">Step 1: Intro</button>
-        <button type="button" id="startPart2Btn" class="secondary">Step 2: Guided Practice</button>
+        <button type="button" id="startPart2Btn" class="secondary">Step 2: Guided Practice (10 MC)</button>
         <button type="button" id="openPracticeSetupBtn" class="secondary">Step 3: Further Practice</button>
         <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
@@ -411,9 +412,11 @@
       </div>
       <div id="menuPracticeSetup" class="hidden">
         <p id="practiceSetupTopic" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;"></p>
-        <label for="numQuestionsSelect">Questions</label>
+        <label for="numQuestionsSelect">Number of questions in this session</label>
+        <p id="practiceSetupHelp" style="margin: 0.25rem 0 0.5rem; color: var(--muted); font-size: 0.85rem;">10 = quick check. 20 = standard practice. Unlimited = keep going until you stop.</p>
         <select id="numQuestionsSelect">
-          <option value="20">20</option>
+          <option value="10">10</option>
+          <option value="20" selected>20</option>
           <option value="unlimited">Unlimited</option>
         </select>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
@@ -851,21 +854,11 @@
       const res = await fetch(new URL('questions.json?v=6', getBaseUrl()));
       if (!res.ok) throw new Error('Could not load questions.json');
       allQuestionsData = await res.json();
-      if (currentTopic.id === 'prepositions_dependent') {
-        const preps = allQuestionsData['prepositions'];
-        setsData = (preps && preps.set2) ? { set1: preps.set2 } : {};
-      } else {
-        setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
-      }
+      setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
     }
 
     function applyTopic() {
-      if (currentTopic.id === 'prepositions_dependent') {
-        const preps = allQuestionsData['prepositions'];
-        setsData = (preps && preps.set2) ? { set1: preps.set2 } : {};
-      } else {
-        setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
-      }
+      setsData = allQuestionsData[currentTopic.questions_key] || allQuestionsData.sets || {};
     }
 
     function renderMenu() {
@@ -2357,7 +2350,8 @@
       }
       const order = coursePart === 2 ? part2Order : COURSE_ORDER;
       const idx = order.indexOf(coursePhase);
-      const nextPhase = idx >= 0 && idx < order.length - 1 ? order[idx + 1] : null;
+      const nextPhase = (coursePart === 2 && idx === 0) ? null : (idx >= 0 && idx < order.length - 1 ? order[idx + 1] : null);
+      const stoppedAfterFirstSection = (coursePart === 2 && idx === 0);
       if (!nextPhase) {
         coursePhase = null;
         if (coursePart === 2) {
@@ -2384,7 +2378,8 @@
           }
           document.getElementById('resultScreen').classList.remove('hidden');
           document.getElementById('resultScore').textContent = 'Part 2 complete! Well done.';
-          const sectionNames = part2Order.map(function(k) {
+          const sectionsToName = stoppedAfterFirstSection ? part2Order.slice(0, 1) : part2Order;
+          const sectionNames = sectionsToName.map(function(k) {
             const s = courseCurriculum.practice && courseCurriculum.practice[k];
             return (s && s.title) ? s.title.replace(new RegExp('^Practice: Gap fill –?\\s*', 'i'), '').trim() : k.replace(/_/g, ' ');
           });
@@ -3066,7 +3061,7 @@
         const j = Math.floor(Math.random() * (i + 1));
         [questions[i], questions[j]] = [questions[j], questions[i]];
       }
-      const max = (val === 'unlimited') ? questions.length : 20;
+      const max = (val === 'unlimited') ? questions.length : (parseInt(val, 10) || 20);
       currentQuestions = questions.slice(0, max);
       currentSetId = currentTopic.id;
       currentSetTitle = (currentTopic.title || currentTopic.id) + ' (' + max + ' questions)';
@@ -3371,7 +3366,7 @@
           sectionCorrectList.innerHTML = '';
         }
         document.getElementById('sectionCompleteScreen').classList.remove('hidden');
-        document.getElementById('sectionCompleteNextBtn').textContent = coursePart === 1 ? 'Menu' : (part2Order.indexOf(coursePhase) < part2Order.length - 1 ? 'Next section' : 'Menu');
+        document.getElementById('sectionCompleteNextBtn').textContent = coursePart === 1 ? 'Menu' : (coursePart === 2 && part2Order[0] === coursePhase ? 'Menu' : (part2Order.indexOf(coursePhase) < part2Order.length - 1 ? 'Next section' : 'Menu'));
         document.getElementById('sectionCompleteMainMenuBtn').classList.toggle('hidden', document.getElementById('sectionCompleteNextBtn').textContent === 'Menu');
       } else {
         document.getElementById('resultScreen').classList.remove('hidden');
@@ -3443,7 +3438,10 @@
       document.getElementById('menuPracticeSetup').classList.remove('hidden');
       applyTopic();
       const topicEl = document.getElementById('practiceSetupTopic');
-      if (topicEl) topicEl.textContent = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
+      if (topicEl) {
+        const baseTitle = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
+        topicEl.textContent = baseTitle ? ('Step 3: Further Practice \u2013 ' + baseTitle) : 'Step 3: Further Practice';
+      }
     });
     document.getElementById('practiceSetupBackBtn').addEventListener('click', () => {
       document.getElementById('menuPracticeSetup').classList.add('hidden');
@@ -3902,7 +3900,7 @@
           { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
           { id: 'phrasal_verbs', title: 'Phrasal Verbs', curriculum: 'curriculum_phrasal_verbs.json', questions_key: 'phrasal_verbs' },
           { id: 'prepositions', title: 'Prepositions', curriculum: 'curriculum_prepositions.json', questions_key: 'prepositions' },
-          { id: 'prepositions_dependent', title: 'Prepositions: Dependent', curriculum: 'curriculum_prepositions_dependent.json', questions_key: 'prepositions' },
+          { id: 'prepositions_dependent', title: 'Prepositions: Dependent', curriculum: 'curriculum_prepositions_dependent.json', questions_key: 'prepositions_dependent' },
           { id: 'punctuation', title: 'Punctuation and Capitalisation', curriculum: 'curriculum_punctuation.json', questions_key: 'punctuation' },
           { id: 'relative_pronouns', title: 'Relative Pronouns', curriculum: 'curriculum_relative_pronouns.json', questions_key: 'relative_pronouns' },
           { id: 'reported_speech', title: 'Reported Speech', curriculum: 'curriculum_reported_speech.json', questions_key: 'reported_speech' },

@@ -286,9 +286,135 @@
     ]
   },
   "practice_order": [
-    "mc"
+    "guided_mc",
+    "gapfill_simple"
   ],
   "practice": {
+    "guided_mc": {
+      "title": "Guided Practice: Prepositions (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "I get up ____ 7 o'clock every day.",
+          "options": {
+            "a": "at",
+            "b": "on",
+            "c": "in",
+            "d": "for"
+          },
+          "correct_option": "a",
+          "explanation": "Use **at** with exact clock times (at 7 o'clock, at noon)."
+        },
+        {
+          "type": "mc",
+          "question": "The meeting is ____ Monday.",
+          "options": {
+            "a": "at",
+            "b": "on",
+            "c": "in",
+            "d": "for"
+          },
+          "correct_option": "b",
+          "explanation": "Use **on** with days and dates (on Monday, on 15th March)."
+        },
+        {
+          "type": "mc",
+          "question": "She was born ____ 1995.",
+          "options": {
+            "a": "on",
+            "b": "in",
+            "c": "at",
+            "d": "from"
+          },
+          "correct_option": "b",
+          "explanation": "Use **in** with years, months and seasons (in 1995, in January)."
+        },
+        {
+          "type": "mc",
+          "question": "The book is lying ____ the table. (on the surface)",
+          "options": {
+            "a": "in",
+            "b": "at",
+            "c": "on",
+            "d": "by"
+          },
+          "correct_option": "c",
+          "explanation": "**On** is used when something is on top of a surface."
+        },
+        {
+          "type": "mc",
+          "question": "He lives ____ London.",
+          "options": {
+            "a": "at",
+            "b": "on",
+            "c": "to",
+            "d": "in"
+          },
+          "correct_option": "d",
+          "explanation": "We live **in** a city or country (in London, in Spain)."
+        },
+        {
+          "type": "mc",
+          "question": "We'll meet ____ the bus stop.",
+          "options": {
+            "a": "in",
+            "b": "at",
+            "c": "on",
+            "d": "to"
+          },
+          "correct_option": "b",
+          "explanation": "Use **at** for a specific point or meeting place (at the bus stop)."
+        },
+        {
+          "type": "mc",
+          "question": "I'm going ____ the supermarket.",
+          "options": {
+            "a": "to",
+            "b": "at",
+            "c": "in",
+            "d": "on"
+          },
+          "correct_option": "a",
+          "explanation": "Use **to** for movement towards a place (to the supermarket)."
+        },
+        {
+          "type": "mc",
+          "question": "She's been waiting ____ two hours.",
+          "options": {
+            "a": "for",
+            "b": "since",
+            "c": "during",
+            "d": "from"
+          },
+          "correct_option": "a",
+          "explanation": "**For** + period of time (for two hours)."
+        },
+        {
+          "type": "mc",
+          "question": "I've lived here ____ 2020.",
+          "options": {
+            "a": "for",
+            "b": "since",
+            "c": "during",
+            "d": "from"
+          },
+          "correct_option": "b",
+          "explanation": "**Since** + starting point in time (since 2020)."
+        },
+        {
+          "type": "mc",
+          "question": "I'll see you ____ the morning.",
+          "options": {
+            "a": "at",
+            "b": "on",
+            "c": "in",
+            "d": "by"
+          },
+          "correct_option": "c",
+          "explanation": "Parts of the day usually take **in** (in the morning), except at night."
+        }
+      ]
+    },
     "gapfill_simple": {
       "title": "Practice: Gap fill – Simple (time and place)",
       "questions": [

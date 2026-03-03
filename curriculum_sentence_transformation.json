@@ -153,11 +153,11 @@
           "question": "We couldn't go out because of the rain. PREVENTED\nThe rain _____ going out.",
           "options": {
             "a": "prevented us",
-            "b": "prevented us from",
-            "c": "prevented from",
+            "b": "prevented from",
+            "c": "prevented us from",
             "d": "prevented we"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Prevent someone from + -ing."
         },
         {
@@ -165,11 +165,11 @@
           "question": "She started working here three years ago. FOR\nShe has been working here _____ three years.",
           "options": {
             "a": "since",
-            "b": "for",
-            "c": "during",
+            "b": "during",
+            "c": "for",
             "d": "ago"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "For + a period of time (how long)."
         },
         {
@@ -177,11 +177,11 @@
           "question": "Nobody in the class is taller than Maria. TALLEST\nMaria is _____ in the class.",
           "options": {
             "a": "taller",
-            "b": "the tallest",
-            "c": "most tall",
+            "b": "most tall",
+            "c": "the tallest",
             "d": "tallest"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "Superlative: the tallest."
         },
         {
@@ -189,11 +189,11 @@
           "question": "I regret not studying harder. WISH\nI _____ harder.",
           "options": {
             "a": "wish I study",
-            "b": "wish I had studied",
-            "c": "wish I studied",
+            "b": "wish I studied",
+            "c": "wish I had studied",
             "d": "wish I would study"
           },
-          "correct_option": "b",
+          "correct_option": "c",
           "explanation": "I wish + past perfect (regret about the past)."
         },
         {

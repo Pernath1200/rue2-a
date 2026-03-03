@@ -154,9 +154,135 @@
     ]
   },
   "practice_order": [
-    "mc"
+    "guided_mc",
+    "gapfill"
   ],
   "practice": {
+    "guided_mc": {
+      "title": "Guided Practice: Relative pronouns (multiple choice)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "The book ____ I'm reading is by a famous author.",
+          "options": {
+            "a": "who",
+            "b": "that",
+            "c": "where",
+            "d": "when"
+          },
+          "correct_option": "b",
+          "explanation": "For things we use **that** (or which), not who."
+        },
+        {
+          "type": "mc",
+          "question": "The woman ____ lives next door is very kind.",
+          "options": {
+            "a": "which",
+            "b": "where",
+            "c": "who",
+            "d": "when"
+          },
+          "correct_option": "c",
+          "explanation": "For people (subject) we use **who** (or that)."
+        },
+        {
+          "type": "mc",
+          "question": "This is the house ____ I was born.",
+          "options": {
+            "a": "where",
+            "b": "who",
+            "c": "which",
+            "d": "when"
+          },
+          "correct_option": "a",
+          "explanation": "For place we use **where** (or that/which ... in)."
+        },
+        {
+          "type": "mc",
+          "question": "The man ____ I spoke to was the manager.",
+          "options": {
+            "a": "who",
+            "b": "where",
+            "c": "when",
+            "d": "what"
+          },
+          "correct_option": "a",
+          "explanation": "For people (object) we can use **who** (or that)."
+        },
+        {
+          "type": "mc",
+          "question": "I don't remember the day ____ we first met.",
+          "options": {
+            "a": "what",
+            "b": "why",
+            "c": "when",
+            "d": "where"
+          },
+          "correct_option": "c",
+          "explanation": "For time we use **when** (or that), not what."
+        },
+        {
+          "type": "mc",
+          "question": "The person ____ phone was stolen called the police.",
+          "options": {
+            "a": "who",
+            "b": "whose",
+            "c": "which",
+            "d": "where"
+          },
+          "correct_option": "b",
+          "explanation": "For possession we use **whose**."
+        },
+        {
+          "type": "mc",
+          "question": "The town ____ I grew up is very small.",
+          "options": {
+            "a": "who",
+            "b": "where",
+            "c": "when",
+            "d": "which"
+          },
+          "correct_option": "b",
+          "explanation": "For place we use **where** (or that/which ... in)."
+        },
+        {
+          "type": "mc",
+          "question": "The hotel ____ we stayed was very comfortable.",
+          "options": {
+            "a": "who",
+            "b": "where",
+            "c": "what",
+            "d": "why"
+          },
+          "correct_option": "b",
+          "explanation": "For place we use **where** (or that/which ... at)."
+        },
+        {
+          "type": "mc",
+          "question": "Everything ____ he said was true.",
+          "options": {
+            "a": "what",
+            "b": "that",
+            "c": "which",
+            "d": "who"
+          },
+          "correct_option": "b",
+          "explanation": "After everything/something/anything we use **that** (or nothing)."
+        },
+        {
+          "type": "mc",
+          "question": "The reason ____ I'm late is the traffic.",
+          "options": {
+            "a": "why",
+            "b": "when",
+            "c": "where",
+            "d": "who"
+          },
+          "correct_option": "a",
+          "explanation": "For reason we use **why** (or that)."
+        }
+      ]
+    },
     "gapfill": {
       "title": "Practice: Choose the correct relative pronoun",
       "questions": [

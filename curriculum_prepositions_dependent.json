@@ -106,10 +106,136 @@
     ]
   },
   "practice_order": [
+    "guided_mc",
     "gapfill_simple",
     "gapfill_common"
   ],
   "practice": {
+    "guided_mc": {
+      "title": "Guided practice: Dependent prepositions (10 MC)",
+      "questions": [
+        {
+          "type": "mc",
+          "question": "Which sentence is correct?",
+          "options": {
+            "a": "I'm interested in history.",
+            "b": "I'm interested on history.",
+            "c": "I'm interested about history.",
+            "d": "I'm interested for history."
+          },
+          "correct_option": "a",
+          "explanation": "Dependent preposition (adjective): interested **in** something."
+        },
+        {
+          "type": "mc",
+          "question": "Which preposition completes the phrase? 'It depends ____ the weather.'",
+          "options": {
+            "a": "of",
+            "b": "from",
+            "c": "on",
+            "d": "about"
+          },
+          "correct_option": "c",
+          "explanation": "Dependent preposition (verb): depend **on** something."
+        },
+        {
+          "type": "mc",
+          "question": "Choose the correct noun + preposition pair.",
+          "options": {
+            "a": "a solution for the problem",
+            "b": "a solution at the problem",
+            "c": "a solution on the problem",
+            "d": "a solution to the problem"
+          },
+          "correct_option": "d",
+          "explanation": "Dependent preposition (noun): solution **to** a problem."
+        },
+        {
+          "type": "mc",
+          "question": "Which preposition completes the phrase? 'She's afraid ____ spiders.'",
+          "options": {
+            "a": "for",
+            "b": "from",
+            "c": "of",
+            "d": "at"
+          },
+          "correct_option": "c",
+          "explanation": "Dependent preposition (adjective): afraid **of** something."
+        },
+        {
+          "type": "mc",
+          "question": "Which option completes the sentence? 'They complained ____ the noise.'",
+          "options": {
+            "a": "about",
+            "b": "on",
+            "c": "for",
+            "d": "of"
+          },
+          "correct_option": "a",
+          "explanation": "Dependent preposition (verb): complain **about** something."
+        },
+        {
+          "type": "mc",
+          "question": "She's good ____ maths. Which preposition?",
+          "options": {
+            "a": "in",
+            "b": "on",
+            "c": "at",
+            "d": "for"
+          },
+          "correct_option": "c",
+          "explanation": "Dependent preposition (adjective): good **at** a subject or skill."
+        },
+        {
+          "type": "mc",
+          "question": "We're looking ____ a new flat. Which preposition?",
+          "options": {
+            "a": "at",
+            "b": "for",
+            "c": "after",
+            "d": "to"
+          },
+          "correct_option": "b",
+          "explanation": "Dependent preposition (verb): look **for** something (search for it)."
+        },
+        {
+          "type": "mc",
+          "question": "She applied ____ the job. Which preposition?",
+          "options": {
+            "a": "to",
+            "b": "for",
+            "c": "at",
+            "d": "on"
+          },
+          "correct_option": "b",
+          "explanation": "Dependent preposition (verb): apply **for** a job or course."
+        },
+        {
+          "type": "mc",
+          "question": "We're waiting ____ the bus. Which preposition?",
+          "options": {
+            "a": "to",
+            "b": "for",
+            "c": "at",
+            "d": "on"
+          },
+          "correct_option": "b",
+          "explanation": "Dependent preposition (verb): wait **for** someone or something."
+        },
+        {
+          "type": "mc",
+          "question": "He's proud ____ his team. Which preposition?",
+          "options": {
+            "a": "for",
+            "b": "about",
+            "c": "of",
+            "d": "with"
+          },
+          "correct_option": "c",
+          "explanation": "Dependent preposition (adjective): proud **of** someone or something."
+        }
+      ]
+    },
     "gapfill_simple": {
       "title": "Guided practice: Common dependent prepositions",
       "questions": [
