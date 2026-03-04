@@ -319,10 +319,11 @@
         <div class="memory-bank" id="memoryBankSummary"></div>
       </div>
       <div id="menuExamPractice" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick one exam task.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose one exam task.</p>
         <button type="button" id="examOpenClozeBtn">Open Cloze</button>
         <button type="button" id="examWordFormationBtn" class="secondary">Word Formation</button>
         <button type="button" id="examSentenceTransformationBtn" class="secondary">Sentence Transformation</button>
+        <button type="button" id="examWritingTipsBtn" class="secondary">Writing Tips</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="examPracticeMainMenuBtn" class="secondary" style="margin-top: 0.5rem;">Main Menu</button>
       </div>
@@ -336,7 +337,7 @@
         <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuOpenClozeFurther" class="menu-panel hidden">
-        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Pick a level. Easy: choose the word. Medium and above: type the word.</p>
+        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Choose a level. Easy: choose the word. Medium and above: type the word.</p>
         <button type="button" id="openClozeEasyBtn">Easy</button>
         <button type="button" id="openClozeMediumBtn" class="secondary">Medium</button>
         <button type="button" id="openClozeHardBtn" class="secondary">Hard</button>
@@ -384,7 +385,7 @@
         <button type="button" id="sentenceTransformFurtherMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuExamClozeTestSelect" class="menu-panel hidden">
-        <p id="examClozeTestSelectHeading" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a test.</p>
+        <p id="examClozeTestSelectHeading" style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a test.</p>
         <div id="examClozeTestSelectList" style="display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 0.75rem;"></div>
         <button type="button" id="examClozeTestSelectRandomBtn" class="secondary">Random</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
@@ -392,17 +393,17 @@
         <button type="button" id="examClozeTestSelectMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuOpenClozeModes" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a level. Easy: choose the word. Medium and above: type the word.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a level. Easy: choose the word. Medium and above: type the word.</p>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="openClozeModesBackBtn" class="secondary" style="margin-top: 0.5rem;">Back</button>
         <button type="button" id="openClozeModesMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuTopicSelect" class="menu-panel hidden">
         <div class="scores" id="scoresSummary"></div>
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Pick a topic. Then pick how you want to practise.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a topic. Then choose how you want to practise.</p>
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.85rem;">Step 2 = 10 multiple-choice questions. Step 3 = more questions (choose how many).</p>
         <label for="topicSelect" style="margin-top: 0.35rem;">Topic</label>
-        <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Pick a grammar topic"></select>
+        <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
         <button type="button" id="startPart1Btn" class="secondary">Step 1: Intro</button>
         <button type="button" id="startPart2Btn" class="secondary">Step 2: Guided Practice (10 MC)</button>
         <button type="button" id="openPracticeSetupBtn" class="secondary">Step 3: Further Practice</button>
@@ -593,13 +594,17 @@
         </div>
         <div id="topicsToReviewBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Topics to practise</h3>
-          <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">You had mistakes here. Pick a topic to learn and practise.</p>
+          <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">You had mistakes here. Choose a topic to learn and practise.</p>
           <div id="topicsToReviewList" class="actions"></div>
         </div>
-        <div class="actions">
+        <div id="resultDefaultActions" class="actions">
           <button id="retryWrongBtn" class="secondary">Try again</button>
           <button type="button" id="backToMenuBtn" class="secondary">Main Menu</button>
           <button type="button" id="viewReportedQuestionsBtnResult" class="secondary">View Flagged Questions</button>
+        </div>
+        <div id="resultWritingTipsWrap" class="actions hidden">
+          <button type="button" id="resultBackToExamPracticeBtn" class="secondary">Back to Exam Practice</button>
+          <button type="button" id="resultViewFullWritingTipsBtn" class="secondary">View full Writing Tips reference</button>
         </div>
       </div>
     </div>
@@ -716,6 +721,8 @@
     let currentExamTransformMode = '';
     let examClozeMcSelections = [];
     let returnToAfterTopicSelect = null;
+    let writingTipsIntroActive = false;
+    let writingTipsIntroSectionIndex = 0;
 
     function questionHash(q) {
       const s = (q.question || q.prompt || '').trim();
@@ -1196,7 +1203,7 @@
       p.style.color = 'var(--muted)';
       p.style.marginBottom = '0.5rem';
       p.style.fontSize = '0.9rem';
-      p.textContent = 'Pick a list:';
+      p.textContent = 'Choose a list:';
       content.appendChild(p);
       const grid = document.createElement('div');
       grid.className = 'reference-index-grid';
@@ -1214,7 +1221,8 @@
         ['Fixed Phrases', showReferenceFixedPhrases],
         ['Word Formation: Prefixes & Suffixes', showReferenceWordFormation],
         ['Linkers and Conjunctions', showReferenceConjunctionsLinkers],
-        ['Reported Speech', showReferenceReportedSpeech]
+        ['Reported Speech', showReferenceReportedSpeech],
+        ['Writing Tips: FCE, CAE, CPE', () => showWritingTips('reference')]
       ];
       items.forEach(([text, fn]) => {
         const btn = document.createElement('button');
@@ -1685,6 +1693,96 @@
       }
       document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
       document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    let writingTipsData = null;
+
+    function renderWritingTipsContent(data) {
+      if (!data) return;
+      referenceView = 'writing_tips';
+      document.getElementById('referenceTitle').textContent = data.title || 'Writing Tips';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+      const sections = data.sections || [];
+      sections.forEach(function(section) {
+        const h3 = document.createElement('h3');
+        h3.style.marginTop = '1rem';
+        h3.style.marginBottom = '0.35rem';
+        h3.textContent = section.title || '';
+        content.appendChild(h3);
+        const sectionContent = section.content || '';
+        const paragraphs = sectionContent.split(/\n\n+/);
+        paragraphs.forEach(function(para) {
+          const text = para.trim();
+          if (!text) return;
+          const p = document.createElement('p');
+          p.style.marginBottom = '0.5rem';
+          p.style.fontSize = '0.95rem';
+          p.innerHTML = escapeAndBold(text);
+          content.appendChild(p);
+        });
+      });
+      const commonErrors = data.commonErrors || [];
+      if (commonErrors.length > 0) {
+        const h3 = document.createElement('h3');
+        h3.style.marginTop = '1.25rem';
+        h3.style.marginBottom = '0.35rem';
+        h3.textContent = 'Common errors';
+        content.appendChild(h3);
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Wrong</th><th>Right</th><th>Explanation</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        commonErrors.forEach(function(entry) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.wrong || '') + '</td><td>' + escapeAndBold(entry.right || '') + '</td><td>' + escapeAndBold(entry.explanation || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = referenceReturnTo === 'exam_practice' ? 'Back to Exam Practice' : 'Back to Reference';
+    }
+
+    async function showWritingTips(returnTo) {
+      referenceReturnTo = returnTo || 'menu';
+      if (!writingTipsData) {
+        try {
+          const res = await fetch(new URL('writing_tips.json?v=1', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load Writing Tips');
+          writingTipsData = await res.json();
+        } catch (e) {
+          alert('Could not load Writing Tips. ' + (e && e.message));
+          return;
+        }
+      }
+      if (referenceReturnTo === 'exam_practice') {
+        writingTipsIntroActive = true;
+        writingTipsIntroSectionIndex = 0;
+        document.getElementById('menuScreen').classList.add('hidden');
+        document.getElementById('menuExamPractice').classList.add('hidden');
+        document.getElementById('referenceBtnWrap').classList.add('hidden');
+        document.body.classList.add('viewing-content');
+        document.getElementById('introScreen').classList.remove('hidden');
+        showWritingTipsIntroSection(0);
+        return;
+      }
+      renderWritingTipsContent(writingTipsData);
+      document.getElementById('referenceScreen').classList.remove('hidden');
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('menuExamPractice').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
+      document.body.classList.add('viewing-content');
+      document.body.classList.add('viewing-reference');
     }
 
     async function showReferenceFixedPhrases() {
@@ -2176,7 +2274,7 @@
     }
 
     function onReferenceBackClick() {
-      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers' || referenceView === 'reported_speech') {
+      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers' || referenceView === 'reported_speech' || referenceView === 'writing_tips') {
         if (referenceReturnTo === 'intro') {
           referenceReturnTo = 'menu';
           document.getElementById('referenceScreen').classList.add('hidden');
@@ -2184,6 +2282,14 @@
           document.getElementById('introScreen').classList.remove('hidden');
           document.body.classList.remove('viewing-reference');
           document.body.classList.add('viewing-content');
+          return;
+        }
+        if (referenceView === 'writing_tips' && referenceReturnTo === 'exam_practice') {
+          referenceReturnTo = 'menu';
+          document.getElementById('referenceScreen').classList.add('hidden');
+          document.body.classList.remove('viewing-reference');
+          document.getElementById('menuScreen').classList.remove('hidden');
+          showExamPracticeMenu();
           return;
         }
         renderReferenceIndex();
@@ -2288,6 +2394,42 @@
       if (openClozeRefBar) openClozeRefBar.classList.toggle('hidden', !isOpenCloze);
       const reportedSpeechRefBar = document.getElementById('introReportedSpeechRefBar');
       if (reportedSpeechRefBar) reportedSpeechRefBar.classList.toggle('hidden', !isReportedSpeech);
+    }
+
+    function showWritingTipsIntroSection(index) {
+      const sections = (writingTipsData && writingTipsData.intro_sections) || [];
+      if (index >= sections.length) return;
+      document.getElementById('introTitle').textContent = sections[index].title || 'Writing Tips';
+      const introHtml = escapeAndBold(sections[index].content || '').replace(/\n/g, '<br>');
+      document.getElementById('introContent').innerHTML = '<div class="intro-section">' + introHtml + '</div>';
+      const isLast = index >= sections.length - 1;
+      document.getElementById('introNextBtn').textContent = isLast ? 'Start short test' : 'Next';
+      document.getElementById('introMainMenuBtn').classList.remove('hidden');
+      writingTipsIntroSectionIndex = index;
+      document.getElementById('introPrepositionsListWrap').classList.add('hidden');
+      document.getElementById('introPhrasalVerbsWrap').classList.add('hidden');
+      const openClozeRefBar = document.getElementById('introOpenClozeRefBar');
+      if (openClozeRefBar) openClozeRefBar.classList.add('hidden');
+      const reportedSpeechRefBar = document.getElementById('introReportedSpeechRefBar');
+      if (reportedSpeechRefBar) reportedSpeechRefBar.classList.add('hidden');
+    }
+
+    function startWritingTipsQuiz() {
+      if (!writingTipsData || !writingTipsData.quiz || !writingTipsData.quiz.length) return;
+      currentQuestions = writingTipsData.quiz.slice();
+      currentSetTitle = writingTipsData.title || 'Writing Tips';
+      currentSetId = 'writing_tips';
+      currentIndex = 0;
+      score = 0;
+      wrongIndices = [];
+      isRetryRound = false;
+      quizMode = 'writing_tips';
+      document.getElementById('introScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
+      document.getElementById('quizScreen').classList.remove('hidden');
+      document.getElementById('feedbackBlock').classList.add('hidden');
+      document.getElementById('exitQuizBtn').textContent = 'Back';
+      showQuestion();
     }
 
     function startCourseSection(phase) {
@@ -2655,7 +2797,7 @@
       const mode = (currentExamType === 'sentence_transformation' ? currentExamTransformMode : currentExamClozeMode) || 'easy';
       const cap = mode.charAt(0).toUpperCase() + mode.slice(1);
       const typeLabel = currentExamType === 'open_cloze' ? 'Open Cloze' : currentExamType === 'word_formation' ? 'Word Formation' : 'Sentence Transformation';
-      document.getElementById('examClozeTestSelectHeading').textContent = typeLabel + ' – Pick a test (' + cap + ').';
+      document.getElementById('examClozeTestSelectHeading').textContent = typeLabel + ' – Choose a test (' + cap + ').';
       const backBtn = document.getElementById('examClozeTestSelectBackBtn');
       if (backBtn) backBtn.textContent = 'Back to ' + typeLabel;
       const listEl = document.getElementById('examClozeTestSelectList');
@@ -3408,6 +3550,15 @@
           reviewBlock.classList.add('hidden');
           reviewList.innerHTML = '';
         }
+        if (quizMode === 'writing_tips') {
+          document.getElementById('resultTitle').textContent = 'Writing Tips quiz complete';
+          document.getElementById('resultDefaultActions').classList.add('hidden');
+          document.getElementById('resultWritingTipsWrap').classList.remove('hidden');
+        } else {
+          document.getElementById('resultTitle').textContent = 'Quiz finished';
+          document.getElementById('resultDefaultActions').classList.remove('hidden');
+          document.getElementById('resultWritingTipsWrap').classList.add('hidden');
+        }
       }
     }
 
@@ -3465,6 +3616,7 @@
     document.getElementById('openExamPracticeBtn').addEventListener('click', showExamPracticeMenu);
     document.getElementById('examPracticeMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('examOpenClozeBtn').addEventListener('click', showOpenClozeMenu);
+    document.getElementById('examWritingTipsBtn').addEventListener('click', () => showWritingTips('exam_practice'));
     document.getElementById('openClozePart1Btn').addEventListener('click', startPart1);
     document.getElementById('openClozePart2Btn').addEventListener('click', startPart2);
     document.getElementById('openClozeBackBtn').addEventListener('click', () => {
@@ -3680,6 +3832,16 @@
     document.getElementById('diagnostic50Btn').addEventListener('click', () => startDiagnostic(50));
     document.getElementById('diagnostic100Btn').addEventListener('click', () => startDiagnostic(100));
     document.getElementById('introNextBtn').addEventListener('click', () => {
+      if (writingTipsIntroActive) {
+        const sections = (writingTipsData && writingTipsData.intro_sections) || [];
+        if (writingTipsIntroSectionIndex < sections.length - 1) {
+          showWritingTipsIntroSection(writingTipsIntroSectionIndex + 1);
+        } else {
+          writingTipsIntroActive = false;
+          startWritingTipsQuiz();
+        }
+        return;
+      }
       if (introSectionIndex < ((courseCurriculum && courseCurriculum.intro && courseCurriculum.intro.sections && courseCurriculum.intro.sections.length) || 1) - 1) {
         showIntroSection(introSectionIndex + 1);
       } else {
@@ -3735,7 +3897,36 @@
     document.getElementById('nextBtn').addEventListener('click', nextQuestion);
     document.getElementById('retryWrongBtn').addEventListener('click', retryWrong);
     document.getElementById('backToMenuBtn').addEventListener('click', showMainMenu);
-    document.getElementById('exitQuizBtn').addEventListener('click', renderMenu);
+    document.getElementById('resultBackToExamPracticeBtn').addEventListener('click', () => {
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.body.classList.remove('viewing-content');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      showExamPracticeMenu();
+    });
+    document.getElementById('resultViewFullWritingTipsBtn').addEventListener('click', () => {
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.body.classList.remove('viewing-content');
+      if (writingTipsData) {
+        referenceReturnTo = 'exam_practice';
+        referenceView = 'writing_tips';
+        renderWritingTipsContent(writingTipsData);
+        document.getElementById('referenceBackBtn').textContent = 'Back to Exam Practice';
+        document.getElementById('referenceScreen').classList.remove('hidden');
+        document.getElementById('menuScreen').classList.add('hidden');
+        document.getElementById('menuExamPractice').classList.add('hidden');
+        document.body.classList.add('viewing-reference');
+      }
+    });
+    document.getElementById('exitQuizBtn').addEventListener('click', () => {
+      if (quizMode === 'writing_tips') {
+        document.body.classList.remove('viewing-content');
+        document.getElementById('quizScreen').classList.add('hidden');
+        document.getElementById('menuScreen').classList.remove('hidden');
+        showExamPracticeMenu();
+      } else {
+        renderMenu();
+      }
+    });
     document.getElementById('quizMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('quizScreen').addEventListener('click', function(e) {
       const link = e.target && e.target.closest && e.target.closest('.diagnostic-topic-link');
@@ -3755,7 +3946,10 @@
       const sel = document.getElementById('topicSelect');
       if (sel) sel.value = String(idx);
     });
-    document.getElementById('introMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('introMainMenuBtn').addEventListener('click', () => {
+      if (writingTipsIntroActive) writingTipsIntroActive = false;
+      showMainMenu();
+    });
     const viewPrepositionsListBtn = document.getElementById('viewPrepositionsListBtn');
     if (viewPrepositionsListBtn) viewPrepositionsListBtn.addEventListener('click', () => showPrepositionsList('menu'));
     document.getElementById('viewPrepositionsListFromIntroBtn').addEventListener('click', () => showPrepositionsList('intro'));
@@ -3873,7 +4067,7 @@
             sel.innerHTML = '';
             const placeholder = document.createElement('option');
             placeholder.value = '-1';
-            placeholder.textContent = 'Pick a topic';
+            placeholder.textContent = 'Choose a topic';
             placeholder.selected = true;
             sel.appendChild(placeholder);
             topics.forEach((t, i) => {
@@ -3921,7 +4115,7 @@
         sel.innerHTML = '';
         const placeholder = document.createElement('option');
         placeholder.value = '-1';
-        placeholder.textContent = 'Pick a topic';
+        placeholder.textContent = 'Choose a topic';
         placeholder.selected = true;
         sel.appendChild(placeholder);
         topics.forEach((t, i) => {

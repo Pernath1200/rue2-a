@@ -344,6 +344,46 @@
             "fact"
           ],
           "explanation": "**In spite of the fact that** = although."
+        },
+        {
+          "type": "open",
+          "question": "The _____ of the matter is that we need more time.",
+          "answers": [
+            "truth"
+          ],
+          "explanation": "**The truth of the matter** = the real fact; what is actually the case."
+        },
+        {
+          "type": "open",
+          "question": "Why don't you _____ a go? I'm sure you'll do well.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "**Have a go** = try; attempt (informal)."
+        },
+        {
+          "type": "open",
+          "question": "I've never tried sushi, but I'll _____ it a go.",
+          "answers": [
+            "give"
+          ],
+          "explanation": "**Give it a go** = try it; attempt it (informal)."
+        },
+        {
+          "type": "open",
+          "question": "She gave three reasons, _____ of which were convincing.",
+          "answers": [
+            "all"
+          ],
+          "explanation": "**All of which** = referring to all the things just mentioned (in a relative clause)."
+        },
+        {
+          "type": "open",
+          "question": "Prices rose to _____ an extent that many could not afford to buy.",
+          "answers": [
+            "such"
+          ],
+          "explanation": "**To such an extent** = to so great a degree (often followed by *that*)."
         }
       ]
     }

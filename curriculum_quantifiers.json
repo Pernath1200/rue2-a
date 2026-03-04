@@ -331,6 +331,15 @@
             "How much water do you need"
           ],
           "explanation": "Water = uncountable → much."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Less and less people are using public transport.' Correct the sentence.",
+          "answers": [
+            "Fewer and fewer people are using public transport.",
+            "Fewer and fewer people are using public transport"
+          ],
+          "explanation": "People is countable → use **fewer**, not **less**. **Less** is for uncountable nouns (less time, less water); **fewer** is for countable nouns (fewer people, fewer books)."
         }
       ]
     }

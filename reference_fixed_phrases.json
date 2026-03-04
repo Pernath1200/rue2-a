@@ -56,6 +56,11 @@
     { "phrase": "with a view to", "meaning": "with the aim of", "example": "They met with a view to reaching an agreement." },
     { "phrase": "in place of", "meaning": "instead of", "example": "We use plastic in place of glass." },
     { "phrase": "regardless of", "meaning": "without considering; despite", "example": "Everyone is welcome regardless of their background." },
-    { "phrase": "for the purpose of", "meaning": "in order to", "example": "The data was collected for the purpose of research." }
+    { "phrase": "for the purpose of", "meaning": "in order to", "example": "The data was collected for the purpose of research." },
+    { "phrase": "the truth of the matter", "meaning": "the real fact; what is actually the case", "example": "The truth of the matter is that we underestimated the cost." },
+    { "phrase": "have a go", "meaning": "try; attempt (informal)", "example": "Why don't you have a go? I'm sure you'll do well." },
+    { "phrase": "give it a go", "meaning": "try it; attempt it (informal)", "example": "I've never tried sushi, but I'll give it a go." },
+    { "phrase": "all of which", "meaning": "referring to all the things just mentioned (relative clause)", "example": "She gave three reasons, all of which were convincing." },
+    { "phrase": "to such an extent", "meaning": "to so great a degree (often followed by that)", "example": "Prices rose to such an extent that many could not afford to buy." }
   ]
 }

@@ -155,7 +155,8 @@
     "error_correction_18",
     "error_correction_19",
     "error_correction_20",
-    "error_correction_21"
+    "error_correction_21",
+    "error_correction_22"
   ],
   "practice": {
     "mc": {
@@ -2133,6 +2134,107 @@
             "Maybe we can try again tomorrow."
           ],
           "explanation": "Maybe: may + be."
+        }
+      ]
+    },
+    "error_correction_22": {
+      "title": "Practice: Correct the spelling (217–228)",
+      "questions": [
+        {
+          "type": "open",
+          "question": "Wrong: 'We had many visiters last week.' Correct the sentence.",
+          "answers": [
+            "We had many visitors last week."
+          ],
+          "explanation": "Visitors: -or not -er."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I had forgoten my keys.' Correct the sentence.",
+          "answers": [
+            "I had forgotten my keys."
+          ],
+          "explanation": "Forgotten: double t."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'We had many difficultys.' Correct the sentence.",
+          "answers": [
+            "We had many difficulties."
+          ],
+          "explanation": "Difficulties: difficult + -ies (y → i before -es)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'They went to the consultate.' Correct the sentence.",
+          "answers": [
+            "They went to the consulate."
+          ],
+          "explanation": "Consulate: -su- not -ate."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She will presentate the results.' Correct the sentence.",
+          "answers": [
+            "She will present the results."
+          ],
+          "explanation": "Present: the verb is present (no -ate)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I need to improve my vocabularies.' Correct the sentence.",
+          "answers": [
+            "I need to improve my vocabulary."
+          ],
+          "explanation": "Vocabulary: uncountable; use singular vocabulary."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Thanks for your feedbacks.' Correct the sentence.",
+          "answers": [
+            "Thanks for your feedback."
+          ],
+          "explanation": "Feedback: uncountable; no plural -s."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I need more informations.' Correct the sentence.",
+          "answers": [
+            "I need more information."
+          ],
+          "explanation": "Information: uncountable; no plural -s."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'We need to preparate the room.' Correct the sentence.",
+          "answers": [
+            "We need to prepare the room."
+          ],
+          "explanation": "Prepare: -re at the end (not -ate)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'She dances balet.' Correct the sentence.",
+          "answers": [
+            "She dances ballet."
+          ],
+          "explanation": "Ballet: double l, -et."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'Do whathever you like.' Correct the sentence.",
+          "answers": [
+            "Do whatever you like."
+          ],
+          "explanation": "Whatever: what + ever (one word, no h in the middle)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'I need to buy a think.' Correct the sentence.",
+          "answers": [
+            "I need to buy a thing."
+          ],
+          "explanation": "Thing: -ing not -ink (thing vs think)."
         }
       ]
     }

@@ -5137,7 +5137,7 @@
   },
   "spelling": {
     "set1": {
-      "title": "Spelling – Correct the spelling (1–216)",
+      "title": "Spelling – Correct the spelling (1–228)",
       "summary": "200 commonly misspelt words – accommodation through pronunciation. Exam essentials (FCE Listening Part 2, Use of English Part 2 & 3) and common teen mistakes.",
       "questions": [
         {
@@ -6880,6 +6880,102 @@
             "Maybe we can try again tomorrow."
           ],
           "explanation": "Maybe: may + be."
+        },
+        {
+          "type": "open",
+          "question": "217. Wrong: 'We had many visiters last week.' Correct the sentence.",
+          "answers": [
+            "We had many visitors last week."
+          ],
+          "explanation": "Visitors: -or not -er."
+        },
+        {
+          "type": "open",
+          "question": "218. Wrong: 'I had forgoten my keys.' Correct the sentence.",
+          "answers": [
+            "I had forgotten my keys."
+          ],
+          "explanation": "Forgotten: double t."
+        },
+        {
+          "type": "open",
+          "question": "219. Wrong: 'We had many difficultys.' Correct the sentence.",
+          "answers": [
+            "We had many difficulties."
+          ],
+          "explanation": "Difficulties: difficult + -ies (y → i before -es)."
+        },
+        {
+          "type": "open",
+          "question": "220. Wrong: 'They went to the consultate.' Correct the sentence.",
+          "answers": [
+            "They went to the consulate."
+          ],
+          "explanation": "Consulate: -su- not -ate."
+        },
+        {
+          "type": "open",
+          "question": "221. Wrong: 'She will presentate the results.' Correct the sentence.",
+          "answers": [
+            "She will present the results."
+          ],
+          "explanation": "Present: the verb is present (no -ate)."
+        },
+        {
+          "type": "open",
+          "question": "222. Wrong: 'I need to improve my vocabularies.' Correct the sentence.",
+          "answers": [
+            "I need to improve my vocabulary."
+          ],
+          "explanation": "Vocabulary: uncountable; use singular vocabulary."
+        },
+        {
+          "type": "open",
+          "question": "223. Wrong: 'Thanks for your feedbacks.' Correct the sentence.",
+          "answers": [
+            "Thanks for your feedback."
+          ],
+          "explanation": "Feedback: uncountable; no plural -s."
+        },
+        {
+          "type": "open",
+          "question": "224. Wrong: 'I need more informations.' Correct the sentence.",
+          "answers": [
+            "I need more information."
+          ],
+          "explanation": "Information: uncountable; no plural -s."
+        },
+        {
+          "type": "open",
+          "question": "225. Wrong: 'We need to preparate the room.' Correct the sentence.",
+          "answers": [
+            "We need to prepare the room."
+          ],
+          "explanation": "Prepare: -re at the end (not -ate)."
+        },
+        {
+          "type": "open",
+          "question": "226. Wrong: 'She dances balet.' Correct the sentence.",
+          "answers": [
+            "She dances ballet."
+          ],
+          "explanation": "Ballet: double l, -et."
+        },
+        {
+          "type": "open",
+          "question": "227. Wrong: 'Do whathever you like.' Correct the sentence.",
+          "answers": [
+            "Do whatever you like."
+          ],
+          "explanation": "Whatever: what + ever (one word, no h in the middle)."
+        },
+        {
+          "type": "open",
+          "question": "228. Wrong: 'I need to buy a think.' Correct the sentence.",
+          "answers": [
+            "I need to buy a thing."
+          ],
+          "explanation": "Thing: -ing not -ink (thing vs think)."
         }
       ]
     }
