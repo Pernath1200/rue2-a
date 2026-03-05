@@ -12106,6 +12106,236 @@
       ]
     }
   },
+  "it_subject": {
+    "set1": {
+      "title": "It – subject in English",
+      "summary": "Use it as a subject for weather, time and distance (It's raining, It's three o'clock, It's five kilometres to the town) and when the real subject is a to-infinitive or a that-clause (It's important to..., It's clear that...).",
+      "questions": [
+        {
+          "type": "open",
+          "question": "1. Wrong: 'Is raining.' Correct the sentence.",
+          "answers": [
+            "It's raining.",
+            "It is raining.",
+            "It's raining",
+            "It is raining"
+          ],
+          "explanation": "For weather we use It + be: It's raining."
+        },
+        {
+          "type": "open",
+          "question": "2. Wrong: 'Is very cold today.' Correct the sentence.",
+          "answers": [
+            "It's very cold today.",
+            "It is very cold today.",
+            "It's very cold today",
+            "It is very cold today"
+          ],
+          "explanation": "Temperature: It's very cold today."
+        },
+        {
+          "type": "open",
+          "question": "3. Wrong: 'Is three o'clock.' Correct the sentence.",
+          "answers": [
+            "It's three o'clock.",
+            "It is three o'clock.",
+            "It's three o'clock",
+            "It is three o'clock"
+          ],
+          "explanation": "For time we say It's three o'clock."
+        },
+        {
+          "type": "open",
+          "question": "4. Wrong: 'Is five kilometres to the town.' Correct the sentence.",
+          "answers": [
+            "It's five kilometres to the town.",
+            "It is five kilometres to the town.",
+            "It's five kilometers to the town.",
+            "It is five kilometers to the town.",
+            "It's five kilometres to the town",
+            "It is five kilometres to the town",
+            "It's five kilometers to the town",
+            "It is five kilometers to the town"
+          ],
+          "explanation": "Distance: It's five kilometres to the town."
+        },
+        {
+          "type": "open",
+          "question": "5. Wrong: 'Important is to read the instructions.' Correct the sentence.",
+          "answers": [
+            "It's important to read the instructions.",
+            "It is important to read the instructions.",
+            "It's important to read the instructions",
+            "It is important to read the instructions"
+          ],
+          "explanation": "Use It + be + adjective + to-infinitive: It's important to read the instructions."
+        },
+        {
+          "type": "open",
+          "question": "6. Wrong: 'Difficult is to wake up early.' Correct the sentence.",
+          "answers": [
+            "It's difficult to wake up early.",
+            "It is difficult to wake up early.",
+            "It's difficult to wake up early",
+            "It is difficult to wake up early"
+          ],
+          "explanation": "Natural English: It's difficult to wake up early."
+        },
+        {
+          "type": "open",
+          "question": "7. Wrong: 'Is obvious that he is angry.' Correct the sentence.",
+          "answers": [
+            "It's obvious that he is angry.",
+            "It is obvious that he is angry.",
+            "It's obvious that he's angry.",
+            "It is obvious that he's angry.",
+            "It's obvious that he is angry",
+            "It is obvious that he is angry",
+            "It's obvious that he's angry",
+            "It is obvious that he's angry"
+          ],
+          "explanation": "Use It + be + adjective + that-clause."
+        },
+        {
+          "type": "open",
+          "question": "8. Wrong: 'Is clear that they don't agree.' Correct the sentence.",
+          "answers": [
+            "It's clear that they don't agree.",
+            "It is clear that they don't agree.",
+            "It's clear that they do not agree.",
+            "It is clear that they do not agree.",
+            "It's clear that they don't agree",
+            "It is clear that they don't agree",
+            "It's clear that they do not agree",
+            "It is clear that they do not agree"
+          ],
+          "explanation": "Again, we need It as subject: It's clear that they don't agree."
+        },
+        {
+          "type": "open",
+          "question": "9. Wrong: 'Was a good idea to call.' Correct the sentence.",
+          "answers": [
+            "It was a good idea to call.",
+            "It was a good idea to call"
+          ],
+          "explanation": "Use It + be + noun phrase: It was a good idea to call."
+        },
+        {
+          "type": "open",
+          "question": "10. Wrong: 'Is not easy to learn English.' Correct the sentence.",
+          "answers": [
+            "It's not easy to learn English.",
+            "It is not easy to learn English.",
+            "It's not easy to learn English",
+            "It is not easy to learn English"
+          ],
+          "explanation": "We normally say: It's not easy to learn English."
+        }
+      ]
+    }
+  },
+  "inversion": {
+    "set1": {
+      "title": "Inversion for emphasis",
+      "summary": "Inversion after negative or limiting expressions at the start (Not only, Never, Seldom, Only then, Under no circumstances): auxiliary + subject + main verb for stronger, more formal emphasis.",
+      "questions": [
+        {
+          "type": "open",
+          "question": "1. Wrong: 'Not only I visited London, but I also went to Oxford.' Correct the sentence.",
+          "answers": [
+            "Not only did I visit London, but I also went to Oxford.",
+            "Not only did I visit London but I also went to Oxford.",
+            "Not only did I visit London, but I also went to Oxford",
+            "Not only did I visit London but I also went to Oxford"
+          ],
+          "explanation": "Use Not only + did + subject + base verb."
+        },
+        {
+          "type": "open",
+          "question": "2. Wrong: 'Never I have been so tired.' Correct the sentence.",
+          "answers": [
+            "Never have I been so tired.",
+            "Never have I been so tired"
+          ],
+          "explanation": "After Never at the beginning we invert: Never have I been so tired."
+        },
+        {
+          "type": "open",
+          "question": "3. Wrong: 'Only then I realised my mistake.' Correct the sentence.",
+          "answers": [
+            "Only then did I realise my mistake.",
+            "Only then did I realise my mistake"
+          ],
+          "explanation": "Pattern: Only then + did + subject + base verb."
+        },
+        {
+          "type": "open",
+          "question": "4. Wrong: 'Under no circumstances you should open the door.' Correct the sentence.",
+          "answers": [
+            "Under no circumstances should you open the door.",
+            "Under no circumstances should you open the door"
+          ],
+          "explanation": "We invert after Under no circumstances: Under no circumstances should you open the door."
+        },
+        {
+          "type": "open",
+          "question": "5. Wrong: 'Rarely I go out during the week.' Correct the sentence.",
+          "answers": [
+            "Rarely do I go out during the week.",
+            "Rarely do I go out during the week"
+          ],
+          "explanation": "After Rarely at the beginning we invert: Rarely do I go out during the week."
+        },
+        {
+          "type": "open",
+          "question": "6. Wrong: 'Only later I understood the joke.' Correct the sentence.",
+          "answers": [
+            "Only later did I understand the joke.",
+            "Only later did I understand the joke"
+          ],
+          "explanation": "Only later + did + subject + base verb."
+        },
+        {
+          "type": "open",
+          "question": "7. Wrong: 'Not only I finished the project, but I also helped my friend.' Correct the sentence.",
+          "answers": [
+            "Not only did I finish the project, but I also helped my friend.",
+            "Not only did I finish the project but I also helped my friend.",
+            "Not only did I finish the project, but I also helped my friend",
+            "Not only did I finish the project but I also helped my friend"
+          ],
+          "explanation": "Again: Not only + did + subject + base verb."
+        },
+        {
+          "type": "open",
+          "question": "8. Wrong: 'Never I will forget that day.' Correct the sentence.",
+          "answers": [
+            "Never will I forget that day.",
+            "Never will I forget that day"
+          ],
+          "explanation": "After Never at the beginning we invert: Never will I forget that day."
+        },
+        {
+          "type": "open",
+          "question": "9. Complete the gap with the correct auxiliary + pronoun.\n\nNever ____ been so embarrassed.",
+          "answers": [
+            "have I",
+            "HAVE I"
+          ],
+          "explanation": "After Never at the beginning we invert: Never have I been so embarrassed."
+        },
+        {
+          "type": "open",
+          "question": "10. Complete the gap with the correct auxiliary + pronoun.\n\nOnly then ____ realise my mistake.",
+          "answers": [
+            "did I",
+            "DID I"
+          ],
+          "explanation": "We need did I: Only then did I realise my mistake."
+        }
+      ]
+    }
+  },
   "conjunctions_linkers": {
     "set1": {
       "title": "Conjunctions and linkers",
