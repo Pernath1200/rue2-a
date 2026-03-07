@@ -5137,7 +5137,7 @@
   },
   "spelling": {
     "set1": {
-      "title": "Spelling – Correct the spelling (1–228)",
+      "title": "Spelling – Correct the spelling (1–327)",
       "summary": "200 commonly misspelt words – accommodation through pronunciation. Exam essentials (FCE Listening Part 2, Use of English Part 2 & 3) and common teen mistakes.",
       "questions": [
         {
@@ -6976,7 +6976,106 @@
             "I need to buy a thing."
           ],
           "explanation": "Thing: -ing not -ink (thing vs think)."
-        }
+        },
+        {"type": "open", "question": "229. Wrong: 'All the equiptment was damaged.' Correct the sentence.", "answers": ["All the equipment was damaged.", "All the equipment was damaged"], "explanation": "Equipment: no a; -ment."},
+        {"type": "open", "question": "230. Wrong: 'Don't exagerate the problem.' Correct the sentence.", "answers": ["Don't exaggerate the problem.", "Don't exaggerate the problem"], "explanation": "Exaggerate: double g, double r."},
+        {"type": "open", "question": "231. Wrong: 'That was an exellant performance.' Correct the sentence.", "answers": ["That was an excellent performance.", "That was an excellent performance"], "explanation": "Excellent: double l, -ent."},
+        {"type": "open", "question": "232. Wrong: 'The name sounds familier.' Correct the sentence.", "answers": ["The name sounds familiar.", "The name sounds familiar"], "explanation": "Familiar: -iar (not -ier)."},
+        {"type": "open", "question": "233. Wrong: 'She has great intellegence.' Correct the sentence.", "answers": ["She has great intelligence.", "She has great intelligence"], "explanation": "Intelligence: -ence; double l."},
+        {"type": "open", "question": "234. Wrong: 'She wore expensive jewlery.' Correct the sentence.", "answers": ["She wore expensive jewellery.", "She wore expensive jewellery"], "explanation": "Jewellery (BrE): jewel + -lery."},
+        {"type": "open", "question": "235. Wrong: 'Experiments in the labaratory.' Correct the sentence.", "answers": ["Experiments in the laboratory.", "Experiments in the laboratory"], "explanation": "Laboratory: -ora- (not -aro-)."},
+        {"type": "open", "question": "236. Wrong: 'Reading in your leasure time.' Correct the sentence.", "answers": ["Reading in your leisure time.", "Reading in your leisure time"], "explanation": "Leisure: -ei- (not -ie-)."},
+        {"type": "open", "question": "237. Wrong: 'A minature version.' Correct the sentence.", "answers": ["A miniature version.", "A miniature version"], "explanation": "Miniature: -iature."},
+        {"type": "open", "question": "238. Wrong: 'The lines are parrallel.' Correct the sentence.", "answers": ["The lines are parallel.", "The lines are parallel"], "explanation": "Parallel: one r, double l."},
+        {"type": "open", "question": "239. Wrong: 'Please confrim the booking.' Correct the sentence.", "answers": ["Please confirm the booking.", "Please confirm the booking"], "explanation": "Confirm: -firm (not -form)."},
+        {"type": "open", "question": "240. Wrong: 'I symathise with you.' Correct the sentence.", "answers": ["I sympathise with you.", "I sympathise with you"], "explanation": "Sympathise: sym- + path + -ise."},
+        {"type": "open", "question": "241. Wrong: 'He was very ancious.' Correct the sentence.", "answers": ["He was very anxious.", "He was very anxious"], "explanation": "Anxious: -x- (not -cs-)."},
+        {"type": "open", "question": "242. Wrong: 'The porpose of the meeting.' Correct the sentence.", "answers": ["The purpose of the meeting.", "The purpose of the meeting"], "explanation": "Purpose: pur- + pose (not porpose)."},
+        {"type": "open", "question": "243. Wrong: 'The venu was perfect.' Correct the sentence.", "answers": ["The venue was perfect.", "The venue was perfect"], "explanation": "Venue: -ue (not -eu)."},
+        {"type": "open", "question": "244. Wrong: 'She was very irratated.' Correct the sentence.", "answers": ["She was very irritated.", "She was very irritated"], "explanation": "Irritated: double r, one t."},
+        {"type": "open", "question": "245. Wrong: 'A frustating experience.' Correct the sentence.", "answers": ["A frustrating experience.", "A frustrating experience"], "explanation": "Frustrating: double t (frustrate + -ing)."},
+        {"type": "open", "question": "246. Wrong: 'I envi their success.' Correct the sentence.", "answers": ["I envy their success.", "I envy their success"], "explanation": "Envy: -vy (not -vey)."},
+        {"type": "open", "question": "247. Wrong: 'They lack confidance.' Correct the sentence.", "answers": ["They lack confidence.", "They lack confidence"], "explanation": "Confidence: -ence (confide + -ence)."},
+        {"type": "open", "question": "248. Wrong: 'We need imediate action.' Correct the sentence.", "answers": ["We need immediate action.", "We need immediate action"], "explanation": "Immediate: double m, -ate."},
+        {"type": "open", "question": "249. Wrong: 'Millenium celebrations.' Correct the sentence.", "answers": ["Millennium celebrations.", "Millennium celebrations"], "explanation": "Millennium: double l, double n."},
+        {"type": "open", "question": "250. Wrong: 'Bureacracy slows things down.' Correct the sentence.", "answers": ["Bureaucracy slows things down.", "Bureaucracy slows things down"], "explanation": "Bureaucracy: -eau- (not -ure-)."},
+        {"type": "open", "question": "251. Wrong: 'A committment to quality.' Correct the sentence.", "answers": ["A commitment to quality.", "A commitment to quality"], "explanation": "Commitment: double m, double t."},
+        {"type": "open", "question": "252. Wrong: 'The equivelant amount.' Correct the sentence.", "answers": ["The equivalent amount.", "The equivalent amount"], "explanation": "Equivalent: -quiv- (not -qual-)."},
+        {"type": "open", "question": "253. Wrong: 'An exagerated claim.' Correct the sentence.", "answers": ["An exaggerated claim.", "An exaggerated claim"], "explanation": "Exaggerated: double g, double r."},
+        {"type": "open", "question": "254. Wrong: 'Tempereture rose.' Correct the sentence.", "answers": ["Temperature rose.", "Temperature rose"], "explanation": "Temperature: -pera- (not -ature)."},
+        {"type": "open", "question": "255. Wrong: 'A treshold was set.' Correct the sentence.", "answers": ["A threshold was set.", "A threshold was set"], "explanation": "Threshold: -resh- (one h)."},
+        {"type": "open", "question": "256. Wrong: 'The neigbourhood was friendly.' Correct the sentence.", "answers": ["The neighbourhood was friendly.", "The neighbourhood was friendly"], "explanation": "Neighbourhood: -our-; double h (BrE)."},
+        {"type": "open", "question": "257. Wrong: 'Unfortunatly we missed it.' Correct the sentence.", "answers": ["Unfortunately we missed it.", "Unfortunately we missed it"], "explanation": "Unfortunately: un- + fortunate + -ly."},
+        {"type": "open", "question": "258. Wrong: 'It's not suitible.' Correct the sentence.", "answers": ["It's not suitable.", "It's not suitable"], "explanation": "Suitable: suit + -able."},
+        {"type": "open", "question": "259. Wrong: 'It was avoidible.' Correct the sentence.", "answers": ["It was avoidable.", "It was avoidable"], "explanation": "Avoidable: avoid + -able."},
+        {"type": "open", "question": "260. Wrong: 'Highly recomendable.' Correct the sentence.", "answers": ["Highly recommendable.", "Highly recommendable"], "explanation": "Recommendable: double c, double m."},
+        {"type": "open", "question": "261. Wrong: 'An acceptible solution.' Correct the sentence.", "answers": ["An acceptable solution.", "An acceptable solution"], "explanation": "Acceptable: accept + -able."},
+        {"type": "open", "question": "262. Wrong: 'The proceduce was clear.' Correct the sentence.", "answers": ["The procedure was clear.", "The procedure was clear"], "explanation": "Procedure: -ure (not -uce)."},
+        {"type": "open", "question": "263. Wrong: 'We need to procede.' Correct the sentence.", "answers": ["We need to proceed.", "We need to proceed"], "explanation": "Proceed: double e (pro- + ceed)."},
+        {"type": "open", "question": "264. Wrong: 'Supercede the old rule.' Correct the sentence.", "answers": ["Supersede the old rule.", "Supersede the old rule"], "explanation": "Supersede: -sede (not -cede)."},
+        {"type": "open", "question": "265. Wrong: 'The prevelance of the problem.' Correct the sentence.", "answers": ["The prevalence of the problem.", "The prevalence of the problem"], "explanation": "Prevalence: -ence (prevalent + -ence)."},
+        {"type": "open", "question": "266. Wrong: 'A signifcant increase.' Correct the sentence.", "answers": ["A significant increase.", "A significant increase"], "explanation": "Significant: -cant (signify → significant)."},
+        {"type": "open", "question": "267. Wrong: 'Techology is changing.' Correct the sentence.", "answers": ["Technology is changing.", "Technology is changing"], "explanation": "Technology: -nol- (not -nolo-)."},
+        {"type": "open", "question": "268. Wrong: 'Completly wrong.' Correct the sentence.", "answers": ["Completely wrong.", "Completely wrong"], "explanation": "Completely: complete + -ly."},
+        {"type": "open", "question": "269. Wrong: 'Absolutly necessary.' Correct the sentence.", "answers": ["Absolutely necessary.", "Absolutely necessary"], "explanation": "Absolutely: absolute + -ly."},
+        {"type": "open", "question": "270. Wrong: 'Occured last week.' Correct the sentence.", "answers": ["Occurred last week.", "Occurred last week"], "explanation": "Occurred: double c, double r."},
+        {"type": "open", "question": "271. Wrong: 'Refered to the report.' Correct the sentence.", "answers": ["Referred to the report.", "Referred to the report"], "explanation": "Referred: double r (refer + -ed)."},
+        {"type": "open", "question": "272. Wrong: 'Truely amazing.' Correct the sentence.", "answers": ["Truly amazing.", "Truly amazing"], "explanation": "Truly: true → tru-ly (drop e)."},
+        {"type": "open", "question": "273. Wrong: 'Genuinly interested.' Correct the sentence.", "answers": ["Genuinely interested.", "Genuinely interested"], "explanation": "Genuinely: genuine + -ly (drop e)."},
+        {"type": "open", "question": "274. Wrong: 'Unforgetable experience.' Correct the sentence.", "answers": ["Unforgettable experience.", "Unforgettable experience"], "explanation": "Unforgettable: double t (forget + -able)."},
+        {"type": "open", "question": "275. Wrong: 'A regretable mistake.' Correct the sentence.", "answers": ["A regrettable mistake.", "A regrettable mistake"], "explanation": "Regrettable: double t (regret + -able)."},
+        {"type": "open", "question": "276. Wrong: 'Permited to enter.' Correct the sentence.", "answers": ["Permitted to enter.", "Permitted to enter"], "explanation": "Permitted: double t (permit + -ed)."},
+        {"type": "open", "question": "277. Wrong: 'Submited the form.' Correct the sentence.", "answers": ["Submitted the form.", "Submitted the form"], "explanation": "Submitted: double t (submit + -ed)."},
+        {"type": "open", "question": "278. Wrong: 'Persistant effort.' Correct the sentence.", "answers": ["Persistent effort.", "Persistent effort"], "explanation": "Persistent: -ent (persist + -ent)."},
+        {"type": "open", "question": "279. Wrong: 'Independance Day.' Correct the sentence.", "answers": ["Independence Day.", "Independence Day"], "explanation": "Independence: -ence (independent → independence)."},
+        {"type": "open", "question": "280. Wrong: 'Importance of attendence.' Correct the sentence.", "answers": ["Importance of attendance.", "Importance of attendance"], "explanation": "Attendance: attend + -ance."},
+        {"type": "open", "question": "281. Wrong: 'She is very consciencious.' Correct the sentence.", "answers": ["She is very conscientious.", "She is very conscientious"], "explanation": "Conscientious: -tious (conscience → conscientious)."},
+        {"type": "open", "question": "282. Wrong: 'He lost conciousness.' Correct the sentence.", "answers": ["He lost consciousness.", "He lost consciousness"], "explanation": "Consciousness: -ness (conscious + -ness)."},
+        {"type": "open", "question": "283. Wrong: 'We garantee delivery.' Correct the sentence.", "answers": ["We guarantee delivery.", "We guarantee delivery"], "explanation": "Guarantee: u before a; -antee."},
+        {"type": "open", "question": "284. Wrong: 'Please fill in the questionaire.' Correct the sentence.", "answers": ["Please fill in the questionnaire.", "Please fill in the questionnaire"], "explanation": "Questionnaire: -nn-; -aire."},
+        {"type": "open", "question": "285. Wrong: 'He is an amatuer photographer.' Correct the sentence.", "answers": ["He is an amateur photographer.", "He is an amateur photographer"], "explanation": "Amateur: -eur (not -uer)."},
+        {"type": "open", "question": "286. Wrong: 'We need a liasion between the teams.' Correct the sentence.", "answers": ["We need a liaison between the teams.", "We need a liaison between the teams"], "explanation": "Liaison: -ai- (two i's)."},
+        {"type": "open", "question": "287. Wrong: 'It was a difficult manouevre.' Correct the sentence.", "answers": ["It was a difficult manoeuvre.", "It was a difficult manoeuvre"], "explanation": "Manoeuvre (BrE): -oeu-."},
+        {"type": "open", "question": "288. Wrong: 'A subtel difference.' Correct the sentence.", "answers": ["A subtle difference.", "A subtle difference"], "explanation": "Subtle: silent b; -le."},
+        {"type": "open", "question": "289. Wrong: 'Write it in the next colomn.' Correct the sentence.", "answers": ["Write it in the next column.", "Write it in the next column"], "explanation": "Column: -mn (silent n)."},
+        {"type": "open", "question": "290. Wrong: 'A solem promise.' Correct the sentence.", "answers": ["A solemn promise.", "A solemn promise"], "explanation": "Solemn: silent n."},
+        {"type": "open", "question": "291. Wrong: 'We met in autum.' Correct the sentence.", "answers": ["We met in autumn.", "We met in autumn"], "explanation": "Autumn: double n."},
+        {"type": "open", "question": "292. Wrong: 'They condamn the decision.' Correct the sentence.", "answers": ["They condemn the decision.", "They condemn the decision"], "explanation": "Condemn: -mn (silent n)."},
+        {"type": "open", "question": "293. Wrong: 'He pulled a musle.' Correct the sentence.", "answers": ["He pulled a muscle.", "He pulled a muscle"], "explanation": "Muscle: -cle (not -le)."},
+        {"type": "open", "question": "294. Wrong: 'Where are the scisors?' Correct the sentence.", "answers": ["Where are the scissors?", "Where are the scissors"], "explanation": "Scissors: double s, -ors."},
+        {"type": "open", "question": "295. Wrong: 'I percived a change.' Correct the sentence.", "answers": ["I perceived a change.", "I perceived a change"], "explanation": "Perceived: i before e after c."},
+        {"type": "open", "question": "296. Wrong: 'Don't decieve yourself.' Correct the sentence.", "answers": ["Don't deceive yourself.", "Don't deceive yourself"], "explanation": "Deceive: i before e after c."},
+        {"type": "open", "question": "297. Wrong: 'She showed great persistance.' Correct the sentence.", "answers": ["She showed great persistence.", "She showed great persistence"], "explanation": "Persistence: -ence (persist + -ence)."},
+        {"type": "open", "question": "298. Wrong: 'There was strong resistence.' Correct the sentence.", "answers": ["There was strong resistance.", "There was strong resistance"], "explanation": "Resistance: -ance (resist + -ance)."},
+        {"type": "open", "question": "299. Wrong: 'Thank you for your assistence.' Correct the sentence.", "answers": ["Thank you for your assistance.", "Thank you for your assistance"], "explanation": "Assistance: double s; -ance."},
+        {"type": "open", "question": "300. Wrong: 'In these circumstences.' Correct the sentence.", "answers": ["In these circumstances.", "In these circumstances"], "explanation": "Circumstances: -stan- (not -stence)."},
+        {"type": "open", "question": "301. Wrong: 'A great performence.' Correct the sentence.", "answers": ["A great performance.", "A great performance"], "explanation": "Performance: -ance (perform + -ance)."},
+        {"type": "open", "question": "302. Wrong: 'My preferance is tea.' Correct the sentence.", "answers": ["My preference is tea.", "My preference is tea"], "explanation": "Preference: -ence (prefer + -ence)."},
+        {"type": "open", "question": "303. Wrong: 'We attended a conferance.' Correct the sentence.", "answers": ["We attended a conference.", "We attended a conference"], "explanation": "Conference: -ence (confer + -ence)."},
+        {"type": "open", "question": "304. Wrong: 'Draw your own inferance.' Correct the sentence.", "answers": ["Draw your own inference.", "Draw your own inference"], "explanation": "Inference: -ence (infer + -ence)."},
+        {"type": "open", "question": "305. Wrong: 'Success requires perseverence.' Correct the sentence.", "answers": ["Success requires perseverance.", "Success requires perseverance"], "explanation": "Perseverance: -ance (persevere + -ance)."},
+        {"type": "open", "question": "306. Wrong: 'Award for exellence.' Correct the sentence.", "answers": ["Award for excellence.", "Award for excellence"], "explanation": "Excellence: double l; -ence."},
+        {"type": "open", "question": "307. Wrong: 'The silance was awkward.' Correct the sentence.", "answers": ["The silence was awkward.", "The silence was awkward"], "explanation": "Silence: -ence (silent + -ce)."},
+        {"type": "open", "question": "308. Wrong: 'Acts of violance.' Correct the sentence.", "answers": ["Acts of violence.", "Acts of violence"], "explanation": "Violence: -ence (violent + -ce)."},
+        {"type": "open", "question": "309. Wrong: 'We need more guidence.' Correct the sentence.", "answers": ["We need more guidance.", "We need more guidance"], "explanation": "Guidance: -ance (guide + -ance)."},
+        {"type": "open", "question": "310. Wrong: 'Strict complience with the rules.' Correct the sentence.", "answers": ["Strict compliance with the rules.", "Strict compliance with the rules"], "explanation": "Compliance: -ance (comply → compliance)."},
+        {"type": "open", "question": "311. Wrong: 'An act of defience.' Correct the sentence.", "answers": ["An act of defiance.", "An act of defiance"], "explanation": "Defiance: -ance (defy → defiance)."},
+        {"type": "open", "question": "312. Wrong: 'Too much relience on one person.' Correct the sentence.", "answers": ["Too much reliance on one person.", "Too much reliance on one person"], "explanation": "Reliance: -ance (rely → reliance)."},
+        {"type": "open", "question": "313. Wrong: 'Household appliences.' Correct the sentence.", "answers": ["Household appliances.", "Household appliances"], "explanation": "Appliances: -ance (apply → appliance)."},
+        {"type": "open", "question": "314. Wrong: 'A monthly allowence.' Correct the sentence.", "answers": ["A monthly allowance.", "A monthly allowance"], "explanation": "Allowance: double l; -ance."},
+        {"type": "open", "question": "315. Wrong: 'Check your balence.' Correct the sentence.", "answers": ["Check your balance.", "Check your balance"], "explanation": "Balance: -ance (not -ence)."},
+        {"type": "open", "question": "316. Wrong: 'The relevency of the data.' Correct the sentence.", "answers": ["The relevance of the data.", "The relevance of the data"], "explanation": "Relevance: -ance (relevant + -ce)."},
+        {"type": "open", "question": "317. Wrong: 'She served a sentance.' Correct the sentence.", "answers": ["She served a sentence.", "She served a sentence"], "explanation": "Sentence: -ence (not -ance)."},
+        {"type": "open", "question": "318. Wrong: 'The audiance applauded.' Correct the sentence.", "answers": ["The audience applauded.", "The audience applauded"], "explanation": "Audience: -ence (audible → audience)."},
+        {"type": "open", "question": "319. Wrong: 'I have no patiance.' Correct the sentence.", "answers": ["I have no patience.", "I have no patience"], "explanation": "Patience: -ence (patient → patience)."},
+        {"type": "open", "question": "320. Wrong: 'We studied scince.' Correct the sentence.", "answers": ["We studied science.", "We studied science"], "explanation": "Science: -ence (not -ance)."},
+        {"type": "open", "question": "321. Wrong: 'Strict obidience.' Correct the sentence.", "answers": ["Strict obedience.", "Strict obedience"], "explanation": "Obedience: -ence (obey → obedience)."},
+        {"type": "open", "question": "322. Wrong: 'Be more leniant.' Correct the sentence.", "answers": ["Be more lenient.", "Be more lenient"], "explanation": "Lenient: -ent (not -ant)."},
+        {"type": "open", "question": "323. Wrong: 'Is there sufficent time?' Correct the sentence.", "answers": ["Is there sufficient time?", "Is there sufficient time"], "explanation": "Sufficient: double f; -ient."},
+        {"type": "open", "question": "324. Wrong: 'She is proficent in Spanish.' Correct the sentence.", "answers": ["She is proficient in Spanish.", "She is proficient in Spanish"], "explanation": "Proficient: -ient (not -ant)."},
+        {"type": "open", "question": "325. Wrong: 'A deficency was found.' Correct the sentence.", "answers": ["A deficiency was found.", "A deficiency was found"], "explanation": "Deficiency: -ency (deficient + -cy)."},
+        {"type": "open", "question": "326. Wrong: 'Improve efficency.' Correct the sentence.", "answers": ["Improve efficiency.", "Improve efficiency"], "explanation": "Efficiency: double f; -ency."},
+        {"type": "open", "question": "327. Wrong: 'That's very conveniant.' Correct the sentence.", "answers": ["That's very convenient.", "That's very convenient"], "explanation": "Convenient: -ient (not -iant)."}
       ]
     }
   },
@@ -11705,7 +11804,7 @@
   "punctuation": {
     "set1": {
       "title": "Punctuation and capitalisation",
-      "summary": "Commas and capitalisation (I, days, months, languages, proper nouns).",
+      "summary": "Commas, colons, semicolons and capitalisation (I, days, months, languages, proper nouns).",
       "questions": [
         {
           "type": "open",
@@ -11890,6 +11989,33 @@
             "The meeting will be in June"
           ],
           "explanation": "Capitalise months."
+        },
+        {
+          "type": "open",
+          "question": "21. Wrong: 'She had one aim to win.' Add the correct punctuation.",
+          "answers": [
+            "She had one aim: to win.",
+            "She had one aim: to win"
+          ],
+          "explanation": "Use a colon to introduce an explanation or expansion (one aim: to win)."
+        },
+        {
+          "type": "open",
+          "question": "22. Wrong: 'The weather was bad we stayed indoors.' Join the two sentences correctly.",
+          "answers": [
+            "The weather was bad; we stayed indoors.",
+            "The weather was bad; we stayed indoors"
+          ],
+          "explanation": "Use a semicolon between two closely related full sentences."
+        },
+        {
+          "type": "open",
+          "question": "23. Wrong: 'Bring the following a pen, paper, and your ID.' Add the correct punctuation.",
+          "answers": [
+            "Bring the following: a pen, paper, and your ID.",
+            "Bring the following: a pen, paper, and your ID"
+          ],
+          "explanation": "Use a colon to introduce a list (the following: a pen, paper, and your ID)."
         }
       ]
     }

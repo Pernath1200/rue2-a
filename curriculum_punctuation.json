@@ -35,8 +35,12 @@
         "content": "**Common mistakes:**\n\n• **Days and months** – In English always capitalise: **Monday**, **January**.\n\n• **I** – In English **I** is always a capital letter.\n\n• **Nationalities/languages** – English, German, French (capital in English).\n\n• **First word after a colon** – In English it depends on style; often capital if a full sentence follows."
       },
       {
+        "title": "Colons and semicolons",
+        "content": "**Colon (:)**\n\n• **Introduce a list:** We need three things: time, money, and help.\n• **Introduce an explanation or example:** There was one problem: the door was locked.\n• **Formal letter greeting (AmE):** Dear Mr Smith:\n• **Time:** 12:30\n\n**Semicolon (;)**\n\n• **Join two closely related full sentences** (instead of a comma + and): It was late; we went home. The train was delayed; we missed the meeting.\n• **Separate list items that already contain commas:** We visited Paris, France; Rome, Italy; and Berlin, Germany.\n\nDo **not** use a semicolon before a dependent clause (e.g. before 'because' or 'although'); use a comma."
+      },
+      {
         "title": "Quick summary",
-        "content": "• **Commas:** lists, after introductory phrases, before but/and when joining two sentences, around non-defining clauses. Not before 'that' (I think that…).\n• **Capitalise:** I, first word of sentence, proper nouns, days, months, nationalities, languages.\n• Follow English rules for commas and capitalisation.\n\nSee the reference table on the next page."
+        "content": "• **Commas:** lists, after introductory phrases, before but/and when joining two sentences, around non-defining clauses. Not before 'that' (I think that…).\n• **Colon:** before a list, explanation, or example; semicolon: between two related full sentences or between list items that contain commas.\n• **Capitalise:** I, first word of sentence, proper nouns, days, months, nationalities, languages.\n• Follow English rules for commas, colons, semicolons and capitalisation.\n\nSee the reference table on the next page."
       },
       {
         "title": "Key punctuation and capitalisation rules",
@@ -74,6 +78,16 @@
               "Nationalities",
               "**Capitalise**",
               "English, French, German"
+            ],
+            [
+              "Colon",
+              "Before list, explanation, example",
+              "We need two things: time and money."
+            ],
+            [
+              "Semicolon",
+              "Between two related sentences; or in lists with commas",
+              "It was late; we left."
             ]
           ]
         }
@@ -142,6 +156,30 @@
         },
         "correct_option": "c",
         "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct?",
+        "options": {
+          "a": "We need three things time, money, and help.",
+          "b": "We need three things: time, money, and help.",
+          "c": "We need three things; time, money, and help.",
+          "d": "We need three things, time, money, and help."
+        },
+        "correct_option": "b",
+        "explanation": "Use a colon to introduce a list (three things: time, money, and help)."
+      },
+      {
+        "type": "mc",
+        "question": "Which is correct? (Two related sentences.)",
+        "options": {
+          "a": "It was late, we went home.",
+          "b": "It was late; we went home.",
+          "c": "It was late we went home.",
+          "d": "It was late: we went home."
+        },
+        "correct_option": "b",
+        "explanation": "Use a semicolon to join two closely related full sentences. A comma alone would be a run-on."
       }
     ]
   },
@@ -243,6 +281,33 @@
             "She said that she would come"
           ],
           "explanation": "No comma before or after 'that' in this type of sentence."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'We need two things time and money.' Add the correct punctuation.",
+          "answers": [
+            "We need two things: time and money.",
+            "We need two things: time and money"
+          ],
+          "explanation": "Use a colon to introduce a list (two things: time and money)."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'The train was delayed we missed the meeting.' Join the two sentences with the correct punctuation.",
+          "answers": [
+            "The train was delayed; we missed the meeting.",
+            "The train was delayed; we missed the meeting"
+          ],
+          "explanation": "Use a semicolon between two closely related full sentences."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'There was one problem the door was locked.' Add the correct punctuation.",
+          "answers": [
+            "There was one problem: the door was locked.",
+            "There was one problem: the door was locked"
+          ],
+          "explanation": "Use a colon to introduce an explanation (one problem: the door was locked)."
         }
       ]
     },
@@ -368,6 +433,42 @@
           },
           "correct_option": "a",
           "explanation": "Languages and nationalities are capitalised in English. Sentence starts with a capital."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct?",
+          "options": {
+            "a": "We need three things time, money, and help.",
+            "b": "We need three things: time, money, and help.",
+            "c": "We need three things; time, money, and help.",
+            "d": "We need three things, time, money, and help."
+          },
+          "correct_option": "b",
+          "explanation": "Use a colon to introduce a list."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct? (Two related sentences.)",
+          "options": {
+            "a": "It was late, we went home.",
+            "b": "It was late; we went home.",
+            "c": "It was late we went home.",
+            "d": "It was late: we went home."
+          },
+          "correct_option": "b",
+          "explanation": "Use a semicolon to join two closely related full sentences."
+        },
+        {
+          "type": "mc",
+          "question": "Which is correct? (List of places with commas inside.)",
+          "options": {
+            "a": "We visited Paris, France, Rome, Italy, and Berlin, Germany.",
+            "b": "We visited Paris, France; Rome, Italy; and Berlin, Germany.",
+            "c": "We visited Paris, France: Rome, Italy: and Berlin, Germany.",
+            "d": "We visited Paris; France, Rome; Italy, and Berlin; Germany."
+          },
+          "correct_option": "b",
+          "explanation": "Use semicolons to separate list items when each item already contains a comma."
         }
       ]
     }

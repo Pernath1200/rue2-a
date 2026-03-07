@@ -329,12 +329,37 @@
       </div>
       <div id="menuOpenCloze" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
-        <button type="button" id="openClozePart1Btn">Step 1: Intro</button>
-        <button type="button" id="openClozePart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Step 2: Guided Practice</button>
-        <button type="button" id="openClozeFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Step 3: Further Practice</button>
+        <button type="button" id="openClozePart1Btn">1: Intro</button>
+        <button type="button" id="openClozePart2Btn" class="secondary" style="margin-bottom: 0.4rem;">2: Multiple Choice</button>
+        <button type="button" id="openClozeFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">3: Further Practice</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="openClozeBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
         <button type="button" id="openClozeMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+      </div>
+      <div id="menuOpenClozeStep3" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose how to practise Open Cloze.</p>
+        <button type="button" id="openClozePracticeTestsBtn">Practice tests</button>
+        <p style="margin: 0.25rem 0 0.25rem; color: var(--muted); font-size: 0.8rem;">Full 150-word texts with 8 gaps (exam format).</p>
+        <button type="button" id="openClozeFreePracticeBtn" class="secondary" style="margin-top: 0.5rem;">Free practice</button>
+        <p style="margin: 0.25rem 0 0.25rem; color: var(--muted); font-size: 0.8rem;">Individual gap-fill sentences (10, 20 or unlimited).</p>
+        <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
+        <button type="button" id="openClozeStep3BackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Open Cloze</button>
+        <button type="button" id="openClozeStep3MainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
+      </div>
+      <div id="menuOpenClozeFreeSetup" class="menu-panel hidden">
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: Free practice</p>
+        <label for="openClozeFreeNumSelect">Number of questions in this session</label>
+        <p id="openClozeFreeSetupHelp" style="margin: 0.25rem 0 0.5rem; color: var(--muted); font-size: 0.85rem;">10 = quick check. 20 = standard practice. Unlimited = keep going until you stop.</p>
+        <select id="openClozeFreeNumSelect">
+          <option value="10">10</option>
+          <option value="20" selected>20</option>
+          <option value="unlimited">Unlimited</option>
+        </select>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem;">
+          <button type="button" id="openClozeFreeSetupBackBtn" class="secondary">Back</button>
+          <button type="button" id="openClozeFreeSetupMainMenuBtn" class="secondary">Main Menu</button>
+          <button type="button" id="openClozeFreeStartBtn">Start</button>
+        </div>
       </div>
       <div id="menuOpenClozeFurther" class="menu-panel hidden">
         <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Choose a level. Easy: choose the word. Medium and above: type the word.</p>
@@ -348,9 +373,9 @@
       </div>
       <div id="menuWordFormation" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 3: Use the word in capitals to make a new word for each gap.</p>
-        <button type="button" id="wordFormationPart1Btn">Step 1: Intro</button>
-        <button type="button" id="wordFormationPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Step 2: Guided Practice</button>
-        <button type="button" id="wordFormationFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Step 3: Further Practice</button>
+        <button type="button" id="wordFormationPart1Btn">1: Intro</button>
+        <button type="button" id="wordFormationPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">2: Multiple Choice</button>
+        <button type="button" id="wordFormationFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">3: Further Practice</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="wordFormationBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
         <button type="button" id="wordFormationMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
@@ -367,9 +392,9 @@
       </div>
       <div id="menuSentenceTransform" class="menu-panel hidden">
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 4: Finish the second sentence. Use the key word. Same meaning as the first.</p>
-        <button type="button" id="sentenceTransformPart1Btn">Step 1: Intro</button>
-        <button type="button" id="sentenceTransformPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">Step 2: Guided Practice</button>
-        <button type="button" id="sentenceTransformFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">Step 3: Further Practice</button>
+        <button type="button" id="sentenceTransformPart1Btn">1: Intro</button>
+        <button type="button" id="sentenceTransformPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">2: Multiple Choice</button>
+        <button type="button" id="sentenceTransformFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">3: Further Practice</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="sentenceTransformBackBtn" class="secondary" style="margin-top: 0.5rem;">Back to Exam Practice</button>
         <button type="button" id="sentenceTransformMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
@@ -401,12 +426,12 @@
       <div id="menuTopicSelect" class="menu-panel hidden">
         <div class="scores" id="scoresSummary"></div>
         <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a topic. Then choose how you want to practise.</p>
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.85rem;">Step 2 = 10 multiple-choice questions. Step 3 = more questions (choose how many).</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.85rem;">2 = 10 multiple-choice questions. 3 = more questions (choose how many).</p>
         <label for="topicSelect" style="margin-top: 0.35rem;">Topic</label>
         <select id="topicSelect" style="margin-bottom: 0.5rem;" title="Choose a grammar topic"></select>
-        <button type="button" id="startPart1Btn" class="secondary">Step 1: Intro</button>
-        <button type="button" id="startPart2Btn" class="secondary">Step 2: Guided Practice (10 MC)</button>
-        <button type="button" id="openPracticeSetupBtn" class="secondary">Step 3: Further Practice</button>
+        <button type="button" id="startPart1Btn" class="secondary">1: Intro</button>
+        <button type="button" id="startPart2Btn" class="secondary">2: Multiple Choice</button>
+        <button type="button" id="openPracticeSetupBtn" class="secondary">3: Further Practice</button>
         <button type="button" id="topicSelectBackToPrevBtn" class="secondary hidden" style="margin-top: 0.35rem;">Back to exam answers</button>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5); margin: 0.5rem 0;" />
         <button type="button" id="topicSelectMainMenuBtn" class="secondary" style="margin-top: 0.5rem;">Main Menu</button>
@@ -560,11 +585,11 @@
         </div>
         <div id="sectionCompleteFurtherPracticeWrap" class="hidden" style="margin-top: 0.75rem;">
           <p id="sectionCompleteFurtherPracticeText" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);">Next: do more practice.</p>
-          <button type="button" id="sectionCompleteFurtherPracticeBtn" class="secondary">Step 3: Further Practice</button>
+          <button type="button" id="sectionCompleteFurtherPracticeBtn" class="secondary">3: Further Practice</button>
         </div>
         <div id="sectionCompleteNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
           <p id="sectionCompleteNextStep" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);"></p>
-          <button type="button" id="sectionCompleteGuidedPracticeBtn" class="secondary">Step 2: Guided Practice</button>
+          <button type="button" id="sectionCompleteGuidedPracticeBtn" class="secondary">2: Multiple Choice</button>
         </div>
         <div id="sectionCompleteCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
@@ -585,7 +610,7 @@
         <p id="resultScore"></p>
         <div id="resultNextStepWrap" class="hidden" style="margin-top: 0.75rem;">
           <p id="resultNextStep" style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--muted);"></p>
-          <button type="button" id="resultFurtherPracticeBtn" class="secondary">Step 3: Further Practice</button>
+          <button type="button" id="resultFurtherPracticeBtn" class="secondary">3: Further Practice</button>
         </div>
         <div class="summary" id="ruleSummary"></div>
         <div id="wrongAnswersCorrectBlock" class="hidden" style="margin-top: 1rem;">
@@ -892,6 +917,8 @@
       document.getElementById('referenceScreen').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
       document.getElementById('menuWordFormationFurther').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuSentenceTransform').classList.add('hidden');
       document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
@@ -950,6 +977,8 @@
       document.getElementById('menuTopicSelect').classList.remove('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuSentenceTransformFurther').classList.add('hidden');
@@ -1019,6 +1048,8 @@
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
       document.getElementById('menuWordFormationFurther').classList.add('hidden');
@@ -1037,6 +1068,8 @@
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenClozeModes').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
       document.getElementById('menuWordFormationFurther').classList.add('hidden');
@@ -2467,7 +2500,7 @@
       const warmupEl = document.getElementById('quizWarmupLine');
       if (warmupEl) {
         if (coursePart === 2 && examMode && phase === 'guidance') {
-          warmupEl.textContent = 'Warm-up: choose the answer. In Step 3 (Further Practice) you will type the word yourself.';
+          warmupEl.textContent = 'Warm-up: choose the answer. In 3 (Further Practice) you will type the word yourself.';
           warmupEl.classList.remove('hidden');
         } else {
           warmupEl.textContent = '';
@@ -2526,7 +2559,7 @@
             return (s && s.title) ? s.title.replace(new RegExp('^Practice: Gap fill –?\\s*', 'i'), '').trim() : k.replace(/_/g, ' ');
           });
           document.getElementById('ruleSummary').textContent = 'You have finished Practice: ' + sectionNames.join(', ') + '.';
-          document.getElementById('resultNextStep').textContent = 'Suggested next step: Step 3: Further Practice';
+          document.getElementById('resultNextStep').textContent = 'Suggested next step: 3: Further Practice';
           document.getElementById('resultNextStepWrap').classList.remove('hidden');
           document.getElementById('retryWrongBtn').classList.add('hidden');
         }
@@ -2713,6 +2746,54 @@
       showQuestion();
     }
 
+    async function startOpenClozeFreePractice() {
+      let data;
+      try {
+        const res = await fetch(new URL('exam_open_cloze_free.json?v=1', getBaseUrl()));
+        if (!res.ok) throw new Error('Could not load exam_open_cloze_free.json');
+        data = await res.json();
+      } catch (e) {
+        alert('Could not load free practice. ' + (e && e.message));
+        return;
+      }
+      const pool = data.questions || [];
+      if (pool.length === 0) {
+        alert('No questions available yet.');
+        return;
+      }
+      const questions = pool.slice();
+      for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+      }
+      const numSelect = document.getElementById('openClozeFreeNumSelect');
+      const val = numSelect && numSelect.value;
+      const max = (val === 'unlimited') ? questions.length : (parseInt(val, 10) || 20);
+      const list = questions.slice(0, max);
+      coursePhase = null;
+      coursePart = null;
+      quizMode = 'normal';
+      wrongTopics = new Set();
+      currentQuestions = list;
+      currentSetId = 'open_cloze_free';
+      currentSetTitle = 'Open Cloze: Free practice (' + max + ' questions)';
+      summary = max + ' questions (random order).';
+      currentIndex = 0;
+      score = 0;
+      wrongIndices = [];
+      isRetryRound = false;
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
+      document.getElementById('sectionCompleteScreen').classList.add('hidden');
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.body.classList.add('viewing-content');
+      document.getElementById('quizScreen').classList.remove('hidden');
+      document.getElementById('feedbackBlock').classList.add('hidden');
+      document.getElementById('exitQuizBtn').textContent = 'Back';
+      document.getElementById('quizGapFillInstruction').classList.remove('hidden');
+      showQuestion();
+    }
+
     async function loadAndStartExamCloze(mode) {
       if (!examOpenClozeData) {
         try {
@@ -2818,6 +2899,8 @@
       });
       document.getElementById('menuScreen').classList.remove('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
       document.getElementById('menuWordFormationFurther').classList.add('hidden');
@@ -3488,7 +3571,7 @@
         const sectionRetryWrap = document.getElementById('sectionCompleteRetryWrap');
         const sectionFurtherWrap = document.getElementById('sectionCompleteFurtherPracticeWrap');
         if (coursePart === 1) {
-          sectionNextStepEl.textContent = 'Suggested next step: Step 2: Guided Practice';
+          sectionNextStepEl.textContent = 'Suggested next step: 2: Multiple Choice';
           sectionNextStepWrap.classList.remove('hidden');
           sectionRetryWrap.classList.toggle('hidden', wrongIndices.length === 0);
           sectionFurtherWrap.classList.add('hidden');
@@ -3591,7 +3674,7 @@
       const topicEl = document.getElementById('practiceSetupTopic');
       if (topicEl) {
         const baseTitle = currentTopic ? toTitleCase(currentTopic.title || currentTopic.id) : '';
-        topicEl.textContent = baseTitle ? ('Step 3: Further Practice \u2013 ' + baseTitle) : 'Step 3: Further Practice';
+        topicEl.textContent = baseTitle ? ('3: Further Practice – ' + baseTitle) : '3: Further Practice';
       }
     });
     document.getElementById('practiceSetupBackBtn').addEventListener('click', () => {
@@ -3627,11 +3710,30 @@
     document.getElementById('openClozeMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('openClozeFurtherBtn').addEventListener('click', () => {
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.remove('hidden');
+    });
+    document.getElementById('openClozeStep3BackBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenCloze').classList.remove('hidden');
+    });
+    document.getElementById('openClozeStep3MainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('openClozePracticeTestsBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.remove('hidden');
     });
+    document.getElementById('openClozeFreePracticeBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.remove('hidden');
+    });
+    document.getElementById('openClozeFreeSetupBackBtn').addEventListener('click', () => {
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.remove('hidden');
+    });
+    document.getElementById('openClozeFreeSetupMainMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('openClozeFreeStartBtn').addEventListener('click', startOpenClozeFreePractice);
     document.getElementById('openClozeFurtherBackBtn').addEventListener('click', () => {
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
-      document.getElementById('menuOpenCloze').classList.remove('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.remove('hidden');
     });
     document.getElementById('openClozeFurtherMainMenuBtn').addEventListener('click', showMainMenu);
     document.getElementById('openClozeEasyBtn').addEventListener('click', () => loadAndStartExamCloze('easy'));
@@ -3818,6 +3920,8 @@
       document.getElementById('menuTopicSelect').classList.add('hidden');
       document.getElementById('menuExamPractice').classList.add('hidden');
       document.getElementById('menuOpenCloze').classList.add('hidden');
+      document.getElementById('menuOpenClozeStep3').classList.add('hidden');
+      document.getElementById('menuOpenClozeFreeSetup').classList.add('hidden');
       document.getElementById('menuOpenClozeFurther').classList.add('hidden');
       document.getElementById('menuWordFormation').classList.add('hidden');
       document.getElementById('menuWordFormationFurther').classList.add('hidden');
