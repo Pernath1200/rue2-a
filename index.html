@@ -2579,13 +2579,17 @@
         alert('Please choose a topic first.');
         return;
       }
+      syncCurrentTopicFromDropdown();
       try {
-        const res = await fetch(new URL(currentTopic.curriculum + '?v=5', getBaseUrl()));
+        const url = new URL(currentTopic.curriculum + '?v=6', getBaseUrl()).href;
+        const res = await fetch(url, { cache: 'no-store' });
+        const text = await res.text();
         if (!res.ok) throw new Error('Could not load ' + currentTopic.curriculum);
-        courseCurriculum = await res.json();
+        if (/^\s*</.test(text)) throw new Error('Server returned HTML instead of JSON. Press F12 > Application > Service Workers > Unregister all, then Ctrl+Shift+R.');
+        courseCurriculum = JSON.parse(text);
       } catch (e) {
         const msg = window.location.protocol === 'file:' ? 'This app must run from a local server. Double-click start_server.bat in this folder, or run: python -m http.server 8080' : ('Could not load curriculum. ' + e.message);
-      alert(msg);
+        alert(msg);
         return;
       }
       coursePart = 1;
@@ -2601,13 +2605,17 @@
         alert('Please choose a topic first.');
         return;
       }
+      syncCurrentTopicFromDropdown();
       try {
-        const res = await fetch(new URL(currentTopic.curriculum + '?v=5', getBaseUrl()));
+        const url = new URL(currentTopic.curriculum + '?v=6', getBaseUrl()).href;
+        const res = await fetch(url, { cache: 'no-store' });
+        const text = await res.text();
         if (!res.ok) throw new Error('Could not load ' + currentTopic.curriculum);
-        courseCurriculum = await res.json();
+        if (/^\s*</.test(text)) throw new Error('Server returned HTML instead of JSON. Press F12 > Application > Service Workers > Unregister all, then Ctrl+Shift+R.');
+        courseCurriculum = JSON.parse(text);
       } catch (e) {
         const msg = window.location.protocol === 'file:' ? 'This app must run from a local server. Double-click start_server.bat in this folder, or run: python -m http.server 8080' : ('Could not load curriculum. ' + e.message);
-      alert(msg);
+        alert(msg);
         return;
       }
       coursePart = 2;
@@ -3342,6 +3350,16 @@
       const sel = document.getElementById('topicSelect');
       const val = sel && sel.value;
       return val !== '' && val !== '-1' && topics[parseInt(val, 10)] != null;
+    }
+
+    function syncCurrentTopicFromDropdown() {
+      if (examMode) return;
+      const sel = document.getElementById('topicSelect');
+      const val = sel && sel.value;
+      if (val !== '' && val !== '-1') {
+        const idx = parseInt(val, 10);
+        if (topics && topics[idx] != null) currentTopic = topics[idx];
+      }
     }
 
     function getTopicTitle(topicId) {
@@ -4161,6 +4179,20 @@
 
     (async function init() {
       try {
+        if ('serviceWorker' in navigator) {
+          var regs = await navigator.serviceWorker.getRegistrations();
+          if (regs.length > 0) {
+            await Promise.all(regs.map(function(r) { return r.unregister(); }));
+            if (!sessionStorage.getItem('sw_cleared')) {
+              sessionStorage.setItem('sw_cleared', '1');
+              var u = window.location.href.split('#')[0];
+              var sep = u.indexOf('?') >= 0 ? '&' : '?';
+              window.location.replace(u + sep + '_nocache=' + Date.now() + (window.location.hash || ''));
+              return;
+            }
+          }
+          sessionStorage.removeItem('sw_cleared');
+        }
         const mRes = await fetch(new URL('manifest.json?v=9', getBaseUrl()));
         if (mRes.ok) {
           const mData = await mRes.json();
@@ -4238,12 +4270,6 @@
     })();
 
     window.addEventListener('hashchange', applyHashAndShowTopic);
-
-    // Service worker disabled so the app always loads fresh from the server (no cache).
-    // To re-enable for offline use, uncomment the block below.
-    // if ('serviceWorker' in navigator) {
-    //   navigator.serviceWorker.register(new URL('sw.js', document.baseURI || window.location.href).href, { scope: './' }).catch(function() {});
-    // }
   </script>
 </body>
 </html>

@@ -1,42 +1,26 @@
-const CACHE_NAME = 'grammar-check-v2';
+// Pass-through service worker: no caching, always fetch fresh from network.
+// Fixes curriculum loading and prevents stale cached HTML.
+self.addEventListener('install', function(e) {
+  e.waitUntil(self.skipWaiting());
+});
 
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll([
-        './',
-        './index.html',
-        './manifest.json',
-        './pwa-manifest.json',
-        './questions.json',
-        './icon.svg'
-      ]).catch(() => {});
-    }).then(() => self.skipWaiting())
+self.addEventListener('activate', function(e) {
+  e.waitUntil(
+    caches.keys().then(function(keys) {
+      return Promise.all(keys.map(function(k) { return caches.delete(k); }));
+    }).then(function() {
+      return self.clients.claim();
+    }).then(function() {
+      return self.clients.matchAll();
+    }).then(function(clients) {
+      clients.forEach(function(c) { c.navigate(c.url); });
+    })
   );
 });
 
-self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
-    ).then(() => self.clients.claim())
-  );
-});
-
-self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET') return;
-  const url = new URL(event.request.url);
+self.addEventListener('fetch', function(e) {
+  if (e.request.method !== 'GET') return;
+  var url = new URL(e.request.url);
   if (url.origin !== location.origin) return;
-
-  event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        const clone = response.clone();
-        if (response.ok && (url.pathname.endsWith('.json') || url.pathname.endsWith('.html') || url.pathname === '/' || url.pathname.endsWith('/'))) {
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-        }
-        return response;
-      })
-      .catch(() => caches.match(event.request).then((r) => r || caches.match('./index.html')))
-  );
+  e.respondWith(fetch(e.request, { cache: 'no-store' }));
 });

@@ -529,10 +529,10 @@
         },
         {
           "type": "open",
-          "question": "Wrong: 'Did you lose.' Correct the sentence.",
+          "question": "Wrong: 'Did you lose your keys?' (You mean you can't find them now.) Correct the sentence.",
           "answers": [
-            "Have you lost",
-            "Have you lost"
+            "Have you lost your keys?",
+            "Have you lost your keys"
           ],
           "explanation": "Result now (can't find) → present perfect."
         },
@@ -1012,7 +1012,7 @@
         },
         {
           "type": "open",
-          "question": "1. The project must be finished ____ Friday.",
+          "question": "19. The project must be finished ____ Friday.",
           "answers": [
             "by"
           ],
@@ -1020,12 +1020,42 @@
         },
         {
           "type": "open",
-          "question": "2. We walked right ____ the tunnel from one side to the other to reach the station.",
+          "question": "20. We walked right ____ the tunnel from one side to the other to reach the station.",
           "answers": [
             "through"
           ],
           "explanation": "We use **through** when we move from one side to the other **inside** an enclosed space (through the tunnel, through the door). Use **across** for crossing a surface or open area (across the field); **along** for following a line (along the path)."
-        }
+        },
+        {"type":"open","question":"21. The meeting starts ____ 3 p.m.","answers":["at"],"explanation":"Clock time → at."},
+        {"type":"open","question":"22. I'll see you ____ Saturday.","answers":["on"],"explanation":"Day of the week → on."},
+        {"type":"open","question":"23. She was born ____ the summer of 1999.","answers":["in"],"explanation":"Season → in."},
+        {"type":"open","question":"24. The cat is hiding ____ the sofa. (underneath)","answers":["under"],"explanation":"Underneath → under."},
+        {"type":"open","question":"25. We travelled ____ the river by boat. (along the length of)","answers":["along"],"explanation":"Following a line → along."},
+        {"type":"open","question":"26. The plane flies ____ the clouds.","answers":["above","over"],"explanation":"Higher than → above or over."},
+        {"type":"open","question":"27. I've been busy ____ last week.","answers":["since"],"explanation":"Since = from (point in time) until now."},
+        {"type":"open","question":"28. It happened ____ the war. (within that period)","answers":["during"],"explanation":"Within a period → during."},
+        {"type":"open","question":"29. We need to leave ____ 6 o'clock at the latest.","answers":["by"],"explanation":"No later than → by."},
+        {"type":"open","question":"30. She works ____ night.","answers":["at"],"explanation":"At night (fixed phrase)."},
+        {"type":"open","question":"31. The shop is ____ the corner of the street.","answers":["at","on"],"explanation":"At/on the corner."},
+        {"type":"open","question":"32. He sat ____ me on the bus. (next to)","answers":["beside","next to"],"explanation":"Beside or next to."},
+        {"type":"open","question":"33. We'll discuss it ____ dinner.","answers":["at","over"],"explanation":"At dinner or over dinner."},
+        {"type":"open","question":"34. The picture is hanging ____ the wall.","answers":["on"],"explanation":"On a surface (wall) → on."},
+        {"type":"open","question":"35. I'll be there ____ 10 minutes. (duration)","answers":["in"],"explanation":"In 10 minutes = within 10 minutes (future)."},
+        {"type":"open","question":"36. She lives ____ 15 Oak Street.","answers":["at"],"explanation":"Specific address → at."},
+        {"type":"open","question":"37. They walked ____ the bridge. (from one side to the other)","answers":["across"],"explanation":"Crossing a surface → across."},
+        {"type":"open","question":"38. The temperature fell ____ zero.","answers":["below"],"explanation":"Lower than → below."},
+        {"type":"open","question":"39. We met ____ the airport.","answers":["at"],"explanation":"Specific place (point) → at."},
+        {"type":"open","question":"40. She has been studying ____ three hours. (duration)","answers":["for"],"explanation":"Duration → for."},
+        {"type":"open","question":"41. The bank is ____ the post office and the supermarket. (between)","answers":["between"],"explanation":"Between two things → between."},
+        {"type":"open","question":"42. I'll finish this ____ the end of the day.","answers":["by"],"explanation":"No later than → by."},
+        {"type":"open","question":"43. We had a picnic ____ the beach.","answers":["on","at"],"explanation":"On/at the beach."},
+        {"type":"open","question":"44. He arrived ____ time for the meeting.","answers":["in"],"explanation":"In time = early enough."},
+        {"type":"open","question":"45. The train goes ____ Paris to Lyon.","answers":["from"],"explanation":"From ... to = movement."},
+        {"type":"open","question":"46. She's ____ holiday this week.","answers":["on"],"explanation":"On holiday (fixed phrase)."},
+        {"type":"open","question":"47. The keys are ____ the drawer. (inside)","answers":["in"],"explanation":"Inside → in."},
+        {"type":"open","question":"48. We've known each other ____ 2015.","answers":["since"],"explanation":"Since + point in time."},
+        {"type":"open","question":"49. He stood ____ the window, looking out.","answers":["at","by"],"explanation":"At/by the window."},
+        {"type":"open","question":"50. The concert is ____ 8th May.","answers":["on"],"explanation":"Date → on."}
       ]
     },
     "set2": {
@@ -5578,9 +5608,10 @@
         },
         {
           "type": "open",
-          "question": "54. Wrong: 'In posession of a ticket.' Correct the sentence.",
+          "question": "54. Wrong: 'He was in posession of a ticket.' Correct the sentence.",
           "answers": [
-            "In possession of a ticket."
+            "He was in possession of a ticket.",
+            "He was in possession of a ticket"
           ],
           "explanation": "Possession: double s."
         },
@@ -11234,7 +11265,47 @@
             "I wonder why she left"
           ],
           "explanation": "Embedded: why she left (no 'did')."
-        }
+        },
+        {"type":"open","question":"11. Do you know who _____ ? (Use: he / be. Statement order.)","answers":["he is"],"explanation":"Embedded: who he is."},
+        {"type":"open","question":"12. I'm not sure when _____ . (Use: the meeting / start. Statement order.)","answers":["the meeting starts"],"explanation":"Embedded: when the meeting starts."},
+        {"type":"open","question":"13. Can you tell me how long _____ ? (Use: she / work / there. Statement order.)","answers":["she has worked there","she's worked there"],"explanation":"Embedded: how long she has worked there."},
+        {"type":"open","question":"14. Wrong: 'I don't know who is he.' Correct the sentence.","answers":["I don't know who he is.","I do not know who he is.","I don't know who he is","I do not know who he is"],"explanation":"Embedded: who he is (statement order)."},
+        {"type":"open","question":"15. Tell me who _____ . (Use: you / call. Statement order; past.)","answers":["you called"],"explanation":"Embedded: who you called."},
+        {"type":"open","question":"16. I wonder how _____ . (Use: they / manage / it. Statement order; past.)","answers":["they managed it"],"explanation":"Embedded: how they managed it."},
+        {"type":"open","question":"17. Wrong: 'Do you know where does she work?' Correct the sentence.","answers":["Do you know where she works?","Do you know where she works"],"explanation":"Embedded: where she works (no does)."},
+        {"type":"open","question":"18. I'd like to know what _____ . (Use: he / want. Statement order.)","answers":["he wants"],"explanation":"Embedded: what he wants."},
+        {"type":"open","question":"19. Can you tell me whether _____ ? (Use: the shop / be / open. Statement order.)","answers":["the shop is open"],"explanation":"Embedded yes/no: whether the shop is open."},
+        {"type":"open","question":"20. Wrong: 'I'm not sure what time does the train leave.' Correct the sentence.","answers":["I'm not sure what time the train leaves.","I am not sure what time the train leaves.","I'm not sure what time the train leaves","I am not sure what time the train leaves"],"explanation":"Embedded: what time the train leaves."},
+        {"type":"open","question":"21. I don't know which _____ . (Use: one / be / best. Statement order.)","answers":["one is best"],"explanation":"Embedded: which one is best."},
+        {"type":"open","question":"22. Do you know how much _____ ? (Use: it / cost. Statement order.)","answers":["it costs"],"explanation":"Embedded: how much it costs."},
+        {"type":"open","question":"23. Wrong: 'Tell me where did you go.' Correct the sentence.","answers":["Tell me where you went.","Tell me where you went"],"explanation":"Embedded: where you went (no did)."},
+        {"type":"open","question":"24. I wonder if _____ . (Use: they / arrive / yet. Statement order.)","answers":["they have arrived yet","they've arrived yet"],"explanation":"Embedded: if they have arrived yet."},
+        {"type":"open","question":"25. Can you tell me how _____ ? (Use: I / get / to the station. Statement order.)","answers":["I can get to the station","I get to the station"],"explanation":"Embedded: how I can get / how I get."},
+        {"type":"open","question":"26. Wrong: 'I don't know what are the rules.' Correct the sentence.","answers":["I don't know what the rules are.","I do not know what the rules are.","I don't know what the rules are","I do not know what the rules are"],"explanation":"Embedded: what the rules are."},
+        {"type":"open","question":"27. Do you know who _____ ? (Use: she / marry. Statement order; past.)","answers":["she married"],"explanation":"Embedded: who she married."},
+        {"type":"open","question":"28. I'm not sure whether _____ . (Use: he / be / coming. Statement order.)","answers":["he is coming","he's coming"],"explanation":"Embedded: whether he is coming."},
+        {"type":"open","question":"29. Wrong: 'Can you tell me what does this word mean?' Correct the sentence.","answers":["Can you tell me what this word means?","Can you tell me what this word means"],"explanation":"Embedded: what this word means."},
+        {"type":"open","question":"30. Tell me why _____ . (Use: you / be / late. Statement order; past.)","answers":["you were late"],"explanation":"Embedded: why you were late."},
+        {"type":"open","question":"31. I don't know whose _____ . (Use: this / be. Statement order.)","answers":["this is"],"explanation":"Embedded: whose this is."},
+        {"type":"open","question":"32. Wrong: 'I wonder when will they arrive.' Correct the sentence.","answers":["I wonder when they will arrive.","I wonder when they'll arrive.","I wonder when they will arrive","I wonder when they'll arrive"],"explanation":"Embedded: when they will arrive."},
+        {"type":"open","question":"33. Do you know what _____ ? (Use: the problem / be. Statement order.)","answers":["the problem is"],"explanation":"Embedded: what the problem is."},
+        {"type":"open","question":"34. I'd like to know how many _____ . (Use: people / be / there. Statement order.)","answers":["people were there","people are there"],"explanation":"Embedded: how many people were/are there."},
+        {"type":"open","question":"35. Wrong: 'Tell me how long have you lived here.' Correct the sentence.","answers":["Tell me how long you have lived here.","Tell me how long you've lived here.","Tell me how long you have lived here","Tell me how long you've lived here"],"explanation":"Embedded: how long you have lived here."},
+        {"type":"open","question":"36. Can you tell me which _____ ? (Use: train / go / to London. Statement order.)","answers":["train goes to London"],"explanation":"Embedded: which train goes to London."},
+        {"type":"open","question":"37. I don't know if _____ . (Use: she / know / about it. Statement order.)","answers":["she knows about it"],"explanation":"Embedded: if she knows about it."},
+        {"type":"open","question":"38. Wrong: 'I'm not sure who did you see.' Correct the sentence.","answers":["I'm not sure who you saw.","I am not sure who you saw.","I'm not sure who you saw","I am not sure who you saw"],"explanation":"Embedded: who you saw (no did)."},
+        {"type":"open","question":"39. Do you know where _____ ? (Use: I / can / find / a pharmacy. Statement order.)","answers":["I can find a pharmacy"],"explanation":"Embedded: where I can find a pharmacy."},
+        {"type":"open","question":"40. I wonder what _____ . (Use: he / do / now. Statement order.)","answers":["he is doing now","he's doing now"],"explanation":"Embedded: what he is doing now."},
+        {"type":"open","question":"41. Wrong: 'Can you tell me what is her email address?' Correct the sentence.","answers":["Can you tell me what her email address is?","Can you tell me what her email address is"],"explanation":"Embedded: what her email address is."},
+        {"type":"open","question":"42. Tell me when _____ . (Use: you / be / free. Statement order.)","answers":["you are free","you're free"],"explanation":"Embedded: when you are free."},
+        {"type":"open","question":"43. I don't know how _____ . (Use: she / do / it. Statement order; past.)","answers":["she did it"],"explanation":"Embedded: how she did it."},
+        {"type":"open","question":"44. Wrong: 'Do you know if has she left?' Correct the sentence.","answers":["Do you know if she has left?","Do you know if she's left?","Do you know if she has left","Do you know if she's left"],"explanation":"Embedded: if she has left (statement order)."},
+        {"type":"open","question":"45. Can you tell me why _____ ? (Use: they / cancel / the meeting. Statement order; past.)","answers":["they cancelled the meeting"],"explanation":"Embedded: why they cancelled the meeting."},
+        {"type":"open","question":"46. I'm not sure what _____ . (Use: we / do / next. Statement order.)","answers":["we should do next","we will do next"],"explanation":"Embedded: what we should/will do next."},
+        {"type":"open","question":"47. Wrong: 'I wonder where are they.' Correct the sentence.","answers":["I wonder where they are.","I wonder where they are"],"explanation":"Embedded: where they are."},
+        {"type":"open","question":"48. Do you know whether _____ ? (Use: he / agree. Statement order; past.)","answers":["he agreed"],"explanation":"Embedded: whether he agreed."},
+        {"type":"open","question":"49. Tell me who _____ . (Use: I / should / ask. Statement order.)","answers":["I should ask"],"explanation":"Embedded: who I should ask."},
+        {"type":"open","question":"50. Wrong: 'I don't know how much do they charge.' Correct the sentence.","answers":["I don't know how much they charge.","I do not know how much they charge.","I don't know how much they charge","I do not know how much they charge"],"explanation":"Embedded: how much they charge (no do)."}
       ]
     }
   },
@@ -11434,7 +11505,37 @@
             "The number of students has increased"
           ],
           "explanation": "Subject is 'the number' (singular) → the number has increased."
-        }
+        },
+        {"type":"open","question":"21. Wrong: 'She do her homework every day.' Correct the sentence.","answers":["She does her homework every day.","She does her homework every day"],"explanation":"Third person singular: she does."},
+        {"type":"open","question":"22. Wrong: 'The results of the test was surprising.' Correct the sentence.","answers":["The results of the test were surprising.","The results of the test were surprising"],"explanation":"Subject is 'the results' (plural)."},
+        {"type":"open","question":"23. Wrong: 'Either the manager or the staff are responsible.' Correct the sentence. (US: staff as unit)","answers":["Either the manager or the staff is responsible.","Either the manager or the staff is responsible"],"explanation":"With or, verb agrees with nearest. In US English 'staff' as unit can take singular (is)."},
+        {"type":"open","question":"24. Wrong: 'Every student have their own locker.' Correct the sentence.","answers":["Every student has their own locker.","Every student has his or her own locker.","Every student has their own locker","Every student has his or her own locker"],"explanation":"Every is singular → every student has."},
+        {"type":"open","question":"25. Wrong: 'The keys to the car is on the table.' Correct the sentence.","answers":["The keys to the car are on the table.","The keys to the car are on the table"],"explanation":"Subject is 'the keys' (plural)."},
+        {"type":"open","question":"26. Wrong: 'Neither of the options are suitable.' Correct the sentence.","answers":["Neither of the options is suitable.","Neither of the options is suitable"],"explanation":"Neither is singular → neither is."},
+        {"type":"open","question":"27. Wrong: 'Tom as well as his brothers are coming.' Correct the sentence.","answers":["Tom as well as his brothers is coming.","Tom as well as his brothers is coming"],"explanation":"Subject is Tom (singular); 'as well as' doesn't make it plural."},
+        {"type":"open","question":"28. Wrong: 'The committee have made a decision.' (US: committee as unit) Correct to singular.","answers":["The committee has made a decision.","The committee has made a decision"],"explanation":"Committee as unit → singular verb (US English)."},
+        {"type":"open","question":"29. Wrong: 'One of my friends have a boat.' Correct the sentence.","answers":["One of my friends has a boat.","One of my friends has a boat"],"explanation":"Subject is 'one' (singular)."},
+        {"type":"open","question":"30. Wrong: 'There is many people here.' Correct the sentence.","answers":["There are many people here.","There are many people here"],"explanation":"Many people = plural → there are."},
+        {"type":"open","question":"31. Wrong: 'Each of the boys were given a prize.' Correct the sentence.","answers":["Each of the boys was given a prize.","Each of the boys was given a prize"],"explanation":"Each is singular → each was."},
+        {"type":"open","question":"32. Wrong: 'The data shows a clear trend.' Correct the sentence. (data as plural)","answers":["The data show a clear trend.","The data show a clear trend"],"explanation":"Data as plural (traditional) → the data show. (Note: 'data is' is also common.)"},
+        {"type":"open","question":"33. Wrong: 'Nobody were at home.' Correct the sentence.","answers":["Nobody was at home.","Nobody was at home"],"explanation":"Nobody is singular → nobody was."},
+        {"type":"open","question":"34. Wrong: 'Ten thousand pounds are a lot of money.' Correct the sentence.","answers":["Ten thousand pounds is a lot of money.","Ten thousand pounds is a lot of money"],"explanation":"Sums of money take singular verb."},
+        {"type":"open","question":"35. Wrong: 'The majority of voters has chosen him.' Correct the sentence.","answers":["The majority of voters have chosen him.","The majority of voters have chosen him"],"explanation":"The majority of + plural noun → plural verb (have)."},
+        {"type":"open","question":"36. Wrong: 'She like music.' Correct the sentence.","answers":["She likes music.","She likes music"],"explanation":"Third person singular: she likes."},
+        {"type":"open","question":"37. Wrong: 'Five years are a long time.' Correct the sentence.","answers":["Five years is a long time.","Five years is a long time"],"explanation":"Period of time as a whole → singular verb."},
+        {"type":"open","question":"38. Wrong: 'Neither the director nor the actors was available.' Correct the sentence.","answers":["Neither the director nor the actors were available.","Neither the director nor the actors were available"],"explanation":"With nor, verb agrees with nearest (actors = plural)."},
+        {"type":"open","question":"39. Wrong: 'The group of students are planning a trip.' Correct the sentence.","answers":["The group of students is planning a trip.","The group of students is planning a trip"],"explanation":"Subject is 'the group' (singular)."},
+        {"type":"open","question":"40. Wrong: 'What she said were true.' Correct the sentence.","answers":["What she said was true.","What she said was true"],"explanation":"What-clause as subject is singular."},
+        {"type":"open","question":"41. Wrong: 'He doesn't likes coffee.' Correct the sentence.","answers":["He doesn't like coffee.","He does not like coffee.","He doesn't like coffee","He does not like coffee"],"explanation":"After do/does/did we use base form: doesn't like."},
+        {"type":"open","question":"42. Wrong: 'The police was called.' (BrE: police as plural) Correct the sentence.","answers":["The police were called.","The police were called"],"explanation":"Police is plural → the police were."},
+        {"type":"open","question":"43. Wrong: 'Economics are a difficult subject.' Correct the sentence.","answers":["Economics is a difficult subject.","Economics is a difficult subject"],"explanation":"Academic subjects (economics, physics) are singular."},
+        {"type":"open","question":"44. Wrong: 'Physics are my favourite subject.' Correct the sentence.","answers":["Physics is my favourite subject.","Physics is my favourite subject"],"explanation":"Academic subjects (physics, maths) are singular."},
+        {"type":"open","question":"45. Wrong: 'There was several problems.' Correct the sentence.","answers":["There were several problems.","There were several problems"],"explanation":"Several problems = plural → there were."},
+        {"type":"open","question":"46. Wrong: 'The cost of the repairs were high.' Correct the sentence.","answers":["The cost of the repairs was high.","The cost of the repairs was high"],"explanation":"Subject is 'the cost' (singular)."},
+        {"type":"open","question":"47. Wrong: 'Both of the candidates has applied.' Correct the sentence.","answers":["Both of the candidates have applied.","Both of the candidates have applied"],"explanation":"Both = plural → both have."},
+        {"type":"open","question":"48. Wrong: 'Fish and chips are my favourite meal.' Correct the sentence.","answers":["Fish and chips is my favourite meal.","Fish and chips is my favourite meal"],"explanation":"Dish as a unit (fish and chips) → singular."},
+        {"type":"open","question":"49. Wrong: 'Someone have left a message.' Correct the sentence.","answers":["Someone has left a message.","Someone has left a message"],"explanation":"Someone is singular → someone has."},
+        {"type":"open","question":"50. Wrong: 'All the information were correct.' Correct the sentence.","answers":["All the information was correct.","All the information was correct"],"explanation":"Information is uncountable → singular verb."}
       ]
     }
   },
@@ -11620,7 +11721,37 @@
             "it started"
           ],
           "explanation": "Reported question: statement order; backshift."
-        }
+        },
+        {"type":"open","question":"21. \"I am leaving tomorrow.\" → She said she _____ leaving the next day.","answers":["was"],"explanation":"Present continuous → past continuous in reported speech."},
+        {"type":"open","question":"22. \"I may be late.\" → He said he _____ be late.","answers":["might"],"explanation":"May → might when reporting in the past."},
+        {"type":"open","question":"23. \"Why did you do that?\" → She asked me why I _____ that.","answers":["had done"],"explanation":"Past simple → past perfect in reported speech (backshift)."},
+        {"type":"open","question":"24. \"Please wait for me.\" → She _____ me to wait for her.","answers":["asked"],"explanation":"Polite request: ask + person + to-infinitive."},
+        {"type":"open","question":"25. \"I will call you.\" → He said he _____ call me.","answers":["would"],"explanation":"Will → would when reporting."},
+        {"type":"open","question":"26. \"I saw him today.\" → She said she had seen him _____.","answers":["that day"],"explanation":"Today → that day in reported speech."},
+        {"type":"open","question":"27. \"Do you speak English?\" → He asked _____ I spoke English.","answers":["if","whether"],"explanation":"Yes/No question → if or whether + statement order."},
+        {"type":"open","question":"28. \"Don't go.\" → He _____ me not to go.","answers":["told","asked"],"explanation":"Negative command: tell/ask + person + not to-infinitive."},
+        {"type":"open","question":"29. \"I had already eaten.\" → She said she _____ already eaten.","answers":["had"],"explanation":"Past perfect stays past perfect (no further backshift)."},
+        {"type":"open","question":"30. \"Where are you going?\" → He asked me where I _____ going.","answers":["was"],"explanation":"Present continuous → past continuous; statement order."},
+        {"type":"open","question":"31. \"I can help you.\" → She said she _____ help me.","answers":["could"],"explanation":"Can → could when reporting."},
+        {"type":"open","question":"32. \"Come here.\" → He _____ me to come there.","answers":["told"],"explanation":"Command: tell + person + to-infinitive; here → there."},
+        {"type":"open","question":"33. \"I want to leave now.\" → He said he wanted to leave _____.","answers":["then"],"explanation":"Now → then in reported speech."},
+        {"type":"open","question":"34. \"Who is she?\" → He asked who she _____.","answers":["was"],"explanation":"Reported question: statement order; is → was."},
+        {"type":"open","question":"35. \"I have never been there.\" → She said she _____ never been there.","answers":["had"],"explanation":"Present perfect → past perfect."},
+        {"type":"open","question":"36. Wrong: 'She said she will come.' (reporting past) Correct the sentence.","answers":["She said she would come.","She said she would come"],"explanation":"Backshift: will → would when reporting in the past."},
+        {"type":"open","question":"37. Wrong: 'He asked when do I leave.' Correct the sentence.","answers":["He asked when I left.","He asked when I leave.","He asked when I left","He asked when I leave"],"explanation":"Reported question: statement order (when I left)."},
+        {"type":"open","question":"38. Wrong: 'She told that she was ill.' Correct the sentence.","answers":["She told me that she was ill.","She said that she was ill.","She told me that she was ill","She said that she was ill"],"explanation":"Tell needs a person (tell me); or use said."},
+        {"type":"open","question":"39. Wrong: 'He said me to hurry up.' Correct the sentence.","answers":["He told me to hurry up.","He told me to hurry up"],"explanation":"Commands use tell, not say."},
+        {"type":"open","question":"40. Wrong: 'They asked where did we live.' Correct the sentence.","answers":["They asked where we lived.","They asked where we lived"],"explanation":"Reported question: statement order (where we lived)."},
+        {"type":"open","question":"41. \"I must finish this.\" → She said she _____ to finish that.","answers":["had"],"explanation":"Must → had to when reporting."},
+        {"type":"open","question":"42. \"We are coming tomorrow.\" → They said they _____ coming the next day.","answers":["were"],"explanation":"Present continuous → past continuous; tomorrow → the next day."},
+        {"type":"open","question":"43. \"How long have you lived here?\" → He asked how long I _____ lived there.","answers":["had"],"explanation":"Present perfect → past perfect; here → there."},
+        {"type":"open","question":"44. \"Stop talking.\" → The teacher _____ us to stop talking.","answers":["told"],"explanation":"Command: tell + person + to-infinitive."},
+        {"type":"open","question":"45. \"I might be wrong.\" → He said he _____ be wrong.","answers":["might"],"explanation":"Might often stays might (or could change to might have been for past)."},
+        {"type":"open","question":"46. \"I met her last week.\" → She said she had met her _____.","answers":["the week before","the previous week"],"explanation":"Last week → the week before / the previous week."},
+        {"type":"open","question":"47. \"Was he at home?\" → She asked _____ he had been at home.","answers":["if","whether"],"explanation":"Yes/No reported: if/whether + statement order."},
+        {"type":"open","question":"48. Wrong: 'He asked did I see him.' Correct the sentence.","answers":["He asked if I had seen him.","He asked whether I had seen him.","He asked if I had seen him","He asked whether I had seen him"],"explanation":"Reported question: if/whether + statement order (did I see → I had seen)."},
+        {"type":"open","question":"49. \"I need to go now.\" → He said he _____ to go then.","answers":["needed"],"explanation":"Present → past: need → needed; now → then."},
+        {"type":"open","question":"50. Wrong: 'She said to me she is tired.' (reporting past words) Correct the sentence.","answers":["She said to me she was tired.","She told me she was tired.","She said to me she was tired","She told me she was tired"],"explanation":"Backshift: is → was when reporting in the past."}
       ]
     }
   },
@@ -11797,7 +11928,37 @@
             "calls"
           ],
           "explanation": "First conditional: if + present; imperative in main clause."
-        }
+        },
+        {"type":"open","question":"21. Third: If I _____ your number, I would have called. (Fill in the blank.)","answers":["had known"],"explanation":"Third conditional: if + past perfect."},
+        {"type":"open","question":"22. Second: If I _____ you, I would apologise. (Fill in – formal 'were' for all persons)","answers":["were"],"explanation":"Second conditional: If I were you (formal subjunctive)."},
+        {"type":"open","question":"23. First: If we _____ now, we'll catch the bus. (Fill in the blank.)","answers":["leave"],"explanation":"First conditional: if + present, will in main clause."},
+        {"type":"open","question":"24. Zero: If you _____ water, it boils. (Fill in the blank.)","answers":["heat"],"explanation":"Zero conditional: present + present for general truth."},
+        {"type":"open","question":"25. Third: If he _____ the train, he wouldn't have been late. (Fill in the blank.)","answers":["had caught"],"explanation":"Third conditional: if + past perfect."},
+        {"type":"open","question":"26. Second: If she _____ more, she would pass the exam. (Fill in the blank.)","answers":["studied"],"explanation":"Second conditional: if + past simple."},
+        {"type":"open","question":"27. First: If you _____ me your email, I'll send the file. (Fill in the blank.)","answers":["give"],"explanation":"First conditional: if + present."},
+        {"type":"open","question":"28. Wrong: 'If I had gone, I would tell her.' Correct the sentence.","answers":["If I had gone, I would have told her.","If I had gone, I would have told her"],"explanation":"Third conditional: main clause needs would have + past participle."},
+        {"type":"open","question":"29. Wrong: 'If you would come, we would be happy.' Correct the sentence.","answers":["If you came, we would be happy.","If you came, we would be happy"],"explanation":"Second conditional: no would in if-clause; use past (came)."},
+        {"type":"open","question":"30. Zero: When you _____ red and blue, you get purple. (Fill in the blank.)","answers":["mix"],"explanation":"Zero conditional with when; present in both clauses."},
+        {"type":"open","question":"31. Third: If they _____ so late, they wouldn't have missed the start. (Fill in the blank.)","answers":["hadn't arrived","had not arrived"],"explanation":"Third conditional: if + past perfect negative."},
+        {"type":"open","question":"32. Second: If it _____ warmer, we could go for a swim. (Fill in the blank.)","answers":["were","was"],"explanation":"Second conditional: if + past (were/was)."},
+        {"type":"open","question":"33. Wrong: 'If it will rain, we'll stay home.' Correct the sentence.","answers":["If it rains, we'll stay home.","If it rains, we will stay home.","If it rains, we'll stay home","If it rains, we will stay home"],"explanation":"First conditional: no will in if-clause; use present (rains)."},
+        {"type":"open","question":"34. First: If he _____ tomorrow, we'll have lunch. (Fill in the blank.)","answers":["comes"],"explanation":"First conditional: if + present simple."},
+        {"type":"open","question":"35. Wrong: 'If I would have time, I would help.' Correct the sentence.","answers":["If I had time, I would help.","If I had time, I would help"],"explanation":"Second conditional: if-clause uses past (had), not would have."},
+        {"type":"open","question":"36. Third: If she _____ him, she would have told him. (Fill in the blank.)","answers":["had seen"],"explanation":"Third conditional: if + past perfect."},
+        {"type":"open","question":"37. Second: If we _____ rich, we would buy a yacht. (Fill in the blank.)","answers":["were"],"explanation":"Second conditional: if + past (were for unreal)."},
+        {"type":"open","question":"38. Wrong: 'If you heat ice, it will melt.' (general truth) Correct the sentence.","answers":["If you heat ice, it melts.","If you heat ice, it melts"],"explanation":"Zero conditional for general truth: present + present, not will."},
+        {"type":"open","question":"39. First: If you _____ early, leave a key under the mat. (Fill in the blank.)","answers":["arrive"],"explanation":"First conditional: if + present; imperative in main clause."},
+        {"type":"open","question":"40. Wrong: 'If I had known, I would tell you.' Correct the sentence.","answers":["If I had known, I would have told you.","If I had known, I would have told you"],"explanation":"Third conditional: would have + past participle in main clause."},
+        {"type":"open","question":"41. Third: If we _____ earlier, we would have got tickets. (Fill in the blank.)","answers":["had booked"],"explanation":"Third conditional: if + past perfect."},
+        {"type":"open","question":"42. Second: If he _____ harder, he could pass. (Fill in the blank.)","answers":["tried"],"explanation":"Second conditional: if + past simple."},
+        {"type":"open","question":"43. Zero: If someone _____ you a question, you should answer. (Fill in the blank.)","answers":["asks"],"explanation":"Zero conditional: present in both clauses."},
+        {"type":"open","question":"44. Wrong: 'If she had come, she would see him.' Correct the sentence.","answers":["If she had come, she would have seen him.","If she had come, she would have seen him"],"explanation":"Third conditional: would have seen (past result)."},
+        {"type":"open","question":"45. First: If they _____ me, I'll explain. (Fill in the blank.)","answers":["ask"],"explanation":"First conditional: if + present."},
+        {"type":"open","question":"46. Second: If I _____ the answer, I would tell you. (Fill in the blank.)","answers":["knew"],"explanation":"Second conditional: if + past simple."},
+        {"type":"open","question":"47. Third: If you _____ me, I wouldn't have waited. (Fill in the blank.)","answers":["hadn't called","had not called"],"explanation":"Third conditional: if + past perfect negative."},
+        {"type":"open","question":"48. Wrong: 'If he would come, I would be pleased.' Correct the sentence.","answers":["If he came, I would be pleased.","If he came, I would be pleased"],"explanation":"Second conditional: no would in if-clause; use came."},
+        {"type":"open","question":"49. Zero: When it _____ hot, people go to the beach. (Fill in the blank.)","answers":["is"],"explanation":"Zero conditional: when + present, present."},
+        {"type":"open","question":"50. First: If it _____ fine tomorrow, we'll have a picnic. (Fill in the blank.)","answers":["is"],"explanation":"First conditional: if + present (is fine)."}
       ]
     }
   },
@@ -12016,7 +12177,34 @@
             "Bring the following: a pen, paper, and your ID"
           ],
           "explanation": "Use a colon to introduce a list (the following: a pen, paper, and your ID)."
-        }
+        },
+        {"type":"open","question":"24. Wrong: 'the conference starts in september.' Correct the sentence.","answers":["The conference starts in September.","The conference starts in September"],"explanation":"Capitalise first word and months."},
+        {"type":"open","question":"25. Wrong: 'he told me that he and i should meet.' Correct the sentence.","answers":["He told me that he and I should meet.","He told me that he and I should meet"],"explanation":"Capitalise first word and pronoun I."},
+        {"type":"open","question":"26. Wrong: 'She smiled and I waved.' Add a comma where needed (before and joining two sentences).","answers":["She smiled, and I waved.","She smiled, and I waved"],"explanation":"Comma before and when joining two full sentences."},
+        {"type":"open","question":"27. Wrong: 'the river thames flows through london.' Correct the sentence.","answers":["The River Thames flows through London.","The River Thames flows through London"],"explanation":"Capitalise first word, proper nouns (river names, places)."},
+        {"type":"open","question":"28. Wrong: 'Actually I disagree.' Add a comma where needed.","answers":["Actually, I disagree.","Actually, I disagree"],"explanation":"Comma after introductory word."},
+        {"type":"open","question":"29. Wrong: 'i have to go now.' Correct the sentence.","answers":["I have to go now.","I have to go now"],"explanation":"Pronoun I is always capitalised."},
+        {"type":"open","question":"30. Wrong: 'We need milk bread and eggs.' Add commas.","answers":["We need milk, bread, and eggs.","We need milk, bread and eggs.","We need milk, bread, and eggs","We need milk, bread and eggs"],"explanation":"Commas in a list (optional before and in British English)."},
+        {"type":"open","question":"31. Wrong: 'the eiffel tower is in paris.' Correct the sentence.","answers":["The Eiffel Tower is in Paris.","The Eiffel Tower is in Paris"],"explanation":"Capitalise first word and proper nouns (monuments, places)."},
+        {"type":"open","question":"32. Wrong: 'therefore we must act now.' Correct the sentence.","answers":["Therefore, we must act now.","Therefore, we must act now"],"explanation":"Capitalise first word; comma after introductory linker."},
+        {"type":"open","question":"33. Wrong: 'The train was late we missed the meeting.' Join correctly.","answers":["The train was late; we missed the meeting.","The train was late, so we missed the meeting.","The train was late; we missed the meeting","The train was late, so we missed the meeting"],"explanation":"Semicolon between related sentences, or comma + conjunction."},
+        {"type":"open","question":"34. Wrong: 'my birthday is in december.' Correct the sentence.","answers":["My birthday is in December.","My birthday is in December"],"explanation":"Capitalise months."},
+        {"type":"open","question":"35. Wrong: 'She loves italian food.' Correct the sentence.","answers":["She loves Italian food.","She loves Italian food"],"explanation":"Nationalities/adjectives from countries are capitalised."},
+        {"type":"open","question":"36. Wrong: 'Of course i'll help.' Correct the sentence.","answers":["Of course, I'll help.","Of course I'll help.","Of course, I'll help","Of course I'll help"],"explanation":"Comma after 'Of course' optional but common; I always capitalised."},
+        {"type":"open","question":"37. Wrong: 'We visited rome venice and milan.' Correct the sentence.","answers":["We visited Rome, Venice, and Milan.","We visited Rome, Venice and Milan.","We visited Rome, Venice, and Milan","We visited Rome, Venice and Milan"],"explanation":"Capitalise place names; commas in list."},
+        {"type":"open","question":"38. Wrong: 'Well what do you think?' Add a comma.","answers":["Well, what do you think?","Well, what do you think"],"explanation":"Comma after introductory Well."},
+        {"type":"open","question":"39. Wrong: 'the sun rises in the east.' Correct the sentence.","answers":["The sun rises in the east.","The sun rises in the east"],"explanation":"Capitalise first word. (East as direction is often lower case; as region can be capitalised.)"},
+        {"type":"open","question":"40. Wrong: 'He said that he would come he didn't.' Add punctuation.","answers":["He said that he would come; he didn't.","He said that he would come, but he didn't.","He said that he would come; he didn't","He said that he would come, but he didn't"],"explanation":"Semicolon or comma+conjunction between two sentences."},
+        {"type":"open","question":"41. Wrong: 'she studies medicine at university.' Correct the sentence.","answers":["She studies medicine at university.","She studies medicine at university"],"explanation":"Capitalise first word. (University lower case unless part of name.)"},
+        {"type":"open","question":"42. Wrong: 'unfortunately we had to cancel.' Correct the sentence.","answers":["Unfortunately, we had to cancel.","Unfortunately, we had to cancel"],"explanation":"Capitalise first word; comma after introductory adverb."},
+        {"type":"open","question":"43. Wrong: 'I like oranges apples and bananas.' Add commas.","answers":["I like oranges, apples, and bananas.","I like oranges, apples and bananas.","I like oranges, apples, and bananas","I like oranges, apples and bananas"],"explanation":"Commas in a list."},
+        {"type":"open","question":"44. Wrong: 'The problem was simple we had no money.' Add punctuation.","answers":["The problem was simple: we had no money.","The problem was simple: we had no money"],"explanation":"Colon to introduce explanation."},
+        {"type":"open","question":"45. Wrong: 'mr smith will see you now.' Correct the sentence.","answers":["Mr Smith will see you now.","Mr. Smith will see you now.","Mr Smith will see you now","Mr. Smith will see you now"],"explanation":"Capitalise titles and names."},
+        {"type":"open","question":"46. Wrong: 'please help me.' Correct the sentence.","answers":["Please help me.","Please help me"],"explanation":"Capitalise first word of sentence."},
+        {"type":"open","question":"47. Wrong: 'last year we went to spain.' Correct the sentence.","answers":["Last year we went to Spain.","Last year we went to Spain"],"explanation":"Capitalise first word and country names."},
+        {"type":"open","question":"48. Wrong: 'First of all we need a plan.' Add a comma.","answers":["First of all, we need a plan.","First of all, we need a plan"],"explanation":"Comma after introductory phrase."},
+        {"type":"open","question":"49. Wrong: 'dr brown is an excellent doctor.' Correct the sentence.","answers":["Dr Brown is an excellent doctor.","Dr. Brown is an excellent doctor.","Dr Brown is an excellent doctor","Dr. Brown is an excellent doctor"],"explanation":"Capitalise titles (Dr) and names."},
+        {"type":"open","question":"50. Wrong: 'It was cold however we went out.' Add punctuation.","answers":["It was cold; however, we went out.","It was cold, but we went out.","It was cold; however, we went out","It was cold, but we went out"],"explanation":"Semicolon before however, comma after; or use but with comma."}
       ]
     }
   },
@@ -12228,7 +12416,37 @@
             "He gave me a good piece of advice"
           ],
           "explanation": "Advice is uncountable, so not 'a advice'. Use 'good advice' or 'a piece of advice'."
-        }
+        },
+        {"type":"open","question":"21. Wrong: 'I need to buy a bread.' Correct the sentence.","answers":["I need to buy some bread.","I need to buy a loaf of bread.","I need to buy some bread","I need to buy a loaf of bread"],"explanation":"Bread is uncountable; use 'some bread' or 'a loaf of bread'."},
+        {"type":"open","question":"22. Wrong: 'The weather were nice yesterday.' Correct the sentence.","answers":["The weather was nice yesterday.","The weather was nice yesterday"],"explanation":"Weather is uncountable; use singular verb (was)."},
+        {"type":"open","question":"23. Wrong: 'I have three researches to finish.' Correct the sentence.","answers":["I have three research projects to finish.","I have research to finish.","I have three research projects to finish","I have research to finish"],"explanation":"Research is uncountable; use 'research' or countable alternatives like 'research projects'."},
+        {"type":"open","question":"24. Wrong: 'She has long hairs.' (meaning all hair on head) Correct the sentence.","answers":["She has long hair.","She has long hair"],"explanation":"Hair (as a whole) is uncountable; no -s."},
+        {"type":"open","question":"25. Wrong: 'I need an information.' Correct the sentence.","answers":["I need some information.","I need information.","I need some information","I need information"],"explanation":"Information is uncountable; no 'a/an'."},
+        {"type":"open","question":"26. Wrong: 'Where is the scissors?' Correct the sentence.","answers":["Where are the scissors?","Where are the scissors"],"explanation":"Scissors is plural-only; use plural verb (are)."},
+        {"type":"open","question":"27. Wrong: 'We bought new furnitures.' Correct the sentence.","answers":["We bought new furniture.","We bought some new furniture.","We bought new furniture","We bought some new furniture"],"explanation":"Furniture is uncountable; no plural -s."},
+        {"type":"open","question":"28. Wrong: 'There are too many traffics.' Correct the sentence.","answers":["There is too much traffic.","There is too much traffic"],"explanation":"Traffic is uncountable; use 'much' and singular verb."},
+        {"type":"open","question":"29. Wrong: 'She gave me many good advices.' Correct the sentence.","answers":["She gave me a lot of good advice.","She gave me some good advice.","She gave me a lot of good advice","She gave me some good advice"],"explanation":"Advice is uncountable; no plural -s."},
+        {"type":"open","question":"30. Wrong: 'This trousers doesn't fit.' Correct the sentence.","answers":["These trousers don't fit.","These trousers do not fit.","These trousers don't fit","These trousers do not fit"],"explanation":"Trousers is plural-only; use plural verb and these."},
+        {"type":"open","question":"31. Wrong: 'The news were bad.' Correct the sentence.","answers":["The news was bad.","The news is bad.","The news was bad","The news is bad"],"explanation":"News is uncountable; singular verb (was/is)."},
+        {"type":"open","question":"32. Wrong: 'I have too many homeworks.' Correct the sentence.","answers":["I have too much homework.","I have a lot of homework.","I have too much homework","I have a lot of homework"],"explanation":"Homework is uncountable; use much/a lot of, not many."},
+        {"type":"open","question":"33. Wrong: 'Can I have a water?' (meaning a glass of) Correct the sentence.","answers":["Can I have some water?","Can I have a glass of water?","Can I have some water","Can I have a glass of water"],"explanation":"Water is uncountable; use 'some water' or 'a glass of water'."},
+        {"type":"open","question":"34. Wrong: 'The equipment were expensive.' Correct the sentence.","answers":["The equipment was expensive.","The equipment is expensive.","The equipment was expensive","The equipment is expensive"],"explanation":"Equipment is uncountable; singular verb."},
+        {"type":"open","question":"35. Wrong: 'She needs a new furniture for the living room.' Correct the sentence.","answers":["She needs new furniture for the living room.","She needs a piece of furniture for the living room.","She needs new furniture for the living room","She needs a piece of furniture for the living room"],"explanation":"Furniture is uncountable; no 'a' before it."},
+        {"type":"open","question":"36. Wrong: 'My luggage are heavy.' Correct the sentence.","answers":["My luggage is heavy.","My luggage is heavy"],"explanation":"Luggage is uncountable; singular verb."},
+        {"type":"open","question":"37. Wrong: 'How many informations do you have?' Correct the sentence.","answers":["How much information do you have?","How much information do you have"],"explanation":"Information is uncountable; use how much, not how many."},
+        {"type":"open","question":"38. Wrong: 'I need two breads.' Correct the sentence.","answers":["I need two loaves of bread.","I need some bread.","I need two loaves of bread","I need some bread"],"explanation":"Bread is uncountable; use 'loaves of bread' or 'some bread'."},
+        {"type":"open","question":"39. Wrong: 'The congratulations was nice.' Correct the sentence.","answers":["The congratulations were nice.","Congratulations were nice.","The congratulations were nice","Congratulations were nice"],"explanation":"Congratulations is plural-only; plural verb."},
+        {"type":"open","question":"40. Wrong: 'We need to buy a new equipment.' Correct the sentence.","answers":["We need to buy new equipment.","We need to buy a new piece of equipment.","We need to buy new equipment","We need to buy a new piece of equipment"],"explanation":"Equipment is uncountable; no 'a' before it."},
+        {"type":"open","question":"41. Wrong: 'I did many researches on that topic.' Correct the sentence.","answers":["I did a lot of research on that topic.","I did research on that topic.","I did a lot of research on that topic","I did research on that topic"],"explanation":"Research is uncountable; no plural -s."},
+        {"type":"open","question":"42. Wrong: 'The jeans was too small.' Correct the sentence.","answers":["The jeans were too small.","These jeans were too small.","The jeans were too small","These jeans were too small"],"explanation":"Jeans is plural-only; plural verb."},
+        {"type":"open","question":"43. Wrong: 'I have a news for you.' Correct the sentence.","answers":["I have some news for you.","I have news for you.","I have some news for you","I have news for you"],"explanation":"News is uncountable; no 'a'."},
+        {"type":"open","question":"44. Wrong: 'She has made a good progress.' Correct the sentence.","answers":["She has made good progress.","She has made good progress"],"explanation":"Progress is uncountable; no 'a'."},
+        {"type":"open","question":"45. Wrong: 'I'd like to give you an advice.' Correct the sentence.","answers":["I'd like to give you some advice.","I'd like to give you a piece of advice.","I'd like to give you some advice","I'd like to give you a piece of advice"],"explanation":"Advice is uncountable; use 'some advice' or 'a piece of advice'."},
+        {"type":"open","question":"46. Wrong: 'Where are my glass?' (spectacles) Correct the sentence.","answers":["Where are my glasses?","Where are my glasses"],"explanation":"Glasses (spectacles) is plural-only; always plural form."},
+        {"type":"open","question":"47. Wrong: 'How many luggage do you have?' Correct the sentence.","answers":["How much luggage do you have?","How many pieces of luggage do you have?","How much luggage do you have","How many pieces of luggage do you have"],"explanation":"Luggage is uncountable; use how much or how many pieces."},
+        {"type":"open","question":"48. Wrong: 'The money are on the table.' Correct the sentence.","answers":["The money is on the table.","The money is on the table"],"explanation":"Money is uncountable; singular verb."},
+        {"type":"open","question":"49. Wrong: 'I need more informations about the course.' Correct the sentence.","answers":["I need more information about the course.","I need more information about the course"],"explanation":"Information is uncountable; no plural -s."},
+        {"type":"open","question":"50. Wrong: 'These shorts is too big.' Correct the sentence.","answers":["These shorts are too big.","These shorts are too big"],"explanation":"Shorts is plural-only; plural verb."}
       ]
     }
   },
@@ -12239,49 +12457,47 @@
       "questions": [
         {
           "type": "open",
-          "question": "1. Wrong: 'Is raining.' Correct the sentence.",
+          "question": "1. Wrong: 'When I looked outside, was raining.' Correct the sentence.",
           "answers": [
-            "It's raining.",
-            "It is raining.",
-            "It's raining",
-            "It is raining"
+            "When I looked outside, it was raining.",
+            "When I looked outside, it was raining"
           ],
           "explanation": "For weather we use It + be: It's raining."
         },
         {
           "type": "open",
-          "question": "2. Wrong: 'Is very cold today.' Correct the sentence.",
+          "question": "2. Wrong: 'Is very cold today, so wear a coat.' Correct the sentence.",
           "answers": [
-            "It's very cold today.",
-            "It is very cold today.",
-            "It's very cold today",
-            "It is very cold today"
+            "It's very cold today, so wear a coat.",
+            "It is very cold today, so wear a coat.",
+            "It's very cold today, so wear a coat",
+            "It is very cold today, so wear a coat"
           ],
           "explanation": "Temperature: It's very cold today."
         },
         {
           "type": "open",
-          "question": "3. Wrong: 'Is three o'clock.' Correct the sentence.",
+          "question": "3. Wrong: 'According to the clock, is three o'clock.' Correct the sentence.",
           "answers": [
-            "It's three o'clock.",
-            "It is three o'clock.",
-            "It's three o'clock",
-            "It is three o'clock"
+            "According to the clock, it's three o'clock.",
+            "According to the clock, it is three o'clock.",
+            "According to the clock, it's three o'clock",
+            "According to the clock, it is three o'clock"
           ],
           "explanation": "For time we say It's three o'clock."
         },
         {
           "type": "open",
-          "question": "4. Wrong: 'Is five kilometres to the town.' Correct the sentence.",
+          "question": "4. Wrong: 'From here is five kilometres to the town.' Correct the sentence.",
           "answers": [
-            "It's five kilometres to the town.",
-            "It is five kilometres to the town.",
-            "It's five kilometers to the town.",
-            "It is five kilometers to the town.",
-            "It's five kilometres to the town",
-            "It is five kilometres to the town",
-            "It's five kilometers to the town",
-            "It is five kilometers to the town"
+            "From here it's five kilometres to the town.",
+            "From here it is five kilometres to the town.",
+            "From here it's five kilometers to the town.",
+            "From here it is five kilometers to the town.",
+            "From here it's five kilometres to the town",
+            "From here it is five kilometres to the town",
+            "From here it's five kilometers to the town",
+            "From here it is five kilometers to the town"
           ],
           "explanation": "Distance: It's five kilometres to the town."
         },
@@ -12309,54 +12525,94 @@
         },
         {
           "type": "open",
-          "question": "7. Wrong: 'Is obvious that he is angry.' Correct the sentence.",
+          "question": "7. Wrong: 'Is obvious that he is angry from his tone.' Correct the sentence.",
           "answers": [
-            "It's obvious that he is angry.",
-            "It is obvious that he is angry.",
-            "It's obvious that he's angry.",
-            "It is obvious that he's angry.",
-            "It's obvious that he is angry",
-            "It is obvious that he is angry",
-            "It's obvious that he's angry",
-            "It is obvious that he's angry"
+            "It's obvious that he is angry from his tone.",
+            "It is obvious that he is angry from his tone.",
+            "It's obvious that he's angry from his tone.",
+            "It is obvious that he's angry from his tone.",
+            "It's obvious that he is angry from his tone",
+            "It is obvious that he is angry from his tone",
+            "It's obvious that he's angry from his tone",
+            "It is obvious that he's angry from his tone"
           ],
           "explanation": "Use It + be + adjective + that-clause."
         },
         {
           "type": "open",
-          "question": "8. Wrong: 'Is clear that they don't agree.' Correct the sentence.",
+          "question": "8. Wrong: 'Is clear that they don't agree with the plan.' Correct the sentence.",
           "answers": [
-            "It's clear that they don't agree.",
-            "It is clear that they don't agree.",
-            "It's clear that they do not agree.",
-            "It is clear that they do not agree.",
-            "It's clear that they don't agree",
-            "It is clear that they don't agree",
-            "It's clear that they do not agree",
-            "It is clear that they do not agree"
+            "It's clear that they don't agree with the plan.",
+            "It is clear that they don't agree with the plan.",
+            "It's clear that they do not agree with the plan.",
+            "It is clear that they do not agree with the plan.",
+            "It's clear that they don't agree with the plan",
+            "It is clear that they don't agree with the plan",
+            "It's clear that they do not agree with the plan",
+            "It is clear that they do not agree with the plan"
           ],
           "explanation": "Again, we need It as subject: It's clear that they don't agree."
         },
         {
           "type": "open",
-          "question": "9. Wrong: 'Was a good idea to call.' Correct the sentence.",
+          "question": "9. Wrong: 'Was a good idea to call her before the meeting.' Correct the sentence.",
           "answers": [
-            "It was a good idea to call.",
-            "It was a good idea to call"
+            "It was a good idea to call her before the meeting.",
+            "It was a good idea to call her before the meeting"
           ],
           "explanation": "Use It + be + noun phrase: It was a good idea to call."
         },
         {
           "type": "open",
-          "question": "10. Wrong: 'Is not easy to learn English.' Correct the sentence.",
+          "question": "10. Wrong: 'Is not easy to learn English without practice.' Correct the sentence.",
           "answers": [
-            "It's not easy to learn English.",
-            "It is not easy to learn English.",
-            "It's not easy to learn English",
-            "It is not easy to learn English"
+            "It's not easy to learn English without practice.",
+            "It is not easy to learn English without practice.",
+            "It's not easy to learn English without practice",
+            "It is not easy to learn English without practice"
           ],
           "explanation": "We normally say: It's not easy to learn English."
-        }
+        },
+        {"type":"open","question":"11. Wrong: 'When we looked outside, was snowing heavily.' Correct the sentence.","answers":["When we looked outside, it was snowing heavily.","When we looked outside, it was snowing heavily"],"explanation":"For weather we use It + be: It was snowing heavily."},
+        {"type":"open","question":"12. Wrong: 'According to the schedule, is Monday tomorrow.' Correct the sentence.","answers":["According to the schedule, it's Monday tomorrow.","According to the schedule, it is Monday tomorrow.","According to the schedule, it's Monday tomorrow","According to the schedule, it is Monday tomorrow"],"explanation":"For days we say It's Monday."},
+        {"type":"open","question":"13. Wrong: 'Is ten minutes to the station from here.' Correct the sentence.","answers":["It's ten minutes to the station from here.","It is ten minutes to the station from here.","It's ten minutes to the station from here","It is ten minutes to the station from here"],"explanation":"For distance/time we use It's ten minutes to ..."},
+        {"type":"open","question":"14. Wrong: 'Necessary is to book in advance.' Correct the sentence.","answers":["It's necessary to book in advance.","It is necessary to book in advance.","It's necessary to book in advance","It is necessary to book in advance"],"explanation":"Use It + be + adjective + to-infinitive."},
+        {"type":"open","question":"15. Wrong: 'Possible is to finish the work by Friday.' Correct the sentence.","answers":["It's possible to finish the work by Friday.","It is possible to finish the work by Friday.","It's possible to finish the work by Friday","It is possible to finish the work by Friday"],"explanation":"Natural order: It's possible to finish ..."},
+        {"type":"open","question":"16. Wrong: 'Seems that they have forgotten the meeting.' Correct the sentence.","answers":["It seems that they have forgotten the meeting.","It seems that they have forgotten the meeting"],"explanation":"We need It as subject: It seems that ..."},
+        {"type":"open","question":"17. Wrong: 'Appears that there is a problem with the booking.' Correct the sentence.","answers":["It appears that there is a problem with the booking.","It appears that there is a problem with the booking"],"explanation":"We need It: It appears that ..."},
+        {"type":"open","question":"18. Wrong: 'Is a pity that she couldn't come to the party.' Correct the sentence.","answers":["It's a pity that she couldn't come to the party.","It is a pity that she couldn't come to the party.","It's a pity that she couldn't come to the party","It is a pity that she couldn't come to the party"],"explanation":"Use It + be + noun + that-clause."},
+        {"type":"open","question":"19. Wrong: 'When we stepped outside, was very windy.' Correct the sentence.","answers":["When we stepped outside, it was very windy.","When we stepped outside, it was very windy"],"explanation":"For weather we use It was very windy."},
+        {"type":"open","question":"20. Wrong: 'Hard is to make a decision without more information.' Correct the sentence.","answers":["It's hard to make a decision without more information.","It is hard to make a decision without more information.","It's hard to make a decision without more information","It is hard to make a decision without more information"],"explanation":"It's hard to make a decision ..."},
+        {"type":"open","question":"21. Wrong: 'From the hotel is about two kilometres to the beach.' Correct the sentence.","answers":["From the hotel it's about two kilometres to the beach.","From the hotel it is about two kilometres to the beach.","From the hotel it's about two kilometres to the beach","From the hotel it is about two kilometres to the beach"],"explanation":"Distance: From the hotel it's about two kilometres to the beach."},
+        {"type":"open","question":"22. Wrong: 'Interesting is to compare the two versions.' Correct the sentence.","answers":["It's interesting to compare the two versions.","It is interesting to compare the two versions.","It's interesting to compare the two versions","It is interesting to compare the two versions"],"explanation":"It's interesting to compare ..."},
+        {"type":"open","question":"23. Wrong: 'Is strange that he didn't mention it.' Correct the sentence.","answers":["It's strange that he didn't mention it.","It is strange that he didn't mention it.","It's strange that he didn't mention it","It is strange that he didn't mention it"],"explanation":"It's strange that ..."},
+        {"type":"open","question":"24. Wrong: 'Looks as if it might rain later.' Correct the sentence.","answers":["It looks as if it might rain later.","It looks as if it might rain later"],"explanation":"We need It: It looks as if ..."},
+        {"type":"open","question":"25. Wrong: 'When I woke up, was still dark outside.' Correct the sentence.","answers":["When I woke up, it was still dark outside.","When I woke up, it was still dark outside"],"explanation":"For time/state we use It was still dark."},
+        {"type":"open","question":"26. Wrong: 'Surprising is how quickly they finished.' Correct the sentence.","answers":["It's surprising how quickly they finished.","It is surprising how quickly they finished.","It's surprising how quickly they finished","It is surprising how quickly they finished"],"explanation":"It's surprising how ..."},
+        {"type":"open","question":"27. Wrong: 'Was nice to meet you at the conference.' Correct the sentence.","answers":["It was nice to meet you at the conference.","It was nice to meet you at the conference"],"explanation":"It was nice to meet you ..."},
+        {"type":"open","question":"28. Wrong: 'Essential is to read the instructions before you start.' Correct the sentence.","answers":["It's essential to read the instructions before you start.","It is essential to read the instructions before you start.","It's essential to read the instructions before you start","It is essential to read the instructions before you start"],"explanation":"It's essential to read ..."},
+        {"type":"open","question":"29. Wrong: 'Is obvious from his expression that he disagrees.' Correct the sentence.","answers":["It's obvious from his expression that he disagrees.","It is obvious from his expression that he disagrees.","It's obvious from his expression that he disagrees","It is obvious from his expression that he disagrees"],"explanation":"It's obvious from ... that ..."},
+        {"type":"open","question":"30. Wrong: 'Was foggy when we drove home last night.' Correct the sentence.","answers":["It was foggy when we drove home last night.","It was foggy when we drove home last night"],"explanation":"For weather: It was foggy."},
+        {"type":"open","question":"31. Wrong: 'Better is to wait until tomorrow.' Correct the sentence.","answers":["It's better to wait until tomorrow.","It is better to wait until tomorrow.","It's better to wait until tomorrow","It is better to wait until tomorrow"],"explanation":"It's better to wait ..."},
+        {"type":"open","question":"32. Wrong: 'Seems they have already left.' Correct the sentence.","answers":["It seems they have already left.","It seems they have already left"],"explanation":"We need It: It seems they have ..."},
+        {"type":"open","question":"33. Wrong: 'Is a shame that the concert was cancelled.' Correct the sentence.","answers":["It's a shame that the concert was cancelled.","It is a shame that the concert was cancelled.","It's a shame that the concert was cancelled","It is a shame that the concert was cancelled"],"explanation":"It's a shame that ..."},
+        {"type":"open","question":"34. Wrong: 'According to my watch, is nearly nine o'clock.' Correct the sentence.","answers":["According to my watch, it's nearly nine o'clock.","According to my watch, it is nearly nine o'clock.","According to my watch, it's nearly nine o'clock","According to my watch, it is nearly nine o'clock"],"explanation":"For time: it's nearly nine o'clock."},
+        {"type":"open","question":"35. Wrong: 'Useful is to keep a copy of the contract.' Correct the sentence.","answers":["It's useful to keep a copy of the contract.","It is useful to keep a copy of the contract.","It's useful to keep a copy of the contract","It is useful to keep a copy of the contract"],"explanation":"It's useful to keep ..."},
+        {"type":"open","question":"36. Wrong: 'Appears that the meeting has been postponed.' Correct the sentence.","answers":["It appears that the meeting has been postponed.","It appears that the meeting has been postponed"],"explanation":"It appears that ..."},
+        {"type":"open","question":"37. Wrong: 'When we arrived, was too late to get a table.' Correct the sentence.","answers":["When we arrived, it was too late to get a table.","When we arrived, it was too late to get a table"],"explanation":"It was too late to get a table."},
+        {"type":"open","question":"38. Wrong: 'Impossible is to please everyone.' Correct the sentence.","answers":["It's impossible to please everyone.","It is impossible to please everyone.","It's impossible to please everyone","It is impossible to please everyone"],"explanation":"It's impossible to please everyone."},
+        {"type":"open","question":"39. Wrong: 'Is common knowledge that he retired last year.' Correct the sentence.","answers":["It's common knowledge that he retired last year.","It is common knowledge that he retired last year.","It's common knowledge that he retired last year","It is common knowledge that he retired last year"],"explanation":"It's common knowledge that ..."},
+        {"type":"open","question":"40. Wrong: 'Was hot and sunny all weekend.' Correct the sentence.","answers":["It was hot and sunny all weekend.","It was hot and sunny all weekend"],"explanation":"For weather: It was hot and sunny."},
+        {"type":"open","question":"41. Wrong: 'Takes about twenty minutes to get to the airport.' Correct the sentence.","answers":["It takes about twenty minutes to get to the airport.","It takes about twenty minutes to get to the airport"],"explanation":"For duration we use It takes ..."},
+        {"type":"open","question":"42. Wrong: 'Seemed that nobody was at home.' Correct the sentence.","answers":["It seemed that nobody was at home.","It seemed that nobody was at home"],"explanation":"It seemed that nobody was at home."},
+        {"type":"open","question":"43. Wrong: 'Is worth trying again.' Correct the sentence.","answers":["It's worth trying again.","It is worth trying again.","It's worth trying again","It is worth trying again"],"explanation":"It's worth trying again."},
+        {"type":"open","question":"44. Wrong: 'Was a pleasure to work with you.' Correct the sentence.","answers":["It was a pleasure to work with you.","It was a pleasure to work with you"],"explanation":"It was a pleasure to work with you."},
+        {"type":"open","question":"45. Wrong: 'Is likely that they will agree.' Correct the sentence.","answers":["It's likely that they will agree.","It is likely that they will agree.","It's likely that they will agree","It is likely that they will agree"],"explanation":"It's likely that ..."},
+        {"type":"open","question":"46. Wrong: 'Was cold and rainy yesterday morning.' Correct the sentence.","answers":["It was cold and rainy yesterday morning.","It was cold and rainy yesterday morning"],"explanation":"For weather: It was cold and rainy."},
+        {"type":"open","question":"47. Wrong: 'Makes sense to book early.' Correct the sentence.","answers":["It makes sense to book early.","It makes sense to book early"],"explanation":"It makes sense to book early."},
+        {"type":"open","question":"48. Wrong: 'Is important that everyone attends the meeting.' Correct the sentence.","answers":["It's important that everyone attends the meeting.","It is important that everyone attends the meeting.","It's important that everyone attends the meeting","It is important that everyone attends the meeting"],"explanation":"It's important that ..."},
+        {"type":"open","question":"49. Wrong: 'Depends on the weather whether we go or not.' Correct the sentence.","answers":["It depends on the weather whether we go or not.","It depends on the weather whether we go or not"],"explanation":"It depends on the weather whether ..."},
+        {"type":"open","question":"50. Wrong: 'Took us three hours to complete the form.' Correct the sentence.","answers":["It took us three hours to complete the form.","It took us three hours to complete the form"],"explanation":"It took us three hours to complete ..."}
       ]
     }
   },
@@ -12443,7 +12699,7 @@
         },
         {
           "type": "open",
-          "question": "9. Complete the gap with the correct auxiliary + pronoun.\n\nNever ____ been so embarrassed.",
+          "question": "9. Complete the gap with the correct auxiliary + pronoun. Never ____ been so embarrassed.",
           "answers": [
             "have I",
             "HAVE I"
@@ -12452,13 +12708,53 @@
         },
         {
           "type": "open",
-          "question": "10. Complete the gap with the correct auxiliary + pronoun.\n\nOnly then ____ realise my mistake.",
+          "question": "10. Complete the gap with the correct auxiliary + pronoun. Only then ____ realise my mistake.",
           "answers": [
             "did I",
             "DID I"
           ],
           "explanation": "We need did I: Only then did I realise my mistake."
-        }
+        },
+        {"type":"open","question":"11. Wrong: 'Never I have seen such a beautiful view.' Correct the sentence.","answers":["Never have I seen such a beautiful view.","Never have I seen such a beautiful view"],"explanation":"After Never at the beginning we invert: Never have I seen ..."},
+        {"type":"open","question":"12. Wrong: 'Only then I realised what had happened.' Correct the sentence.","answers":["Only then did I realise what had happened.","Only then did I realise what had happened"],"explanation":"Pattern: Only then + did + subject + base verb."},
+        {"type":"open","question":"13. Wrong: 'Under no circumstances you should tell anyone.' Correct the sentence.","answers":["Under no circumstances should you tell anyone.","Under no circumstances should you tell anyone"],"explanation":"We invert after Under no circumstances."},
+        {"type":"open","question":"14. Wrong: 'Seldom I go to bed before midnight.' Correct the sentence.","answers":["Seldom do I go to bed before midnight.","Seldom do I go to bed before midnight"],"explanation":"After Seldom at the beginning we invert: Seldom do I go ..."},
+        {"type":"open","question":"15. Wrong: 'Only later I understood the story.' Correct the sentence.","answers":["Only later did I understand the story.","Only later did I understand the story"],"explanation":"Only later + did + subject + base verb."},
+        {"type":"open","question":"16. Wrong: 'Not only I passed the exam, but I also got the highest mark.' Correct the sentence.","answers":["Not only did I pass the exam, but I also got the highest mark.","Not only did I pass the exam but I also got the highest mark.","Not only did I pass the exam, but I also got the highest mark","Not only did I pass the exam but I also got the highest mark"],"explanation":"Not only + did + subject + base verb."},
+        {"type":"open","question":"17. Wrong: 'Never I have felt so nervous before a test.' Correct the sentence.","answers":["Never have I felt so nervous before a test.","Never have I felt so nervous before a test"],"explanation":"After Never we invert: Never have I felt ..."},
+        {"type":"open","question":"18. Wrong: 'Under no circumstances we can be late for the meeting.' Correct the sentence.","answers":["Under no circumstances can we be late for the meeting.","Under no circumstances can we be late for the meeting"],"explanation":"We invert after Under no circumstances: can we be late."},
+        {"type":"open","question":"19. Wrong: 'Only when she left I realised how much I missed her.' Correct the sentence.","answers":["Only when she left did I realise how much I missed her.","Only when she left did I realise how much I missed her"],"explanation":"Only when + did + subject + base verb."},
+        {"type":"open","question":"20. Wrong: 'Rarely she arrives late for class.' Correct the sentence.","answers":["Rarely does she arrive late for class.","Rarely does she arrive late for class"],"explanation":"After Rarely we invert: Rarely does she arrive ..."},
+        {"type":"open","question":"21. Complete the gap. Not only ____ we win the match, but we also played well.","answers":["did","did we","DID","DID WE"],"explanation":"Not only did we win the match ..."},
+        {"type":"open","question":"22. Complete the gap. Under no circumstances ____ you tell anyone the secret.","answers":["should you","SHOULD YOU"],"explanation":"Under no circumstances should you tell anyone."},
+        {"type":"open","question":"23. Complete the gap. Seldom ____ she complain about anything.","answers":["does she","DOES SHE"],"explanation":"After Seldom we invert: Seldom does she complain."},
+        {"type":"open","question":"24. Wrong: 'Only after the exam I felt relieved.' Correct the sentence.","answers":["Only after the exam did I feel relieved.","Only after the exam did I feel relieved"],"explanation":"Only after + did + subject + base verb."},
+        {"type":"open","question":"25. Wrong: 'Not only she speaks English, but she also speaks Spanish.' Correct the sentence.","answers":["Not only does she speak English, but she also speaks Spanish.","Not only does she speak English but she also speaks Spanish.","Not only does she speak English, but she also speaks Spanish","Not only does she speak English but she also speaks Spanish"],"explanation":"Not only + does + subject + base verb (speak)."},
+        {"type":"open","question":"26. Wrong: 'Never I would have believed it without proof.' Correct the sentence.","answers":["Never would I have believed it without proof.","Never would I have believed it without proof"],"explanation":"After Never we invert: Never would I have believed ..."},
+        {"type":"open","question":"27. Wrong: 'Seldom they invite us to their house.' Correct the sentence.","answers":["Seldom do they invite us to their house.","Seldom do they invite us to their house"],"explanation":"After Seldom we invert: Seldom do they invite ..."},
+        {"type":"open","question":"28. Wrong: 'Under no circumstances students may leave the hall during the exam.' Correct the sentence.","answers":["Under no circumstances may students leave the hall during the exam.","Under no circumstances may students leave the hall during the exam"],"explanation":"We invert: Under no circumstances may students leave ..."},
+        {"type":"open","question":"29. Wrong: 'Only when the rain stopped we could go outside.' Correct the sentence.","answers":["Only when the rain stopped could we go outside.","Only when the rain stopped could we go outside"],"explanation":"Only when + could + subject + base verb."},
+        {"type":"open","question":"30. Wrong: 'Rarely I have been so disappointed.' Correct the sentence.","answers":["Rarely have I been so disappointed.","Rarely have I been so disappointed"],"explanation":"After Rarely we invert: Rarely have I been ..."},
+        {"type":"open","question":"31. Wrong: 'Not only they lost the match, but they also had two players injured.' Correct the sentence.","answers":["Not only did they lose the match, but they also had two players injured.","Not only did they lose the match but they also had two players injured.","Not only did they lose the match, but they also had two players injured","Not only did they lose the match but they also had two players injured"],"explanation":"Not only + did + subject + base verb (lose)."},
+        {"type":"open","question":"32. Wrong: 'Never before I had seen such a big crowd.' Correct the sentence.","answers":["Never before had I seen such a big crowd.","Never before had I seen such a big crowd"],"explanation":"Never before + had + subject + past participle."},
+        {"type":"open","question":"33. Wrong: 'Only then they understood the full story.' Correct the sentence.","answers":["Only then did they understand the full story.","Only then did they understand the full story"],"explanation":"Only then + did + subject + base verb."},
+        {"type":"open","question":"34. Wrong: 'Under no circumstances he would admit he was wrong.' Correct the sentence.","answers":["Under no circumstances would he admit he was wrong.","Under no circumstances would he admit he was wrong"],"explanation":"We invert: Under no circumstances would he admit ..."},
+        {"type":"open","question":"35. Wrong: 'Only when I got home I remembered the keys.' Correct the sentence.","answers":["Only when I got home did I remember the keys.","Only when I got home did I remember the keys"],"explanation":"Only when + did + subject + base verb in the second clause."},
+        {"type":"open","question":"36. Wrong: 'Seldom I have eaten such delicious food.' Correct the sentence.","answers":["Seldom have I eaten such delicious food.","Seldom have I eaten such delicious food"],"explanation":"After Seldom we invert: Seldom have I eaten ..."},
+        {"type":"open","question":"37. Wrong: 'Only after she explained it I understood the problem.' Correct the sentence.","answers":["Only after she explained it did I understand the problem.","Only after she explained it did I understand the problem"],"explanation":"Only after + did + subject + base verb."},
+        {"type":"open","question":"38. Wrong: 'Not only he writes novels, but he also illustrates them.' Correct the sentence.","answers":["Not only does he write novels, but he also illustrates them.","Not only does he write novels but he also illustrates them.","Not only does he write novels, but he also illustrates them","Not only does he write novels but he also illustrates them"],"explanation":"Not only + does + subject + base verb (write)."},
+        {"type":"open","question":"39. Wrong: 'Rarely we get the chance to travel abroad.' Correct the sentence.","answers":["Rarely do we get the chance to travel abroad.","Rarely do we get the chance to travel abroad"],"explanation":"After Rarely we invert: Rarely do we get ..."},
+        {"type":"open","question":"40. Wrong: 'Never again I will make that mistake.' Correct the sentence.","answers":["Never again will I make that mistake.","Never again will I make that mistake"],"explanation":"After Never again we invert: Never again will I make ..."},
+        {"type":"open","question":"41. Complete the gap. Hardly ____ I sat down when the phone rang.","answers":["had","HAD"],"explanation":"Hardly had I sat down when ... (inversion with past perfect)."},
+        {"type":"open","question":"42. Wrong: 'Only in this way we can solve the problem.' Correct the sentence.","answers":["Only in this way can we solve the problem.","Only in this way can we solve the problem"],"explanation":"Only in this way + can + subject + base verb."},
+        {"type":"open","question":"43. Wrong: 'Seldom there is such good weather in November.' Correct the sentence.","answers":["Seldom is there such good weather in November.","Seldom is there such good weather in November"],"explanation":"After Seldom we invert: Seldom is there ..."},
+        {"type":"open","question":"44. Wrong: 'Not only the hotel was expensive, but the service was poor.' Correct the sentence.","answers":["Not only was the hotel expensive, but the service was poor.","Not only was the hotel expensive but the service was poor.","Not only was the hotel expensive, but the service was poor","Not only was the hotel expensive but the service was poor"],"explanation":"With 'be' we invert: Not only was the hotel expensive."},
+        {"type":"open","question":"45. Wrong: 'Under no circumstances you must park here.' Correct the sentence.","answers":["Under no circumstances must you park here.","Under no circumstances must you park here"],"explanation":"We invert: Under no circumstances must you park here."},
+        {"type":"open","question":"46. Wrong: 'Only when I read the letter I understood his intentions.' Correct the sentence.","answers":["Only when I read the letter did I understand his intentions.","Only when I read the letter did I understand his intentions"],"explanation":"Only when + did + subject + base verb (second clause)."},
+        {"type":"open","question":"47. Wrong: 'Never in my life I have been so embarrassed.' Correct the sentence.","answers":["Never in my life have I been so embarrassed.","Never in my life have I been so embarrassed"],"explanation":"Never in my life + have + subject + been ..."},
+        {"type":"open","question":"48. Wrong: 'Rarely they offer such good discounts.' Correct the sentence.","answers":["Rarely do they offer such good discounts.","Rarely do they offer such good discounts"],"explanation":"After Rarely we invert: Rarely do they offer ..."},
+        {"type":"open","question":"49. Wrong: 'Only then she told me the truth.' Correct the sentence.","answers":["Only then did she tell me the truth.","Only then did she tell me the truth"],"explanation":"Only then + did + subject + base verb."},
+        {"type":"open","question":"50. Wrong: 'Not only he speaks French, but he is also learning German.' Correct the sentence.","answers":["Not only does he speak French, but he is also learning German.","Not only does he speak French but he is also learning German.","Not only does he speak French, but he is also learning German","Not only does he speak French but he is also learning German"],"explanation":"Not only + does + subject + base verb (speak)."}
       ]
     }
   },
@@ -12643,12 +12939,41 @@
         },
         {
           "type": "open",
-          "question": "20. Fill in: He passed the exam _____ he had studied hard. (reason – one word)",
+          "question": "21. Fill in: He passed the exam _____ he had studied hard. (reason – one word)",
           "answers": [
             "because"
           ],
           "explanation": "Because = cause (he had studied hard → he passed)."
-        }
+        },
+        {"type":"open","question":"22. Wrong: 'Although it was raining, but we went for a walk.' Correct the sentence.","answers":["Although it was raining, we went for a walk.","It was raining but we went for a walk.","Although it was raining, we went for a walk","It was raining but we went for a walk"],"explanation":"Don't use although and but together. Use one or the other."},
+        {"type":"open","question":"23. Fill in: The train was delayed. _____, we arrived late. (result – one linker)","answers":["Therefore"],"explanation":"Therefore shows result (delayed → arrived late)."},
+        {"type":"open","question":"24. Fill in: I'll send you the file _____ I finish it. (at that moment – one word)","answers":["when"],"explanation":"When = at the moment I finish it."},
+        {"type":"open","question":"25. Fill in: _____ she works hard, she doesn't earn much. (contrast – one word)","answers":["Although"],"explanation":"Although introduces contrast (works hard vs doesn't earn much)."},
+        {"type":"open","question":"26. Fill in: She studied hard _____ she could pass the exam. (purpose – two words)","answers":["so that"],"explanation":"So that introduces a purpose clause."},
+        {"type":"open","question":"27. Fill in: He's very busy. _____, he always finds time for his family. (contrast – one linker)","answers":["However","Nevertheless"],"explanation":"However or nevertheless shows contrast (busy vs finds time)."},
+        {"type":"open","question":"28. Wrong: 'As it was hot, so we went swimming.' Correct the sentence.","answers":["As it was hot, we went swimming.","It was hot so we went swimming.","As it was hot, we went swimming","It was hot so we went swimming"],"explanation":"Don't use as (cause) and so together. Use one or the other."},
+        {"type":"open","question":"29. Fill in: _____ you're ready, we can leave. (condition – one word)","answers":["When","Once","If"],"explanation":"When/Once/If can introduce the condition for leaving."},
+        {"type":"open","question":"30. Fill in: I enjoy sports, _____ football and tennis. (examples – two words)","answers":["for example"],"explanation":"For example introduces examples."},
+        {"type":"open","question":"31. Fill in: _____ I was cooking, she was setting the table. (at the same time – one word)","answers":["While"],"explanation":"While = during; two ongoing actions."},
+        {"type":"open","question":"32. Fill in: Wait here _____ I come back. (up to that moment – one word)","answers":["until"],"explanation":"Until = up to the moment I come back."},
+        {"type":"open","question":"33. Fill in: It's small. _____, it has a big garden. (contrast – one linker)","answers":["However","Nevertheless"],"explanation":"Contrast: small vs big garden."},
+        {"type":"open","question":"34. Fill in: He left _____ we could talk privately. (purpose – two words)","answers":["so that"],"explanation":"So that introduces purpose (so we could talk)."},
+        {"type":"open","question":"35. Wrong: 'Though he was angry, but he stayed calm.' Correct the sentence.","answers":["Though he was angry, he stayed calm.","He was angry but he stayed calm.","Though he was angry, he stayed calm","He was angry but he stayed calm"],"explanation":"Don't use though and but together. Use one or the other."},
+        {"type":"open","question":"36. Fill in: We stayed indoors _____ it was raining. (reason – one word)","answers":["because","since","as"],"explanation":"Because/since/as = reason."},
+        {"type":"open","question":"37. Fill in: _____ arriving, she called her mother. (immediately after – one word)","answers":["Upon","On"],"explanation":"Upon or On + -ing = as soon as she arrived."},
+        {"type":"open","question":"38. Fill in: I don't know _____ he'll agree or not. (yes/no alternative – one word)","answers":["whether"],"explanation":"Whether introduces an indirect yes/no question."},
+        {"type":"open","question":"39. Fill in: She speaks Spanish _____ her brother speaks Italian. (contrast – one word)","answers":["whereas","while"],"explanation":"Whereas or while shows contrast between two people."},
+        {"type":"open","question":"40. Fill in: He failed _____ he hadn't revised. (reason – one word)","answers":["because","since","as"],"explanation":"Because/since/as = cause (hadn't revised → failed)."},
+        {"type":"open","question":"41. Fill in: The hotel was basic. _____, it was clean and comfortable. (addition – one linker)","answers":["Moreover","Furthermore"],"explanation":"Moreover or furthermore adds another positive point."},
+        {"type":"open","question":"42. Fill in: _____ you don't apologise, she won't forgive you. (condition – one word)","answers":["If"],"explanation":"If = condition. (Unless = if not; 'Unless you apologise' would also work.)"},
+        {"type":"open","question":"43. Wrong: 'Because he missed the bus, so he was late.' Correct the sentence.","answers":["Because he missed the bus, he was late.","He missed the bus so he was late.","Because he missed the bus, he was late","He missed the bus so he was late"],"explanation":"Don't use because and so together."},
+        {"type":"open","question":"44. Fill in: _____ you've finished, you can go home. (condition/time – one word)","answers":["Once","When"],"explanation":"Once or when = after you've finished."},
+        {"type":"open","question":"45. Fill in: He didn't call, _____ we don't know if he's coming. (result – one word)","answers":["so"],"explanation":"So = result (didn't call → we don't know)."},
+        {"type":"open","question":"46. Fill in: I like spicy food _____ my sister prefers mild. (contrast – one word)","answers":["whereas","while"],"explanation":"Whereas or while contrasts two preferences."},
+        {"type":"open","question":"47. Fill in: We left early _____ avoid the traffic. (purpose – four words)","answers":["in order to"],"explanation":"In order to = purpose + infinitive."},
+        {"type":"open","question":"48. Fill in: She was tired ____ she carried on working. (contrast – one word)","answers":["but","yet"],"explanation":"But or yet shows contrast (tired vs carried on)."},
+        {"type":"open","question":"49. Fill in: _____ he tried, he couldn't open the door. (contrast – one word)","answers":["Although","Though"],"explanation":"Although or though introduces contrast."},
+        {"type":"open","question":"50. Fill in: Tell me _____ you're coming to the party. (yes/no – one word)","answers":["whether","if"],"explanation":"Whether or if introduces an indirect yes/no question."}
       ]
     }
   },
@@ -12818,7 +13143,37 @@
             "ought to"
           ],
           "explanation": "Advisability → should or ought to."
-        }
+        },
+        {"type":"open","question":"21. He ____ speak French fluently. (ability)","answers":["can"],"explanation":"Ability → can."},
+        {"type":"open","question":"22. You ____ use your phone during the flight. (prohibition)","answers":["mustn't","must not"],"explanation":"Prohibition → must not (mustn't)."},
+        {"type":"open","question":"23. ____ I borrow your pen? (polite permission)","answers":["May","Can","Could"],"explanation":"Permission → May, Can, or Could."},
+        {"type":"open","question":"24. She ____ be at the office – her car is outside. (deduction)","answers":["must"],"explanation":"Positive deduction → must be."},
+        {"type":"open","question":"25. We ____ to pay the rent by Friday. (necessity)","answers":["have"],"explanation":"Necessity → have to. The blank is 'have'."},
+        {"type":"open","question":"26. I ____ to walk to school when I was young. (past habit)","answers":["used"],"explanation":"Past habit → used to."},
+        {"type":"open","question":"27. You ____ worry – everything will be fine. (no necessity)","answers":["needn't","don't need to"],"explanation":"No necessity → needn't or don't need to."},
+        {"type":"open","question":"28. They ____ arrive tomorrow. (possibility)","answers":["may","might","could"],"explanation":"Possibility → may, might, or could."},
+        {"type":"open","question":"29. ____ you mind closing the window? (polite request)","answers":["Would"],"explanation":"Polite request → Would you mind ...?"},
+        {"type":"open","question":"30. He ____ not have left – his bag is still here. (impossibility)","answers":["can't","cannot"],"explanation":"Negative deduction → can't have."},
+        {"type":"open","question":"31. You ____ to tell the truth. (moral obligation)","answers":["ought"],"explanation":"Moral obligation → ought to."},
+        {"type":"open","question":"32. I ____ help you with that. (offer)","answers":["will","'ll"],"explanation":"Offer → will (I'll help)."},
+        {"type":"open","question":"33. She ____ come to the meeting – she's on holiday. (impossibility)","answers":["can't","cannot"],"explanation":"Impossibility in present → can't."},
+        {"type":"open","question":"34. We ____ finish this by tomorrow. (necessity)","answers":["must","have to"],"explanation":"Necessity → must or have to."},
+        {"type":"open","question":"35. ____ you like some coffee? (offer)","answers":["Would"],"explanation":"Polite offer → Would you like ...?"},
+        {"type":"open","question":"36. You ____ not smoke here. (prohibition)","answers":["must","can","may"],"explanation":"Prohibition → must not, cannot, or may not."},
+        {"type":"open","question":"37. He ____ be sleeping – it's 3 a.m. (probable deduction)","answers":["must"],"explanation":"Positive deduction → must be."},
+        {"type":"open","question":"38. I ____ rather stay at home tonight. (preference)","answers":["would"],"explanation":"Preference → would rather."},
+        {"type":"open","question":"39. She ____ to take the exam again next week. (necessity / need)","answers":["needs"],"explanation":"Necessity → needs to."},
+        {"type":"open","question":"40. ____ you pass the salt, please? (polite request)","answers":["Could","Would","Can"],"explanation":"Polite request → Could, Would, or Can."},
+        {"type":"open","question":"41. Wrong: 'He can to swim.' Correct the sentence.","answers":["He can swim.","He can swim"],"explanation":"Modals are followed by the base form, not 'to' + infinitive."},
+        {"type":"open","question":"42. Wrong: 'She must to go now.' Correct the sentence.","answers":["She must go now.","She must go now"],"explanation":"Must is followed by the base form, not 'to'."},
+        {"type":"open","question":"43. Wrong: 'He don't have to come.' Correct the sentence.","answers":["He doesn't have to come.","He does not have to come.","He doesn't have to come","He does not have to come"],"explanation":"Have to takes do/does in negatives: doesn't have to."},
+        {"type":"open","question":"44. Wrong: 'She cans speak English.' Correct the sentence.","answers":["She can speak English.","She can speak English"],"explanation":"Modal verbs have no -s in the third person."},
+        {"type":"open","question":"45. Fill in: By next year, she ____ speak fluent Spanish. (future ability)","answers":["will be able to"],"explanation":"Future ability → will be able to (can has no future form)."},
+        {"type":"open","question":"46. Fill in: I ____ go to the party. (lack of obligation)","answers":["don't have to","do not have to","needn't"],"explanation":"No obligation → don't have to or needn't."},
+        {"type":"open","question":"47. Fill in: He ____ have forgotten – he's very reliable. (unlikely deduction)","answers":["can't","cannot"],"explanation":"Negative deduction about the past → can't have."},
+        {"type":"open","question":"48. Fill in: You ____ have told me earlier! (criticism about past)","answers":["should","ought to"],"explanation":"Should/ought to have + past participle = criticism about what someone didn't do."},
+        {"type":"open","question":"49. Fill in: She ____ have left by now. (deduction about past)","answers":["must"],"explanation":"Deduction about the past → must have left."},
+        {"type":"open","question":"50. Fill in: ____ we start the meeting? (suggestion)","answers":["Shall"],"explanation":"Suggestion with first person → Shall we ...?"}
       ]
     }
   },
@@ -12989,7 +13344,37 @@
             "had been"
           ],
           "explanation": "Being there before that past moment."
-        }
+        },
+        {"type":"open","question":"21. After she _____ (finish) her work, she went home. Put the verb in the correct tense.","answers":["had finished"],"explanation":"Finished before going home."},
+        {"type":"open","question":"22. I _____ (not visit) London before 2019. Put the verb in the correct tense.","answers":["hadn't visited","had not visited"],"explanation":"Before that past time."},
+        {"type":"open","question":"23. When we arrived, the film _____ (start). Put the verb in the correct tense.","answers":["had started"],"explanation":"Film started before we arrived."},
+        {"type":"open","question":"24. She _____ (already leave) when I got to the office. Put the verb in the correct tense.","answers":["had already left"],"explanation":"Left before I got there."},
+        {"type":"open","question":"25. He realised he _____ (forget) her birthday. Put the verb in the correct tense.","answers":["had forgotten"],"explanation":"Forgetting before realising."},
+        {"type":"open","question":"26. By the time the doctor arrived, the patient _____ (die). Put the verb in the correct tense.","answers":["had died"],"explanation":"By the time + past → past perfect."},
+        {"type":"open","question":"27. We _____ (never try) sushi before that evening. Put the verb in the correct tense.","answers":["had never tried"],"explanation":"Before that past event."},
+        {"type":"open","question":"28. When I checked, someone _____ (take) my umbrella. Put the verb in the correct tense.","answers":["had taken"],"explanation":"Taking happened before checking."},
+        {"type":"open","question":"29. She _____ (graduate) before she moved to Paris. Put the verb in the correct tense.","answers":["had graduated"],"explanation":"Graduated before moving."},
+        {"type":"open","question":"30. The game _____ (end) when we turned on the TV. Put the verb in the correct tense.","answers":["had ended"],"explanation":"Game ended before we turned on TV."},
+        {"type":"open","question":"31. I _____ (not eat) for hours when lunch was served. Put the verb in the correct tense.","answers":["hadn't eaten","had not eaten"],"explanation":"No eating before lunch."},
+        {"type":"open","question":"32. When she phoned, he _____ (go) to bed. Put the verb in the correct tense.","answers":["had gone"],"explanation":"He went to bed before she phoned."},
+        {"type":"open","question":"33. By 2021 they _____ (live) there for ten years. Put the verb in the correct tense.","answers":["had lived"],"explanation":"Duration before a past moment."},
+        {"type":"open","question":"34. She _____ (sell) her car before she moved abroad. Put the verb in the correct tense.","answers":["had sold"],"explanation":"Sold before moving."},
+        {"type":"open","question":"35. When they reached the summit, the sun _____ (rise). Put the verb in the correct tense.","answers":["had risen"],"explanation":"Sun rose before they reached summit."},
+        {"type":"open","question":"36. He _____ (not see) his brother for five years when they met. Put the verb in the correct tense.","answers":["hadn't seen","had not seen"],"explanation":"No seeing before that meeting."},
+        {"type":"open","question":"37. By the end of the week, she _____ (read) three books. Put the verb in the correct tense.","answers":["had read"],"explanation":"By + past time → past perfect."},
+        {"type":"open","question":"38. I _____ (forget) his name until he reminded me. Put the verb in the correct tense.","answers":["had forgotten"],"explanation":"Forgot before he reminded."},
+        {"type":"open","question":"39. When the police arrived, the crowd _____ (disperse). Put the verb in the correct tense.","answers":["had dispersed"],"explanation":"Dispersed before police arrived."},
+        {"type":"open","question":"40. She _____ (already decide) before I could ask her. Put the verb in the correct tense.","answers":["had already decided"],"explanation":"Decided before I could ask."},
+        {"type":"open","question":"41. Wrong: 'When I arrived, she had went home.' Correct the sentence.","answers":["When I arrived, she had gone home.","When I arrived, she had gone home"],"explanation":"Past perfect = had + past participle (gone, not went)."},
+        {"type":"open","question":"42. He _____ (work) there for years before he retired. Put the verb in the correct tense.","answers":["had worked"],"explanation":"Duration before retirement."},
+        {"type":"open","question":"43. When I opened the fridge, I saw that someone _____ (eat) the cake. Put the verb in the correct tense.","answers":["had eaten"],"explanation":"Eating happened before I opened."},
+        {"type":"open","question":"44. By lunchtime we _____ (complete) half the work. Put the verb in the correct tense.","answers":["had completed"],"explanation":"By + past time → past perfect."},
+        {"type":"open","question":"45. She _____ (never be) to Japan before that trip. Put the verb in the correct tense.","answers":["had never been"],"explanation":"Before that past event."},
+        {"type":"open","question":"46. When the ambulance arrived, the man _____ (collapse). Put the verb in the correct tense.","answers":["had collapsed"],"explanation":"Collapsed before ambulance arrived."},
+        {"type":"open","question":"47. They _____ (already close) the shop when we got there. Put the verb in the correct tense.","answers":["had already closed"],"explanation":"Closed before we got there."},
+        {"type":"open","question":"48. I _____ (not realise) how late it was until she told me. Put the verb in the correct tense.","answers":["hadn't realised","had not realised"],"explanation":"Not realising before she told me."},
+        {"type":"open","question":"49. By 2019 he _____ (visit) over 50 countries. Put the verb in the correct tense.","answers":["had visited"],"explanation":"By + year → past perfect."},
+        {"type":"open","question":"50. When we sat down, the concert _____ (already begin). Put the verb in the correct tense.","answers":["had already begun"],"explanation":"Began before we sat down."}
       ]
     }
   },
@@ -13164,7 +13549,37 @@
             "will have left"
           ],
           "explanation": "Before future time → future perfect."
-        }
+        },
+        {"type":"open","question":"21. Put the verb in the correct tense: She _____ (study) for her exam at the moment. (in progress now)","answers":["is studying"],"explanation":"Right now → present continuous."},
+        {"type":"open","question":"22. Put the verb in the correct tense: I _____ (meet) him last month. (finished past)","answers":["met"],"explanation":"Finished past with specific time → past simple."},
+        {"type":"open","question":"23. Put the verb in the correct tense: They _____ (live) in Berlin since 2018. (duration up to now)","answers":["have lived","have been living"],"explanation":"Since + duration → present perfect."},
+        {"type":"open","question":"24. Put the verb in the correct tense:_____ you _____ (see) the new film yet? (experience up to now)","answers":["Have you seen","Have you seen"],"explanation":"Experience with yet → present perfect."},
+        {"type":"open","question":"25. Put the verb in the correct tense: At 8 p.m. tomorrow I _____ (fly) to Rome. (in progress at future time)","answers":["will be flying"],"explanation":"In progress at future time → future continuous."},
+        {"type":"open","question":"26. Put the verb in the correct tense: He _____ (work) there when the fire started. (in progress in past)","answers":["was working"],"explanation":"In progress when something happened → past continuous."},
+        {"type":"open","question":"27. Put the verb in the correct tense: The shop _____ (open) at 9 a.m. (timetable/schedule)","answers":["opens"],"explanation":"Schedule → present simple."},
+        {"type":"open","question":"28. Put the verb in the correct tense: I _____ (wait) for an hour when the bus finally came. (duration before past)","answers":["had been waiting"],"explanation":"Duration before past → past perfect continuous."},
+        {"type":"open","question":"29. Put the verb in the correct tense: She _____ (not finish) her homework yet. (unfinished up to now)","answers":["hasn't finished","has not finished"],"explanation":"Yet = unfinished → present perfect."},
+        {"type":"open","question":"30. Put the verb in the correct tense: We _____ (go) to the cinema every Saturday. (habit)","answers":["go"],"explanation":"Habit → present simple."},
+        {"type":"open","question":"31. Put the verb in the correct tense: By 2025 they _____ (complete) the project. (before future time)","answers":["will have completed"],"explanation":"Before future → future perfect."},
+        {"type":"open","question":"32. Put the verb in the correct tense: I _____ (think) about you when you called. (in progress)","answers":["was thinking"],"explanation":"In progress when you called → past continuous."},
+        {"type":"open","question":"33. Put the verb in the correct tense: She _____ (teach) here for ten years. (duration up to now)","answers":["has taught","has been teaching"],"explanation":"Duration up to now → present perfect."},
+        {"type":"open","question":"34. Put the verb in the correct tense: Look! It _____ (snow). (happening now)","answers":["is snowing"],"explanation":"Happening now → present continuous."},
+        {"type":"open","question":"35. Put the verb in the correct tense: They _____ (build) that bridge in 2000. (finished past)","answers":["built"],"explanation":"Finished past with year → past simple."},
+        {"type":"open","question":"36. Put the verb in the correct tense: I _____ (never visit) Japan. (experience)","answers":["have never visited"],"explanation":"Experience → present perfect."},
+        {"type":"open","question":"37. Put the verb in the correct tense: This time next week we _____ (relax) on the beach. (in progress at future time)","answers":["will be relaxing"],"explanation":"Future continuous."},
+        {"type":"open","question":"38. Put the verb in the correct tense: She _____ (write) emails all morning. (recent activity with visible result)","answers":["has been writing"],"explanation":"Activity with duration/recent effect → present perfect continuous."},
+        {"type":"open","question":"39. Put the verb in the correct tense: He _____ (leave) before I could thank him. (before past)","answers":["had left"],"explanation":"Before past event → past perfect."},
+        {"type":"open","question":"40. Put the verb in the correct tense: Water _____ (boil) at 100 degrees. (general truth)","answers":["boils"],"explanation":"General truth → present simple."},
+        {"type":"open","question":"41. Put the verb in the correct tense: I _____ (not see) him since Monday. (from past to now)","answers":["haven't seen","have not seen"],"explanation":"Since = from past to now → present perfect."},
+        {"type":"open","question":"42. Put the verb in the correct tense: They _____ (watch) TV when I arrived. (in progress)","answers":["were watching"],"explanation":"In progress when I arrived → past continuous."},
+        {"type":"open","question":"43. Put the verb in the correct tense: The match _____ (start) at 3 p.m. (schedule)","answers":["starts"],"explanation":"Scheduled event → present simple."},
+        {"type":"open","question":"44. Put the verb in the correct tense: By next month she _____ (work) here for a year. (duration before future)","answers":["will have been working"],"explanation":"Duration before future → future perfect continuous."},
+        {"type":"open","question":"45. Put the verb in the correct tense: I _____ (know) her since we were children. (state from past to now)","answers":["have known"],"explanation":"State with since → present perfect (stative verb)."},
+        {"type":"open","question":"46. Put the verb in the correct tense: He _____ (sleep) when the alarm went off. (in progress)","answers":["was sleeping"],"explanation":"In progress when alarm went off → past continuous."},
+        {"type":"open","question":"47. Put the verb in the correct tense: She _____ (just finish) her degree. (very recent)","answers":["has just finished"],"explanation":"Just = very recent → present perfect."},
+        {"type":"open","question":"48. Put the verb in the correct tense: We _____ (not hear) from him for weeks. (duration up to now)","answers":["haven't heard","have not heard"],"explanation":"Duration with for → present perfect."},
+        {"type":"open","question":"49. Put the verb in the correct tense: The plane _____ (take off) at 6 tomorrow morning. (scheduled)","answers":["takes off"],"explanation":"Scheduled future → present simple."},
+        {"type":"open","question":"50. Put the verb in the correct tense: They _____ (wait) for over an hour when the doctor finally appeared. (duration before past)","answers":["had been waiting"],"explanation":"Duration before past moment → past perfect continuous."}
       ]
     }
   },
@@ -13349,7 +13764,37 @@
             "Where did she go?"
           ],
           "explanation": "Wh-question: **Where** + **did** + subject + base form."
-        }
+        },
+        {"type":"open","question":"21. ____ your sister ____ (like) football? (present simple question)","answers":["Does your sister like","Does your sister like"],"explanation":"Third person question: Does + subject + base form."},
+        {"type":"open","question":"22. Wrong: 'He don't like vegetables.' Correct the sentence.","answers":["He doesn't like vegetables.","He does not like vegetables.","He doesn't like vegetables","He does not like vegetables"],"explanation":"He/she/it → doesn't + base form."},
+        {"type":"open","question":"23. They ____ (not / agree) with the proposal. (present negative)","answers":["don't agree","do not agree"],"explanation":"Plural negative: don't + base form."},
+        {"type":"open","question":"24. Wrong: 'When did you bought the car?' Correct the sentence.","answers":["When did you buy the car?","When did you buy the car"],"explanation":"After did use base form (buy)."},
+        {"type":"open","question":"25. ____ he ____ (need) any help? (present question)","answers":["Does he need"],"explanation":"Does + subject + base form."},
+        {"type":"open","question":"26. Wrong: 'My parents doesn't live in London.' Correct the sentence.","answers":["My parents don't live in London.","My parents do not live in London.","My parents don't live in London","My parents do not live in London"],"explanation":"Plural subject → don't."},
+        {"type":"open","question":"27. I ____ (not / believe) him. (present negative)","answers":["don't believe","do not believe"],"explanation":"First person negative: don't + base form."},
+        {"type":"open","question":"28. Wrong: 'Does she knows the way?' Correct the sentence.","answers":["Does she know the way?","Does she know the way"],"explanation":"After does use base form (know)."},
+        {"type":"open","question":"29. ____ we ____ (meet) last year? (past question)","answers":["Did we meet"],"explanation":"Past question: Did + subject + base form."},
+        {"type":"open","question":"30. Wrong: 'She not want to come.' Correct the sentence.","answers":["She doesn't want to come.","She does not want to come.","She doesn't want to come","She does not want to come"],"explanation":"Present negative needs doesn't."},
+        {"type":"open","question":"31. The children ____ (not / eat) breakfast this morning. (past negative)","answers":["didn't eat","did not eat"],"explanation":"Past negative: didn't + base form."},
+        {"type":"open","question":"32. Wrong: 'How long you did wait?' Correct the sentence.","answers":["How long did you wait?","How long did you wait"],"explanation":"Wh-question: How long + did + subject + base form."},
+        {"type":"open","question":"33. ____ the meeting ____ (start) on time? (past question)","answers":["Did the meeting start"],"explanation":"Did + subject + base form."},
+        {"type":"open","question":"34. Wrong: 'Tom and Anna doesn't speak Spanish.' Correct the sentence.","answers":["Tom and Anna don't speak Spanish.","Tom and Anna do not speak Spanish.","Tom and Anna don't speak Spanish","Tom and Anna do not speak Spanish"],"explanation":"Plural (Tom and Anna) → don't."},
+        {"type":"open","question":"35. She ____ (not / remember) my name. (present negative)","answers":["doesn't remember","does not remember"],"explanation":"Third person negative: doesn't + base form."},
+        {"type":"open","question":"36. Wrong: 'I didn't saw him yesterday.' Correct the sentence.","answers":["I didn't see him yesterday.","I didn't see him yesterday"],"explanation":"After didn't use base form (see)."},
+        {"type":"open","question":"37. ____ your friends ____ (enjoy) the concert? (past question)","answers":["Did your friends enjoy"],"explanation":"Did + subject + base form."},
+        {"type":"open","question":"38. Wrong: 'Have you a moment? (possess = do you have)' Correct to standard English.","answers":["Do you have a moment?","Do you have a moment"],"explanation":"Have (possess) in questions: Do you have...?"},
+        {"type":"open","question":"39. We ____ (not / expect) to see you here. (past negative)","answers":["didn't expect","did not expect"],"explanation":"Past negative: didn't + base form."},
+        {"type":"open","question":"40. Wrong: 'What time she did arrive?' Correct the sentence.","answers":["What time did she arrive?","What time did she arrive"],"explanation":"What time + did + subject + base form."},
+        {"type":"open","question":"41. ____ your mother ____ (work) full-time? (present question)","answers":["Does your mother work"],"explanation":"Does + subject + base form."},
+        {"type":"open","question":"42. Wrong: 'The bus don't stop here.' Correct the sentence.","answers":["The bus doesn't stop here.","The bus does not stop here.","The bus doesn't stop here","The bus does not stop here"],"explanation":"Third person singular (the bus) → doesn't."},
+        {"type":"open","question":"43. Wrong: 'Did they gave you the keys?' Correct the sentence.","answers":["Did they give you the keys?","Did they give you the keys"],"explanation":"After did use base form (give)."},
+        {"type":"open","question":"44. He ____ (not / understand) the question. (present negative)","answers":["doesn't understand","does not understand"],"explanation":"Third person negative: doesn't + base form."},
+        {"type":"open","question":"45. Wrong: 'How much it did cost?' Correct the sentence.","answers":["How much did it cost?","How much did it cost"],"explanation":"How much + did + subject + base form."},
+        {"type":"open","question":"46. ____ you ____ (see) the film last week? (past question)","answers":["Did you see"],"explanation":"Did + subject + base form."},
+        {"type":"open","question":"47. Wrong: 'My brother doesn't have a car, but I have.' Correct the sentence.","answers":["My brother doesn't have a car, but I do.","My brother does not have a car, but I do.","My brother doesn't have a car, but I have one.","My brother does not have a car, but I have one."],"explanation":"Use 'I do' or 'I have one' to complete the contrast correctly."},
+        {"type":"open","question":"48. The manager ____ (not / approve) the plan. (past negative)","answers":["didn't approve","did not approve"],"explanation":"Past negative: didn't + base form."},
+        {"type":"open","question":"49. Wrong: 'Why did they not came to the party?' Correct the sentence.","answers":["Why didn't they come to the party?","Why did they not come to the party?","Why didn't they come to the party","Why did they not come to the party"],"explanation":"After did/didn't use base form (come)."},
+        {"type":"open","question":"50. ____ she ____ (tell) you the news? (past question)","answers":["Did she tell"],"explanation":"Did + subject + base form."}
       ]
     }
   },
