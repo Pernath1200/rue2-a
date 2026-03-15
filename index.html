@@ -314,12 +314,12 @@
           <button type="button" id="openDiagnosticSetupBtn" class="secondary">Start Here: Grammar Test</button>
         </div>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5);" />
-        <button type="button" id="openTopicSelectBtn">Choose Grammar Topic</button>
-        <button type="button" id="openExamPracticeBtn" class="secondary">Exam Practice</button>
+        <button type="button" id="openTopicSelectBtn" class="secondary">Choose Grammar Topic</button>
+        <button type="button" id="openExamPracticeBtn">Exam-Style Practice</button>
         <div class="memory-bank" id="memoryBankSummary"></div>
       </div>
       <div id="menuExamPractice" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose one exam task.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Choose a task type.</p>
         <button type="button" id="examOpenClozeBtn">Open Cloze</button>
         <button type="button" id="examWordFormationBtn" class="secondary">Word Formation</button>
         <button type="button" id="examSentenceTransformationBtn" class="secondary">Sentence Transformation</button>
@@ -328,7 +328,7 @@
         <button type="button" id="examPracticeMainMenuBtn" class="secondary" style="margin-top: 0.5rem;">Main Menu</button>
       </div>
       <div id="menuOpenCloze" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Open Cloze: one word per gap. Easy = choose from 4 options. Medium+ = type the word.</p>
         <button type="button" id="openClozePart1Btn">1: Intro</button>
         <button type="button" id="openClozePart2Btn" class="secondary" style="margin-bottom: 0.4rem;">2: Multiple Choice</button>
         <button type="button" id="openClozeFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">3: Further Practice</button>
@@ -362,7 +362,7 @@
         </div>
       </div>
       <div id="menuOpenClozeFurther" class="menu-panel hidden">
-        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Choose a level. Easy: choose the word. Medium and above: type the word.</p>
+        <p style="margin-bottom: 0.4rem; color: var(--muted); font-size: 0.9rem;">Practice tests: Easy = choose from 4 options. Medium+ = type one word per gap.</p>
         <button type="button" id="openClozeEasyBtn">Easy</button>
         <button type="button" id="openClozeMediumBtn" class="secondary">Medium</button>
         <button type="button" id="openClozeHardBtn" class="secondary">Hard</button>
@@ -372,7 +372,7 @@
         <button type="button" id="openClozeFurtherMainMenuBtn" class="secondary" style="margin-top: 0.25rem;">Main Menu</button>
       </div>
       <div id="menuWordFormation" class="menu-panel hidden">
-        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Part 3: Use the word in capitals to make a new word for each gap.</p>
+        <p style="margin-bottom: 0.5rem; color: var(--muted); font-size: 0.9rem;">Word Formation: Use the word in capitals to make a new word for each gap.</p>
         <button type="button" id="wordFormationPart1Btn">1: Intro</button>
         <button type="button" id="wordFormationPart2Btn" class="secondary" style="margin-bottom: 0.4rem;">2: Multiple Choice</button>
         <button type="button" id="wordFormationFurtherBtn" class="secondary" style="margin-bottom: 0.4rem;">3: Further Practice</button>
@@ -616,6 +616,10 @@
         <div id="wrongAnswersCorrectBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Correct spellings</h3>
           <div id="wrongAnswersCorrectList" class="summary" style="font-size: 0.9rem; line-height: 1.6;"></div>
+        </div>
+        <div id="diagnosticSuggestedFocusBlock" class="hidden" style="margin-top: 1rem; padding: 0.75rem; background: var(--surface); border-radius: var(--radius); border: 1px solid var(--border);">
+          <p style="font-size: 0.9rem; color: var(--muted); margin: 0 0 0.5rem 0;"><strong style="color: var(--text);">Suggested focus:</strong> Study the topics below to improve weak areas. You can also try Exam-Style Practice (Open Cloze, Word Formation, or Sentence Transformation) to apply grammar in context.</p>
+          <button type="button" id="diagnosticExamPracticeBtn" class="secondary">Open Exam-Style Practice</button>
         </div>
         <div id="topicsToReviewBlock" class="hidden" style="margin-top: 1rem;">
           <h3 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem;">Topics to practise</h3>
@@ -1255,6 +1259,7 @@
         ['Word Formation: Prefixes & Suffixes', showReferenceWordFormation],
         ['Linkers and Conjunctions', showReferenceConjunctionsLinkers],
         ['Reported Speech', showReferenceReportedSpeech],
+        ['Irregular Verbs', showReferenceIrregularVerbs],
         ['Writing Tips: FCE, CAE, CPE', () => showWritingTips('reference')]
       ];
       items.forEach(([text, fn]) => {
@@ -1680,6 +1685,59 @@
       document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
     }
 
+    let referenceIrregularVerbsData = null;
+
+    function renderReferenceIrregularVerbsContent(data) {
+      if (!data) return;
+      referenceView = 'irregular_verbs';
+      document.getElementById('referenceTitle').textContent = data.title || '50 Common Irregular Verbs';
+      const content = document.getElementById('referenceContent');
+      content.innerHTML = '';
+      if (data.intro) {
+        const p = document.createElement('p');
+        p.style.color = 'var(--muted)';
+        p.style.marginBottom = '1rem';
+        p.style.fontSize = '0.9rem';
+        p.textContent = data.intro;
+        content.appendChild(p);
+      }
+      const verbs = data.verbs || [];
+      if (verbs.length) {
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Base</th><th>Past</th><th>Past participle</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        verbs.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.base || '') + '</td><td>' + escapeAndBold(entry.past || '') + '</td><td>' + escapeAndBold(entry.pastPart || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      document.getElementById('referencePrintDownloadWrap').classList.remove('hidden');
+      document.getElementById('referenceBackBtn').textContent = 'Back to Reference';
+    }
+
+    async function showReferenceIrregularVerbs() {
+      if (!referenceIrregularVerbsData) {
+        try {
+          const res = await fetch(new URL('reference_irregular_verbs.json', getBaseUrl()));
+          if (!res.ok) throw new Error('Could not load reference');
+          referenceIrregularVerbsData = await res.json();
+        } catch (e) {
+          alert('Could not load Irregular Verbs reference. ' + (e && e.message));
+          return;
+        }
+      }
+      document.getElementById('referenceScreen').classList.remove('hidden');
+      document.getElementById('menuScreen').classList.add('hidden');
+      document.getElementById('referenceBtnWrap').classList.add('hidden');
+      document.body.classList.add('viewing-content');
+      document.body.classList.add('viewing-reference');
+      renderReferenceIrregularVerbsContent(referenceIrregularVerbsData);
+    }
+
     async function showReferenceReportedSpeech() {
       if (!referenceReportedSpeechData) {
         try {
@@ -1718,6 +1776,27 @@
         table.innerHTML = '<thead><tr><th>Phrase</th><th>Meaning</th><th>Example</th></tr></thead><tbody></tbody>';
         const tbody = table.querySelector('tbody');
         phrases.forEach(entry => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + escapeAndBold(entry.phrase || '') + '</td><td>' + escapeAndBold(entry.meaning || '') + '</td><td>' + escapeAndBold(entry.example || '') + '</td>';
+          tbody.appendChild(tr);
+        });
+        content.appendChild(table);
+      }
+      const makeDo = data.make_do || [];
+      if (makeDo.length) {
+        const h3 = document.createElement('h3');
+        h3.style.marginTop = '1.25rem';
+        h3.style.marginBottom = '0.5rem';
+        h3.style.fontSize = '1rem';
+        h3.style.color = 'var(--accent)';
+        h3.textContent = 'Make and do + noun (collocations)';
+        content.appendChild(h3);
+        const table = document.createElement('table');
+        table.className = 'reference-phrasal-table';
+        table.setAttribute('border', '1');
+        table.innerHTML = '<thead><tr><th>Phrase</th><th>Meaning</th><th>Example</th></tr></thead><tbody></tbody>';
+        const tbody = table.querySelector('tbody');
+        makeDo.forEach(entry => {
           const tr = document.createElement('tr');
           tr.innerHTML = '<td>' + escapeAndBold(entry.phrase || '') + '</td><td>' + escapeAndBold(entry.meaning || '') + '</td><td>' + escapeAndBold(entry.example || '') + '</td>';
           tbody.appendChild(tr);
@@ -2307,7 +2386,7 @@
     }
 
     function onReferenceBackClick() {
-      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers' || referenceView === 'reported_speech' || referenceView === 'writing_tips') {
+      if (referenceView === 'infinitive_ing' || referenceView === 'modal_verbs' || referenceView === 'phrasal_verbs' || referenceView === 'prepositions' || referenceView === 'dependent_verbs' || referenceView === 'dependent_nouns' || referenceView === 'dependent_adjectives' || referenceView === 'compound_nouns' || referenceView === 'countable_uncountable' || referenceView === 'open_cloze' || referenceView === 'fixed_phrases' || referenceView === 'word_formation' || referenceView === 'conjunctions_linkers' || referenceView === 'reported_speech' || referenceView === 'irregular_verbs' || referenceView === 'writing_tips') {
         if (referenceReturnTo === 'intro') {
           referenceReturnTo = 'menu';
           document.getElementById('referenceScreen').classList.add('hidden');
@@ -3101,7 +3180,7 @@
         const name = topic ? (topic.title || tid) : tid;
         topicSummaryParts.push(name + ' (' + topicCounts[tid] + ')');
       });
-      const topicSummaryHtml = topicSummaryParts.length > 0 ? '<p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Topics to revise: ' + topicSummaryParts.join(', ') + '</p>' : '';
+      const topicSummaryHtml = topicSummaryParts.length > 0 ? '<p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Suggested study: ' + topicSummaryParts.join(', ') + '</p>' : '';
       const allHtml = topicSummaryHtml + results.map(r => {
         const correctAnswer = test.type === 'mc' ? (r.gap.options && r.gap.options[r.gap.correct_option]) : (r.gap.answers && r.gap.answers.length ? r.gap.answers.join(' or ') : (r.gap.answers && r.gap.answers[0]) || '');
         const correctText = correctAnswer || '';
@@ -3110,7 +3189,7 @@
         const topicTitle = topic ? (topic.title || topicId) : topicId;
         let line = '<p style="margin: 0.5rem 0;"><strong>Gap ' + (r.index + 1) + ':</strong> ';
         if (topicId) {
-          line += 'Revise: <a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+          line += 'Study: <a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
         }
         line += escapeAndBold(r.gap.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
         if (!r.correct && r.userVal !== undefined && r.userVal !== '') {
@@ -3230,14 +3309,14 @@
         const name = topic ? (topic.title || tid) : tid;
         topicSummaryParts.push(name + ' (' + topicCounts[tid] + ')');
       });
-      const topicSummaryHtml = topicSummaryParts.length > 0 ? '<p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Topics to revise: ' + topicSummaryParts.join(', ') + '</p>' : '';
+      const topicSummaryHtml = topicSummaryParts.length > 0 ? '<p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">Suggested study: ' + topicSummaryParts.join(', ') + '</p>' : '';
       wrongList.innerHTML = topicSummaryHtml + results.map(r => {
         const correctText = (r.item.answers && r.item.answers.length) ? r.item.answers.join(' or ') : '';
         const topicId = r.item.topic_id;
         const topic = topics && topics.find(t => t.id === topicId);
         const topicTitle = topic ? (topic.title || topicId) : topicId;
         let line = '<p style="margin: 0.5rem 0;"><strong>Item ' + (r.index + 1) + ':</strong> ';
-        if (topicId) line += 'Revise: <a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
+        if (topicId) line += 'Study: <a href="#topic/' + String(topicId).replace(/"/g, '&quot;') + '" class="exam-cloze-topic-link" data-topic-id="' + String(topicId).replace(/"/g, '&quot;') + '">' + String(topicTitle).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a>. ';
         line += escapeAndBold(r.item.explanation || '') + ' <span class="correct-answer-line">Correct: ' + escapeAndBold(correctText) + '</span>';
         if (!r.correct && r.userVal !== '') {
           line += ' <span style="color: var(--muted);">You wrote: ' + escapeAndBold(r.userVal) + '</span>';
@@ -3629,16 +3708,19 @@
         }
         const reviewBlock = document.getElementById('topicsToReviewBlock');
         const reviewList = document.getElementById('topicsToReviewList');
-        if (quizMode === 'diagnostic' && wrongTopics.size > 0) {
-          reviewBlock.classList.remove('hidden');
-          reviewList.innerHTML = '';
-          wrongTopics.forEach(topicId => {
-            const t = topics.find(x => x.id === topicId);
-            const title = getTopicTitle(topicId);
-            const btn = document.createElement('button');
-            btn.type = 'button';
-            btn.className = 'secondary';
-            btn.textContent = 'Revise: ' + title;
+        const diagFocusBlock = document.getElementById('diagnosticSuggestedFocusBlock');
+        if (quizMode === 'diagnostic') {
+          diagFocusBlock.classList.remove('hidden');
+          if (wrongTopics.size > 0) {
+            reviewBlock.classList.remove('hidden');
+            reviewList.innerHTML = '';
+            wrongTopics.forEach(topicId => {
+              const t = topics.find(x => x.id === topicId);
+              const title = getTopicTitle(topicId);
+              const btn = document.createElement('button');
+              btn.type = 'button';
+              btn.className = 'secondary';
+              btn.textContent = 'Study: ' + title;
             btn.addEventListener('click', () => {
               if (t) currentTopic = t;
               quizMode = 'normal';
@@ -3647,7 +3729,12 @@
             });
             reviewList.appendChild(btn);
           });
+          } else {
+            reviewBlock.classList.add('hidden');
+            reviewList.innerHTML = '';
+          }
         } else {
+          diagFocusBlock.classList.add('hidden');
           reviewBlock.classList.add('hidden');
           reviewList.innerHTML = '';
         }
@@ -4019,6 +4106,12 @@
     document.getElementById('nextBtn').addEventListener('click', nextQuestion);
     document.getElementById('retryWrongBtn').addEventListener('click', retryWrong);
     document.getElementById('backToMenuBtn').addEventListener('click', showMainMenu);
+    document.getElementById('diagnosticExamPracticeBtn').addEventListener('click', () => {
+      document.getElementById('resultScreen').classList.add('hidden');
+      document.body.classList.remove('viewing-content');
+      document.getElementById('menuScreen').classList.remove('hidden');
+      showExamPracticeMenu();
+    });
     document.getElementById('resultBackToExamPracticeBtn').addEventListener('click', () => {
       document.getElementById('resultScreen').classList.add('hidden');
       document.body.classList.remove('viewing-content');

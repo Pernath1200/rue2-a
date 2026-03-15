@@ -62,5 +62,17 @@
     { "phrase": "give it a go", "meaning": "try it; attempt it (informal)", "example": "I've never tried sushi, but I'll give it a go." },
     { "phrase": "all of which", "meaning": "referring to all the things just mentioned (relative clause)", "example": "She gave three reasons, all of which were convincing." },
     { "phrase": "to such an extent", "meaning": "to so great a degree (often followed by that)", "example": "Prices rose to such an extent that many could not afford to buy." }
+  ],
+  "make_do": [
+    { "phrase": "make a mistake", "meaning": "do something wrong", "example": "I made a mistake in the calculation." },
+    { "phrase": "do homework", "meaning": "complete school assignments", "example": "She needs to do her homework." },
+    { "phrase": "make a decision", "meaning": "decide", "example": "We need to make a decision soon." },
+    { "phrase": "do research", "meaning": "carry out research", "example": "They are doing research on climate change." },
+    { "phrase": "make progress", "meaning": "advance; improve", "example": "We are making progress on the project." },
+    { "phrase": "do one's best", "meaning": "try as hard as possible", "example": "I'll do my best to help." },
+    { "phrase": "make friends", "meaning": "form friendships", "example": "It's easy to make friends at school." },
+    { "phrase": "do exercise", "meaning": "physical activity", "example": "I do exercise every morning." },
+    { "phrase": "make a noise", "meaning": "produce sound", "example": "The baby made a noise." },
+    { "phrase": "do the shopping", "meaning": "buy groceries", "example": "I did the shopping yesterday." }
   ]
 }

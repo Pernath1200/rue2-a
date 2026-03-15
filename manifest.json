@@ -22,6 +22,7 @@
   {"id":"past_simple_present_perfect","title":"Tenses: Past Simple vs Present Perfect","curriculum":"curriculum_past_simple_present_perfect.json","questions_key":"past_simple_present_perfect"},
   {"id":"present_perfect","title":"Tenses: Present Perfect Simple vs Continuous","curriculum":"curriculum.json","questions_key":"sets"},
   {"id":"will_going_to","title":"Tenses: Will and Going To","curriculum":"curriculum_will_going_to.json","questions_key":"will_going_to"},
+  {"id":"irregular_verbs","title":"Verbs: Irregular Past Forms","curriculum":"curriculum_irregular_verbs.json","questions_key":"irregular_verbs"},
   {"id":"infinitive_ing","title":"Verb Patterns: to-infinitive, -ing & bare infinitive","curriculum":"curriculum_infinitive_ing.json","questions_key":"infinitive_ing"},
   {"id":"inversion","title":"Inversion for emphasis","curriculum":"curriculum_inversion.json","questions_key":"inversion"},
   {"id":"it_subject","title":"It – subject in English","curriculum":"curriculum_it_subject.json","questions_key":"it_subject"},

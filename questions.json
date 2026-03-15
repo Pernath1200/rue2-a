@@ -14245,7 +14245,90 @@
             "of"
           ],
           "explanation": "**For the purpose of** = in order to."
+        },
+        {
+          "type": "open",
+          "question": "56. I _____ too many mistakes in the exam.",
+          "answers": [
+            "made"
+          ],
+          "explanation": "**Make a mistake** (not do) – fixed collocation."
+        },
+        {
+          "type": "open",
+          "question": "57. She needs to _____ her homework before dinner.",
+          "answers": [
+            "do"
+          ],
+          "explanation": "**Do homework** (not make) – fixed collocation."
+        },
+        {
+          "type": "open",
+          "question": "58. We need to _____ a decision by Friday.",
+          "answers": [
+            "make"
+          ],
+          "explanation": "**Make a decision** (not do) – fixed collocation."
+        },
+        {
+          "type": "open",
+          "question": "59. He _____ research on climate change.",
+          "answers": [
+            "does"
+          ],
+          "explanation": "**Do research** (not make) – fixed collocation."
+        },
+        {
+          "type": "open",
+          "question": "60. We're _____ good progress with the project.",
+          "answers": [
+            "making"
+          ],
+          "explanation": "**Make progress** (not do) – fixed collocation."
+        },
+        {
+          "type": "open",
+          "question": "61. I'll _____ my best to help you.",
+          "answers": [
+            "do"
+          ],
+          "explanation": "**Do one's best** (not make) – fixed collocation."
+        },
+        {
+          "type": "open",
+          "question": "62. Wrong: 'I did a mistake.' Correct the sentence.",
+          "answers": [
+            "I made a mistake.",
+            "I made a mistake"
+          ],
+          "explanation": "**Make a mistake** (not do a mistake) – common learner error."
         }
+      ]
+    }
+  },
+  "irregular_verbs": {
+    "set1": {
+      "title": "Irregular verbs – Gap fill",
+      "summary": "Use the correct past form of the irregular verb.",
+      "questions": [
+        {"type": "open", "question": "1. He _____ (speak) to her last week.", "answers": ["spoke"], "explanation": "Speak → spoke (irregular)."},
+        {"type": "open", "question": "2. I _____ (go) to the cinema yesterday.", "answers": ["went"], "explanation": "Go → went (irregular)."},
+        {"type": "open", "question": "3. She _____ (write) an email this morning.", "answers": ["wrote"], "explanation": "Write → wrote (irregular)."},
+        {"type": "open", "question": "4. They _____ (make) a cake for the party.", "answers": ["made"], "explanation": "Make → made (irregular)."},
+        {"type": "open", "question": "5. We _____ (see) a film last night.", "answers": ["saw"], "explanation": "See → saw (irregular)."},
+        {"type": "open", "question": "6. He _____ (take) the bus to work.", "answers": ["took"], "explanation": "Take → took (irregular)."},
+        {"type": "open", "question": "7. She _____ (know) the answer.", "answers": ["knew"], "explanation": "Know → knew (irregular)."},
+        {"type": "open", "question": "8. I _____ (think) about it yesterday.", "answers": ["thought"], "explanation": "Think → thought (irregular)."},
+        {"type": "open", "question": "9. They _____ (find) the key under the mat.", "answers": ["found"], "explanation": "Find → found (irregular)."},
+        {"type": "open", "question": "10. She _____ (give) him a present.", "answers": ["gave"], "explanation": "Give → gave (irregular)."},
+        {"type": "open", "question": "11. He _____ (tell) me the news.", "answers": ["told"], "explanation": "Tell → told (irregular)."},
+        {"type": "open", "question": "12. We _____ (leave) early.", "answers": ["left"], "explanation": "Leave → left (irregular)."},
+        {"type": "open", "question": "13. She _____ (buy) a new car.", "answers": ["bought"], "explanation": "Buy → bought (irregular)."},
+        {"type": "open", "question": "14. They _____ (bring) food to the party.", "answers": ["brought"], "explanation": "Bring → brought (irregular)."},
+        {"type": "open", "question": "15. I _____ (run) to catch the bus.", "answers": ["ran"], "explanation": "Run → ran (irregular)."},
+        {"type": "open", "question": "16. Wrong: 'He speaked to her yesterday.' Correct the sentence.", "answers": ["He spoke to her yesterday.", "He spoke to her yesterday"], "explanation": "Speak → spoke (not speaked)."},
+        {"type": "open", "question": "17. Wrong: 'I goed to the shop.' Correct the sentence.", "answers": ["I went to the shop.", "I went to the shop"], "explanation": "Go → went (not goed)."},
+        {"type": "open", "question": "18. Wrong: 'She writed a letter.' Correct the sentence.", "answers": ["She wrote a letter.", "She wrote a letter"], "explanation": "Write → wrote (not writed)."}
       ]
     }
   }

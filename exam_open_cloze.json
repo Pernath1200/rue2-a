@@ -287,6 +287,22 @@
           "topic_id": "fixed_phrases"
         }
       ]
+    },
+    {
+      "type": "mc",
+      "title": "Open Cloze: Learning a New Language",
+      "instructions": "For questions 1-8, read the text below and think of the word which best fits each gap. Use only one word in each gap.",
+      "passage": "Learning a new language can open _____ many doors, both personally and professionally. Many people start by studying grammar and vocabulary, but it is _____ important to practise speaking as well. _____ fact, the best way to improve is to use the language as much _____ possible. Some learners find it helpful to watch films or listen to music _____ the language they are learning. _____ course, everyone learns at a different pace. _____ long as you keep practising, you will make progress. It is never _____ late to start learning a new language.",
+      "gaps": [
+        {"options":{"a":"up","b":"to","c":"for","d":"of"},"correct_option":"a","explanation":"Open up (phrasal verb: create opportunities).","topic_id":"phrasal_verbs"},
+        {"options":{"a":"so","b":"such","c":"very","d":"too"},"correct_option":"a","explanation":"So important (degree).","topic_id":"conjunctions_linkers"},
+        {"options":{"a":"In","b":"For","c":"At","d":"On"},"correct_option":"a","explanation":"In fact (fixed phrase).","topic_id":"fixed_phrases"},
+        {"options":{"a":"as","b":"so","c":"to","d":"for"},"correct_option":"a","explanation":"As much as possible (fixed phrase).","topic_id":"fixed_phrases"},
+        {"options":{"a":"in","b":"on","c":"at","d":"for"},"correct_option":"a","explanation":"In the language (preposition).","topic_id":"prepositions"},
+        {"options":{"a":"Of","b":"For","c":"In","d":"At"},"correct_option":"a","explanation":"Of course (fixed phrase).","topic_id":"fixed_phrases"},
+        {"options":{"a":"As","b":"So","c":"If","d":"When"},"correct_option":"a","explanation":"As long as (condition).","topic_id":"fixed_phrases"},
+        {"options":{"a":"too","b":"so","c":"very","d":"such"},"correct_option":"a","explanation":"Never too late (fixed phrase).","topic_id":"fixed_phrases"}
+      ]
     }
   ],
   "medium": [
@@ -674,6 +690,22 @@
           "explanation": "What remains unclear.",
           "topic_id": "relative_pronouns"
         }
+      ]
+    },
+    {
+      "type": "open",
+      "title": "Open Cloze: Sustainable Fashion",
+      "instructions": "For questions 1-8, read the text below and think of the word which best fits each gap. Use only one word in each gap.",
+      "passage": "The fashion industry has come under increasing scrutiny for its environmental impact. The clothes _____ we wear often travel thousands of miles before reaching the shops, and many garments are made from materials that take centuries to break _____. _____ the growing awareness of these issues, sustainable fashion is gaining ground. Brands that use recycled materials or reduce waste are attracting customers _____ want to make more responsible choices. _____ is clear is that consumer demand alone will not solve the problem; governments and manufacturers must also play _____ part. What remains to be seen is _____ the industry can transform itself quickly enough to meet climate targets. _____ long as fast fashion continues to dominate, the challenge will remain.",
+      "gaps": [
+        {"answers":["that"],"explanation":"Clothes that we wear (relative pronoun).","topic_id":"relative_pronouns"},
+        {"answers":["down"],"explanation":"Break down (phrasal verb: decompose).","topic_id":"phrasal_verbs"},
+        {"answers":["Despite"],"explanation":"Despite the growing awareness (contrast).","topic_id":"prepositions"},
+        {"answers":["who"],"explanation":"Customers who want (relative pronoun).","topic_id":"relative_pronouns"},
+        {"answers":["What"],"explanation":"What is clear (nominal relative).","topic_id":"relative_pronouns"},
+        {"answers":["a"],"explanation":"Play a part (fixed phrase).","topic_id":"articles"},
+        {"answers":["whether"],"explanation":"Whether the industry can transform (indirect question).","topic_id":"conjunctions_linkers"},
+        {"answers":["As"],"explanation":"As long as (condition).","topic_id":"fixed_phrases"}
       ]
     }
   ],

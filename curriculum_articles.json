@@ -27,6 +27,10 @@
         "content": "• **Context:** Close the door. (this room's door)\n• **Superlatives:** the best, the first\n• **Specific set:** The water in the bottle is cold.\n• **Some place names:** the USA, the UK, the Czech Republic"
       },
       {
+        "title": "Place names: continents and countries",
+        "content": "**Continents** – no article: I travelled to **Africa**. She lives in **Europe**. (Not *the Africa*)\n\n**Most countries** – no article: France, Germany, Japan, Brazil, Spain, Italy\n\n**With "the"** – countries with plural or common-noun structure: the USA, the UK, the Netherlands, the Czech Republic, the Philippines"
+      },
+      {
         "title": "When do we use no article (∅)? (1)",
         "content": "Use **no article** (∅) for:\n\n• **Plural/uncountable in general:** Cats are animals. Water is important. Life is short.\n• **Meals:** We had breakfast. (The breakfast was cold = that specific meal)\n• **Places as activity:** go to work, go to school, at home\n• **Most names:** London, January, Mary (no the)\n• **Abstract/general:** love, happiness, information"
       },
@@ -78,10 +82,10 @@
       },
       {
         "title": "Typical learner errors (2)",
-        "content": "• **The with names (when not needed):** Wrong: *I went to the London.* Right: **I went to ∅ London.** (But: the USA, the UK, the Czech Republic – we use the.)"
+        "content": "• **The with names (when not needed):** Wrong: *I went to the London.* Right: **I went to ∅ London.** (But: the USA, the UK, the Czech Republic – we use the.)\n• **The with continents:** Wrong: *He visited the Africa.* Right: **He visited ∅ Africa.** (Continents take no article.)"
       },
       {
-        "title": "Typical learner errors (2)",
+        "title": "Typical learner errors (3)",
         "content": "• **A/an with uncountable:** Wrong: *a water, an information* Right: **some water, (no article) information** or **a bottle of water.**\n• **Article with go to work/school:** Wrong: *go to the work* Right: **go to ∅ work.** (no article)"
       }
     ]
@@ -148,6 +152,18 @@
         },
         "correct_option": "d",
         "explanation": "Meals in general (have breakfast) → no article."
+      },
+      {
+        "type": "mc",
+        "question": "'She dreams of visiting _____ Africa.' Which fits?",
+        "options": {
+          "a": "a",
+          "b": "an",
+          "c": "the",
+          "d": "no article"
+        },
+        "correct_option": "d",
+        "explanation": "Continents take no article → Africa, Europe, Asia."
       }
     ]
   },
@@ -325,6 +341,18 @@
           },
           "correct_option": "d",
           "explanation": "At home (fixed phrase) → no article."
+        },
+        {
+          "type": "mc",
+          "question": "She dreams of visiting _____ Africa.",
+          "options": {
+            "a": "a",
+            "b": "an",
+            "c": "the",
+            "d": "no article"
+          },
+          "correct_option": "d",
+          "explanation": "Continents take no article → Africa, Europe, Asia."
         }
       ]
     },
@@ -402,6 +430,15 @@
             "They live in the USA"
           ],
           "explanation": "USA (country name with common noun) → the."
+        },
+        {
+          "type": "open",
+          "question": "Wrong: 'He visited the Africa.' Correct the sentence.",
+          "answers": [
+            "He visited Africa.",
+            "He visited Africa"
+          ],
+          "explanation": "Continents take no article → Africa, Europe, Asia."
         }
       ]
     },
