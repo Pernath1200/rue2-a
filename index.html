@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title>Grammar · Practice & reference</title>
+  <title>Grammar A1 · Beginner Practice</title>
   <style>
     :root {
       --bg: #1a1b26;
@@ -315,7 +315,7 @@
         </div>
         <hr style="border: none; border-top: 1px solid rgba(86, 95, 137, 0.5);" />
         <button type="button" id="openTopicSelectBtn" class="secondary">Choose Grammar Topic</button>
-        <button type="button" id="openExamPracticeBtn">Exam-Style Practice</button>
+        <button type="button" id="openExamPracticeBtn" style="display: none;">Exam-Style Practice</button>
         <div class="memory-bank" id="memoryBankSummary"></div>
       </div>
       <div id="menuExamPractice" class="menu-panel hidden">
@@ -4312,34 +4312,21 @@
         applyHashAndShowTopic();
       } catch (err) {
         topics = [
-          { id: 'auxiliary_verbs', title: 'Auxiliary Verbs', curriculum: 'curriculum_auxiliary_verbs.json', questions_key: 'auxiliary_verbs' },
-          { id: 'comparatives', title: 'Comparatives and Superlatives', curriculum: 'curriculum_comparatives.json', questions_key: 'comparatives' },
-          { id: 'conjunctions_linkers', title: 'Conjunctions and Linkers', curriculum: 'curriculum_conjunctions_linkers.json', questions_key: 'conjunctions_linkers' },
-          { id: 'articles', title: 'Determiners: Articles (a, an, the, ∅)', curriculum: 'curriculum_articles.json', questions_key: 'articles' },
-          { id: 'quantifiers', title: 'Determiners: Quantifiers', curriculum: 'curriculum_quantifiers.json', questions_key: 'quantifiers' },
-          { id: 'fixed_phrases', title: 'Fixed Phrases', curriculum: 'curriculum_fixed_phrases.json', questions_key: 'fixed_phrases' },
-          { id: 'modal_verbs', title: 'Modal Verbs', curriculum: 'curriculum_modal_verbs.json', questions_key: 'modal_verbs' },
-          { id: 'countable_uncountable', title: 'Nouns: Uncountable and Always-Plural', curriculum: 'curriculum_countable_uncountable.json', questions_key: 'countable_uncountable' },
-          { id: 'passives', title: 'Passives', curriculum: 'curriculum_passives.json', questions_key: 'passives' },
-          { id: 'phrasal_verbs', title: 'Phrasal Verbs', curriculum: 'curriculum_phrasal_verbs.json', questions_key: 'phrasal_verbs' },
-          { id: 'prepositions', title: 'Prepositions', curriculum: 'curriculum_prepositions.json', questions_key: 'prepositions' },
-          { id: 'prepositions_dependent', title: 'Prepositions: Dependent', curriculum: 'curriculum_prepositions_dependent.json', questions_key: 'prepositions_dependent' },
-          { id: 'punctuation', title: 'Punctuation and Capitalisation', curriculum: 'curriculum_punctuation.json', questions_key: 'punctuation' },
-          { id: 'relative_pronouns', title: 'Relative Pronouns', curriculum: 'curriculum_relative_pronouns.json', questions_key: 'relative_pronouns' },
-          { id: 'reported_speech', title: 'Reported Speech', curriculum: 'curriculum_reported_speech.json', questions_key: 'reported_speech' },
-          { id: 'spelling', title: 'Spelling', curriculum: 'curriculum_spelling.json', questions_key: 'spelling' },
-          { id: 'conditionals', title: 'Tenses: Conditionals (Zero, First, Second, Third)', curriculum: 'curriculum_conditionals.json', questions_key: 'conditionals' },
-          { id: 'tenses_general', title: 'Tenses: General', curriculum: 'curriculum_tenses_general.json', questions_key: 'tenses_general' },
-          { id: 'past_perfect', title: 'Tenses: Past Perfect Simple and Past Perfect Continuous', curriculum: 'curriculum_past_perfect.json', questions_key: 'past_perfect' },
-          { id: 'past_simple_continuous', title: 'Tenses: Past Simple and Past Continuous', curriculum: 'curriculum_past_simple_continuous.json', questions_key: 'past_simple_continuous' },
-          { id: 'past_simple_present_perfect', title: 'Tenses: Past Simple vs Present Perfect', curriculum: 'curriculum_past_simple_present_perfect.json', questions_key: 'past_simple_present_perfect' },
-          { id: 'present_perfect', title: 'Tenses: Present Perfect Simple vs Continuous', curriculum: 'curriculum.json', questions_key: 'sets' },
-          { id: 'will_going_to', title: 'Tenses: Will and Going To', curriculum: 'curriculum_will_going_to.json', questions_key: 'will_going_to' },
-          { id: 'infinitive_ing', title: 'Verb Patterns: to-infinitive, -ing & bare infinitive', curriculum: 'curriculum_infinitive_ing.json', questions_key: 'infinitive_ing' },
-          { id: 'inversion', title: 'Inversion for emphasis', curriculum: 'curriculum_inversion.json', questions_key: 'inversion' },
-          { id: 'it_subject', title: 'It – subject in English', curriculum: 'curriculum_it_subject.json', questions_key: 'it_subject' },
-          { id: 'verb_subject_agreement', title: 'Verb–Subject Agreement', curriculum: 'curriculum_verb_subject_agreement.json', questions_key: 'verb_subject_agreement' },
-          { id: 'word_order', title: 'Word Order in Sentences', curriculum: 'curriculum_word_order.json', questions_key: 'word_order' }
+          { id: 'present_simple', title: 'Present Simple', curriculum: 'curriculum_present_simple.json', questions_key: 'present_simple' },
+          { id: 'present_continuous', title: 'Present Continuous', curriculum: 'curriculum_present_continuous.json', questions_key: 'present_continuous' },
+          { id: 'past_simple', title: 'Past Simple', curriculum: 'curriculum_past_simple.json', questions_key: 'past_simple' },
+          { id: 'articles', title: 'Articles (a, an, the)', curriculum: 'curriculum_articles_a1.json', questions_key: 'articles' },
+          { id: 'there_is_are', title: 'There is / There are', curriculum: 'curriculum_there_is_are.json', questions_key: 'there_is_are' },
+          { id: 'possessives', title: 'Possessives (my, your, his...)', curriculum: 'curriculum_possessives.json', questions_key: 'possessives' },
+          { id: 'countable_uncountable', title: 'Countable and Uncountable', curriculum: 'curriculum_countable_uncountable_a1.json', questions_key: 'countable_uncountable' },
+          { id: 'quantifiers', title: 'Some, Any, Much, Many', curriculum: 'curriculum_quantifiers_a1.json', questions_key: 'quantifiers' },
+          { id: 'modal_verbs', title: 'Can, Must, Would like', curriculum: 'curriculum_modal_verbs_a1.json', questions_key: 'modal_verbs' },
+          { id: 'prepositions', title: 'Prepositions (in, on, at)', curriculum: 'curriculum_prepositions_a1.json', questions_key: 'prepositions' },
+          { id: 'conjunctions', title: 'And, But, Or, Because', curriculum: 'curriculum_conjunctions_a1.json', questions_key: 'conjunctions' },
+          { id: 'comparatives', title: 'Comparatives and Superlatives', curriculum: 'curriculum_comparatives_a1.json', questions_key: 'comparatives' },
+          { id: 'will_going_to', title: 'Will and Going to', curriculum: 'curriculum_will_going_to_a1.json', questions_key: 'will_going_to' },
+          { id: 'irregular_verbs', title: 'Irregular Verbs', curriculum: 'curriculum_irregular_verbs_a1.json', questions_key: 'irregular_verbs' },
+          { id: 'word_order', title: 'Word Order', curriculum: 'curriculum_word_order_a1.json', questions_key: 'word_order' }
         ];
         currentTopic = topics[0];
         const sel = document.getElementById('topicSelect');

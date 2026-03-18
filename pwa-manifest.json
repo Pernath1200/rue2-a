@@ -1,7 +1,7 @@
 {
-  "name": "English Grammar Check",
-  "short_name": "Grammar Check",
-  "description": "Grammar and exam-style practice: topics, quizzes, open cloze, fixed phrases.",
+  "name": "Grammar A1 – Beginner Practice",
+  "short_name": "Grammar A1",
+  "description": "A1 grammar practice: Present Simple, Past Simple, articles, and more. For beginners.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
