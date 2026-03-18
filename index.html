@@ -13,7 +13,7 @@
       --muted: #9ca0b8;
       --correct: #7eb87a;
       --wrong: #e8a498;
-      --accent: #2563eb;
+      --accent: #b794f6;
       --radius: 8px;
     }
     /* Optional: Black/minimal theme. Add class "theme-cursor" to <body> to try. Remove to revert. */
@@ -24,7 +24,7 @@
       --muted: #a0a0a0;
       --correct: #22c55e;
       --wrong: #ef4444;
-      --accent: #569cd6;
+      --accent: #b794f6;
     }
     body.theme-cursor { padding: 0.5rem; }
     body.theme-cursor .card { padding: 1rem; margin-bottom: 0.75rem; }
@@ -32,7 +32,7 @@
     body.theme-cursor button.secondary { border-color: var(--accent); background: transparent; }
     body.theme-cursor input,
     body.theme-cursor select { border-color: var(--accent); }
-    body.theme-cursor .option { border-color: rgba(86, 156, 214, 0.5); }
+    body.theme-cursor .option { border-color: rgba(183, 148, 246, 0.5); }
     body.theme-cursor .option:hover,
     body.theme-cursor .option.selected { border-color: var(--accent); }
     * { box-sizing: border-box; }
@@ -150,15 +150,15 @@
     }
     button {
       cursor: pointer;
-      background: rgba(37, 99, 235, 0.12);
-      border: 1px solid rgba(37, 99, 235, 0.35);
+      background: rgba(183, 148, 246, 0.12);
+      border: 1px solid rgba(183, 148, 246, 0.5);
       color: var(--text);
       font-weight: 600;
       margin-top: 0.5rem;
     }
     #menuScreen button { margin-top: 0.35rem; }
     button:hover { filter: brightness(1.1); }
-    button.secondary { background: rgba(37, 99, 235, 0.12); color: var(--text); border: 1px solid rgba(37, 99, 235, 0.35); }
+    button.secondary { background: rgba(183, 148, 246, 0.12); color: var(--text); border: 1px solid rgba(183, 148, 246, 0.5); }
     .scores { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
     .question-block { margin-bottom: 1.5rem; }
     .question-text { white-space: pre-line; margin-bottom: 0.75rem; line-height: 1.5; }
@@ -171,7 +171,7 @@
       cursor: pointer;
     }
     .option:hover { border-color: var(--accent); }
-    .option.selected { border-color: var(--accent); background: rgba(37, 99, 235, 0.2); }
+    .option.selected { border-color: var(--accent); background: rgba(183, 148, 246, 0.2); }
     .option.correct { border-color: var(--correct); background: rgba(126, 184, 122, 0.15); }
     .option.wrong { border-color: var(--wrong); background: rgba(232, 164, 152, 0.15); }
     .explanation { margin-top: 0.75rem; padding: 0.75rem; background: var(--bg); border-radius: var(--radius); font-size: 0.9rem; color: var(--text); }
